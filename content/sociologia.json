@@ -1,0 +1,1584 @@
+{
+  "subject": "Sociologia",
+  "slug": "sociologia",
+  "color": "var(--sociologia)",
+  "icon": "users",
+  "articles": [
+    {
+      "title": "O que é Sociologia? Senso Comum vs. Ciência",
+      "slug": "o-que-e-sociologia-senso-comum-vs-ciencia",
+      "desc": "Sociologia: ciência que estuda a sociedade, as relações sociais e as instituições. Senso comum: conh...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Sociologia: ciência que estuda a sociedade, as relações sociais e as instituições. Senso comum: conhecimento do dia a dia, baseado em experiência pessoal, sem método (ex: \"pobre é preguiçoso\").",
+      "body": "<h2>O que você precisa saber</h2><p>Sociologia: ciência que estuda a sociedade, as relações sociais e as instituições. Senso comum: conhecimento do dia a dia, baseado em experiência pessoal, sem método (ex: \"pobre é preguiçoso\").</p><h2>Contexto e Desenvolvimento</h2><p>Sociologia desnaturaliza: mostra que o que parece \"natural\" é construção social. Estranhamento: olhar o familiar com olhos de estrangeiro. Surgiu no séc.</p><h2>Consequências e Legado</h2><p>XIX como resposta às transformações da Revolução Industrial e Francesa.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>O que é Sociologia? Senso Comum vs. Ciência</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre O que é Sociologia? Senso Comum vs. Ciência?",
+          "a": "Sociologia: ciência que estuda a sociedade, as relações sociais e as instituições."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Senso comum: conhecimento do dia a dia, baseado em experiência pessoal, sem método (ex: \"pobre é preguiçoso\"). Sociologia desnaturaliza: mostra que o que parece \"natural\" é construção social."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "O que é Sociologia? Senso Comum vs. Ciência",
+            "Geografia",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Geografia",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Contexto de Surgimento",
+      "slug": "contexto-de-surgimento",
+      "desc": "Séc. XIX: Revolução Industrial (urbanização, fábricas, proletariado, miséria), Revolução Francesa (q...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "XIX: Revolução Industrial (urbanização, fábricas, proletariado, miséria), Revolução Francesa (queda do Antigo Regime, novos ideais), Iluminismo (razão, progresso). Auguste Comte (1798-1857): positivismo, \"física social\", lei dos três estados (teológico → metafísico → positivo).",
+      "body": "<h2>O que você precisa saber</h2><p>Séc.</p><h2>Contexto e Desenvolvimento</h2><p>XIX: Revolução Industrial (urbanização, fábricas, proletariado, miséria), Revolução Francesa (queda do Antigo Regime, novos ideais), Iluminismo (razão, progresso). Auguste Comte (1798-1857): positivismo, \"física social\", lei dos três estados (teológico → metafísico → positivo). Sociologia como ciência: usar métodos científicos para entender a sociedade.</p><h3>Destaques</h3><ul><li>urbanização, fábricas, proletariado, miséria</li><li>queda do Antigo Regime, novos ideais</li><li>razão, progresso</li><li>teológico → metafísico → positivo</li><li>lema positivista, está na bandeira do Brasil!</li></ul><h2>Consequências e Legado</h2><p>Ordem e progresso (lema positivista, está na bandeira do Brasil!).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Contexto de Surgimento</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Contexto de Surgimento?",
+          "a": "XIX: Revolução Industrial (urbanização, fábricas, proletariado, miséria), Revolução Francesa (queda do Antigo Regime, novos ideais), Iluminismo (razão, progresso)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Auguste Comte (1798-1857): positivismo, \"física social\", lei dos três estados (teológico → metafísico → positivo). Sociologia como ciência: usar métodos científicos para entender a sociedade."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Matemática",
+            "Biologia",
+            "Contexto de Surgimento"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Matemática",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Durkheim: Fato Social e Solidariedade",
+      "slug": "durkheim-fato-social-e-solidariedade",
+      "desc": "Émile Durkheim (1858-1917): fundador da sociologia como disciplina acadêmica. Fato social: maneira d...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Émile Durkheim (1858-1917): fundador da sociologia como disciplina acadêmica. Fato social: maneira de agir, pensar e sentir que é exterior ao indivíduo, coercitiva e geral (\"As Regras do Método Sociológico\").",
+      "body": "<h2>O que você precisa saber</h2><p>Émile Durkheim (1858-1917): fundador da sociologia como disciplina acadêmica. Fato social: maneira de agir, pensar e sentir que é exterior ao indivíduo, coercitiva e geral (\"As Regras do Método Sociológico\").</p><h2>Contexto e Desenvolvimento</h2><p>Exemplos: leis, normas, costumes, idioma. Solidariedade mecânica (sociedades simples: igualdade, pouca divisão do trabalho) vs. Solidariedade orgânica (sociedades complexas: interdependência, especialização).</p><h3>Destaques</h3><ul><li>\"As Regras do Método Sociológico\"</li><li>sociedades simples: igualdade, pouca divisão do trabalho</li><li>sociedades complexas: interdependência, especialização</li><li>egoísta, altruísta, anômico</li></ul><h2>Consequências e Legado</h2><p>Anomia: ausência de normas → desintegração social. Suicídio como fato social (egoísta, altruísta, anômico).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Durkheim: Fato Social e Solidariedade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Durkheim: Fato Social e Solidariedade?",
+          "a": "Émile Durkheim (1858-1917): fundador da sociologia como disciplina acadêmica."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Fato social: maneira de agir, pensar e sentir que é exterior ao indivíduo, coercitiva e geral (\"As Regras do Método Sociológico\"). Exemplos: leis, normas, costumes, idioma."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Anomia: ausência de normas → desintegração social. Suicídio como fato social (egoísta, altruísta, anômico).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Biologia",
+            "Durkheim: Fato Social e Solidariedade"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Matemática",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Marx: Classes Sociais e Exploração",
+      "slug": "marx-classes-sociais-e-exploracao",
+      "desc": "Karl Marx (1818-1883): sociedade dividida em classes com interesses opostos. Burguesia (dona dos mei...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Karl Marx (1818-1883): sociedade dividida em classes com interesses opostos. Burguesia (dona dos meios de produção: fábricas, terras, bancos) vs.",
+      "body": "<h2>O que você precisa saber</h2><p>Karl Marx (1818-1883): sociedade dividida em classes com interesses opostos. Burguesia (dona dos meios de produção: fábricas, terras, bancos) vs.</p><h2>Contexto e Desenvolvimento</h2><p>Proletariado (vende sua força de trabalho). Mais-valia: a diferença entre o que o trabalhador produz e o que recebe — lucro do capitalista. Alienação: o trabalhador não se reconhece no produto do seu trabalho, não controla o processo.</p><p>Ideologia: as ideias dominantes são as ideias da classe dominante (naturalizam a exploração).</p><h3>Destaques</h3><ul><li>dona dos meios de produção: fábricas, terras, bancos</li><li>vende sua força de trabalho</li><li>naturalizam a exploração</li><li>escravista → feudal → capitalista → socialista</li></ul><h2>Consequências e Legado</h2><p>Materialismo histórico: modos de produção (escravista → feudal → capitalista → socialista). Luta de classes como motor da história.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Marx: Classes Sociais e Exploração</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Marx: Classes Sociais e Exploração?",
+          "a": "Karl Marx (1818-1883): sociedade dividida em classes com interesses opostos."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Burguesia (dona dos meios de produção: fábricas, terras, bancos) vs. Proletariado (vende sua força de trabalho)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Materialismo histórico: modos de produção (escravista → feudal → capitalista → socialista). Luta de classes como motor da história.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Marx: Classes Sociais e Exploração",
+            "Física",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Física",
+            "Literatura",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Weber: Ação Social e Burocracia",
+      "slug": "weber-acao-social-e-burocracia",
+      "desc": "Max Weber (1864-1920): sociologia compreensiva — entender o sentido das ações individuais. Ação soci...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Max Weber (1864-1920): sociologia compreensiva — entender o sentido das ações individuais. Ação social: comportamento orientado pelo outro.",
+      "body": "<h2>O que você precisa saber</h2><p>Max Weber (1864-1920): sociologia compreensiva — entender o sentido das ações individuais. Ação social: comportamento orientado pelo outro.</p><h2>Contexto e Desenvolvimento</h2><p>4 tipos: racional com relação a fins (calcular meios), racional com relação a valores (agir por convicção), afetiva (emoção), tradicional (costume). Tipos ideais: modelos puros para análise. Burocracia: organização racional (hierarquia, regras, impessoalidade, meritocracia) — eficiente mas pode virar \"gaiola de ferro\".</p><h3>Destaques</h3><ul><li>calcular meios</li><li>agir por convicção</li><li>hierarquia, regras, impessoalidade, meritocracia</li><li>predestinação, trabalho como vocação</li></ul><h2>Consequências e Legado</h2><p>Ética protestante e o espírito do capitalismo: calvinismo (predestinação, trabalho como vocação) favoreceu o capitalismo. Dominação: tradicional (rei), carismática (líder), racional-legal (lei).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Weber: Ação Social e Burocracia</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Weber: Ação Social e Burocracia?",
+          "a": "Max Weber (1864-1920): sociologia compreensiva — entender o sentido das ações individuais."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Ação social: comportamento orientado pelo outro. 4 tipos: racional com relação a fins (calcular meios), racional com relação a valores (agir por convicção), afetiva (emoção), tradicional (costume)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Ética protestante e o espírito do capitalismo: calvinismo (predestinação, trabalho como vocação) favoreceu o capitalismo. Dominação: tradicional (rei), carismática (líder), racional-legal (lei).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Weber: Ação Social e Burocracia",
+            "Química",
+            "Matemática"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Química",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Cultura: Conceito e Diversidade",
+      "slug": "cultura-conceito-e-diversidade",
+      "desc": "Cultura: conjunto de valores, crenças, práticas, símbolos e artefatos de um grupo social. Tudo que n...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Cultura: conjunto de valores, crenças, práticas, símbolos e artefatos de um grupo social. Tudo que não é natureza é cultura (linguagem, culinária, religião, arte, vestimenta).",
+      "body": "<h2>O que você precisa saber</h2><p>Cultura: conjunto de valores, crenças, práticas, símbolos e artefatos de um grupo social. Tudo que não é natureza é cultura (linguagem, culinária, religião, arte, vestimenta).</p><h2>Contexto e Desenvolvimento</h2><p>Etnocentrismo: julgar outras culturas pela sua própria (considerar-se superior). Relativismo cultural: cada cultura deve ser compreendida em seus próprios termos (não significa aceitar tudo). Alteridade: reconhecer e respeitar o outro como diferente.</p><h3>Destaques</h3><ul><li>linguagem, culinária, religião, arte, vestimenta</li><li>considerar-se superior</li><li>não significa aceitar tudo</li><li>valores, tradições</li><li>arquitetura</li><li>festas, saberes</li></ul><h2>Consequências e Legado</h2><p>Cultura material (objetos) vs. imaterial (valores, tradições). Patrimônio cultural: material (arquitetura) e imaterial (festas, saberes).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Cultura: Conceito e Diversidade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Cultura: Conceito e Diversidade?",
+          "a": "Cultura: conjunto de valores, crenças, práticas, símbolos e artefatos de um grupo social."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Tudo que não é natureza é cultura (linguagem, culinária, religião, arte, vestimenta). Etnocentrismo: julgar outras culturas pela sua própria (considerar-se superior)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "imaterial (valores, tradições). Patrimônio cultural: material (arquitetura) e imaterial (festas, saberes).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Cultura: Conceito e Diversidade",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Química",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Socialização: Como nos Tornamos Sociais",
+      "slug": "socializacao-como-nos-tornamos-sociais",
+      "desc": "Socialização: processo pelo qual aprendemos normas, valores e papéis sociais. Primária: família (lín...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Socialização: processo pelo qual aprendemos normas, valores e papéis sociais. Primária: família (língua, afeto, primeiros valores).",
+      "body": "<h2>O que você precisa saber</h2><p>Socialização: processo pelo qual aprendemos normas, valores e papéis sociais. Primária: família (língua, afeto, primeiros valores).</p><h2>Contexto e Desenvolvimento</h2><p>Secundária: escola, amigos, trabalho, mídia, religião. Agentes de socialização: família, escola, mídia (TV, redes sociais, internet), religião, grupos de pares. Pierre Bourdieu: capital cultural (conhecimentos e hábitos herdados da família), habitus (disposições incorporadas), campo social (espaço de disputas).</p><h3>Destaques</h3><ul><li>língua, afeto, primeiros valores</li><li>TV, redes sociais, internet</li><li>conhecimentos e hábitos herdados da família</li><li>disposições incorporadas</li><li>espaço de disputas</li></ul><h2>Consequências e Legado</h2><p>Socialização de gênero: meninos/meninas aprendem papéis diferentes desde a infância.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Socialização: Como nos Tornamos Sociais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Socialização: Como nos Tornamos Sociais?",
+          "a": "Socialização: processo pelo qual aprendemos normas, valores e papéis sociais."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Primária: família (língua, afeto, primeiros valores). Secundária: escola, amigos, trabalho, mídia, religião."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Pierre Bourdieu: capital cultural (conhecimentos e hábitos herdados da família), habitus (disposições incorporadas), campo social (espaço de disputas). Socialização de gênero: meninos/meninas aprendem papéis diferentes desde a infância.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Socialização: Como nos Tornamos Sociais",
+            "Literatura",
+            "Química",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Literatura",
+            "Química",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Indústria Cultural e Cultura de Massa",
+      "slug": "industria-cultural-e-cultura-de-massa",
+      "desc": "Theodor Adorno e Max Horkheimer (Escola de Frankfurt): indústria cultural = produção de cultura como...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Theodor Adorno e Max Horkheimer (Escola de Frankfurt): indústria cultural = produção de cultura como mercadoria em escala industrial. Padronização: músicas, filmes, séries seguem fórmulas repetitivas para maximizar lucro.",
+      "body": "<h2>O que você precisa saber</h2><p>Theodor Adorno e Max Horkheimer (Escola de Frankfurt): indústria cultural = produção de cultura como mercadoria em escala industrial. Padronização: músicas, filmes, séries seguem fórmulas repetitivas para maximizar lucro.</p><h2>Contexto e Desenvolvimento</h2><p>Alienação cultural: espectador passivo, consumo acrítico. Cultura de massa vs. cultura popular (produzida pelo povo). Exemplo: sertanejo universitário como produto de marketing vs. viola caipira como tradição.</p><h2>Consequências e Legado</h2><p>Redes sociais: algoritmos criam bolhas e manipulam atenção. Influenciadores como agentes da indústria cultural. ## 2º Ano — Sociedade, Poder e Desigualdade</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Indústria Cultural e Cultura de Massa</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Indústria Cultural e Cultura de Massa?",
+          "a": "Theodor Adorno e Max Horkheimer (Escola de Frankfurt): indústria cultural = produção de cultura como mercadoria em escala industrial."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Padronização: músicas, filmes, séries seguem fórmulas repetitivas para maximizar lucro. Alienação cultural: espectador passivo, consumo acrítico."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Influenciadores como agentes da indústria cultural. ## 2º Ano — Sociedade, Poder e Desigualdade."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Filosofia",
+            "Matemática",
+            "Indústria Cultural e Cultura de Massa"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Estratificação Social: Castas, Estamentos e Classes",
+      "slug": "estratificacao-social-castas-estamentos-e-classes",
+      "desc": "Toda sociedade tem camadas sociais com poder e privilégio desiguais. Castas (Índia): posição heredit...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Toda sociedade tem camadas sociais com poder e privilégio desiguais. Castas (Índia): posição hereditária fixa, sem mobilidade, base religiosa (brâmanes, xátrias, vaixás, sudras, dalits).",
+      "body": "<h2>O que você precisa saber</h2><p>Toda sociedade tem camadas sociais com poder e privilégio desiguais.</p><h2>Contexto e Desenvolvimento</h2><p>Castas (Índia): posição hereditária fixa, sem mobilidade, base religiosa (brâmanes, xátrias, vaixás, sudras, dalits). Estamentos (feudalismo): posição por nascimento (clero, nobreza, servos), pouca mobilidade mas possível. Classes (capitalismo): posição por riqueza/poder econômico, mobilidade social possível (em teoria).</p><h3>Destaques</h3><ul><li>brâmanes, xátrias, vaixás, sudras, dalits</li><li>feudalismo</li><li>clero, nobreza, servos</li><li>capitalismo</li><li>mudar sem subir/descer</li></ul><h2>Consequências e Legado</h2><p>Mobilidade social: ascendente (subir), descendente (descer), horizontal (mudar sem subir/descer).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Estratificação Social: Castas, Estamentos e Classes</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Estratificação Social: Castas, Estamentos e Classes?",
+          "a": "Toda sociedade tem camadas sociais com poder e privilégio desiguais."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Castas (Índia): posição hereditária fixa, sem mobilidade, base religiosa (brâmanes, xátrias, vaixás, sudras, dalits). Estamentos (feudalismo): posição por nascimento (clero, nobreza, servos), pouca mobilidade mas possível."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Estratificação Social: Castas, Estamentos e Classes",
+            "Matemática",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Desigualdade Social no Brasil",
+      "slug": "desigualdade-social-no-brasil",
+      "desc": "Brasil: um dos países mais desiguais do mundo (Coeficiente de Gini: ~0,53). 10% mais ricos detêm 58%...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Brasil: um dos países mais desiguais do mundo (Coeficiente de Gini: ~0,53). 10% mais ricos detêm 58% da riqueza.",
+      "body": "<h2>O que você precisa saber</h2><p>Brasil: um dos países mais desiguais do mundo (Coeficiente de Gini: ~0,53). 10% mais ricos detêm 58% da riqueza.</p><h2>Contexto e Desenvolvimento</h2><p>Dimensões: renda (salário mínimo vs. CEO), raça (negros ganham 57% do salário de brancos), gênero (mulheres ganham 78% do salário dos homens), região (SE vs. NE), educação.</p><p>Racismo estrutural: herança da escravidão que se perpetua em acesso desigual à educação, saúde, emprego, moradia, justiça.</p><h3>Destaques</h3><ul><li>Coeficiente de Gini: ~0,53</li><li>salário mínimo vs. CEO</li><li>negros ganham 57% do salário de brancos</li><li>mulheres ganham 78% do salário dos homens</li></ul><h2>Consequências e Legado</h2><p>Pobreza e extrema pobreza: 33 milhões em insegurança alimentar. Índice de Gini, IDH.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Desigualdade Social no Brasil</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Desigualdade Social no Brasil?",
+          "a": "Brasil: um dos países mais desiguais do mundo (Coeficiente de Gini: ~0,53)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "10% mais ricos detêm 58% da riqueza. Dimensões: renda (salário mínimo vs."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Racismo estrutural: herança da escravidão que se perpetua em acesso desigual à educação, saúde, emprego, moradia, justiça. Pobreza e extrema pobreza: 33 milhões em insegurança alimentar."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Desigualdade Social no Brasil",
+            "Biologia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Estado: Conceito, Tipos e Democracia",
+      "slug": "estado-conceito-tipos-e-democracia",
+      "desc": "Estado: instituição com monopólio do uso legítimo da força (Weber) em um território. Elementos: terr...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Estado: instituição com monopólio do uso legítimo da força (Weber) em um território. Elementos: território, população, governo, soberania.",
+      "body": "<h2>O que você precisa saber</h2><p>Estado: instituição com monopólio do uso legítimo da força (Weber) em um território. Elementos: território, população, governo, soberania.</p><h2>Contexto e Desenvolvimento</h2><p>Formas de governo: Monarquia (rei), República (presidente eleito). Regimes: Democracia (poder do povo), Autoritarismo (restrição de liberdades), Totalitarismo (controle total — nazismo, stalinismo). Democracia direta (Atenas, plebiscito), representativa (eleições), participativa (conselhos).</p><h3>Destaques</h3><ul><li>presidente eleito</li><li>poder do povo</li><li>restrição de liberdades</li><li>controle total — nazismo, stalinismo</li><li>Atenas, plebiscito</li></ul><h2>Consequências e Legado</h2><p>Estado de direito: governo submetido à lei. Três poderes: Executivo, Legislativo, Judiciário.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Estado: Conceito, Tipos e Democracia</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Estado: Conceito, Tipos e Democracia?",
+          "a": "Estado: instituição com monopólio do uso legítimo da força (Weber) em um território."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Elementos: território, população, governo, soberania. Formas de governo: Monarquia (rei), República (presidente eleito)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Estado de direito: governo submetido à lei. Três poderes: Executivo, Legislativo, Judiciário.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Estado: Conceito, Tipos e Democracia",
+            "Química",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Química",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Poder, Política e Participação",
+      "slug": "poder-politica-e-participacao",
+      "desc": "Poder: capacidade de impor sua vontade (Weber). Formas: econômico (capital), político (Estado), simb...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Poder: capacidade de impor sua vontade (Weber). Formas: econômico (capital), político (Estado), simbólico (mídia, cultura).",
+      "body": "<h2>O que você precisa saber</h2><p>Poder: capacidade de impor sua vontade (Weber). Formas: econômico (capital), político (Estado), simbólico (mídia, cultura).</p><h2>Contexto e Desenvolvimento</h2><p>Michel Foucault: poder não está só no Estado, é microfísico — presente em hospitais, escolas, prisões, relações cotidianas. Biopoder: controle sobre a vida das populações. Política: arte de governar a polis.</p><p>Partidos políticos: representam interesses de grupos.</p><h3>Destaques</h3><ul><li>mídia, cultura</li><li>igualdade, Estado forte</li><li>liberdade econômica, menos Estado</li></ul><h2>Consequências e Legado</h2><p>Espectro: esquerda (igualdade, Estado forte), centro, direita (liberdade econômica, menos Estado). Participação: voto, protestos, movimentos sociais, conselhos, plebiscito.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Poder, Política e Participação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Poder, Política e Participação?",
+          "a": "Poder: capacidade de impor sua vontade (Weber)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Formas: econômico (capital), político (Estado), simbólico (mídia, cultura). Michel Foucault: poder não está só no Estado, é microfísico — presente em hospitais, escolas, prisões, relações cotidianas."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Espectro: esquerda (igualdade, Estado forte), centro, direita (liberdade econômica, menos Estado). Participação: voto, protestos, movimentos sociais, conselhos, plebiscito.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Matemática",
+            "Poder, Política e Participação"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Direitos Humanos e Cidadania",
+      "slug": "direitos-humanos-e-cidadania",
+      "desc": "Declaração Universal dos Direitos Humanos (ONU, 1948): 30 artigos — direito à vida, liberdade, igual...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Declaração Universal dos Direitos Humanos (ONU, 1948): 30 artigos — direito à vida, liberdade, igualdade, educação, saúde. Gerações de direitos: 1ª (civis e políticos — séc.",
+      "body": "<h2>O que você precisa saber</h2><p>Declaração Universal dos Direitos Humanos (ONU, 1948): 30 artigos — direito à vida, liberdade, igualdade, educação, saúde. Gerações de direitos: 1ª (civis e políticos — séc.</p><h2>Contexto e Desenvolvimento</h2><p>XVIII), 2ª (sociais e econômicos — séc. XIX-XX), 3ª (coletivos: meio ambiente, paz, desenvolvimento). Cidadania: conjunto de direitos e deveres.</p><p>T.H. Marshall: cidadania civil, política e social.</p><h3>Destaques</h3><ul><li>civis e políticos — séc. XVIII</li><li>sociais e econômicos — séc. XIX-XX</li><li>coletivos: meio ambiente, paz, desenvolvimento</li><li>violência policial, racismo, pobreza</li></ul><h2>Consequências e Legado</h2><p>No Brasil: Constituição de 1988 como marco. Desafios: direitos existem no papel mas não na prática para todos (violência policial, racismo, pobreza).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Direitos Humanos e Cidadania</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Direitos Humanos e Cidadania?",
+          "a": "Declaração Universal dos Direitos Humanos (ONU, 1948): 30 artigos — direito à vida, liberdade, igualdade, educação, saúde."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Gerações de direitos: 1ª (civis e políticos — séc. XVIII), 2ª (sociais e econômicos — séc."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "No Brasil: Constituição de 1988 como marco. Desafios: direitos existem no papel mas não na prática para todos (violência policial, racismo, pobreza).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Direitos Humanos e Cidadania",
+            "Literatura",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Literatura",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Movimentos Sociais",
+      "slug": "movimentos-sociais",
+      "desc": "Ação coletiva organizada para promover ou resistir a mudanças sociais. Movimento negro: abolicionism...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Ação coletiva organizada para promover ou resistir a mudanças sociais. Movimento negro: abolicionismo → Frente Negra (1930) → MNU (1978) → cotas, Lei 10.639 (história afro nas escolas), consciência negra.",
+      "body": "<h2>O que você precisa saber</h2><p>Ação coletiva organizada para promover ou resistir a mudanças sociais. Movimento negro: abolicionismo → Frente Negra (1930) → MNU (1978) → cotas, Lei 10.639 (história afro nas escolas), consciência negra.</p><h2>Contexto e Desenvolvimento</h2><p>Feminismo: sufragistas (voto) → 2ª onda (corpo, trabalho) → 3ª onda (interseccionalidade). Movimento LGBTQIA+: Stonewall (1969), luta por direitos civis, casamento igualitário. MST: reforma agrária, ocupações.</p><h3>Destaques</h3><ul><li>história afro nas escolas</li><li>corpo, trabalho</li><li>interseccionalidade</li></ul><h2>Consequências e Legado</h2><p>Movimento indígena: demarcação de terras, preservação cultural. Novos movimentos: ambientalismo, #MeToo, Black Lives Matter.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Movimentos Sociais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Movimentos Sociais?",
+          "a": "Ação coletiva organizada para promover ou resistir a mudanças sociais."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Movimento negro: abolicionismo → Frente Negra (1930) → MNU (1978) → cotas, Lei 10.639 (história afro nas escolas), consciência negra. Feminismo: sufragistas (voto) → 2ª onda (corpo, trabalho) → 3ª onda (interseccionalidade)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Movimento indígena: demarcação de terras, preservação cultural. Novos movimentos: ambientalismo, #MeToo, Black Lives Matter.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Movimentos Sociais",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Violência: Tipos e Causas Sociais",
+      "slug": "violencia-tipos-e-causas-sociais",
+      "desc": "Violência física (agressão, homicídio), psicológica (bullying, assédio moral), simbólica (Bourdieu:...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Violência física (agressão, homicídio), psicológica (bullying, assédio moral), simbólica (Bourdieu: imposição de valores dominantes como \"naturais\"), institucional (Estado: polícia, prisões), doméstica (contra mulher e crianças — Lei Maria da Penha, 2006). Brasil: 47 mil homicídios/ano (maioria jove.",
+      "body": "<h2>O que você precisa saber</h2><p>Violência física (agressão, homicídio), psicológica (bullying, assédio moral), simbólica (Bourdieu: imposição de valores dominantes como \"naturais\"), institucional (Estado: polícia, prisões), doméstica (contra mulher e crianças — Lei Maria da Penha, 2006). Brasil: 47 mil homicídios/ano (maioria jovens negros de periferia).</p><h2>Contexto e Desenvolvimento</h2><p>Causas: desigualdade, racismo, tráfico de drogas, ausência do Estado. Violência de gênero: feminicídio. Violência no trânsito.</p><h3>Destaques</h3><ul><li>agressão, homicídio</li><li>bullying, assédio moral</li><li>Bourdieu: imposição de valores dominantes como \"naturais\"</li><li>Estado: polícia, prisões</li><li>contra mulher e crianças — Lei Maria da Penha, 2006</li><li>maioria jovens negros de periferia</li></ul><h2>Consequências e Legado</h2><p>Cultura da violência: naturalização.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Violência: Tipos e Causas Sociais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Violência: Tipos e Causas Sociais?",
+          "a": "Violência física (agressão, homicídio), psicológica (bullying, assédio moral), simbólica (Bourdieu: imposição de valores dominantes como \"naturais\"), institucional (Estado: polícia, prisões), doméstica (contra mulher e crianças — Lei Maria da Penha, 2006)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Brasil: 47 mil homicídios/ano (maioria jovens negros de periferia). Causas: desigualdade, racismo, tráfico de drogas, ausência do Estado."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Violência no trânsito. Cultura da violência: naturalização.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Geografia",
+            "Violência: Tipos e Causas Sociais",
+            "Química"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Geografia",
+            "Química",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Mídia, Redes Sociais e Poder",
+      "slug": "midia-redes-sociais-e-poder",
+      "desc": "Meios de comunicação como instrumentos de poder. Concentração midiática: poucos grupos controlam TV,...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Meios de comunicação como instrumentos de poder. Concentração midiática: poucos grupos controlam TV, rádio, jornal (no Brasil: Globo, Record, SBT).",
+      "body": "<h2>O que você precisa saber</h2><p>Meios de comunicação como instrumentos de poder. Concentração midiática: poucos grupos controlam TV, rádio, jornal (no Brasil: Globo, Record, SBT).</p><h2>Contexto e Desenvolvimento</h2><p>Agenda-setting: mídia define o que é importante. Redes sociais: democratização da informação MAS fake news, bolhas (algoritmos mostram só o que você já concorda), polarização, discurso de ódio, manipulação eleitoral (Cambridge Analytica). Letramento midiático: capacidade de avaliar criticamente informações.</p><h3>Destaques</h3><ul><li>no Brasil: Globo, Record, SBT</li><li>algoritmos mostram só o que você já concorda</li><li>Cambridge Analytica</li></ul><h2>Consequências e Legado</h2><p>Vigilância digital: dados pessoais como mercadoria. ## 3º Ano — Trabalho, Cultura e Contemporaneidade</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Mídia, Redes Sociais e Poder</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Mídia, Redes Sociais e Poder?",
+          "a": "Meios de comunicação como instrumentos de poder."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Concentração midiática: poucos grupos controlam TV, rádio, jornal (no Brasil: Globo, Record, SBT). Agenda-setting: mídia define o que é importante."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Vigilância digital: dados pessoais como mercadoria. ## 3º Ano — Trabalho, Cultura e Contemporaneidade."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Física",
+            "Matemática",
+            "Mídia, Redes Sociais e Poder"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Física",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Trabalho: Conceito e Transformações",
+      "slug": "trabalho-conceito-e-transformacoes",
+      "desc": "Trabalho: atividade pela qual o ser humano transforma a natureza. Marx: trabalho como essência human...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Trabalho: atividade pela qual o ser humano transforma a natureza. Marx: trabalho como essência humana, mas no capitalismo é alienado.",
+      "body": "<h2>O que você precisa saber</h2><p>Trabalho: atividade pela qual o ser humano transforma a natureza.</p><h2>Contexto e Desenvolvimento</h2><p>Marx: trabalho como essência humana, mas no capitalismo é alienado. Divisão social do trabalho (Durkheim): especialização aumenta interdependência. Divisão sexual: trabalho doméstico (não remunerado, majoritariamente feminino).</p><h2>Consequências e Legado</h2><p>Escravidão moderna: trabalho análogo ao escravo (ainda existe: 25 milhões no mundo, incluindo Brasil).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Trabalho: Conceito e Transformações</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Trabalho: Conceito e Transformações?",
+          "a": "Trabalho: atividade pela qual o ser humano transforma a natureza."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Marx: trabalho como essência humana, mas no capitalismo é alienado. Divisão social do trabalho (Durkheim): especialização aumenta interdependência."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Matemática",
+            "Biologia",
+            "Trabalho: Conceito e Transformações"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Matemática",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Fordismo, Toyotismo e Uberização",
+      "slug": "fordismo-toyotismo-e-uberizacao",
+      "desc": "Fordismo (Henry Ford, início séc. XX): produção em massa, linha de montagem, trabalhador repetitivo,...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Fordismo (Henry Ford, início séc. XX): produção em massa, linha de montagem, trabalhador repetitivo, salários relativamente altos, sindicatos fortes, Estado de bem-estar.",
+      "body": "<h2>O que você precisa saber</h2><p>Fordismo (Henry Ford, início séc. XX): produção em massa, linha de montagem, trabalhador repetitivo, salários relativamente altos, sindicatos fortes, Estado de bem-estar.</p><h2>Contexto e Desenvolvimento</h2><p>Toyotismo (Japão, pós-1970): produção flexível, just-in-time, trabalhador multifuncional, estoque mínimo, qualidade total, terceirização. Uberização (séc. XXI): plataformas digitais (Uber, iFood, Rappi), \"empreendedor\" sem direitos trabalhistas, sem férias, sem INSS, flexibilidade ou precarização?</p><h3>Destaques</h3><ul><li>Henry Ford, início séc. XX</li><li>Japão, pós-1970</li><li>Uber, iFood, Rappi</li></ul><h2>Consequências e Legado</h2><p>Gig economy. Pejotização: contratar como PJ para evitar CLT.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fordismo, Toyotismo e Uberização</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Fordismo, Toyotismo e Uberização?",
+          "a": "Fordismo (Henry Ford, início séc."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "XX): produção em massa, linha de montagem, trabalhador repetitivo, salários relativamente altos, sindicatos fortes, Estado de bem-estar. Toyotismo (Japão, pós-1970): produção flexível, just-in-time, trabalhador multifuncional, estoque mínimo, qualidade total, terceirização."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Fordismo, Toyotismo e Uberização",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Geografia",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Desemprego, Informalidade e Precarização",
+      "slug": "desemprego-informalidade-e-precarizacao",
+      "desc": "Desemprego estrutural: tecnologia elimina postos (caixa de supermercado → autoatendimento). Desempre...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Desemprego estrutural: tecnologia elimina postos (caixa de supermercado → autoatendimento). Desemprego conjuntural: crises econômicas.",
+      "body": "<h2>O que você precisa saber</h2><p>Desemprego estrutural: tecnologia elimina postos (caixa de supermercado → autoatendimento). Desemprego conjuntural: crises econômicas.</p><h2>Contexto e Desenvolvimento</h2><p>Informalidade no Brasil: ~40% da força de trabalho sem carteira assinada (ambulantes, diaristas, bicos). Precarização: contratos temporários, baixos salários, sem proteção social. Reforma Trabalhista (2017): flexibilização da CLT — favorece empresas ou trabalhadores?</p><p>Futuro do trabalho: IA substituirá empregos?</p><h2>Consequências e Legado</h2><p>Renda básica universal? Semana de 4 dias?</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Desemprego, Informalidade e Precarização</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Desemprego, Informalidade e Precarização?",
+          "a": "Desemprego estrutural: tecnologia elimina postos (caixa de supermercado → autoatendimento)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Desemprego conjuntural: crises econômicas. Informalidade no Brasil: ~40% da força de trabalho sem carteira assinada (ambulantes, diaristas, bicos)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Química",
+            "Desemprego, Informalidade e Precarização",
+            "Literatura"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Literatura",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Religião: Sagrado, Profano e Diversidade",
+      "slug": "religiao-sagrado-profano-e-diversidade",
+      "desc": "Durkheim: religião é fato social, diferencia sagrado (transcendente, especial) e profano (cotidiano,...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Durkheim: religião é fato social, diferencia sagrado (transcendente, especial) e profano (cotidiano, ordinário). Função da religião: coesão social, sentido de pertencimento, explicação do mundo.",
+      "body": "<h2>O que você precisa saber</h2><p>Durkheim: religião é fato social, diferencia sagrado (transcendente, especial) e profano (cotidiano, ordinário). Função da religião: coesão social, sentido de pertencimento, explicação do mundo.</p><h2>Contexto e Desenvolvimento</h2><p>Weber: ética religiosa influencia economia (protestantes → capitalismo). Marx: \"religião é o ópio do povo\" — consola o sofrimento mas impede a revolução. Secularização: perda de influência da religião nas sociedades modernas (mas religião não desapareceu!).</p><h3>Destaques</h3><ul><li>transcendente, especial</li><li>cotidiano, ordinário</li><li>protestantes → capitalismo</li><li>mas religião não desapareceu!</li></ul><h2>Consequências e Legado</h2><p>Fundamentalismo: interpretação literal e inflexível de textos sagrados.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Religião: Sagrado, Profano e Diversidade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Religião: Sagrado, Profano e Diversidade?",
+          "a": "Durkheim: religião é fato social, diferencia sagrado (transcendente, especial) e profano (cotidiano, ordinário)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Função da religião: coesão social, sentido de pertencimento, explicação do mundo. Weber: ética religiosa influencia economia (protestantes → capitalismo)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Secularização: perda de influência da religião nas sociedades modernas (mas religião não desapareceu!). Fundamentalismo: interpretação literal e inflexível de textos sagrados.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Religião: Sagrado, Profano e Diversidade",
+            "Filosofia",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Filosofia",
+            "Literatura",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Diversidade Religiosa no Brasil",
+      "slug": "diversidade-religiosa-no-brasil",
+      "desc": "Brasil: maior país católico do mundo (50%), mas crescimento evangélico acelerado (31%). Religiões af...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Brasil: maior país católico do mundo (50%), mas crescimento evangélico acelerado (31%). Religiões afro-brasileiras: candomblé (orixás, terreiros), umbanda (sincretismo).",
+      "body": "<h2>O que você precisa saber</h2><p>Brasil: maior país católico do mundo (50%), mas crescimento evangélico acelerado (31%). Religiões afro-brasileiras: candomblé (orixás, terreiros), umbanda (sincretismo).</p><h2>Contexto e Desenvolvimento</h2><p>Espiritismo (Allan Kardec). Religiões indígenas. Sem religião (10% e crescendo).</p><p>Intolerância religiosa: ataques a terreiros, preconceito contra religiões de matriz africana.</p><h3>Destaques</h3><ul><li>orixás, terreiros</li><li>sincretismo</li><li>Allan Kardec</li><li>10% e crescendo</li></ul><h2>Consequências e Legado</h2><p>Laicidade do Estado: Constituição garante liberdade religiosa e separação Estado-religião. Bancada evangélica no Congresso: religião e política.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Diversidade Religiosa no Brasil</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Diversidade Religiosa no Brasil?",
+          "a": "Brasil: maior país católico do mundo (50%), mas crescimento evangélico acelerado (31%)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Religiões afro-brasileiras: candomblé (orixás, terreiros), umbanda (sincretismo). Espiritismo (Allan Kardec)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Laicidade do Estado: Constituição garante liberdade religiosa e separação Estado-religião. Bancada evangélica no Congresso: religião e política.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Física",
+            "Química",
+            "Diversidade Religiosa no Brasil"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Química",
+            "Física",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Educação: Reprodução e Transformação",
+      "slug": "educacao-reproducao-e-transformacao",
+      "desc": "Pierre Bourdieu: escola reproduz desigualdade social. Capital cultural: filhos de famílias com mais...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Pierre Bourdieu: escola reproduz desigualdade social. Capital cultural: filhos de famílias com mais acesso cultural (livros, museus, viagens) têm vantagem.",
+      "body": "<h2>O que você precisa saber</h2><p>Pierre Bourdieu: escola reproduz desigualdade social. Capital cultural: filhos de famílias com mais acesso cultural (livros, museus, viagens) têm vantagem.</p><h2>Contexto e Desenvolvimento</h2><p>Violência simbólica: imposição dos valores da classe dominante como \"cultura legítima\". Paulo Freire: educação bancária (professor deposita, aluno recebe passivamente) vs. educação libertadora (diálogo, conscientização, transformação). Meritocracia: mito?</p><p>Nem todos partem do mesmo ponto.</p><h3>Destaques</h3><ul><li>livros, museus, viagens</li><li>professor deposita, aluno recebe passivamente</li><li>diálogo, conscientização, transformação</li></ul><h2>Consequências e Legado</h2><p>Cotas: ação afirmativa para corrigir desigualdades históricas. Educação como direito social (CF 1988).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Educação: Reprodução e Transformação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Educação: Reprodução e Transformação?",
+          "a": "Pierre Bourdieu: escola reproduz desigualdade social."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Capital cultural: filhos de famílias com mais acesso cultural (livros, museus, viagens) têm vantagem. Violência simbólica: imposição dos valores da classe dominante como \"cultura legítima\"."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Cotas: ação afirmativa para corrigir desigualdades históricas. Educação como direito social (CF 1988).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Geografia",
+            "Matemática",
+            "Educação: Reprodução e Transformação"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Geografia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Meio Ambiente: Sustentabilidade e Justiça Ambiental",
+      "slug": "meio-ambiente-sustentabilidade-e-justica-ambiental",
+      "desc": "Relação sociedade-natureza: capitalismo trata natureza como recurso infinito. Desenvolvimento susten...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Relação sociedade-natureza: capitalismo trata natureza como recurso infinito. Desenvolvimento sustentável (ONU, 1987): \"atender às necessidades do presente sem comprometer as futuras gerações.\" Justiça ambiental: populações pobres e negras são mais afetadas por poluição, enchentes, falta de saneamen.",
+      "body": "<h2>O que você precisa saber</h2><p>Relação sociedade-natureza: capitalismo trata natureza como recurso infinito.</p><h2>Contexto e Desenvolvimento</h2><p>Desenvolvimento sustentável (ONU, 1987): \"atender às necessidades do presente sem comprometer as futuras gerações.\" Justiça ambiental: populações pobres e negras são mais afetadas por poluição, enchentes, falta de saneamento (racismo ambiental). Exemplo: Mariana (2015) e Brumadinho (2019) — rompimento de barragens, comunidades destruídas. ODS (Objetivos de Desenvolvimento Sustentável): 17 metas até 2030.</p><h2>Consequências e Legado</h2><p>Consumo consciente.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Meio Ambiente: Sustentabilidade e Justiça Ambiental</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Meio Ambiente: Sustentabilidade e Justiça Ambiental?",
+          "a": "Relação sociedade-natureza: capitalismo trata natureza como recurso infinito."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Desenvolvimento sustentável (ONU, 1987): \"atender às necessidades do presente sem comprometer as futuras gerações.\" Justiça ambiental: populações pobres e negras são mais afetadas por poluição, enchentes, falta de saneamento (racismo ambiental). Exemplo: Mariana (2015) e Brumadinho (2019) — rompimento de barragens, comunidades destruídas."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Meio Ambiente: Sustentabilidade e Justiça Ambiental",
+            "Biologia",
+            "Química",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Química",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Globalização e Identidade Cultural",
+      "slug": "globalizacao-e-identidade-cultural",
+      "desc": "Globalização cultural: McDonald's, Netflix, Marvel em todo o mundo. Homogeneização (culturas se torn...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Globalização cultural: McDonald's, Netflix, Marvel em todo o mundo. Homogeneização (culturas se tornam parecidas) vs.",
+      "body": "<h2>O que você precisa saber</h2><p>Globalização cultural: McDonald's, Netflix, Marvel em todo o mundo. Homogeneização (culturas se tornam parecidas) vs.</p><h2>Contexto e Desenvolvimento</h2><p>Hibridismo (misturas criativas: sushi de salmão, funk brasileiro). Stuart Hall: identidade cultural na pós-modernidade é fragmentada, múltipla, não é fixa. Néstor García Canclini: culturas híbridas na América Latina.</p><h2>Consequências e Legado</h2><p>Resistência cultural: povos indígenas, quilombolas, movimentos de valorização local. Consumo como identidade: \"sou o que consumo.\" Cosmopolitismo vs. nacionalismo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Globalização e Identidade Cultural</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Globalização e Identidade Cultural?",
+          "a": "Globalização cultural: McDonald's, Netflix, Marvel em todo o mundo."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Homogeneização (culturas se tornam parecidas) vs. Hibridismo (misturas criativas: sushi de salmão, funk brasileiro)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Resistência cultural: povos indígenas, quilombolas, movimentos de valorização local. Consumo como identidade: \"sou o que consumo.\" Cosmopolitismo vs."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Globalização e Identidade Cultural",
+            "Geografia",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Tecnologia e Sociedade",
+      "slug": "tecnologia-e-sociedade",
+      "desc": "Revolução digital transformou trabalho, comunicação, educação, política, relações pessoais. Zygmunt...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Revolução digital transformou trabalho, comunicação, educação, política, relações pessoais. Zygmunt Bauman: \"modernidade líquida\" — relações fluidas, instáveis, descartáveis.",
+      "body": "<h2>O que você precisa saber</h2><p>Revolução digital transformou trabalho, comunicação, educação, política, relações pessoais. Zygmunt Bauman: \"modernidade líquida\" — relações fluidas, instáveis, descartáveis.</p><h2>Contexto e Desenvolvimento</h2><p>Shoshana Zuboff: \"capitalismo de vigilância\" — empresas lucram com nossos dados pessoais (Google, Facebook, Amazon). Inteligência artificial: viés algorítmico (IA reproduz preconceitos dos dados), substituição de empregos, deepfakes. Privacidade: LGPD no Brasil, GDPR na Europa.</p><h3>Destaques</h3><ul><li>Google, Facebook, Amazon</li><li>IA reproduz preconceitos dos dados</li><li>especialmente em jovens</li></ul><h2>Consequências e Legado</h2><p>Dependência digital: vício em redes sociais, ansiedade, depressão (especialmente em jovens). Democracia digital: potencial e riscos.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Tecnologia e Sociedade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Tecnologia e Sociedade?",
+          "a": "Revolução digital transformou trabalho, comunicação, educação, política, relações pessoais."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Zygmunt Bauman: \"modernidade líquida\" — relações fluidas, instáveis, descartáveis. Shoshana Zuboff: \"capitalismo de vigilância\" — empresas lucram com nossos dados pessoais (Google, Facebook, Amazon)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Dependência digital: vício em redes sociais, ansiedade, depressão (especialmente em jovens). Democracia digital: potencial e riscos.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Tecnologia e Sociedade",
+            "Literatura",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Literatura",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Sociologia no ENEM",
+      "slug": "sociologia-no-enem",
+      "desc": "Temas mais recorrentes: indústria cultural, cultura de massa, identidade, movimentos sociais, desigu...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Temas mais recorrentes: indústria cultural, cultura de massa, identidade, movimentos sociais, desigualdade social e racial, cidadania, direitos humanos, diversidade, gênero, trabalho e precarização, tecnologia e sociedade. Autores mais cobrados: Durkheim (fato social, solidariedade), Marx (classes, .",
+      "body": "<h2>O que você precisa saber</h2><p>Temas mais recorrentes: indústria cultural, cultura de massa, identidade, movimentos sociais, desigualdade social e racial, cidadania, direitos humanos, diversidade, gênero, trabalho e precarização, tecnologia e sociedade.</p><h2>Contexto e Desenvolvimento</h2><p>Autores mais cobrados: Durkheim (fato social, solidariedade), Marx (classes, ideologia, alienação, mais-valia), Weber (ação social, burocracia), Bourdieu (capital cultural, violência simbólica), Foucault (biopoder, disciplina), Adorno (indústria cultural), Freire (educação bancária). Dica: sempre ler as alternativas com cuidado — ENEM testa interpretação, não decoreba.</p><h3>Destaques</h3><ul><li>fato social, solidariedade</li><li>classes, ideologia, alienação, mais-valia</li><li>ação social, burocracia</li><li>capital cultural, violência simbólica</li><li>biopoder, disciplina</li><li>indústria cultural</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Sociologia no ENEM</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Sociologia no ENEM?",
+          "a": "Temas mais recorrentes: indústria cultural, cultura de massa, identidade, movimentos sociais, desigualdade social e racial, cidadania, direitos humanos, diversidade, gênero, trabalho e precarização, tecnologia e sociedade."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Sociologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Sociologia no ENEM",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

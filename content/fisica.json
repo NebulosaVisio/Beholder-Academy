@@ -1,0 +1,1650 @@
+{
+  "subject": "Física",
+  "slug": "fisica",
+  "color": "var(--fisica)",
+  "icon": "zap",
+  "articles": [
+    {
+      "title": "Cinemática: MU (Movimento Uniforme)",
+      "slug": "cinematica-mu-movimento-uniforme",
+      "desc": "Velocidade constante. S=S₀+v.t. Gráficos S×t e V×t. Referencial. Deslocamento vs. distância....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": ".",
+      "body": "<h2>O que você precisa saber</h2><p>Velocidade constante.</p><h2>Contexto e Desenvolvimento</h2><p>S=S₀+v.t. Gráficos S×t e V×t. Referencial.</p><h2>Consequências e Legado</h2><p>Deslocamento vs. distância.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Cinemática: MU (Movimento Uniforme)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Cinemática: MU (Movimento Uniforme)",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Química",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Cinemática: MUV (Movimento Uniformemente Variado)",
+      "slug": "cinematica-muv-movimento-uniformemente-variado",
+      "desc": "Aceleração constante. V=V₀+a.t. S=S₀+V₀t+at²/2. Torricelli: V²=V₀²+2aΔS. Queda livre (g≈10m/s²)....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Torricelli: V²=V₀²+2aΔS. Queda livre (g≈10m/s²)..",
+      "body": "<h2>O que você precisa saber</h2><p>Aceleração constante.</p><h2>Contexto e Desenvolvimento</h2><p>V=V₀+a.t. S=S₀+V₀t+at²/2. Torricelli: V²=V₀²+2aΔS.</p><h2>Consequências e Legado</h2><p>Queda livre (g≈10m/s²).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Cinemática: MUV (Movimento Uniformemente Variado)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Cinemática: MUV (Movimento Uniformemente Variado)?",
+          "a": "Torricelli: V²=V₀²+2aΔS."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Sociologia",
+            "Cinemática: MUV (Movimento Uniformemente Variado)"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Sociologia",
+            "Matemática",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Vetores e Movimento em 2D",
+      "slug": "vetores-e-movimento-em-2d",
+      "desc": "Soma vetorial. Componentes. Lançamento horizontal e oblíquo. Movimento circular: período, frequência...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Lançamento horizontal e oblíquo. Movimento circular: período, frequência, velocidade angular..",
+      "body": "<h2>O que você precisa saber</h2><p>Soma vetorial.</p><h2>Contexto e Desenvolvimento</h2><p>Componentes. Lançamento horizontal e oblíquo.</p><h2>Consequências e Legado</h2><p>Movimento circular: período, frequência, velocidade angular.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Vetores e Movimento em 2D</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Vetores e Movimento em 2D?",
+          "a": "Lançamento horizontal e oblíquo."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Vetores e Movimento em 2D",
+            "Biologia",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Literatura",
+            "Geografia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Leis de Newton",
+      "slug": "leis-de-newton",
+      "desc": "1ª: Inércia. 2ª: F=m.a (resultante). 3ª: Ação-reação. Peso (P=m.g). Normal. Atrito (f=μ.N). Tração....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "2ª: F=m.a (resultante).",
+      "body": "<h2>O que você precisa saber</h2><p>1ª: Inércia. 2ª: F=m.a (resultante).</p><h2>Contexto e Desenvolvimento</h2><p>3ª: Ação-reação. Peso (P=m.g). Normal.</p><p>Atrito (f=μ.N).</p><h2>Consequências e Legado</h2><p>Tração. Plano inclinado.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Leis de Newton</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Química",
+            "Leis de Newton",
+            "Filosofia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Literatura",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Trabalho e Energia",
+      "slug": "trabalho-e-energia",
+      "desc": "W=F.d.cosθ. Ec=mv²/2. Ep=mgh. Conservação de energia. Potência: P=W/t. Rendimento: η=Pútil/Ptotal....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Conservação de energia. Rendimento: η=Pútil/Ptotal..",
+      "body": "<h2>O que você precisa saber</h2><p>W=F.d.cosθ. Ec=mv²/2.</p><h2>Contexto e Desenvolvimento</h2><p>Ep=mgh. Conservação de energia. Potência: P=W/t.</p><h2>Consequências e Legado</h2><p>Rendimento: η=Pútil/Ptotal.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Trabalho e Energia</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Trabalho e Energia?",
+          "a": "Conservação de energia."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Trabalho e Energia",
+            "Química",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Química",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Impulso e Quantidade de Movimento",
+      "slug": "impulso-e-quantidade-de-movimento",
+      "desc": "I=F.Δt=Δp. p=m.v. Conservação do momento linear. Colisões: elástica (Ec conservada) e inelástica....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Conservação do momento linear. Colisões: elástica (Ec conservada) e inelástica..",
+      "body": "<h2>O que você precisa saber</h2><p>I=F.Δt=Δp. p=m.v.</p><h2>Contexto e Desenvolvimento</h2><p>Conservação do momento linear. Colisões: elástica (Ec conservada) e inelástica.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Impulso e Quantidade de Movimento</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Impulso e Quantidade de Movimento?",
+          "a": "Conservação do momento linear."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Impulso e Quantidade de Movimento",
+            "Química",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Geografia",
+            "Literatura",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gravitação Universal",
+      "slug": "gravitacao-universal",
+      "desc": "F=G.M.m/d². Leis de Kepler. Órbitas. Velocidade orbital. Satélites. Peso em outros planetas....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Peso em outros planetas..",
+      "body": "<h2>O que você precisa saber</h2><p>F=G.M.m/d². Leis de Kepler.</p><h2>Contexto e Desenvolvimento</h2><p>Órbitas. Velocidade orbital. Satélites.</p><h2>Consequências e Legado</h2><p>Peso em outros planetas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gravitação Universal</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Gravitação Universal",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Estática",
+      "slug": "estatica",
+      "desc": "Equilíbrio: ΣF=0 e ΣM=0. Momento (torque)=F.d. Alavancas. Centro de massa. Tipos de equilíbrio....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Equilíbrio: ΣF=0 e ΣM=0.",
+      "body": "<h2>O que você precisa saber</h2><p>Equilíbrio: ΣF=0 e ΣM=0.</p><h2>Contexto e Desenvolvimento</h2><p>Momento (torque)=F.d. Alavancas. Centro de massa.</p><h2>Consequências e Legado</h2><p>Tipos de equilíbrio.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Estática</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Literatura",
+            "Sociologia",
+            "Estática"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Sociologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Hidrostática",
+      "slug": "hidrostatica",
+      "desc": "Pressão (P=F/A). Pressão hidrostática (P=ρgh). Pascal (prensa hidráulica). Arquimedes (empuxo: E=ρ.V...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Pressão hidrostática (P=ρgh). Pascal (prensa hidráulica).",
+      "body": "<h2>O que você precisa saber</h2><p>Pressão (P=F/A).</p><h2>Contexto e Desenvolvimento</h2><p>Pressão hidrostática (P=ρgh). Pascal (prensa hidráulica). Arquimedes (empuxo: E=ρ.V.g).</p><h2>Consequências e Legado</h2><p>Flutuar/afundar. ## 2º Ano — Termologia, Óptica e Ondas</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Hidrostática</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Hidrostática?",
+          "a": "Pressão hidrostática (P=ρgh)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Pascal (prensa hidráulica). Arquimedes (empuxo: E=ρ.V.g)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Sociologia",
+            "Filosofia",
+            "Hidrostática"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Filosofia",
+            "Sociologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Termometria",
+      "slug": "termometria",
+      "desc": "Temperatura ≠ calor. Escalas: Celsius, Fahrenheit, Kelvin. Conversão. Equilíbrio térmico (Lei Zero)....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Escalas: Celsius, Fahrenheit, Kelvin. Equilíbrio térmico (Lei Zero)..",
+      "body": "<h2>O que você precisa saber</h2><p>Temperatura ≠ calor.</p><h2>Contexto e Desenvolvimento</h2><p>Escalas: Celsius, Fahrenheit, Kelvin. Conversão.</p><h2>Consequências e Legado</h2><p>Equilíbrio térmico (Lei Zero).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Termometria</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Termometria?",
+          "a": "Escalas: Celsius, Fahrenheit, Kelvin."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Termometria",
+            "Química",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Química",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Dilatação Térmica",
+      "slug": "dilatacao-termica",
+      "desc": "Linear: ΔL=L₀.α.ΔT. Superficial: ΔA=A₀.β.ΔT. Volumétrica: ΔV=V₀.γ.ΔT. Dilatação da água (anomalia: m...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Superficial: ΔA=A₀.β.ΔT. Volumétrica: ΔV=V₀.γ.ΔT.",
+      "body": "<h2>O que você precisa saber</h2><p>Linear: ΔL=L₀.α.ΔT.</p><h2>Contexto e Desenvolvimento</h2><p>Superficial: ΔA=A₀.β.ΔT. Volumétrica: ΔV=V₀.γ.ΔT.</p><h2>Consequências e Legado</h2><p>Dilatação da água (anomalia: máx a 4°C).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Dilatação Térmica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Dilatação Térmica?",
+          "a": "Superficial: ΔA=A₀.β.ΔT."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Dilatação Térmica",
+            "Geografia",
+            "Literatura",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Literatura",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Calorimetria",
+      "slug": "calorimetria",
+      "desc": "Calor sensível: Q=m.c.ΔT. Calor latente: Q=m.L. Calorímetro. Trocas de calor: ΣQ=0. Capacidade térmi...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Calor sensível: Q=m.c.ΔT. Trocas de calor: ΣQ=0.",
+      "body": "<h2>O que você precisa saber</h2><p>Calor sensível: Q=m.c.ΔT.</p><h2>Contexto e Desenvolvimento</h2><p>Calor latente: Q=m.L. Calorímetro. Trocas de calor: ΣQ=0.</p><h2>Consequências e Legado</h2><p>Capacidade térmica.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Calorimetria</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Calorimetria?",
+          "a": "Calor sensível: Q=m.c.ΔT."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Biologia",
+            "Calorimetria",
+            "Matemática"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Literatura",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Termodinâmica",
+      "slug": "termodinamica",
+      "desc": "1ª Lei: ΔU=Q−W. 2ª Lei: entropia. Máquinas térmicas. Ciclo de Carnot. Rendimento. Processos: isotérm...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Processos: isotérmico, isobárico, isocórico, adiabático..",
+      "body": "<h2>O que você precisa saber</h2><p>1ª Lei: ΔU=Q−W. 2ª Lei: entropia.</p><h2>Contexto e Desenvolvimento</h2><p>Máquinas térmicas. Ciclo de Carnot. Rendimento.</p><h2>Consequências e Legado</h2><p>Processos: isotérmico, isobárico, isocórico, adiabático.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Termodinâmica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Termodinâmica",
+            "Sociologia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Biologia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Óptica Geométrica: Reflexão",
+      "slug": "optica-geometrica-reflexao",
+      "desc": "Leis da reflexão. Espelhos planos (imagem virtual). Espelhos esféricos: côncavos e convexos. Equação...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Espelhos planos (imagem virtual). Espelhos esféricos: côncavos e convexos.",
+      "body": "<h2>O que você precisa saber</h2><p>Leis da reflexão.</p><h2>Contexto e Desenvolvimento</h2><p>Espelhos planos (imagem virtual). Espelhos esféricos: côncavos e convexos. Equação de Gauss.</p><h2>Consequências e Legado</h2><p>Aumento.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Óptica Geométrica: Reflexão</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Óptica Geométrica: Reflexão?",
+          "a": "Espelhos planos (imagem virtual)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Óptica Geométrica: Reflexão",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Geografia",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Óptica Geométrica: Refração",
+      "slug": "optica-geometrica-refracao",
+      "desc": "Índice de refração. Lei de Snell: n₁.senθ₁=n₂.senθ₂. Reflexão total. Prismas. Arco-íris. Fibra óptic...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Lei de Snell: n₁.senθ₁=n₂.senθ₂.",
+      "body": "<h2>O que você precisa saber</h2><p>Índice de refração. Lei de Snell: n₁.senθ₁=n₂.senθ₂.</p><h2>Contexto e Desenvolvimento</h2><p>Reflexão total. Prismas. Arco-íris.</p><h2>Consequências e Legado</h2><p>Fibra óptica.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Óptica Geométrica: Refração</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Óptica Geométrica: Refração",
+            "Matemática",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Lentes Esféricas",
+      "slug": "lentes-esfericas",
+      "desc": "Convergente (biconvexa) e Divergente (bicôncava). Equação de lentes. Formação de imagens. Olho human...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Convergente (biconvexa) e Divergente (bicôncava). Defeitos: miopia, hipermetropia..",
+      "body": "<h2>O que você precisa saber</h2><p>Convergente (biconvexa) e Divergente (bicôncava).</p><h2>Contexto e Desenvolvimento</h2><p>Equação de lentes. Formação de imagens. Olho humano.</p><h2>Consequências e Legado</h2><p>Defeitos: miopia, hipermetropia.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Lentes Esféricas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Lentes Esféricas?",
+          "a": "Convergente (biconvexa) e Divergente (bicôncava)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Sociologia",
+            "Filosofia",
+            "Lentes Esféricas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Filosofia",
+            "Sociologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Ondas: Conceitos",
+      "slug": "ondas-conceitos",
+      "desc": "Mecânicas vs. eletromagnéticas. Transversais vs. longitudinais. Comprimento (λ), frequência (f), vel...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Comprimento (λ), frequência (f), velocidade (v=λf).",
+      "body": "<h2>O que você precisa saber</h2><p>Mecânicas vs. eletromagnéticas.</p><h2>Contexto e Desenvolvimento</h2><p>Transversais vs. longitudinais. Comprimento (λ), frequência (f), velocidade (v=λf). Amplitude.</p><h2>Consequências e Legado</h2><p>Período.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Ondas: Conceitos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Ondas: Conceitos",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Química",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Ondas Sonoras",
+      "slug": "ondas-sonoras",
+      "desc": "Som: onda mecânica longitudinal. Velocidade no ar (~340m/s). Frequência: graves e agudos. Intensidad...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Som: onda mecânica longitudinal. Velocidade no ar (~340m/s).",
+      "body": "<h2>O que você precisa saber</h2><p>Som: onda mecânica longitudinal. Velocidade no ar (~340m/s).</p><h2>Contexto e Desenvolvimento</h2><p>Frequência: graves e agudos. Intensidade: decibéis. Eco.</p><h2>Consequências e Legado</h2><p>Ressonância. Doppler.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Ondas Sonoras</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Ondas Sonoras?",
+          "a": "Som: onda mecânica longitudinal."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Velocidade no ar (~340m/s). Frequência: graves e agudos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Geografia",
+            "Literatura",
+            "Ondas Sonoras"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Literatura",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Ondas: Fenômenos",
+      "slug": "ondas-fenomenos",
+      "desc": "Reflexão, refração, difração, interferência (construtiva/destrutiva), polarização. Aplicações. ## 3º...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Reflexão, refração, difração, interferência (construtiva/destrutiva), polarização. ## 3º Ano — Eletricidade e Magnetismo.",
+      "body": "<h2>O que você precisa saber</h2><p>Reflexão, refração, difração, interferência (construtiva/destrutiva), polarização.</p><h2>Contexto e Desenvolvimento</h2><p>Aplicações. ## 3º Ano — Eletricidade e Magnetismo</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Ondas: Fenômenos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Ondas: Fenômenos?",
+          "a": "Reflexão, refração, difração, interferência (construtiva/destrutiva), polarização."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Química",
+            "Matemática",
+            "Ondas: Fenômenos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Eletrostática: Cargas e Forças",
+      "slug": "eletrostatica-cargas-e-forcas",
+      "desc": "Prótons (+), elétrons (−). Lei de Coulomb: F=k.q₁.q₂/d². Campo elétrico: E=F/q. Linhas de campo....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Prótons (+), elétrons (−). Lei de Coulomb: F=k.q₁.q₂/d².",
+      "body": "<h2>O que você precisa saber</h2><p>Prótons (+), elétrons (−).</p><h2>Contexto e Desenvolvimento</h2><p>Lei de Coulomb: F=k.q₁.q₂/d². Campo elétrico: E=F/q.</p><h2>Consequências e Legado</h2><p>Linhas de campo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Eletrostática: Cargas e Forças</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Eletrostática: Cargas e Forças?",
+          "a": "Prótons (+), elétrons (−)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Eletrostática: Cargas e Forças",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Filosofia",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Potencial Elétrico e Trabalho",
+      "slug": "potencial-eletrico-e-trabalho",
+      "desc": "V=k.Q/d. Diferença de potencial (ddp). Trabalho: τ=q.ΔV. Superfícies equipotenciais. Capacitores: C=...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Diferença de potencial (ddp). Superfícies equipotenciais.",
+      "body": "<h2>O que você precisa saber</h2><p>V=k.Q/d.</p><h2>Contexto e Desenvolvimento</h2><p>Diferença de potencial (ddp). Trabalho: τ=q.ΔV. Superfícies equipotenciais.</p><h2>Consequências e Legado</h2><p>Capacitores: C=Q/V.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Potencial Elétrico e Trabalho</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Potencial Elétrico e Trabalho?",
+          "a": "Diferença de potencial (ddp)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Potencial Elétrico e Trabalho",
+            "Sociologia",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Sociologia",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Corrente Elétrica",
+      "slug": "corrente-eletrica",
+      "desc": "Fluxo de elétrons. i=ΔQ/Δt. Ampère (A). Sentido convencional vs. real. Corrente contínua (CC) vs. al...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Sentido convencional vs. Corrente contínua (CC) vs.",
+      "body": "<h2>O que você precisa saber</h2><p>Fluxo de elétrons. i=ΔQ/Δt.</p><h2>Contexto e Desenvolvimento</h2><p>Ampère (A). Sentido convencional vs. real.</p><h2>Consequências e Legado</h2><p>Corrente contínua (CC) vs. alternada (CA).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Corrente Elétrica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Corrente Elétrica?",
+          "a": "Sentido convencional vs."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Corrente Elétrica",
+            "Matemática",
+            "Filosofia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Resistência e Lei de Ohm",
+      "slug": "resistencia-e-lei-de-ohm",
+      "desc": "R=V/i. Ohm (Ω). 1ª Lei de Ohm: V=Ri. 2ª Lei: R=ρL/A. Resistores: série, paralelo, misto....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Resistores: série, paralelo, misto..",
+      "body": "<h2>O que você precisa saber</h2><p>R=V/i.</p><h2>Contexto e Desenvolvimento</h2><p>Ohm (Ω). 1ª Lei de Ohm: V=Ri. 2ª Lei: R=ρL/A.</p><h2>Consequências e Legado</h2><p>Resistores: série, paralelo, misto.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Resistência e Lei de Ohm</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Resistência e Lei de Ohm",
+            "Química",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Química",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Potência Elétrica e Energia",
+      "slug": "potencia-eletrica-e-energia",
+      "desc": "P=V.i=R.i²=V²/R. Watt (W). Energia: E=P.t. kWh. Conta de luz. Efeito Joule. Chuveiro elétrico....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": ".",
+      "body": "<h2>O que você precisa saber</h2><p>P=V.i=R.i²=V²/R. Watt (W).</p><h2>Contexto e Desenvolvimento</h2><p>Energia: E=P.t. kWh. Conta de luz. Efeito Joule.</p><h2>Consequências e Legado</h2><p>Chuveiro elétrico.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Potência Elétrica e Energia</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Química",
+            "Potência Elétrica e Energia",
+            "Matemática"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Química",
+            "Matemática",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Circuitos Elétricos",
+      "slug": "circuitos-eletricos",
+      "desc": "Geradores: ε=V+r.i. Receptores. Leis de Kirchhoff (nós e malhas). Ponte de Wheatstone. Medidores: am...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Leis de Kirchhoff (nós e malhas). Medidores: amperímetro, voltímetro..",
+      "body": "<h2>O que você precisa saber</h2><p>Geradores: ε=V+r.i.</p><h2>Contexto e Desenvolvimento</h2><p>Receptores. Leis de Kirchhoff (nós e malhas). Ponte de Wheatstone.</p><h2>Consequências e Legado</h2><p>Medidores: amperímetro, voltímetro.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Circuitos Elétricos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Circuitos Elétricos?",
+          "a": "Leis de Kirchhoff (nós e malhas)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Filosofia",
+            "Sociologia",
+            "Circuitos Elétricos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Magnetismo",
+      "slug": "magnetismo",
+      "desc": "Ímãs: polos N e S. Campo magnético. Magnetismo terrestre. Bússola. Materiais ferromagnéticos....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Materiais ferromagnéticos..",
+      "body": "<h2>O que você precisa saber</h2><p>Ímãs: polos N e S.</p><h2>Contexto e Desenvolvimento</h2><p>Campo magnético. Magnetismo terrestre. Bússola.</p><h2>Consequências e Legado</h2><p>Materiais ferromagnéticos.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Magnetismo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Sociologia",
+            "Magnetismo",
+            "Química"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Biologia",
+            "Química",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Eletromagnetismo",
+      "slug": "eletromagnetismo",
+      "desc": "Corrente cria campo magnético (Oersted). Força magnética em fio (F=BiL). Força de Lorentz. Solenoide...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Corrente cria campo magnético (Oersted). Força magnética em fio (F=BiL).",
+      "body": "<h2>O que você precisa saber</h2><p>Corrente cria campo magnético (Oersted). Força magnética em fio (F=BiL).</p><h2>Contexto e Desenvolvimento</h2><p>Força de Lorentz. Solenoide. Relé.</p><h2>Consequências e Legado</h2><p>Motor elétrico.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Eletromagnetismo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Eletromagnetismo?",
+          "a": "Corrente cria campo magnético (Oersted)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Filosofia",
+            "Geografia",
+            "Eletromagnetismo"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Filosofia",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Indução Eletromagnética",
+      "slug": "inducao-eletromagnetica",
+      "desc": "Lei de Faraday: ε=−ΔΦ/Δt. Lei de Lenz. Gerador elétrico. Transformadores. Corrente alternada. Usinas...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Lei de Faraday: ε=−ΔΦ/Δt.",
+      "body": "<h2>O que você precisa saber</h2><p>Lei de Faraday: ε=−ΔΦ/Δt. Lei de Lenz.</p><h2>Contexto e Desenvolvimento</h2><p>Gerador elétrico. Transformadores. Corrente alternada.</p><h2>Consequências e Legado</h2><p>Usinas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Indução Eletromagnética</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Indução Eletromagnética",
+            "Geografia",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Geografia",
+            "Literatura",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Ondas Eletromagnéticas",
+      "slug": "ondas-eletromagneticas",
+      "desc": "Espectro: rádio, micro-ondas, infravermelho, visível, UV, raios X, gama. Velocidade da luz: c=3×10⁸m...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Espectro: rádio, micro-ondas, infravermelho, visível, UV, raios X, gama. Velocidade da luz: c=3×10⁸m/s.",
+      "body": "<h2>O que você precisa saber</h2><p>Espectro: rádio, micro-ondas, infravermelho, visível, UV, raios X, gama.</p><h2>Contexto e Desenvolvimento</h2><p>Velocidade da luz: c=3×10⁸m/s. Comunicações.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Ondas Eletromagnéticas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Ondas Eletromagnéticas?",
+          "a": "Espectro: rádio, micro-ondas, infravermelho, visível, UV, raios X, gama."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Biologia",
+            "Matemática",
+            "Ondas Eletromagnéticas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Biologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Física Moderna: Relatividade",
+      "slug": "fisica-moderna-relatividade",
+      "desc": "Einstein (1905). Dilatação do tempo. Contração do comprimento. E=mc². Nada supera a velocidade da lu...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Contração do comprimento. Nada supera a velocidade da luz..",
+      "body": "<h2>O que você precisa saber</h2><p>Einstein (1905).</p><h2>Contexto e Desenvolvimento</h2><p>Dilatação do tempo. Contração do comprimento. E=mc².</p><h2>Consequências e Legado</h2><p>Nada supera a velocidade da luz.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Física Moderna: Relatividade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Física Moderna: Relatividade?",
+          "a": "Contração do comprimento."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física Moderna: Relatividade",
+            "Matemática",
+            "Literatura",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Literatura",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Física Moderna: Quântica",
+      "slug": "fisica-moderna-quantica",
+      "desc": "Planck: energia quantizada (E=hf). Efeito fotoelétrico (Einstein). Dualidade onda-partícula. Princíp...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Planck: energia quantizada (E=hf). Efeito fotoelétrico (Einstein).",
+      "body": "<h2>O que você precisa saber</h2><p>Planck: energia quantizada (E=hf).</p><h2>Contexto e Desenvolvimento</h2><p>Efeito fotoelétrico (Einstein). Dualidade onda-partícula.</p><h2>Consequências e Legado</h2><p>Princípio da incerteza (Heisenberg).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Física Moderna: Quântica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Física Moderna: Quântica?",
+          "a": "Planck: energia quantizada (E=hf)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Efeito fotoelétrico (Einstein). Dualidade onda-partícula."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física Moderna: Quântica",
+            "Geografia",
+            "Biologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Física",
+            "Geografia",
+            "Biologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

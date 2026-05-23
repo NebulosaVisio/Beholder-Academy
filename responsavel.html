@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel do Responsável — Beholder Academy</title>
+  <meta name="description" content="Acompanhe o progresso do seu filho, gerencie a mesada digital e controle a loja.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/painel.css">
+  <link rel="stylesheet" href="assets/responsavel.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <nav class="navbar"><div class="container navbar__inner">
+    <a href="index.html" class="navbar__logo">Beholder <span class="logo-highlight">Academy</span></a>
+    <div class="navbar__nav">
+      <a href="index.html" class="navbar__link">Home</a>
+      <a href="responsavel.html" class="navbar__link navbar__link--active">Painel Responsável</a>
+      <button id="dark-toggle" class="dark-toggle" aria-label="Alternar tema" title="Alternar tema">
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div></nav>
+
+  <main class="painel-main resp-main">
+    <!-- Header -->
+    <div class="resp-header">
+      <div class="resp-welcome">
+        <h1>👋 Olá, Responsável!</h1>
+        <p>Acompanhe o progresso dos seus filhos na Beholder Academy</p>
+      </div>
+    </div>
+
+    <!-- Student Cards -->
+    <div class="resp-section">
+      <div class="resp-section-header">
+        <h2 class="section-title">👨‍👩‍👧 Meus Filhos</h2>
+      </div>
+      <div class="resp-students" id="resp-students"></div>
+    </div>
+
+    <!-- Selected Student Detail -->
+    <div class="resp-detail hidden" id="resp-detail">
+      <!-- Progress Report -->
+      <div class="resp-section">
+        <h2 class="section-title">📊 Relatório de Progresso</h2>
+        <div class="resp-stats-grid" id="resp-stats"></div>
+      </div>
+
+      <!-- Competency Overview -->
+      <div class="resp-section">
+        <h2 class="section-title">🧮 Competências</h2>
+        <div class="resp-competencies" id="resp-competencies"></div>
+      </div>
+
+      <!-- Activity Chart -->
+      <div class="resp-section">
+        <h2 class="section-title">📈 Atividade (30 dias)</h2>
+        <div class="resp-activity-chart">
+          <canvas id="activity-chart" width="700" height="120"></canvas>
+        </div>
+      </div>
+
+      <!-- Mesada Digital -->
+      <div class="resp-section">
+        <h2 class="section-title">💰 Mesada Digital</h2>
+        <div class="mesada-card">
+          <div class="mesada-row">
+            <div class="mesada-stat">
+              <span class="mesada-label">Saldo atual</span>
+              <span class="mesada-value">💎 <span id="mesada-saldo">500</span></span>
+            </div>
+            <div class="mesada-stat">
+              <span class="mesada-label">Gasto este mês</span>
+              <span class="mesada-value" id="mesada-gasto">💎 0</span>
+            </div>
+            <div class="mesada-stat">
+              <span class="mesada-label">Limite mensal</span>
+              <span class="mesada-value" id="mesada-limite">💎 3.000</span>
+            </div>
+          </div>
+          <div class="mesada-actions">
+            <div class="mesada-deposit">
+              <label>Depositar:</label>
+              <div class="deposit-buttons">
+                <button class="btn-deposit" onclick="ResponsavelUI.deposit(1000)">R$ 10</button>
+                <button class="btn-deposit" onclick="ResponsavelUI.deposit(2000)">R$ 20</button>
+                <button class="btn-deposit" onclick="ResponsavelUI.deposit(3000)">R$ 30</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Store Control -->
+      <div class="resp-section">
+        <h2 class="section-title">🏪 Controle da Loja</h2>
+        <div class="store-control-grid" id="store-controls">
+          <div class="control-card">
+            <div class="control-header">
+              <span>🎨 Cosméticos</span>
+              <label class="toggle-switch"><input type="checkbox" checked id="ctrl-cosmeticos"><span class="toggle-slider"></span></label>
+            </div>
+            <p class="control-desc">Avatares, bordas, títulos</p>
+            <span class="control-status on">✅ Liberado</span>
+          </div>
+          <div class="control-card">
+            <div class="control-header">
+              <span>🎁 Gift Cards até R$10</span>
+              <label class="toggle-switch"><input type="checkbox" checked id="ctrl-gc10"><span class="toggle-slider"></span></label>
+            </div>
+            <p class="control-desc">Com notificação ao responsável</p>
+            <span class="control-status on">✅ Liberado</span>
+          </div>
+          <div class="control-card">
+            <div class="control-header">
+              <span>🎁 Gift Cards até R$25</span>
+              <label class="toggle-switch"><input type="checkbox" id="ctrl-gc25"><span class="toggle-slider"></span></label>
+            </div>
+            <p class="control-desc">Requer aprovação do responsável</p>
+            <span class="control-status off">⚠️ Requer aprovação</span>
+          </div>
+          <div class="control-card">
+            <div class="control-header">
+              <span>🎁 Gift Cards R$50+</span>
+              <label class="toggle-switch"><input type="checkbox" id="ctrl-gc50"><span class="toggle-slider"></span></label>
+            </div>
+            <p class="control-desc">Bloqueado por padrão</p>
+            <span class="control-status off">🔒 Bloqueado</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Notifications -->
+      <div class="resp-section">
+        <h2 class="section-title">🔔 Notificações Recentes</h2>
+        <div class="notif-list" id="notif-list"></div>
+      </div>
+
+      <!-- Recent Achievements -->
+      <div class="resp-section">
+        <h2 class="section-title">🏅 Conquistas Recentes</h2>
+        <div class="resp-achievements" id="resp-achievements"></div>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/rpg-engine.js"></script>
+  <script src="assets/responsavel.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Login check
+      var userData = localStorage.getItem('beholder_user');
+      if (!userData) {
+        window.location.href = 'login.html';
+        return;
+      }
+      try {
+        var user = JSON.parse(userData);
+        if (user.type !== 'responsavel') {
+          window.location.href = 'painel.html';
+          return;
+        }
+        // Show parent name + child name
+        var welcomeH1 = document.querySelector('.resp-welcome h1');
+        if (welcomeH1 && user.name) {
+          welcomeH1.textContent = '👋 Olá, ' + user.name + '!';
+        }
+        var welcomeP = document.querySelector('.resp-welcome p');
+        if (welcomeP && user.linkedTo) {
+          welcomeP.textContent = 'Acompanhando o progresso de ' + user.linkedTo;
+        }
+      } catch(e) {}
+
+      const toggle = document.getElementById('dark-toggle');
+      if (toggle) {
+        const stored = localStorage.getItem('beholder_theme');
+        if (stored) document.documentElement.setAttribute('data-theme', stored);
+        toggle.addEventListener('click', function() {
+          const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('beholder_theme', next);
+        });
+      }
+      ResponsavelUI.init();
+    });
+  </script>
+</body>
+</html>

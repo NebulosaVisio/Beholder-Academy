@@ -1,0 +1,2564 @@
+{
+  "subject": "Português",
+  "slug": "portugues",
+  "color": "var(--portugues)",
+  "icon": "book",
+  "articles": [
+    {
+      "title": "Fonema e Letra",
+      "slug": "fonema-e-letra",
+      "desc": "Fonema = som. Letra = representação gráfica. \"Chuva\" tem 5 letras mas 4 fonemas (ch=1 som). Dígrafo,...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Letra = representação gráfica. \"Chuva\" tem 5 letras mas 4 fonemas (ch=1 som).",
+      "body": "<h2>O que você precisa saber</h2><p>Fonema = som.</p><h2>Contexto e Desenvolvimento</h2><p>Letra = representação gráfica. \"Chuva\" tem 5 letras mas 4 fonemas (ch=1 som).</p><h2>Consequências e Legado</h2><p>Dígrafo, encontro consonantal.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fonema e Letra</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Fonema e Letra?",
+          "a": "Letra = representação gráfica."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Sociologia",
+            "Química",
+            "Fonema e Letra"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Matemática",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Substantivo: Classificação Completa",
+      "slug": "substantivo-classificacao-completa",
+      "desc": "Comum/Próprio, Concreto/Abstrato, Simples/Composto (guarda-chuva), Primitivo/Derivado (pedra→pedreir...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Comum/Próprio, Concreto/Abstrato, Simples/Composto (guarda-chuva), Primitivo/Derivado (pedra→pedreira), Coletivos (cardume, alcateia)..",
+      "body": "<p>Comum/Próprio, Concreto/Abstrato, Simples/Composto (guarda-chuva), Primitivo/Derivado (pedra→pedreira), Coletivos (cardume, alcateia).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Literatura",
+            "Substantivo: Classificação Completa"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Literatura",
+            "Matemática",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Artigo Definido e Indefinido",
+      "slug": "artigo-definido-e-indefinido",
+      "desc": "Definido (o, a, os, as): algo conhecido. Indefinido (um, uma, uns, umas): algo novo. \"O menino\" vs....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Definido (o, a, os, as): algo conhecido. Indefinido (um, uma, uns, umas): algo novo.",
+      "body": "<h2>O que você precisa saber</h2><p>Definido (o, a, os, as): algo conhecido.</p><h2>Contexto e Desenvolvimento</h2><p>Indefinido (um, uma, uns, umas): algo novo. \"O menino\" vs.</p><h2>Consequências e Legado</h2><p>\"Um menino\".</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Artigo Definido e Indefinido</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Artigo Definido e Indefinido?",
+          "a": "Definido (o, a, os, as): algo conhecido."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Física",
+            "Geografia",
+            "Artigo Definido e Indefinido"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Geografia",
+            "Física",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Adjetivo: Grau e Locução",
+      "slug": "adjetivo-grau-e-locucao",
+      "desc": "Comparativo (mais bonito que). Superlativo (o mais bonito / bonitíssimo). Locução adjetiva: de ferro...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Comparativo (mais bonito que). Superlativo (o mais bonito / bonitíssimo).",
+      "body": "<h2>O que você precisa saber</h2><p>Comparativo (mais bonito que).</p><h2>Contexto e Desenvolvimento</h2><p>Superlativo (o mais bonito / bonitíssimo). Locução adjetiva: de ferro = férreo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Adjetivo: Grau e Locução</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Adjetivo: Grau e Locução?",
+          "a": "Comparativo (mais bonito que)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Adjetivo: Grau e Locução",
+            "Sociologia",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Biologia",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Numeral",
+      "slug": "numeral",
+      "desc": "Cardinal (um, dois, três), Ordinal (primeiro, segundo), Multiplicativo (dobro, triplo), Fracionário...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Cardinal (um, dois, três), Ordinal (primeiro, segundo), Multiplicativo (dobro, triplo), Fracionário (metade, terço)..",
+      "body": "<p>Cardinal (um, dois, três), Ordinal (primeiro, segundo), Multiplicativo (dobro, triplo), Fracionário (metade, terço).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Numeral",
+            "Biologia",
+            "Literatura",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Biologia",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Pronomes Pessoais, Possessivos e Demonstrativos",
+      "slug": "pronomes-pessoais-possessivos-e-demonstrativos",
+      "desc": "Pessoais (eu, tu, ele). Possessivos (meu, teu, seu). Demonstrativos (este/perto, esse/médio, aquele/...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Pessoais (eu, tu, ele). Possessivos (meu, teu, seu).",
+      "body": "<h2>O que você precisa saber</h2><p>Pessoais (eu, tu, ele).</p><h2>Contexto e Desenvolvimento</h2><p>Possessivos (meu, teu, seu). Demonstrativos (este/perto, esse/médio, aquele/longe).</p><h3>Destaques</h3><ul><li>eu, tu, ele</li><li>meu, teu, seu</li><li>este/perto, esse/médio, aquele/longe</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Pronomes Pessoais, Possessivos e Demonstrativos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Pronomes Pessoais, Possessivos e Demonstrativos?",
+          "a": "Pessoais (eu, tu, ele)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Biologia",
+            "Geografia",
+            "Pronomes Pessoais, Possessivos e Demonstrativos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Geografia",
+            "Química",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Verbo: Modos Indicativo e Subjuntivo",
+      "slug": "verbo-modos-indicativo-e-subjuntivo",
+      "desc": "Indicativo: certeza (eu estudo). Subjuntivo: dúvida/desejo (se eu estudasse). Imperativo: ordem (est...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Indicativo: certeza (eu estudo). Subjuntivo: dúvida/desejo (se eu estudasse).",
+      "body": "<h2>O que você precisa saber</h2><p>Indicativo: certeza (eu estudo).</p><h2>Contexto e Desenvolvimento</h2><p>Subjuntivo: dúvida/desejo (se eu estudasse). Imperativo: ordem (estude!).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Verbo: Modos Indicativo e Subjuntivo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Verbo: Modos Indicativo e Subjuntivo?",
+          "a": "Indicativo: certeza (eu estudo)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Verbo: Modos Indicativo e Subjuntivo",
+            "Biologia",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Biologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Mito, Lenda e Fábula",
+      "slug": "generos-mito-lenda-e-fabula",
+      "desc": "Mito: explica origem (Ícaro). Lenda: mistura real+fantasia (Saci). Fábula: animais com moral (Esopo,...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Mito: explica origem (Ícaro). Lenda: mistura real+fantasia (Saci).",
+      "body": "<h2>O que você precisa saber</h2><p>Mito: explica origem (Ícaro).</p><h2>Contexto e Desenvolvimento</h2><p>Lenda: mistura real+fantasia (Saci). Fábula: animais com moral (Esopo, La Fontaine).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: Mito, Lenda e Fábula</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Mito, Lenda e Fábula?",
+          "a": "Mito: explica origem (Ícaro)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Filosofia",
+            "Matemática",
+            "Gêneros: Mito, Lenda e Fábula"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: HQ, Charge e Tirinha",
+      "slug": "generos-hq-charge-e-tirinha",
+      "desc": "Linguagem verbal + visual. Balões de fala/pensamento. Onomatopeias. Charge: humor/crítica política....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Linguagem verbal + visual. Balões de fala/pensamento.",
+      "body": "<h2>O que você precisa saber</h2><p>Linguagem verbal + visual.</p><h2>Contexto e Desenvolvimento</h2><p>Balões de fala/pensamento. Onomatopeias.</p><h2>Consequências e Legado</h2><p>Charge: humor/crítica política.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: HQ, Charge e Tirinha</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: HQ, Charge e Tirinha?",
+          "a": "Linguagem verbal + visual."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Química",
+            "Gêneros: HQ, Charge e Tirinha"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Química",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Interpretação de Texto: Implícito e Explícito",
+      "slug": "interpretacao-de-texto-implicito-e-explicito",
+      "desc": "Explícito: está escrito. Implícito: está nas entrelinhas. Inferência. Pressupostos e subentendidos....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Explícito: está escrito. Implícito: está nas entrelinhas.",
+      "body": "<h2>O que você precisa saber</h2><p>Explícito: está escrito.</p><h2>Contexto e Desenvolvimento</h2><p>Implícito: está nas entrelinhas. Inferência.</p><h2>Consequências e Legado</h2><p>Pressupostos e subentendidos.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Interpretação de Texto: Implícito e Explícito</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Interpretação de Texto: Implícito e Explícito?",
+          "a": "Explícito: está escrito."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Interpretação de Texto: Implícito e Explícito",
+            "Física",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Física",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Ortografia: Uso do Hífen",
+      "slug": "ortografia-uso-do-hifen",
+      "desc": "Prefixos com hífen (ex-, vice-, pré-, pós-). Regras do Novo Acordo. Compostas: guarda-chuva, girasso...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Prefixos com hífen (ex-, vice-, pré-, pós-). Regras do Novo Acordo.",
+      "body": "<h2>O que você precisa saber</h2><p>Prefixos com hífen (ex-, vice-, pré-, pós-).</p><h2>Contexto e Desenvolvimento</h2><p>Regras do Novo Acordo. Compostas: guarda-chuva, girassol.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Ortografia: Uso do Hífen</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Ortografia: Uso do Hífen?",
+          "a": "Prefixos com hífen (ex-, vice-, pré-, pós-)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Geografia",
+            "Sociologia",
+            "Ortografia: Uso do Hífen"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Paragrafação e Coesão",
+      "slug": "paragrafacao-e-coesao",
+      "desc": "Parágrafo = 1 ideia central. Coesão: conectivos (mas, porém, portanto, pois). Referência pronominal...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Parágrafo = 1 ideia central. Coesão: conectivos (mas, porém, portanto, pois).",
+      "body": "<h2>O que você precisa saber</h2><p>Parágrafo = 1 ideia central.</p><h2>Contexto e Desenvolvimento</h2><p>Coesão: conectivos (mas, porém, portanto, pois). Referência pronominal (ele, este, aquele). ## 7º Ano — Sintaxe Básica e Tipos Textuais</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Paragrafação e Coesão</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Paragrafação e Coesão?",
+          "a": "Parágrafo = 1 ideia central."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Coesão: conectivos (mas, porém, portanto, pois). Referência pronominal (ele, este, aquele)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 6º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Paragrafação e Coesão",
+            "Sociologia",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Sujeito: Tipos",
+      "slug": "sujeito-tipos",
+      "desc": "Simples (1 núcleo), Composto (2+ núcleos), Oculto/Desinencial (implícito), Indeterminado (\"Dizem que...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Simples (1 núcleo), Composto (2+ núcleos), Oculto/Desinencial (implícito), Indeterminado (\"Dizem que...\"), Inexistente (verbos impessoais: \"Choveu\")..",
+      "body": "<p>Simples (1 núcleo), Composto (2+ núcleos), Oculto/Desinencial (implícito), Indeterminado (\"Dizem que...\"), Inexistente (verbos impessoais: \"Choveu\").</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sujeito: Tipos",
+            "Sociologia",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Predicado: Verbal, Nominal e Verbo-Nominal",
+      "slug": "predicado-verbal-nominal-e-verbo-nominal",
+      "desc": "Verbal: ação (O menino correu). Nominal: estado (O menino é inteligente). Verbo-Nominal: ação+estado...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Verbal: ação (O menino correu). Nominal: estado (O menino é inteligente).",
+      "body": "<h2>O que você precisa saber</h2><p>Verbal: ação (O menino correu).</p><h2>Contexto e Desenvolvimento</h2><p>Nominal: estado (O menino é inteligente). Verbo-Nominal: ação+estado (O menino chegou cansado).</p><h3>Destaques</h3><ul><li>O menino correu</li><li>O menino é inteligente</li><li>O menino chegou cansado</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Predicado: Verbal, Nominal e Verbo-Nominal</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Predicado: Verbal, Nominal e Verbo-Nominal?",
+          "a": "Verbal: ação (O menino correu)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Química",
+            "Predicado: Verbal, Nominal e Verbo-Nominal"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Geografia",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Verbos de Ligação",
+      "slug": "verbos-de-ligacao",
+      "desc": "Ser, estar, parecer, permanecer, ficar, continuar, tornar-se. Ligam sujeito ao predicativo. Não indi...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Ser, estar, parecer, permanecer, ficar, continuar, tornar-se. Ligam sujeito ao predicativo.",
+      "body": "<h2>O que você precisa saber</h2><p>Ser, estar, parecer, permanecer, ficar, continuar, tornar-se.</p><h2>Contexto e Desenvolvimento</h2><p>Ligam sujeito ao predicativo. Não indicam ação.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Verbos de Ligação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Verbos de Ligação?",
+          "a": "Ser, estar, parecer, permanecer, ficar, continuar, tornar-se."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Química",
+            "Geografia",
+            "Verbos de Ligação"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Geografia",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Transitividade Verbal",
+      "slug": "transitividade-verbal",
+      "desc": "Transitivo direto (VTD): pede objeto sem preposição (amo música). Transitivo indireto (VTI): pede co...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Transitivo direto (VTD): pede objeto sem preposição (amo música). Transitivo indireto (VTI): pede com preposição (gosto de música).",
+      "body": "<h2>O que você precisa saber</h2><p>Transitivo direto (VTD): pede objeto sem preposição (amo música).</p><h2>Contexto e Desenvolvimento</h2><p>Transitivo indireto (VTI): pede com preposição (gosto de música). Intransitivo (VI): não pede objeto (chove).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Transitividade Verbal</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Transitividade Verbal?",
+          "a": "Transitivo direto (VTD): pede objeto sem preposição (amo música)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Biologia",
+            "Física",
+            "Transitividade Verbal"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Biologia",
+            "Química",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Objeto Direto e Indireto",
+      "slug": "objeto-direto-e-indireto",
+      "desc": "OD: complemento sem preposição (Li o livro). OI: complemento com preposição (Gosto de pizza). Identi...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "OD: complemento sem preposição (Li o livro). OI: complemento com preposição (Gosto de pizza).",
+      "body": "<h2>O que você precisa saber</h2><p>OD: complemento sem preposição (Li o livro).</p><h2>Contexto e Desenvolvimento</h2><p>OI: complemento com preposição (Gosto de pizza). Identificar na frase.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Objeto Direto e Indireto</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Objeto Direto e Indireto?",
+          "a": "OD: complemento sem preposição (Li o livro)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Objeto Direto e Indireto",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Literatura",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Advérbios e Locuções Adverbiais",
+      "slug": "adverbios-e-locucoes-adverbiais",
+      "desc": "Tempo (ontem, hoje, amanhã), Lugar (aqui, ali, longe), Modo (bem, mal, devagar), Intensidade (muito,...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Tempo (ontem, hoje, amanhã), Lugar (aqui, ali, longe), Modo (bem, mal, devagar), Intensidade (muito, pouco), Negação (não, nunca), Dúvida (talvez)..",
+      "body": "<p>Tempo (ontem, hoje, amanhã), Lugar (aqui, ali, longe), Modo (bem, mal, devagar), Intensidade (muito, pouco), Negação (não, nunca), Dúvida (talvez).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Advérbios e Locuções Adverbiais",
+            "Matemática",
+            "Geografia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Conjunções Coordenativas",
+      "slug": "conjuncoes-coordenativas",
+      "desc": "Aditivas (e, nem), Adversativas (mas, porém, contudo), Alternativas (ou...ou), Conclusivas (portanto...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Aditivas (e, nem), Adversativas (mas, porém, contudo), Alternativas (ou...ou), Conclusivas (portanto, logo), Explicativas (pois, porque)..",
+      "body": "<p>Aditivas (e, nem), Adversativas (mas, porém, contudo), Alternativas (ou...ou), Conclusivas (portanto, logo), Explicativas (pois, porque).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Biologia",
+            "Sociologia",
+            "Conjunções Coordenativas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Biologia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Diário e Blog",
+      "slug": "generos-diario-e-blog",
+      "desc": "Diário: texto íntimo, 1ª pessoa, data. Blog: diário digital público. Linguagem pessoal e subjetiva....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Diário: texto íntimo, 1ª pessoa, data. Blog: diário digital público.",
+      "body": "<h2>O que você precisa saber</h2><p>Diário: texto íntimo, 1ª pessoa, data.</p><h2>Contexto e Desenvolvimento</h2><p>Blog: diário digital público. Linguagem pessoal e subjetiva.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: Diário e Blog</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Diário e Blog?",
+          "a": "Diário: texto íntimo, 1ª pessoa, data."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Química",
+            "Matemática",
+            "Gêneros: Diário e Blog"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Química",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Entrevista",
+      "slug": "generos-entrevista",
+      "desc": "Perguntas e respostas. Entrevistador + entrevistado. Objetiva vs. subjetiva. Técnicas de perguntas a...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Perguntas e respostas. Entrevistador + entrevistado.",
+      "body": "<h2>O que você precisa saber</h2><p>Perguntas e respostas.</p><h2>Contexto e Desenvolvimento</h2><p>Entrevistador + entrevistado. Objetiva vs. subjetiva.</p><h2>Consequências e Legado</h2><p>Técnicas de perguntas abertas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: Entrevista</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Entrevista?",
+          "a": "Perguntas e respostas."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Sociologia",
+            "Gêneros: Entrevista"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Matemática",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Texto Dramático (Teatro)",
+      "slug": "generos-texto-dramatico-teatro",
+      "desc": "Rubricas (instruções), Falas dos personagens, Atos e cenas. Diferença de narração para encenação....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Rubricas (instruções), Falas dos personagens, Atos e cenas. Diferença de narração para encenação..",
+      "body": "<h2>O que você precisa saber</h2><p>Rubricas (instruções), Falas dos personagens, Atos e cenas.</p><h2>Contexto e Desenvolvimento</h2><p>Diferença de narração para encenação.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: Texto Dramático (Teatro)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Texto Dramático (Teatro)?",
+          "a": "Rubricas (instruções), Falas dos personagens, Atos e cenas."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Gêneros: Texto Dramático (Teatro)",
+            "Biologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Literatura",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Concordância Verbal",
+      "slug": "concordancia-verbal",
+      "desc": "Verbo concorda com sujeito. Casos especiais: sujeito composto, coletivo, \"a maioria de\", partícula \"...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Verbo concorda com sujeito. Casos especiais: sujeito composto, coletivo, \"a maioria de\", partícula \"se\", verbo \"haver\" impessoal..",
+      "body": "<h2>O que você precisa saber</h2><p>Verbo concorda com sujeito.</p><h2>Contexto e Desenvolvimento</h2><p>Casos especiais: sujeito composto, coletivo, \"a maioria de\", partícula \"se\", verbo \"haver\" impessoal.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Concordância Verbal</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Concordância Verbal?",
+          "a": "Verbo concorda com sujeito."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Concordância Verbal",
+            "Física",
+            "Filosofia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Filosofia",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Regência Verbal",
+      "slug": "regencia-verbal",
+      "desc": "Verbos que mudam de sentido conforme a preposição. Assistir a (ver) vs. Assistir (ajudar). Visar a (...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "7º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Verbos que mudam de sentido conforme a preposição. ## 8º Ano — Sintaxe Avançada e Argumentação.",
+      "body": "<h2>O que você precisa saber</h2><p>Verbos que mudam de sentido conforme a preposição.</p><h2>Contexto e Desenvolvimento</h2><p>Assistir a (ver) vs. Assistir (ajudar). Visar a (desejar) vs.</p><h2>Consequências e Legado</h2><p>Visar (mirar). ## 8º Ano — Sintaxe Avançada e Argumentação</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Regência Verbal</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Regência Verbal?",
+          "a": "Verbos que mudam de sentido conforme a preposição."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 7º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Regência Verbal",
+            "Matemática",
+            "Geografia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Período Simples e Composto",
+      "slug": "periodo-simples-e-composto",
+      "desc": "Simples: 1 oração. Composto: 2+ orações. Coordenação (independentes) vs. Subordinação (dependentes)....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Coordenação (independentes) vs. Subordinação (dependentes)..",
+      "body": "<h2>O que você precisa saber</h2><p>Simples: 1 oração.</p><h2>Contexto e Desenvolvimento</h2><p>Composto: 2+ orações. Coordenação (independentes) vs.</p><h2>Consequências e Legado</h2><p>Subordinação (dependentes).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Período Simples e Composto</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Período Simples e Composto?",
+          "a": "Coordenação (independentes) vs."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Sociologia",
+            "Filosofia",
+            "Período Simples e Composto"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Filosofia",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Orações Coordenadas",
+      "slug": "oracoes-coordenadas",
+      "desc": "Sindéticas (com conjunção): aditiva, adversativa, alternativa, conclusiva, explicativa. Assindéticas...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Sindéticas (com conjunção): aditiva, adversativa, alternativa, conclusiva, explicativa. Assindéticas (sem conjunção)..",
+      "body": "<h2>O que você precisa saber</h2><p>Sindéticas (com conjunção): aditiva, adversativa, alternativa, conclusiva, explicativa.</p><h2>Contexto e Desenvolvimento</h2><p>Assindéticas (sem conjunção).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Orações Coordenadas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Orações Coordenadas?",
+          "a": "Sindéticas (com conjunção): aditiva, adversativa, alternativa, conclusiva, explicativa."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Orações Coordenadas",
+            "Física",
+            "Química"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Filosofia",
+            "Física",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Orações Subordinadas Substantivas",
+      "slug": "oracoes-subordinadas-substantivas",
+      "desc": "Subjetiva, Objetiva Direta, Objetiva Indireta, Predicativa, Completiva Nominal, Apositiva....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Subjetiva, Objetiva Direta, Objetiva Indireta, Predicativa, Completiva Nominal, Apositiva..",
+      "body": "<p>Subjetiva, Objetiva Direta, Objetiva Indireta, Predicativa, Completiva Nominal, Apositiva.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Matemática",
+            "Orações Subordinadas Substantivas",
+            "Geografia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Sociologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Orações Subordinadas Adjetivas",
+      "slug": "oracoes-subordinadas-adjetivas",
+      "desc": "Restritiva (sem vírgula — restringe): O aluno que estudou passou. Explicativa (com vírgula — explica...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Restritiva (sem vírgula — restringe): O aluno que estudou passou. Explicativa (com vírgula — explica): Brasília, que é a capital, fica no Centro-Oeste..",
+      "body": "<h2>O que você precisa saber</h2><p>Restritiva (sem vírgula — restringe): O aluno que estudou passou.</p><h2>Contexto e Desenvolvimento</h2><p>Explicativa (com vírgula — explica): Brasília, que é a capital, fica no Centro-Oeste.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Orações Subordinadas Adjetivas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Orações Subordinadas Adjetivas?",
+          "a": "Restritiva (sem vírgula — restringe): O aluno que estudou passou."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Orações Subordinadas Adjetivas",
+            "Biologia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Física",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Orações Subordinadas Adverbiais",
+      "slug": "oracoes-subordinadas-adverbiais",
+      "desc": "Causal, concessiva, condicional, temporal, final, comparativa, conformativa, consecutiva, proporcion...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Causal, concessiva, condicional, temporal, final, comparativa, conformativa, consecutiva, proporcional..",
+      "body": "<p>Causal, concessiva, condicional, temporal, final, comparativa, conformativa, consecutiva, proporcional.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Química",
+            "Filosofia",
+            "Orações Subordinadas Adverbiais"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Filosofia",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Vozes Verbais",
+      "slug": "vozes-verbais",
+      "desc": "Ativa: sujeito pratica ação (O gato comeu o peixe). Passiva: sujeito sofre ação (O peixe foi comido...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Ativa: sujeito pratica ação (O gato comeu o peixe). Passiva: sujeito sofre ação (O peixe foi comido pelo gato).",
+      "body": "<h2>O que você precisa saber</h2><p>Ativa: sujeito pratica ação (O gato comeu o peixe).</p><h2>Contexto e Desenvolvimento</h2><p>Passiva: sujeito sofre ação (O peixe foi comido pelo gato). Reflexiva: sujeito pratica e sofre (Ele se machucou).</p><h3>Destaques</h3><ul><li>O gato comeu o peixe</li><li>O peixe foi comido pelo gato</li><li>Ele se machucou</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Vozes Verbais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Vozes Verbais?",
+          "a": "Ativa: sujeito pratica ação (O gato comeu o peixe)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Literatura",
+            "Vozes Verbais",
+            "Química"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Química",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Crase: Regras Completas",
+      "slug": "crase-regras-completas",
+      "desc": "Fusão a+a. Usar: antes de feminino (Fui à escola). Não usar: antes de masculino, verbo, pronome, cid...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Usar: antes de feminino (Fui à escola). Não usar: antes de masculino, verbo, pronome, cidade sem artigo.",
+      "body": "<h2>O que você precisa saber</h2><p>Fusão a+a.</p><h2>Contexto e Desenvolvimento</h2><p>Usar: antes de feminino (Fui à escola). Não usar: antes de masculino, verbo, pronome, cidade sem artigo.</p><h2>Consequências e Legado</h2><p>Facultativa: \"até a/à\".</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Crase: Regras Completas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Crase: Regras Completas?",
+          "a": "Usar: antes de feminino (Fui à escola)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Geografia",
+            "Biologia",
+            "Crase: Regras Completas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Biologia",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Figuras de Linguagem Avançadas",
+      "slug": "figuras-de-linguagem-avancadas",
+      "desc": "Metonímia (parte pelo todo), Ironia (dizer o contrário), Eufemismo (suavizar), Antítese (oposição),...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Metonímia (parte pelo todo), Ironia (dizer o contrário), Eufemismo (suavizar), Antítese (oposição), Paradoxo (contradição aparente), Aliteração, Assonância..",
+      "body": "<p>Metonímia (parte pelo todo), Ironia (dizer o contrário), Eufemismo (suavizar), Antítese (oposição), Paradoxo (contradição aparente), Aliteração, Assonância.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Figuras de Linguagem Avançadas",
+            "Filosofia",
+            "Química",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Artigo de Opinião",
+      "slug": "generos-artigo-de-opiniao",
+      "desc": "Tese + argumentos + contra-argumentos + conclusão. 1ª ou 3ª pessoa. Diferença de fato e opinião....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Tese + argumentos + contra-argumentos + conclusão. Diferença de fato e opinião..",
+      "body": "<h2>O que você precisa saber</h2><p>Tese + argumentos + contra-argumentos + conclusão.</p><h2>Contexto e Desenvolvimento</h2><p>1ª ou 3ª pessoa. Diferença de fato e opinião.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: Artigo de Opinião</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Artigo de Opinião?",
+          "a": "Tese + argumentos + contra-argumentos + conclusão."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Gêneros: Artigo de Opinião",
+            "Matemática",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Física",
+            "Matemática",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Resenha e Resumo",
+      "slug": "generos-resenha-e-resumo",
+      "desc": "Resumo: condensar conteúdo (objetivo). Resenha: resumo + opinião crítica (avaliação). Estrutura e li...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Resumo: condensar conteúdo (objetivo). Resenha: resumo + opinião crítica (avaliação).",
+      "body": "<h2>O que você precisa saber</h2><p>Resumo: condensar conteúdo (objetivo).</p><h2>Contexto e Desenvolvimento</h2><p>Resenha: resumo + opinião crítica (avaliação). Estrutura e linguagem.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: Resenha e Resumo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Resenha e Resumo?",
+          "a": "Resumo: condensar conteúdo (objetivo)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Filosofia",
+            "Gêneros: Resenha e Resumo"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Filosofia",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Variação Linguística Aprofundada",
+      "slug": "variacao-linguistica-aprofundada",
+      "desc": "Diatópica (regional), Diastrática (social), Diafásica (formal/informal), Diacrônica (temporal). Prec...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Diatópica (regional), Diastrática (social), Diafásica (formal/informal), Diacrônica (temporal). Preconceito linguístico..",
+      "body": "<h2>O que você precisa saber</h2><p>Diatópica (regional), Diastrática (social), Diafásica (formal/informal), Diacrônica (temporal).</p><h2>Contexto e Desenvolvimento</h2><p>Preconceito linguístico.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Variação Linguística Aprofundada</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Variação Linguística Aprofundada?",
+          "a": "Diatópica (regional), Diastrática (social), Diafásica (formal/informal), Diacrônica (temporal)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Matemática",
+            "Variação Linguística Aprofundada"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Semântica: Polissemia, Homonímia, Paronímia",
+      "slug": "semantica-polissemia-homonimia-paronimia",
+      "desc": "Polissemia: 1 palavra, vários sentidos (manga). Homônimos: grafia/som iguais, sentidos diferentes (b...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "8º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Polissemia: 1 palavra, vários sentidos (manga). Homônimos: grafia/som iguais, sentidos diferentes (banco).",
+      "body": "<h2>O que você precisa saber</h2><p>Polissemia: 1 palavra, vários sentidos (manga).</p><h2>Contexto e Desenvolvimento</h2><p>Homônimos: grafia/som iguais, sentidos diferentes (banco). Parônimos: parecidos (comprimento/cumprimento). ## 9º Ano — Consolidação e Preparação para o Médio</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Semântica: Polissemia, Homonímia, Paronímia</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Semântica: Polissemia, Homonímia, Paronímia?",
+          "a": "Polissemia: 1 palavra, vários sentidos (manga)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Homônimos: grafia/som iguais, sentidos diferentes (banco). Parônimos: parecidos (comprimento/cumprimento)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 8º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Semântica: Polissemia, Homonímia, Paronímia",
+            "Química",
+            "Física",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Química",
+            "Física",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Revisão: Análise Sintática Completa",
+      "slug": "revisao-analise-sintatica-completa",
+      "desc": "Todos os termos da oração: essenciais, integrantes e acessórios. Exercícios de análise completa....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Todos os termos da oração: essenciais, integrantes e acessórios. Exercícios de análise completa..",
+      "body": "<h2>O que você precisa saber</h2><p>Todos os termos da oração: essenciais, integrantes e acessórios.</p><h2>Contexto e Desenvolvimento</h2><p>Exercícios de análise completa.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Revisão: Análise Sintática Completa</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Revisão: Análise Sintática Completa?",
+          "a": "Todos os termos da oração: essenciais, integrantes e acessórios."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Revisão: Análise Sintática Completa",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Revisão: Período Composto",
+      "slug": "revisao-periodo-composto",
+      "desc": "Coordenação e subordinação. Orações reduzidas. Mistura de ambos no mesmo período....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Coordenação e subordinação. Mistura de ambos no mesmo período..",
+      "body": "<h2>O que você precisa saber</h2><p>Coordenação e subordinação.</p><h2>Contexto e Desenvolvimento</h2><p>Orações reduzidas. Mistura de ambos no mesmo período.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Revisão: Período Composto</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Revisão: Período Composto?",
+          "a": "Coordenação e subordinação."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Revisão: Período Composto",
+            "Literatura",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Literatura",
+            "Biologia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Pontuação Avançada",
+      "slug": "pontuacao-avancada",
+      "desc": "Vírgula em todas as situações. Ponto-e-vírgula. Travessão (explicativo e diálogo). Aspas. Parênteses...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Vírgula em todas as situações. Travessão (explicativo e diálogo).",
+      "body": "<h2>O que você precisa saber</h2><p>Vírgula em todas as situações.</p><h2>Contexto e Desenvolvimento</h2><p>Ponto-e-vírgula. Travessão (explicativo e diálogo). Aspas.</p><h2>Consequências e Legado</h2><p>Parênteses.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Pontuação Avançada</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Pontuação Avançada?",
+          "a": "Vírgula em todas as situações."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Matemática",
+            "Biologia",
+            "Pontuação Avançada"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Biologia",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Colocação Pronominal",
+      "slug": "colocacao-pronominal",
+      "desc": "Próclise (antes: não ME diga). Ênclise (depois: diga-ME). Mesóclise (meio: dir-lhe-ia). Regras de at...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Próclise (antes: não ME diga). Ênclise (depois: diga-ME).",
+      "body": "<h2>O que você precisa saber</h2><p>Próclise (antes: não ME diga).</p><h2>Contexto e Desenvolvimento</h2><p>Ênclise (depois: diga-ME). Mesóclise (meio: dir-lhe-ia).</p><h3>Destaques</h3><ul><li>antes: não ME diga</li><li>depois: diga-ME</li><li>meio: dir-lhe-ia</li></ul><h2>Consequências e Legado</h2><p>Regras de atração.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Colocação Pronominal</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Colocação Pronominal?",
+          "a": "Próclise (antes: não ME diga)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Literatura",
+            "Colocação Pronominal"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Literatura",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Concordância Nominal Avançada",
+      "slug": "concordancia-nominal-avancada",
+      "desc": "\"É proibido/proibida entrada\". \"Anexo/Anexa\". \"Bastante/Bastantes\". \"Meio/Meia\". Casos especiais....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "\"É proibido/proibida entrada\".",
+      "body": "<h2>O que você precisa saber</h2><p>\"É proibido/proibida entrada\".</p><h2>Contexto e Desenvolvimento</h2><p>\"Anexo/Anexa\". \"Bastante/Bastantes\". \"Meio/Meia\".</p><h2>Consequências e Legado</h2><p>Casos especiais.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Concordância Nominal Avançada</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Química",
+            "Física",
+            "Concordância Nominal Avançada"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Física",
+            "Química",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Regência Nominal e Verbal",
+      "slug": "regencia-nominal-e-verbal",
+      "desc": "Nominal: substantivos/adjetivos + preposição (medo de, apto a). Verbal: revisão completa. Exercícios...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Nominal: substantivos/adjetivos + preposição (medo de, apto a). Verbal: revisão completa.",
+      "body": "<h2>O que você precisa saber</h2><p>Nominal: substantivos/adjetivos + preposição (medo de, apto a).</p><h2>Contexto e Desenvolvimento</h2><p>Verbal: revisão completa. Exercícios com ENEM.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Regência Nominal e Verbal</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Regência Nominal e Verbal?",
+          "a": "Nominal: substantivos/adjetivos + preposição (medo de, apto a)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Sociologia",
+            "Matemática",
+            "Regência Nominal e Verbal"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Dissertação-Argumentativa",
+      "slug": "generos-dissertacao-argumentativa",
+      "desc": "Estrutura ENEM: Introdução (tese) → Desenvolvimento (2 argumentos) → Conclusão (proposta de interven...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Estrutura ENEM: Introdução (tese) → Desenvolvimento (2 argumentos) → Conclusão (proposta de intervenção).",
+      "body": "<h2>O que você precisa saber</h2><p>Estrutura ENEM: Introdução (tese) → Desenvolvimento (2 argumentos) → Conclusão (proposta de intervenção).</p><h2>Contexto e Desenvolvimento</h2><p>5 competências.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: Dissertação-Argumentativa</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Gêneros: Dissertação-Argumentativa",
+            "Literatura",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Literatura",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Crônica Argumentativa",
+      "slug": "generos-cronica-argumentativa",
+      "desc": "Parte do cotidiano para defender opinião. Tom leve mas com tese. Paulo Mendes Campos, Rubem Braga....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Parte do cotidiano para defender opinião. Tom leve mas com tese.",
+      "body": "<h2>O que você precisa saber</h2><p>Parte do cotidiano para defender opinião.</p><h2>Contexto e Desenvolvimento</h2><p>Tom leve mas com tese. Paulo Mendes Campos, Rubem Braga.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gêneros: Crônica Argumentativa</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Crônica Argumentativa?",
+          "a": "Parte do cotidiano para defender opinião."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Gêneros: Crônica Argumentativa",
+            "Física",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Física",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Intertextualidade",
+      "slug": "intertextualidade",
+      "desc": "Relação entre textos. Citação, paráfrase, paródia, pastiche, epígrafe. Identificar referências....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Citação, paráfrase, paródia, pastiche, epígrafe. Identificar referências..",
+      "body": "<h2>O que você precisa saber</h2><p>Relação entre textos.</p><h2>Contexto e Desenvolvimento</h2><p>Citação, paráfrase, paródia, pastiche, epígrafe. Identificar referências.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Intertextualidade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Intertextualidade?",
+          "a": "Citação, paráfrase, paródia, pastiche, epígrafe."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Física",
+            "Matemática",
+            "Intertextualidade"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Funções da Linguagem",
+      "slug": "funcoes-da-linguagem",
+      "desc": "Referencial (informar), Emotiva (sentimento), Conativa (convencer), Fática (contato), Metalinguístic...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Referencial (informar), Emotiva (sentimento), Conativa (convencer), Fática (contato), Metalinguística (sobre a língua), Poética (estética)..",
+      "body": "<p>Referencial (informar), Emotiva (sentimento), Conativa (convencer), Fática (contato), Metalinguística (sobre a língua), Poética (estética).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Sociologia",
+            "Funções da Linguagem",
+            "Geografia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Interpretação de Textos Complexos (ENEM)",
+      "slug": "interpretacao-de-textos-complexos-enem",
+      "desc": "Textos multimodais, infográficos, charges, letras de música. Identificar tema, tese, argumento, iron...",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Textos multimodais, infográficos, charges, letras de música. Identificar tema, tese, argumento, ironia, crítica..",
+      "body": "<h2>O que você precisa saber</h2><p>Textos multimodais, infográficos, charges, letras de música.</p><h2>Contexto e Desenvolvimento</h2><p>Identificar tema, tese, argumento, ironia, crítica.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Interpretação de Textos Complexos (ENEM)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Interpretação de Textos Complexos (ENEM)?",
+          "a": "Textos multimodais, infográficos, charges, letras de música."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Matemática",
+            "Interpretação de Textos Complexos (ENEM)"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Geografia",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Produção Textual: Revisão e Reescrita",
+      "slug": "producao-textual-revisao-e-reescrita",
+      "desc": "Planejar → Escrever → Revisar → Reescrever. Coesão, coerência, gramática, adequação ao gênero....",
+      "category": "Contemporânea",
+      "difficulty": "Básico",
+      "grade": "9º ano",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Planejar → Escrever → Revisar → Reescrever. Coesão, coerência, gramática, adequação ao gênero..",
+      "body": "<h2>O que você precisa saber</h2><p>Planejar → Escrever → Revisar → Reescrever.</p><h2>Contexto e Desenvolvimento</h2><p>Coesão, coerência, gramática, adequação ao gênero.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Produção Textual: Revisão e Reescrita</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Produção Textual: Revisão e Reescrita?",
+          "a": "Planejar → Escrever → Revisar → Reescrever."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental, na disciplina de Português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Produção Textual: Revisão e Reescrita",
+            "Geografia",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Geografia",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

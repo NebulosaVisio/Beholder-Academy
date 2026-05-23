@@ -1,0 +1,1952 @@
+{
+  "subject": "Geografia",
+  "slug": "geografia",
+  "color": "var(--geografia)",
+  "icon": "globe",
+  "articles": [
+    {
+      "title": "Cartografia: Projeções, Escalas e Coordenadas",
+      "slug": "cartografia-projecoes-escalas-e-coordenadas",
+      "desc": "Projeções: Mercator (conforme, distorce áreas polares — eurocentrismo), Peters (equivalente, mantém...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Projeções: Mercator (conforme, distorce áreas polares — eurocentrismo), Peters (equivalente, mantém áreas reais), Azimutal (visão polar). Escala gráfica e numérica (1:100.000 = 1cm no mapa = 1km real).",
+      "body": "<h2>O que você precisa saber</h2><p>Projeções: Mercator (conforme, distorce áreas polares — eurocentrismo), Peters (equivalente, mantém áreas reais), Azimutal (visão polar).</p><h2>Contexto e Desenvolvimento</h2><p>Escala gráfica e numérica (1:100.000 = 1cm no mapa = 1km real). Coordenadas: Latitude (0°-90° N/S, paralelos, Equador=0°) e Longitude (0°-180° L/O, meridianos, Greenwich=0°).</p><h3>Destaques</h3><ul><li>conforme, distorce áreas polares — eurocentrismo</li><li>equivalente, mantém áreas reais</li><li>visão polar</li><li>1:100.000 = 1cm no mapa = 1km real</li><li>0°-90° N/S, paralelos, Equador=0°</li><li>0°-180° L/O, meridianos, Greenwich=0°</li></ul><h2>Consequências e Legado</h2><p>GPS: latitude+longitude com satélites.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Cartografia: Projeções, Escalas e Coordenadas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Cartografia: Projeções, Escalas e Coordenadas?",
+          "a": "Projeções: Mercator (conforme, distorce áreas polares — eurocentrismo), Peters (equivalente, mantém áreas reais), Azimutal (visão polar)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Escala gráfica e numérica (1:100.000 = 1cm no mapa = 1km real). Coordenadas: Latitude (0°-90° N/S, paralelos, Equador=0°) e Longitude (0°-180° L/O, meridianos, Greenwich=0°)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Cartografia: Projeções, Escalas e Coordenadas",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Literatura",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geologia: Estrutura Interna da Terra",
+      "slug": "geologia-estrutura-interna-da-terra",
+      "desc": "Crosta (fina, 5-70km), Manto (sólido/plástico, ~2.900km), Núcleo externo (líquido, ferro-níquel) e N...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Crosta (fina, 5-70km), Manto (sólido/plástico, ~2.900km), Núcleo externo (líquido, ferro-níquel) e Núcleo interno (sólido). Placas tectônicas: 15 grandes placas que se movem ~2-10cm/ano.",
+      "body": "<h2>O que você precisa saber</h2><p>Crosta (fina, 5-70km), Manto (sólido/plástico, ~2.900km), Núcleo externo (líquido, ferro-níquel) e Núcleo interno (sólido).</p><h2>Contexto e Desenvolvimento</h2><p>Placas tectônicas: 15 grandes placas que se movem ~2-10cm/ano. Limites convergentes (montanhas, subducção), divergentes (dorsais oceânicas) e transformantes (falhas — San Andreas).</p><h3>Destaques</h3><ul><li>fina, 5-70km</li><li>sólido/plástico, ~2.900km</li><li>líquido, ferro-níquel</li><li>montanhas, subducção</li><li>dorsais oceânicas</li><li>falhas — San Andreas</li></ul><h2>Consequências e Legado</h2><p>Pangeia: supercontinente que se dividiu há ~200 milhões de anos (Wegener: deriva continental).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geologia: Estrutura Interna da Terra</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Geologia: Estrutura Interna da Terra?",
+          "a": "Crosta (fina, 5-70km), Manto (sólido/plástico, ~2.900km), Núcleo externo (líquido, ferro-níquel) e Núcleo interno (sólido)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Placas tectônicas: 15 grandes placas que se movem ~2-10cm/ano. Limites convergentes (montanhas, subducção), divergentes (dorsais oceânicas) e transformantes (falhas — San Andreas)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Biologia",
+            "Física",
+            "Geologia: Estrutura Interna da Terra"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Física",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Relevo: Agentes Internos e Externos",
+      "slug": "relevo-agentes-internos-e-externos",
+      "desc": "Agentes internos (endógenos): tectonismo (dobras, falhas → montanhas), vulcanismo (magma → vulcões,...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Agentes internos (endógenos): tectonismo (dobras, falhas → montanhas), vulcanismo (magma → vulcões, ilhas), terremotos (ondas sísmicas, Escala Richter). Agentes externos (exógenos): intemperismo (decomposição das rochas — físico, químico, biológico), erosão (transporte por água, vento, gelo → esculp.",
+      "body": "<h2>O que você precisa saber</h2><p>Agentes internos (endógenos): tectonismo (dobras, falhas → montanhas), vulcanismo (magma → vulcões, ilhas), terremotos (ondas sísmicas, Escala Richter).</p><h2>Contexto e Desenvolvimento</h2><p>Agentes externos (exógenos): intemperismo (decomposição das rochas — físico, químico, biológico), erosão (transporte por água, vento, gelo → esculpe o relevo), sedimentação (deposição). Tipos de relevo: montanhas, planaltos, planícies, depressões.</p><h3>Destaques</h3><ul><li>dobras, falhas → montanhas</li><li>magma → vulcões, ilhas</li><li>ondas sísmicas, Escala Richter</li><li>decomposição das rochas — físico, químico, biológico</li><li>transporte por água, vento, gelo → esculpe o relevo</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Relevo: Agentes Internos e Externos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Relevo: Agentes Internos e Externos?",
+          "a": "Agentes internos (endógenos): tectonismo (dobras, falhas → montanhas), vulcanismo (magma → vulcões, ilhas), terremotos (ondas sísmicas, Escala Richter)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Química",
+            "Relevo: Agentes Internos e Externos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Hidrografia: Rios, Bacias e Aquíferos",
+      "slug": "hidrografia-rios-bacias-e-aquiferos",
+      "desc": "Bacia hidrográfica: área drenada por um rio e seus afluentes. Nascente, leito, foz (delta ou estuári...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Bacia hidrográfica: área drenada por um rio e seus afluentes. Nascente, leito, foz (delta ou estuário).",
+      "body": "<h2>O que você precisa saber</h2><p>Bacia hidrográfica: área drenada por um rio e seus afluentes. Nascente, leito, foz (delta ou estuário).</p><h2>Contexto e Desenvolvimento</h2><p>Regime: pluvial (chuva), nival (neve), misto. Ciclo hidrológico: evaporação → condensação → precipitação → escoamento/infiltração. Aquíferos: reservas subterrâneas (Guarani: 1,2 milhão km²).</p><h2>Consequências e Legado</h2><p>Oceanos: 70% da superfície, correntes marítimas influenciam clima. Crise hídrica: 2,2 bilhões sem água potável segura.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Hidrografia: Rios, Bacias e Aquíferos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Hidrografia: Rios, Bacias e Aquíferos?",
+          "a": "Bacia hidrográfica: área drenada por um rio e seus afluentes."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Nascente, leito, foz (delta ou estuário). Regime: pluvial (chuva), nival (neve), misto."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Oceanos: 70% da superfície, correntes marítimas influenciam clima. Crise hídrica: 2,2 bilhões sem água potável segura.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Hidrografia: Rios, Bacias e Aquíferos",
+            "Sociologia",
+            "Matemática",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Física",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Climatologia: Fatores e Elementos",
+      "slug": "climatologia-fatores-e-elementos",
+      "desc": "Elementos do clima: temperatura, umidade, pressão atmosférica, ventos, precipitação. Fatores: latitu...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Elementos do clima: temperatura, umidade, pressão atmosférica, ventos, precipitação. Fatores: latitude (quanto mais perto do Equador, mais quente), altitude (quanto mais alto, mais frio — 6,5°C/1000m), maritimidade/continentalidade, correntes marítimas, massas de ar, relevo.",
+      "body": "<h2>O que você precisa saber</h2><p>Elementos do clima: temperatura, umidade, pressão atmosférica, ventos, precipitação.</p><h2>Contexto e Desenvolvimento</h2><p>Fatores: latitude (quanto mais perto do Equador, mais quente), altitude (quanto mais alto, mais frio — 6,5°C/1000m), maritimidade/continentalidade, correntes marítimas, massas de ar, relevo. Climograma: gráfico que mostra temperatura e precipitação mensal.</p><h3>Destaques</h3><ul><li>quanto mais perto do Equador, mais quente</li><li>quanto mais alto, mais frio — 6,5°C/1000m</li><li>CO₂, CH₄, N₂O</li></ul><h2>Consequências e Legado</h2><p>Efeito estufa natural: gases retêm calor (CO₂, CH₄, N₂O).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Climatologia: Fatores e Elementos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Climatologia: Fatores e Elementos?",
+          "a": "Elementos do clima: temperatura, umidade, pressão atmosférica, ventos, precipitação."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Fatores: latitude (quanto mais perto do Equador, mais quente), altitude (quanto mais alto, mais frio — 6,5°C/1000m), maritimidade/continentalidade, correntes marítimas, massas de ar, relevo. Climograma: gráfico que mostra temperatura e precipitação mensal."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Climatologia: Fatores e Elementos",
+            "Sociologia",
+            "Matemática",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Matemática",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Tipos de Clima no Mundo",
+      "slug": "tipos-de-clima-no-mundo",
+      "desc": "Equatorial: quente e úmido o ano todo (Amazônia, Congo). Tropical: quente com estação seca e chuvosa...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Equatorial: quente e úmido o ano todo (Amazônia, Congo). Tropical: quente com estação seca e chuvosa.",
+      "body": "<h2>O que você precisa saber</h2><p>Equatorial: quente e úmido o ano todo (Amazônia, Congo). Tropical: quente com estação seca e chuvosa.</p><h2>Contexto e Desenvolvimento</h2><p>Subtropical: 4 estações, geadas no inverno. Temperado: verão ameno, inverno frio. Mediterrâneo: verão seco e quente, inverno úmido.</p><p>Desértico: extrema aridez, amplitude térmica alta. Semiárido: quente, chuvas escassas e irregulares.</p><h2>Consequências e Legado</h2><p>Frio/Polar: temperaturas abaixo de 0°C. Relação direta com a vegetação de cada região.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Tipos de Clima no Mundo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Tipos de Clima no Mundo?",
+          "a": "Equatorial: quente e úmido o ano todo (Amazônia, Congo)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Tropical: quente com estação seca e chuvosa. Subtropical: 4 estações, geadas no inverno."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Frio/Polar: temperaturas abaixo de 0°C. Relação direta com a vegetação de cada região.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Filosofia",
+            "Biologia",
+            "Tipos de Clima no Mundo"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Vegetação e Biomas Mundiais",
+      "slug": "vegetacao-e-biomas-mundiais",
+      "desc": "Florestas tropicais (maior biodiversidade: Amazônia, Congo). Savanas (cerrado, seco com árvores espa...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Florestas tropicais (maior biodiversidade: Amazônia, Congo). Savanas (cerrado, seco com árvores esparsas).",
+      "body": "<h2>O que você precisa saber</h2><p>Florestas tropicais (maior biodiversidade: Amazônia, Congo). Savanas (cerrado, seco com árvores esparsas).</p><h2>Contexto e Desenvolvimento</h2><p>Desertos (Saara, Atacama: vegetação rara, xerófitas). Estepes (pastagens naturais). Floresta temperada (decídua, 4 estações).</p><p>Floresta boreal/Taiga (coníferas, inverno rigoroso). Tundra (musgos e líquens, permafrost).</p><h3>Destaques</h3><ul><li>maior biodiversidade: Amazônia, Congo</li><li>cerrado, seco com árvores esparsas</li><li>Saara, Atacama: vegetação rara, xerófitas</li><li>pastagens naturais</li><li>decídua, 4 estações</li><li>coníferas, inverno rigoroso</li></ul><h2>Consequências e Legado</h2><p>Vegetação mediterrânea (arbustos resistentes ao fogo). Zonalidade climática: latitude determina bioma.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Vegetação e Biomas Mundiais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Vegetação e Biomas Mundiais?",
+          "a": "Florestas tropicais (maior biodiversidade: Amazônia, Congo)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Savanas (cerrado, seco com árvores esparsas). Desertos (Saara, Atacama: vegetação rara, xerófitas)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Vegetação mediterrânea (arbustos resistentes ao fogo). Zonalidade climática: latitude determina bioma.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Matemática",
+            "Vegetação e Biomas Mundiais"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Biologia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Domínios Morfoclimáticos Brasileiros",
+      "slug": "dominios-morfoclimaticos-brasileiros",
+      "desc": "Aziz Ab'Sáber: combinação de relevo + clima + vegetação + hidrografia + solo. Amazônico (floresta eq...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Aziz Ab'Sáber: combinação de relevo + clima + vegetação + hidrografia + solo. Amazônico (floresta equatorial, terras baixas).",
+      "body": "<h2>O que você precisa saber</h2><p>Aziz Ab'Sáber: combinação de relevo + clima + vegetação + hidrografia + solo. Amazônico (floresta equatorial, terras baixas).</p><h2>Contexto e Desenvolvimento</h2><p>Cerrado (planalto central, \"savana brasileira\"). Mares de morros (Mata Atlântica, relevo ondulado). Caatinga (semiárido nordestino, plantas xerófitas).</p><p>Araucárias (sul, clima subtropical).</p><h3>Destaques</h3><ul><li>floresta equatorial, terras baixas</li><li>planalto central, \"savana brasileira\"</li><li>Mata Atlântica, relevo ondulado</li><li>semiárido nordestino, plantas xerófitas</li><li>sul, clima subtropical</li><li>Pampa, campos do RS</li></ul><h2>Consequências e Legado</h2><p>Pradarias (Pampa, campos do RS). Faixas de transição entre domínios.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Domínios Morfoclimáticos Brasileiros</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Domínios Morfoclimáticos Brasileiros?",
+          "a": "Aziz Ab'Sáber: combinação de relevo + clima + vegetação + hidrografia + solo."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Amazônico (floresta equatorial, terras baixas). Cerrado (planalto central, \"savana brasileira\")."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Pradarias (Pampa, campos do RS). Faixas de transição entre domínios.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Domínios Morfoclimáticos Brasileiros",
+            "Biologia",
+            "Física",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Física",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Solo: Formação, Tipos e Degradação",
+      "slug": "solo-formacao-tipos-e-degradacao",
+      "desc": "Pedogênese: rocha → intemperismo → solo (centenas a milhares de anos). Horizontes: O (orgânico), A (...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Pedogênese: rocha → intemperismo → solo (centenas a milhares de anos). Horizontes: O (orgânico), A (húmus), B (minerais), C (rocha alterada).",
+      "body": "<h2>O que você precisa saber</h2><p>Pedogênese: rocha → intemperismo → solo (centenas a milhares de anos).</p><h2>Contexto e Desenvolvimento</h2><p>Horizontes: O (orgânico), A (húmus), B (minerais), C (rocha alterada). Tipos: Latossolo (profundo, ácido — cerrado), Massapê (fértil, argiloso — açúcar no NE), Terra roxa (basalto decomposto — café em SP/PR). Degradação: erosão (laminar, em sulcos, voçoroca), compactação, salinização, contaminação.</p><h3>Destaques</h3><ul><li>centenas a milhares de anos</li><li>rocha alterada</li><li>profundo, ácido — cerrado</li><li>fértil, argiloso — açúcar no NE</li><li>basalto decomposto — café em SP/PR</li><li>laminar, em sulcos, voçoroca</li></ul><h2>Consequências e Legado</h2><p>Técnicas de conservação: curva de nível, terraço, rotação de culturas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Solo: Formação, Tipos e Degradação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Solo: Formação, Tipos e Degradação?",
+          "a": "Pedogênese: rocha → intemperismo → solo (centenas a milhares de anos)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Horizontes: O (orgânico), A (húmus), B (minerais), C (rocha alterada). Tipos: Latossolo (profundo, ácido — cerrado), Massapê (fértil, argiloso — açúcar no NE), Terra roxa (basalto decomposto — café em SP/PR)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Física",
+            "Sociologia",
+            "Solo: Formação, Tipos e Degradação"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Filosofia",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Questões Ambientais Globais",
+      "slug": "questoes-ambientais-globais",
+      "desc": "Aquecimento global: aumento de ~1,1°C desde era pré-industrial. CO₂ (queima de combustíveis fósseis)...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Aquecimento global: aumento de ~1,1°C desde era pré-industrial. CO₂ (queima de combustíveis fósseis), CH₄ (pecuária), desmatamento.",
+      "body": "<h2>O que você precisa saber</h2><p>Aquecimento global: aumento de ~1,1°C desde era pré-industrial. CO₂ (queima de combustíveis fósseis), CH₄ (pecuária), desmatamento.</p><h2>Contexto e Desenvolvimento</h2><p>Consequências: derretimento de geleiras, elevação do nível do mar, eventos extremos, desertificação. Chuva ácida (SOx + NOx). Buraco na camada de ozônio (CFCs).</p><p>Ilhas de calor urbanas. Poluição dos oceanos (plástico).</p><h2>Consequências e Legado</h2><p>Acordo de Paris (2015): limitar a 1,5°C. ODS da ONU (17 objetivos). ## 2º Ano — Geopolítica e Economia Global</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Questões Ambientais Globais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Questões Ambientais Globais?",
+          "a": "Aquecimento global: aumento de ~1,1°C desde era pré-industrial."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "CO₂ (queima de combustíveis fósseis), CH₄ (pecuária), desmatamento. Consequências: derretimento de geleiras, elevação do nível do mar, eventos extremos, desertificação."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "ODS da ONU (17 objetivos). ## 2º Ano — Geopolítica e Economia Global."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Questões Ambientais Globais",
+            "Física",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Ordem Mundial e Geopolítica",
+      "slug": "ordem-mundial-e-geopolitica",
+      "desc": "Evolução: Multipolaridade (pré-Guerra) → Bipolaridade (Guerra Fria: EUA vs. URSS) → Unipolaridade (p...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Evolução: Multipolaridade (pré-Guerra) → Bipolaridade (Guerra Fria: EUA vs. URSS) → Unipolaridade (pós-1991, hegemonia americana) → Nova multipolaridade (ascensão de China, BRICS, UE).",
+      "body": "<h2>O que você precisa saber</h2><p>Evolução: Multipolaridade (pré-Guerra) → Bipolaridade (Guerra Fria: EUA vs.</p><h2>Contexto e Desenvolvimento</h2><p>URSS) → Unipolaridade (pós-1991, hegemonia americana) → Nova multipolaridade (ascensão de China, BRICS, UE). Poder: militar (OTAN), econômico (G7, G20), tecnológico, cultural (soft power). Áreas de tensão: Oriente Médio, Cáucaso, Mar do Sul da China.</p><h3>Destaques</h3><ul><li>pré-Guerra</li><li>Guerra Fria: EUA vs. URSS</li><li>pós-1991, hegemonia americana</li><li>ascensão de China, BRICS, UE</li><li>soft power</li></ul><h2>Consequências e Legado</h2><p>Terrorismo internacional.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Ordem Mundial e Geopolítica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Ordem Mundial e Geopolítica?",
+          "a": "Evolução: Multipolaridade (pré-Guerra) → Bipolaridade (Guerra Fria: EUA vs."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "URSS) → Unipolaridade (pós-1991, hegemonia americana) → Nova multipolaridade (ascensão de China, BRICS, UE). Poder: militar (OTAN), econômico (G7, G20), tecnológico, cultural (soft power)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Ordem Mundial e Geopolítica",
+            "Filosofia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Globalização: Economia, Cultura e Contradições",
+      "slug": "globalizacao-economia-cultura-e-contradicoes",
+      "desc": "Integração mundial via comércio, finanças, informação, cultura. Empresas multinacionais/transnaciona...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Integração mundial via comércio, finanças, informação, cultura. Empresas multinacionais/transnacionais: produção global (cadeia de valor).",
+      "body": "<h2>O que você precisa saber</h2><p>Integração mundial via comércio, finanças, informação, cultura. Empresas multinacionais/transnacionais: produção global (cadeia de valor).</p><h2>Contexto e Desenvolvimento</h2><p>Fluxos: mercadorias, capitais, informação, pessoas. Vantagens: acesso a tecnologia, diversidade. Desvantagens: desigualdade entre países, perda de identidade cultural, precarização do trabalho, paraísos fiscais.</p><h2>Consequências e Legado</h2><p>Antiglobalização: críticas ao neoliberalismo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Globalização: Economia, Cultura e Contradições</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Globalização: Economia, Cultura e Contradições?",
+          "a": "Integração mundial via comércio, finanças, informação, cultura."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Empresas multinacionais/transnacionais: produção global (cadeia de valor). Fluxos: mercadorias, capitais, informação, pessoas."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Desvantagens: desigualdade entre países, perda de identidade cultural, precarização do trabalho, paraísos fiscais. Antiglobalização: críticas ao neoliberalismo.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Globalização: Economia, Cultura e Contradições",
+            "Sociologia",
+            "Matemática"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Blocos Econômicos e Comércio Internacional",
+      "slug": "blocos-economicos-e-comercio-internacional",
+      "desc": "MERCOSUL (Brasil, Argentina, Uruguai, Paraguai). União Europeia (27 países, euro, livre circulação)....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "MERCOSUL (Brasil, Argentina, Uruguai, Paraguai). União Europeia (27 países, euro, livre circulação).",
+      "body": "<h2>O que você precisa saber</h2><p>MERCOSUL (Brasil, Argentina, Uruguai, Paraguai). União Europeia (27 países, euro, livre circulação).</p><h2>Contexto e Desenvolvimento</h2><p>NAFTA/USMCA (EUA, Canadá, México). ASEAN (Sudeste Asiático). BRICS (Brasil, Rússia, Índia, China, África do Sul + novos).</p><p>OMC: regras de comércio. Protecionismo vs. livre-comércio.</p><h3>Destaques</h3><ul><li>Brasil, Argentina, Uruguai, Paraguai</li><li>27 países, euro, livre circulação</li><li>EUA, Canadá, México</li><li>Sudeste Asiático</li><li>Brasil, Rússia, Índia, China, África do Sul + novos</li></ul><h2>Consequências e Legado</h2><p>Balança comercial. Commodities.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Blocos Econômicos e Comércio Internacional</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Blocos Econômicos e Comércio Internacional?",
+          "a": "MERCOSUL (Brasil, Argentina, Uruguai, Paraguai)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "União Europeia (27 países, euro, livre circulação). NAFTA/USMCA (EUA, Canadá, México)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "BRICS (Brasil, Rússia, Índia, China, África do Sul + novos). OMC: regras de comércio."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Blocos Econômicos e Comércio Internacional",
+            "Física",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Física",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Industrialização: Revoluções Industriais",
+      "slug": "industrializacao-revolucoes-industriais",
+      "desc": "1ª (séc. XVIII, UK): carvão, vapor, têxtil. 2ª (séc. XIX): eletricidade, petróleo, aço, Ford. 3ª (sé...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "XVIII, UK): carvão, vapor, têxtil. XIX): eletricidade, petróleo, aço, Ford.",
+      "body": "<h2>O que você precisa saber</h2><p>1ª (séc. XVIII, UK): carvão, vapor, têxtil.</p><h2>Contexto e Desenvolvimento</h2><p>2ª (séc. XIX): eletricidade, petróleo, aço, Ford. 3ª (séc.</p><p>XX): eletrônica, informática, telecomunicações. 4ª (séc.</p><h3>Destaques</h3><ul><li>séc. XVIII, UK</li><li>produção em massa</li><li>just-in-time, flexível</li><li>precarização</li></ul><h2>Consequências e Legado</h2><p>XXI): IA, IoT, big data, automação, impressão 3D. Fordismo (produção em massa) → Toyotismo (just-in-time, flexível) → Uberização (precarização). Países industrializados (G7) vs. em industrialização (BRICS) vs. não industrializados.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Industrialização: Revoluções Industriais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Industrialização: Revoluções Industriais?",
+          "a": "XVIII, UK): carvão, vapor, têxtil."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "XIX): eletricidade, petróleo, aço, Ford. XX): eletrônica, informática, telecomunicações."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "em industrialização (BRICS) vs. não industrializados.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Industrialização: Revoluções Industriais",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Física",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Urbanização Mundial",
+      "slug": "urbanizacao-mundial",
+      "desc": "Mais de 55% da população mundial vive em cidades (ONU). Megacidades (>10 milhões): Tóquio, Delhi, Sã...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Mais de 55% da população mundial vive em cidades (ONU). Megacidades (>10 milhões): Tóquio, Delhi, São Paulo, Xangai.",
+      "body": "<h2>O que você precisa saber</h2><p>Mais de 55% da população mundial vive em cidades (ONU). Megacidades (>10 milhões): Tóquio, Delhi, São Paulo, Xangai.</p><h2>Contexto e Desenvolvimento</h2><p>Problemas: favelas (1 bilhão de pessoas), trânsito, poluição, criminalidade, falta de saneamento. Conurbação e metrópoles. Gentrificação.</p><h2>Consequências e Legado</h2><p>Cidades inteligentes. Urbanização acelerada nos países em desenvolvimento vs. desurbanização em alguns países ricos.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Urbanização Mundial</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Urbanização Mundial?",
+          "a": "Mais de 55% da população mundial vive em cidades (ONU)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Megacidades (>10 milhões): Tóquio, Delhi, São Paulo, Xangai. Problemas: favelas (1 bilhão de pessoas), trânsito, poluição, criminalidade, falta de saneamento."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Urbanização acelerada nos países em desenvolvimento vs. desurbanização em alguns países ricos.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Urbanização Mundial",
+            "Filosofia",
+            "Sociologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Filosofia",
+            "Matemática",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Urbanização Brasileira",
+      "slug": "urbanizacao-brasileira",
+      "desc": "1940: 30% urbano → Hoje: 85%. Industrialização (JK, SP) atraiu êxodo rural. Metropolização: SP (22 m...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "1940: 30% urbano → Hoje: 85%. Industrialização (JK, SP) atraiu êxodo rural.",
+      "body": "<h2>O que você precisa saber</h2><p>1940: 30% urbano → Hoje: 85%. Industrialização (JK, SP) atraiu êxodo rural.</p><h2>Contexto e Desenvolvimento</h2><p>Metropolização: SP (22 milhões na RM), RJ, BH, Recife, Porto Alegre. Macrocefalia urbana. Problemas: favelas (13 milhões de pessoas), enchentes, violência, segregação socioespacial, mobilidade.</p><h2>Consequências e Legado</h2><p>Descentralização recente: cidades médias crescem. Reforma urbana: Estatuto da Cidade (2001).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Urbanização Brasileira</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Urbanização Brasileira?",
+          "a": "1940: 30% urbano → Hoje: 85%."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Industrialização (JK, SP) atraiu êxodo rural. Metropolização: SP (22 milhões na RM), RJ, BH, Recife, Porto Alegre."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Descentralização recente: cidades médias crescem. Reforma urbana: Estatuto da Cidade (2001).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Urbanização Brasileira",
+            "Literatura",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Literatura",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "População Mundial: Teorias e Dinâmica",
+      "slug": "populacao-mundial-teorias-e-dinamica",
+      "desc": "8 bilhões (2022). Teoria Malthusiana: população cresce em PG, alimentos em PA → fome (superada pela...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Teoria Malthusiana: população cresce em PG, alimentos em PA → fome (superada pela Revolução Verde). Neomalthusianismo: controle de natalidade.",
+      "body": "<h2>O que você precisa saber</h2><p>8 bilhões (2022). Teoria Malthusiana: população cresce em PG, alimentos em PA → fome (superada pela Revolução Verde).</p><h2>Contexto e Desenvolvimento</h2><p>Neomalthusianismo: controle de natalidade. Marxismo: problema não é superpopulação, é distribuição. Transição demográfica: 4 fases (altas taxas → queda mortalidade → queda natalidade → envelhecimento).</p><h2>Consequências e Legado</h2><p>Pirâmide etária: jovem (Nigéria), adulta (Brasil), envelhecida (Japão). Bônus demográfico.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>População Mundial: Teorias e Dinâmica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre População Mundial: Teorias e Dinâmica?",
+          "a": "Teoria Malthusiana: população cresce em PG, alimentos em PA → fome (superada pela Revolução Verde)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Neomalthusianismo: controle de natalidade. Marxismo: problema não é superpopulação, é distribuição."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "População Mundial: Teorias e Dinâmica",
+            "Biologia",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Biologia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Migrações Internacionais e Refugiados",
+      "slug": "migracoes-internacionais-e-refugiados",
+      "desc": "Causas: guerras (Síria, Ucrânia), perseguição (Rohingya), pobreza, desastres climáticos. ACNUR: 100+...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Causas: guerras (Síria, Ucrânia), perseguição (Rohingya), pobreza, desastres climáticos. ACNUR: 100+ milhões de deslocados forçados.",
+      "body": "<h2>O que você precisa saber</h2><p>Causas: guerras (Síria, Ucrânia), perseguição (Rohingya), pobreza, desastres climáticos. ACNUR: 100+ milhões de deslocados forçados. Crise migratória europeia (2015+).</p><h2>Contexto e Desenvolvimento</h2><p>Xenofobia e racismo. Diáspora. Brain drain.</p><p>Remessas ($). Direito de asilo.</p><h2>Consequências e Legado</h2><p>Refugiados climáticos (novo fenômeno). Muro EUA-México. Imigração no Brasil: haitianos, venezuelanos, sírios.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Migrações Internacionais e Refugiados</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Migrações Internacionais e Refugiados?",
+          "a": "Causas: guerras (Síria, Ucrânia), perseguição (Rohingya), pobreza, desastres climáticos."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "ACNUR: 100+ milhões de deslocados forçados. Crise migratória europeia (2015+)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Migrações Internacionais e Refugiados",
+            "Química",
+            "Física",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Física",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Matriz Energética Mundial e Brasileira",
+      "slug": "matriz-energetica-mundial-e-brasileira",
+      "desc": "Mundial: fósseis dominam (petróleo 31%, carvão 27%, gás 24%). OPEP (países exportadores de petróleo)...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Mundial: fósseis dominam (petróleo 31%, carvão 27%, gás 24%). OPEP (países exportadores de petróleo).",
+      "body": "<h2>O que você precisa saber</h2><p>Mundial: fósseis dominam (petróleo 31%, carvão 27%, gás 24%). OPEP (países exportadores de petróleo).</p><h2>Contexto e Desenvolvimento</h2><p>Nuclear: 10% (França 70%). Renováveis crescem: solar, eólica (mais baratas). Brasileira: 48% renovável (líder mundial).</p><p>Hidrelétrica 65% da eletricidade (Itaipu, Belo Monte). Etanol (cana).</p><h3>Destaques</h3><ul><li>petróleo 31%, carvão 27%, gás 24%</li><li>países exportadores de petróleo</li><li>França 70%</li><li>mais baratas</li><li>líder mundial</li><li>Itaipu, Belo Monte</li></ul><h2>Consequências e Legado</h2><p>Solar e eólica no Nordeste crescem rápido. Pré-sal: reservas de petróleo no oceano profundo. Transição energética: meta net zero até 2050.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Matriz Energética Mundial e Brasileira</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Matriz Energética Mundial e Brasileira?",
+          "a": "Mundial: fósseis dominam (petróleo 31%, carvão 27%, gás 24%)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "OPEP (países exportadores de petróleo). Nuclear: 10% (França 70%)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Pré-sal: reservas de petróleo no oceano profundo. Transição energética: meta net zero até 2050.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Biologia",
+            "Matemática",
+            "Matriz Energética Mundial e Brasileira"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Agricultura Global e Brasileira",
+      "slug": "agricultura-global-e-brasileira",
+      "desc": "Revolução Verde (1960s): mecanização, agrotóxicos, sementes híbridas → aumentou produção mas causou...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Revolução Verde (1960s): mecanização, agrotóxicos, sementes híbridas → aumentou produção mas causou impactos ambientais. Agricultura familiar (70% da comida na mesa do brasileiro).",
+      "body": "<h2>O que você precisa saber</h2><p>Revolução Verde (1960s): mecanização, agrotóxicos, sementes híbridas → aumentou produção mas causou impactos ambientais. Agronegócio vs.</p><h2>Contexto e Desenvolvimento</h2><p>Agricultura familiar (70% da comida na mesa do brasileiro). Transgênicos (soja, milho): polêmica. Brasil: 3º maior exportador agrícola (soja, carne, café, milho, laranja, açúcar).</p><p>Latifúndio vs. agricultura familiar. MST e reforma agrária.</p><h3>Destaques</h3><ul><li>70% da comida na mesa do brasileiro</li><li>soja, milho</li><li>soja, carne, café, milho, laranja, açúcar</li><li>Maranhão, Tocantins, Piauí, Bahia</li></ul><h2>Consequências e Legado</h2><p>Fronteira agrícola: MATOPIBA (Maranhão, Tocantins, Piauí, Bahia). Desmatamento do Cerrado para soja. ## 3º Ano — Brasil e Mundo Contemporâneo</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Agricultura Global e Brasileira</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Agricultura Global e Brasileira?",
+          "a": "Revolução Verde (1960s): mecanização, agrotóxicos, sementes híbridas → aumentou produção mas causou impactos ambientais."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Agricultura familiar (70% da comida na mesa do brasileiro). Transgênicos (soja, milho): polêmica."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Desmatamento do Cerrado para soja. ## 3º Ano — Brasil e Mundo Contemporâneo."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Agricultura Global e Brasileira",
+            "Biologia",
+            "Matemática",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Brasil: Território e Regionalização",
+      "slug": "brasil-territorio-e-regionalizacao",
+      "desc": "8,5 milhões km² (5º maior). 26 estados + DF. Fronteiras com 10 países. Regiões IBGE (N, NE, CO, SE,...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "8,5 milhões km² (5º maior). Fronteiras com 10 países.",
+      "body": "<h2>O que você precisa saber</h2><p>8,5 milhões km² (5º maior). 26 estados + DF.</p><h2>Contexto e Desenvolvimento</h2><p>Fronteiras com 10 países. Regiões IBGE (N, NE, CO, SE, S) vs. Regiões geoeconômicas (Milton Santos: Amazônia, Nordeste, Centro-Sul).</p><p>Contraste: IDH do Sul (0,75) vs.</p><h2>Consequências e Legado</h2><p>Nordeste (0,66). Disparidades regionais históricas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Brasil: Território e Regionalização</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Brasil: Território e Regionalização?",
+          "a": "8,5 milhões km² (5º maior)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Fronteiras com 10 países. Regiões IBGE (N, NE, CO, SE, S) vs."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Contraste: IDH do Sul (0,75) vs. Disparidades regionais históricas.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Biologia",
+            "Química",
+            "Brasil: Território e Regionalização"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Química",
+            "Física",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Economia Brasileira",
+      "slug": "economia-brasileira",
+      "desc": "PIB ~R$10 trilhões (10ª economia mundial). Setor primário: agro (27% PIB). Secundário: indústria (21...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "PIB ~R$10 trilhões (10ª economia mundial). Setor primário: agro (27% PIB).",
+      "body": "<h2>O que você precisa saber</h2><p>PIB ~R$10 trilhões (10ª economia mundial). Setor primário: agro (27% PIB).</p><h2>Contexto e Desenvolvimento</h2><p>Secundário: indústria (21%). Terciário: serviços (52%). Problemas: desindustrialização, dependência de commodities, reforma tributária, juros altos, dívida pública.</p><h2>Consequências e Legado</h2><p>Desigualdade: 10% mais ricos detêm 58% da renda. Índice de Gini entre os piores do mundo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Economia Brasileira</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Economia Brasileira?",
+          "a": "PIB ~R$10 trilhões (10ª economia mundial)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Setor primário: agro (27% PIB). Secundário: indústria (21%)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Desigualdade: 10% mais ricos detêm 58% da renda. Índice de Gini entre os piores do mundo.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Sociologia",
+            "Física",
+            "Economia Brasileira"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Física",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "População Brasileira",
+      "slug": "populacao-brasileira",
+      "desc": "~215 milhões (6º mais populoso). Diversidade étnica: pardos (45%), brancos (43%), pretos (11%), indí...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "~215 milhões (6º mais populoso). Diversidade étnica: pardos (45%), brancos (43%), pretos (11%), indígenas (0,8%), amarelos (0,4%).",
+      "body": "<h2>O que você precisa saber</h2><p>~215 milhões (6º mais populoso).</p><h2>Contexto e Desenvolvimento</h2><p>Diversidade étnica: pardos (45%), brancos (43%), pretos (11%), indígenas (0,8%), amarelos (0,4%). Urbanização 85%. Transição demográfica: queda de natalidade e envelhecimento.</p><h2>Consequências e Legado</h2><p>Desafios: envelhecimento da previdência, bônus demográfico se fechando.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>População Brasileira</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre População Brasileira?",
+          "a": "~215 milhões (6º mais populoso)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Diversidade étnica: pardos (45%), brancos (43%), pretos (11%), indígenas (0,8%), amarelos (0,4%). Transição demográfica: queda de natalidade e envelhecimento."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Sociologia",
+            "População Brasileira",
+            "Química"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Química",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Problemas Sociais e Urbanos no Brasil",
+      "slug": "problemas-sociais-e-urbanos-no-brasil",
+      "desc": "Favelas: 16,4 milhões de pessoas. Saneamento: 35 milhões sem água tratada, 100 milhões sem coleta de...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Favelas: 16,4 milhões de pessoas. Saneamento: 35 milhões sem água tratada, 100 milhões sem coleta de esgoto.",
+      "body": "<h2>O que você precisa saber</h2><p>Favelas: 16,4 milhões de pessoas. Saneamento: 35 milhões sem água tratada, 100 milhões sem coleta de esgoto.</p><h2>Contexto e Desenvolvimento</h2><p>Violência: 47 mil homicídios/ano. Mobilidade: 2h+ de transporte/dia em metrópoles. Desigualdade racial: negros ganham 57% do salário de brancos.</p><h2>Consequências e Legado</h2><p>Analfabetismo: 6,6%. Déficit habitacional: 6 milhões de moradias.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Problemas Sociais e Urbanos no Brasil</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Problemas Sociais e Urbanos no Brasil?",
+          "a": "Favelas: 16,4 milhões de pessoas."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Saneamento: 35 milhões sem água tratada, 100 milhões sem coleta de esgoto. Violência: 47 mil homicídios/ano."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Desigualdade racial: negros ganham 57% do salário de brancos. Déficit habitacional: 6 milhões de moradias.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Problemas Sociais e Urbanos no Brasil",
+            "Química",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "EUA: Superpotência",
+      "slug": "eua-superpotencia",
+      "desc": "Maior economia mundial (PIB $25 tri). Poder militar: OTAN, bases em 80 países. Soft power: Hollywood...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Maior economia mundial (PIB $25 tri). Poder militar: OTAN, bases em 80 países.",
+      "body": "<h2>O que você precisa saber</h2><p>Maior economia mundial (PIB $25 tri). Poder militar: OTAN, bases em 80 países.</p><h2>Contexto e Desenvolvimento</h2><p>Soft power: Hollywood, tecnologia (GAFAM). Sociedade: diversidade + segregação, armas, polarização política (Democratas vs. Republicanos).</p><h2>Consequências e Legado</h2><p>Economia: dólar como moeda global, Wall Street, Vale do Silício. Problemas: desigualdade, saúde cara, racismo sistêmico.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>EUA: Superpotência</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre EUA: Superpotência?",
+          "a": "Maior economia mundial (PIB $25 tri)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Poder militar: OTAN, bases em 80 países. Soft power: Hollywood, tecnologia (GAFAM)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Economia: dólar como moeda global, Wall Street, Vale do Silício. Problemas: desigualdade, saúde cara, racismo sistêmico.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "EUA: Superpotência",
+            "Sociologia",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Europa: União Europeia e Desafios",
+      "slug": "europa-uniao-europeia-e-desafios",
+      "desc": "27 membros, 450 milhões de pessoas. Euro (moeda única, 20 países). Schengen (livre circulação). Parl...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "27 membros, 450 milhões de pessoas. Euro (moeda única, 20 países).",
+      "body": "<h2>O que você precisa saber</h2><p>27 membros, 450 milhões de pessoas. Euro (moeda única, 20 países).</p><h2>Contexto e Desenvolvimento</h2><p>Schengen (livre circulação). Parlamento Europeu, Comissão Europeia. Estado de bem-estar social (saúde e educação universais, redes de proteção).</p><h3>Destaques</h3><ul><li>moeda única, 20 países</li><li>livre circulação</li><li>saúde e educação universais, redes de proteção</li><li>dependência do gás russo</li><li>industrial</li><li>nuclear, agro</li></ul><h2>Consequências e Legado</h2><p>Desafios: envelhecimento, imigração, Brexit (2020), crise energética (dependência do gás russo), populismo/extrema-direita. Potências: Alemanha (industrial), França (nuclear, agro), Itália, Espanha.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Europa: União Europeia e Desafios</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Europa: União Europeia e Desafios?",
+          "a": "27 membros, 450 milhões de pessoas."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Euro (moeda única, 20 países). Schengen (livre circulação)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Desafios: envelhecimento, imigração, Brexit (2020), crise energética (dependência do gás russo), populismo/extrema-direita. Potências: Alemanha (industrial), França (nuclear, agro), Itália, Espanha.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Física",
+            "Europa: União Europeia e Desafios"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Física",
+            "Biologia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Rússia e CEI",
+      "slug": "russia-e-cei",
+      "desc": "Maior país do mundo (17 milhões km²). Economia baseada em petróleo e gás. Herdeira da URSS. Geopolít...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Maior país do mundo (17 milhões km²). Economia baseada em petróleo e gás.",
+      "body": "<h2>O que você precisa saber</h2><p>Maior país do mundo (17 milhões km²). Economia baseada em petróleo e gás.</p><h2>Contexto e Desenvolvimento</h2><p>Herdeira da URSS. Geopolítica: Putin, influência na ex-URSS. Guerra na Ucrânia (2022+): invasão, sanções, crise alimentar e energética global, OTAN se expande.</p><h2>Consequências e Legado</h2><p>Recursos: Sibéria (petróleo, gás, minerais). Problemas: autocracia, desigualdade regional, envelhecimento.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Rússia e CEI</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Rússia e CEI?",
+          "a": "Maior país do mundo (17 milhões km²)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Economia baseada em petróleo e gás. Geopolítica: Putin, influência na ex-URSS."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Recursos: Sibéria (petróleo, gás, minerais). Problemas: autocracia, desigualdade regional, envelhecimento.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Rússia e CEI",
+            "Matemática",
+            "Química",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "China e Índia: Potências Emergentes",
+      "slug": "china-e-india-potencias-emergentes",
+      "desc": "China: 2ª economia mundial, \"fábrica do mundo\", socialismo de mercado. Zonas Econômicas Especiais. N...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "China: 2ª economia mundial, \"fábrica do mundo\", socialismo de mercado. Zonas Econômicas Especiais.",
+      "body": "<h2>O que você precisa saber</h2><p>China: 2ª economia mundial, \"fábrica do mundo\", socialismo de mercado. Zonas Econômicas Especiais.</p><h2>Contexto e Desenvolvimento</h2><p>Nova Rota da Seda. 1,4 bilhão de pessoas. Poluição.</p><p>Autoritarismo (Partido Comunista, censura, Xinjiang, Hong Kong, Taiwan). Índia: 3ª maior economia (PPP), maior democracia do mundo, potência de TI (Bangalore).</p><h2>Consequências e Legado</h2><p>Problemas: sistema de castas, desigualdade extrema, poluição. Juntas: 36% da população mundial.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>China e Índia: Potências Emergentes</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre China e Índia: Potências Emergentes?",
+          "a": "China: 2ª economia mundial, \"fábrica do mundo\", socialismo de mercado."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Zonas Econômicas Especiais. 1,4 bilhão de pessoas."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Problemas: sistema de castas, desigualdade extrema, poluição. Juntas: 36% da população mundial.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "China e Índia: Potências Emergentes",
+            "Sociologia",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Oriente Médio: Petróleo e Conflitos",
+      "slug": "oriente-medio-petroleo-e-conflitos",
+      "desc": "Reservas: 50% do petróleo mundial (Arábia Saudita, Iraque, Irã, Kuwait, EAU). OPEP controla oferta e...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Reservas: 50% do petróleo mundial (Arábia Saudita, Iraque, Irã, Kuwait, EAU). OPEP controla oferta e preços.",
+      "body": "<h2>O que você precisa saber</h2><p>Reservas: 50% do petróleo mundial (Arábia Saudita, Iraque, Irã, Kuwait, EAU). OPEP controla oferta e preços.</p><h2>Contexto e Desenvolvimento</h2><p>Conflito Israel-Palestina: desde 1948, sionismo, guerras, intifadas, assentamentos, bloqueio de Gaza. Irã: teocracia xiita, programa nuclear. Arábia Saudita: monarquia sunita, petrodólares.</p><h2>Consequências e Legado</h2><p>Iraque, Síria: guerras civis, ISIS. Primavera Árabe (2010-12): revoltas populares.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Oriente Médio: Petróleo e Conflitos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Oriente Médio: Petróleo e Conflitos?",
+          "a": "Reservas: 50% do petróleo mundial (Arábia Saudita, Iraque, Irã, Kuwait, EAU)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "OPEP controla oferta e preços. Conflito Israel-Palestina: desde 1948, sionismo, guerras, intifadas, assentamentos, bloqueio de Gaza."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Iraque, Síria: guerras civis, ISIS. Primavera Árabe (2010-12): revoltas populares.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Oriente Médio: Petróleo e Conflitos",
+            "Sociologia",
+            "Química",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Filosofia",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "África: Potencial e Desafios",
+      "slug": "africa-potencial-e-desafios",
+      "desc": "54 países, 1,4 bilhão de pessoas. Recursos imensos: diamantes, ouro, petróleo, coltan, terras fértei...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "54 países, 1,4 bilhão de pessoas. Recursos imensos: diamantes, ouro, petróleo, coltan, terras férteis.",
+      "body": "<h2>O que você precisa saber</h2><p>54 países, 1,4 bilhão de pessoas. Recursos imensos: diamantes, ouro, petróleo, coltan, terras férteis.</p><h2>Contexto e Desenvolvimento</h2><p>Problemas herdados da colonização: fronteiras artificiais, conflitos étnicos, pobreza. Economia: Nigéria (petróleo), África do Sul (mineração), Quênia (tech). IDH baixo na maioria.</p><p>Crescimento demográfico: será 2,5 bi em 2050.</p><h2>Consequências e Legado</h2><p>Jovens: 60% da população tem menos de 25 anos. Potência emergente do século XXI.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>África: Potencial e Desafios</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre África: Potencial e Desafios?",
+          "a": "54 países, 1,4 bilhão de pessoas."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Recursos imensos: diamantes, ouro, petróleo, coltan, terras férteis. Problemas herdados da colonização: fronteiras artificiais, conflitos étnicos, pobreza."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Jovens: 60% da população tem menos de 25 anos. Potência emergente do século XXI.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "África: Potencial e Desafios",
+            "Literatura",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Filosofia",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "América Latina: Integração e Desafios",
+      "slug": "america-latina-integracao-e-desafios",
+      "desc": "Colonização ibérica → desigualdade persistente. Economia: commodities (soja, carne, minérios, petról...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Colonização ibérica → desigualdade persistente. Economia: commodities (soja, carne, minérios, petróleo).",
+      "body": "<h2>O que você precisa saber</h2><p>Colonização ibérica → desigualdade persistente. Economia: commodities (soja, carne, minérios, petróleo).</p><h2>Contexto e Desenvolvimento</h2><p>Integração: MERCOSUL, CELAC, Aliança do Pacífico. Populismo como fenômeno recorrente. Urbanização acelerada: SP, Cidade do México, Buenos Aires.</p><h2>Consequências e Legado</h2><p>Violência: 8 dos 10 países mais violentos do mundo estão na AL. Desafio ambiental: Amazônia (60% no Brasil), desmatamento, biodiversidade.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>América Latina: Integração e Desafios</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre América Latina: Integração e Desafios?",
+          "a": "Colonização ibérica → desigualdade persistente."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Economia: commodities (soja, carne, minérios, petróleo). Integração: MERCOSUL, CELAC, Aliança do Pacífico."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Violência: 8 dos 10 países mais violentos do mundo estão na AL. Desafio ambiental: Amazônia (60% no Brasil), desmatamento, biodiversidade.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "América Latina: Integração e Desafios",
+            "Literatura",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Literatura",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Mudanças Climáticas e Sustentabilidade",
+      "slug": "mudancas-climaticas-e-sustentabilidade",
+      "desc": "Aquecimento: +1,1°C desde era industrial. IPCC: meta de 1,5°C. Consequências: derretimento do Ártico...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Aquecimento: +1,1°C desde era industrial. Consequências: derretimento do Ártico, elevação dos mares (+50cm até 2100), eventos extremos, seca, refugiados climáticos.",
+      "body": "<h2>O que você precisa saber</h2><p>Aquecimento: +1,1°C desde era industrial. IPCC: meta de 1,5°C.</p><h2>Contexto e Desenvolvimento</h2><p>Consequências: derretimento do Ártico, elevação dos mares (+50cm até 2100), eventos extremos, seca, refugiados climáticos. Acordo de Paris (2015): NDCs (metas nacionais). COP (Conferência das Partes).</p><p>Transição energética: abandonar fósseis. Economia circular: reduzir, reutilizar, reciclar.</p><h3>Destaques</h3><ul><li>+50cm até 2100</li><li>metas nacionais</li><li>Conferência das Partes</li><li>ambiental, social, governança</li></ul><h2>Consequências e Legado</h2><p>Créditos de carbono. ESG (ambiental, social, governança). Papel do Brasil: Amazônia, energia limpa, biodiversidade.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Mudanças Climáticas e Sustentabilidade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Mudanças Climáticas e Sustentabilidade?",
+          "a": "Aquecimento: +1,1°C desde era industrial."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Consequências: derretimento do Ártico, elevação dos mares (+50cm até 2100), eventos extremos, seca, refugiados climáticos. Acordo de Paris (2015): NDCs (metas nacionais)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "ESG (ambiental, social, governança). Papel do Brasil: Amazônia, energia limpa, biodiversidade.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Geografia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Mudanças Climáticas e Sustentabilidade",
+            "Matemática",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Biologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

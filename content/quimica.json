@@ -1,0 +1,1484 @@
+{
+  "subject": "Química",
+  "slug": "quimica",
+  "color": "var(--quimica)",
+  "icon": "flask",
+  "articles": [
+    {
+      "title": "Matéria e Energia",
+      "slug": "materia-e-energia",
+      "desc": "Propriedades gerais e específicas. Substância pura (simples/composta) e mistura (homo/heterogênea)....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Propriedades gerais e específicas. Substância pura (simples/composta) e mistura (homo/heterogênea).",
+      "body": "<h2>O que você precisa saber</h2><p>Propriedades gerais e específicas.</p><h2>Contexto e Desenvolvimento</h2><p>Substância pura (simples/composta) e mistura (homo/heterogênea). Separação.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Matéria e Energia</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Matéria e Energia?",
+          "a": "Propriedades gerais e específicas."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matéria e Energia",
+            "Física",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Física",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Modelos Atômicos",
+      "slug": "modelos-atomicos",
+      "desc": "Dalton, Thomson, Rutherford, Bohr, Quântico. Número atômico (Z), massa (A). Íons: cátion (+), ânion...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Dalton, Thomson, Rutherford, Bohr, Quântico. Número atômico (Z), massa (A).",
+      "body": "<h2>O que você precisa saber</h2><p>Dalton, Thomson, Rutherford, Bohr, Quântico.</p><h2>Contexto e Desenvolvimento</h2><p>Número atômico (Z), massa (A). Íons: cátion (+), ânion (−).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Modelos Atômicos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Modelos Atômicos?",
+          "a": "Dalton, Thomson, Rutherford, Bohr, Quântico."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Modelos Atômicos",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Filosofia",
+            "Biologia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Distribuição Eletrônica",
+      "slug": "distribuicao-eletronica",
+      "desc": "Níveis (1-7) e subníveis (s,p,d,f). Diagrama de Linus Pauling. Elétrons de valência. Relação com Tab...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Níveis (1-7) e subníveis (s,p,d,f). Diagrama de Linus Pauling.",
+      "body": "<h2>O que você precisa saber</h2><p>Níveis (1-7) e subníveis (s,p,d,f).</p><h2>Contexto e Desenvolvimento</h2><p>Diagrama de Linus Pauling. Elétrons de valência.</p><h2>Consequências e Legado</h2><p>Relação com Tabela Periódica.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Distribuição Eletrônica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Distribuição Eletrônica?",
+          "a": "Níveis (1-7) e subníveis (s,p,d,f)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Geografia",
+            "Matemática",
+            "Distribuição Eletrônica"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Tabela Periódica",
+      "slug": "tabela-periodica",
+      "desc": "Períodos, famílias. Metais, ametais, semimetais, gases nobres. Propriedades periódicas: raio atômico...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Metais, ametais, semimetais, gases nobres. Propriedades periódicas: raio atômico, eletronegatividade, energia de ionização..",
+      "body": "<h2>O que você precisa saber</h2><p>Períodos, famílias.</p><h2>Contexto e Desenvolvimento</h2><p>Metais, ametais, semimetais, gases nobres. Propriedades periódicas: raio atômico, eletronegatividade, energia de ionização.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Tabela Periódica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Tabela Periódica?",
+          "a": "Metais, ametais, semimetais, gases nobres."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Tabela Periódica",
+            "Matemática",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Sociologia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Ligações Químicas",
+      "slug": "ligacoes-quimicas",
+      "desc": "Iônica (metal+ametal, NaCl). Covalente (ametal+ametal, H₂O). Metálica (metal+metal, Fe). Geometria m...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Iônica (metal+ametal, NaCl). Covalente (ametal+ametal, H₂O).",
+      "body": "<h2>O que você precisa saber</h2><p>Iônica (metal+ametal, NaCl).</p><h2>Contexto e Desenvolvimento</h2><p>Covalente (ametal+ametal, H₂O). Metálica (metal+metal, Fe). Geometria molecular.</p><h3>Destaques</h3><ul><li>metal+ametal, NaCl</li><li>ametal+ametal, H₂O</li><li>metal+metal, Fe</li></ul><h2>Consequências e Legado</h2><p>Polaridade.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Ligações Químicas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Ligações Químicas?",
+          "a": "Iônica (metal+ametal, NaCl)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Ligações Químicas",
+            "Biologia",
+            "Literatura",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Biologia",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Funções Inorgânicas: Ácidos e Bases",
+      "slug": "funcoes-inorganicas-acidos-e-bases",
+      "desc": "Ácidos: H⁺ em água (HCl, H₂SO₄). Bases: OH⁻ em água (NaOH, Ca(OH)₂). pH e pOH. Indicadores. Neutrali...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Ácidos: H⁺ em água (HCl, H₂SO₄). Bases: OH⁻ em água (NaOH, Ca(OH)₂).",
+      "body": "<h2>O que você precisa saber</h2><p>Ácidos: H⁺ em água (HCl, H₂SO₄).</p><h2>Contexto e Desenvolvimento</h2><p>Bases: OH⁻ em água (NaOH, Ca(OH)₂). pH e pOH. Indicadores.</p><h2>Consequências e Legado</h2><p>Neutralização.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Funções Inorgânicas: Ácidos e Bases</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Funções Inorgânicas: Ácidos e Bases?",
+          "a": "Ácidos: H⁺ em água (HCl, H₂SO₄)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Filosofia",
+            "Funções Inorgânicas: Ácidos e Bases"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Funções Inorgânicas: Sais e Óxidos",
+      "slug": "funcoes-inorganicas-sais-e-oxidos",
+      "desc": "Sais: ácido+base (NaCl, CaCO₃). Óxidos: elemento+O₂. Ácidos (CO₂), Básicos (CaO), Anfóteros (Al₂O₃),...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Sais: ácido+base (NaCl, CaCO₃). Ácidos (CO₂), Básicos (CaO), Anfóteros (Al₂O₃), Peróxidos (H₂O₂)..",
+      "body": "<h2>O que você precisa saber</h2><p>Sais: ácido+base (NaCl, CaCO₃).</p><h2>Contexto e Desenvolvimento</h2><p>Óxidos: elemento+O₂. Ácidos (CO₂), Básicos (CaO), Anfóteros (Al₂O₃), Peróxidos (H₂O₂).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Funções Inorgânicas: Sais e Óxidos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Funções Inorgânicas: Sais e Óxidos?",
+          "a": "Sais: ácido+base (NaCl, CaCO₃)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Funções Inorgânicas: Sais e Óxidos",
+            "Filosofia",
+            "Física",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Física",
+            "Literatura",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reações Químicas: Tipos",
+      "slug": "reacoes-quimicas-tipos",
+      "desc": "Síntese (A+B→AB), Decomposição (AB→A+B), Simples troca (A+BC→AC+B), Dupla troca (AB+CD→AD+CB)....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Síntese (A+B→AB), Decomposição (AB→A+B), Simples troca (A+BC→AC+B), Dupla troca (AB+CD→AD+CB)..",
+      "body": "<p>Síntese (A+B→AB), Decomposição (AB→A+B), Simples troca (A+BC→AC+B), Dupla troca (AB+CD→AD+CB).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Geografia",
+            "Reações Químicas: Tipos",
+            "Sociologia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Balanceamento de Equações",
+      "slug": "balanceamento-de-equacoes",
+      "desc": "Coeficientes estequiométricos. Método da tentativa. Balanceamento por oxirredução. Conservação de ma...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Coeficientes estequiométricos. Balanceamento por oxirredução.",
+      "body": "<h2>O que você precisa saber</h2><p>Coeficientes estequiométricos.</p><h2>Contexto e Desenvolvimento</h2><p>Método da tentativa. Balanceamento por oxirredução.</p><h2>Consequências e Legado</h2><p>Conservação de massa.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Balanceamento de Equações</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Balanceamento de Equações?",
+          "a": "Coeficientes estequiométricos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Literatura",
+            "Filosofia",
+            "Balanceamento de Equações"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Literatura",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Estequiometria",
+      "slug": "estequiometria",
+      "desc": "Mol (6,022×10²³). Massa molar. Relação molar. Cálculos: massa-massa, massa-volume. Reagente limitant...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Cálculos: massa-massa, massa-volume.",
+      "body": "<h2>O que você precisa saber</h2><p>Mol (6,022×10²³). Massa molar.</p><h2>Contexto e Desenvolvimento</h2><p>Relação molar. Cálculos: massa-massa, massa-volume. Reagente limitante.</p><h2>Consequências e Legado</h2><p>Pureza. Rendimento.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Estequiometria</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Física",
+            "Estequiometria",
+            "Literatura"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Física",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gases",
+      "slug": "gases",
+      "desc": "Lei de Boyle (P×V=k), Charles (V/T=k), Gay-Lussac (P/T=k). Equação geral: PV=nRT. CNTP. Volume molar...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Lei de Boyle (P×V=k), Charles (V/T=k), Gay-Lussac (P/T=k). Equação geral: PV=nRT.",
+      "body": "<h2>O que você precisa saber</h2><p>Lei de Boyle (P×V=k), Charles (V/T=k), Gay-Lussac (P/T=k).</p><h2>Contexto e Desenvolvimento</h2><p>Equação geral: PV=nRT. CNTP.</p><h2>Consequências e Legado</h2><p>Volume molar.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Gases</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gases?",
+          "a": "Lei de Boyle (P×V=k), Charles (V/T=k), Gay-Lussac (P/T=k)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Gases",
+            "Matemática",
+            "Filosofia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Biologia",
+            "Filosofia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Soluções",
+      "slug": "solucoes",
+      "desc": "Soluto + solvente. Concentração: g/L, mol/L (molaridade), ppm. Diluição: C₁V₁=C₂V₂. Solubilidade vs....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Concentração: g/L, mol/L (molaridade), ppm. ## 2º Ano — Físico-Química.",
+      "body": "<h2>O que você precisa saber</h2><p>Soluto + solvente.</p><h2>Contexto e Desenvolvimento</h2><p>Concentração: g/L, mol/L (molaridade), ppm. Diluição: C₁V₁=C₂V₂.</p><h2>Consequências e Legado</h2><p>Solubilidade vs. temperatura. ## 2º Ano — Físico-Química</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Soluções</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Soluções?",
+          "a": "Concentração: g/L, mol/L (molaridade), ppm."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Soluções",
+            "Filosofia",
+            "Física",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Física",
+            "Matemática",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Termoquímica",
+      "slug": "termoquimica",
+      "desc": "Entalpia (H). Reações exotérmicas (ΔH<0) e endotérmicas (ΔH>0). Lei de Hess. Energia de ligação. Cal...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Reações exotérmicas (ΔH<0) e endotérmicas (ΔH>0).",
+      "body": "<h2>O que você precisa saber</h2><p>Entalpia (H).</p><h2>Contexto e Desenvolvimento</h2><p>Reações exotérmicas (ΔH<0) e endotérmicas (ΔH>0). Lei de Hess. Energia de ligação.</p><h2>Consequências e Legado</h2><p>Calorímetro.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Termoquímica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Termoquímica",
+            "Geografia",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Cinética Química",
+      "slug": "cinetica-quimica",
+      "desc": "Velocidade de reação. Fatores: temperatura, concentração, superfície de contato, catalisador. Energi...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Fatores: temperatura, concentração, superfície de contato, catalisador.",
+      "body": "<h2>O que você precisa saber</h2><p>Velocidade de reação.</p><h2>Contexto e Desenvolvimento</h2><p>Fatores: temperatura, concentração, superfície de contato, catalisador. Energia de ativação.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Cinética Química</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Literatura",
+            "Física",
+            "Cinética Química"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Literatura",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Equilíbrio Químico",
+      "slug": "equilibrio-quimico",
+      "desc": "Reação reversível. Constante Kc e Kp. Princípio de Le Chatelier (temperatura, pressão, concentração)...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Princípio de Le Chatelier (temperatura, pressão, concentração).",
+      "body": "<h2>O que você precisa saber</h2><p>Reação reversível.</p><h2>Contexto e Desenvolvimento</h2><p>Constante Kc e Kp. Princípio de Le Chatelier (temperatura, pressão, concentração).</p><h2>Consequências e Legado</h2><p>Deslocamento.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Equilíbrio Químico</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Matemática",
+            "Biologia",
+            "Equilíbrio Químico"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Equilíbrio Iônico",
+      "slug": "equilibrio-ionico",
+      "desc": "Ka e Kb. pH e pOH. Hidrólise de sais. Solução tampão. Produto de solubilidade (Kps)....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Produto de solubilidade (Kps)..",
+      "body": "<h2>O que você precisa saber</h2><p>Ka e Kb. pH e pOH.</p><h2>Contexto e Desenvolvimento</h2><p>Hidrólise de sais. Solução tampão.</p><h2>Consequências e Legado</h2><p>Produto de solubilidade (Kps).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Equilíbrio Iônico</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Geografia",
+            "Biologia",
+            "Equilíbrio Iônico"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Literatura",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Eletroquímica: Pilhas",
+      "slug": "eletroquimica-pilhas",
+      "desc": "Reação de oxirredução espontânea. Ânodo (oxidação), Cátodo (redução). Potencial padrão. Pilha de Dan...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Reação de oxirredução espontânea. Ânodo (oxidação), Cátodo (redução).",
+      "body": "<h2>O que você precisa saber</h2><p>Reação de oxirredução espontânea.</p><h2>Contexto e Desenvolvimento</h2><p>Ânodo (oxidação), Cátodo (redução). Potencial padrão. Pilha de Daniell.</p><h2>Consequências e Legado</h2><p>Pilhas comerciais.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Eletroquímica: Pilhas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Eletroquímica: Pilhas?",
+          "a": "Reação de oxirredução espontânea."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Física",
+            "Geografia",
+            "Eletroquímica: Pilhas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Física",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Eletroquímica: Eletrólise",
+      "slug": "eletroquimica-eletrolise",
+      "desc": "Reação forçada por corrente elétrica. Eletrólise ígnea e aquosa. Leis de Faraday. Galvanoplastia. Pr...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Reação forçada por corrente elétrica. Eletrólise ígnea e aquosa.",
+      "body": "<h2>O que você precisa saber</h2><p>Reação forçada por corrente elétrica.</p><h2>Contexto e Desenvolvimento</h2><p>Eletrólise ígnea e aquosa. Leis de Faraday. Galvanoplastia.</p><h2>Consequências e Legado</h2><p>Produção de alumínio.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Eletroquímica: Eletrólise</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Eletroquímica: Eletrólise?",
+          "a": "Reação forçada por corrente elétrica."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Eletroquímica: Eletrólise",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Literatura",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Radioatividade",
+      "slug": "radioatividade",
+      "desc": "Emissões: alfa (α), beta (β), gama (γ). Meia-vida. Fissão e fusão nuclear. Usina nuclear. Chernobyl,...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Emissões: alfa (α), beta (β), gama (γ). Fissão e fusão nuclear.",
+      "body": "<h2>O que você precisa saber</h2><p>Emissões: alfa (α), beta (β), gama (γ).</p><h2>Contexto e Desenvolvimento</h2><p>Meia-vida. Fissão e fusão nuclear. Usina nuclear.</p><h2>Consequências e Legado</h2><p>Chernobyl, Fukushima, Goiânia (Cs-137).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Radioatividade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Radioatividade?",
+          "a": "Emissões: alfa (α), beta (β), gama (γ)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Radioatividade",
+            "Física",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Física",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Propriedades Coligativas",
+      "slug": "propriedades-coligativas",
+      "desc": "Tonoscopia, ebulioscopia, crioscopia, osmose. Efeito da concentração de soluto nas propriedades do s...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Tonoscopia, ebulioscopia, crioscopia, osmose. Efeito da concentração de soluto nas propriedades do solvente.",
+      "body": "<h2>O que você precisa saber</h2><p>Tonoscopia, ebulioscopia, crioscopia, osmose.</p><h2>Contexto e Desenvolvimento</h2><p>Efeito da concentração de soluto nas propriedades do solvente. ## 3º Ano — Química Orgânica</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Propriedades Coligativas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Propriedades Coligativas?",
+          "a": "Tonoscopia, ebulioscopia, crioscopia, osmose."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Filosofia",
+            "Biologia",
+            "Propriedades Coligativas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Biologia",
+            "Filosofia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Introdução à Orgânica",
+      "slug": "introducao-a-organica",
+      "desc": "Carbono: 4 ligações, cadeias. Fórmulas: molecular, estrutural, condensada. Classificação de cadeias:...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Carbono: 4 ligações, cadeias. Fórmulas: molecular, estrutural, condensada.",
+      "body": "<h2>O que você precisa saber</h2><p>Carbono: 4 ligações, cadeias.</p><h2>Contexto e Desenvolvimento</h2><p>Fórmulas: molecular, estrutural, condensada. Classificação de cadeias: aberta/fechada, homo/heterogênea.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Introdução à Orgânica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Introdução à Orgânica?",
+          "a": "Carbono: 4 ligações, cadeias."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Literatura",
+            "Introdução à Orgânica",
+            "Filosofia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Literatura",
+            "Filosofia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Hidrocarbonetos",
+      "slug": "hidrocarbonetos",
+      "desc": "Alcanos (−), Alcenos (=), Alcinos (≡), Alcadienos, Ciclanos, Aromáticos (benzeno). Nomenclatura IUPA...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Alcanos (−), Alcenos (=), Alcinos (≡), Alcadienos, Ciclanos, Aromáticos (benzeno). Petróleo e derivados..",
+      "body": "<h2>O que você precisa saber</h2><p>Alcanos (−), Alcenos (=), Alcinos (≡), Alcadienos, Ciclanos, Aromáticos (benzeno).</p><h2>Contexto e Desenvolvimento</h2><p>Nomenclatura IUPAC. Petróleo e derivados.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Hidrocarbonetos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Hidrocarbonetos?",
+          "a": "Alcanos (−), Alcenos (=), Alcinos (≡), Alcadienos, Ciclanos, Aromáticos (benzeno)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Biologia",
+            "Hidrocarbonetos",
+            "Matemática"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Biologia",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Funções Oxigenadas",
+      "slug": "funcoes-oxigenadas",
+      "desc": "Álcool (−OH), Fenol, Éter (−O−), Aldeído (−CHO), Cetona (−CO−), Ácido carboxílico (−COOH), Éster (−C...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Álcool (−OH), Fenol, Éter (−O−), Aldeído (−CHO), Cetona (−CO−), Ácido carboxílico (−COOH), Éster (−COO−)..",
+      "body": "<p>Álcool (−OH), Fenol, Éter (−O−), Aldeído (−CHO), Cetona (−CO−), Ácido carboxílico (−COOH), Éster (−COO−).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Física",
+            "Literatura",
+            "Funções Oxigenadas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Literatura",
+            "Física",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Funções Nitrogenadas e Outras",
+      "slug": "funcoes-nitrogenadas-e-outras",
+      "desc": "Aminas (−NH₂), Amidas (−CONH₂), Nitrilas. Haletos orgânicos. Tióis (−SH)....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Aminas (−NH₂), Amidas (−CONH₂), Nitrilas.",
+      "body": "<h2>O que você precisa saber</h2><p>Aminas (−NH₂), Amidas (−CONH₂), Nitrilas.</p><h2>Contexto e Desenvolvimento</h2><p>Haletos orgânicos. Tióis (−SH).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Funções Nitrogenadas e Outras</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Funções Nitrogenadas e Outras",
+            "Biologia",
+            "Matemática",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Biologia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Isomeria",
+      "slug": "isomeria",
+      "desc": "Plana: cadeia, posição, função, compensação. Espacial: geométrica (cis/trans), óptica (quiralidade,...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Plana: cadeia, posição, função, compensação. Espacial: geométrica (cis/trans), óptica (quiralidade, enantiômeros)..",
+      "body": "<h2>O que você precisa saber</h2><p>Plana: cadeia, posição, função, compensação.</p><h2>Contexto e Desenvolvimento</h2><p>Espacial: geométrica (cis/trans), óptica (quiralidade, enantiômeros).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Isomeria</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Isomeria?",
+          "a": "Plana: cadeia, posição, função, compensação."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Isomeria",
+            "Biologia",
+            "Filosofia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Filosofia",
+            "Sociologia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reações Orgânicas",
+      "slug": "reacoes-organicas",
+      "desc": "Substituição (halogenação do benzeno), Adição (alcenos+HBr), Eliminação (desidratação), Oxidação (ál...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Substituição (halogenação do benzeno), Adição (alcenos+HBr), Eliminação (desidratação), Oxidação (álcool→aldeído→ácido)..",
+      "body": "<p>Substituição (halogenação do benzeno), Adição (alcenos+HBr), Eliminação (desidratação), Oxidação (álcool→aldeído→ácido).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Reações Orgânicas",
+            "Matemática",
+            "Sociologia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Sociologia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Polímeros",
+      "slug": "polimeros",
+      "desc": "Adição: polietileno, PVC, PS, teflon. Condensação: náilon, PET, baquelite. Naturais: amido, celulose...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Adição: polietileno, PVC, PS, teflon. Condensação: náilon, PET, baquelite.",
+      "body": "<h2>O que você precisa saber</h2><p>Adição: polietileno, PVC, PS, teflon.</p><h2>Contexto e Desenvolvimento</h2><p>Condensação: náilon, PET, baquelite. Naturais: amido, celulose, proteínas, DNA.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Polímeros</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Polímeros?",
+          "a": "Adição: polietileno, PVC, PS, teflon."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Polímeros",
+            "Literatura",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Matemática",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Bioquímica",
+      "slug": "bioquimica",
+      "desc": "Carboidratos (mono, di, polissacarídeos). Lipídios (ácidos graxos, triglicerídeos). Proteínas (amino...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Carboidratos (mono, di, polissacarídeos). Lipídios (ácidos graxos, triglicerídeos).",
+      "body": "<h2>O que você precisa saber</h2><p>Carboidratos (mono, di, polissacarídeos).</p><h2>Contexto e Desenvolvimento</h2><p>Lipídios (ácidos graxos, triglicerídeos). Proteínas (aminoácidos, ligação peptídica).</p><h3>Destaques</h3><ul><li>mono, di, polissacarídeos</li><li>ácidos graxos, triglicerídeos</li><li>aminoácidos, ligação peptídica</li></ul><h2>Consequências e Legado</h2><p>Enzimas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Bioquímica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Bioquímica?",
+          "a": "Carboidratos (mono, di, polissacarídeos)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Bioquímica",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Física",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

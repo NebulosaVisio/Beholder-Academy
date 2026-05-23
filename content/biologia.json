@@ -1,0 +1,2052 @@
+{
+  "subject": "Biologia",
+  "slug": "biologia",
+  "color": "var(--biologia)",
+  "icon": "dna",
+  "articles": [
+    {
+      "title": "Bioquímica: Água e Sais Minerais",
+      "slug": "bioquimica-agua-e-sais-minerais",
+      "desc": "Água: solvente universal, termorregulação, transporte. Sais: Ca (ossos), Fe (hemoglobina), Na/K (ner...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Água: solvente universal, termorregulação, transporte. Sais: Ca (ossos), Fe (hemoglobina), Na/K (nervos)..",
+      "body": "<h2>O que você precisa saber</h2><p>Água: solvente universal, termorregulação, transporte.</p><h2>Contexto e Desenvolvimento</h2><p>Sais: Ca (ossos), Fe (hemoglobina), Na/K (nervos).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Bioquímica: Água e Sais Minerais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Bioquímica: Água e Sais Minerais?",
+          "a": "Água: solvente universal, termorregulação, transporte."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Bioquímica: Água e Sais Minerais",
+            "Física",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Física",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Bioquímica: Carboidratos, Lipídios, Proteínas e Ácidos Nucleicos",
+      "slug": "bioquimica-carboidratos-lipidios-proteinas-e-acidos-nucleicos",
+      "desc": "Carboidratos: energia (glicose, amido). Lipídios: reserva energética, membrana. Proteínas: estrutura...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Carboidratos: energia (glicose, amido). Lipídios: reserva energética, membrana.",
+      "body": "<h2>O que você precisa saber</h2><p>Carboidratos: energia (glicose, amido).</p><h2>Contexto e Desenvolvimento</h2><p>Lipídios: reserva energética, membrana. Proteínas: estrutura, enzimas.</p><h2>Consequências e Legado</h2><p>DNA/RNA: informação genética.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Bioquímica: Carboidratos, Lipídios, Proteínas e Ácidos Nucleicos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Bioquímica: Carboidratos, Lipídios, Proteínas e Ácidos Nucleicos?",
+          "a": "Carboidratos: energia (glicose, amido)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Lipídios: reserva energética, membrana. Proteínas: estrutura, enzimas."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Filosofia",
+            "Matemática",
+            "Bioquímica: Carboidratos, Lipídios, Proteínas e Ácidos Nucleicos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Sociologia",
+            "Matemática",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Célula: Membrana Plasmática",
+      "slug": "celula-membrana-plasmatica",
+      "desc": "Modelo mosaico fluido. Bicamada lipídica + proteínas. Transporte passivo (difusão, osmose) e ativo (...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Modelo mosaico fluido. Bicamada lipídica + proteínas.",
+      "body": "<h2>O que você precisa saber</h2><p>Modelo mosaico fluido.</p><h2>Contexto e Desenvolvimento</h2><p>Bicamada lipídica + proteínas. Transporte passivo (difusão, osmose) e ativo (bomba Na/K).</p><h2>Consequências e Legado</h2><p>Endocitose/exocitose.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Célula: Membrana Plasmática</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Célula: Membrana Plasmática?",
+          "a": "Modelo mosaico fluido."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Bicamada lipídica + proteínas. Transporte passivo (difusão, osmose) e ativo (bomba Na/K)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Célula: Membrana Plasmática",
+            "Química",
+            "Literatura",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Química",
+            "Literatura",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Célula: Citoplasma e Organelas",
+      "slug": "celula-citoplasma-e-organelas",
+      "desc": "Ribossomos (síntese proteica), RE (transporte), Golgi (empacotamento), Lisossomos (digestão), Mitocô...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Ribossomos (síntese proteica), RE (transporte), Golgi (empacotamento), Lisossomos (digestão), Mitocôndrias (respiração), Cloroplastos (fotossíntese)..",
+      "body": "<p>Ribossomos (síntese proteica), RE (transporte), Golgi (empacotamento), Lisossomos (digestão), Mitocôndrias (respiração), Cloroplastos (fotossíntese).</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Geografia",
+            "Célula: Citoplasma e Organelas",
+            "Literatura"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Geografia",
+            "Literatura",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Célula: Núcleo e Material Genético",
+      "slug": "celula-nucleo-e-material-genetico",
+      "desc": "Carioteca, nucléolo, cromatina/cromossomos. DNA: dupla hélice. Gene: trecho do DNA que codifica prot...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Carioteca, nucléolo, cromatina/cromossomos. Gene: trecho do DNA que codifica proteína.",
+      "body": "<h2>O que você precisa saber</h2><p>Carioteca, nucléolo, cromatina/cromossomos.</p><h2>Contexto e Desenvolvimento</h2><p>DNA: dupla hélice. Gene: trecho do DNA que codifica proteína.</p><h2>Consequências e Legado</h2><p>Cariótipo humano: 46 cromossomos.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Célula: Núcleo e Material Genético</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Célula: Núcleo e Material Genético?",
+          "a": "Carioteca, nucléolo, cromatina/cromossomos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Geografia",
+            "Química",
+            "Célula: Núcleo e Material Genético"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Química",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Divisão Celular: Mitose",
+      "slug": "divisao-celular-mitose",
+      "desc": "Prófase, Metáfase, Anáfase, Telófase. Células somáticas. 2n→2n. Crescimento e reparo. Câncer: mitose...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Prófase, Metáfase, Anáfase, Telófase. Câncer: mitose descontrolada..",
+      "body": "<h2>O que você precisa saber</h2><p>Prófase, Metáfase, Anáfase, Telófase.</p><h2>Contexto e Desenvolvimento</h2><p>Células somáticas. 2n→2n. Crescimento e reparo.</p><h2>Consequências e Legado</h2><p>Câncer: mitose descontrolada.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Divisão Celular: Mitose</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Divisão Celular: Mitose?",
+          "a": "Prófase, Metáfase, Anáfase, Telófase."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Geografia",
+            "Divisão Celular: Mitose",
+            "Literatura"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Geografia",
+            "Literatura",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Divisão Celular: Meiose",
+      "slug": "divisao-celular-meiose",
+      "desc": "Duas divisões. Células reprodutivas (gametas). 2n→n. Crossing-over: variabilidade genética. Importân...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Células reprodutivas (gametas). Crossing-over: variabilidade genética.",
+      "body": "<h2>O que você precisa saber</h2><p>Duas divisões.</p><h2>Contexto e Desenvolvimento</h2><p>Células reprodutivas (gametas). 2n→n. Crossing-over: variabilidade genética.</p><h2>Consequências e Legado</h2><p>Importância para a reprodução sexuada.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Divisão Celular: Meiose</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Divisão Celular: Meiose?",
+          "a": "Células reprodutivas (gametas)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Divisão Celular: Meiose",
+            "Sociologia",
+            "Física",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Física",
+            "Química",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Metabolismo: Respiração Celular",
+      "slug": "metabolismo-respiracao-celular",
+      "desc": "Glicose + O₂ → CO₂ + H₂O + ATP. Glicólise (citoplasma), Ciclo de Krebs (matriz mitocondrial), Cadeia...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Glicose + O₂ → CO₂ + H₂O + ATP. Glicólise (citoplasma), Ciclo de Krebs (matriz mitocondrial), Cadeia respiratória (cristas).",
+      "body": "<h2>O que você precisa saber</h2><p>Glicose + O₂ → CO₂ + H₂O + ATP.</p><h2>Contexto e Desenvolvimento</h2><p>Glicólise (citoplasma), Ciclo de Krebs (matriz mitocondrial), Cadeia respiratória (cristas). Fermentação.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Metabolismo: Respiração Celular</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Metabolismo: Respiração Celular?",
+          "a": "Glicose + O₂ → CO₂ + H₂O + ATP."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Física",
+            "Metabolismo: Respiração Celular",
+            "Geografia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Física",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Metabolismo: Fotossíntese",
+      "slug": "metabolismo-fotossintese",
+      "desc": "CO₂ + H₂O + Luz → Glicose + O₂. Fase clara (tilacoides) e Fase escura/Calvin (estroma). Clorofila. B...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "CO₂ + H₂O + Luz → Glicose + O₂. Fase clara (tilacoides) e Fase escura/Calvin (estroma).",
+      "body": "<h2>O que você precisa saber</h2><p>CO₂ + H₂O + Luz → Glicose + O₂.</p><h2>Contexto e Desenvolvimento</h2><p>Fase clara (tilacoides) e Fase escura/Calvin (estroma). Clorofila.</p><h2>Consequências e Legado</h2><p>Base de quase toda a vida.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Metabolismo: Fotossíntese</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Metabolismo: Fotossíntese?",
+          "a": "CO₂ + H₂O + Luz → Glicose + O₂."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Filosofia",
+            "Literatura",
+            "Metabolismo: Fotossíntese"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Matemática",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Histologia: Tecido Epitelial e Conjuntivo",
+      "slug": "histologia-tecido-epitelial-e-conjuntivo",
+      "desc": "Epitelial: revestimento e secreção (glândulas). Conjuntivo: sustentação, preenchimento. Tipos: froux...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Epitelial: revestimento e secreção (glândulas). Conjuntivo: sustentação, preenchimento.",
+      "body": "<h2>O que você precisa saber</h2><p>Epitelial: revestimento e secreção (glândulas).</p><h2>Contexto e Desenvolvimento</h2><p>Conjuntivo: sustentação, preenchimento. Tipos: frouxo, denso, adiposo, ósseo, cartilaginoso, sanguíneo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Histologia: Tecido Epitelial e Conjuntivo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Histologia: Tecido Epitelial e Conjuntivo?",
+          "a": "Epitelial: revestimento e secreção (glândulas)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Geografia",
+            "Literatura",
+            "Histologia: Tecido Epitelial e Conjuntivo"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Geografia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Histologia: Tecido Muscular e Nervoso",
+      "slug": "histologia-tecido-muscular-e-nervoso",
+      "desc": "Muscular: estriado esquelético (voluntário), estriado cardíaco (involuntário), liso (involuntário)....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Muscular: estriado esquelético (voluntário), estriado cardíaco (involuntário), liso (involuntário). Nervoso: neurônios + glia..",
+      "body": "<h2>O que você precisa saber</h2><p>Muscular: estriado esquelético (voluntário), estriado cardíaco (involuntário), liso (involuntário).</p><h2>Contexto e Desenvolvimento</h2><p>Nervoso: neurônios + glia.</p><h3>Destaques</h3><ul><li>voluntário</li><li>involuntário</li><li>involuntário</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Histologia: Tecido Muscular e Nervoso</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Histologia: Tecido Muscular e Nervoso?",
+          "a": "Muscular: estriado esquelético (voluntário), estriado cardíaco (involuntário), liso (involuntário)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Filosofia",
+            "Sociologia",
+            "Histologia: Tecido Muscular e Nervoso"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Filosofia",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Genética: Leis de Mendel",
+      "slug": "genetica-leis-de-mendel",
+      "desc": "1ª Lei (segregação): Aa × Aa → 1AA:2Aa:1aa. 2ª Lei (segregação independente). Dominância. Recessivid...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "1ª Lei (segregação): Aa × Aa → 1AA:2Aa:1aa. 2ª Lei (segregação independente).",
+      "body": "<h2>O que você precisa saber</h2><p>1ª Lei (segregação): Aa × Aa → 1AA:2Aa:1aa.</p><h2>Contexto e Desenvolvimento</h2><p>2ª Lei (segregação independente). Dominância. Recessividade.</p><h2>Consequências e Legado</h2><p>Quadro de Punnett.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Genética: Leis de Mendel</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Genética: Leis de Mendel?",
+          "a": "1ª Lei (segregação): Aa × Aa → 1AA:2Aa:1aa."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Genética: Leis de Mendel",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Física",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Genética: Extensões do Mendelismo",
+      "slug": "genetica-extensoes-do-mendelismo",
+      "desc": "Codominância (AB), Dominância incompleta, Alelos múltiplos (tipo sanguíneo ABO), Pleiotropia, Heranç...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Codominância (AB), Dominância incompleta, Alelos múltiplos (tipo sanguíneo ABO), Pleiotropia, Herança ligada ao sexo (daltonismo, hemofilia). ## 2º Ano — Taxonomia, Fisiologia e Evolução.",
+      "body": "<p>Codominância (AB), Dominância incompleta, Alelos múltiplos (tipo sanguíneo ABO), Pleiotropia, Herança ligada ao sexo (daltonismo, hemofilia). ## 2º Ano — Taxonomia, Fisiologia e Evolução</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Genética: Extensões do Mendelismo?",
+          "a": "Codominância (AB), Dominância incompleta, Alelos múltiplos (tipo sanguíneo ABO), Pleiotropia, Herança ligada ao sexo (daltonismo, hemofilia)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Genética: Extensões do Mendelismo",
+            "Química",
+            "Física",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Física",
+            "Literatura",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Taxonomia e Classificação",
+      "slug": "taxonomia-e-classificacao",
+      "desc": "Lineu. Domínio-Reino-Filo-Classe-Ordem-Família-Gênero-Espécie. Nomenclatura binomial. Cladística. Ár...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Domínio-Reino-Filo-Classe-Ordem-Família-Gênero-Espécie. Nomenclatura binomial.",
+      "body": "<h2>O que você precisa saber</h2><p>Lineu.</p><h2>Contexto e Desenvolvimento</h2><p>Domínio-Reino-Filo-Classe-Ordem-Família-Gênero-Espécie. Nomenclatura binomial. Cladística.</p><h2>Consequências e Legado</h2><p>Árvore filogenética.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Taxonomia e Classificação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Taxonomia e Classificação?",
+          "a": "Domínio-Reino-Filo-Classe-Ordem-Família-Gênero-Espécie."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Química",
+            "Taxonomia e Classificação"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Química",
+            "Geografia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Vírus",
+      "slug": "virus",
+      "desc": "Estrutura: DNA/RNA + cápside. Ciclo lítico e lisogênico. Doenças: gripe, HIV, dengue, COVID. Vacinas...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Estrutura: DNA/RNA + cápside. Ciclo lítico e lisogênico.",
+      "body": "<h2>O que você precisa saber</h2><p>Estrutura: DNA/RNA + cápside.</p><h2>Contexto e Desenvolvimento</h2><p>Ciclo lítico e lisogênico. Doenças: gripe, HIV, dengue, COVID. Vacinas.</p><h2>Consequências e Legado</h2><p>Retrovírus.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Vírus</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Vírus?",
+          "a": "Estrutura: DNA/RNA + cápside."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Vírus",
+            "Filosofia",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Filosofia",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reino Monera: Bactérias",
+      "slug": "reino-monera-bacterias",
+      "desc": "Procariontes. Formas: coco, bacilo, espirilo. Reprodução: fissão binária. Bactérias boas (microbiota...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Formas: coco, bacilo, espirilo. Reprodução: fissão binária.",
+      "body": "<h2>O que você precisa saber</h2><p>Procariontes.</p><h2>Contexto e Desenvolvimento</h2><p>Formas: coco, bacilo, espirilo. Reprodução: fissão binária. Bactérias boas (microbiota) e patogênicas.</p><h2>Consequências e Legado</h2><p>Antibióticos e resistência.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Reino Monera: Bactérias</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Reino Monera: Bactérias?",
+          "a": "Formas: coco, bacilo, espirilo."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Reprodução: fissão binária. Bactérias boas (microbiota) e patogênicas."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Literatura",
+            "Reino Monera: Bactérias",
+            "Geografia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Química",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reinos Protista e Fungi",
+      "slug": "reinos-protista-e-fungi",
+      "desc": "Protozoários: ameba, paramécio, plasmódio (malária). Algas. Fungos: decomposição, fermentação, micor...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Protozoários: ameba, paramécio, plasmódio (malária). Fungos: decomposição, fermentação, micorrizas, líquens.",
+      "body": "<h2>O que você precisa saber</h2><p>Protozoários: ameba, paramécio, plasmódio (malária).</p><h2>Contexto e Desenvolvimento</h2><p>Algas. Fungos: decomposição, fermentação, micorrizas, líquens.</p><h2>Consequências e Legado</h2><p>Doenças fúngicas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Reinos Protista e Fungi</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Reinos Protista e Fungi?",
+          "a": "Protozoários: ameba, paramécio, plasmódio (malária)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Reinos Protista e Fungi",
+            "Geografia",
+            "Matemática",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Física",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Botânica: Briófitas, Pteridófitas, Gimnospermas, Angiospermas",
+      "slug": "botanica-briofitas-pteridofitas-gimnospermas-angiospermas",
+      "desc": "Evolução das plantas. Vasos condutores. Sementes. Flores e frutos. Monocotiledôneas vs. Dicotiledône...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": ".",
+      "body": "<h2>O que você precisa saber</h2><p>Evolução das plantas. Vasos condutores.</p><h2>Contexto e Desenvolvimento</h2><p>Sementes. Flores e frutos. Monocotiledôneas vs.</p><h2>Consequências e Legado</h2><p>Dicotiledôneas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Botânica: Briófitas, Pteridófitas, Gimnospermas, Angiospermas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Sociologia",
+            "Matemática",
+            "Botânica: Briófitas, Pteridófitas, Gimnospermas, Angiospermas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Sociologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Fisiologia Vegetal",
+      "slug": "fisiologia-vegetal",
+      "desc": "Absorção (raiz), Condução (xilema/floema), Transpiração (folha), Fotossíntese, Hormônios vegetais (a...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Absorção (raiz), Condução (xilema/floema), Transpiração (folha), Fotossíntese, Hormônios vegetais (auxina, giberelina).",
+      "body": "<h2>O que você precisa saber</h2><p>Absorção (raiz), Condução (xilema/floema), Transpiração (folha), Fotossíntese, Hormônios vegetais (auxina, giberelina).</p><h2>Contexto e Desenvolvimento</h2><p>Fototropismo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fisiologia Vegetal</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Sociologia",
+            "Literatura",
+            "Fisiologia Vegetal"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Zoologia: Invertebrados",
+      "slug": "zoologia-invertebrados",
+      "desc": "Poríferos → Cnidários → Platelmintos → Nematelmintos → Anelídeos → Moluscos → Artrópodes → Equinoder...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Poríferos → Cnidários → Platelmintos → Nematelmintos → Anelídeos → Moluscos → Artrópodes → Equinodermos. Características de cada filo..",
+      "body": "<h2>O que você precisa saber</h2><p>Poríferos → Cnidários → Platelmintos → Nematelmintos → Anelídeos → Moluscos → Artrópodes → Equinodermos.</p><h2>Contexto e Desenvolvimento</h2><p>Características de cada filo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Zoologia: Invertebrados</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Zoologia: Invertebrados?",
+          "a": "Poríferos → Cnidários → Platelmintos → Nematelmintos → Anelídeos → Moluscos → Artrópodes → Equinodermos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Geografia",
+            "Zoologia: Invertebrados"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Zoologia: Vertebrados (Cordados)",
+      "slug": "zoologia-vertebrados-cordados",
+      "desc": "Peixes (cartilaginosos e ósseos), Anfíbios, Répteis, Aves, Mamíferos. Evolução. Adaptações. Anatomia...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Peixes (cartilaginosos e ósseos), Anfíbios, Répteis, Aves, Mamíferos.",
+      "body": "<h2>O que você precisa saber</h2><p>Peixes (cartilaginosos e ósseos), Anfíbios, Répteis, Aves, Mamíferos.</p><h2>Contexto e Desenvolvimento</h2><p>Evolução. Adaptações.</p><h2>Consequências e Legado</h2><p>Anatomia comparada.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Zoologia: Vertebrados (Cordados)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Literatura",
+            "Zoologia: Vertebrados (Cordados)"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Fisiologia Humana: Digestão e Respiração",
+      "slug": "fisiologia-humana-digestao-e-respiracao",
+      "desc": "Digestão mecânica e química. Enzimas (amilase, pepsina, lipase). Absorção no intestino delgado. Hema...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Digestão mecânica e química. Enzimas (amilase, pepsina, lipase).",
+      "body": "<h2>O que você precisa saber</h2><p>Digestão mecânica e química.</p><h2>Contexto e Desenvolvimento</h2><p>Enzimas (amilase, pepsina, lipase). Absorção no intestino delgado.</p><h2>Consequências e Legado</h2><p>Hematose nos alvéolos.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fisiologia Humana: Digestão e Respiração</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Fisiologia Humana: Digestão e Respiração?",
+          "a": "Digestão mecânica e química."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Enzimas (amilase, pepsina, lipase). Absorção no intestino delgado."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Fisiologia Humana: Digestão e Respiração",
+            "Matemática",
+            "Geografia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Fisiologia Humana: Circulação e Excreção",
+      "slug": "fisiologia-humana-circulacao-e-excrecao",
+      "desc": "Coração: 4 câmaras. Circulação dupla e completa. Sangue: componentes. Rins: filtração, reabsorção, s...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Circulação dupla e completa. Rins: filtração, reabsorção, secreção.",
+      "body": "<h2>O que você precisa saber</h2><p>Coração: 4 câmaras.</p><h2>Contexto e Desenvolvimento</h2><p>Circulação dupla e completa. Sangue: componentes. Rins: filtração, reabsorção, secreção.</p><h2>Consequências e Legado</h2><p>Néfron.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fisiologia Humana: Circulação e Excreção</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Fisiologia Humana: Circulação e Excreção?",
+          "a": "Circulação dupla e completa."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Fisiologia Humana: Circulação e Excreção",
+            "Literatura",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Fisiologia Humana: Nervoso e Endócrino",
+      "slug": "fisiologia-humana-nervoso-e-endocrino",
+      "desc": "Neurônio: potencial de ação, sinapse. SNC e SNP. Hormônios: feedback negativo. Hipotálamo-hipófise....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Neurônio: potencial de ação, sinapse. Hormônios: feedback negativo.",
+      "body": "<h2>O que você precisa saber</h2><p>Neurônio: potencial de ação, sinapse.</p><h2>Contexto e Desenvolvimento</h2><p>SNC e SNP. Hormônios: feedback negativo. Hipotálamo-hipófise.</p><h2>Consequências e Legado</h2><p>Diabetes, hipo/hipertireoidismo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fisiologia Humana: Nervoso e Endócrino</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Fisiologia Humana: Nervoso e Endócrino?",
+          "a": "Neurônio: potencial de ação, sinapse."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Fisiologia Humana: Nervoso e Endócrino",
+            "Geografia",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Evolução: Darwin e a Seleção Natural",
+      "slug": "evolucao-darwin-e-a-selecao-natural",
+      "desc": "Lamarckismo (uso e desuso). Darwinismo: variação + seleção natural. Evidências: fósseis, anatomia co...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Lamarckismo (uso e desuso). Darwinismo: variação + seleção natural.",
+      "body": "<h2>O que você precisa saber</h2><p>Lamarckismo (uso e desuso).</p><h2>Contexto e Desenvolvimento</h2><p>Darwinismo: variação + seleção natural. Evidências: fósseis, anatomia comparada, embriologia, molecular.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Evolução: Darwin e a Seleção Natural</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Evolução: Darwin e a Seleção Natural?",
+          "a": "Lamarckismo (uso e desuso)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Evolução: Darwin e a Seleção Natural",
+            "Literatura",
+            "Matemática",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Matemática",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Evolução: Especiação e Genética de Populações",
+      "slug": "evolucao-especiacao-e-genetica-de-populacoes",
+      "desc": "Isolamento geográfico e reprodutivo. Deriva genética. Efeito fundador. Lei de Hardy-Weinberg. Seleçã...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Isolamento geográfico e reprodutivo. Lei de Hardy-Weinberg.",
+      "body": "<h2>O que você precisa saber</h2><p>Isolamento geográfico e reprodutivo.</p><h2>Contexto e Desenvolvimento</h2><p>Deriva genética. Efeito fundador. Lei de Hardy-Weinberg.</p><h2>Consequências e Legado</h2><p>Seleção natural: tipos. ## 3º Ano — Ecologia e Biotecnologia</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Evolução: Especiação e Genética de Populações</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Evolução: Especiação e Genética de Populações?",
+          "a": "Isolamento geográfico e reprodutivo."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Lei de Hardy-Weinberg. Seleção natural: tipos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Evolução: Especiação e Genética de Populações",
+            "Química",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Química",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Ecologia: Conceitos Fundamentais",
+      "slug": "ecologia-conceitos-fundamentais",
+      "desc": "Ecossistema, biosfera, bioma. Habitat e nicho. Populações, comunidades. Densidade e crescimento popu...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Ecossistema, biosfera, bioma. Populações, comunidades.",
+      "body": "<h2>O que você precisa saber</h2><p>Ecossistema, biosfera, bioma.</p><h2>Contexto e Desenvolvimento</h2><p>Habitat e nicho. Populações, comunidades.</p><h2>Consequências e Legado</h2><p>Densidade e crescimento populacional.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Ecologia: Conceitos Fundamentais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Ecologia: Conceitos Fundamentais?",
+          "a": "Ecossistema, biosfera, bioma."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Ecologia: Conceitos Fundamentais",
+            "Geografia",
+            "Sociologia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Física",
+            "Geografia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Fluxo de Energia e Ciclos Biogeoquímicos",
+      "slug": "fluxo-de-energia-e-ciclos-biogeoquimicos",
+      "desc": "Energia: unidirecional (sol→produtores→consumidores). Ciclos: carbono, nitrogênio, água, fósforo. Re...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Energia: unidirecional (sol→produtores→consumidores). Ciclos: carbono, nitrogênio, água, fósforo.",
+      "body": "<h2>O que você precisa saber</h2><p>Energia: unidirecional (sol→produtores→consumidores).</p><h2>Contexto e Desenvolvimento</h2><p>Ciclos: carbono, nitrogênio, água, fósforo. Reciclo de matéria.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fluxo de Energia e Ciclos Biogeoquímicos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Fluxo de Energia e Ciclos Biogeoquímicos?",
+          "a": "Energia: unidirecional (sol→produtores→consumidores)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Fluxo de Energia e Ciclos Biogeoquímicos",
+            "Matemática",
+            "Física",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Relações Ecológicas",
+      "slug": "relacoes-ecologicas",
+      "desc": "Intraespecíficas: competição, sociedade, colônia. Interespecíficas: predação, parasitismo, mutualism...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Intraespecíficas: competição, sociedade, colônia. Interespecíficas: predação, parasitismo, mutualismo, comensalismo, amensalismo..",
+      "body": "<h2>O que você precisa saber</h2><p>Intraespecíficas: competição, sociedade, colônia.</p><h2>Contexto e Desenvolvimento</h2><p>Interespecíficas: predação, parasitismo, mutualismo, comensalismo, amensalismo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Relações Ecológicas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Relações Ecológicas?",
+          "a": "Intraespecíficas: competição, sociedade, colônia."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Relações Ecológicas",
+            "Geografia",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Geografia",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Sucessão Ecológica",
+      "slug": "sucessao-ecologica",
+      "desc": "Primária (rocha nua) e Secundária (área devastada). Comunidade clímax. Espécies pioneiras. Restauraç...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Primária (rocha nua) e Secundária (área devastada). Restauração ambiental..",
+      "body": "<h2>O que você precisa saber</h2><p>Primária (rocha nua) e Secundária (área devastada).</p><h2>Contexto e Desenvolvimento</h2><p>Comunidade clímax. Espécies pioneiras.</p><h2>Consequências e Legado</h2><p>Restauração ambiental.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Sucessão Ecológica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Sucessão Ecológica?",
+          "a": "Primária (rocha nua) e Secundária (área devastada)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Sucessão Ecológica",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Filosofia",
+            "Física",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Biomas Brasileiros e Mundiais",
+      "slug": "biomas-brasileiros-e-mundiais",
+      "desc": "Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal, Pampa. Savanas, desertos, tundra, taiga, flor...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal, Pampa. Savanas, desertos, tundra, taiga, florestas temperadas..",
+      "body": "<h2>O que você precisa saber</h2><p>Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal, Pampa.</p><h2>Contexto e Desenvolvimento</h2><p>Savanas, desertos, tundra, taiga, florestas temperadas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Biomas Brasileiros e Mundiais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Biomas Brasileiros e Mundiais?",
+          "a": "Amazônia, Cerrado, Mata Atlântica, Caatinga, Pantanal, Pampa."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Matemática",
+            "Biomas Brasileiros e Mundiais"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Poluição e Impactos Ambientais",
+      "slug": "poluicao-e-impactos-ambientais",
+      "desc": "Poluição do ar (efeito estufa, chuva ácida), água (eutrofização), solo (agrotóxicos). Lixo. Desmatam...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Poluição do ar (efeito estufa, chuva ácida), água (eutrofização), solo (agrotóxicos).",
+      "body": "<h2>O que você precisa saber</h2><p>Poluição do ar (efeito estufa, chuva ácida), água (eutrofização), solo (agrotóxicos).</p><h2>Contexto e Desenvolvimento</h2><p>Lixo. Desmatamento.</p><h3>Destaques</h3><ul><li>efeito estufa, chuva ácida</li><li>eutrofização</li><li>agrotóxicos</li></ul><h2>Consequências e Legado</h2><p>Queimadas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Poluição e Impactos Ambientais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Poluição e Impactos Ambientais",
+            "Filosofia",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Filosofia",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Biotecnologia: DNA Recombinante",
+      "slug": "biotecnologia-dna-recombinante",
+      "desc": "Engenharia genética. Enzimas de restrição. Vetores (plasmídeos). Organismos transgênicos. Terapia gê...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Organismos transgênicos.",
+      "body": "<h2>O que você precisa saber</h2><p>Engenharia genética.</p><h2>Contexto e Desenvolvimento</h2><p>Enzimas de restrição. Vetores (plasmídeos). Organismos transgênicos.</p><h2>Consequências e Legado</h2><p>Terapia gênica.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Biotecnologia: DNA Recombinante</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biotecnologia: DNA Recombinante",
+            "Sociologia",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Sociologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Biotecnologia: PCR, Eletroforese e Sequenciamento",
+      "slug": "biotecnologia-pcr-eletroforese-e-sequenciamento",
+      "desc": "PCR: amplificar DNA. Eletroforese: separar fragmentos. Sequenciamento: ler o código genético. Projet...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Eletroforese: separar fragmentos. Sequenciamento: ler o código genético.",
+      "body": "<h2>O que você precisa saber</h2><p>PCR: amplificar DNA.</p><h2>Contexto e Desenvolvimento</h2><p>Eletroforese: separar fragmentos. Sequenciamento: ler o código genético.</p><h2>Consequências e Legado</h2><p>Projeto Genoma.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Biotecnologia: PCR, Eletroforese e Sequenciamento</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Biotecnologia: PCR, Eletroforese e Sequenciamento?",
+          "a": "Eletroforese: separar fragmentos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Matemática",
+            "Literatura",
+            "Biotecnologia: PCR, Eletroforese e Sequenciamento"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Matemática",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Biotecnologia: Clonagem e Células-Tronco",
+      "slug": "biotecnologia-clonagem-e-celulas-tronco",
+      "desc": "Dolly (1996). Clonagem reprodutiva vs. terapêutica. Células-tronco embrionárias e adultas. Ética....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Clonagem reprodutiva vs. Células-tronco embrionárias e adultas.",
+      "body": "<h2>O que você precisa saber</h2><p>Dolly (1996).</p><h2>Contexto e Desenvolvimento</h2><p>Clonagem reprodutiva vs. terapêutica. Células-tronco embrionárias e adultas.</p><h2>Consequências e Legado</h2><p>Ética.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Biotecnologia: Clonagem e Células-Tronco</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Biotecnologia: Clonagem e Células-Tronco?",
+          "a": "Clonagem reprodutiva vs."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Biotecnologia: Clonagem e Células-Tronco",
+            "Literatura",
+            "Química"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Filosofia",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Genética de Populações Humanas",
+      "slug": "genetica-de-populacoes-humanas",
+      "desc": "Heredogramas. Herança autossômica e ligada ao sexo. Aconselhamento genético. Doenças genéticas comun...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Herança autossômica e ligada ao sexo. Aconselhamento genético.",
+      "body": "<h2>O que você precisa saber</h2><p>Heredogramas.</p><h2>Contexto e Desenvolvimento</h2><p>Herança autossômica e ligada ao sexo. Aconselhamento genético.</p><h2>Consequências e Legado</h2><p>Doenças genéticas comuns.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Genética de Populações Humanas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Genética de Populações Humanas?",
+          "a": "Herança autossômica e ligada ao sexo."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Genética de Populações Humanas",
+            "Física"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Química",
+            "Matemática",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Imunologia",
+      "slug": "imunologia",
+      "desc": "Imunidade inata (barreiras, fagocitose) e adaptativa (linfócitos B/T, anticorpos). Vacinas vs. soro....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Imunidade inata (barreiras, fagocitose) e adaptativa (linfócitos B/T, anticorpos).",
+      "body": "<h2>O que você precisa saber</h2><p>Imunidade inata (barreiras, fagocitose) e adaptativa (linfócitos B/T, anticorpos).</p><h2>Contexto e Desenvolvimento</h2><p>Vacinas vs. soro. Alergias. Transplantes.</p><h2>Consequências e Legado</h2><p>HIV/AIDS.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Imunologia</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Imunologia",
+            "Matemática",
+            "Literatura",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Saúde Pública e Epidemiologia",
+      "slug": "saude-publica-e-epidemiologia",
+      "desc": "Endemias, epidemias, pandemias. Doenças tropicais: dengue, zika, chikungunya, malária. Saneamento. S...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Endemias, epidemias, pandemias. Doenças tropicais: dengue, zika, chikungunya, malária.",
+      "body": "<h2>O que você precisa saber</h2><p>Endemias, epidemias, pandemias.</p><h2>Contexto e Desenvolvimento</h2><p>Doenças tropicais: dengue, zika, chikungunya, malária. Saneamento. SUS.</p><h2>Consequências e Legado</h2><p>Vigilância epidemiológica.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Saúde Pública e Epidemiologia</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Saúde Pública e Epidemiologia?",
+          "a": "Endemias, epidemias, pandemias."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Biologia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Saúde Pública e Epidemiologia",
+            "Física",
+            "Geografia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Biologia",
+            "Física",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

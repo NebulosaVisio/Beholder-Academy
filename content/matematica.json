@@ -1,0 +1,1912 @@
+{
+  "subject": "Matemática",
+  "slug": "matematica",
+  "color": "var(--matematica)",
+  "icon": "calculator",
+  "articles": [
+    {
+      "title": "Conjuntos",
+      "slug": "conjuntos",
+      "desc": "Pertinência (∈), Subconjunto (⊂). Operações: União (∪), Interseção (∩), Diferença (−), Complementar....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Pertinência (∈), Subconjunto (⊂). Operações: União (∪), Interseção (∩), Diferença (−), Complementar..",
+      "body": "<h2>O que você precisa saber</h2><p>Pertinência (∈), Subconjunto (⊂).</p><h2>Contexto e Desenvolvimento</h2><p>Operações: União (∪), Interseção (∩), Diferença (−), Complementar.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Conjuntos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Conjuntos?",
+          "a": "Pertinência (∈), Subconjunto (⊂)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Conjuntos",
+            "Biologia",
+            "Geografia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Geografia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Conjuntos Numéricos",
+      "slug": "conjuntos-numericos",
+      "desc": "N⊂Z⊂Q⊂R. Intervalos reais. Representação na reta. Números irracionais (√2, π)....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Representação na reta. Números irracionais (√2, π)..",
+      "body": "<h2>O que você precisa saber</h2><p>N⊂Z⊂Q⊂R.</p><h2>Contexto e Desenvolvimento</h2><p>Intervalos reais. Representação na reta.</p><h2>Consequências e Legado</h2><p>Números irracionais (√2, π).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Conjuntos Numéricos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Conjuntos Numéricos?",
+          "a": "Representação na reta."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Conjuntos Numéricos",
+            "Química",
+            "Filosofia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Função: Definição e Gráfico",
+      "slug": "funcao-definicao-e-grafico",
+      "desc": "f:A→B. Domínio, contradomínio, imagem. Par ordenado. Plano cartesiano. Injetora, sobrejetora, bijeto...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Domínio, contradomínio, imagem. Injetora, sobrejetora, bijetora..",
+      "body": "<h2>O que você precisa saber</h2><p>f:A→B.</p><h2>Contexto e Desenvolvimento</h2><p>Domínio, contradomínio, imagem. Par ordenado. Plano cartesiano.</p><h2>Consequências e Legado</h2><p>Injetora, sobrejetora, bijetora.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Função: Definição e Gráfico</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Função: Definição e Gráfico?",
+          "a": "Domínio, contradomínio, imagem."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Função: Definição e Gráfico",
+            "Química",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Função Afim (1º Grau)",
+      "slug": "funcao-afim-1-grau",
+      "desc": "f(x)=ax+b. Gráfico: reta. Coef. angular (a), linear (b). Crescente/decrescente. Zero da função. Ineq...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "angular (a), linear (b). Crescente/decrescente.",
+      "body": "<h2>O que você precisa saber</h2><p>f(x)=ax+b. Gráfico: reta.</p><h2>Contexto e Desenvolvimento</h2><p>Coef. angular (a), linear (b). Crescente/decrescente. Zero da função.</p><h2>Consequências e Legado</h2><p>Inequação.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Função Afim (1º Grau)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Função Afim (1º Grau)?",
+          "a": "angular (a), linear (b)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Função Afim (1º Grau)",
+            "Física",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Física",
+            "Biologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Função Quadrática (2º Grau)",
+      "slug": "funcao-quadratica-2-grau",
+      "desc": "f(x)=ax²+bx+c. Parábola. Vértice (xᵥ=-b/2a). Concavidade. Raízes (Bhaskara). Sinal da função....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": ".",
+      "body": "<h2>O que você precisa saber</h2><p>f(x)=ax²+bx+c. Parábola.</p><h2>Contexto e Desenvolvimento</h2><p>Vértice (xᵥ=-b/2a). Concavidade. Raízes (Bhaskara).</p><h2>Consequências e Legado</h2><p>Sinal da função.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Função Quadrática (2º Grau)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Função Quadrática (2º Grau)",
+            "Sociologia",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Sociologia",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Função Exponencial",
+      "slug": "funcao-exponencial",
+      "desc": "f(x)=aˣ (a>0, a≠1). Crescente (a>1) ou decrescente (0<a<1). Gráfico. Equações e inequações exponenci...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Crescente (a>1) ou decrescente (0<a<1). Equações e inequações exponenciais..",
+      "body": "<h2>O que você precisa saber</h2><p>f(x)=aˣ (a>0, a≠1).</p><h2>Contexto e Desenvolvimento</h2><p>Crescente (a>1) ou decrescente (0<a<1). Gráfico.</p><h2>Consequências e Legado</h2><p>Equações e inequações exponenciais.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Função Exponencial</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Função Exponencial?",
+          "a": "Crescente (a>1) ou decrescente (0<a<1)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Função Exponencial",
+            "Geografia",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Função Logarítmica",
+      "slug": "funcao-logaritmica",
+      "desc": "log_a(b)=x ↔ aˣ=b. Propriedades: log(xy), log(x/y), log(xⁿ). Mudança de base. Gráfico....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Propriedades: log(xy), log(x/y), log(xⁿ).",
+      "body": "<h2>O que você precisa saber</h2><p>log_a(b)=x ↔ aˣ=b.</p><h2>Contexto e Desenvolvimento</h2><p>Propriedades: log(xy), log(x/y), log(xⁿ). Mudança de base.</p><h2>Consequências e Legado</h2><p>Gráfico.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Função Logarítmica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Função Logarítmica",
+            "Sociologia",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Geografia",
+            "Química",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Trigonometria no Triângulo Retângulo",
+      "slug": "trigonometria-no-triangulo-retangulo",
+      "desc": "sen=CO/Hip, cos=CA/Hip, tan=CO/CA. Ângulos notáveis: 30°, 45°, 60°. Relações fundamentais....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "sen=CO/Hip, cos=CA/Hip, tan=CO/CA. Ângulos notáveis: 30°, 45°, 60°.",
+      "body": "<h2>O que você precisa saber</h2><p>sen=CO/Hip, cos=CA/Hip, tan=CO/CA.</p><h2>Contexto e Desenvolvimento</h2><p>Ângulos notáveis: 30°, 45°, 60°. Relações fundamentais.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Trigonometria no Triângulo Retângulo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Trigonometria no Triângulo Retângulo?",
+          "a": "sen=CO/Hip, cos=CA/Hip, tan=CO/CA."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Trigonometria no Triângulo Retângulo",
+            "Química",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Literatura",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Trigonometria no Ciclo",
+      "slug": "trigonometria-no-ciclo",
+      "desc": "Arcos e ângulos (rad). Ciclo trigonométrico. Funções sen(x), cos(x), tan(x). Gráficos. Período....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Arcos e ângulos (rad). Funções sen(x), cos(x), tan(x).",
+      "body": "<h2>O que você precisa saber</h2><p>Arcos e ângulos (rad).</p><h2>Contexto e Desenvolvimento</h2><p>Ciclo trigonométrico. Funções sen(x), cos(x), tan(x). Gráficos.</p><h2>Consequências e Legado</h2><p>Período.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Trigonometria no Ciclo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Trigonometria no Ciclo?",
+          "a": "Arcos e ângulos (rad)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Trigonometria no Ciclo",
+            "Filosofia",
+            "Literatura",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Literatura",
+            "Física",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Progressão Aritmética (PA)",
+      "slug": "progressao-aritmetica-pa",
+      "desc": "aₙ=a₁+(n-1).r. Soma: Sₙ=n(a₁+aₙ)/2. Razão (r). Termo médio. Interpolação....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": ".",
+      "body": "<h2>O que você precisa saber</h2><p>aₙ=a₁+(n-1).r.</p><h2>Contexto e Desenvolvimento</h2><p>Soma: Sₙ=n(a₁+aₙ)/2. Razão (r). Termo médio.</p><h2>Consequências e Legado</h2><p>Interpolação.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Progressão Aritmética (PA)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Progressão Aritmética (PA)",
+            "Literatura",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Progressão Geométrica (PG)",
+      "slug": "progressao-geometrica-pg",
+      "desc": "aₙ=a₁.qⁿ⁻¹. Soma finita: Sₙ=a₁(qⁿ-1)/(q-1). Soma infinita: S=a₁/(1-q) (|q|<1). Razão (q)....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Soma finita: Sₙ=a₁(qⁿ-1)/(q-1). Soma infinita: S=a₁/(1-q) (|q|<1).",
+      "body": "<h2>O que você precisa saber</h2><p>aₙ=a₁.qⁿ⁻¹.</p><h2>Contexto e Desenvolvimento</h2><p>Soma finita: Sₙ=a₁(qⁿ-1)/(q-1). Soma infinita: S=a₁/(1-q) (|q|<1).</p><h2>Consequências e Legado</h2><p>Razão (q).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Progressão Geométrica (PG)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Progressão Geométrica (PG)?",
+          "a": "Soma finita: Sₙ=a₁(qⁿ-1)/(q-1)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Progressão Geométrica (PG)",
+            "Filosofia",
+            "Física",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Filosofia",
+            "Física",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Matemática Financeira",
+      "slug": "matematica-financeira",
+      "desc": "Juros simples: J=Cit. Juros compostos: M=C(1+i)ⁿ. Montante, taxa, período. Descontos. Investimentos....",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Juros compostos: M=C(1+i)ⁿ. Montante, taxa, período.",
+      "body": "<h2>O que você precisa saber</h2><p>Juros simples: J=Cit.</p><h2>Contexto e Desenvolvimento</h2><p>Juros compostos: M=C(1+i)ⁿ. Montante, taxa, período. Descontos.</p><h2>Consequências e Legado</h2><p>Investimentos. ## 2º Ano — Geometria Plana, Espacial e Analítica</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Matemática Financeira</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Matemática Financeira?",
+          "a": "Juros compostos: M=C(1+i)ⁿ."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Geografia",
+            "Biologia",
+            "Matemática Financeira"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Geografia",
+            "Biologia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Plana: Triângulos",
+      "slug": "geometria-plana-triangulos",
+      "desc": "Congruência (LLL, LAL, ALA, LAA). Semelhança. Teorema de Tales. Relações métricas no triângulo retân...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Congruência (LLL, LAL, ALA, LAA). Relações métricas no triângulo retângulo..",
+      "body": "<h2>O que você precisa saber</h2><p>Congruência (LLL, LAL, ALA, LAA).</p><h2>Contexto e Desenvolvimento</h2><p>Semelhança. Teorema de Tales.</p><h2>Consequências e Legado</h2><p>Relações métricas no triângulo retângulo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Plana: Triângulos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Geometria Plana: Triângulos?",
+          "a": "Congruência (LLL, LAL, ALA, LAA)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Geometria Plana: Triângulos",
+            "Física"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Física",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Plana: Polígonos e Círculos",
+      "slug": "geometria-plana-poligonos-e-circulos",
+      "desc": "Soma dos ângulos internos. Polígonos regulares. Circunferência: comprimento, arco, setor, segmento....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Soma dos ângulos internos. Circunferência: comprimento, arco, setor, segmento..",
+      "body": "<h2>O que você precisa saber</h2><p>Soma dos ângulos internos.</p><h2>Contexto e Desenvolvimento</h2><p>Polígonos regulares. Circunferência: comprimento, arco, setor, segmento.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Plana: Polígonos e Círculos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Geometria Plana: Polígonos e Círculos?",
+          "a": "Soma dos ângulos internos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Geografia",
+            "Biologia",
+            "Geometria Plana: Polígonos e Círculos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Áreas de Figuras Planas",
+      "slug": "areas-de-figuras-planas",
+      "desc": "Triângulo, quadriláteros, trapézio, losango, hexágono regular, círculo, setor circular. Região entre...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Triângulo, quadriláteros, trapézio, losango, hexágono regular, círculo, setor circular. Região entre figuras..",
+      "body": "<h2>O que você precisa saber</h2><p>Triângulo, quadriláteros, trapézio, losango, hexágono regular, círculo, setor circular.</p><h2>Contexto e Desenvolvimento</h2><p>Região entre figuras.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Áreas de Figuras Planas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Áreas de Figuras Planas?",
+          "a": "Triângulo, quadriláteros, trapézio, losango, hexágono regular, círculo, setor circular."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Áreas de Figuras Planas",
+            "Química",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Sociologia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Espacial: Prismas",
+      "slug": "geometria-espacial-prismas",
+      "desc": "Prisma reto e oblíquo. Área lateral, total. Volume: V=Ab×h. Cubo, paralelepípedo. Diagonal....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Prisma reto e oblíquo.",
+      "body": "<h2>O que você precisa saber</h2><p>Prisma reto e oblíquo.</p><h2>Contexto e Desenvolvimento</h2><p>Área lateral, total. Volume: V=Ab×h. Cubo, paralelepípedo.</p><h2>Consequências e Legado</h2><p>Diagonal.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Espacial: Prismas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geometria Espacial: Prismas",
+            "Física",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Geografia",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Espacial: Pirâmides",
+      "slug": "geometria-espacial-piramides",
+      "desc": "Pirâmide regular. Apótema da base e da pirâmide. Área lateral e total. Volume: V=Ab×h/3. Tronco....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Apótema da base e da pirâmide.",
+      "body": "<h2>O que você precisa saber</h2><p>Pirâmide regular.</p><h2>Contexto e Desenvolvimento</h2><p>Apótema da base e da pirâmide. Área lateral e total. Volume: V=Ab×h/3.</p><h2>Consequências e Legado</h2><p>Tronco.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Espacial: Pirâmides</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geometria Espacial: Pirâmides",
+            "Biologia",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Espacial: Cilindro",
+      "slug": "geometria-espacial-cilindro",
+      "desc": "Cilindro reto. Área lateral (2πrh), total. Volume: V=πr²h. Seção meridiana. Inscrição e circunscriçã...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Área lateral (2πrh), total. Inscrição e circunscrição..",
+      "body": "<h2>O que você precisa saber</h2><p>Cilindro reto.</p><h2>Contexto e Desenvolvimento</h2><p>Área lateral (2πrh), total. Volume: V=πr²h. Seção meridiana.</p><h2>Consequências e Legado</h2><p>Inscrição e circunscrição.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Espacial: Cilindro</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Geometria Espacial: Cilindro?",
+          "a": "Área lateral (2πrh), total."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Geometria Espacial: Cilindro",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Geografia",
+            "Química",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Espacial: Cone",
+      "slug": "geometria-espacial-cone",
+      "desc": "Cone de revolução. Geratriz. Área lateral (πrg), total. Volume: V=πr²h/3. Tronco de cone....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Área lateral (πrg), total.",
+      "body": "<h2>O que você precisa saber</h2><p>Cone de revolução.</p><h2>Contexto e Desenvolvimento</h2><p>Geratriz. Área lateral (πrg), total. Volume: V=πr²h/3.</p><h2>Consequências e Legado</h2><p>Tronco de cone.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Espacial: Cone</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Literatura",
+            "Geometria Espacial: Cone",
+            "Química"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Sociologia",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Espacial: Esfera",
+      "slug": "geometria-espacial-esfera",
+      "desc": "Área: A=4πr². Volume: V=4πr³/3. Fuso e cunha esférica. Calota esférica....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Fuso e cunha esférica.",
+      "body": "<h2>O que você precisa saber</h2><p>Área: A=4πr².</p><h2>Contexto e Desenvolvimento</h2><p>Volume: V=4πr³/3. Fuso e cunha esférica.</p><h2>Consequências e Legado</h2><p>Calota esférica.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Espacial: Esfera</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Geometria Espacial: Esfera",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Física",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Analítica: Ponto e Reta",
+      "slug": "geometria-analitica-ponto-e-reta",
+      "desc": "Distância entre pontos. Ponto médio. Condição de alinhamento. Equação da reta (geral, reduzida). Coe...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Distância entre pontos. Condição de alinhamento.",
+      "body": "<h2>O que você precisa saber</h2><p>Distância entre pontos. Ponto médio.</p><h2>Contexto e Desenvolvimento</h2><p>Condição de alinhamento. Equação da reta (geral, reduzida). Coeficiente angular.</p><h2>Consequências e Legado</h2><p>Paralelismo e perpendicularidade.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Analítica: Ponto e Reta</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Geometria Analítica: Ponto e Reta?",
+          "a": "Distância entre pontos."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Condição de alinhamento. Equação da reta (geral, reduzida)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Filosofia",
+            "Literatura",
+            "Geometria Analítica: Ponto e Reta"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Literatura",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Analítica: Circunferência",
+      "slug": "geometria-analitica-circunferencia",
+      "desc": "Equação: (x-a)²+(y-b)²=r². Centro e raio. Posição relativa reta-circunferência. Tangente....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Equação: (x-a)²+(y-b)²=r². Posição relativa reta-circunferência.",
+      "body": "<h2>O que você precisa saber</h2><p>Equação: (x-a)²+(y-b)²=r².</p><h2>Contexto e Desenvolvimento</h2><p>Centro e raio. Posição relativa reta-circunferência.</p><h2>Consequências e Legado</h2><p>Tangente.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Analítica: Circunferência</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Geometria Analítica: Circunferência?",
+          "a": "Equação: (x-a)²+(y-b)²=r²."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Química",
+            "Filosofia",
+            "Sociologia",
+            "Geometria Analítica: Circunferência"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Química",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Geometria Analítica: Cônicas",
+      "slug": "geometria-analitica-conicas",
+      "desc": "Elipse, Hipérbole, Parábola. Equações canônicas. Focos, vértices, excentricidade....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Elipse, Hipérbole, Parábola. Focos, vértices, excentricidade..",
+      "body": "<h2>O que você precisa saber</h2><p>Elipse, Hipérbole, Parábola.</p><h2>Contexto e Desenvolvimento</h2><p>Equações canônicas. Focos, vértices, excentricidade.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Geometria Analítica: Cônicas</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Geometria Analítica: Cônicas?",
+          "a": "Elipse, Hipérbole, Parábola."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Química",
+            "Geografia",
+            "Geometria Analítica: Cônicas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Geografia",
+            "Química",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Matrizes e Determinantes",
+      "slug": "matrizes-e-determinantes",
+      "desc": "Matrizes: tipos, operações (soma, multiplicação). Determinante (2×2, 3×3 Sarrus). Matriz inversa. ##...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Matrizes: tipos, operações (soma, multiplicação). Determinante (2×2, 3×3 Sarrus).",
+      "body": "<h2>O que você precisa saber</h2><p>Matrizes: tipos, operações (soma, multiplicação).</p><h2>Contexto e Desenvolvimento</h2><p>Determinante (2×2, 3×3 Sarrus). Matriz inversa. ## 3º Ano — Análise Combinatória, Probabilidade e Estatística</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Matrizes e Determinantes</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Matrizes e Determinantes?",
+          "a": "Matrizes: tipos, operações (soma, multiplicação)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Matrizes e Determinantes",
+            "Biologia",
+            "Filosofia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Princípio Fundamental da Contagem",
+      "slug": "principio-fundamental-da-contagem",
+      "desc": "Multiplicação de possibilidades. Diagrama de árvore. Problemas de combinação de etapas....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Multiplicação de possibilidades. Problemas de combinação de etapas..",
+      "body": "<h2>O que você precisa saber</h2><p>Multiplicação de possibilidades.</p><h2>Contexto e Desenvolvimento</h2><p>Diagrama de árvore. Problemas de combinação de etapas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Princípio Fundamental da Contagem</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Princípio Fundamental da Contagem?",
+          "a": "Multiplicação de possibilidades."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Literatura",
+            "Física",
+            "Princípio Fundamental da Contagem"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Física",
+            "Literatura",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Fatorial e Arranjo",
+      "slug": "fatorial-e-arranjo",
+      "desc": "n! = n×(n-1)×...×1. Arranjo: A(n,p)=n!/(n-p)!. Ordem importa....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Arranjo: A(n,p)=n!/(n-p)!.",
+      "body": "<h2>O que você precisa saber</h2><p>n! = n×(n-1)×...×1.</p><h2>Contexto e Desenvolvimento</h2><p>Arranjo: A(n,p)=n!/(n-p)!. Ordem importa.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fatorial e Arranjo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Fatorial e Arranjo",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Física",
+            "Geografia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Permutação",
+      "slug": "permutacao",
+      "desc": "Permutação simples: P(n)=n!. Circular: PC=(n-1)!. Com repetição: P(n; a,b,c)=n!/(a!×b!×c!)....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Permutação simples: P(n)=n!. Com repetição: P(n; a,b,c)=n!/(a!×b!×c!)..",
+      "body": "<h2>O que você precisa saber</h2><p>Permutação simples: P(n)=n!.</p><h2>Contexto e Desenvolvimento</h2><p>Circular: PC=(n-1)!. Com repetição: P(n; a,b,c)=n!/(a!×b!×c!).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Permutação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Permutação?",
+          "a": "Permutação simples: P(n)=n!."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Biologia",
+            "Literatura",
+            "Permutação"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Literatura",
+            "Biologia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Combinação",
+      "slug": "combinacao",
+      "desc": "C(n,p)=n!/(p!(n-p)!). Ordem NÃO importa. Triângulo de Pascal. Diferença de arranjo....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Diferença de arranjo..",
+      "body": "<h2>O que você precisa saber</h2><p>C(n,p)=n!/(p!(n-p)!).</p><h2>Contexto e Desenvolvimento</h2><p>Ordem NÃO importa. Triângulo de Pascal.</p><h2>Consequências e Legado</h2><p>Diferença de arranjo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Combinação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Química",
+            "Combinação",
+            "Biologia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Binômio de Newton",
+      "slug": "binomio-de-newton",
+      "desc": "(a+b)ⁿ. Coeficientes binomiais. Triângulo de Pascal. Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Coeficientes binomiais. Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ..",
+      "body": "<h2>O que você precisa saber</h2><p>(a+b)ⁿ.</p><h2>Contexto e Desenvolvimento</h2><p>Coeficientes binomiais. Triângulo de Pascal.</p><h2>Consequências e Legado</h2><p>Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Binômio de Newton</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Binômio de Newton?",
+          "a": "Coeficientes binomiais."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Química",
+            "Binômio de Newton",
+            "Literatura"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Geografia",
+            "Literatura",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Probabilidade",
+      "slug": "probabilidade",
+      "desc": "P(A)=n(A)/n(S). Eventos independentes: P(A∩B)=P(A)×P(B). Complementar: P(Ā)=1-P(A). Condicional: P(A...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Eventos independentes: P(A∩B)=P(A)×P(B). Complementar: P(Ā)=1-P(A).",
+      "body": "<h2>O que você precisa saber</h2><p>P(A)=n(A)/n(S).</p><h2>Contexto e Desenvolvimento</h2><p>Eventos independentes: P(A∩B)=P(A)×P(B). Complementar: P(Ā)=1-P(A).</p><h2>Consequências e Legado</h2><p>Condicional: P(A|B).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Probabilidade</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Probabilidade?",
+          "a": "Eventos independentes: P(A∩B)=P(A)×P(B)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Probabilidade",
+            "Física",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Física",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Estatística: Medidas de Tendência Central",
+      "slug": "estatistica-medidas-de-tendencia-central",
+      "desc": "Média aritmética (simples e ponderada). Mediana. Moda. Dados agrupados em classes....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Média aritmética (simples e ponderada). Dados agrupados em classes..",
+      "body": "<h2>O que você precisa saber</h2><p>Média aritmética (simples e ponderada).</p><h2>Contexto e Desenvolvimento</h2><p>Mediana. Moda.</p><h2>Consequências e Legado</h2><p>Dados agrupados em classes.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Estatística: Medidas de Tendência Central</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Estatística: Medidas de Tendência Central?",
+          "a": "Média aritmética (simples e ponderada)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Estatística: Medidas de Tendência Central",
+            "Sociologia",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Sociologia",
+            "Geografia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Estatística: Medidas de Dispersão",
+      "slug": "estatistica-medidas-de-dispersao",
+      "desc": "Amplitude. Variância. Desvio padrão. Coeficiente de variação. Interpretação prática....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Coeficiente de variação. Interpretação prática..",
+      "body": "<h2>O que você precisa saber</h2><p>Amplitude.</p><h2>Contexto e Desenvolvimento</h2><p>Variância. Desvio padrão. Coeficiente de variação.</p><h2>Consequências e Legado</h2><p>Interpretação prática.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Estatística: Medidas de Dispersão</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Estatística: Medidas de Dispersão?",
+          "a": "Coeficiente de variação."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Estatística: Medidas de Dispersão",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Filosofia",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Sistemas Lineares",
+      "slug": "sistemas-lineares",
+      "desc": "2 e 3 variáveis. Escalonamento. Regra de Cramer. Classificação: determinado, indeterminado, impossív...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Classificação: determinado, indeterminado, impossível..",
+      "body": "<h2>O que você precisa saber</h2><p>2 e 3 variáveis.</p><h2>Contexto e Desenvolvimento</h2><p>Escalonamento. Regra de Cramer.</p><h2>Consequências e Legado</h2><p>Classificação: determinado, indeterminado, impossível.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Sistemas Lineares</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sistemas Lineares",
+            "Filosofia",
+            "Física",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Filosofia",
+            "Física",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Números Complexos",
+      "slug": "numeros-complexos",
+      "desc": "z=a+bi. Imaginário (i²=-1). Módulo, conjugado. Operações. Forma trigonométrica. Plano de Argand-Gaus...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Plano de Argand-Gauss..",
+      "body": "<h2>O que você precisa saber</h2><p>z=a+bi. Imaginário (i²=-1).</p><h2>Contexto e Desenvolvimento</h2><p>Módulo, conjugado. Operações. Forma trigonométrica.</p><h2>Consequências e Legado</h2><p>Plano de Argand-Gauss.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Números Complexos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Números Complexos",
+            "Literatura",
+            "Filosofia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Filosofia",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Polinômios",
+      "slug": "polinomios",
+      "desc": "Grau, raízes, operações. Dispositivo de Briot-Ruffini. Teorema de D'Alembert. Relações de Girard....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Grau, raízes, operações. Dispositivo de Briot-Ruffini.",
+      "body": "<h2>O que você precisa saber</h2><p>Grau, raízes, operações.</p><h2>Contexto e Desenvolvimento</h2><p>Dispositivo de Briot-Ruffini. Teorema de D'Alembert.</p><h2>Consequências e Legado</h2><p>Relações de Girard.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Polinômios</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Polinômios?",
+          "a": "Grau, raízes, operações."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Polinômios",
+            "Filosofia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Sociologia",
+            "Biologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Equações Polinomiais",
+      "slug": "equacoes-polinomiais",
+      "desc": "Teorema Fundamental da Álgebra. Raízes reais e complexas. Descartes. Resolução de equações de grau ≥...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Teorema Fundamental da Álgebra. Raízes reais e complexas.",
+      "body": "<h2>O que você precisa saber</h2><p>Teorema Fundamental da Álgebra.</p><h2>Contexto e Desenvolvimento</h2><p>Raízes reais e complexas. Descartes.</p><h2>Consequências e Legado</h2><p>Resolução de equações de grau ≥3.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Equações Polinomiais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Equações Polinomiais?",
+          "a": "Teorema Fundamental da Álgebra."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Equações Polinomiais",
+            "Biologia",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

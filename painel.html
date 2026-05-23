@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Painel — Beholder Academy</title>
+  <meta name="description" content="Painel do Aluno: acompanhe seu progresso, conquistas e desafios no Beholder Academy.">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/painel.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+</head>
+<body>
+  <nav class="navbar"><div class="container navbar__inner">
+    <a href="index.html" class="navbar__logo">Beholder <span class="logo-highlight">Academy</span></a>
+    <div class="navbar__nav">
+      <a href="index.html" class="navbar__link">Home</a>
+      <a href="painel.html" class="navbar__link navbar__link--active">Meu Painel</a>
+      <div class="painel-currencies" id="nav-currencies">
+        <span class="currency-badge fichas">🟡 <span id="nav-fichas">0</span></span>
+        <span class="currency-badge cristais">💎 <span id="nav-cristais">0</span></span>
+        <span class="currency-badge essencias">✨ <span id="nav-essencias">0</span></span>
+      </div>
+      <button id="dark-toggle" class="dark-toggle" aria-label="Alternar tema" title="Alternar tema">
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div></nav>
+
+  <main class="painel-main">
+    <!-- ═══ TAB NAVIGATION ═══ -->
+    <div class="painel-tabs" id="painel-tabs">
+      <button class="painel-tab active" data-tab="dashboard">🏠 Dashboard</button>
+      <button class="painel-tab" data-tab="perfil">📊 Perfil</button>
+      <button class="painel-tab" data-tab="desafios">⚔️ Desafios</button>
+      <button class="painel-tab" data-tab="loja">🏪 Loja</button>
+      <button class="painel-tab" data-tab="conquistas">🏆 Conquistas</button>
+    </div>
+
+    <!-- ═══ DASHBOARD ═══ -->
+    <section class="tab-content active" id="tab-dashboard">
+      <!-- Streak + Level Bar -->
+      <div class="dash-header">
+        <div class="dash-streak">
+          <span class="streak-fire">🔥</span>
+          <span class="streak-count" id="dash-streak">0</span>
+          <span class="streak-label">dias de streak</span>
+        </div>
+        <div class="dash-level">
+          <div class="level-info">
+            <span class="level-badge" id="dash-level">Nv. 1</span>
+            <span class="level-title" id="dash-title">Aprendiz</span>
+          </div>
+          <div class="xp-bar-container">
+            <div class="xp-bar" id="dash-xp-bar" style="width:0%"></div>
+            <span class="xp-text" id="dash-xp-text">0 / 300 XP</span>
+          </div>
+        </div>
+        <div class="dash-multiplier">
+          <span class="multi-value" id="dash-multi">1.0x</span>
+          <span class="multi-label">multiplicador</span>
+        </div>
+      </div>
+
+      <!-- Cards Grid -->
+      <div class="dash-grid">
+        <div class="dash-card card-desafios" onclick="PainelUI.switchTab('desafios')">
+          <div class="card-icon">⚔️</div>
+          <div class="card-title">Desafios Diários</div>
+          <div class="card-value" id="dash-daily-progress">0/3</div>
+          <div class="card-sub">Complete todos para bônus!</div>
+        </div>
+        <div class="dash-card card-progresso">
+          <div class="card-icon">📈</div>
+          <div class="card-title">Progresso Semanal</div>
+          <div class="card-value" id="dash-weekly-articles">0/10</div>
+          <div class="card-sub">artigos esta semana</div>
+        </div>
+        <div class="dash-card card-materias" onclick="PainelUI.switchTab('perfil')">
+          <div class="card-icon">📚</div>
+          <div class="card-title">Matérias Ativas</div>
+          <div class="card-value" id="dash-active-subjects">0</div>
+          <div class="card-sub">matérias com progresso</div>
+        </div>
+        <div class="dash-card card-baus" onclick="PainelUI.switchTab('loja')">
+          <div class="card-icon">🎁</div>
+          <div class="card-title">Baús</div>
+          <div class="card-value" id="dash-chest-count">3 tipos</div>
+          <div class="card-sub">Troque fichas por itens!</div>
+        </div>
+      </div>
+
+      <!-- Activity Feed -->
+      <div class="dash-section">
+        <h2 class="section-title">📊 Últimas Atividades</h2>
+        <div class="activity-feed" id="activity-feed">
+          <div class="activity-empty">Nenhuma atividade ainda. Comece lendo um artigo!</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PROFILE ═══ -->
+    <section class="tab-content" id="tab-perfil">
+      <div class="perfil-header">
+        <div class="perfil-avatar" id="perfil-avatar">🧑‍🎓</div>
+        <div class="perfil-info">
+          <h1 class="perfil-name" id="perfil-name">Estudante</h1>
+          <div class="perfil-level">
+            <span class="level-badge big" id="perfil-level">Nv. 1</span>
+            <span class="level-title big" id="perfil-title">Aprendiz</span>
+          </div>
+          <div class="perfil-streak">🔥 <span id="perfil-streak">0</span> dias de streak</div>
+        </div>
+      </div>
+
+      <!-- Radar Chart -->
+      <div class="perfil-section">
+        <h2 class="section-title">🧮 Competências</h2>
+        <div class="radar-container">
+          <canvas id="radar-chart" width="350" height="350"></canvas>
+        </div>
+      </div>
+
+      <!-- Subject Levels -->
+      <div class="perfil-section">
+        <h2 class="section-title">📚 Níveis por Matéria</h2>
+        <div class="subject-levels" id="subject-levels"></div>
+      </div>
+    </section>
+
+    <!-- ═══ CHALLENGES ═══ -->
+    <section class="tab-content" id="tab-desafios">
+      <h2 class="page-title">⚔️ Desafios</h2>
+
+      <div class="challenge-group">
+        <h2 class="challenge-period">Diários <span class="reset-timer" id="daily-reset"></span></h2>
+        <div class="challenge-list" id="daily-challenges"></div>
+      </div>
+
+      <div class="challenge-group">
+        <h2 class="challenge-period">Semanais <span class="reset-timer" id="weekly-reset"></span></h2>
+        <div class="challenge-list" id="weekly-challenges"></div>
+      </div>
+
+      <div class="challenge-group">
+        <h2 class="challenge-period">Mensais <span class="reset-timer" id="monthly-reset"></span></h2>
+        <div class="challenge-list" id="monthly-challenges"></div>
+      </div>
+    </section>
+
+    <!-- ═══ STORE ═══ -->
+    <section class="tab-content" id="tab-loja">
+      <h2 class="page-title">🏪 Loja</h2>
+
+      <div class="store-tabs" id="store-tabs">
+        <button class="store-tab active" data-store="cosmeticos">🟡 Cosméticos</button>
+        <button class="store-tab" data-store="baus">🎁 Baús</button>
+        <button class="store-tab" data-store="exclusivos">✨ Exclusivos</button>
+        <button class="store-tab" data-store="resgates">💎 Resgates</button>
+      </div>
+
+      <div class="store-content" id="store-cosmeticos"></div>
+      <div class="store-content hidden" id="store-baus"></div>
+      <div class="store-content hidden" id="store-exclusivos"></div>
+      <div class="store-content hidden" id="store-resgates"></div>
+
+      <div class="store-hint" id="store-hint">
+        Não vê o que quer? Complete mais quests e suba de nível para desbloquear novos itens! ⚔️
+      </div>
+    </section>
+
+    <!-- ═══ ACHIEVEMENTS ═══ -->
+    <section class="tab-content" id="tab-conquistas">
+      <h2 class="page-title">🏆 Conquistas</h2>
+      <div class="achievements-grid" id="achievements-grid"></div>
+
+      <h2 class="section-title" style="margin-top:2rem">📦 Minha Coleção</h2>
+      <div class="inventory-grid" id="inventory-grid"></div>
+    </section>
+  </main>
+
+  <!-- Chest Animation Overlay -->
+  <div class="chest-overlay hidden" id="chest-overlay">
+    <div class="chest-animation">
+      <div class="chest-icon" id="chest-anim-icon">🟤</div>
+      <div class="chest-result hidden" id="chest-result">
+        <div class="drop-rarity" id="drop-rarity">RARO</div>
+        <div class="drop-name" id="drop-name">Item Nome</div>
+        <div class="drop-essence" id="drop-essence"></div>
+        <button class="btn-primary" onclick="PainelUI.closeChest()">Fechar</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/rpg-engine.js"></script>
+  <script src="assets/painel.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Login check
+      var userData = localStorage.getItem('beholder_user');
+      if (!userData) {
+        window.location.href = 'login.html';
+        return;
+      }
+      try {
+        var user = JSON.parse(userData);
+        if (user.type !== 'aluno') {
+          window.location.href = 'responsavel.html';
+          return;
+        }
+        // Show user name in streak area
+        var streakLabel = document.querySelector('.streak-label');
+        if (streakLabel && user.name) {
+          var nameEl = document.createElement('div');
+          nameEl.style.cssText = 'font-size:0.85rem; color:rgba(255,255,255,0.7); margin-top:4px;';
+          nameEl.textContent = '👋 ' + user.name;
+          streakLabel.parentElement.appendChild(nameEl);
+        }
+      } catch(e) {}
+
+      // Dark mode
+      const toggle = document.getElementById('dark-toggle');
+      if (toggle) {
+        const stored = localStorage.getItem('beholder_theme');
+        if (stored) document.documentElement.setAttribute('data-theme', stored);
+        toggle.addEventListener('click', function() {
+          const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+          document.documentElement.setAttribute('data-theme', next);
+          localStorage.setItem('beholder_theme', next);
+        });
+      }
+      PainelUI.init();
+    });
+  </script>
+</body>
+</html>

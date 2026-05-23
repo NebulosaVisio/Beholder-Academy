@@ -1,0 +1,1408 @@
+{
+  "subject": "Inglês",
+  "slug": "ingles",
+  "color": "var(--ingles)",
+  "icon": "globe-alt",
+  "articles": [
+    {
+      "title": "Review: All Basic Tenses",
+      "slug": "review-all-basic-tenses",
+      "desc": "Simple Present: habits, facts (She works every day). Present Continuous: now (She is working). Simpl...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Simple Present: habits, facts (She works every day). Present Continuous: now (She is working).",
+      "body": "<h2>O que você precisa saber</h2><p>Simple Present: habits, facts (She works every day). Present Continuous: now (She is working).</p><h2>Contexto e Desenvolvimento</h2><p>Simple Past: completed action (She worked yesterday). Past Continuous: interrupted action (She was working when...). Future: will (spontaneous) vs. going to (planned).</p><h3>Destaques</h3><ul><li>She works every day</li><li>She is working</li><li>She worked yesterday</li><li>She was working when...</li><li>spontaneous</li></ul><h2>Consequências e Legado</h2><p>Time expressions: always, usually, yesterday, right now, tomorrow.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Review: All Basic Tenses</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Review: All Basic Tenses?",
+          "a": "Simple Present: habits, facts (She works every day)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Present Continuous: now (She is working). Simple Past: completed action (She worked yesterday)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Future: will (spontaneous) vs. Time expressions: always, usually, yesterday, right now, tomorrow.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Review: All Basic Tenses",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Present Perfect: Experience and Result",
+      "slug": "present-perfect-experience-and-result",
+      "desc": "Have/Has + past participle. Experience: \"I have visited Paris\" (sometime in my life — no specific ti...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Have/Has + past participle. Experience: \"I have visited Paris\" (sometime in my life — no specific time).",
+      "body": "<h2>O que você precisa saber</h2><p>Have/Has + past participle. Experience: \"I have visited Paris\" (sometime in my life — no specific time).</p><h2>Contexto e Desenvolvimento</h2><p>Result: \"She has finished her homework\" (done now). Key words: ever, never, already, yet, just, still, since, for. Since (point in time: since 2020) vs.</p><h3>Destaques</h3><ul><li>sometime in my life — no specific time</li><li>point in time: since 2020</li><li>duration: for 3 years</li></ul><h2>Consequências e Legado</h2><p>For (duration: for 3 years). Difference from Simple Past: PP has no defined time, SP has.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Present Perfect: Experience and Result</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Present Perfect: Experience and Result?",
+          "a": "Have/Has + past participle."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Experience: \"I have visited Paris\" (sometime in my life — no specific time). Result: \"She has finished her homework\" (done now)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "For (duration: for 3 years). Difference from Simple Past: PP has no defined time, SP has.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Literatura",
+            "Geografia",
+            "Present Perfect: Experience and Result"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Literatura",
+            "Matemática",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Modal Verbs: Ability, Permission, Obligation",
+      "slug": "modal-verbs-ability-permission-obligation",
+      "desc": "Can/Could: ability (I can swim), permission (Can I go?), possibility (It could rain). May/Might: pos...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Can/Could: ability (I can swim), permission (Can I go?), possibility (It could rain). May/Might: possibility (It may rain — 50%), formal permission.",
+      "body": "<h2>O que você precisa saber</h2><p>Can/Could: ability (I can swim), permission (Can I go?), possibility (It could rain). May/Might: possibility (It may rain — 50%), formal permission.</p><h2>Contexto e Desenvolvimento</h2><p>Must: strong obligation (You must stop), logical deduction (She must be tired). Should/Ought to: advice (You should study). Have to: external obligation (I have to work).</p><h3>Destaques</h3><ul><li>I can swim</li><li>It could rain</li><li>It may rain — 50%</li><li>You must stop</li><li>She must be tired</li><li>You should study</li></ul><h2>Consequências e Legado</h2><p>Don't have to: no obligation. Mustn't: prohibition.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Modal Verbs: Ability, Permission, Obligation</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Modal Verbs: Ability, Permission, Obligation?",
+          "a": "Can/Could: ability (I can swim), permission (Can I go?), possibility (It could rain)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "May/Might: possibility (It may rain — 50%), formal permission. Must: strong obligation (You must stop), logical deduction (She must be tired)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Don't have to: no obligation. Mustn't: prohibition.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Física",
+            "Modal Verbs: Ability, Permission, Obligation",
+            "Literatura"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Física",
+            "Literatura",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Passive Voice",
+      "slug": "passive-voice",
+      "desc": "Active: Shakespeare wrote Hamlet. Passive: Hamlet was written by Shakespeare. Formation: be + past p...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Active: Shakespeare wrote Hamlet. Passive: Hamlet was written by Shakespeare.",
+      "body": "<h2>O que você precisa saber</h2><p>Active: Shakespeare wrote Hamlet. Passive: Hamlet was written by Shakespeare.</p><h2>Contexto e Desenvolvimento</h2><p>Formation: be + past participle. All tenses: is made, was made, has been made, will be made, is being made. Use: when the action matters more than the agent, scientific writing, news.</p><h2>Consequências e Legado</h2><p>Agent with \"by\" (optional).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Passive Voice</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Passive Voice?",
+          "a": "Active: Shakespeare wrote Hamlet."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Passive: Hamlet was written by Shakespeare. Formation: be + past participle."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Use: when the action matters more than the agent, scientific writing, news. Agent with \"by\" (optional).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Passive Voice",
+            "Química",
+            "Geografia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Geografia",
+            "Química",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Conditional Sentences (If Clauses)",
+      "slug": "conditional-sentences-if-clauses",
+      "desc": "Type 0: general truth (If you heat water, it boils). Type 1: real/likely (If it rains, I will stay h...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Type 0: general truth (If you heat water, it boils). Type 1: real/likely (If it rains, I will stay home).",
+      "body": "<h2>O que você precisa saber</h2><p>Type 0: general truth (If you heat water, it boils).</p><h2>Contexto e Desenvolvimento</h2><p>Type 1: real/likely (If it rains, I will stay home). Type 2: unreal/hypothetical present (If I were rich, I would travel — subjunctive \"were\"). Type 3: unreal past/regret (If I had studied, I would have passed).</p><h3>Destaques</h3><ul><li>If you heat water, it boils</li><li>If it rains, I will stay home</li><li>If I were rich, I would travel — subjunctive \"were\"</li><li>If I had studied, I would have passed</li></ul><h2>Consequências e Legado</h2><p>Mixed conditionals.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Conditional Sentences (If Clauses)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Conditional Sentences (If Clauses)?",
+          "a": "Type 0: general truth (If you heat water, it boils)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Type 1: real/likely (If it rains, I will stay home). Type 2: unreal/hypothetical present (If I were rich, I would travel — subjunctive \"were\")."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Biologia",
+            "Geografia",
+            "Conditional Sentences (If Clauses)"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Biologia",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Relative Clauses",
+      "slug": "relative-clauses",
+      "desc": "Defining (essential, no commas): \"The man WHO called is my father.\" Non-defining (extra info, commas...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Defining (essential, no commas): \"The man WHO called is my father.\" Non-defining (extra info, commas): \"My father, WHO lives in SP, called me.\" Who (people), Which (things), That (both — only defining), Where (place), When (time), Whose (possession: \"The girl WHOSE book I borrowed\")..",
+      "body": "<p>Defining (essential, no commas): \"The man WHO called is my father.\" Non-defining (extra info, commas): \"My father, WHO lives in SP, called me.\" Who (people), Which (things), That (both — only defining), Where (place), When (time), Whose (possession: \"The girl WHOSE book I borrowed\").</p>",
+      "faq": [
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Relative Clauses",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Sociologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reported Speech (Indirect Speech)",
+      "slug": "reported-speech-indirect-speech",
+      "desc": "Direct: She said, \"I am happy.\" Indirect: She said (that) she was happy. Backshift: am→was, is→was,...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Direct: She said, \"I am happy.\" Indirect: She said (that) she was happy. Backshift: am→was, is→was, will→would, can→could, present→past, past→past perfect.",
+      "body": "<h2>O que você precisa saber</h2><p>Direct: She said, \"I am happy.\" Indirect: She said (that) she was happy.</p><h2>Contexto e Desenvolvimento</h2><p>Backshift: am→was, is→was, will→would, can→could, present→past, past→past perfect. Reporting verbs: said, told, asked, explained, suggested.</p><h2>Consequências e Legado</h2><p>Questions: \"Where do you live?\" → He asked where I lived (no inversion, no question mark).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Reported Speech (Indirect Speech)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Reported Speech (Indirect Speech)?",
+          "a": "Direct: She said, \"I am happy.\" Indirect: She said (that) she was happy."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Backshift: am→was, is→was, will→would, can→could, present→past, past→past perfect. Reporting verbs: said, told, asked, explained, suggested."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Reported Speech (Indirect Speech)",
+            "Biologia",
+            "Física",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Física",
+            "Geografia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reading Strategies: Genres and Comprehension",
+      "slug": "reading-strategies-genres-and-comprehension",
+      "desc": "Genres in English: news articles (headline, lead, body), advertisements (persuasion, slogans), manua...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Genres in English: news articles (headline, lead, body), advertisements (persuasion, slogans), manuals (imperative, steps), songs (rhyme, metaphor), poems (figurative language), comics (visual + verbal). Strategies: identify the genre first, then purpose, audience, and tone.",
+      "body": "<h2>O que você precisa saber</h2><p>Genres in English: news articles (headline, lead, body), advertisements (persuasion, slogans), manuals (imperative, steps), songs (rhyme, metaphor), poems (figurative language), comics (visual + verbal).</p><h2>Contexto e Desenvolvimento</h2><p>Strategies: identify the genre first, then purpose, audience, and tone. Context clues: use surrounding words to guess unknown vocabulary. ## 2º Ano — Advanced Grammar and Communication</p><h3>Destaques</h3><ul><li>headline, lead, body</li><li>persuasion, slogans</li><li>imperative, steps</li><li>rhyme, metaphor</li><li>figurative language</li><li>visual + verbal</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Reading Strategies: Genres and Comprehension</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Reading Strategies: Genres and Comprehension?",
+          "a": "Genres in English: news articles (headline, lead, body), advertisements (persuasion, slogans), manuals (imperative, steps), songs (rhyme, metaphor), poems (figurative language), comics (visual + verbal)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Strategies: identify the genre first, then purpose, audience, and tone. Context clues: use surrounding words to guess unknown vocabulary."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Biologia",
+            "Reading Strategies: Genres and Comprehension",
+            "Matemática"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Biologia",
+            "Física",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Perfect Tenses: Past and Future",
+      "slug": "perfect-tenses-past-and-future",
+      "desc": "Past Perfect: had + past participle. Action before another past action: \"When I arrived, she HAD LEF...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Past Perfect: had + past participle. Action before another past action: \"When I arrived, she HAD LEFT.\" Future Perfect: will have + past participle.",
+      "body": "<h2>O que você precisa saber</h2><p>Past Perfect: had + past participle.</p><h2>Contexto e Desenvolvimento</h2><p>Action before another past action: \"When I arrived, she HAD LEFT.\" Future Perfect: will have + past participle. Action completed by a future time: \"By 2030, I WILL HAVE graduated.\"</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Perfect Tenses: Past and Future</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Perfect Tenses: Past and Future?",
+          "a": "Past Perfect: had + past participle."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Perfect Tenses: Past and Future",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Biologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Perfect Continuous Tenses",
+      "slug": "perfect-continuous-tenses",
+      "desc": "Present Perfect Continuous: have/has been + verb-ing. Duration up to now: \"I have been studying for...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Present Perfect Continuous: have/has been + verb-ing. Duration up to now: \"I have been studying for 3 hours\" (and still am or just stopped).",
+      "body": "<h2>O que você precisa saber</h2><p>Present Perfect Continuous: have/has been + verb-ing.</p><h2>Contexto e Desenvolvimento</h2><p>Duration up to now: \"I have been studying for 3 hours\" (and still am or just stopped). Past Perfect Continuous: had been + verb-ing.</p><h2>Consequências e Legado</h2><p>Duration before a past event: \"She had been waiting for 2 hours when the bus arrived.\"</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Perfect Continuous Tenses</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Perfect Continuous Tenses?",
+          "a": "Present Perfect Continuous: have/has been + verb-ing."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Duration up to now: \"I have been studying for 3 hours\" (and still am or just stopped). Past Perfect Continuous: had been + verb-ing."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Perfect Continuous Tenses",
+            "Sociologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Sociologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Phrasal Verbs (Top 50)",
+      "slug": "phrasal-verbs-top-50",
+      "desc": "Verb + particle changes meaning. Give up (desistir), Look for (procurar), Turn on/off (ligar/desliga...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Verb + particle changes meaning. Give up (desistir), Look for (procurar), Turn on/off (ligar/desligar), Find out (descobrir), Put on (vestir), Take off (tirar/decolar), Break down (quebrar), Come up with (inventar), Get along with (se dar bem), Run out of (acabar o estoque), Look forward to (aguarda.",
+      "body": "<h2>O que você precisa saber</h2><p>Verb + particle changes meaning.</p><h2>Contexto e Desenvolvimento</h2><p>Give up (desistir), Look for (procurar), Turn on/off (ligar/desligar), Find out (descobrir), Put on (vestir), Take off (tirar/decolar), Break down (quebrar), Come up with (inventar), Get along with (se dar bem), Run out of (acabar o estoque), Look forward to (aguardar ansiosamente). Separable vs. inseparable.</p><h3>Destaques</h3><ul><li>ligar/desligar</li><li>tirar/decolar</li><li>se dar bem</li><li>acabar o estoque</li><li>aguardar ansiosamente</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Phrasal Verbs (Top 50)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Phrasal Verbs (Top 50)?",
+          "a": "Verb + particle changes meaning."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Geografia",
+            "Física",
+            "Phrasal Verbs (Top 50)"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Matemática",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Collocations and Idiomatic Expressions",
+      "slug": "collocations-and-idiomatic-expressions",
+      "desc": "Collocations: words that naturally go together. Make a decision (not \"do a decision\"). Do homework....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Collocations: words that naturally go together. Make a decision (not \"do a decision\").",
+      "body": "<h2>O que você precisa saber</h2><p>Collocations: words that naturally go together. Make a decision (not \"do a decision\").</p><h2>Contexto e Desenvolvimento</h2><p>Do homework. Take a shower. Heavy rain (not \"strong rain\").</p><p>Idioms: It's raining cats and dogs (chovendo muito). Break the ice (quebrar o gelo).</p><h3>Destaques</h3><ul><li>not \"do a decision\"</li><li>not \"strong rain\"</li><li>chovendo muito</li><li>quebrar o gelo</li><li>muito fácil</li><li>acertar em cheio</li></ul><h2>Consequências e Legado</h2><p>Piece of cake (muito fácil). Hit the nail on the head (acertar em cheio). Kill two birds with one stone (matar dois coelhos).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Collocations and Idiomatic Expressions</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Collocations and Idiomatic Expressions?",
+          "a": "Collocations: words that naturally go together."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Make a decision (not \"do a decision\"). Heavy rain (not \"strong rain\")."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Hit the nail on the head (acertar em cheio). Kill two birds with one stone (matar dois coelhos).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Collocations and Idiomatic Expressions",
+            "Geografia",
+            "Química",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Geografia",
+            "Química",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Linking Words and Discourse Markers",
+      "slug": "linking-words-and-discourse-markers",
+      "desc": "Addition: furthermore, moreover, in addition, besides. Contrast: however, nevertheless, on the other...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Addition: furthermore, moreover, in addition, besides. Contrast: however, nevertheless, on the other hand, although, despite.",
+      "body": "<h2>O que você precisa saber</h2><p>Addition: furthermore, moreover, in addition, besides. Contrast: however, nevertheless, on the other hand, although, despite.</p><h2>Contexto e Desenvolvimento</h2><p>Cause: because, since, due to, owing to. Result: therefore, consequently, as a result, thus. Example: for instance, such as, namely.</p><h2>Consequências e Legado</h2><p>Sequence: firstly, secondly, finally, meanwhile. Concession: even though, in spite of.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Linking Words and Discourse Markers</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Linking Words and Discourse Markers?",
+          "a": "Addition: furthermore, moreover, in addition, besides."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Contrast: however, nevertheless, on the other hand, although, despite. Cause: because, since, due to, owing to."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Sequence: firstly, secondly, finally, meanwhile. Concession: even though, in spite of.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Biologia",
+            "Matemática",
+            "Linking Words and Discourse Markers"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Matemática",
+            "Biologia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "False Friends (Falsos Cognatos)",
+      "slug": "false-friends-falsos-cognatos",
+      "desc": "Actually ≠ atualmente (actually = na verdade; currently = atualmente). Pretend ≠ pretender (pretend...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Actually ≠ atualmente (actually = na verdade; currently = atualmente). Pretend ≠ pretender (pretend = fingir; intend = pretender).",
+      "body": "<h2>O que você precisa saber</h2><p>Actually ≠ atualmente (actually = na verdade; currently = atualmente). Pretend ≠ pretender (pretend = fingir; intend = pretender).</p><h2>Contexto e Desenvolvimento</h2><p>Parents ≠ parentes (parents = pais; relatives = parentes). Push ≠ puxar (push = empurrar; pull = puxar). Resume ≠ resumo (resume = continuar; summary = resumo).</p><p>Sensible ≠ sensível (sensible = sensato; sensitive = sensível).</p><h3>Destaques</h3><ul><li>actually = na verdade; currently = atualmente</li><li>pretend = fingir; intend = pretender</li><li>parents = pais; relatives = parentes</li><li>push = empurrar; pull = puxar</li><li>resume = continuar; summary = resumo</li><li>sensible = sensato; sensitive = sensível</li></ul><h2>Consequências e Legado</h2><p>Fabric ≠ fábrica (fabric = tecido; factory = fábrica). Lecture ≠ leitura (lecture = palestra; reading = leitura).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>False Friends (Falsos Cognatos)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre False Friends (Falsos Cognatos)?",
+          "a": "Actually ≠ atualmente (actually = na verdade; currently = atualmente)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Pretend ≠ pretender (pretend = fingir; intend = pretender). Parents ≠ parentes (parents = pais; relatives = parentes)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Fabric ≠ fábrica (fabric = tecido; factory = fábrica). Lecture ≠ leitura (lecture = palestra; reading = leitura).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "False Friends (Falsos Cognatos)",
+            "Biologia",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Biologia",
+            "Química",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Word Formation: Prefixes and Suffixes",
+      "slug": "word-formation-prefixes-and-suffixes",
+      "desc": "Prefixes (change meaning): un- (unhappy), dis- (disagree), re- (rewrite), mis- (misunderstand), over...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Prefixes (change meaning): un- (unhappy), dis- (disagree), re- (rewrite), mis- (misunderstand), over- (overwork), pre- (preview), anti- (antibody). Suffixes (change class): -tion/-sion (verb→noun: educate→education), -ment (develop→development), -ness (happy→happiness), -ful (care→careful), -less (c.",
+      "body": "<h2>O que você precisa saber</h2><p>Prefixes (change meaning): un- (unhappy), dis- (disagree), re- (rewrite), mis- (misunderstand), over- (overwork), pre- (preview), anti- (antibody).</p><h2>Contexto e Desenvolvimento</h2><p>Suffixes (change class): -tion/-sion (verb→noun: educate→education), -ment (develop→development), -ness (happy→happiness), -ful (care→careful), -less (care→careless), -able/-ible (read→readable), -ly (quick→quickly), -ize (modern→modernize).</p><h3>Destaques</h3><ul><li>change meaning</li><li>misunderstand</li><li>change class</li><li>verb→noun: educate→education</li><li>develop→development</li><li>happy→happiness</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Word Formation: Prefixes and Suffixes</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Word Formation: Prefixes and Suffixes?",
+          "a": "Prefixes (change meaning): un- (unhappy), dis- (disagree), re- (rewrite), mis- (misunderstand), over- (overwork), pre- (preview), anti- (antibody)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Química",
+            "Física",
+            "Word Formation: Prefixes and Suffixes"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Química",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Writing: Emails, Letters, and Essays",
+      "slug": "writing-emails-letters-and-essays",
+      "desc": "Email: informal or formal depending on context. Formal: Dear Sir/Madam, I am writing to... Yours fai...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Email: informal or formal depending on context. Formal: Dear Sir/Madam, I am writing to...",
+      "body": "<h2>O que você precisa saber</h2><p>Email: informal or formal depending on context. Formal: Dear Sir/Madam, I am writing to...</p><h2>Contexto e Desenvolvimento</h2><p>Yours faithfully. Informal: Hi, Just wanted to... See you!</p><p>Essay: Introduction (thesis) + Body (2-3 paragraphs with arguments) + Conclusion (summary + opinion).</p><h2>Consequências e Legado</h2><p>Linking words for each section. Paragraph structure: topic sentence + supporting details + concluding sentence. ## 3º Ano — ENEM Preparation</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Writing: Emails, Letters, and Essays</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Writing: Emails, Letters, and Essays?",
+          "a": "Email: informal or formal depending on context."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Formal: Dear Sir/Madam, I am writing to... Informal: Hi, Just wanted to..."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Paragraph structure: topic sentence + supporting details + concluding sentence. ## 3º Ano — ENEM Preparation."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Writing: Emails, Letters, and Essays",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Matemática",
+            "Química",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "ENEM English: What to Expect",
+      "slug": "enem-english-what-to-expect",
+      "desc": "5 questions per exam. Genres: songs, poems, advertisements, news articles, cartoons, infographics, r...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Genres: songs, poems, advertisements, news articles, cartoons, infographics, recipes, manuals. Focus on INTERPRETATION (not grammar rules).",
+      "body": "<h2>O que você precisa saber</h2><p>5 questions per exam.</p><h2>Contexto e Desenvolvimento</h2><p>Genres: songs, poems, advertisements, news articles, cartoons, infographics, recipes, manuals. Focus on INTERPRETATION (not grammar rules).</p><h2>Consequências e Legado</h2><p>Skills tested: identify main idea, infer meaning, understand context, recognize genre and purpose, cultural knowledge.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>ENEM English: What to Expect</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre ENEM English: What to Expect?",
+          "a": "Genres: songs, poems, advertisements, news articles, cartoons, infographics, recipes, manuals."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Biologia",
+            "ENEM English: What to Expect",
+            "Literatura"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Matemática",
+            "Literatura",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reading Strategy: Skimming and Scanning",
+      "slug": "reading-strategy-skimming-and-scanning",
+      "desc": "Skimming: read quickly for the GIST (main idea). Read title, subtitles, first sentences of paragraph...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Skimming: read quickly for the GIST (main idea). Read title, subtitles, first sentences of paragraphs.",
+      "body": "<h2>O que você precisa saber</h2><p>Skimming: read quickly for the GIST (main idea).</p><h2>Contexto e Desenvolvimento</h2><p>Read title, subtitles, first sentences of paragraphs. Scanning: search for SPECIFIC information (date, name, number). Don't read every word — let your eyes sweep for the target.</p><h2>Consequências e Legado</h2><p>Both save time on exams.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Reading Strategy: Skimming and Scanning</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Reading Strategy: Skimming and Scanning?",
+          "a": "Skimming: read quickly for the GIST (main idea)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Read title, subtitles, first sentences of paragraphs. Scanning: search for SPECIFIC information (date, name, number)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Reading Strategy: Skimming and Scanning",
+            "Literatura",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Literatura",
+            "Geografia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Using Cognates and Context Clues",
+      "slug": "using-cognates-and-context-clues",
+      "desc": "Cognates: words similar in Portuguese and English (~60% of English vocabulary has Latin/French roots...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Cognates: words similar in Portuguese and English (~60% of English vocabulary has Latin/French roots). Important (importante), Education (educação), Culture (cultura).",
+      "body": "<h2>O que você precisa saber</h2><p>Cognates: words similar in Portuguese and English (~60% of English vocabulary has Latin/French roots).</p><h2>Contexto e Desenvolvimento</h2><p>Important (importante), Education (educação), Culture (cultura). Context clues: use surrounding sentences to guess unknown words.</p><h2>Consequências e Legado</h2><p>\"The politician was impeached after the scandal\" — even without knowing \"impeached,\" you know it's something negative from \"scandal.\"</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Using Cognates and Context Clues</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Using Cognates and Context Clues?",
+          "a": "Cognates: words similar in Portuguese and English (~60% of English vocabulary has Latin/French roots)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Important (importante), Education (educação), Culture (cultura). Context clues: use surrounding sentences to guess unknown words."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Sociologia",
+            "Geografia",
+            "Using Cognates and Context Clues"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Geografia",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Genres for ENEM: Songs and Poems",
+      "slug": "genres-for-enem-songs-and-poems",
+      "desc": "Songs: identify theme, message, cultural context. Rhyme, repetition, metaphor, imagery. Bob Dylan, B...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Songs: identify theme, message, cultural context. Rhyme, repetition, metaphor, imagery.",
+      "body": "<h2>O que você precisa saber</h2><p>Songs: identify theme, message, cultural context.</p><h2>Contexto e Desenvolvimento</h2><p>Rhyme, repetition, metaphor, imagery. Bob Dylan, Beyoncé, Beatles — lyrics as social commentary. Poems: figurative language, tone, speaker (≠ author).</p><h2>Consequências e Legado</h2><p>ENEM often asks about the social/cultural message, not literal translation.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Genres for ENEM: Songs and Poems</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Genres for ENEM: Songs and Poems?",
+          "a": "Songs: identify theme, message, cultural context."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Rhyme, repetition, metaphor, imagery. Bob Dylan, Beyoncé, Beatles — lyrics as social commentary."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Genres for ENEM: Songs and Poems",
+            "Biologia",
+            "Sociologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Sociologia",
+            "Geografia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Genres for ENEM: Ads, News, Cartoons",
+      "slug": "genres-for-enem-ads-news-cartoons",
+      "desc": "Advertisements: purpose (sell/persuade), target audience, techniques (slogan, imagery, emotional app...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Advertisements: purpose (sell/persuade), target audience, techniques (slogan, imagery, emotional appeal). News: headline (main info), lead (5 W's: who, what, when, where, why), factual language.",
+      "body": "<h2>O que você precisa saber</h2><p>Advertisements: purpose (sell/persuade), target audience, techniques (slogan, imagery, emotional appeal).</p><h2>Contexto e Desenvolvimento</h2><p>News: headline (main info), lead (5 W's: who, what, when, where, why), factual language. Cartoons/Comics: visual + verbal, humor, irony, social criticism.</p><h3>Destaques</h3><ul><li>sell/persuade</li><li>slogan, imagery, emotional appeal</li><li>5 W's: who, what, when, where, why</li></ul><h2>Consequências e Legado</h2><p>Identify the criticism behind the humor.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Genres for ENEM: Ads, News, Cartoons</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Genres for ENEM: Ads, News, Cartoons?",
+          "a": "Advertisements: purpose (sell/persuade), target audience, techniques (slogan, imagery, emotional appeal)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "News: headline (main info), lead (5 W's: who, what, when, where, why), factual language. Cartoons/Comics: visual + verbal, humor, irony, social criticism."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Genres for ENEM: Ads, News, Cartoons",
+            "Biologia",
+            "Física"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Literatura",
+            "Física",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Cultural Aspects: English-Speaking World",
+      "slug": "cultural-aspects-english-speaking-world",
+      "desc": "English as global language (~1.5 billion speakers). Varieties: British (colour, lift, flat), America...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "English as global language (~1.5 billion speakers). Varieties: British (colour, lift, flat), American (color, elevator, apartment), Australian, Indian, South African, Caribbean.",
+      "body": "<h2>O que você precisa saber</h2><p>English as global language (~1.5 billion speakers).</p><h2>Contexto e Desenvolvimento</h2><p>Varieties: British (colour, lift, flat), American (color, elevator, apartment), Australian, Indian, South African, Caribbean. Cultural context matters: Thanksgiving (USA), tea time (UK), cricket (India/UK). Globalization of English: pidgins, creoles, World Englishes.</p><h3>Destaques</h3><ul><li>~1.5 billion speakers</li><li>colour, lift, flat</li><li>color, elevator, apartment</li></ul><h2>Consequências e Legado</h2><p>Linguistic imperialism vs. lingua franca.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Cultural Aspects: English-Speaking World</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Cultural Aspects: English-Speaking World?",
+          "a": "English as global language (~1.5 billion speakers)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Varieties: British (colour, lift, flat), American (color, elevator, apartment), Australian, Indian, South African, Caribbean. Cultural context matters: Thanksgiving (USA), tea time (UK), cricket (India/UK)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Filosofia",
+            "Cultural Aspects: English-Speaking World",
+            "Química"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Filosofia",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Interpreting Multimodal Texts",
+      "slug": "interpreting-multimodal-texts",
+      "desc": "Texts that combine words + images + layout. Infographics: data visualization, statistics, icons. Mem...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Texts that combine words + images + layout. Infographics: data visualization, statistics, icons.",
+      "body": "<h2>O que você precisa saber</h2><p>Texts that combine words + images + layout. Infographics: data visualization, statistics, icons.</p><h2>Contexto e Desenvolvimento</h2><p>Memes: image + text, humor, cultural reference. Social media posts: hashtags, emojis, abbreviated language (tbh, imo, btw). ENEM tip: analyze ALL elements — image, text, source, date.</p><h2>Consequências e Legado</h2><p>The interaction between elements creates meaning.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Interpreting Multimodal Texts</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Interpreting Multimodal Texts?",
+          "a": "Texts that combine words + images + layout."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Infographics: data visualization, statistics, icons. Memes: image + text, humor, cultural reference."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "ENEM tip: analyze ALL elements — image, text, source, date. The interaction between elements creates meaning.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Biologia",
+            "Geografia",
+            "Interpreting Multimodal Texts"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Geografia",
+            "Biologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Common Mistakes by Brazilian Students",
+      "slug": "common-mistakes-by-brazilian-students",
+      "desc": "False friends (see above). Prepositions: \"depend ON\" (not \"of\"), \"interested IN\" (not \"in/em\"), \"mar...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "False friends (see above). Prepositions: \"depend ON\" (not \"of\"), \"interested IN\" (not \"in/em\"), \"married TO.\" Articles: \"I like Ø music\" (general, no article), \"I like THE music you played.\" Word order: adjective BEFORE noun (a beautiful day, not \"a day beautiful\").",
+      "body": "<h2>O que você precisa saber</h2><p>False friends (see above).</p><h2>Contexto e Desenvolvimento</h2><p>Prepositions: \"depend ON\" (not \"of\"), \"interested IN\" (not \"in/em\"), \"married TO.\" Articles: \"I like Ø music\" (general, no article), \"I like THE music you played.\" Word order: adjective BEFORE noun (a beautiful day, not \"a day beautiful\"). There/Their/They're. Your/You're.</p><h3>Destaques</h3><ul><li>not \"in/em\"</li><li>general, no article</li><li>a beautiful day, not \"a day beautiful\"</li></ul><h2>Consequências e Legado</h2><p>Its/It's.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Common Mistakes by Brazilian Students</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Common Mistakes by Brazilian Students?",
+          "a": "False friends (see above)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Inglês."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Física",
+            "Matemática",
+            "Common Mistakes by Brazilian Students"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Inglês",
+            "Geografia",
+            "Física",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

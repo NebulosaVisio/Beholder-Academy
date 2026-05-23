@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página não encontrada — Beholder Academy</title>
+  <meta name="description" content="A página que você procura não existe. Volte para o Beholder Academy e continue aprendendo.">
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <style>
+    .error-page {
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    .error-content {
+      max-width: 520px;
+    }
+    .error-code {
+      font-family: var(--font-heading);
+      font-size: 8rem;
+      font-weight: 900;
+      background: linear-gradient(135deg, var(--brand-primary), var(--brand-secondary));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+      margin-bottom: 1rem;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.8; transform: scale(1.02); }
+    }
+    .error-title {
+      font-family: var(--font-heading);
+      font-size: 1.75rem;
+      font-weight: 800;
+      margin-bottom: 1rem;
+    }
+    .error-desc {
+      color: var(--text-secondary);
+      font-size: 1.1rem;
+      line-height: 1.7;
+      margin-bottom: 2rem;
+    }
+    .error-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .error-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 0.875rem 1.5rem;
+      border-radius: var(--radius-md);
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 1rem;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .error-btn:hover {
+      transform: translateY(-2px);
+    }
+    .error-btn--primary {
+      background: linear-gradient(135deg, var(--brand-primary), #9B4DFF);
+      color: #fff;
+    }
+    .error-btn--primary:hover {
+      box-shadow: 0 8px 20px rgba(123, 47, 247, 0.3);
+    }
+    .error-btn--secondary {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-primary);
+    }
+    .error-btn--secondary:hover {
+      border-color: var(--brand-primary);
+      color: var(--brand-primary);
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar"><div class="container navbar__inner">
+    <a href="index.html" class="navbar__logo">Beholder <span class="logo-highlight">Academy</span></a>
+    <div class="navbar__actions">
+      <button class="dark-toggle" id="dark-toggle" aria-label="Alternar tema" title="Alternar tema">
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+    </div>
+  </div></nav>
+
+  <main class="error-page">
+    <div class="error-content">
+      <div class="error-code">404</div>
+      <h1 class="error-title">Ops! Página não encontrada</h1>
+      <p class="error-desc">A página que você procura pode ter sido movida, removida ou nunca existiu. Mas não se preocupe — há muito para aprender por aqui!</p>
+      <div class="error-actions">
+        <a href="index.html" class="error-btn error-btn--primary">🏠 Voltar ao Início</a>
+        <a href="sobre.html" class="error-btn error-btn--secondary">📖 Sobre o Projeto</a>
+      </div>
+    </div>
+  </main>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>

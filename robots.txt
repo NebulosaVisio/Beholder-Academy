@@ -1,0 +1,16 @@
+# Beholder Academy - robots.txt
+User-agent: *
+Allow: /
+
+# Block build scripts and content JSON
+Disallow: /content/
+Disallow: /build_unified.js
+Disallow: /_generate.ps1
+Disallow: /_make_bio_qui_fis.ps1
+Disallow: /_make_ifs.ps1
+Disallow: /_make_lr.ps1
+Disallow: /expand_articles.js
+Disallow: /login.html
+
+# Sitemap
+Sitemap: https://beholderacademy.com.br/sitemap.xml

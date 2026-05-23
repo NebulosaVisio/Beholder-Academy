@@ -1,0 +1,1258 @@
+{
+  "subject": "Redação",
+  "slug": "redacao",
+  "color": "var(--redacao)",
+  "icon": "pen",
+  "articles": [
+    {
+      "title": "Tipologia Textual",
+      "slug": "tipologia-textual",
+      "desc": "Narração: conta uma história (personagens, tempo, espaço, conflito, clímax, desfecho). Descrição: re...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Narração: conta uma história (personagens, tempo, espaço, conflito, clímax, desfecho). Descrição: retrata características (objetiva: câmera; subjetiva: impressões).",
+      "body": "<h2>O que você precisa saber</h2><p>Narração: conta uma história (personagens, tempo, espaço, conflito, clímax, desfecho). Descrição: retrata características (objetiva: câmera; subjetiva: impressões).</p><h2>Contexto e Desenvolvimento</h2><p>Dissertação: defende ou expõe uma tese com argumentos. Injunção: instrui passo a passo (receitas, manuais). Exposição: apresenta informações sem opinar (enciclopédia, resumo).</p><h3>Destaques</h3><ul><li>personagens, tempo, espaço, conflito, clímax, desfecho</li><li>objetiva: câmera; subjetiva: impressões</li><li>receitas, manuais</li><li>enciclopédia, resumo</li></ul><h2>Consequências e Legado</h2><p>Um texto pode ter mais de uma tipologia.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Tipologia Textual</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Tipologia Textual?",
+          "a": "Narração: conta uma história (personagens, tempo, espaço, conflito, clímax, desfecho)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Descrição: retrata características (objetiva: câmera; subjetiva: impressões). Dissertação: defende ou expõe uma tese com argumentos."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Exposição: apresenta informações sem opinar (enciclopédia, resumo). Um texto pode ter mais de uma tipologia.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Matemática",
+            "Literatura",
+            "Sociologia",
+            "Tipologia Textual"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Sociologia",
+            "Literatura",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Texto Narrativo: Estrutura",
+      "slug": "texto-narrativo-estrutura",
+      "desc": "Elementos: narrador (1ª ou 3ª pessoa), personagens (protagonista, antagonista, coadjuvantes), espaço...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Elementos: narrador (1ª ou 3ª pessoa), personagens (protagonista, antagonista, coadjuvantes), espaço (onde), tempo (quando — cronológico ou psicológico), enredo (o que acontece). Estrutura: situação inicial → complicação/conflito → clímax (ponto alto) → desfecho.",
+      "body": "<h2>O que você precisa saber</h2><p>Elementos: narrador (1ª ou 3ª pessoa), personagens (protagonista, antagonista, coadjuvantes), espaço (onde), tempo (quando — cronológico ou psicológico), enredo (o que acontece).</p><h2>Contexto e Desenvolvimento</h2><p>Estrutura: situação inicial → complicação/conflito → clímax (ponto alto) → desfecho. Tipos de narrador: onisciente (sabe tudo), observador (narra de fora), protagonista (narra e vive).</p><h3>Destaques</h3><ul><li>1ª ou 3ª pessoa</li><li>protagonista, antagonista, coadjuvantes</li><li>quando — cronológico ou psicológico</li><li>o que acontece</li><li>ponto alto</li><li>narra de fora</li></ul><h2>Consequências e Legado</h2><p>Flashback e in media res.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Texto Narrativo: Estrutura</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Texto Narrativo: Estrutura?",
+          "a": "Elementos: narrador (1ª ou 3ª pessoa), personagens (protagonista, antagonista, coadjuvantes), espaço (onde), tempo (quando — cronológico ou psicológico), enredo (o que acontece)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Estrutura: situação inicial → complicação/conflito → clímax (ponto alto) → desfecho. Tipos de narrador: onisciente (sabe tudo), observador (narra de fora), protagonista (narra e vive)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Sociologia",
+            "Texto Narrativo: Estrutura",
+            "Filosofia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Biologia",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Texto Descritivo",
+      "slug": "texto-descritivo",
+      "desc": "Objetivo (informativo, detalhamento preciso: \"Sala de 30m², paredes brancas\") vs. Subjetivo (poético...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Objetivo (informativo, detalhamento preciso: \"Sala de 30m², paredes brancas\") vs. Subjetivo (poético, impressões pessoais: \"A sala parecia suspirar solidão\").",
+      "body": "<h2>O que você precisa saber</h2><p>Objetivo (informativo, detalhamento preciso: \"Sala de 30m², paredes brancas\") vs.</p><h2>Contexto e Desenvolvimento</h2><p>Subjetivo (poético, impressões pessoais: \"A sala parecia suspirar solidão\"). Denotação (literal) vs. Conotação (figurada).</p><h2>Consequências e Legado</h2><p>Técnicas: uso de adjetivos, comparações, sinestesia, seleção de detalhes significativos.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Texto Descritivo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Texto Descritivo?",
+          "a": "Objetivo (informativo, detalhamento preciso: \"Sala de 30m², paredes brancas\") vs."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Subjetivo (poético, impressões pessoais: \"A sala parecia suspirar solidão\"). Denotação (literal) vs."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Matemática",
+            "Química",
+            "Texto Descritivo"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Química",
+            "Matemática",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Coesão Textual",
+      "slug": "coesao-textual",
+      "desc": "Ligação entre frases e parágrafos. Mecanismos: referência pronominal (\"João viajou. ELE voltou na te...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Ligação entre frases e parágrafos. Mecanismos: referência pronominal (\"João viajou.",
+      "body": "<h2>O que você precisa saber</h2><p>Ligação entre frases e parágrafos.</p><h2>Contexto e Desenvolvimento</h2><p>Mecanismos: referência pronominal (\"João viajou. ELE voltou na terça\"), substituição lexical (casa→residência→lar), elipse (omitir termo já mencionado), conectivos (mas, porém, portanto, além disso, em contrapartida). Coesão sequencial: progressão do texto.</p><h3>Destaques</h3><ul><li>\"João viajou. ELE voltou na terça\"</li><li>casa→residência→lar</li><li>omitir termo já mencionado</li><li>mas, porém, portanto, além disso, em contrapartida</li></ul><h2>Consequências e Legado</h2><p>Coesão referencial: retomar termos anteriores.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Coesão Textual</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Coesão Textual?",
+          "a": "Ligação entre frases e parágrafos."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Mecanismos: referência pronominal (\"João viajou. ELE voltou na terça\"), substituição lexical (casa→residência→lar), elipse (omitir termo já mencionado), conectivos (mas, porém, portanto, além disso, em contrapartida)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Coesão Textual",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Geografia",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Coerência Textual",
+      "slug": "coerencia-textual",
+      "desc": "Sentido lógico do texto. Princípios: não-contradição (não afirmar e negar a mesma coisa), progressão...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Sentido lógico do texto. Princípios: não-contradição (não afirmar e negar a mesma coisa), progressão (informação nova a cada parágrafo), continuidade (manter o tema), relação (ideias conectadas logicamente).",
+      "body": "<h2>O que você precisa saber</h2><p>Sentido lógico do texto.</p><h2>Contexto e Desenvolvimento</h2><p>Princípios: não-contradição (não afirmar e negar a mesma coisa), progressão (informação nova a cada parágrafo), continuidade (manter o tema), relação (ideias conectadas logicamente). Incoerência externa: contradizer fatos conhecidos (\"O Brasil fica na Europa\").</p><h3>Destaques</h3><ul><li>não afirmar e negar a mesma coisa</li><li>informação nova a cada parágrafo</li><li>manter o tema</li><li>ideias conectadas logicamente</li><li>\"O Brasil fica na Europa\"</li></ul><h2>Consequências e Legado</h2><p>Incoerência interna: contradições dentro do próprio texto.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Coerência Textual</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Coerência Textual?",
+          "a": "Sentido lógico do texto."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Princípios: não-contradição (não afirmar e negar a mesma coisa), progressão (informação nova a cada parágrafo), continuidade (manter o tema), relação (ideias conectadas logicamente). Incoerência externa: contradizer fatos conhecidos (\"O Brasil fica na Europa\")."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Química",
+            "Literatura",
+            "Coerência Textual"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Literatura",
+            "Química",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Parágrafo: Estrutura",
+      "slug": "paragrafo-estrutura",
+      "desc": "Tópico frasal: frase-chave que apresenta a ideia central do parágrafo (geralmente a primeira). Desen...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Tópico frasal: frase-chave que apresenta a ideia central do parágrafo (geralmente a primeira). Desenvolvimento: exemplos, dados, explicações, citações que sustentam o tópico.",
+      "body": "<h2>O que você precisa saber</h2><p>Tópico frasal: frase-chave que apresenta a ideia central do parágrafo (geralmente a primeira). Desenvolvimento: exemplos, dados, explicações, citações que sustentam o tópico.</p><h2>Contexto e Desenvolvimento</h2><p>Conclusão parcial: fechamento do parágrafo, transição para o próximo. Cada parágrafo = 1 ideia central. Parágrafo padrão: 5-8 linhas.</p><h2>Consequências e Legado</h2><p>Evitar parágrafos de 1-2 linhas ou de 15+ linhas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Parágrafo: Estrutura</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Parágrafo: Estrutura?",
+          "a": "Tópico frasal: frase-chave que apresenta a ideia central do parágrafo (geralmente a primeira)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Desenvolvimento: exemplos, dados, explicações, citações que sustentam o tópico. Conclusão parcial: fechamento do parágrafo, transição para o próximo."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Parágrafo padrão: 5-8 linhas. Evitar parágrafos de 1-2 linhas ou de 15+ linhas.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Parágrafo: Estrutura",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Argumentação: Tipos de Argumento",
+      "slug": "argumentacao-tipos-de-argumento",
+      "desc": "Argumento de autoridade: citar especialista (\"Segundo o IBGE...\"). Argumento por exemplificação: cas...",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Básico",
+      "grade": "1º EM",
+      "reading_time": 3,
+      "xp": 100,
+      "essential": "Argumento de autoridade: citar especialista (\"Segundo o IBGE...\"). Argumento por exemplificação: caso concreto que ilustra.",
+      "body": "<h2>O que você precisa saber</h2><p>Argumento de autoridade: citar especialista (\"Segundo o IBGE...\"). Argumento por exemplificação: caso concreto que ilustra.</p><h2>Contexto e Desenvolvimento</h2><p>Argumento por dados/estatísticas: números comprovam. Argumento por causa-consequência: evento gera resultado. Argumento por comparação/analogia: comparar realidades.</p><p>Argumento histórico: fato do passado sustenta. Contra-argumento: antecipar e refutar a posição contrária.</p><h3>Destaques</h3><ul><li>\"Segundo o IBGE...\"</li><li>verificável</li><li>juízo de valor</li></ul><h2>Consequências e Legado</h2><p>Fato (verificável) vs. Opinião (juízo de valor). ## 2º Ano — Dissertação-Argumentativa</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Argumentação: Tipos de Argumento</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Argumentação: Tipos de Argumento?",
+          "a": "Argumento de autoridade: citar especialista (\"Segundo o IBGE...\")."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Argumento por exemplificação: caso concreto que ilustra. Argumento por dados/estatísticas: números comprovam."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Opinião (juízo de valor). ## 2º Ano — Dissertação-Argumentativa."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Argumentação: Tipos de Argumento",
+            "Geografia",
+            "Física"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Sociologia",
+            "Física",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Estrutura da Dissertação",
+      "slug": "estrutura-da-dissertacao",
+      "desc": "4 parágrafos mínimos: Introdução (1 §) + Desenvolvimento (2 §) + Conclusão (1 §). 30 linhas (ENEM)....",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "4 parágrafos mínimos: Introdução (1 §) + Desenvolvimento (2 §) + Conclusão (1 §). Introdução: contextualização + tese.",
+      "body": "<h2>O que você precisa saber</h2><p>4 parágrafos mínimos: Introdução (1 §) + Desenvolvimento (2 §) + Conclusão (1 §). 30 linhas (ENEM).</p><h2>Contexto e Desenvolvimento</h2><p>Introdução: contextualização + tese. D1: argumento 1 + repertório + análise. D2: argumento 2 + repertório + análise.</p><p>Conclusão: retomada da tese + proposta de intervenção.</p><h2>Consequências e Legado</h2><p>Título: opcional no ENEM, obrigatório em alguns vestibulares. 3ª pessoa ou 1ª plural (nós).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Estrutura da Dissertação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Estrutura da Dissertação?",
+          "a": "4 parágrafos mínimos: Introdução (1 §) + Desenvolvimento (2 §) + Conclusão (1 §)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Introdução: contextualização + tese. D1: argumento 1 + repertório + análise."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Título: opcional no ENEM, obrigatório em alguns vestibulares. 3ª pessoa ou 1ª plural (nós).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Estrutura da Dissertação",
+            "Física",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Física",
+            "Filosofia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Introdução: Contextualização e Tese",
+      "slug": "introducao-contextualizacao-e-tese",
+      "desc": "Contextualização: situar o leitor no tema (dado histórico, citação, alusão, paradoxo, pergunta retór...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Contextualização: situar o leitor no tema (dado histórico, citação, alusão, paradoxo, pergunta retórica). Tese: posicionamento claro do autor sobre o tema (1-2 frases no final da introdução).",
+      "body": "<h2>O que você precisa saber</h2><p>Contextualização: situar o leitor no tema (dado histórico, citação, alusão, paradoxo, pergunta retórica).</p><h2>Contexto e Desenvolvimento</h2><p>Tese: posicionamento claro do autor sobre o tema (1-2 frases no final da introdução). A tese deve ser defendida nos parágrafos seguintes.</p><h2>Consequências e Legado</h2><p>Exemplo: \"No Brasil, a persistência do racismo estrutural compromete a equidade social, evidenciando tanto a negligência estatal quanto a herança escravocrata.\"</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Introdução: Contextualização e Tese</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Introdução: Contextualização e Tese?",
+          "a": "Contextualização: situar o leitor no tema (dado histórico, citação, alusão, paradoxo, pergunta retórica)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Tese: posicionamento claro do autor sobre o tema (1-2 frases no final da introdução). A tese deve ser defendida nos parágrafos seguintes."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Física",
+            "Literatura",
+            "Introdução: Contextualização e Tese"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Geografia",
+            "Literatura",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Desenvolvimento: Argumentação e Repertório",
+      "slug": "desenvolvimento-argumentacao-e-repertorio",
+      "desc": "Cada parágrafo defende UM aspecto da tese. Estrutura: tópico frasal (apresenta o argumento) → fundam...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Cada parágrafo defende UM aspecto da tese. Estrutura: tópico frasal (apresenta o argumento) → fundamentação (repertório sociocultural) → análise (conectar repertório ao tema, mostrar por que é relevante).",
+      "body": "<h2>O que você precisa saber</h2><p>Cada parágrafo defende UM aspecto da tese.</p><h2>Contexto e Desenvolvimento</h2><p>Estrutura: tópico frasal (apresenta o argumento) → fundamentação (repertório sociocultural) → análise (conectar repertório ao tema, mostrar por que é relevante). Repertório produtivo: vai além do senso comum — citação de filósofo/sociólogo, dado estatístico, referência a filme/livro/série, comparação com outro país, evento histórico.</p><h3>Destaques</h3><ul><li>apresenta o argumento</li><li>repertório sociocultural</li><li>conectar repertório ao tema, mostrar por que é relevante</li><li>pesquisa, instituto, autor reconhecido</li></ul><h2>Consequências e Legado</h2><p>Repertório legitimado: de fonte confiável (pesquisa, instituto, autor reconhecido).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Desenvolvimento: Argumentação e Repertório</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Desenvolvimento: Argumentação e Repertório?",
+          "a": "Cada parágrafo defende UM aspecto da tese."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Estrutura: tópico frasal (apresenta o argumento) → fundamentação (repertório sociocultural) → análise (conectar repertório ao tema, mostrar por que é relevante). Repertório produtivo: vai além do senso comum — citação de filósofo/sociólogo, dado estatístico, referência a filme/livro/série, comparação com outro país, evento histórico."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Desenvolvimento: Argumentação e Repertório",
+            "Matemática",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Matemática",
+            "Filosofia",
+            "Física"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Conclusão: Proposta de Intervenção (ENEM)",
+      "slug": "conclusao-proposta-de-intervencao-enem",
+      "desc": "5 elementos obrigatórios: AGENTE (quem vai agir: governo, escola, mídia, sociedade), AÇÃO (o que ser...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "5 elementos obrigatórios: AGENTE (quem vai agir: governo, escola, mídia, sociedade), AÇÃO (o que será feito: criar programa, implementar lei, fiscalizar), MEIO/MODO (como será feito: por meio de campanhas, através de educação), EFEITO/FINALIDADE (para que: a fim de reduzir..., com o objetivo de...),.",
+      "body": "<h2>O que você precisa saber</h2><p>5 elementos obrigatórios: AGENTE (quem vai agir: governo, escola, mídia, sociedade), AÇÃO (o que será feito: criar programa, implementar lei, fiscalizar), MEIO/MODO (como será feito: por meio de campanhas, através de educação), EFEITO/FINALIDADE (para que: a fim de reduzir..., com o objetivo de...), DETALHAMENTO (aprofundar qualquer um dos 4 anteriores).</p><h2>Contexto e Desenvolvimento</h2><p>Deve respeitar Direitos Humanos. Não pode ser genérica (\"O governo deveria fazer alguma coisa\").</p><h3>Destaques</h3><ul><li>quem vai agir: governo, escola, mídia, sociedade</li><li>o que será feito: criar programa, implementar lei, fiscalizar</li><li>como será feito: por meio de campanhas, através de educação</li><li>para que: a fim de reduzir..., com o objetivo de...</li><li>aprofundar qualquer um dos 4 anteriores</li><li>\"O governo deveria fazer alguma coisa\"</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Conclusão: Proposta de Intervenção (ENEM)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Conclusão: Proposta de Intervenção (ENEM)?",
+          "a": "5 elementos obrigatórios: AGENTE (quem vai agir: governo, escola, mídia, sociedade), AÇÃO (o que será feito: criar programa, implementar lei, fiscalizar), MEIO/MODO (como será feito: por meio de campanhas, através de educação), EFEITO/FINALIDADE (para que: a fim de reduzir..., com o objetivo de...), DETALHAMENTO (aprofundar qualquer um dos 4 anteriores)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Geografia",
+            "Química",
+            "Conclusão: Proposta de Intervenção (ENEM)"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Geografia",
+            "Química",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Repertório Sociocultural",
+      "slug": "repertorio-sociocultural",
+      "desc": "Filosofia: Platão (Alegoria da Caverna → alienação), Kant (autonomia), Foucault (poder), Marx (ideol...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Filosofia: Platão (Alegoria da Caverna → alienação), Kant (autonomia), Foucault (poder), Marx (ideologia), Sartre (liberdade), Adorno (indústria cultural), Bauman (modernidade líquida), Hannah Arendt (banalidade do mal). Sociologia: Durkheim (fato social), Bourdieu (capital cultural).",
+      "body": "<h2>O que você precisa saber</h2><p>Filosofia: Platão (Alegoria da Caverna → alienação), Kant (autonomia), Foucault (poder), Marx (ideologia), Sartre (liberdade), Adorno (indústria cultural), Bauman (modernidade líquida), Hannah Arendt (banalidade do mal). Sociologia: Durkheim (fato social), Bourdieu (capital cultural).</p><h2>Contexto e Desenvolvimento</h2><p>Filmes: Tempos Modernos (Chaplin), Coringa, Wall-E, Parasita. Livros: 1984 (Orwell), Admirável Mundo Novo (Huxley). Dados: IBGE, IPEA, OMS, UNICEF.</p><h3>Destaques</h3><ul><li>Alegoria da Caverna → alienação</li><li>indústria cultural</li><li>modernidade líquida</li><li>banalidade do mal</li><li>fato social</li><li>capital cultural</li></ul><h2>Consequências e Legado</h2><p>Documentos: Constituição Federal, DUDH.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Repertório Sociocultural</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Repertório Sociocultural?",
+          "a": "Filosofia: Platão (Alegoria da Caverna → alienação), Kant (autonomia), Foucault (poder), Marx (ideologia), Sartre (liberdade), Adorno (indústria cultural), Bauman (modernidade líquida), Hannah Arendt (banalidade do mal)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Sociologia: Durkheim (fato social), Bourdieu (capital cultural). Filmes: Tempos Modernos (Chaplin), Coringa, Wall-E, Parasita."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Dados: IBGE, IPEA, OMS, UNICEF. Documentos: Constituição Federal, DUDH.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "Repertório Sociocultural",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Matemática",
+            "Física",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Conectivos para Cada Parte",
+      "slug": "conectivos-para-cada-parte",
+      "desc": "Introdução: \"Desde a...\", \"Segundo...\", \"É notório que...\", \"No cenário contemporâneo...\". Desenvolv...",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "2º EM",
+      "reading_time": 3,
+      "xp": 150,
+      "essential": "Introdução: \"Desde a...\", \"Segundo...\", \"É notório que...\", \"No cenário contemporâneo...\". Desenvolvimento: Adição (além disso, outrossim), Causa (uma vez que, posto que), Consequência (de modo que, logo), Exemplificação (a título de exemplo), Contraste (em contrapartida, todavia).",
+      "body": "<h2>O que você precisa saber</h2><p>Introdução: \"Desde a...\", \"Segundo...\", \"É notório que...\", \"No cenário contemporâneo...\".</p><h2>Contexto e Desenvolvimento</h2><p>Desenvolvimento: Adição (além disso, outrossim), Causa (uma vez que, posto que), Consequência (de modo que, logo), Exemplificação (a título de exemplo), Contraste (em contrapartida, todavia). Conclusão: \"Portanto,\", \"Dessa forma,\", \"Urge que,\", \"É imperativo que,\". ## 3º Ano — ENEM e Vestibulares</p><h3>Destaques</h3><ul><li>além disso, outrossim</li><li>uma vez que, posto que</li><li>de modo que, logo</li><li>a título de exemplo</li><li>em contrapartida, todavia</li></ul><h2>Conexão com o Presente</h2><p>O estudo de <strong>Conectivos para Cada Parte</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Conectivos para Cada Parte?",
+          "a": "Introdução: \"Desde a...\", \"Segundo...\", \"É notório que...\", \"No cenário contemporâneo...\"."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Desenvolvimento: Adição (além disso, outrossim), Causa (uma vez que, posto que), Consequência (de modo que, logo), Exemplificação (a título de exemplo), Contraste (em contrapartida, todavia). Conclusão: \"Portanto,\", \"Dessa forma,\", \"Urge que,\", \"É imperativo que,\"."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Conectivos para Cada Parte",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Matemática",
+            "Biologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "As 5 Competências do ENEM (Detalhamento)",
+      "slug": "as-5-competencias-do-enem-detalhamento",
+      "desc": "C1: Domínio da norma culta (gramática, ortografia, concordância). C2: Compreensão do tema + repertór...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "C1: Domínio da norma culta (gramática, ortografia, concordância). C2: Compreensão do tema + repertório sociocultural (não tangenciar).",
+      "body": "<h2>O que você precisa saber</h2><p>C1: Domínio da norma culta (gramática, ortografia, concordância). C2: Compreensão do tema + repertório sociocultural (não tangenciar).</p><h2>Contexto e Desenvolvimento</h2><p>C3: Seleção e organização de argumentos (projeto de texto, progressão). C4: Coesão (conectivos, referência, sequenciação). C5: Proposta de intervenção (5 elementos, respeitar DH).</p><p>Cada competência: 0 a 200 pontos.</p><h3>Destaques</h3><ul><li>gramática, ortografia, concordância</li><li>não tangenciar</li><li>projeto de texto, progressão</li><li>conectivos, referência, sequenciação</li><li>5 elementos, respeitar DH</li></ul><h2>Consequências e Legado</h2><p>Total: 0 a 1000. Nota 1000: domínio excepcional em todas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>As 5 Competências do ENEM (Detalhamento)</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre As 5 Competências do ENEM (Detalhamento)?",
+          "a": "C1: Domínio da norma culta (gramática, ortografia, concordância)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "C2: Compreensão do tema + repertório sociocultural (não tangenciar). C3: Seleção e organização de argumentos (projeto de texto, progressão)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Cada competência: 0 a 200 pontos. Nota 1000: domínio excepcional em todas.."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Física",
+            "As 5 Competências do ENEM (Detalhamento)",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Física",
+            "Filosofia",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Competência 1: Norma Culta",
+      "slug": "competencia-1-norma-culta",
+      "desc": "Erros graves: concordância (\"Nós vai\"), regência (\"Assistir o filme\"), ortografia, crase, pontuação....",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Erros graves: concordância (\"Nós vai\"), regência (\"Assistir o filme\"), ortografia, crase, pontuação. Erros médios: colocação pronominal, redundância.",
+      "body": "<h2>O que você precisa saber</h2><p>Erros graves: concordância (\"Nós vai\"), regência (\"Assistir o filme\"), ortografia, crase, pontuação.</p><h2>Contexto e Desenvolvimento</h2><p>Erros médios: colocação pronominal, redundância. Repertório linguístico: vocabulário variado, evitar repetições. Dica: reler o texto ao final corrigindo erros.</p><h2>Consequências e Legado</h2><p>Escrever com letra legível (redação à mão no ENEM).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Competência 1: Norma Culta</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Competência 1: Norma Culta?",
+          "a": "Erros graves: concordância (\"Nós vai\"), regência (\"Assistir o filme\"), ortografia, crase, pontuação."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Erros médios: colocação pronominal, redundância. Repertório linguístico: vocabulário variado, evitar repetições."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Filosofia",
+            "Sociologia",
+            "Competência 1: Norma Culta"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Geografia",
+            "Sociologia",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Competência 2: Tema e Repertório",
+      "slug": "competencia-2-tema-e-repertorio",
+      "desc": "Ler o tema com atenção — circundar palavras-chave. Tangenciamento (falar sobre algo parecido mas não...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Ler o tema com atenção — circundar palavras-chave. Tangenciamento (falar sobre algo parecido mas não exatamente o tema): nota máxima cai para 120.",
+      "body": "<h2>O que você precisa saber</h2><p>Ler o tema com atenção — circundar palavras-chave.</p><h2>Contexto e Desenvolvimento</h2><p>Tangenciamento (falar sobre algo parecido mas não exatamente o tema): nota máxima cai para 120. Fuga ao tema: nota ZERO. Repertório: produtivo (elaborado, autoral, aprofundado) vs. não produtivo (citação solta, sem conexão com argumento).</p><h3>Destaques</h3><ul><li>falar sobre algo parecido mas não exatamente o tema</li><li>elaborado, autoral, aprofundado</li><li>citação solta, sem conexão com argumento</li><li>clichê genérico</li></ul><h2>Consequências e Legado</h2><p>Evitar: \"Desde os primórdios da humanidade...\" (clichê genérico).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Competência 2: Tema e Repertório</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Competência 2: Tema e Repertório?",
+          "a": "Ler o tema com atenção — circundar palavras-chave."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Tangenciamento (falar sobre algo parecido mas não exatamente o tema): nota máxima cai para 120. Fuga ao tema: nota ZERO."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "não produtivo (citação solta, sem conexão com argumento). Evitar: \"Desde os primórdios da humanidade...\" (clichê genérico).."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Química",
+            "Filosofia",
+            "Competência 2: Tema e Repertório"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Filosofia",
+            "Geografia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Competência 3: Projeto de Texto",
+      "slug": "competencia-3-projeto-de-texto",
+      "desc": "Texto organizado, progressivo, com estratégia argumentativa clara. Cada parágrafo tem função definid...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Texto organizado, progressivo, com estratégia argumentativa clara. Cada parágrafo tem função definida.",
+      "body": "<h2>O que você precisa saber</h2><p>Texto organizado, progressivo, com estratégia argumentativa clara.</p><h2>Contexto e Desenvolvimento</h2><p>Cada parágrafo tem função definida. Argumentos se complementam (não se repetem). Autoria: voz própria, análise pessoal (não só colagem de citações).</p><h3>Destaques</h3><ul><li>não se repetem</li><li>não só colagem de citações</li><li>repetir o mesmo com outras palavras</li></ul><h2>Consequências e Legado</h2><p>Evitar: mudança brusca de assunto, contradições internas, argumentação circular (repetir o mesmo com outras palavras).</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Competência 3: Projeto de Texto</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Competência 3: Projeto de Texto?",
+          "a": "Texto organizado, progressivo, com estratégia argumentativa clara."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Cada parágrafo tem função definida. Argumentos se complementam (não se repetem)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Biologia",
+            "Competência 3: Projeto de Texto",
+            "Matemática"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Matemática",
+            "Filosofia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Competência 4: Coesão",
+      "slug": "competencia-4-coesao",
+      "desc": "Articulação entre partes do texto. Conectivos diversificados (não repetir \"além disso\" 5 vezes). Ref...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Articulação entre partes do texto. Conectivos diversificados (não repetir \"além disso\" 5 vezes).",
+      "body": "<h2>O que você precisa saber</h2><p>Articulação entre partes do texto.</p><h2>Contexto e Desenvolvimento</h2><p>Conectivos diversificados (não repetir \"além disso\" 5 vezes). Referenciação: retomar termos com sinônimos, pronomes, hiperônimos. Sequenciação: progressão lógica de ideias.</p><h2>Consequências e Legado</h2><p>Erros comuns: parágrafos soltos (sem conexão com o anterior), excesso de \"Ademais\" e \"Outrossim\".</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Competência 4: Coesão</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Competência 4: Coesão?",
+          "a": "Articulação entre partes do texto."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Conectivos diversificados (não repetir \"além disso\" 5 vezes). Referenciação: retomar termos com sinônimos, pronomes, hiperônimos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Matemática",
+            "Sociologia",
+            "Competência 4: Coesão"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Sociologia",
+            "Matemática",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Competência 5: Proposta de Intervenção",
+      "slug": "competencia-5-proposta-de-intervencao",
+      "desc": "5 elementos: Agente + Ação + Meio + Efeito + Detalhamento. Completa (200 pts): todos os 5 elementos...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "5 elementos: Agente + Ação + Meio + Efeito + Detalhamento. Completa (200 pts): todos os 5 elementos com detalhamento.",
+      "body": "<h2>O que você precisa saber</h2><p>5 elementos: Agente + Ação + Meio + Efeito + Detalhamento.</p><h2>Contexto e Desenvolvimento</h2><p>Completa (200 pts): todos os 5 elementos com detalhamento. Incompleta: falta 1 ou mais elementos. Não pode violar Direitos Humanos (defender tortura, censura, discriminação = ZERO na C5).</p><h2>Consequências e Legado</h2><p>Ser específico: \"O Ministério da Educação deve implementar disciplinas de educação midiática nas escolas públicas, por meio de formação docente e material didático, a fim de desenvolver o pensamento crítico dos jovens e reduzir a vulnerabilidade a fake news.\"</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Competência 5: Proposta de Intervenção</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Competência 5: Proposta de Intervenção?",
+          "a": "5 elementos: Agente + Ação + Meio + Efeito + Detalhamento."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Completa (200 pts): todos os 5 elementos com detalhamento. Incompleta: falta 1 ou mais elementos."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Filosofia",
+            "Competência 5: Proposta de Intervenção",
+            "Sociologia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Filosofia",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Temas Recorrentes do ENEM",
+      "slug": "temas-recorrentes-do-enem",
+      "desc": "Saúde mental (depressão, suicídio juvenil). Tecnologia (fake news, privacidade, IA). Educação (evasã...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Saúde mental (depressão, suicídio juvenil). Tecnologia (fake news, privacidade, IA).",
+      "body": "<h2>O que você precisa saber</h2><p>Saúde mental (depressão, suicídio juvenil). Tecnologia (fake news, privacidade, IA).</p><h2>Contexto e Desenvolvimento</h2><p>Educação (evasão, desigualdade, inclusão). Meio ambiente (desmatamento, água). Violência (contra mulher, crianças, idosos, racismo).</p><p>Cultura (invisibilidade, patrimônio, acessibilidade).</p><h3>Destaques</h3><ul><li>depressão, suicídio juvenil</li><li>fake news, privacidade, IA</li><li>evasão, desigualdade, inclusão</li><li>desmatamento, água</li><li>contra mulher, crianças, idosos, racismo</li><li>invisibilidade, patrimônio, acessibilidade</li></ul><h2>Consequências e Legado</h2><p>Cidadania (participação, democracia). Temas de 2023: \"Desafios para o enfrentamento da invisibilidade do trabalho de cuidado realizado pela mulher no Brasil.\"</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Temas Recorrentes do ENEM</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Temas Recorrentes do ENEM?",
+          "a": "Saúde mental (depressão, suicídio juvenil)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Tecnologia (fake news, privacidade, IA). Educação (evasão, desigualdade, inclusão)."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Cidadania (participação, democracia). Temas de 2023: \"Desafios para o enfrentamento da invisibilidade do trabalho de cuidado realizado pela mulher no Brasil.\"."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Temas Recorrentes do ENEM",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Matemática",
+            "Biologia",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Erros que Zeram a Redação",
+      "slug": "erros-que-zeram-a-redacao",
+      "desc": "Fuga total ao tema. Não atender ao tipo textual (fazer narração em vez de dissertação). Copiar texto...",
+      "category": "Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "3º EM",
+      "reading_time": 3,
+      "xp": 200,
+      "essential": "Não atender ao tipo textual (fazer narração em vez de dissertação). Copiar textos motivadores.",
+      "body": "<h2>O que você precisa saber</h2><p>Fuga total ao tema. Não atender ao tipo textual (fazer narração em vez de dissertação).</p><h2>Contexto e Desenvolvimento</h2><p>Copiar textos motivadores. Texto com até 7 linhas. Trecho deliberadamente desconectado do tema.</p><p>Desrespeito aos Direitos Humanos. Parte do texto deliberadamente desconectada.</p><h2>Consequências e Legado</h2><p>Texto em branco. Identificação do candidato (nome, escola). Texto ilegível.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Erros que Zeram a Redação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Erros que Zeram a Redação?",
+          "a": "Não atender ao tipo textual (fazer narração em vez de dissertação)."
+        },
+        {
+          "q": "Quais são as principais características?",
+          "a": "Copiar textos motivadores. Texto com até 7 linhas."
+        },
+        {
+          "q": "Qual o legado ou consequência histórica?",
+          "a": "Parte do texto deliberadamente desconectada. Identificação do candidato (nome, escola)."
+        },
+        {
+          "q": "Em qual série este conteúdo é cobrado?",
+          "a": "Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Redação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Sociologia",
+            "Geografia",
+            "Erros que Zeram a Redação"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Redação",
+            "Geografia",
+            "Sociologia",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}
