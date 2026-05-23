@@ -2559,6 +2559,76 @@
           "answer": 0
         }
       ]
+    },
+    {
+      "slug": "acentuacao-grafica",
+      "title": "Acentuação Gráfica",
+      "desc": "A acentuação serve para indicar a sílaba tônica. Paroxítonas são a maioria na língua portuguesa. É fundamental entender a divisão silábica antes de aplicar...",
+      "grade": "6º ano",
+      "topic": "Ortografia",
+      "body": "",
+      "faq": [],
+      "quiz": []
+    },
+    {
+      "slug": "complemento-nominal",
+      "title": "Complemento Nominal",
+      "desc": "O complemento nominal é passivo na ação, enquanto o adjunto adnominal costuma ser o agente ou possuidor. É um dos tópicos mais cobrados em análise sintátic...",
+      "grade": "8º ano",
+      "topic": "Sintaxe",
+      "body": "",
+      "faq": [],
+      "quiz": []
+    },
+    {
+      "slug": "encontros-vocalicos",
+      "title": "Encontros Vocálicos",
+      "desc": "Ditongo (Pai), Tritongo (Paraguai), Hiato (Saúde). Hiatos sempre se separam....",
+      "grade": "6º ano",
+      "topic": "Fonologia",
+      "body": "",
+      "faq": [],
+      "quiz": []
+    },
+    {
+      "slug": "fonema-e-grafema",
+      "title": "Fonema e Grafema",
+      "desc": "Fonema é a menor unidade sonora da língua. Grafema é a representação escrita. Nem sempre há correspondência de 1 para 1....",
+      "grade": "6º ano",
+      "topic": "Fonologia",
+      "body": "",
+      "faq": [],
+      "quiz": []
+    },
+    {
+      "slug": "pontuacao-a-virgula",
+      "title": "Pontuação: A Vírgula",
+      "desc": "A vírgula não indica uma 'pausa para respirar', mas sim a separação de elementos sintáticos dentro da frase. Ela organiza o discurso, isolando termos que n...",
+      "grade": "7º ano",
+      "topic": "Pontuação",
+      "body": "",
+      "faq": [],
+      "quiz": []
+    },
+    {
+      "slug": "tipos-de-discurso",
+      "title": "Tipos de Discurso",
+      "desc": "O discurso é a forma como a fala dos personagens é introduzida na narrativa. O domínio desses tipos permite uma leitura mais rica de romances e contos, alé...",
+      "grade": "8º ano",
+      "topic": "Análise Textual",
+      "body": "",
+      "faq": [],
+      "quiz": []
+    },
+    {
+      "slug": "vicios-de-linguagem",
+      "title": "Vícios de Linguagem",
+      "desc": "Vícios de linguagem devem ser evitados na escrita formal pois prejudicam a clareza e transmitem falta de domínio da língua. Alguns vícios, como o estrangei...",
+      "grade": "9º ano",
+      "topic": "Estilística",
+      "body": "",
+      "faq": [],
+      "quiz": []
     }
   ]
 }
