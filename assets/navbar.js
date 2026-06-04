@@ -93,7 +93,7 @@
       '<div class="navbar__nav">' +
         '<a href="' + BASE + 'index.html" class="navbar__link">Home</a>' +
         '<div class="navbar__dropdown" id="nav-dropdown">' +
-          '<button class="navbar__dropdown-toggle" id="dropdown-toggle">Matérias ' + chevronRight + '</button>' +
+          '<button class="navbar__dropdown-toggle" id="dropdown-toggle">Matérias ' + chevronDown + '</button>' +
           '<div class="navbar__dropdown-menu">' + buildSubjectLinks() + '</div>' +
         '</div>' +
       '</div>' +
@@ -110,11 +110,6 @@
           '<span class="navbar-tier-badge" id="navbar-tier-badge">🌱 Aprendiz</span>' +
         '</div>' +
 
-        // Dark toggle
-        '<button class="dark-toggle" id="dark-toggle" aria-label="Alternar tema" title="Alternar tema">' +
-          sunSVG + moonSVG +
-        '</button>' +
-
         // Login button (shown when not logged in)
         '<a href="' + BASE + 'login.html" class="navbar-login-btn" id="navbar-login-btn">Entrar</a>' +
 
@@ -129,7 +124,13 @@
             // Populated dynamically based on user type
           '</div>' +
         '</div>' +
+
+        // Dark toggle (rightmost)
+        '<button class="dark-toggle" id="dark-toggle" aria-label="Alternar tema" title="Alternar tema">' +
+          sunSVG + moonSVG +
+        '</button>' +
       '</div>' +
+
 
       // Mobile hamburger
       '<button class="navbar__toggle" id="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>' +
@@ -309,18 +310,17 @@
       }
     }
 
-    // Bind logout
-    setTimeout(function() {
-      var logoutBtn = document.getElementById('navbar-logout');
-      if (logoutBtn) {
-        logoutBtn.addEventListener('click', function() {
-          if (confirm('Deseja sair? Seu progresso está salvo.')) {
-            localStorage.removeItem('beholder_user');
-            window.location.href = BASE + 'login.html';
-          }
-        });
+    // Bind logout via event delegation (works even after DOM rebuild)
+    document.addEventListener('click', function(e) {
+      if (e.target && (e.target.id === 'navbar-logout' || e.target.closest('#navbar-logout'))) {
+        e.preventDefault();
+        e.stopPropagation();
+        if (confirm('Deseja sair? Seu progresso está salvo.')) {
+          localStorage.removeItem('beholder_user');
+          window.location.href = BASE + 'login.html';
+        }
       }
-    }, 50);
+    });
   }
 
   // ═══════════════════════════════════════
