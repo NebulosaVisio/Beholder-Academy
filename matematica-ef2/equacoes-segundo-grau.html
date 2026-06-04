@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equações do 2º Grau — Matemática (Fund. 2) | 8º ano | Beholder Academy</title>
+  <meta name="description" content="Forma ax²+bx+c=0, discriminante, fórmula de Bhaskara e soma/produto.">
+  
+  <link rel="canonical" href="https://beholderacademy.com.br/matematica-ef2/equacoes-segundo-grau.html">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Equações do 2º Grau — Matemática (Fund. 2) | Beholder Academy">
+  <meta property="og:description" content="Forma ax²+bx+c=0, discriminante, fórmula de Bhaskara e soma/produto.">
+  <meta property="og:url" content="https://beholderacademy.com.br/matematica-ef2/equacoes-segundo-grau.html">
+  <meta property="og:site_name" content="Beholder Academy">
+  <meta property="og:locale" content="pt_BR">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Equações do 2º Grau — Matemática (Fund. 2) | Beholder Academy">
+  <meta name="twitter:description" content="Forma ax²+bx+c=0, discriminante, fórmula de Bhaskara e soma/produto.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
+  <link rel="stylesheet" href="../assets/styles.css">
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Equações do 2º Grau","description":"Forma ax²+bx+c=0, discriminante, fórmula de Bhaskara e soma/produto.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica-ef2/equacoes-segundo-grau.html","articleSection":"Matemática (Fund. 2)","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quem foi Bhaskara?","acceptedAnswer":{"@type":"Answer","text":"Bhaskara II foi um matemático indiano do século XII. A fórmula que leva seu nome no Brasil é chamada de 'fórmula quadrática' no resto do mundo."}},{"@type":"Question","name":"Quando Δ < 0, realmente não tem solução?","acceptedAnswer":{"@type":"Answer","text":"Nos números reais, não. Mas nos complexos (3º EM), existem soluções com o número imaginário i = √(-1)."}},{"@type":"Question","name":"Posso resolver sem Bhaskara?","acceptedAnswer":{"@type":"Answer","text":"Sim! Por fatoração (se as raízes forem inteiras) ou completando quadrados. Bhaskara é o método universal."}},{"@type":"Question","name":"Para que serve equação do 2º grau?","acceptedAnswer":{"@type":"Answer","text":"Trajetórias de projéteis, otimização de lucro, geometria (áreas), física (movimento), e milhares de aplicações."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática (Fund. 2)","item":"https://beholderacademy.com.br/matematica-ef2/"},{"@type":"ListItem","position":3,"name":"Equações do 2º Grau","item":"https://beholderacademy.com.br/matematica-ef2/equacoes-segundo-grau.html"}]}</script>
+</head>
+<body>
+  <div class="reading-progress" style="background:var(--matematica)"></div>
+  
+  <nav class="navbar"><div class="container navbar__inner">
+    <a href="../index.html" class="navbar__logo">Beholder <span class="logo-highlight">Academy</span></a>
+    
+    <div class="navbar__nav">
+      <a href="../index.html" class="navbar__link ">Home</a>
+      
+  <div class="navbar__dropdown" id="nav-dropdown">
+    <button class="navbar__dropdown-toggle" id="dropdown-toggle">Matérias <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg></button>
+    <div class="navbar__dropdown-menu">
+      <a href="../portugues/"><svg role="img" aria-label="Português" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg> Português</a><a href="../matematica/"><svg role="img" aria-label="Matemática" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg> Matemática</a><a href="../historia/"><svg role="img" aria-label="História" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m13 17 2-8 3 4 3-6"/></svg> História</a><a href="../geografia/"><svg role="img" aria-label="Geografia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg> Geografia</a><a href="../biologia/"><svg role="img" aria-label="Biologia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z"/><path d="M10 8a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z"/><path d="M14 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z"/><circle cx="12" cy="12" r="9"/></svg> Biologia</a><a href="../quimica/"><svg role="img" aria-label="Química" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v14.5a3.5 3.5 0 0 0 7 0V2"/><path d="M9 2h9"/><path d="M10 12h7"/></svg> Química</a><a href="../fisica/"><svg role="img" aria-label="Física" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L2 21h20L12 3z" fill="currentColor" fill-opacity="0.1"/><path d="M12 3v18"/><path d="M5 15h14"/></svg> Física</a><a href="../ingles/"><svg role="img" aria-label="Inglês" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m5 8 6 6"/><path d="m4 14 6-6 2-3"/><path d="M2 5h12"/><path d="m22 22-5-10-5 10"/><path d="M14 18h6"/></svg> Inglês</a><a href="../filosofia/"><svg role="img" aria-label="Filosofia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A4.5 4.5 0 0 0 13.5 3.5c-1.3 0-2.6.5-3.5 1.5"/><path d="M9 18h6"/><path d="M10 22h4"/></svg> Filosofia</a><a href="../sociologia/"><svg role="img" aria-label="Sociologia" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg> Sociologia</a><a href="../literatura/"><svg role="img" aria-label="Literatura" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> Literatura</a><a href="../redacao/"><svg role="img" aria-label="Redação" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg> Redação</a>
+    </div>
+  </div>
+
+
+      <div class="navbar__panel-links">
+        <a href="../painel.html" class="navbar__panel-link">🎮 Painel Aluno</a>
+        <a href="../responsavel.html" class="navbar__panel-link">👨‍👩‍👧 Painel Pais</a>
+      </div>
+    </div>
+
+    <div class="navbar__actions">
+      <button class="dark-toggle" id="dark-toggle" aria-label="Alternar tema" title="Alternar tema">
+        <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <div class="user-widget" id="user-widget">
+        <a href="../painel.html" class="user-avatar-circle" id="user-avatar" title="Meu Perfil">🧑‍🎓</a>
+        <span class="user-level-pill" id="user-level-pill">Nv 1</span>
+        <button class="btn-logout" id="btn-logout" title="Sair">Sair</button>
+      </div>
+    </div>
+
+    <button class="navbar__toggle" id="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div></nav>
+  
+  
+  <article class="container--narrow" style="padding: 4rem 0;">
+    <nav class="breadcrumb" aria-label="Navegação"><a href="../">Home</a> <span class="breadcrumb__sep">›</span> <a href="..//">Matemática (Fund. 2)</a> <span class="breadcrumb__sep">›</span> <span class="breadcrumb__current">Equações do 2º Grau</span></nav>
+    <header class="article-header reveal">
+      <div class="article-meta" style="justify-content: center; margin-bottom: 1rem;">
+        <span style="color: var(--matematica); font-weight: 700;">Matemática (Fund. 2)</span>
+        <span style="color: var(--text-muted)">•</span>
+        <span>Avançado</span>
+        <span style="color: var(--text-muted)">•</span><span class="grade-badge">8º ano</span>
+      </div>
+      <h1 class="article-title">Equações do 2º Grau</h1>
+      <div class="article-meta">
+        <span id="reading-time">⏱️ 10 min de leitura</span>
+        <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+120 XP</span>
+      </div>
+    </header>
+
+    <div class="article-body reveal">
+      <p>A <strong>equação do 2º grau</strong> tem a forma <strong>ax² + bx + c = 0</strong>, onde a ≠ 0. É o passo seguinte às equações do 1º grau.</p><h2>Coeficientes</h2><p>Em x² - 5x + 6 = 0: a=1, b=-5, c=6</p><h2>Discriminante (Δ)</h2><p><strong>Δ = b² - 4ac</strong></p><p>O discriminante determina quantas soluções a equação tem:</p><ul><li><strong>Δ > 0:</strong> duas raízes reais distintas</li><li><strong>Δ = 0:</strong> uma raiz real (dupla)</li><li><strong>Δ < 0:</strong> sem raízes reais</li></ul><h2>Fórmula de Bhaskara</h2><p><strong>x = (-b ± √Δ) / 2a</strong></p><h2>Exemplo Resolvido</h2><p>x² - 5x + 6 = 0</p><ol><li>a=1, b=-5, c=6</li><li>Δ = (-5)² - 4(1)(6) = 25 - 24 = <strong>1</strong></li><li>x = (5 ± √1) / 2 = (5 ± 1) / 2</li><li>x₁ = 6/2 = <strong>3</strong> e x₂ = 4/2 = <strong>2</strong></li></ol><p>Verificação: 3² - 5(3) + 6 = 9 - 15 + 6 = 0 ✓</p><h2>Relações de Girard (Soma e Produto)</h2><ul><li><strong>Soma das raízes:</strong> x₁ + x₂ = -b/a</li><li><strong>Produto das raízes:</strong> x₁ × x₂ = c/a</li></ul><p>No exemplo: soma = 3+2 = 5 = -(-5)/1 ✓ | produto = 3×2 = 6 = 6/1 ✓</p><h2>Equações Incompletas</h2><p><strong>Sem c:</strong> x² - 4x = 0 → x(x-4) = 0 → x=0 ou x=4</p><p><strong>Sem b:</strong> x² - 9 = 0 → x² = 9 → x = ±3</p>
+    </div>
+
+    <div class="essential-box reveal" style="border-left-color: var(--matematica)">
+      <h3 class="essential-box__title" style="color: var(--matematica)">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        Essencial para a Prova
+      </h3>
+      <p>Equação do 2º grau: ax²+bx+c=0. Discriminante: Δ=b²-4ac. Raízes: x=(-b±√Δ)/2a. Se Δ>0: 2 raízes. Δ=0: 1 raiz. Δ<0: sem raiz real.</p>
+    </div>
+
+    
+    <div class="faq-section reveal">
+      <h2 class="section-title" style="border-bottom-color: var(--matematica)">Dúvidas Frequentes</h2>
+      <div class="faq-list">
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Quem foi Bhaskara?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Bhaskara II foi um matemático indiano do século XII. A fórmula que leva seu nome no Brasil é chamada de 'fórmula quadrática' no resto do mundo.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Quando Δ < 0, realmente não tem solução?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Nos números reais, não. Mas nos complexos (3º EM), existem soluções com o número imaginário i = √(-1).</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Posso resolver sem Bhaskara?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Sim! Por fatoração (se as raízes forem inteiras) ou completando quadrados. Bhaskara é o método universal.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Para que serve equação do 2º grau?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Trajetórias de projéteis, otimização de lucro, geometria (áreas), física (movimento), e milhares de aplicações.</p></div>
+          </div>
+        
+      </div>
+    </div>
+    
+    <div class="quiz-section reveal">
+      <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJOYSBlcXVhw6fDo28gMnjCsiAtIDN4ICsgMSA9IDAsIG9zIGNvZWZpY2llbnRlcyBzw6NvOiIsIm9wdGlvbnMiOlsiYT0yLCBiPTMsIGM9MSIsImE9MiwgYj0tMywgYz0xIiwiYT0tMiwgYj0zLCBjPS0xIiwiYT0yLCBiPS0zLCBjPS0xIl0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6IlNlIM6UID0gMCwgYSBlcXVhw6fDo28gdGVtOiIsIm9wdGlvbnMiOlsiMiByYcOtemVzIiwiMSByYWl6IGR1cGxhIiwiTmVuaHVtYSByYWl6IiwiSW5maW5pdGFzIHJhw616ZXMiXSwiYW5zd2VyIjoxfSx7InF1ZXN0aW9uIjoiUmHDrXplcyBkZSB4wrIgLSA1eCArIDYgPSAwOiIsIm9wdGlvbnMiOlsiMiBlIDMiLCItMiBlIC0zIiwiMSBlIDYiLCItMSBlIC02Il0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IkVtIHjCsiAtIDkgPSAwLCBhcyByYcOtemVzIHPDo286Iiwib3B0aW9ucyI6WyIzIGUgLTMiLCI5IGUgLTkiLCIzIGUgMyIsIjgxIl0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6Ik8gZGlzY3JpbWluYW50ZSBkZSB4wrIgKyAyeCArIDUgPSAwIMOpOiIsIm9wdGlvbnMiOlsiMjQiLCItMTYiLCIxNiIsIjAiXSwiYW5zd2VyIjoxfV0=">
+        <div class="quiz-card" id="quiz-card">
+          <p class="quiz-question" id="quiz-question"></p>
+          <div class="quiz-options" id="quiz-options"></div>
+          <div class="quiz-feedback" id="quiz-feedback"></div>
+          <button class="quiz-next" id="quiz-next" style="display:none;">Próxima Pergunta →</button>
+        </div>
+        <div class="quiz-result" id="quiz-result" style="display:none;">
+          <h3>Resultado</h3>
+          <p class="quiz-score" id="quiz-score"></p>
+          <button class="quiz-restart" id="quiz-restart">Tentar Novamente</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="sources-link reveal">
+      <a href="../fontes.html" class="sources-link__btn">📖 Ver Fontes e Bibliografia Completa</a>
+    </div>
+
+    
+    <div class="article-nav">
+      <a href="fatoracao.html" class="article-nav__link article-nav__prev"><span class="article-nav__label">← Anterior</span><span class="article-nav__title">Fatoração</span></a>
+      <a href="sistemas-equacoes-primeiro-grau.html" class="article-nav__link article-nav__next"><span class="article-nav__label">Próximo →</span><span class="article-nav__title">Sistemas de Equações do 1º Grau</span></a>
+    </div>
+  </article>
+
+  
+  <footer class="footer"><div class="container footer__inner">
+    <div><div class="footer__brand">Beholder <span class="logo-highlight">Academy</span></div><p class="footer__desc">Portal educacional gamificado do Fundamental ao Ensino Médio. 12 matérias, conteúdo completo e gratuito.</p></div>
+    <div><h3 class="footer__col-title">Matérias</h3><a href="../portugues/" class="footer__link">Português</a><a href="../matematica/" class="footer__link">Matemática</a><a href="../historia/" class="footer__link">História</a><a href="../geografia/" class="footer__link">Geografia</a><a href="../biologia/" class="footer__link">Biologia</a><a href="../quimica/" class="footer__link">Química</a></div>
+    <div><h3 class="footer__col-title">Mais Matérias</h3><a href="../fisica/" class="footer__link">Física</a><a href="../ingles/" class="footer__link">Inglês</a><a href="../filosofia/" class="footer__link">Filosofia</a><a href="../sociologia/" class="footer__link">Sociologia</a><a href="../literatura/" class="footer__link">Literatura</a><a href="../redacao/" class="footer__link">Redação</a></div>
+    <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
+  </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
+  
+  <script src="../assets/theme.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script src="../assets/app.js"></script>
+</body></html>

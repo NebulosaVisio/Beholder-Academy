@@ -456,7 +456,74 @@ if (fs.existsSync(fund1Dir)) {
   }
 }
 
-// Phase 2: Generate pages
+// Phase 1c: Load Fund2 data (content/fund2/*.json) - generates full HTML pages
+const fund2Data = [];
+const fund2Dir = path.join(CONTENT_DIR, 'fund2');
+if (fs.existsSync(fund2Dir)) {
+  const fund2Files = fs.readdirSync(fund2Dir).filter(f => f.endsWith('.json'));
+  
+  // Group by subject for combined landing pages
+  const fund2BySubject = {};
+  fund2Files.forEach(file => {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(fund2Dir, file), 'utf8'));
+      if (!data.articles || !Array.isArray(data.articles)) return;
+      
+      const subjectKey = data.subject.toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/\s+/g, '-');
+      
+      if (!fund2BySubject[subjectKey]) {
+        fund2BySubject[subjectKey] = {
+          subject: data.subject,
+          slug: subjectKey,
+          articles: []
+        };
+      }
+      fund2BySubject[subjectKey].articles.push(...data.articles);
+      fund2Data.push(data);
+    } catch(e) {
+      console.warn(`  ⚠ Fund2 ${file}: ${e.message}`);
+    }
+  });
+  
+  // Assign colors to fund2 subjects (reuse existing or add new)
+  const fund2SubjectColors = {
+    'matematica': 'var(--matematica)',
+    'historia': 'var(--historia)',
+    'ciencias': 'var(--biologia)',
+    'geografia': 'var(--geografia)',
+    'ingles': 'var(--ingles)',
+    'artes': 'var(--literatura)',
+    'portugues': 'var(--portugues)'
+  };
+  
+  // Generate HTML for each fund2 subject
+  Object.values(fund2BySubject).forEach(subjectGroup => {
+    const outputSlug = subjectGroup.slug + '-ef2';
+    const color = fund2SubjectColors[subjectGroup.slug] || 'var(--portugues)';
+    const icon = subjectIcons[subjectGroup.slug] || subjectIcons['portugues'];
+    
+    const subjectData = {
+      subject: subjectGroup.subject + ' (Fund. 2)',
+      slug: outputSlug,
+      articles: subjectGroup.articles,
+      color: color
+    };
+    
+    // Generate landing page and article pages
+    generateLanding(subjectData, allSubjectsData);
+    subjectData.articles.forEach((art, i) => generateArticle(subjectData, art, i, subjectData.articles));
+    totalArticlesCount += subjectData.articles.length;
+  });
+  
+  if (fund2Data.length > 0) {
+    const totalF2 = fund2Data.reduce((s,d) => s+d.articles.length, 0);
+    console.log(`  ✓ Fund2: ${fund2Data.length} arquivos, ${totalF2} artigos (HTML generated)`);
+  }
+}
+
+// Phase 2: Generate pages for main (EM) subjects
 allSubjectsData.forEach(data => {
   generateLanding(data, allSubjectsData);
   data.articles.forEach((art, i) => generateArticle(data, art, i, data.articles));
@@ -485,6 +552,24 @@ fund1Data.forEach(data => {
       desc: (art.desc || '').substring(0, 80),
       subject: data.subject,
       slug: '', // No HTML pages yet for Fund1
+      difficulty: art.difficulty || 'Básico',
+      grade: art.grade || '',
+      xp: art.xp
+    });
+  });
+});
+// Include Fund2 articles in search index (with working links)
+fund2Data.forEach(data => {
+  const subjectKey = data.subject.toLowerCase()
+    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+    .replace(/\s+/g, '-');
+  const outputSlug = subjectKey + '-ef2';
+  data.articles.forEach(art => {
+    searchIndex.push({
+      title: art.title,
+      desc: (art.desc || '').substring(0, 80),
+      subject: data.subject + ' (EF2)',
+      slug: `${outputSlug}/${art.slug}.html`,
       difficulty: art.difficulty || 'Básico',
       grade: art.grade || '',
       xp: art.xp
