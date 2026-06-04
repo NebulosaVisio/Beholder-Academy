@@ -551,6 +551,81 @@
       }
     });
   }
+  // --- Onboarding System ---
+  function initOnboarding() {
+    if (localStorage.getItem('beholder_onboarded')) return;
+    // Only show on homepage or article pages
+    if (!document.querySelector('.hero') && !document.querySelector('.article-body')) return;
+
+    var overlay = document.createElement('div');
+    overlay.className = 'onboarding-overlay';
+    overlay.id = 'onboarding-overlay';
+
+    var slides = [
+      {
+        icon: '🎓',
+        title: 'Bem-vindo ao Beholder Academy!',
+        text: 'Uma plataforma educacional gamificada no estilo RPG. Cada artigo é uma quest, cada matéria é um reino!'
+      },
+      {
+        icon: '⚡',
+        title: 'Ganhe XP e Suba de Nível',
+        text: 'Leia artigos e complete quizzes para ganhar XP, Fichas e Cristais. Quanto mais você estuda, mais forte fica!'
+      },
+      {
+        icon: '🧠',
+        title: 'Quizzes Interativos',
+        text: 'Ao final de cada artigo, teste seu conhecimento com quizzes. Acerte tudo para ganho bônus de XP!'
+      },
+      {
+        icon: '🏆',
+        title: 'Conquistas e Recompensas',
+        text: 'Desbloqueie conquistas, mantenha seu streak diário e colecione itens raros na loja do painel!'
+      }
+    ];
+
+    var currentSlide = 0;
+
+    function renderSlide() {
+      var s = slides[currentSlide];
+      var isLast = currentSlide === slides.length - 1;
+      var dots = slides.map(function(_, i) {
+        return '<span class="onboarding-dot' + (i === currentSlide ? ' active' : '') + '"></span>';
+      }).join('');
+
+      overlay.innerHTML =
+        '<div class="onboarding-modal">' +
+          '<button class="onboarding-skip" id="onboarding-skip">Pular</button>' +
+          '<div class="onboarding-icon">' + s.icon + '</div>' +
+          '<h2 class="onboarding-title">' + s.title + '</h2>' +
+          '<p class="onboarding-text">' + s.text + '</p>' +
+          '<div class="onboarding-dots">' + dots + '</div>' +
+          '<button class="onboarding-btn" id="onboarding-next">' + (isLast ? 'Começar! 🚀' : 'Próximo →') + '</button>' +
+        '</div>';
+
+      overlay.querySelector('#onboarding-next').addEventListener('click', function() {
+        if (isLast) {
+          closeOnboarding();
+        } else {
+          currentSlide++;
+          renderSlide();
+        }
+      });
+
+      overlay.querySelector('#onboarding-skip').addEventListener('click', closeOnboarding);
+    }
+
+    function closeOnboarding() {
+      overlay.style.animation = 'onboardingFadeOut 0.3s ease-out forwards';
+      setTimeout(function() {
+        if (overlay.parentNode) overlay.parentNode.removeChild(overlay);
+      }, 300);
+      localStorage.setItem('beholder_onboarded', '1');
+    }
+
+    document.body.appendChild(overlay);
+    renderSlide();
+  }
 
   // --- Init All ---
   function init() {
@@ -568,6 +643,7 @@
     initQuiz();
     initUserWidget();
     initEvolutionSystem();
+    initOnboarding();
   }
 
   if (document.readyState === 'loading') {

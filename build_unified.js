@@ -68,7 +68,8 @@ function getHeadExtras() {
 
 function getNavDropdown(relativePath = '') {
   const links = subjectSlugs.map((slug, i) => {
-    return `<a href="${relativePath}${slug}/">${subjectIcons[slug]} ${subjectNames[i]}</a>`;
+    const iconWithAria = subjectIcons[slug].replace('<svg ', `<svg role="img" aria-label="${subjectNames[i]}" `);
+    return `<a href="${relativePath}${slug}/">${iconWithAria} ${subjectNames[i]}</a>`;
   }).join('');
 
   return `
@@ -430,6 +431,31 @@ files.forEach(file => {
   }
 });
 
+// Phase 1b: Load Fund1 data (content/fund1/*.json) - adds to search index only
+const fund1Data = [];
+const fund1Dir = path.join(CONTENT_DIR, 'fund1');
+if (fs.existsSync(fund1Dir)) {
+  const fund1Files = fs.readdirSync(fund1Dir).filter(f => f.endsWith('.json'));
+  fund1Files.forEach(file => {
+    try {
+      const data = JSON.parse(fs.readFileSync(path.join(fund1Dir, file), 'utf8'));
+      if (!data.articles || !Array.isArray(data.articles)) return;
+      // Normalize Fund1 articles to match main schema
+      data.articles.forEach(art => {
+        if (!art.grade) art.grade = data.slug.startsWith('1ano') ? '1º ano EF1' : '2º ano EF1';
+        if (!art.topic) art.topic = art.category || 'Geral';
+        if (!art.quiz) art.quiz = [];
+      });
+      fund1Data.push(data);
+    } catch(e) {
+      console.warn(`  ⚠ Fund1 ${file}: ${e.message}`);
+    }
+  });
+  if (fund1Data.length > 0) {
+    console.log(`  ✓ Fund1: ${fund1Data.length} arquivos, ${fund1Data.reduce((s,d) => s+d.articles.length, 0)} artigos (search-index only)`);
+  }
+}
+
 // Phase 2: Generate pages
 allSubjectsData.forEach(data => {
   generateLanding(data, allSubjectsData);
@@ -442,7 +468,7 @@ allSubjectsData.forEach(data => {
   data.articles.forEach(art => {
     searchIndex.push({
       title: art.title,
-      desc: art.desc,
+      desc: (art.desc || '').substring(0, 80),
       subject: data.subject,
       slug: `${data.slug}/${art.slug}.html`,
       difficulty: art.difficulty || 'Básico',
@@ -451,8 +477,22 @@ allSubjectsData.forEach(data => {
     });
   });
 });
+// Include Fund1 articles in search index
+fund1Data.forEach(data => {
+  data.articles.forEach(art => {
+    searchIndex.push({
+      title: art.title,
+      desc: (art.desc || '').substring(0, 80),
+      subject: data.subject,
+      slug: '', // No HTML pages yet for Fund1
+      difficulty: art.difficulty || 'Básico',
+      grade: art.grade || '',
+      xp: art.xp
+    });
+  });
+});
 fs.writeFileSync(path.join(ASSETS_DIR, 'search-index.json'), JSON.stringify(searchIndex));
-console.log(`  ✓ Search index: ${searchIndex.length} articles indexed`);
+console.log(`  ✓ Search index: ${searchIndex.length} articles indexed (${Math.round(Buffer.byteLength(JSON.stringify(searchIndex))/1024)}KB)`);
 
 // Phase 4: Generate favicon SVG
 const faviconSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><rect width="100" height="100" rx="20" fill="#7B2FF7"/><text x="50" y="68" font-size="52" font-family="Arial" font-weight="bold" fill="white" text-anchor="middle">BA</text></svg>`;
