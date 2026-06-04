@@ -124,7 +124,7 @@ function getFooter(relativePath = '') {
     <div><div class="footer__brand">Beholder <span class="logo-highlight">Academy</span></div><p class="footer__desc">Portal educacional gamificado do Fundamental ao Ensino Médio. 12 matérias, conteúdo completo e gratuito.</p></div>
     <div><h3 class="footer__col-title">Matérias</h3>${col1}</div>
     <div><h3 class="footer__col-title">Mais Matérias</h3>${col2}</div>
-    <div><h3 class="footer__col-title">Projeto</h3><a href="${relativePath}roadmap.html" class="footer__link">Roadmap</a><a href="${relativePath}sobre.html" class="footer__link">Sobre</a><a href="${relativePath}fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="${relativePath}privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
+    <div><h3 class="footer__col-title">Projeto</h3><a href="${relativePath}roadmap.html" class="footer__link">Roadmap</a><a href="${relativePath}sobre.html" class="footer__link">Sobre</a><a href="${relativePath}fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="${relativePath}privacidade.html" class="footer__link">Privacidade</a><a href="${relativePath}termos.html" class="footer__link">Termos de Uso</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   `;
 }
@@ -300,6 +300,7 @@ function generateLanding(subjectData, allSubjectsData) {
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
   <script src="../assets/rpg-engine.js"></script>
+  <script src="../assets/navbar.js"></script>
   <script>
   (function() {
     var SUBJECT = '${slug}';
@@ -473,6 +474,7 @@ function generateArticle(subjectData, art, index, allArticles) {
   <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/navbar.js"></script>
 </body></html>`;
 
   fs.writeFileSync(path.join(slug, `${art.slug}.html`), html);
