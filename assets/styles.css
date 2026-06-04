@@ -4,7 +4,7 @@
    ============================================ */
 
 /* --- Google Fonts --- */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap');
+/* --- Google Fonts: loaded via <link> in HTML for better performance --- */
 
 /* --- CSS Custom Properties --- */
 :root {
@@ -491,4 +491,51 @@ body {
   .subjects-grid { grid-template-columns: 1fr; }
   .hero__title { font-size: 1.5rem; }
   .hero__desc { font-size: 1rem; }
+}
+
+/* --- XP Toast Notification --- */
+.xp-toast-container {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  pointer-events: none;
+}
+
+.xp-toast {
+  background: linear-gradient(135deg, #7B2FF7 0%, #9B4DFF 100%);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-md);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 0.95rem;
+  box-shadow: 0 8px 24px rgba(123, 47, 247, 0.35);
+  animation: toastSlideIn 0.4s ease-out, toastFadeOut 0.4s ease-in 2.6s forwards;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.xp-toast--gold {
+  background: linear-gradient(135deg, #F59E0B, #D97706);
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.35);
+}
+
+.xp-toast--achievement {
+  background: linear-gradient(135deg, #10B981, #059669);
+  box-shadow: 0 8px 24px rgba(16, 185, 129, 0.35);
+}
+
+@keyframes toastSlideIn {
+  from { opacity: 0; transform: translateX(80px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes toastFadeOut {
+  from { opacity: 1; transform: translateY(0); }
+  to { opacity: 0; transform: translateY(-20px); }
 }

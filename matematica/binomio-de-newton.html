@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Binômio de Newton — Matemática | 3º EM | Beholder Academy</title>
-  <meta name="description" content="(a+b)ⁿ. Coeficientes binomiais. Triângulo de Pascal. Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ....">
+  <meta name="description" content="Binômio de Newton: (a+b)ⁿ expandido. Termo geral Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Triângulo de Pascal gera os coeficientes. Propriedades dos coeficientes binomiais.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/binomio-de-newton.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Binômio de Newton — Matemática | Beholder Academy">
-  <meta property="og:description" content="(a+b)ⁿ. Coeficientes binomiais. Triângulo de Pascal. Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ....">
+  <meta property="og:description" content="Binômio de Newton: (a+b)ⁿ expandido. Termo geral Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Triângulo de Pascal gera os coeficientes. Propriedades dos coeficientes binomiais.">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/binomio-de-newton.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Binômio de Newton — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="(a+b)ⁿ. Coeficientes binomiais. Triângulo de Pascal. Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ....">
+  <meta name="twitter:description" content="Binômio de Newton: (a+b)ⁿ expandido. Termo geral Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Triângulo de Pascal gera os coeficientes. Propriedades dos coeficientes binomiais.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Binômio de Newton","description":"(a+b)ⁿ. Coeficientes binomiais. Triângulo de Pascal. Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ....","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/binomio-de-newton.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é mais importante sobre Binômio de Newton?","acceptedAnswer":{"@type":"Answer","text":"Coeficientes binomiais."}},{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Binômio de Newton","description":"Binômio de Newton: (a+b)ⁿ expandido. Termo geral Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Triângulo de Pascal gera os coeficientes. Propriedades dos coeficientes binomiais.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/binomio-de-newton.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Como achar um termo específico?","acceptedAnswer":{"@type":"Answer","text":"Use Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Para o 3º termo de (x+1)⁵: k=2, T₃=C(5,2)·x³·1²=10x³."}},{"@type":"Question","name":"Soma dos coeficientes?","acceptedAnswer":{"@type":"Answer","text":"Substitua a=b=1: (1+1)ⁿ=2ⁿ. Então a soma dos coeficientes de (a+b)ⁿ é sempre 2ⁿ."}},{"@type":"Question","name":"Triângulo de Pascal serve para quê?","acceptedAnswer":{"@type":"Answer","text":"Gera os coeficientes binomiais. Linha n tem n+1 números: C(n,0), C(n,1), ..., C(n,n). Cada = soma dos dois acima."}},{"@type":"Question","name":"Funciona para (a−b)ⁿ?","acceptedAnswer":{"@type":"Answer","text":"Sim! Trate como (a+(−b))ⁿ. Os termos com k ímpar terão sinal negativo."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Binômio de Newton","item":"https://beholderacademy.com.br/matematica/binomio-de-newton.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Binômio de Newton</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>(a+b)ⁿ.</p><h2>Contexto e Desenvolvimento</h2><p>Coeficientes binomiais. Triângulo de Pascal.</p><h2>Consequências e Legado</h2><p>Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Binômio de Newton</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p>O <strong>Binômio de Newton</strong> permite expandir (a+b)ⁿ sem multiplicar n vezes.</p><h2>Fórmula</h2><p><strong>(a+b)ⁿ = Σ C(n,k)·aⁿ⁻ᵏ·bᵏ</strong> (k de 0 a n)</p><h2>Termo Geral</h2><p><strong>Tₖ₊₁ = C(n,k) · aⁿ⁻ᵏ · bᵏ</strong></p><p>Ex: 4º termo de (x+2)⁵: T₄ = C(5,3)·x²·2³ = 10·x²·8 = 80x²</p><h2>Triângulo de Pascal</h2><p>Linha n: C(n,0), C(n,1), ..., C(n,n)</p><p>Linha 4: 1, 4, 6, 4, 1 → (a+b)⁴ = a⁴+4a³b+6a²b²+4ab³+b⁴</p><h2>Propriedades</h2><ul><li>Soma dos coeficientes: <strong>2ⁿ</strong> (faça a=b=1)</li><li>C(n,k) = C(n,n−k) → simetria</li></ul><h2>Resumo</h2><ul><li>✅ Tₖ₊₁ = C(n,k)·aⁿ⁻ᵏ·bᵏ</li><li>✅ Soma dos coeficientes = 2ⁿ</li></ul><h2>Curiosidade</h2><p>O Triângulo de Pascal já era conhecido pelos chineses 300 anos antes de Pascal! Yang Hui o publicou em 1261. Na China, é chamado "Triângulo de Yang Hui".</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Coeficientes binomiais. Termo geral: T(k+1)=C(n,k).aⁿ⁻ᵏ.bᵏ..</p>
+      <p>(a+b)ⁿ = Σ C(n,k)·aⁿ⁻ᵏ·bᵏ (k=0 a n). Termo geral: Tₖ₊₁ = C(n,k)·aⁿ⁻ᵏ·bᵏ. Triângulo de Pascal: coeficientes de cada linha. Soma dos coeficientes: substitua a=b=1 → 2ⁿ. Termo central: C(n,n/2) para n par.</p>
     </div>
 
     
@@ -95,18 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>O que é mais importante sobre Binômio de Newton?</span>
+              <span>Como achar um termo específico?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Coeficientes binomiais.</p></div>
+            <div class="faq-item__answer"><p>Use Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Para o 3º termo de (x+1)⁵: k=2, T₃=C(5,2)·x³·1²=10x³.</p></div>
           </div>
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>Soma dos coeficientes?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>Substitua a=b=1: (1+1)ⁿ=2ⁿ. Então a soma dos coeficientes de (a+b)ⁿ é sempre 2ⁿ.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Triângulo de Pascal serve para quê?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Gera os coeficientes binomiais. Linha n tem n+1 números: C(n,0), C(n,1), ..., C(n,n). Cada = soma dos dois acima.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Funciona para (a−b)ⁿ?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Sim! Trate como (a+(−b))ⁿ. Os termos com k ímpar terão sinal negativo.</p></div>
           </div>
         
       </div>
@@ -114,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiR2VvZ3JhZmlhIiwiUXXDrW1pY2EiLCJCaW7DtG1pbyBkZSBOZXd0b24iLCJMaXRlcmF0dXJhIl0sImFuc3dlciI6Mn0seyJxdWVzdGlvbiI6IkVzdGUgY29udGXDumRvIMOpIGVzdHVkYWRvIGVtIHF1YWwgZGlzY2lwbGluYT8iLCJvcHRpb25zIjpbIk1hdGVtw6F0aWNhIiwiR2VvZ3JhZmlhIiwiTGl0ZXJhdHVyYSIsIlF1w61taWNhIl0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IlZvY8OqIGNvbmNsdWl1IGEgbGVpdHVyYSBjb21wbGV0YSBkZXN0ZSBhcnRpZ28/Iiwib3B0aW9ucyI6WyJTaW0sIGxpIHRvZG8gbyBjb250ZcO6ZG8iLCJMaSBhcGVuYXMgbyByZXN1bW8iLCJBaW5kYSBuw6NvIGxpIiwiUHVsZWkgcGFyYSBvIHF1aXoiXSwiYW5zd2VyIjowfV0=">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJTb21hIGRvcyBjb2VmaWNpZW50ZXMgZGUgKGErYinigbU6Iiwib3B0aW9ucyI6WyI1IiwiMTYiLCIzMiIsIjY0Il0sImFuc3dlciI6Mn0seyJxdWVzdGlvbiI6IlTigoMgZGUgKHgrMSnigbQ6IGs9PyIsIm9wdGlvbnMiOlsiMSIsIjIiLCIzIiwiNCJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiIoYStiKcKyID0gYcKyKz8rYsKyOiIsIm9wdGlvbnMiOlsiYWIiLCIyYWIiLCJhwrJiwrIiLCJhK2IiXSwiYW5zd2VyIjoxfSx7InF1ZXN0aW9uIjoiVHJpw6JuZ3VsbyBkZSBQYXNjYWwsIGxpbmhhIDM6Iiwib3B0aW9ucyI6WyIxLDIsMSIsIjEsMywzLDEiLCIxLDQsNiw0LDEiLCIxLDEiXSwiYW5zd2VyIjoxfV0=">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -148,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

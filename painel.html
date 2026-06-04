@@ -8,6 +8,11 @@
   <link rel="stylesheet" href="assets/styles.css">
   <link rel="stylesheet" href="assets/painel.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
   <nav class="navbar"><div class="container navbar__inner">
@@ -64,7 +69,7 @@
 
       <!-- Cards Grid -->
       <div class="dash-grid">
-        <div class="dash-card card-desafios" onclick="PainelUI.switchTab('desafios')">
+        <div class="dash-card card-desafios" data-action="tab" data-tab-target="desafios">
           <div class="card-icon">⚔️</div>
           <div class="card-title">Desafios Diários</div>
           <div class="card-value" id="dash-daily-progress">0/3</div>
@@ -76,13 +81,13 @@
           <div class="card-value" id="dash-weekly-articles">0/10</div>
           <div class="card-sub">artigos esta semana</div>
         </div>
-        <div class="dash-card card-materias" onclick="PainelUI.switchTab('perfil')">
+        <div class="dash-card card-materias" data-action="tab" data-tab-target="perfil">
           <div class="card-icon">📚</div>
           <div class="card-title">Matérias Ativas</div>
           <div class="card-value" id="dash-active-subjects">0</div>
           <div class="card-sub">matérias com progresso</div>
         </div>
-        <div class="dash-card card-baus" onclick="PainelUI.switchTab('loja')">
+        <div class="dash-card card-baus" data-action="tab" data-tab-target="loja">
           <div class="card-icon">🎁</div>
           <div class="card-title">Baús</div>
           <div class="card-value" id="dash-chest-count">3 tipos</div>
@@ -187,11 +192,12 @@
         <div class="drop-rarity" id="drop-rarity">RARO</div>
         <div class="drop-name" id="drop-name">Item Nome</div>
         <div class="drop-essence" id="drop-essence"></div>
-        <button class="btn-primary" onclick="PainelUI.closeChest()">Fechar</button>
+        <button class="btn-primary" data-action="close-chest">Fechar</button>
       </div>
     </div>
   </div>
 
+  <script src="assets/theme.js"></script>
   <script src="assets/rpg-engine.js"></script>
   <script src="assets/painel.js"></script>
   <script>
@@ -218,17 +224,7 @@
         }
       } catch(e) {}
 
-      // Dark mode
-      const toggle = document.getElementById('dark-toggle');
-      if (toggle) {
-        const stored = localStorage.getItem('beholder_theme');
-        if (stored) document.documentElement.setAttribute('data-theme', stored);
-        toggle.addEventListener('click', function() {
-          const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-          document.documentElement.setAttribute('data-theme', next);
-          localStorage.setItem('beholder_theme', next);
-        });
-      }
+      // Dark mode handled by theme.js
       PainelUI.init();
     });
   </script>

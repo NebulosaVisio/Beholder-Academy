@@ -25,24 +25,7 @@
   }
 
   // --- Dark Mode ---
-  function initDarkMode() {
-    const toggle = document.getElementById('dark-toggle');
-    if (!toggle) return;
-
-    const stored = localStorage.getItem('beholder_theme');
-    if (stored) {
-      document.documentElement.setAttribute('data-theme', stored);
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-      document.documentElement.setAttribute('data-theme', 'dark');
-    }
-
-    toggle.addEventListener('click', function() {
-      const current = document.documentElement.getAttribute('data-theme');
-      const next = current === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      localStorage.setItem('beholder_theme', next);
-    });
-  }
+  // Centralizado em theme.js (carregado antes deste script)
 
   // --- Reading Progress Bar ---
   function initReadingProgress() {
@@ -116,9 +99,12 @@
     reveals.forEach(function(el) { observer.observe(el); });
   }
 
-  // --- FAQ Toggle (Collapsible) ---
+  // --- FAQ Toggle (Collapsible + aria-expanded) ---
   function initFAQ() {
     document.querySelectorAll('.faq-item__question').forEach(function(btn) {
+      // Set initial aria state
+      btn.setAttribute('aria-expanded', 'false');
+
       btn.addEventListener('click', function() {
         var item = btn.closest('.faq-item');
         var isActive = item.classList.contains('active');
@@ -126,10 +112,13 @@
         // Close siblings
         item.parentElement.querySelectorAll('.faq-item.active').forEach(function(openItem) {
           openItem.classList.remove('active');
+          var openBtn = openItem.querySelector('.faq-item__question');
+          if (openBtn) openBtn.setAttribute('aria-expanded', 'false');
         });
 
         if (!isActive) {
           item.classList.add('active');
+          btn.setAttribute('aria-expanded', 'true');
         }
       });
     });
@@ -237,6 +226,16 @@
     });
   }
 
+  // --- Utility: Shuffle Array (Fisher-Yates) ---
+  function shuffleArray(arr) {
+    var a = arr.slice();
+    for (var i = a.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var temp = a[i]; a[i] = a[j]; a[j] = temp;
+    }
+    return a;
+  }
+
   // --- Quiz Engine ---
   function initQuiz() {
     var container = document.getElementById('quiz-container');
@@ -275,11 +274,16 @@
       feedbackEl.style.display = 'none';
       nextBtn.style.display = 'none';
 
-      q.options.forEach(function(opt, i) {
+      // Shuffle options while tracking correct answer
+      var correctText = q.options[q.answer];
+      var shuffled = shuffleArray(q.options);
+      var newCorrectIdx = shuffled.indexOf(correctText);
+
+      shuffled.forEach(function(opt, i) {
         var btn = document.createElement('button');
         btn.className = 'quiz-option';
         btn.textContent = opt;
-        btn.addEventListener('click', function() { checkAnswer(i, q.answer, btn); });
+        btn.addEventListener('click', function() { checkAnswer(i, newCorrectIdx, btn); });
         optionsEl.appendChild(btn);
       });
     }
@@ -326,10 +330,14 @@
             rpgData = RPGEngine.registerQuiz(rpgData, subject, score, quizData.length);
             var perfeito = score === quizData.length;
             scoreEl.textContent += perfeito ? ' — +100 XP + 10 🟡!' : ' — +50 XP + 5 🟡!';
+            showToast(perfeito ? '🏆 Quiz Perfeito! +100 XP' : '⚡ +50 XP — Quiz completo!');
+            showToast(perfeito ? '+10 🟡 Fichas' : '+5 🟡 Fichas', 'gold');
+            if (perfeito) showToast('🎯 Quiz sem erros!', 'achievement');
           } else {
             // Fallback: old XP system
             setXP(getXP() + score * 25);
             scoreEl.textContent += ' — +' + (score * 25) + ' XP!';
+            showToast('⚡ +' + (score * 25) + ' XP!');
           }
           claimed[pageId] = true;
           localStorage.setItem('claimed_quiz', JSON.stringify(claimed));
@@ -407,6 +415,23 @@
   // --- XP Gamification System ---
   const XP_PER_LEVEL = 1000;
 
+  // --- Toast Notification System ---
+  function showToast(message, type) {
+    var container = document.querySelector('.xp-toast-container');
+    if (!container) {
+      container = document.createElement('div');
+      container.className = 'xp-toast-container';
+      document.body.appendChild(container);
+    }
+    var toast = document.createElement('div');
+    toast.className = 'xp-toast' + (type ? ' xp-toast--' + type : '');
+    toast.textContent = message;
+    container.appendChild(toast);
+    setTimeout(function() {
+      if (toast.parentNode) toast.parentNode.removeChild(toast);
+    }, 3200);
+  }
+
   function getXP() {
     return parseInt(localStorage.getItem('beholder_xp') || '0', 10);
   }
@@ -451,7 +476,7 @@
     return null;
   }
 
-  // Track article reading (register when user scrolls >80%)
+   // Track article reading (register when user scrolls >80%)
   function trackArticleReading() {
     var body = document.querySelector('.article-body');
     if (!body) return;
@@ -472,6 +497,8 @@
         localStorage.setItem(readKey, JSON.stringify(readList));
         var rpgData = RPGEngine.load();
         RPGEngine.registerLeitura(rpgData, subject, slug);
+        showToast('🎉 +50 XP — Leitura completa!');
+        showToast('+5 🟡 Fichas', 'gold');
       }
     }, { passive: true });
   }
@@ -527,7 +554,7 @@
 
   // --- Init All ---
   function init() {
-    initDarkMode();
+    // Dark mode is now handled by theme.js (loaded before this script)
     initReadingProgress();
     initMobileMenu();
     initDropdown();

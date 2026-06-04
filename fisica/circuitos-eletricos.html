@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Circuitos Elétricos — Física | 3º EM | Beholder Academy</title>
-  <meta name="description" content="Geradores: ε=V+r.i. Receptores. Leis de Kirchhoff (nós e malhas). Ponte de Wheatstone. Medidores: am...">
+  <meta name="description" content="Circuitos: série e paralelo. Leis de Kirchhoff. Resistores em série (R_eq=R₁+R₂) e paralelo (1/R_eq=1/R₁+1/R₂). Amperímetro e voltímetro.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/fisica/circuitos-eletricos.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Circuitos Elétricos — Física | Beholder Academy">
-  <meta property="og:description" content="Geradores: ε=V+r.i. Receptores. Leis de Kirchhoff (nós e malhas). Ponte de Wheatstone. Medidores: am...">
+  <meta property="og:description" content="Circuitos: série e paralelo. Leis de Kirchhoff. Resistores em série (R_eq=R₁+R₂) e paralelo (1/R_eq=1/R₁+1/R₂). Amperímetro e voltímetro.">
   <meta property="og:url" content="https://beholderacademy.com.br/fisica/circuitos-eletricos.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Circuitos Elétricos — Física | Beholder Academy">
-  <meta name="twitter:description" content="Geradores: ε=V+r.i. Receptores. Leis de Kirchhoff (nós e malhas). Ponte de Wheatstone. Medidores: am...">
+  <meta name="twitter:description" content="Circuitos: série e paralelo. Leis de Kirchhoff. Resistores em série (R_eq=R₁+R₂) e paralelo (1/R_eq=1/R₁+1/R₂). Amperímetro e voltímetro.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Circuitos Elétricos","description":"Geradores: ε=V+r.i. Receptores. Leis de Kirchhoff (nós e malhas). Ponte de Wheatstone. Medidores: am...","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/fisica/circuitos-eletricos.html","articleSection":"Física","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é mais importante sobre Circuitos Elétricos?","acceptedAnswer":{"@type":"Answer","text":"Leis de Kirchhoff (nós e malhas)."}},{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Circuitos Elétricos","description":"Circuitos: série e paralelo. Leis de Kirchhoff. Resistores em série (R_eq=R₁+R₂) e paralelo (1/R_eq=1/R₁+1/R₂). Amperímetro e voltímetro.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/fisica/circuitos-eletricos.html","articleSection":"Física","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Série ou paralelo em casa?","acceptedAnswer":{"@type":"Answer","text":"Paralelo! Cada tomada recebe a mesma tensão (127V ou 220V). Se fosse série, a tensão se dividiria e cada aparelho receberia menos."}},{"@type":"Question","name":"O que é curto-circuito?","acceptedAnswer":{"@type":"Answer","text":"Quando corrente encontra caminho de R≈0 (fios se tocam). i=U/R → R≈0 → i→∞ → superaquecimento → incêndio. Disjuntor/fusível protege."}},{"@type":"Question","name":"Amperímetro em paralelo queima?","acceptedAnswer":{"@type":"Answer","text":"Sim! Amperímetro tem R≈0. Em paralelo, toda corrente passaria por ele (curto). Sempre em SÉRIE. Voltímetro em série bloquearia a corrente (R≈∞)."}},{"@type":"Question","name":"2 resistores de 10Ω em paralelo dão:","acceptedAnswer":{"@type":"Answer","text":"1/R_eq=1/10+1/10=2/10 → R_eq=5Ω. Paralelo SEMPRE diminui R_eq. Em geral: R_eq=R₁·R₂/(R₁+R₂) para 2 resistores."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Física","item":"https://beholderacademy.com.br/fisica/"},{"@type":"ListItem","position":3,"name":"Circuitos Elétricos","item":"https://beholderacademy.com.br/fisica/circuitos-eletricos.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Circuitos Elétricos</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(0, 188, 212, 0.10); color: var(--fisica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>Geradores: ε=V+r.i.</p><h2>Contexto e Desenvolvimento</h2><p>Receptores. Leis de Kirchhoff (nós e malhas). Ponte de Wheatstone.</p><h2>Consequências e Legado</h2><p>Medidores: amperímetro, voltímetro.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Circuitos Elétricos</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p><strong>Circuitos</strong> são caminhos fechados por onde a corrente elétrica circula.</p><h2>Série vs Paralelo</h2><table><thead><tr><th>Característica</th><th>Série</th><th>Paralelo</th></tr></thead><tbody><tr><td>Corrente</td><td>Mesma em todos</td><td>Se divide</td></tr><tr><td>Tensão</td><td>Se divide</td><td>Mesma em todos</td></tr><tr><td>R_eq</td><td>R₁+R₂+...</td><td>1/R₁+1/R₂+...</td></tr><tr><td>Se 1 queima</td><td>Todos param</td><td>Outros funcionam</td></tr></tbody></table><h2>Leis de Kirchhoff</h2><ul><li><strong>1ª (Nós):</strong> corrente que entra = corrente que sai</li><li><strong>2ª (Malhas):</strong> soma das tensões em malha fechada = 0</li></ul><h2>Instrumentos</h2><ul><li>Amperímetro: em SÉRIE (R interna≈0)</li><li>Voltímetro: em PARALELO (R interna≈∞)</li></ul><h2>Resumo</h2><ul><li>✅ Série: i igual, U divide. Paralelo: U igual, i divide.</li><li>⚠️ ENEM: calcular R_eq, corrente e tensão em circuitos mistos</li></ul><h2>Curiosidade</h2><p>Luzes de Natal antigas eram em <strong>série</strong>: se uma queimava, todas apagavam! Modernas são em <strong>paralelo</strong>: uma queima e as outras continuam.</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--fisica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Leis de Kirchhoff (nós e malhas). Medidores: amperímetro, voltímetro..</p>
+      <p>Série: mesma corrente, tensão se divide. R_eq=R₁+R₂+... Paralelo: mesma tensão, corrente se divide. 1/R_eq=1/R₁+1/R₂+... Kirchhoff: 1ª Lei (nó): Σi_entra=Σi_sai. 2ª Lei (malha): ΣU=0. Amperímetro: em série (R≈0). Voltímetro: em paralelo (R≈∞). Curto-circuito: R≈0 → i altíssima → superaquecimento.</p>
     </div>
 
     
@@ -95,18 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>O que é mais importante sobre Circuitos Elétricos?</span>
+              <span>Série ou paralelo em casa?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Leis de Kirchhoff (nós e malhas).</p></div>
+            <div class="faq-item__answer"><p>Paralelo! Cada tomada recebe a mesma tensão (127V ou 220V). Se fosse série, a tensão se dividiria e cada aparelho receberia menos.</p></div>
           </div>
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>O que é curto-circuito?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física.</p></div>
+            <div class="faq-item__answer"><p>Quando corrente encontra caminho de R≈0 (fios se tocam). i=U/R → R≈0 → i→∞ → superaquecimento → incêndio. Disjuntor/fusível protege.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Amperímetro em paralelo queima?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Sim! Amperímetro tem R≈0. Em paralelo, toda corrente passaria por ele (curto). Sempre em SÉRIE. Voltímetro em série bloquearia a corrente (R≈∞).</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>2 resistores de 10Ω em paralelo dão:</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>1/R_eq=1/10+1/10=2/10 → R_eq=5Ω. Paralelo SEMPRE diminui R_eq. Em geral: R_eq=R₁·R₂/(R₁+R₂) para 2 resistores.</p></div>
           </div>
         
       </div>
@@ -114,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--fisica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiTWF0ZW3DoXRpY2EiLCJGaWxvc29maWEiLCJTb2Npb2xvZ2lhIiwiQ2lyY3VpdG9zIEVsw6l0cmljb3MiXSwiYW5zd2VyIjozfSx7InF1ZXN0aW9uIjoiRXN0ZSBjb250ZcO6ZG8gw6kgZXN0dWRhZG8gZW0gcXVhbCBkaXNjaXBsaW5hPyIsIm9wdGlvbnMiOlsiRsOtc2ljYSIsIk1hdGVtw6F0aWNhIiwiRmlsb3NvZmlhIiwiU29jaW9sb2dpYSJdLCJhbnN3ZXIiOjB9LHsicXVlc3Rpb24iOiJWb2PDqiBjb25jbHVpdSBhIGxlaXR1cmEgY29tcGxldGEgZGVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiU2ltLCBsaSB0b2RvIG8gY29udGXDumRvIiwiTGkgYXBlbmFzIG8gcmVzdW1vIiwiQWluZGEgbsOjbyBsaSIsIlB1bGVpIHBhcmEgbyBxdWl6Il0sImFuc3dlciI6MH1d">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJFbSBzw6lyaWUsIGNvcnJlbnRlIMOpOiIsIm9wdGlvbnMiOlsiRGl2aWRpZGEiLCJBIG1lc21hIiwiWmVybyIsIkRvYnJvIl0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6IlJfZXEgZW0gcGFyYWxlbG86IDEvUl9lcSA9ID86Iiwib3B0aW9ucyI6WyJS4oKBK1LigoIiLCJS4oKBwrdS4oKCIiwiMS9S4oKBKzEvUuKCgiIsIlLigoEtUuKCgiJdLCJhbnN3ZXIiOjJ9LHsicXVlc3Rpb24iOiJBbXBlcsOtbWV0cm8gdmFpIGVtOiIsIm9wdGlvbnMiOlsiUGFyYWxlbG8iLCJTw6lyaWUiLCJRdWFscXVlciIsIk5lbmh1bSJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiJDdXJ0by1jaXJjdWl0bzogUuKJiD8g4oaSIGniiYg/OiIsIm9wdGlvbnMiOlsi4oieLCAwIiwiMCwg4oieIiwiMSwgMSIsIjEwLCAxMCJdLCJhbnN3ZXIiOjF9XQ==">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -148,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

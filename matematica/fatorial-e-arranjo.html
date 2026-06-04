@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fatorial e Arranjo — Matemática | 3º EM | Beholder Academy</title>
-  <meta name="description" content="n! = n×(n-1)×...×1. Arranjo: A(n,p)=n!/(n-p)!. Ordem importa....">
+  <meta name="description" content="Fatorial: n!=n×(n−1)×...×1. Arranjo: A(n,p)=n!/(n−p)! — ordem importa, sem repetição. Aplicações: pódios, senhas sem repetição, ranking.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/fatorial-e-arranjo.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Fatorial e Arranjo — Matemática | Beholder Academy">
-  <meta property="og:description" content="n! = n×(n-1)×...×1. Arranjo: A(n,p)=n!/(n-p)!. Ordem importa....">
+  <meta property="og:description" content="Fatorial: n!=n×(n−1)×...×1. Arranjo: A(n,p)=n!/(n−p)! — ordem importa, sem repetição. Aplicações: pódios, senhas sem repetição, ranking.">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/fatorial-e-arranjo.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Fatorial e Arranjo — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="n! = n×(n-1)×...×1. Arranjo: A(n,p)=n!/(n-p)!. Ordem importa....">
+  <meta name="twitter:description" content="Fatorial: n!=n×(n−1)×...×1. Arranjo: A(n,p)=n!/(n−p)! — ordem importa, sem repetição. Aplicações: pódios, senhas sem repetição, ranking.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Fatorial e Arranjo","description":"n! = n×(n-1)×...×1. Arranjo: A(n,p)=n!/(n-p)!. Ordem importa....","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/fatorial-e-arranjo.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Fatorial e Arranjo","description":"Fatorial: n!=n×(n−1)×...×1. Arranjo: A(n,p)=n!/(n−p)! — ordem importa, sem repetição. Aplicações: pódios, senhas sem repetição, ranking.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/fatorial-e-arranjo.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Por que 0!=1?","acceptedAnswer":{"@type":"Answer","text":"É uma convenção matemática necessária para que as fórmulas funcionem. Se 0!≠1, várias identidades como C(n,0)=1 e C(n,n)=1 quebrariam."}},{"@type":"Question","name":"Quando usar arranjo?","acceptedAnswer":{"@type":"Answer","text":"Quando a ORDEM importa e NÃO há repetição. Pódio: 1º≠2º≠3º. Senha sem repetir dígitos. Se ordem não importa, use combinação."}},{"@type":"Question","name":"Arranjo com repetição?","acceptedAnswer":{"@type":"Answer","text":"Aí é PFC direto: n^p (p escolhas, cada uma com n opções). Senha de 4 dígitos com repetição: 10⁴=10000."}},{"@type":"Question","name":"Como simplificar n!/(n−p)!?","acceptedAnswer":{"@type":"Answer","text":"Cancele: 10!/(10-3)! = 10!/7! = 10×9×8 (os termos de 7! cancelam). Multiplique apenas os p primeiros fatores."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Fatorial e Arranjo","item":"https://beholderacademy.com.br/matematica/fatorial-e-arranjo.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Fatorial e Arranjo</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>n! = n×(n-1)×...×1.</p><h2>Contexto e Desenvolvimento</h2><p>Arranjo: A(n,p)=n!/(n-p)!. Ordem importa.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Fatorial e Arranjo</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p><strong>Fatorial</strong> e <strong>Arranjo</strong> são ferramentas de contagem para quando a <strong>ordem importa</strong>.</p><h2>Fatorial</h2><p><strong>n! = n × (n−1) × (n−2) × ... × 2 × 1</strong></p><table><thead><tr><th>n</th><th>n!</th></tr></thead><tbody><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td></tr><tr><td>3</td><td>6</td></tr><tr><td>5</td><td>120</td></tr><tr><td>10</td><td>3.628.800</td></tr></tbody></table><h2>Arranjo</h2><p><strong>A(n,p) = n!/(n−p)!</strong></p><p>Escolher p elementos de n onde <strong>a ordem importa</strong>.</p><p>Ex: Pódio (ouro, prata, bronze) de 10 atletas: A(10,3) = 10×9×8 = <strong>720</strong></p><h2>Quando Usar?</h2><ul><li>Arranjo: <strong>ordem importa</strong> (pódio, senha, ranking)</li><li>Combinação: ordem NÃO importa (veremos no próximo artigo)</li></ul><h2>Resumo</h2><ul><li>✅ n! = n×(n−1)×...×1. 0!=1.</li><li>✅ A(n,p) = n!/(n−p)! (ordem importa)</li><li>⚠️ Arranjo ≠ Combinação! Arranjo: ABC ≠ CBA.</li></ul><h2>Curiosidade</h2><p>13! = 6.227.020.800 — já é maior que a população mundial! Por isso, embaralhar um baralho de 52 cartas (52! ≈ 8×10⁶⁷) gera mais combinações que átomos no universo observável!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Arranjo: A(n,p)=n!/(n-p)!.</p>
+      <p>Fatorial: n! = n×(n−1)×...×2×1. 0!=1, 1!=1. Arranjo A(n,p) = n!/(n−p)! — escolher p de n onde ORDEM IMPORTA. Ex: pódio de 3 entre 10 atletas = 10!/(10−3)! = 10×9×8 = 720.</p>
     </div>
 
     
@@ -95,10 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>Por que 0!=1?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>É uma convenção matemática necessária para que as fórmulas funcionem. Se 0!≠1, várias identidades como C(n,0)=1 e C(n,n)=1 quebrariam.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Quando usar arranjo?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Quando a ORDEM importa e NÃO há repetição. Pódio: 1º≠2º≠3º. Senha sem repetir dígitos. Se ordem não importa, use combinação.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Arranjo com repetição?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Aí é PFC direto: n^p (p escolhas, cada uma com n opções). Senha de 4 dígitos com repetição: 10⁴=10000.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Como simplificar n!/(n−p)!?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Cancele: 10!/(10-3)! = 10!/7! = 10×9×8 (os termos de 7! cancelam). Multiplique apenas os p primeiros fatores.</p></div>
           </div>
         
       </div>
@@ -106,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiU29jaW9sb2dpYSIsIkZhdG9yaWFsIGUgQXJyYW5qbyIsIkdlb2dyYWZpYSIsIkbDrXNpY2EiXSwiYW5zd2VyIjoxfSx7InF1ZXN0aW9uIjoiRXN0ZSBjb250ZcO6ZG8gw6kgZXN0dWRhZG8gZW0gcXVhbCBkaXNjaXBsaW5hPyIsIm9wdGlvbnMiOlsiTWF0ZW3DoXRpY2EiLCJGw61zaWNhIiwiR2VvZ3JhZmlhIiwiU29jaW9sb2dpYSJdLCJhbnN3ZXIiOjB9LHsicXVlc3Rpb24iOiJWb2PDqiBjb25jbHVpdSBhIGxlaXR1cmEgY29tcGxldGEgZGVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiU2ltLCBsaSB0b2RvIG8gY29udGXDumRvIiwiTGkgYXBlbmFzIG8gcmVzdW1vIiwiQWluZGEgbsOjbyBsaSIsIlB1bGVpIHBhcmEgbyBxdWl6Il0sImFuc3dlciI6MH1d">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiI1ISA9ID8iLCJvcHRpb25zIjpbIjUiLCIyNSIsIjYwIiwiMTIwIl0sImFuc3dlciI6M30seyJxdWVzdGlvbiI6IkEoMTAsMykgPSA/Iiwib3B0aW9ucyI6WyIzMCIsIjEyMCIsIjcyMCIsIjEwMDAiXSwiYW5zd2VyIjoyfSx7InF1ZXN0aW9uIjoiMCEgPSA/Iiwib3B0aW9ucyI6WyIwIiwiMSIsIkluZGVmaW5pZG8iLCLiiJIxIl0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6IkFycmFuam8gc2UgdXNhIHF1YW5kbzoiLCJvcHRpb25zIjpbIk9yZGVtIG7Do28gaW1wb3J0YSIsIk9yZGVtIGltcG9ydGEiLCJIw6EgcmVwZXRpw6fDo28iLCJTw6NvIGlndWFpcyJdLCJhbnN3ZXIiOjF9XQ==">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -140,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

@@ -9,6 +9,11 @@
   <link rel="stylesheet" href="assets/painel.css">
   <link rel="stylesheet" href="assets/responsavel.css">
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta name="robots" content="noindex, nofollow">
 </head>
 <body>
   <nav class="navbar"><div class="container navbar__inner">
@@ -84,9 +89,9 @@
             <div class="mesada-deposit">
               <label>Depositar:</label>
               <div class="deposit-buttons">
-                <button class="btn-deposit" onclick="ResponsavelUI.deposit(1000)">R$ 10</button>
-                <button class="btn-deposit" onclick="ResponsavelUI.deposit(2000)">R$ 20</button>
-                <button class="btn-deposit" onclick="ResponsavelUI.deposit(3000)">R$ 30</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="1000">R$ 10</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="2000">R$ 20</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="3000">R$ 30</button>
               </div>
             </div>
           </div>
@@ -146,6 +151,7 @@
     </div>
   </main>
 
+  <script src="assets/theme.js"></script>
   <script src="assets/rpg-engine.js"></script>
   <script src="assets/responsavel.js"></script>
   <script>
@@ -173,16 +179,7 @@
         }
       } catch(e) {}
 
-      const toggle = document.getElementById('dark-toggle');
-      if (toggle) {
-        const stored = localStorage.getItem('beholder_theme');
-        if (stored) document.documentElement.setAttribute('data-theme', stored);
-        toggle.addEventListener('click', function() {
-          const next = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-          document.documentElement.setAttribute('data-theme', next);
-          localStorage.setItem('beholder_theme', next);
-        });
-      }
+      // Dark mode handled by theme.js
       ResponsavelUI.init();
     });
   </script>

@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Equações Polinomiais — Matemática | 3º EM | Beholder Academy</title>
-  <meta name="description" content="Teorema Fundamental da Álgebra. Raízes reais e complexas. Descartes. Resolução de equações de grau ≥...">
+  <meta name="description" content="Equações polinomiais: Teorema Fundamental da Álgebra (grau n → n raízes). Relações de Girard. Raízes racionais. Decomposição em fatores lineares.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/equacoes-polinomiais.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Equações Polinomiais — Matemática | Beholder Academy">
-  <meta property="og:description" content="Teorema Fundamental da Álgebra. Raízes reais e complexas. Descartes. Resolução de equações de grau ≥...">
+  <meta property="og:description" content="Equações polinomiais: Teorema Fundamental da Álgebra (grau n → n raízes). Relações de Girard. Raízes racionais. Decomposição em fatores lineares.">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/equacoes-polinomiais.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Equações Polinomiais — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="Teorema Fundamental da Álgebra. Raízes reais e complexas. Descartes. Resolução de equações de grau ≥...">
+  <meta name="twitter:description" content="Equações polinomiais: Teorema Fundamental da Álgebra (grau n → n raízes). Relações de Girard. Raízes racionais. Decomposição em fatores lineares.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Equações Polinomiais","description":"Teorema Fundamental da Álgebra. Raízes reais e complexas. Descartes. Resolução de equações de grau ≥...","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/equacoes-polinomiais.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é mais importante sobre Equações Polinomiais?","acceptedAnswer":{"@type":"Answer","text":"Teorema Fundamental da Álgebra."}},{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Equações Polinomiais","description":"Equações polinomiais: Teorema Fundamental da Álgebra (grau n → n raízes). Relações de Girard. Raízes racionais. Decomposição em fatores lineares.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/equacoes-polinomiais.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quantas raízes tem um polinômio de grau 5?","acceptedAnswer":{"@type":"Answer","text":"Exatamente 5 raízes (contando multiplicidade e complexas). Pode ter 1, 3 ou 5 raízes reais (complexas vêm em pares)."}},{"@type":"Question","name":"O que são Relações de Girard?","acceptedAnswer":{"@type":"Answer","text":"Relacionam coeficientes com raízes: soma das raízes = −aₙ₋₁/aₙ, produto = (−1)ⁿ·a₀/aₙ. Para grau 2: soma=−b/a, produto=c/a."}},{"@type":"Question","name":"Como encontrar raízes racionais?","acceptedAnswer":{"@type":"Answer","text":"Teste candidatas ±p/q onde p divide a₀ e q divide aₙ. Use Briot-Ruffini para testar cada uma."}},{"@type":"Question","name":"Por que raízes complexas vêm em pares?","acceptedAnswer":{"@type":"Answer","text":"Se coeficientes são reais e a+bi é raiz, ao substituir e separar real/imaginário, a−bi também satisfaz. É uma consequência do conjugado."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Equações Polinomiais","item":"https://beholderacademy.com.br/matematica/equacoes-polinomiais.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Equações Polinomiais</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>Teorema Fundamental da Álgebra.</p><h2>Contexto e Desenvolvimento</h2><p>Raízes reais e complexas. Descartes.</p><h2>Consequências e Legado</h2><p>Resolução de equações de grau ≥3.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Equações Polinomiais</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p><strong>Equações polinomiais</strong> são P(x)=0. O <strong>Teorema Fundamental da Álgebra</strong> garante que todo polinômio de grau n tem exatamente n raízes.</p><h2>Teorema Fundamental da Álgebra</h2><p>Polinômio de grau n tem <strong>exatamente n raízes</strong> (contando multiplicidade e complexas).</p><h2>Relações de Girard</h2><p>Para aₙxⁿ+...+a₁x+a₀ = 0 com raízes r₁, r₂, ..., rₙ:</p><ul><li><strong>Soma das raízes:</strong> r₁+r₂+...+rₙ = −aₙ₋₁/aₙ</li><li><strong>Produto das raízes:</strong> r₁·r₂·...·rₙ = (−1)ⁿ · a₀/aₙ</li></ul><h2>Raízes Racionais</h2><p>Candidatas: ±(divisores de a₀)/(divisores de aₙ)</p><p>Teste cada candidata com Briot-Ruffini.</p><h2>Raízes Complexas</h2><p>Se coeficientes são reais, raízes complexas vêm em <strong>pares conjugados</strong>: se a+bi é raiz, a−bi também é.</p><h2>Resumo</h2><ul><li>✅ Grau n → n raízes</li><li>✅ Girard: soma = −aₙ₋₁/aₙ, produto = (−1)ⁿ·a₀/aₙ</li><li>⚠️ Raízes complexas vêm em pares conjugados!</li></ul><h2>Curiosidade</h2><p>Évariste Galois, aos 20 anos (antes de morrer em duelo), provou que NÃO existe fórmula geral para equações de grau ≥ 5. Sua teoria dos grupos revolucionou a álgebra moderna!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Teorema Fundamental da Álgebra. Raízes reais e complexas.</p>
+      <p>Teorema Fundamental: polinômio de grau n tem exatamente n raízes (contando multiplicidade e complexas). Relações de Girard: soma das raízes = −aₙ₋₁/aₙ. Produto das raízes = (−1)ⁿ·a₀/aₙ. Raízes racionais: candidatas são ±(divisores de a₀)/(divisores de aₙ). Raízes complexas vêm em pares conjugados.</p>
     </div>
 
     
@@ -95,18 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>O que é mais importante sobre Equações Polinomiais?</span>
+              <span>Quantas raízes tem um polinômio de grau 5?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Teorema Fundamental da Álgebra.</p></div>
+            <div class="faq-item__answer"><p>Exatamente 5 raízes (contando multiplicidade e complexas). Pode ter 1, 3 ou 5 raízes reais (complexas vêm em pares).</p></div>
           </div>
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>O que são Relações de Girard?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>Relacionam coeficientes com raízes: soma das raízes = −aₙ₋₁/aₙ, produto = (−1)ⁿ·a₀/aₙ. Para grau 2: soma=−b/a, produto=c/a.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Como encontrar raízes racionais?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Teste candidatas ±p/q onde p divide a₀ e q divide aₙ. Use Briot-Ruffini para testar cada uma.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Por que raízes complexas vêm em pares?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Se coeficientes são reais e a+bi é raiz, ao substituir e separar real/imaginário, a−bi também satisfaz. É uma consequência do conjugado.</p></div>
           </div>
         
       </div>
@@ -114,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiRXF1YcOnw7VlcyBQb2xpbm9taWFpcyIsIkJpb2xvZ2lhIiwiR2VvZ3JhZmlhIiwiUXXDrW1pY2EiXSwiYW5zd2VyIjowfSx7InF1ZXN0aW9uIjoiRXN0ZSBjb250ZcO6ZG8gw6kgZXN0dWRhZG8gZW0gcXVhbCBkaXNjaXBsaW5hPyIsIm9wdGlvbnMiOlsiTWF0ZW3DoXRpY2EiLCJCaW9sb2dpYSIsIkdlb2dyYWZpYSIsIlF1w61taWNhIl0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IlZvY8OqIGNvbmNsdWl1IGEgbGVpdHVyYSBjb21wbGV0YSBkZXN0ZSBhcnRpZ28/Iiwib3B0aW9ucyI6WyJTaW0sIGxpIHRvZG8gbyBjb250ZcO6ZG8iLCJMaSBhcGVuYXMgbyByZXN1bW8iLCJBaW5kYSBuw6NvIGxpIiwiUHVsZWkgcGFyYSBvIHF1aXoiXSwiYW5zd2VyIjowfV0=">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJHcmF1IDMg4oaSIHF1YW50YXMgcmHDrXplcz8iLCJvcHRpb25zIjpbIjEiLCIyIiwiMyIsIkRlcGVuZGUiXSwiYW5zd2VyIjoyfSx7InF1ZXN0aW9uIjoiU29tYSBkYXMgcmHDrXplcyBkZSB4wrLiiJI1eCs2PTA6Iiwib3B0aW9ucyI6WyI1IiwiNiIsIuKIkjUiLCLiiJI2Il0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IlNlIDIrM2kgw6kgcmFpeiAoY29lZi4gcmVhaXMpLCB0YW1iw6ltIMOpIHJhaXo6Iiwib3B0aW9ucyI6WyIy4oiSM2kiLCLiiJIyKzNpIiwi4oiSMuKIkjNpIiwiMysyaSJdLCJhbnN3ZXIiOjB9LHsicXVlc3Rpb24iOiJQcm9kdXRvIGRhcyByYcOtemVzIGRlIHjCsuKIkjV4KzY9MDoiLCJvcHRpb25zIjpbIjUiLCI2Iiwi4oiSNSIsIuKIkjYiXSwiYW5zd2VyIjoxfV0=">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -148,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

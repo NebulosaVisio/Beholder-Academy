@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Termodinâmica — Física | 2º EM | Beholder Academy</title>
-  <meta name="description" content="1ª Lei: ΔU=Q−W. 2ª Lei: entropia. Máquinas térmicas. Ciclo de Carnot. Rendimento. Processos: isotérm...">
+  <meta name="description" content="Termodinâmica: 1ª Lei (ΔU=Q-W, conservação). 2ª Lei (entropia, máquinas térmicas, rendimento). Transformações: isotérmica, isobárica, isocórica, adiabática.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/fisica/termodinamica.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Termodinâmica — Física | Beholder Academy">
-  <meta property="og:description" content="1ª Lei: ΔU=Q−W. 2ª Lei: entropia. Máquinas térmicas. Ciclo de Carnot. Rendimento. Processos: isotérm...">
+  <meta property="og:description" content="Termodinâmica: 1ª Lei (ΔU=Q-W, conservação). 2ª Lei (entropia, máquinas térmicas, rendimento). Transformações: isotérmica, isobárica, isocórica, adiabática.">
   <meta property="og:url" content="https://beholderacademy.com.br/fisica/termodinamica.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Termodinâmica — Física | Beholder Academy">
-  <meta name="twitter:description" content="1ª Lei: ΔU=Q−W. 2ª Lei: entropia. Máquinas térmicas. Ciclo de Carnot. Rendimento. Processos: isotérm...">
+  <meta name="twitter:description" content="Termodinâmica: 1ª Lei (ΔU=Q-W, conservação). 2ª Lei (entropia, máquinas térmicas, rendimento). Transformações: isotérmica, isobárica, isocórica, adiabática.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Termodinâmica","description":"1ª Lei: ΔU=Q−W. 2ª Lei: entropia. Máquinas térmicas. Ciclo de Carnot. Rendimento. Processos: isotérm...","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/fisica/termodinamica.html","articleSection":"Física","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Termodinâmica","description":"Termodinâmica: 1ª Lei (ΔU=Q-W, conservação). 2ª Lei (entropia, máquinas térmicas, rendimento). Transformações: isotérmica, isobárica, isocórica, adiabática.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/fisica/termodinamica.html","articleSection":"Física","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Por que η nunca é 100%?","acceptedAnswer":{"@type":"Answer","text":"2ª Lei: impossível converter TODO calor em trabalho. Parte sempre vai para a fonte fria. Entropia do universo sempre aumenta."}},{"@type":"Question","name":"O que é entropia?","acceptedAnswer":{"@type":"Answer","text":"Medida da 'desordem' de um sistema. 2ª Lei: entropia do universo sempre aumenta (ou fica constante em processos reversíveis). Nunca diminui espontaneamente."}},{"@type":"Question","name":"Trabalho no gráfico P×V?","acceptedAnswer":{"@type":"Answer","text":"Trabalho = área sob a curva no gráfico P×V. Expansão: W>0 (gás empurra). Compressão: W<0 (gás é empurrado)."}},{"@type":"Question","name":"Geladeira viola a 2ª Lei?","acceptedAnswer":{"@type":"Answer","text":"Não! Geladeira transfere calor do frio→quente, mas gasta energia (trabalho do compressor). Sem trabalho externo, calor NÃO flui espontaneamente do frio para o quente."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Física","item":"https://beholderacademy.com.br/fisica/"},{"@type":"ListItem","position":3,"name":"Termodinâmica","item":"https://beholderacademy.com.br/fisica/termodinamica.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Termodinâmica</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(0, 188, 212, 0.10); color: var(--fisica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+150 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>1ª Lei: ΔU=Q−W. 2ª Lei: entropia.</p><h2>Contexto e Desenvolvimento</h2><p>Máquinas térmicas. Ciclo de Carnot. Rendimento.</p><h2>Consequências e Legado</h2><p>Processos: isotérmico, isobárico, isocórico, adiabático.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Termodinâmica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p>A <strong>Termodinâmica</strong> estuda transformações de calor em trabalho e vice-versa.</p><h2>1ª Lei</h2><p><strong>ΔU = Q - W</strong></p><ul><li>ΔU: variação da energia interna</li><li>Q: calor trocado</li><li>W: trabalho realizado pelo gás</li></ul><h2>Transformações</h2><table><thead><tr><th>Tipo</th><th>Constante</th><th>Consequência</th></tr></thead><tbody><tr><td>Isotérmica</td><td>T</td><td>ΔU=0 → Q=W</td></tr><tr><td>Isobárica</td><td>P</td><td>W=P·ΔV</td></tr><tr><td>Isocórica</td><td>V</td><td>W=0 → ΔU=Q</td></tr><tr><td>Adiabática</td><td>Q=0</td><td>ΔU=-W</td></tr></tbody></table><h2>2ª Lei e Máquinas Térmicas</h2><ul><li>Rendimento: η = W/Q_quente = 1 - Q_frio/Q_quente</li><li>Máximo teórico (Carnot): η = 1 - T_frio/T_quente</li><li>η < 100% sempre (impossível converter todo calor em trabalho)</li></ul><h2>Resumo</h2><ul><li>✅ ΔU=Q-W; η=1-Q_f/Q_q (em Kelvin!)</li><li>⚠️ ENEM: gráficos P×V, rendimento, transformações</li></ul><h2>Curiosidade</h2><p>O <strong>rendimento de Carnot</strong> depende das temperaturas! Um motor entre 600K e 300K tem η_max=50%. É impossível fazer uma máquina com η=100% — violaria a 2ª Lei!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--fisica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Processos: isotérmico, isobárico, isocórico, adiabático..</p>
+      <p>1ª Lei: ΔU=Q-W (energia interna = calor recebido - trabalho realizado). 2ª Lei: calor flui espontaneamente do quente→frio. Entropia sempre aumenta. Máquina térmica: converte calor em trabalho (rendimento η=W/Q_quente=1-Q_frio/Q_quente). Rendimento máximo: Carnot (η=1-T_frio/T_quente). Transformações: isotérmica (T=const), isobárica (P=const), isocórica (V=const, W=0), adiabática (Q=0).</p>
     </div>
 
     
@@ -95,10 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>Por que η nunca é 100%?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 2º EM do Ensino Médio, na disciplina de Física.</p></div>
+            <div class="faq-item__answer"><p>2ª Lei: impossível converter TODO calor em trabalho. Parte sempre vai para a fonte fria. Entropia do universo sempre aumenta.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>O que é entropia?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Medida da 'desordem' de um sistema. 2ª Lei: entropia do universo sempre aumenta (ou fica constante em processos reversíveis). Nunca diminui espontaneamente.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Trabalho no gráfico P×V?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Trabalho = área sob a curva no gráfico P×V. Expansão: W>0 (gás empurra). Compressão: W<0 (gás é empurrado).</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Geladeira viola a 2ª Lei?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Não! Geladeira transfere calor do frio→quente, mas gasta energia (trabalho do compressor). Sem trabalho externo, calor NÃO flui espontaneamente do frio para o quente.</p></div>
           </div>
         
       </div>
@@ -106,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--fisica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiTWF0ZW3DoXRpY2EiLCJCaW9sb2dpYSIsIlRlcm1vZGluw6JtaWNhIiwiU29jaW9sb2dpYSJdLCJhbnN3ZXIiOjJ9LHsicXVlc3Rpb24iOiJFc3RlIGNvbnRlw7pkbyDDqSBlc3R1ZGFkbyBlbSBxdWFsIGRpc2NpcGxpbmE/Iiwib3B0aW9ucyI6WyJGw61zaWNhIiwiTWF0ZW3DoXRpY2EiLCJCaW9sb2dpYSIsIlNvY2lvbG9naWEiXSwiYW5zd2VyIjowfSx7InF1ZXN0aW9uIjoiVm9jw6ogY29uY2x1aXUgYSBsZWl0dXJhIGNvbXBsZXRhIGRlc3RlIGFydGlnbz8iLCJvcHRpb25zIjpbIlNpbSwgbGkgdG9kbyBvIGNvbnRlw7pkbyIsIkxpIGFwZW5hcyBvIHJlc3VtbyIsIkFpbmRhIG7Do28gbGkiLCJQdWxlaSBwYXJhIG8gcXVpeiJdLCJhbnN3ZXIiOjB9XQ==">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiLOlFUgPSBRIC0gPzoiLCJvcHRpb25zIjpbIkYiLCJtIiwiVyIsIlQiXSwiYW5zd2VyIjoyfSx7InF1ZXN0aW9uIjoiTmEgaXNvY8OzcmljYSwgVz06Iiwib3B0aW9ucyI6WyJQwrfOlFYiLCIwIiwiUSIsIs6UVSJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiLOtyBkZSBDYXJub3QgPSAxIC0gPzoiLCJvcHRpb25zIjpbIlZfZi9WX3EiLCJUX2YvVF9xIiwiUF9mL1BfcSIsIm1fZi9tX3EiXSwiYW5zd2VyIjoxfSx7InF1ZXN0aW9uIjoiRW50cm9waWEgZG8gdW5pdmVyc286Iiwib3B0aW9ucyI6WyJEaW1pbnVpIiwiRmljYSBjb25zdGFudGUiLCJTZW1wcmUgYXVtZW50YSIsIsOJIHplcm8iXSwiYW5zd2VyIjoyfV0=">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -140,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

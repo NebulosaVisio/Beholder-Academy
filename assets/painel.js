@@ -23,6 +23,7 @@ const PainelUI = (function() {
     data = RPGEngine.registerDailyLogin(data);
     setupTabs();
     setupStoreTabs();
+    setupDelegation();
     renderAll();
   }
 
@@ -295,7 +296,7 @@ const PainelUI = (function() {
           <div class="store-item-icon">${chest.icon}</div>
           <div class="store-item-name">${chest.name}</div>
           <div class="store-item-cost">${chest.cost} 🟡</div>
-          <button class="btn-buy" ${canAfford?'':'disabled'} onclick="PainelUI.buyChest('${key}')">Abrir!</button>
+          <button class="btn-buy" ${canAfford?'':'disabled'} data-action="buy-chest" data-chest-type="${key}">Abrir!</button>
         </div>`;
       }).join('');
     }
@@ -310,7 +311,7 @@ const PainelUI = (function() {
           <div class="store-item-icon">🔴</div>
           <div class="store-item-name">${item.name}</div>
           <div class="store-item-cost">${item.cost} ✨</div>
-          <button class="btn-buy" ${owned?'disabled':''}${!canAfford&&!owned?' disabled':''} onclick="PainelUI.buyEssence('${item.id}')">${owned?'Adquirido':'Comprar'}</button>
+          <button class="btn-buy" ${owned?'disabled':''}${!canAfford&&!owned?' disabled':''} data-action="buy-essence" data-essence-id="${item.id}">${owned?'Adquirido':'Comprar'}</button>
         </div>`;
       }).join('');
     }
@@ -415,3 +416,29 @@ const PainelUI = (function() {
 
   return { init, switchTab, buyChest, closeChest, buyEssence, renderAll };
 })();
+
+// --- Event Delegation Setup (called from init) ---
+function setupDelegation() {
+  document.addEventListener('click', function(e) {
+    var el = e.target.closest('[data-action]');
+    if (!el) return;
+    var action = el.getAttribute('data-action');
+    switch (action) {
+      case 'tab':
+        PainelUI.switchTab(el.getAttribute('data-tab-target'));
+        break;
+      case 'close-chest':
+        PainelUI.closeChest();
+        break;
+      case 'buy-chest':
+        PainelUI.buyChest(el.getAttribute('data-chest-type'));
+        break;
+      case 'buy-essence':
+        PainelUI.buyEssence(el.getAttribute('data-essence-id'));
+        break;
+      case 'deposit':
+        ResponsavelUI.deposit(parseInt(el.getAttribute('data-amount'), 10));
+        break;
+    }
+  });
+}

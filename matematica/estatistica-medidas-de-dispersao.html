@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estatística: Medidas de Dispersão — Matemática | 3º EM | Beholder Academy</title>
-  <meta name="description" content="Amplitude. Variância. Desvio padrão. Coeficiente de variação. Interpretação prática....">
+  <meta name="description" content="Dispersão: variância (média dos desvios²), desvio padrão (√variância), amplitude (max−min). Medem a dispersão dos dados em torno da média.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/estatistica-medidas-de-dispersao.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Estatística: Medidas de Dispersão — Matemática | Beholder Academy">
-  <meta property="og:description" content="Amplitude. Variância. Desvio padrão. Coeficiente de variação. Interpretação prática....">
+  <meta property="og:description" content="Dispersão: variância (média dos desvios²), desvio padrão (√variância), amplitude (max−min). Medem a dispersão dos dados em torno da média.">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/estatistica-medidas-de-dispersao.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Estatística: Medidas de Dispersão — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="Amplitude. Variância. Desvio padrão. Coeficiente de variação. Interpretação prática....">
+  <meta name="twitter:description" content="Dispersão: variância (média dos desvios²), desvio padrão (√variância), amplitude (max−min). Medem a dispersão dos dados em torno da média.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Estatística: Medidas de Dispersão","description":"Amplitude. Variância. Desvio padrão. Coeficiente de variação. Interpretação prática....","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/estatistica-medidas-de-dispersao.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é mais importante sobre Estatística: Medidas de Dispersão?","acceptedAnswer":{"@type":"Answer","text":"Coeficiente de variação."}},{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Estatística: Medidas de Dispersão","description":"Dispersão: variância (média dos desvios²), desvio padrão (√variância), amplitude (max−min). Medem a dispersão dos dados em torno da média.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/estatistica-medidas-de-dispersao.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Variância vs desvio padrão?","acceptedAnswer":{"@type":"Answer","text":"Variância = média dos desvios ao quadrado. Desvio padrão = √variância. O desvio padrão tem a mesma unidade dos dados (cm, kg), por isso é mais intuitivo."}},{"@type":"Question","name":"O que significa σ=0?","acceptedAnswer":{"@type":"Answer","text":"Todos os valores são iguais à média. Dispersão zero = sem variação."}},{"@type":"Question","name":"Para que serve o CV?","acceptedAnswer":{"@type":"Answer","text":"Coeficiente de Variação (σ/x̄×100%) compara dispersão de conjuntos com médias diferentes. Ex: altura (cm) vs peso (kg)."}},{"@type":"Question","name":"ENEM pede cálculo de variância?","acceptedAnswer":{"@type":"Answer","text":"Raramente o cálculo completo. Mas pede interpretação: 'maior desvio padrão = mais dispersão'. Saiba identificar no gráfico."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Estatística: Medidas de Dispersão","item":"https://beholderacademy.com.br/matematica/estatistica-medidas-de-dispersao.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Estatística: Medidas de Dispersão</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>Amplitude.</p><h2>Contexto e Desenvolvimento</h2><p>Variância. Desvio padrão. Coeficiente de variação.</p><h2>Consequências e Legado</h2><p>Interpretação prática.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Estatística: Medidas de Dispersão</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p>As <strong>medidas de dispersão</strong> medem o quanto os dados se afastam da média. Dois conjuntos podem ter mesma média mas dispersão diferente!</p><h2>Amplitude</h2><p><strong>A = máx − mín</strong></p><p>Simples, mas sensível a outliers.</p><h2>Variância</h2><p><strong>σ² = Σ(xᵢ − x̄)² / n</strong></p><ol><li>Calcule a média x̄</li><li>Subtraia x̄ de cada valor</li><li>Eleve ao quadrado</li><li>Tire a média dos quadrados</li></ol><h2>Desvio Padrão</h2><p><strong>σ = √σ²</strong></p><p>Tem a mesma <strong>unidade</strong> dos dados (diferente da variância, que é ao quadrado).</p><h2>Coeficiente de Variação</h2><p><strong>CV = (σ/x̄) × 100%</strong></p><p>Permite comparar dispersões de conjuntos com médias diferentes.</p><h2>Resumo</h2><ul><li>✅ σ grande → dados espalhados. σ pequeno → dados concentrados.</li><li>✅ σ = √variância (mesma unidade dos dados)</li><li>⚠️ ENEM pede interpretação, não cálculo pesado!</li></ul><h2>Curiosidade</h2><p>Na distribuição normal (sino), ~68% dos dados estão a 1σ da média, ~95% a 2σ e ~99,7% a 3σ. É a famosa "regra 68-95-99,7"!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Coeficiente de variação. Interpretação prática..</p>
+      <p>Amplitude: máx − mín. Variância: σ² = Σ(xᵢ−x̄)²/n. Desvio padrão: σ = √σ² (mesma unidade dos dados). Coeficiente de variação: CV = σ/x̄ × 100%. Maior σ → dados mais dispersos. σ=0 → todos iguais à média.</p>
     </div>
 
     
@@ -95,18 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>O que é mais importante sobre Estatística: Medidas de Dispersão?</span>
+              <span>Variância vs desvio padrão?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Coeficiente de variação.</p></div>
+            <div class="faq-item__answer"><p>Variância = média dos desvios ao quadrado. Desvio padrão = √variância. O desvio padrão tem a mesma unidade dos dados (cm, kg), por isso é mais intuitivo.</p></div>
           </div>
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>O que significa σ=0?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>Todos os valores são iguais à média. Dispersão zero = sem variação.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Para que serve o CV?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Coeficiente de Variação (σ/x̄×100%) compara dispersão de conjuntos com médias diferentes. Ex: altura (cm) vs peso (kg).</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>ENEM pede cálculo de variância?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Raramente o cálculo completo. Mas pede interpretação: 'maior desvio padrão = mais dispersão'. Saiba identificar no gráfico.</p></div>
           </div>
         
       </div>
@@ -114,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiRmlsb3NvZmlhIiwiRXN0YXTDrXN0aWNhOiBNZWRpZGFzIGRlIERpc3BlcnPDo28iLCJGw61zaWNhIiwiU29jaW9sb2dpYSJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiJFc3RlIGNvbnRlw7pkbyDDqSBlc3R1ZGFkbyBlbSBxdWFsIGRpc2NpcGxpbmE/Iiwib3B0aW9ucyI6WyJNYXRlbcOhdGljYSIsIkZpbG9zb2ZpYSIsIkbDrXNpY2EiLCJTb2Npb2xvZ2lhIl0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IlZvY8OqIGNvbmNsdWl1IGEgbGVpdHVyYSBjb21wbGV0YSBkZXN0ZSBhcnRpZ28/Iiwib3B0aW9ucyI6WyJTaW0sIGxpIHRvZG8gbyBjb250ZcO6ZG8iLCJMaSBhcGVuYXMgbyByZXN1bW8iLCJBaW5kYSBuw6NvIGxpIiwiUHVsZWkgcGFyYSBvIHF1aXoiXSwiYW5zd2VyIjowfV0=">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJEZXN2aW8gcGFkcsOjbyDDqToiLCJvcHRpb25zIjpbIs+DwrIiLCLiiJrPg8KyIiwiz4PCsyIsIjEvz4MiXSwiYW5zd2VyIjoxfSx7InF1ZXN0aW9uIjoiU2Ugz4M9MCwgb3MgZGFkb3Mgc8OjbzoiLCJvcHRpb25zIjpbIkRpc3BlcnNvcyIsIlRvZG9zIGlndWFpcyIsIk5lZ2F0aXZvcyIsIkluZGVmaW5pZG9zIl0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6IkFtcGxpdHVkZSA9ID8iLCJvcHRpb25zIjpbIk3DqWRpYSIsIk3DoXjiiJJNw61uIiwiz4PCsiIsIkNWIl0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6Ik5hIHJlZ3JhIDY4LTk1LTk5LjcsIH45NSUgZXN0w6NvIGE6Iiwib3B0aW9ucyI6WyIxz4MiLCIyz4MiLCIzz4MiLCIwLDXPgyJdLCJhbnN3ZXIiOjF9XQ==">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -148,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

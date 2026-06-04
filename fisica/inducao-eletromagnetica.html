@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Indução Eletromagnética — Física | 3º EM | Beholder Academy</title>
-  <meta name="description" content="Lei de Faraday: ε=−ΔΦ/Δt. Lei de Lenz. Gerador elétrico. Transformadores. Corrente alternada. Usinas...">
+  <meta name="description" content="Indução: Lei de Faraday (ε=-ΔΦ/Δt), Lei de Lenz (sentido se opõe à variação). Gerador elétrico. Transformador. Corrente alternada.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/fisica/inducao-eletromagnetica.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Indução Eletromagnética — Física | Beholder Academy">
-  <meta property="og:description" content="Lei de Faraday: ε=−ΔΦ/Δt. Lei de Lenz. Gerador elétrico. Transformadores. Corrente alternada. Usinas...">
+  <meta property="og:description" content="Indução: Lei de Faraday (ε=-ΔΦ/Δt), Lei de Lenz (sentido se opõe à variação). Gerador elétrico. Transformador. Corrente alternada.">
   <meta property="og:url" content="https://beholderacademy.com.br/fisica/inducao-eletromagnetica.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Indução Eletromagnética — Física | Beholder Academy">
-  <meta name="twitter:description" content="Lei de Faraday: ε=−ΔΦ/Δt. Lei de Lenz. Gerador elétrico. Transformadores. Corrente alternada. Usinas...">
+  <meta name="twitter:description" content="Indução: Lei de Faraday (ε=-ΔΦ/Δt), Lei de Lenz (sentido se opõe à variação). Gerador elétrico. Transformador. Corrente alternada.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Indução Eletromagnética","description":"Lei de Faraday: ε=−ΔΦ/Δt. Lei de Lenz. Gerador elétrico. Transformadores. Corrente alternada. Usinas...","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/fisica/inducao-eletromagnetica.html","articleSection":"Física","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Indução Eletromagnética","description":"Indução: Lei de Faraday (ε=-ΔΦ/Δt), Lei de Lenz (sentido se opõe à variação). Gerador elétrico. Transformador. Corrente alternada.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/fisica/inducao-eletromagnetica.html","articleSection":"Física","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Motor vs gerador?","acceptedAnswer":{"@type":"Answer","text":"São o inverso! Motor: eletricidade→movimento. Gerador: movimento→eletricidade. Ambos usam eletromagnetismo. Um dínamo de bicicleta é um gerador."}},{"@type":"Question","name":"Transformador funciona com CC?","acceptedAnswer":{"@type":"Answer","text":"NÃO! Só com CA. Transformador precisa de variação de fluxo (ΔΦ). CC tem fluxo constante → ΔΦ=0 → sem indução."}},{"@type":"Question","name":"Lenz se opõe como?","acceptedAnswer":{"@type":"Answer","text":"Se fluxo aumenta, corrente induzida cria campo que se opõe (tenta diminuir). Se diminui, tenta manter. É como 'inércia magnética'."}},{"@type":"Question","name":"Transmissão em alta tensão por quê?","acceptedAnswer":{"@type":"Answer","text":"P_perda=R·i². Se V↑, i↓ (para mesma potência: P=V·i). Menos corrente → menos perda por efeito Joule nos fios."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Física","item":"https://beholderacademy.com.br/fisica/"},{"@type":"ListItem","position":3,"name":"Indução Eletromagnética","item":"https://beholderacademy.com.br/fisica/inducao-eletromagnetica.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Indução Eletromagnética</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(0, 188, 212, 0.10); color: var(--fisica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>Lei de Faraday: ε=−ΔΦ/Δt. Lei de Lenz.</p><h2>Contexto e Desenvolvimento</h2><p>Gerador elétrico. Transformadores. Corrente alternada.</p><h2>Consequências e Legado</h2><p>Usinas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Indução Eletromagnética</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p><strong>Indução eletromagnética</strong>: variação de campo magnético gera corrente elétrica (Faraday, 1831).</p><h2>Lei de Faraday</h2><p><strong>ε = -ΔΦ/Δt</strong> (fem induzida)</p><ul><li>Φ = B·A·cosθ (fluxo magnético, Weber)</li><li>Variação de Φ → fem → corrente induzida</li></ul><h2>Lei de Lenz</h2><p>Corrente induzida se <strong>opõe</strong> à variação do fluxo que a causou (conservação de energia).</p><h2>Aplicações</h2><table><thead><tr><th>Dispositivo</th><th>Função</th></tr></thead><tbody><tr><td>Gerador</td><td>Mecânica → Elétrica</td></tr><tr><td>Transformador</td><td>V₁/V₂ = N₁/N₂</td></tr></tbody></table><h2>Transformador</h2><p><strong>V₁/V₂ = N₁/N₂</strong> (tensão proporcional às espiras)</p><h2>Resumo</h2><ul><li>✅ ε=-ΔΦ/Δt; V₁/V₂=N₁/N₂</li><li>⚠️ ENEM: Lenz (sentido), transformador, gerador</li></ul><h2>Curiosidade</h2><p>A <strong>transmissão de energia</strong> usa alta tensão (~500.000V) para reduzir perdas (P=R·i²: alta V → baixa i → menos perda). Transformadores sobem e descem a tensão!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--fisica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Lei de Faraday: ε=−ΔΦ/Δt.</p>
+      <p>Faraday (1831): variação de fluxo magnético gera fem (ε=-ΔΦ/Δt). Fluxo: Φ=B·A·cosθ. Lenz: corrente induzida se opõe à variação do fluxo que a gerou. Gerador: movimento mecânico → variação de fluxo → corrente (inverso do motor). Transformador: V₁/V₂=N₁/N₂ (muda tensão em CA). Elevador: mais espiras no secundário. Abaixador: menos espiras.</p>
     </div>
 
     
@@ -95,10 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>Motor vs gerador?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Física.</p></div>
+            <div class="faq-item__answer"><p>São o inverso! Motor: eletricidade→movimento. Gerador: movimento→eletricidade. Ambos usam eletromagnetismo. Um dínamo de bicicleta é um gerador.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Transformador funciona com CC?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>NÃO! Só com CA. Transformador precisa de variação de fluxo (ΔΦ). CC tem fluxo constante → ΔΦ=0 → sem indução.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Lenz se opõe como?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Se fluxo aumenta, corrente induzida cria campo que se opõe (tenta diminuir). Se diminui, tenta manter. É como 'inércia magnética'.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Transmissão em alta tensão por quê?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>P_perda=R·i². Se V↑, i↓ (para mesma potência: P=V·i). Menos corrente → menos perda por efeito Joule nos fios.</p></div>
           </div>
         
       </div>
@@ -106,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--fisica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiSW5kdcOnw6NvIEVsZXRyb21hZ27DqXRpY2EiLCJHZW9ncmFmaWEiLCJCaW9sb2dpYSIsIkxpdGVyYXR1cmEiXSwiYW5zd2VyIjowfSx7InF1ZXN0aW9uIjoiRXN0ZSBjb250ZcO6ZG8gw6kgZXN0dWRhZG8gZW0gcXVhbCBkaXNjaXBsaW5hPyIsIm9wdGlvbnMiOlsiRsOtc2ljYSIsIkdlb2dyYWZpYSIsIkxpdGVyYXR1cmEiLCJCaW9sb2dpYSJdLCJhbnN3ZXIiOjB9LHsicXVlc3Rpb24iOiJWb2PDqiBjb25jbHVpdSBhIGxlaXR1cmEgY29tcGxldGEgZGVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiU2ltLCBsaSB0b2RvIG8gY29udGXDumRvIiwiTGkgYXBlbmFzIG8gcmVzdW1vIiwiQWluZGEgbsOjbyBsaSIsIlB1bGVpIHBhcmEgbyBxdWl6Il0sImFuc3dlciI6MH1d">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiLOtSA9IC3OlM6mLz86Iiwib3B0aW9ucyI6WyLOlFEiLCLOlGkiLCLOlHQiLCLOlFIiXSwiYW5zd2VyIjoyfSx7InF1ZXN0aW9uIjoiVHJhbnNmb3JtYWRvciBmdW5jaW9uYSBjb206Iiwib3B0aW9ucyI6WyJDQyIsIkNBIiwiQW1iYXMiLCJOZW5odW1hIl0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6Ikxlbno6IGNvcnJlbnRlIGluZHV6aWRhOiIsIm9wdGlvbnMiOlsiRmF2b3JlY2UgdmFyaWHDp8OjbyIsIlNlIG9ww7VlIMOgIHZhcmlhw6fDo28iLCLDiSBjb25zdGFudGUiLCJOw6NvIGV4aXN0ZSJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiJHZXJhZG9yIGNvbnZlcnRlOiIsIm9wdGlvbnMiOlsiRWzDqXRyaWNh4oaSbWVjw6JuaWNhIiwiTWVjw6JuaWNh4oaSZWzDqXRyaWNhIiwiQ2Fsb3LihpJsdXoiLCJRdcOtbWljYeKGkmVsw6l0cmljYSJdLCJhbnN3ZXIiOjF9XQ==">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -140,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

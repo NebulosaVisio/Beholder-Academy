@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Polinômios — Matemática | 3º EM | Beholder Academy</title>
-  <meta name="description" content="Grau, raízes, operações. Dispositivo de Briot-Ruffini. Teorema de D&#39;Alembert. Relações de Girard....">
+  <meta name="description" content="Polinômios: P(x)=aₙxⁿ+...+a₁x+a₀. Grau, valor numérico, operações. Divisão por Briot-Ruffini. Dispositivo prático. Identidade de polinômios.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/polinomios.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Polinômios — Matemática | Beholder Academy">
-  <meta property="og:description" content="Grau, raízes, operações. Dispositivo de Briot-Ruffini. Teorema de D&#39;Alembert. Relações de Girard....">
+  <meta property="og:description" content="Polinômios: P(x)=aₙxⁿ+...+a₁x+a₀. Grau, valor numérico, operações. Divisão por Briot-Ruffini. Dispositivo prático. Identidade de polinômios.">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/polinomios.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Polinômios — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="Grau, raízes, operações. Dispositivo de Briot-Ruffini. Teorema de D&#39;Alembert. Relações de Girard....">
+  <meta name="twitter:description" content="Polinômios: P(x)=aₙxⁿ+...+a₁x+a₀. Grau, valor numérico, operações. Divisão por Briot-Ruffini. Dispositivo prático. Identidade de polinômios.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Polinômios","description":"Grau, raízes, operações. Dispositivo de Briot-Ruffini. Teorema de D'Alembert. Relações de Girard....","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/polinomios.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é mais importante sobre Polinômios?","acceptedAnswer":{"@type":"Answer","text":"Grau, raízes, operações."}},{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Polinômios","description":"Polinômios: P(x)=aₙxⁿ+...+a₁x+a₀. Grau, valor numérico, operações. Divisão por Briot-Ruffini. Dispositivo prático. Identidade de polinômios.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/polinomios.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é grau do polinômio?","acceptedAnswer":{"@type":"Answer","text":"É o maior expoente da variável cujo coeficiente não é zero. P(x)=3x⁴+x²−1 tem grau 4."}},{"@type":"Question","name":"Como usar Briot-Ruffini?","acceptedAnswer":{"@type":"Answer","text":"Para dividir P(x) por (x−a): escreva os coeficientes, use 'a', multiplique e some em cascata. O último número é o resto."}},{"@type":"Question","name":"Teorema do Resto?","acceptedAnswer":{"@type":"Answer","text":"O resto da divisão de P(x) por (x−a) é P(a). Se P(2)=0, então (x−2) divide P(x) exatamente."}},{"@type":"Question","name":"Polinômios idênticos?","acceptedAnswer":{"@type":"Answer","text":"Dois polinômios são idênticos se todos os coeficientes correspondentes são iguais. Útil para resolver equações por comparação."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Polinômios","item":"https://beholderacademy.com.br/matematica/polinomios.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Polinômios</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>Grau, raízes, operações.</p><h2>Contexto e Desenvolvimento</h2><p>Dispositivo de Briot-Ruffini. Teorema de D'Alembert.</p><h2>Consequências e Legado</h2><p>Relações de Girard.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Polinômios</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p><strong>Polinômios</strong> são expressões algébricas com variáveis de expoentes inteiros não-negativos. São a base do cálculo e da álgebra.</p><h2>Definição</h2><p><strong>P(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀</strong></p><ul><li><strong>Grau:</strong> maior expoente com coeficiente ≠ 0</li><li><strong>Valor numérico:</strong> P(k) = substituir x por k</li></ul><h2>Operações</h2><ul><li><strong>Soma:</strong> some coeficientes de termos semelhantes</li><li><strong>Multiplicação:</strong> distributiva (cada termo × cada termo)</li></ul><h2>Divisão: Briot-Ruffini</h2><p>Método prático para dividir P(x) por (x−a):</p><ol><li>Escreva os coeficientes de P(x)</li><li>Use a raiz a do divisor</li><li>Multiplique e some em cascata</li></ol><h2>Teorema do Resto</h2><p>O resto da divisão de P(x) por (x−a) é <strong>P(a)</strong>.</p><p>Se P(a)=0, então (x−a) é fator de P(x).</p><h2>Resumo</h2><ul><li>✅ Grau = maior expoente</li><li>✅ Briot-Ruffini para divisão por (x−a)</li><li>✅ Teorema do Resto: resto = P(a)</li></ul><h2>Curiosidade</h2><p>Polinômios de grau ≤ 4 têm fórmulas para raízes (1º: trivial, 2º: Bhaskara, 3º: Cardano, 4º: Ferrari). Galois provou que a partir do 5º grau, NÃO existe fórmula geral — e tinha apenas 20 anos!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Grau, raízes, operações. Dispositivo de Briot-Ruffini.</p>
+      <p>Polinômio de grau n: P(x) = aₙxⁿ+...+a₁x+a₀ (aₙ≠0). Valor numérico: substituir x. Soma/subtração: termos semelhantes. Multiplicação: distributiva. Divisão: algoritmo ou Briot-Ruffini (divisor x−a). Teorema do Resto: resto da divisão por (x−a) = P(a).</p>
     </div>
 
     
@@ -95,18 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>O que é mais importante sobre Polinômios?</span>
+              <span>O que é grau do polinômio?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Grau, raízes, operações.</p></div>
+            <div class="faq-item__answer"><p>É o maior expoente da variável cujo coeficiente não é zero. P(x)=3x⁴+x²−1 tem grau 4.</p></div>
           </div>
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>Como usar Briot-Ruffini?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>Para dividir P(x) por (x−a): escreva os coeficientes, use 'a', multiplique e some em cascata. O último número é o resto.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Teorema do Resto?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>O resto da divisão de P(x) por (x−a) é P(a). Se P(2)=0, então (x−2) divide P(x) exatamente.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Polinômios idênticos?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Dois polinômios são idênticos se todos os coeficientes correspondentes são iguais. Útil para resolver equações por comparação.</p></div>
           </div>
         
       </div>
@@ -114,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiU29jaW9sb2dpYSIsIkJpb2xvZ2lhIiwiUG9saW7DtG1pb3MiLCJGaWxvc29maWEiXSwiYW5zd2VyIjoyfSx7InF1ZXN0aW9uIjoiRXN0ZSBjb250ZcO6ZG8gw6kgZXN0dWRhZG8gZW0gcXVhbCBkaXNjaXBsaW5hPyIsIm9wdGlvbnMiOlsiTWF0ZW3DoXRpY2EiLCJTb2Npb2xvZ2lhIiwiQmlvbG9naWEiLCJGaWxvc29maWEiXSwiYW5zd2VyIjowfSx7InF1ZXN0aW9uIjoiVm9jw6ogY29uY2x1aXUgYSBsZWl0dXJhIGNvbXBsZXRhIGRlc3RlIGFydGlnbz8iLCJvcHRpb25zIjpbIlNpbSwgbGkgdG9kbyBvIGNvbnRlw7pkbyIsIkxpIGFwZW5hcyBvIHJlc3VtbyIsIkFpbmRhIG7Do28gbGkiLCJQdWxlaSBwYXJhIG8gcXVpeiJdLCJhbnN3ZXIiOjB9XQ==">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJHcmF1IGRlIDN44oG0K3jCsuKIkjE6Iiwib3B0aW9ucyI6WyIxIiwiMiIsIjMiLCI0Il0sImFuc3dlciI6M30seyJxdWVzdGlvbiI6IlJlc3RvIGRlIFAoeCnDtyh44oiSMikgcXVhbmRvIFAoMik9NToiLCJvcHRpb25zIjpbIjAiLCIyIiwiNSIsIuKIkjUiXSwiYW5zd2VyIjoyfSx7InF1ZXN0aW9uIjoiQnJpb3QtUnVmZmluaSBkaXZpZGUgcG9yOiIsIm9wdGlvbnMiOlsiUXVhbHF1ZXIgcG9saW7DtG1pbyIsIih44oiSYSkiLCJ4wrIrYSIsImF4K2IiXSwiYW5zd2VyIjoxfSx7InF1ZXN0aW9uIjoiU2UgUCgzKT0wLCBlbnTDo28gKHjiiJIzKSDDqToiLCJvcHRpb25zIjpbIlJlc3RvIiwiRmF0b3IgZGUgUCh4KSIsIkdyYXUiLCJSYWl6IGRlIHgiXSwiYW5zd2VyIjoxfV0=">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -148,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

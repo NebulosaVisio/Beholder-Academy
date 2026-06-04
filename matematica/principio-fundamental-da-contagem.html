@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Princípio Fundamental da Contagem — Matemática | 3º EM | Beholder Academy</title>
-  <meta name="description" content="Multiplicação de possibilidades. Diagrama de árvore. Problemas de combinação de etapas....">
+  <meta name="description" content="PFC: se uma decisão tem m opções e outra tem n opções, o total de combinações é m×n. Base de toda análise combinatória. Árvore de possibilidades.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/principio-fundamental-da-contagem.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Princípio Fundamental da Contagem — Matemática | Beholder Academy">
-  <meta property="og:description" content="Multiplicação de possibilidades. Diagrama de árvore. Problemas de combinação de etapas....">
+  <meta property="og:description" content="PFC: se uma decisão tem m opções e outra tem n opções, o total de combinações é m×n. Base de toda análise combinatória. Árvore de possibilidades.">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/principio-fundamental-da-contagem.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Princípio Fundamental da Contagem — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="Multiplicação de possibilidades. Diagrama de árvore. Problemas de combinação de etapas....">
+  <meta name="twitter:description" content="PFC: se uma decisão tem m opções e outra tem n opções, o total de combinações é m×n. Base de toda análise combinatória. Árvore de possibilidades.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Princípio Fundamental da Contagem","description":"Multiplicação de possibilidades. Diagrama de árvore. Problemas de combinação de etapas....","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/principio-fundamental-da-contagem.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é mais importante sobre Princípio Fundamental da Contagem?","acceptedAnswer":{"@type":"Answer","text":"Multiplicação de possibilidades."}},{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Princípio Fundamental da Contagem","description":"PFC: se uma decisão tem m opções e outra tem n opções, o total de combinações é m×n. Base de toda análise combinatória. Árvore de possibilidades.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/principio-fundamental-da-contagem.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quando multiplicar e quando somar?","acceptedAnswer":{"@type":"Answer","text":"Multiplique quando os eventos acontecem JUNTOS (E): camisa E calça. Some quando são ALTERNATIVOS (OU): ir de ônibus OU metrô."}},{"@type":"Question","name":"PFC funciona com restrições?","acceptedAnswer":{"@type":"Answer","text":"Sim! Calcule primeiro as etapas restritas. Ex: senha de 4 dígitos que não começa com 0: 9×10×10×10 = 9000."}},{"@type":"Question","name":"Árvore de possibilidades?","acceptedAnswer":{"@type":"Answer","text":"Diagrama que ramifica cada escolha. Útil para visualizar, mas impraticável com muitas opções. Use PFC para calcular."}},{"@type":"Question","name":"PFC vale com repetição?","acceptedAnswer":{"@type":"Answer","text":"Sim! Se pode repetir dígitos: 10×10×10=1000 senhas de 3 dígitos. Se NÃO pode: 10×9×8=720."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Princípio Fundamental da Contagem","item":"https://beholderacademy.com.br/matematica/principio-fundamental-da-contagem.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Princípio Fundamental da Contagem</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>Multiplicação de possibilidades.</p><h2>Contexto e Desenvolvimento</h2><p>Diagrama de árvore. Problemas de combinação de etapas.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Princípio Fundamental da Contagem</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p>O <strong>Princípio Fundamental da Contagem (PFC)</strong> é a base de toda análise combinatória: se um evento pode ocorrer de m formas e outro de n formas, os dois juntos ocorrem de <strong>m×n</strong> formas.</p><h2>Regra</h2><p>Se há k etapas com n₁, n₂, ..., nₖ possibilidades:<br><strong>Total = n₁ × n₂ × ... × nₖ</strong></p><h2>Exemplos</h2><ul><li>3 camisas × 4 calças = <strong>12 combinações</strong></li><li>Placa de carro: 26×26×26×10×10×10×10 = <strong>175.760.000</strong></li></ul><h2>E × OU</h2><table><thead><tr><th>Conectivo</th><th>Operação</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>E</strong> (simultâneo)</td><td>Multiplicação</td><td>camisa E calça: 3×4=12</td></tr><tr><td><strong>OU</strong> (alternativa)</td><td>Soma</td><td>calça OU saia: 4+3=7</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ E = multiplicar. OU = somar.</li><li>⚠️ ENEM adora: senhas, placas, roupas!</li></ul><h2>Curiosidade</h2><p>O novo padrão de placas Mercosul (3 letras + 4 números) gera 175.760.000 combinações — suficiente para toda a frota da América do Sul!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Multiplicação de possibilidades. Problemas de combinação de etapas..</p>
+      <p>PFC: multiplique as possibilidades de cada etapa. Se etapa 1 tem m opções e etapa 2 tem n opções → total = m×n. Para k etapas: n₁×n₂×...×nₖ. Não confundir com soma (OU = soma, E = multiplicação).</p>
     </div>
 
     
@@ -95,18 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>O que é mais importante sobre Princípio Fundamental da Contagem?</span>
+              <span>Quando multiplicar e quando somar?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Multiplicação de possibilidades.</p></div>
+            <div class="faq-item__answer"><p>Multiplique quando os eventos acontecem JUNTOS (E): camisa E calça. Some quando são ALTERNATIVOS (OU): ir de ônibus OU metrô.</p></div>
           </div>
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>PFC funciona com restrições?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>Sim! Calcule primeiro as etapas restritas. Ex: senha de 4 dígitos que não começa com 0: 9×10×10×10 = 9000.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Árvore de possibilidades?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Diagrama que ramifica cada escolha. Útil para visualizar, mas impraticável com muitas opções. Use PFC para calcular.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>PFC vale com repetição?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Sim! Se pode repetir dígitos: 10×10×10=1000 senhas de 3 dígitos. Se NÃO pode: 10×9×8=720.</p></div>
           </div>
         
       </div>
@@ -114,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiQmlvbG9naWEiLCJMaXRlcmF0dXJhIiwiRsOtc2ljYSIsIlByaW5jw61waW8gRnVuZGFtZW50YWwgZGEgQ29udGFnZW0iXSwiYW5zd2VyIjozfSx7InF1ZXN0aW9uIjoiRXN0ZSBjb250ZcO6ZG8gw6kgZXN0dWRhZG8gZW0gcXVhbCBkaXNjaXBsaW5hPyIsIm9wdGlvbnMiOlsiTWF0ZW3DoXRpY2EiLCJGw61zaWNhIiwiTGl0ZXJhdHVyYSIsIkJpb2xvZ2lhIl0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IlZvY8OqIGNvbmNsdWl1IGEgbGVpdHVyYSBjb21wbGV0YSBkZXN0ZSBhcnRpZ28/Iiwib3B0aW9ucyI6WyJTaW0sIGxpIHRvZG8gbyBjb250ZcO6ZG8iLCJMaSBhcGVuYXMgbyByZXN1bW8iLCJBaW5kYSBuw6NvIGxpIiwiUHVsZWkgcGFyYSBvIHF1aXoiXSwiYW5zd2VyIjowfV0=">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiIzIGNhbWlzYXMgw5cgNCBjYWzDp2FzID0iLCJvcHRpb25zIjpbIjciLCIxMiIsIjE2IiwiMjQiXSwiYW5zd2VyIjoxfSx7InF1ZXN0aW9uIjoiJ0UnIGNvcnJlc3BvbmRlIGE6Iiwib3B0aW9ucyI6WyJTb21hIiwiTXVsdGlwbGljYcOnw6NvIiwiRGl2aXPDo28iLCJTdWJ0cmHDp8OjbyJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiJTZW5oYSBkZSAzIGTDrWdpdG9zIHNlbSByZXBldGlyOiIsIm9wdGlvbnMiOlsiMTAwMCIsIjcyMCIsIjEwMCIsIjI3Il0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6IidPVScgY29ycmVzcG9uZGUgYToiLCJvcHRpb25zIjpbIk11bHRpcGxpY2HDp8OjbyIsIlNvbWEiLCJQb3TDqm5jaWEiLCJGYXRvcmlhbCJdLCJhbnN3ZXIiOjF9XQ==">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -148,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

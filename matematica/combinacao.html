@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Combinação — Matemática | 3º EM | Beholder Academy</title>
-  <meta name="description" content="C(n,p)=n!/(p!(n-p)!). Ordem NÃO importa. Triângulo de Pascal. Diferença de arranjo....">
+  <meta name="description" content="Combinação: C(n,p)=n!/[p!(n−p)!]. Ordem NÃO importa. Comissões, equipes, subconjuntos. Triângulo de Pascal. Relação C(n,p)=C(n,n−p).">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/combinacao.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Combinação — Matemática | Beholder Academy">
-  <meta property="og:description" content="C(n,p)=n!/(p!(n-p)!). Ordem NÃO importa. Triângulo de Pascal. Diferença de arranjo....">
+  <meta property="og:description" content="Combinação: C(n,p)=n!/[p!(n−p)!]. Ordem NÃO importa. Comissões, equipes, subconjuntos. Triângulo de Pascal. Relação C(n,p)=C(n,n−p).">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/combinacao.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Combinação — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="C(n,p)=n!/(p!(n-p)!). Ordem NÃO importa. Triângulo de Pascal. Diferença de arranjo....">
+  <meta name="twitter:description" content="Combinação: C(n,p)=n!/[p!(n−p)!]. Ordem NÃO importa. Comissões, equipes, subconjuntos. Triângulo de Pascal. Relação C(n,p)=C(n,n−p).">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Combinação","description":"C(n,p)=n!/(p!(n-p)!). Ordem NÃO importa. Triângulo de Pascal. Diferença de arranjo....","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/combinacao.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Combinação","description":"Combinação: C(n,p)=n!/[p!(n−p)!]. Ordem NÃO importa. Comissões, equipes, subconjuntos. Triângulo de Pascal. Relação C(n,p)=C(n,n−p).","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/combinacao.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quando usar combinação vs arranjo?","acceptedAnswer":{"@type":"Answer","text":"Combinação: ordem NÃO importa (equipe, comissão, subconjunto). Arranjo: ordem IMPORTA (pódio, senha, ranking)."}},{"@type":"Question","name":"C(n,p) = C(n,n−p)?","acceptedAnswer":{"@type":"Answer","text":"Sim! Escolher p para incluir = escolher (n−p) para excluir. C(10,3) = C(10,7) = 120."}},{"@type":"Question","name":"Como funciona o Triângulo de Pascal?","acceptedAnswer":{"@type":"Answer","text":"Cada linha n tem os valores C(n,0) a C(n,n). Cada número = soma dos dois acima. É útil para binômio de Newton."}},{"@type":"Question","name":"Chance da Mega-Sena?","acceptedAnswer":{"@type":"Answer","text":"C(60,6) = 50.063.860 combinações. Probabilidade de acertar: 1/50.063.860 ≈ 0,000002%."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Combinação","item":"https://beholderacademy.com.br/matematica/combinacao.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Combinação</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 7 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>C(n,p)=n!/(p!(n-p)!).</p><h2>Contexto e Desenvolvimento</h2><p>Ordem NÃO importa. Triângulo de Pascal.</p><h2>Consequências e Legado</h2><p>Diferença de arranjo.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Combinação</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p><strong>Combinação</strong> conta de quantas formas escolher p elementos de n quando a <strong>ordem NÃO importa</strong>.</p><h2>Fórmula</h2><p><strong>C(n,p) = n! / [p! · (n−p)!]</strong></p><p>Ex: Comissão de 3 entre 10 pessoas: C(10,3) = 10!/(3!·7!) = <strong>120</strong></p><h2>Arranjo vs Combinação</h2><table><thead><tr><th>Arranjo</th><th>Combinação</th></tr></thead><tbody><tr><td>Ordem importa</td><td>Ordem NÃO importa</td></tr><tr><td>A(n,p) = n!/(n−p)!</td><td>C(n,p) = n!/[p!(n−p)!]</td></tr><tr><td>Pódio, senha</td><td>Comissão, equipe</td></tr></tbody></table><p>Relação: <strong>C(n,p) = A(n,p)/p!</strong></p><h2>Propriedades</h2><ul><li>C(n,0) = C(n,n) = 1</li><li>C(n,p) = C(n, n−p) (simetria)</li><li>C(n,1) = n</li></ul><h2>Triângulo de Pascal</h2><p>Cada número é a soma dos dois acima. A linha n contém C(n,0), C(n,1), ..., C(n,n).</p><h2>Resumo</h2><ul><li>✅ C(n,p) = n!/[p!(n−p)!]</li><li>✅ Ordem NÃO importa</li><li>⚠️ Dica: 'escolher', 'comissão', 'equipe' → combinação!</li></ul><h2>Curiosidade</h2><p>A Mega-Sena pede 6 números de 60: C(60,6) = <strong>50.063.860</strong> combinações. Sua chance de acertar é de 1 em 50 milhões!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Diferença de arranjo..</p>
+      <p>C(n,p) = n!/[p!·(n−p)!]. Ordem NÃO importa: {A,B,C}={C,B,A}. C(n,p)=C(n,n−p). C(n,0)=C(n,n)=1. Triângulo de Pascal: cada número = soma dos dois acima. C(n,p) = A(n,p)/p!.</p>
     </div>
 
     
@@ -95,10 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>Quando usar combinação vs arranjo?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>Combinação: ordem NÃO importa (equipe, comissão, subconjunto). Arranjo: ordem IMPORTA (pódio, senha, ranking).</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>C(n,p) = C(n,n−p)?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Sim! Escolher p para incluir = escolher (n−p) para excluir. C(10,3) = C(10,7) = 120.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Como funciona o Triângulo de Pascal?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Cada linha n tem os valores C(n,0) a C(n,n). Cada número = soma dos dois acima. É útil para binômio de Newton.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Chance da Mega-Sena?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>C(60,6) = 50.063.860 combinações. Probabilidade de acertar: 1/50.063.860 ≈ 0,000002%.</p></div>
           </div>
         
       </div>
@@ -106,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiR2VvZ3JhZmlhIiwiUXXDrW1pY2EiLCJDb21iaW5hw6fDo28iLCJCaW9sb2dpYSJdLCJhbnN3ZXIiOjJ9LHsicXVlc3Rpb24iOiJFc3RlIGNvbnRlw7pkbyDDqSBlc3R1ZGFkbyBlbSBxdWFsIGRpc2NpcGxpbmE/Iiwib3B0aW9ucyI6WyJNYXRlbcOhdGljYSIsIkJpb2xvZ2lhIiwiR2VvZ3JhZmlhIiwiUXXDrW1pY2EiXSwiYW5zd2VyIjowfSx7InF1ZXN0aW9uIjoiVm9jw6ogY29uY2x1aXUgYSBsZWl0dXJhIGNvbXBsZXRhIGRlc3RlIGFydGlnbz8iLCJvcHRpb25zIjpbIlNpbSwgbGkgdG9kbyBvIGNvbnRlw7pkbyIsIkxpIGFwZW5hcyBvIHJlc3VtbyIsIkFpbmRhIG7Do28gbGkiLCJQdWxlaSBwYXJhIG8gcXVpeiJdLCJhbnN3ZXIiOjB9XQ==">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJDKDEwLDMpID0gPyIsIm9wdGlvbnMiOlsiMzAiLCIxMjAiLCI3MjAiLCIxMDAwIl0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6IkNvbWJpbmHDp8OjbyBzZSB1c2EgcXVhbmRvOiIsIm9wdGlvbnMiOlsiT3JkZW0gaW1wb3J0YSIsIk9yZGVtIG7Do28gaW1wb3J0YSIsIkjDoSByZXBldGnDp8OjbyIsIkVsZW1lbnRvcyBzw6NvIGlndWFpcyJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiJDKG4sMCkgPSA/Iiwib3B0aW9ucyI6WyIwIiwiMSIsIm4iLCJuISJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiJDKG4scCkgPSBBKG4scCkgLyA/Iiwib3B0aW9ucyI6WyJuISIsIihu4oiScCkhIiwicCEiLCIxIl0sImFuc3dlciI6Mn1d">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -140,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

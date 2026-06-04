@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Sistemas Lineares — Matemática | 3º EM | Beholder Academy</title>
-  <meta name="description" content="2 e 3 variáveis. Escalonamento. Regra de Cramer. Classificação: determinado, indeterminado, impossív...">
+  <meta name="description" content="Sistemas lineares: 2×2 e 3×3. Métodos de resolução: substituição, adição, escalonamento, Cramer. Classificação: SPI (determinado), SPI (indeterminado), SI (impossível).">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/sistemas-lineares.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Sistemas Lineares — Matemática | Beholder Academy">
-  <meta property="og:description" content="2 e 3 variáveis. Escalonamento. Regra de Cramer. Classificação: determinado, indeterminado, impossív...">
+  <meta property="og:description" content="Sistemas lineares: 2×2 e 3×3. Métodos de resolução: substituição, adição, escalonamento, Cramer. Classificação: SPI (determinado), SPI (indeterminado), SI (impossível).">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/sistemas-lineares.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Sistemas Lineares — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="2 e 3 variáveis. Escalonamento. Regra de Cramer. Classificação: determinado, indeterminado, impossív...">
+  <meta name="twitter:description" content="Sistemas lineares: 2×2 e 3×3. Métodos de resolução: substituição, adição, escalonamento, Cramer. Classificação: SPI (determinado), SPI (indeterminado), SI (impossível).">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Sistemas Lineares","description":"2 e 3 variáveis. Escalonamento. Regra de Cramer. Classificação: determinado, indeterminado, impossív...","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/sistemas-lineares.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Sistemas Lineares","description":"Sistemas lineares: 2×2 e 3×3. Métodos de resolução: substituição, adição, escalonamento, Cramer. Classificação: SPI (determinado), SPI (indeterminado), SI (impossível).","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/sistemas-lineares.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Quando usar Cramer?","acceptedAnswer":{"@type":"Answer","text":"Cramer é ideal para 2×2 e 3×3 com D≠0. Para sistemas maiores, escalonamento é mais eficiente."}},{"@type":"Question","name":"O que é SPD?","acceptedAnswer":{"@type":"Answer","text":"Sistema Possível e Determinado: tem exatamente UMA solução. Ocorre quando D≠0. As retas se cruzam em 1 ponto (2×2)."}},{"@type":"Question","name":"Retas paralelas dão que tipo de sistema?","acceptedAnswer":{"@type":"Answer","text":"SI (Impossível): sem solução. Retas paralelas nunca se cruzam. D=0 e algum Dᵢ≠0."}},{"@type":"Question","name":"Como montar sistema a partir de problema?","acceptedAnswer":{"@type":"Answer","text":"1) Identifique as incógnitas. 2) Traduza as condições em equações. 3) Resolva. Ex: 'soma=10, diferença=4' → x+y=10, x−y=4."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Sistemas Lineares","item":"https://beholderacademy.com.br/matematica/sistemas-lineares.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Sistemas Lineares</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 8 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+200 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>2 e 3 variáveis.</p><h2>Contexto e Desenvolvimento</h2><p>Escalonamento. Regra de Cramer.</p><h2>Consequências e Legado</h2><p>Classificação: determinado, indeterminado, impossível.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Sistemas Lineares</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p><strong>Sistemas lineares</strong> são conjuntos de equações do 1º grau a serem resolvidos simultaneamente. Aparecem em problemas de mistura, velocidade e geometria analítica.</p><h2>Métodos de Resolução</h2><h3>Substituição</h3><p>Isole uma variável numa equação e substitua na outra.</p><h3>Adição (Eliminação)</h3><p>Multiplique equações para cancelar uma variável ao somar.</p><h3>Cramer (2×2)</h3><p>x = Dₓ/D, y = Dᵧ/D (D = determinante da matriz dos coeficientes)</p><h3>Escalonamento (3×3)</h3><p>Transforme o sistema em triangular superior e resolva de baixo para cima.</p><h2>Classificação</h2><table><thead><tr><th>Tipo</th><th>Condição</th><th>Soluções</th></tr></thead><tbody><tr><td><strong>SPD</strong></td><td>D ≠ 0</td><td>Uma única</td></tr><tr><td><strong>SPI</strong></td><td>D=0, Dₓ=Dᵧ=0</td><td>Infinitas</td></tr><tr><td><strong>SI</strong></td><td>D=0, algum Dᵢ≠0</td><td>Nenhuma</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Cramer: x=Dₓ/D (substitua colunas)</li><li>✅ D≠0 → solução única</li><li>⚠️ ENEM: problemas contextualizados que viram sistemas!</li></ul><h2>Curiosidade</h2><p>Gabriel Cramer publicou sua regra em 1750, mas a técnica já era conhecida na China por Seki Takakazu (1683) e até antes!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Classificação: determinado, indeterminado, impossível..</p>
+      <p>Sistema linear: conjunto de equações do 1º grau. 2×2: substituição ou adição. 3×3: escalonamento ou Cramer. Cramer: x=Dₓ/D, y=Dᵧ/D. Classificação: D≠0 → SPD (solução única). D=0 e Dₓ=Dᵧ=0 → SPI (infinitas). D=0 e algum Dᵢ≠0 → SI (impossível).</p>
     </div>
 
     
@@ -95,10 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>Quando usar Cramer?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 3º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>Cramer é ideal para 2×2 e 3×3 com D≠0. Para sistemas maiores, escalonamento é mais eficiente.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>O que é SPD?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>Sistema Possível e Determinado: tem exatamente UMA solução. Ocorre quando D≠0. As retas se cruzam em 1 ponto (2×2).</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Retas paralelas dão que tipo de sistema?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>SI (Impossível): sem solução. Retas paralelas nunca se cruzam. D=0 e algum Dᵢ≠0.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Como montar sistema a partir de problema?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>1) Identifique as incógnitas. 2) Traduza as condições em equações. 3) Resolva. Ex: 'soma=10, diferença=4' → x+y=10, x−y=4.</p></div>
           </div>
         
       </div>
@@ -106,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiU2lzdGVtYXMgTGluZWFyZXMiLCJGaWxvc29maWEiLCJGw61zaWNhIiwiTGl0ZXJhdHVyYSJdLCJhbnN3ZXIiOjB9LHsicXVlc3Rpb24iOiJFc3RlIGNvbnRlw7pkbyDDqSBlc3R1ZGFkbyBlbSBxdWFsIGRpc2NpcGxpbmE/Iiwib3B0aW9ucyI6WyJNYXRlbcOhdGljYSIsIkZpbG9zb2ZpYSIsIkbDrXNpY2EiLCJMaXRlcmF0dXJhIl0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IlZvY8OqIGNvbmNsdWl1IGEgbGVpdHVyYSBjb21wbGV0YSBkZXN0ZSBhcnRpZ28/Iiwib3B0aW9ucyI6WyJTaW0sIGxpIHRvZG8gbyBjb250ZcO6ZG8iLCJMaSBhcGVuYXMgbyByZXN1bW8iLCJBaW5kYSBuw6NvIGxpIiwiUHVsZWkgcGFyYSBvIHF1aXoiXSwiYW5zd2VyIjowfV0=">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJTZSBE4omgMCwgbyBzaXN0ZW1hIMOpOiIsIm9wdGlvbnMiOlsiSW1wb3Nzw612ZWwiLCJJbmRldGVybWluYWRvIiwiRGV0ZXJtaW5hZG8iLCJIb21vZ8OqbmVvIl0sImFuc3dlciI6Mn0seyJxdWVzdGlvbiI6IngreT01LCB44oiSeT0xLiB4PT8iLCJvcHRpb25zIjpbIjIiLCIzIiwiNCIsIjUiXSwiYW5zd2VyIjoxfSx7InF1ZXN0aW9uIjoiQ3JhbWVyOiB4ID0gPyIsIm9wdGlvbnMiOlsiRC9E4oKTIiwiROKCky9EIiwiRMK3ROKCkyIsIkTigpPiiJJEIl0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6IlJldGFzIGNvaW5jaWRlbnRlcyDihpIgc2lzdGVtYToiLCJvcHRpb25zIjpbIlNQRCIsIlNQSSIsIlNJIiwiTWlzdG8iXSwiYW5zd2VyIjoxfV0=">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -140,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

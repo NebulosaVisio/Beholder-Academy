@@ -3,22 +3,28 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Função Logarítmica — Matemática | 1º EM | Beholder Academy</title>
-  <meta name="description" content="log_a(b)=x ↔ aˣ=b. Propriedades: log(xy), log(x/y), log(xⁿ). Mudança de base. Gráfico....">
+  <meta name="description" content="Logaritmo: log_a(b)=x ⟺ aˣ=b. Propriedades: log do produto, quociente, potência. Mudança de base. Logaritmo natural (ln) e decimal (log). Inversa da exponencial.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/funcao-logaritmica.html">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Função Logarítmica — Matemática | Beholder Academy">
-  <meta property="og:description" content="log_a(b)=x ↔ aˣ=b. Propriedades: log(xy), log(x/y), log(xⁿ). Mudança de base. Gráfico....">
+  <meta property="og:description" content="Logaritmo: log_a(b)=x ⟺ aˣ=b. Propriedades: log do produto, quociente, potência. Mudança de base. Logaritmo natural (ln) e decimal (log). Inversa da exponencial.">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/funcao-logaritmica.html">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Função Logarítmica — Matemática | Beholder Academy">
-  <meta name="twitter:description" content="log_a(b)=x ↔ aˣ=b. Propriedades: log(xy), log(x/y), log(xⁿ). Mudança de base. Gráfico....">
+  <meta name="twitter:description" content="Logaritmo: log_a(b)=x ⟺ aˣ=b. Propriedades: log do produto, quociente, potência. Mudança de base. Logaritmo natural (ln) e decimal (log). Inversa da exponencial.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="https://beholderacademy.com.br/assets/og-image.png">
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Função Logarítmica","description":"log_a(b)=x ↔ aˣ=b. Propriedades: log(xy), log(x/y), log(xⁿ). Mudança de base. Gráfico....","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/funcao-logaritmica.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Em qual série este conteúdo é cobrado?","acceptedAnswer":{"@type":"Answer","text":"Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática."}}]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Função Logarítmica","description":"Logaritmo: log_a(b)=x ⟺ aˣ=b. Propriedades: log do produto, quociente, potência. Mudança de base. Logaritmo natural (ln) e decimal (log). Inversa da exponencial.","author":{"@type":"Organization","name":"Beholder Academy"},"publisher":{"@type":"Organization","name":"Beholder Academy","url":"https://beholderacademy.com.br"},"mainEntityOfPage":"https://beholderacademy.com.br/matematica/funcao-logaritmica.html","articleSection":"Matemática","inLanguage":"pt-BR"}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"O que é logaritmo em palavras simples?","acceptedAnswer":{"@type":"Answer","text":"Logaritmo responde: 'a que expoente devo elevar a base para obter o número?' log₂(8)=3 porque 2³=8. É a operação inversa da exponenciação."}},{"@type":"Question","name":"Quando o logaritmo é 0?","acceptedAnswer":{"@type":"Answer","text":"log_a(1)=0 para qualquer base a, porque a⁰=1 sempre. Ou seja, o logaritmo de 1 em qualquer base é zero."}},{"@type":"Question","name":"Como usar mudança de base?","acceptedAnswer":{"@type":"Answer","text":"log_a(b) = log_c(b)/log_c(a). Na prática, use log₁₀ na calculadora: log₂(8) = log(8)/log(2) = 0,903/0,301 = 3."}},{"@type":"Question","name":"Qual a diferença entre log e ln?","acceptedAnswer":{"@type":"Answer","text":"log = log₁₀ (base 10, logaritmo decimal). ln = log_e (base e≈2,718, logaritmo natural). ln é mais usado em cálculo e ciências; log em engenharia e escalas."}}]}</script>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://beholderacademy.com.br/"},{"@type":"ListItem","position":2,"name":"Matemática","item":"https://beholderacademy.com.br/matematica/"},{"@type":"ListItem","position":3,"name":"Função Logarítmica","item":"https://beholderacademy.com.br/matematica/funcao-logaritmica.html"}]}</script>
 </head>
 <body>
@@ -71,13 +77,13 @@
       </div>
       <h1 class="article-title">Função Logarítmica</h1>
       <div class="article-meta">
-        <span id="reading-time">⏱️ 3 min de leitura</span>
+        <span id="reading-time">⏱️ 8 min de leitura</span>
         <span style="background: rgba(6, 214, 160, 0.10); color: var(--matematica); padding: 2px 12px; border-radius: 6px; font-weight: 800;">+100 XP</span>
       </div>
     </header>
 
     <div class="article-body reveal">
-      <h2>O que você precisa saber</h2><p>log_a(b)=x ↔ aˣ=b.</p><h2>Contexto e Desenvolvimento</h2><p>Propriedades: log(xy), log(x/y), log(xⁿ). Mudança de base.</p><h2>Consequências e Legado</h2><p>Gráfico.</p><h2>Conexão com o Presente</h2><p>O estudo de <strong>Função Logarítmica</strong> nos ajuda a compreender como eventos e processos do passado moldaram a sociedade em que vivemos hoje. Este tema é frequentemente cobrado em vestibulares e no ENEM, exigindo do estudante a capacidade de relacionar causas e consequências históricas.</p>
+      <h2>Introdução</h2><p>O <strong>logaritmo</strong> responde: "a que expoente devo elevar a base para obter o número?" É a <strong>inversa da exponencial</strong> e aparece em escalas (pH, Richter, decibéis).</p><h2>Definição</h2><p><strong>log_a(b) = x ⟺ aˣ = b</strong></p><p>Condições: a > 0, a ≠ 1, b > 0</p><p>Ex: log₂(8) = 3, pois 2³ = 8</p><h2>Propriedades</h2><table><thead><tr><th>Propriedade</th><th>Fórmula</th><th>Exemplo</th></tr></thead><tbody><tr><td>Produto</td><td>log(A·B) = logA + logB</td><td>log(2·5) = log2+log5</td></tr><tr><td>Quociente</td><td>log(A/B) = logA − logB</td><td>log(10/2) = log10−log2</td></tr><tr><td>Potência</td><td>log(Aⁿ) = n·logA</td><td>log(2³) = 3·log2</td></tr></tbody></table><h2>Consequências</h2><ul><li>log_a(1) = 0 (pois a⁰=1)</li><li>log_a(a) = 1 (pois a¹=a)</li><li>a^(log_a(b)) = b</li></ul><h2>Mudança de Base</h2><p><strong>log_a(b) = log_c(b) / log_c(a)</strong></p><h2>Tipos Especiais</h2><ul><li><strong>log</strong> = log₁₀ (decimal/comum)</li><li><strong>ln</strong> = log_e (natural, base e≈2,718)</li></ul><h2>Resumo</h2><ul><li>✅ log_a(b)=x ⟺ aˣ=b</li><li>✅ Produto→soma, quociente→subtração, potência→multiplica</li><li>⚠️ log_a(1)=0 e log_a(a)=1 sempre!</li></ul><h2>Curiosidade</h2><p>A escala <strong>Richter</strong> (terremotos) é logarítmica: cada ponto a mais significa 10x mais energia. Um terremoto de magnitude 7 é <strong>1000x mais forte</strong> que um de magnitude 4!</p>
     </div>
 
     <div class="essential-box reveal" style="border-left-color: var(--matematica)">
@@ -85,7 +91,7 @@
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
         Essencial para a Prova
       </h3>
-      <p>Propriedades: log(xy), log(x/y), log(xⁿ).</p>
+      <p>log_a(b)=x ⟺ aˣ=b (a>0, a≠1, b>0). Propriedades: log(A·B)=logA+logB. log(A/B)=logA−logB. log(Aⁿ)=n·logA. Mudança: log_a(b)=log_c(b)/log_c(a). Consequências: log_a(1)=0, log_a(a)=1. log é a inversa da exponencial. ln=log_e (natural). log=log₁₀ (decimal).</p>
     </div>
 
     
@@ -95,10 +101,34 @@
         
           <div class="faq-item">
             <button class="faq-item__question" type="button">
-              <span>Em qual série este conteúdo é cobrado?</span>
+              <span>O que é logaritmo em palavras simples?</span>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
             </button>
-            <div class="faq-item__answer"><p>Este tema é estudado no 1º EM do Ensino Médio, na disciplina de Matemática.</p></div>
+            <div class="faq-item__answer"><p>Logaritmo responde: 'a que expoente devo elevar a base para obter o número?' log₂(8)=3 porque 2³=8. É a operação inversa da exponenciação.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Quando o logaritmo é 0?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>log_a(1)=0 para qualquer base a, porque a⁰=1 sempre. Ou seja, o logaritmo de 1 em qualquer base é zero.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Como usar mudança de base?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>log_a(b) = log_c(b)/log_c(a). Na prática, use log₁₀ na calculadora: log₂(8) = log(8)/log(2) = 0,903/0,301 = 3.</p></div>
+          </div>
+        
+          <div class="faq-item">
+            <button class="faq-item__question" type="button">
+              <span>Qual a diferença entre log e ln?</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <div class="faq-item__answer"><p>log = log₁₀ (base 10, logaritmo decimal). ln = log_e (base e≈2,718, logaritmo natural). ln é mais usado em cálculo e ciências; log em engenharia e escalas.</p></div>
           </div>
         
       </div>
@@ -106,7 +136,7 @@
     
     <div class="quiz-section reveal">
       <h2 class="section-title" style="border-bottom-color: var(--matematica)">🧠 Teste seus Conhecimentos</h2>
-      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJRdWFsIMOpIG8gdGVtYSBwcmluY2lwYWwgYWJvcmRhZG8gbmVzdGUgYXJ0aWdvPyIsIm9wdGlvbnMiOlsiRnVuw6fDo28gTG9nYXLDrXRtaWNhIiwiU29jaW9sb2dpYSIsIkdlb2dyYWZpYSIsIlF1w61taWNhIl0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IkVzdGUgY29udGXDumRvIMOpIGVzdHVkYWRvIGVtIHF1YWwgZGlzY2lwbGluYT8iLCJvcHRpb25zIjpbIk1hdGVtw6F0aWNhIiwiR2VvZ3JhZmlhIiwiUXXDrW1pY2EiLCJTb2Npb2xvZ2lhIl0sImFuc3dlciI6MH0seyJxdWVzdGlvbiI6IlZvY8OqIGNvbmNsdWl1IGEgbGVpdHVyYSBjb21wbGV0YSBkZXN0ZSBhcnRpZ28/Iiwib3B0aW9ucyI6WyJTaW0sIGxpIHRvZG8gbyBjb250ZcO6ZG8iLCJMaSBhcGVuYXMgbyByZXN1bW8iLCJBaW5kYSBuw6NvIGxpIiwiUHVsZWkgcGFyYSBvIHF1aXoiXSwiYW5zd2VyIjowfV0=">
+      <div class="quiz-container" id="quiz-container" data-quiz="W3sicXVlc3Rpb24iOiJsb2figoIoOCkgPSA/Iiwib3B0aW9ucyI6WyIyIiwiMyIsIjQiLCI4Il0sImFuc3dlciI6MX0seyJxdWVzdGlvbiI6ImxvZ19hKDEpID0gPyIsIm9wdGlvbnMiOlsiYSIsIjEiLCIwIiwi4oiSMSJdLCJhbnN3ZXIiOjJ9LHsicXVlc3Rpb24iOiJsb2coQcK3QikgPSA/Iiwib3B0aW9ucyI6WyJsb2dBIMK3IGxvZ0IiLCJsb2dBICsgbG9nQiIsImxvZ0Eg4oiSIGxvZ0IiLCJsb2dBIC8gbG9nQiJdLCJhbnN3ZXIiOjF9LHsicXVlc3Rpb24iOiJBIGVzY2FsYSBSaWNodGVyIMOpOiIsIm9wdGlvbnMiOlsiTGluZWFyIiwiUXVhZHLDoXRpY2EiLCJMb2dhcsOtdG1pY2EiLCJFeHBvbmVuY2lhbCJdLCJhbnN3ZXIiOjJ9XQ==">
         <div class="quiz-card" id="quiz-card">
           <p class="quiz-question" id="quiz-question"></p>
           <div class="quiz-options" id="quiz-options"></div>
@@ -140,6 +170,7 @@
     <div><h3 class="footer__col-title">Projeto</h3><a href="../roadmap.html" class="footer__link">Roadmap</a><a href="../sobre.html" class="footer__link">Sobre</a><a href="../fontes.html" class="footer__link">Fontes e Bibliografia</a><a href="../privacidade.html" class="footer__link">Privacidade</a><h3 class="footer__col-title" style="margin-top:1.5rem;">Contato</h3><a href="mailto:contato@beholderacademy.com.br" class="footer__link">contato@beholderacademy.com.br</a></div>
   </div><div class="container footer__bottom"><span>&copy; 2026 Beholder Academy. Todos os direitos reservados.</span><span>Feito com ⚡ para estudantes</span></div></footer>
   
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>

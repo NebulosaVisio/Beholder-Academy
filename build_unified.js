@@ -54,6 +54,16 @@ function getBg(color, opacity) {
   return map ? map['bg' + opacity] : `rgba(123, 47, 247, 0.${opacity})`;
 }
 
+// --- Shared Head Tags ---
+function getHeadExtras() {
+  return `
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+  <meta property="og:image" content="${SITE_URL}/assets/og-image.png">`;
+}
+
 // --- Shared Templates ---
 
 function getNavDropdown(relativePath = '') {
@@ -237,6 +247,7 @@ function generateLanding(subjectData, allSubjectsData) {
   <title>${subject} — Beholder Academy</title>
   <meta name="description" content="${landingDesc}">
   ${getOGTags(subject + ' — Beholder Academy', landingDesc, landingUrl)}
+  ${getHeadExtras()}
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   ${getBreadcrumbSchema(subject, '', slug, '')}
@@ -265,6 +276,7 @@ function generateLanding(subjectData, allSubjectsData) {
     </div>
   </main>
   ${getFooter('../')}
+  <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>`;
 
@@ -336,6 +348,7 @@ function generateArticle(subjectData, art, index, allArticles) {
   <title>${art.title} — ${subject}${gradeLabel} | Beholder Academy</title>
   <meta name="description" content="${metaDesc}">
   ${getOGTags(art.title + ' — ' + subject + ' | Beholder Academy', metaDescRaw, articleUrl)}
+  ${getHeadExtras()}
   <link rel="stylesheet" href="../assets/styles.css">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   ${getArticleSchema(art, subject, slug)}
@@ -385,6 +398,7 @@ function generateArticle(subjectData, art, index, allArticles) {
   </article>
 
   ${getFooter('../')}
+  <script src="../assets/theme.js"></script>
   <script src="../assets/rpg-engine.js"></script>
   <script src="../assets/app.js"></script>
 </body></html>`;
@@ -402,9 +416,18 @@ let allSubjectsData = [];
 
 // Phase 1: Load all data
 files.forEach(file => {
-  const data = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, file), 'utf8'));
-  totalArticlesCount += data.articles.length;
-  allSubjectsData.push(data);
+  try {
+    const data = JSON.parse(fs.readFileSync(path.join(CONTENT_DIR, file), 'utf8'));
+    if (!data.articles || !Array.isArray(data.articles)) {
+      console.error(`  ✗ ${file}: campo 'articles' ausente ou inválido`);
+      process.exit(1);
+    }
+    totalArticlesCount += data.articles.length;
+    allSubjectsData.push(data);
+  } catch(e) {
+    console.error(`  ✗ Erro ao processar ${file}: ${e.message}`);
+    process.exit(1);
+  }
 });
 
 // Phase 2: Generate pages

@@ -11,6 +11,7 @@ const ResponsavelUI = (function() {
     studentData = RPGEngine.load();
     renderStudents();
     renderDetail();
+    setupDelegation();
   }
 
   function renderStudents() {
@@ -36,7 +37,7 @@ const ResponsavelUI = (function() {
     );
 
     el.innerHTML = `
-      <div class="student-card active" onclick="ResponsavelUI.selectStudent()">
+      <div class="student-card active" data-action="select-student">
         <div class="student-card-top">
           <div class="student-avatar">🧑‍🎓</div>
           <div>
@@ -215,3 +216,14 @@ const ResponsavelUI = (function() {
 
   return { init, selectStudent, deposit };
 })();
+
+// --- Event Delegation for Responsavel ---
+function setupDelegation() {
+  document.addEventListener('click', function(e) {
+    var el = e.target.closest('[data-action]');
+    if (!el) return;
+    var action = el.getAttribute('data-action');
+    if (action === 'select-student') ResponsavelUI.selectStudent();
+    if (action === 'deposit') ResponsavelUI.deposit(parseInt(el.getAttribute('data-amount'), 10));
+  });
+}
