@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v14.5a3.5 3.5 0 0 0 7 0V2"/><path d="M9 2h9"/><path d="M10 12h7"/></svg>
         </div>
         <h1 class="hero__title">Química</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>28 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>28 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Química?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Química...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--quimica)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--quimica)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">12 quests</span> · <span class="tier-xp">💎 1200 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="materia-e-energia.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="materia-e-energia.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Matéria e Energia</h3>
       <p class="subject-card__desc">Matéria: tudo que tem massa e ocupa espaço. Estados: sólido, líquido, gasoso, plasma. Mudanças de estado. Substâncias puras e misturas (homogêneas/heterogêneas).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="modelos-atomicos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="modelos-atomicos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Modelos Atômicos</h3>
       <p class="subject-card__desc">Modelos atômicos: Dalton (bola maciça), Thomson (pudim de passas), Rutherford (núcleo+eletrosfera), Bohr (órbitas quantizadas). Partículas: próton, nêutron, elétron.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="distribuicao-eletronica.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="distribuicao-eletronica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Distribuição Eletrônica</h3>
       <p class="subject-card__desc">Distribuição eletrônica: diagrama de Linus Pauling. Camadas (K→Q), subníveis (s,p,d,f). Elétron de valência. Configuração de íons. Regra do octeto.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="tabela-periodica.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="tabela-periodica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Tabela Periódica</h3>
       <p class="subject-card__desc">Tabela periódica: períodos (linhas), famílias/grupos (colunas). Metais, não-metais, semimetais, gases nobres. Propriedades periódicas: raio, eletronegatividade, energia de ionização.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="ligacoes-quimicas.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="ligacoes-quimicas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Ligações Químicas</h3>
       <p class="subject-card__desc">Ligações: iônica (metal+não-metal, transferência e⁻), covalente (não-metal+não-metal, compartilhamento e⁻), metálica (mar de elétrons). Polaridade. Geometria molecular.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="funcoes-inorganicas-acidos-e-bases.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="funcoes-inorganicas-acidos-e-bases.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Funções Inorgânicas: Ácidos e Bases</h3>
       <p class="subject-card__desc">Ácidos: liberam H⁺ (Arrhenius), doam H⁺ (Brønsted). Bases: liberam OH⁻, recebem H⁺. pH: 0-14. Indicadores: tornassol, fenolftaleína.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="funcoes-inorganicas-sais-e-oxidos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="funcoes-inorganicas-sais-e-oxidos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Funções Inorgânicas: Sais e Óxidos</h3>
       <p class="subject-card__desc">Sais: produto de ácido+base (NaCl, CaCO₃). Reação de neutralização. Óxidos: ácidos (CO₂, SO₃), básicos (Na₂O, CaO), anfóteros (Al₂O₃), neutros (CO).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -162,9 +176,9 @@
       </div>
     </a>
       
-    <a href="reacoes-quimicas-tipos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="reacoes-quimicas-tipos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Reações Químicas: Tipos</h3>
       <p class="subject-card__desc">Tipos de reações: síntese (A+B→AB), decomposição (AB→A+B), simples troca (AB+C→AC+B), dupla troca (AB+CD→AD+CB). Combustão. Fila de reatividade.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -173,9 +187,9 @@
       </div>
     </a>
       
-    <a href="balanceamento-de-equacoes.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="balanceamento-de-equacoes.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Balanceamento de Equações</h3>
       <p class="subject-card__desc">Balanceamento: conservação de massa (Lavoisier). Método tentativa. Reações de oxidação-redução (NOX). Agente oxidante e redutor.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -184,9 +198,9 @@
       </div>
     </a>
       
-    <a href="estequiometria.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="estequiometria.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Estequiometria</h3>
       <p class="subject-card__desc">Estequiometria: cálculos com equações balanceadas. Mol (6,02×10²³). Massa molar. Relações massa-massa, massa-volume. Reagente limitante e em excesso.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -195,9 +209,9 @@
       </div>
     </a>
       
-    <a href="gases.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="gases.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gases</h3>
       <p class="subject-card__desc">Gases: equação geral (PV/T=const), lei de Boyle (PV=k), Charles (V/T=k), Gay-Lussac (P/T=k). Gás ideal (PV=nRT). Mistura de gases (Dalton).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -206,9 +220,9 @@
       </div>
     </a>
       
-    <a href="solucoes.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="solucoes.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Soluções</h3>
       <p class="subject-card__desc">Soluções: soluto+solvente. Concentração (C=m/V), molaridade (M=n/V), título, ppm. Diluição (C₁V₁=C₂V₂). Solubilidade. Curvas de solubilidade.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -220,13 +234,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--quimica)">Intermediário</h2>
+    <section class="subjects-section tier-section" data-tier="Intermediário" data-unlock-xp="500">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--quimica)">⚔️ Guerreiro</h2>
+        <p class="tier-desc">Desafios intermediários — prove seu valor! <span class="tier-count">8 quests</span> · <span class="tier-xp">💎 1200 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">500 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="termoquimica.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="termoquimica.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Termoquímica</h3>
       <p class="subject-card__desc">Termoquímica: entalpia (H), reações exotérmicas (ΔH<0) e endotérmicas (ΔH>0). Lei de Hess. Energia de ligação. Calor de formação e combustão.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -235,9 +255,9 @@
       </div>
     </a>
       
-    <a href="cinetica-quimica.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="cinetica-quimica.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Cinética Química</h3>
       <p class="subject-card__desc">Cinética: velocidade de reação. Fatores: concentração, temperatura, superfície de contato, catalisador. Energia de ativação. Teoria das colisões.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -246,9 +266,9 @@
       </div>
     </a>
       
-    <a href="equilibrio-quimico.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="equilibrio-quimico.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Equilíbrio Químico</h3>
       <p class="subject-card__desc">Equilíbrio: v_direta=v_inversa. Constante Kc e Kp. Princípio de Le Chatelier: perturbação → sistema se desloca para compensar. Fatores: concentração, T, P.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -257,9 +277,9 @@
       </div>
     </a>
       
-    <a href="equilibrio-ionico.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="equilibrio-ionico.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Equilíbrio Iônico</h3>
       <p class="subject-card__desc">Equilíbrio iônico: Ka, Kb, Kw=10⁻¹⁴. pH=-log[H⁺], pOH=-log[OH⁻]. Hidrólise salina. Soluções tampão. Produto de solubilidade (Kps).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -268,9 +288,9 @@
       </div>
     </a>
       
-    <a href="eletroquimica-pilhas.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="eletroquimica-pilhas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Eletroquímica: Pilhas</h3>
       <p class="subject-card__desc">Pilhas/baterias: reações espontâneas de oxidação-redução geram corrente. Ânodo (oxidação), cátodo (redução). Pilha de Daniell. Potencial de redução (E°).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -279,9 +299,9 @@
       </div>
     </a>
       
-    <a href="eletroquimica-eletrolise.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="eletroquimica-eletrolise.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Eletroquímica: Eletrólise</h3>
       <p class="subject-card__desc">Eletrólise: corrente elétrica → reação não espontânea. Cátodo (redução), ânodo (oxidação). Eletrólise ígnea (NaCl fundido) e aquosa. Leis de Faraday.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -290,9 +310,9 @@
       </div>
     </a>
       
-    <a href="radioatividade.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="radioatividade.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Radioatividade</h3>
       <p class="subject-card__desc">Radioatividade: emissão α (²He⁴), β (e⁻), γ (onda EM). Meia-vida (T½). Fissão (bomba atômica) e fusão (Sol). Aplicações: medicina, datação, energia.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -301,9 +321,9 @@
       </div>
     </a>
       
-    <a href="propriedades-coligativas.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="propriedades-coligativas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Propriedades Coligativas</h3>
       <p class="subject-card__desc">Propriedades coligativas: ebulioscopia (↑PE), crioscopia (↓PF), tonoscopia (↓pressão de vapor), osmose. Dependem da quantidade de partículas, não da natureza.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -315,13 +335,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--quimica)">Avançado</h2>
+    <section class="subjects-section tier-section" data-tier="Avançado" data-unlock-xp="2000">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--quimica)">👑 Mestre</h2>
+        <p class="tier-desc">Conteúdo avançado — apenas para os mais dedicados! <span class="tier-count">8 quests</span> · <span class="tier-xp">💎 1600 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">2000 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="introducao-a-organica.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="introducao-a-organica.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Introdução à Orgânica</h3>
       <p class="subject-card__desc">Química Orgânica: compostos de carbono. Hibridização sp³, sp², sp. Cadeias carbônicas: classificação (aberta/fechada, normal/ramificada, saturada/insaturada, homogênea/heterogênea).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -330,9 +356,9 @@
       </div>
     </a>
       
-    <a href="hidrocarbonetos.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="hidrocarbonetos.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Hidrocarbonetos</h3>
       <p class="subject-card__desc">Hidrocarbonetos: alcanos (-ano, CnH₂n+₂), alcenos (-eno, dupla), alcinos (-ino, tripla), aromáticos (benzeno). Nomenclatura IUPAC. Petróleo e derivados.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -341,9 +367,9 @@
       </div>
     </a>
       
-    <a href="funcoes-oxigenadas.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="funcoes-oxigenadas.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Funções Oxigenadas</h3>
       <p class="subject-card__desc">Funções oxigenadas: álcool (−OH), fenol (Ar−OH), éter (R−O−R'), aldeído (−CHO), cetona (C=O), ácido carboxílico (−COOH), éster (−COO−). Nomenclatura e aplicações.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -352,9 +378,9 @@
       </div>
     </a>
       
-    <a href="funcoes-nitrogenadas-e-outras.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="funcoes-nitrogenadas-e-outras.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Funções Nitrogenadas e Outras</h3>
       <p class="subject-card__desc">Funções nitrogenadas: amina (−NH₂), amida (−CONH₂), nitrilo (−C≡N). Haletos orgânicos. Compostos de enxofre. Nomenclatura.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -363,9 +389,9 @@
       </div>
     </a>
       
-    <a href="isomeria.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="isomeria.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Isomeria</h3>
       <p class="subject-card__desc">Isomeria: mesma fórmula molecular, estrutura diferente. Plana (cadeia, posição, função, compensação). Espacial (geométrica cis/trans, óptica R/S).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -374,9 +400,9 @@
       </div>
     </a>
       
-    <a href="reacoes-organicas.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="reacoes-organicas.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Reações Orgânicas</h3>
       <p class="subject-card__desc">Reações orgânicas: substituição (alcanos, aromáticos), adição (alcenos, alcinos), eliminação, oxidação, redução, esterificação/saponificação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -385,9 +411,9 @@
       </div>
     </a>
       
-    <a href="polimeros.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="polimeros.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Polímeros</h3>
       <p class="subject-card__desc">Polímeros: macromoléculas de monômeros repetidos. Adição (polietileno, PVC, PS) e condensação (nylon, poliéster, PET). Naturais (proteínas, celulose) e sintéticos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -396,9 +422,9 @@
       </div>
     </a>
       
-    <a href="bioquimica.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="bioquimica.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(230, 126, 34, 0.10); color:var(--quimica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Bioquímica</h3>
       <p class="subject-card__desc">Bioquímica: carboidratos (glicose, sacarose, amido), lipídios (gordura, óleos, fosfolipídios), proteínas (aminoácidos, ligação peptídica), ácidos nucleicos (DNA, RNA).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -422,4 +448,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'quimica';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>

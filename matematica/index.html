@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Matemática — Beholder Academy</title>
-  <meta name="description" content="Acervo completo de Matemática com 36 artigos. Conteúdo organizado por nível para Fundamental e Ensino Médio.">
+  <meta name="description" content="Acervo completo de Matemática com 84 artigos. Conteúdo organizado por nível para Fundamental e Ensino Médio.">
   
   <link rel="canonical" href="https://beholderacademy.com.br/matematica/">
   <meta property="og:type" content="article">
   <meta property="og:title" content="Matemática — Beholder Academy">
-  <meta property="og:description" content="Acervo completo de Matemática com 36 artigos. Conteúdo organizado por nível para Fundamental e Ensino Médio.">
+  <meta property="og:description" content="Acervo completo de Matemática com 84 artigos. Conteúdo organizado por nível para Fundamental e Ensino Médio.">
   <meta property="og:url" content="https://beholderacademy.com.br/matematica/">
   <meta property="og:site_name" content="Beholder Academy">
   <meta property="og:locale" content="pt_BR">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="Matemática — Beholder Academy">
-  <meta name="twitter:description" content="Acervo completo de Matemática com 36 artigos. Conteúdo organizado por nível para Fundamental e Ensino Médio.">
+  <meta name="twitter:description" content="Acervo completo de Matemática com 84 artigos. Conteúdo organizado por nível para Fundamental e Ensino Médio.">
   
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="16" height="20" x="4" y="2" rx="2"/><line x1="8" x2="16" y1="6" y2="6"/><line x1="16" x2="16" y1="14" y2="18"/><path d="M16 10h.01"/><path d="M12 10h.01"/><path d="M8 10h.01"/><path d="M12 14h.01"/><path d="M8 14h.01"/><path d="M12 18h.01"/><path d="M8 18h.01"/></svg>
         </div>
         <h1 class="hero__title">Matemática</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>36 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>84 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Matemática?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Matemática...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--matematica)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--matematica)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">26 quests</span> · <span class="tier-xp">💎 2370 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="conjuntos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="conjuntos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Conjuntos</h3>
       <p class="subject-card__desc">Teoria dos conjuntos: pertinência (∈), inclusão (⊂), operações (união ∪, interseção ∩, diferença −, complementar). Diagramas de Venn. Fórmula n(A∪B) = n(A)+n(B)−n(A∩B).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="conjuntos-numericos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="conjuntos-numericos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Conjuntos Numéricos</h3>
       <p class="subject-card__desc">Conjuntos numéricos: naturais (ℕ), inteiros (ℤ), racionais (ℚ), irracionais (𝕀) e reais (ℝ). Relação ℕ⊂ℤ⊂ℚ⊂ℝ. Identificação e classificação de números.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="funcao-definicao-e-grafico.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="funcao-definicao-e-grafico.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Função: Definição e Gráfico</h3>
       <p class="subject-card__desc">Função: relação onde cada x tem exatamente um y. Domínio, contradomínio e imagem. Gráfico cartesiano. Teste da reta vertical. Pré-requisito para todas as funções do EM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="funcao-afim-1-grau.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="funcao-afim-1-grau.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Função Afim (1º Grau)</h3>
       <p class="subject-card__desc">Função afim (1º grau): f(x)=ax+b. Gráfico: reta. Coeficiente angular (a): inclinação. Coeficiente linear (b): corta eixo y. Raiz: x=−b/a. Aplicações: táxi, celular, MRU.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="funcao-quadratica-2-grau.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="funcao-quadratica-2-grau.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Função Quadrática (2º Grau)</h3>
       <p class="subject-card__desc">Função quadrática (2º grau): f(x)=ax²+bx+c. Gráfico: parábola. Vértice V(−b/2a, −Δ/4a). Discriminante Δ=b²−4ac. Raízes por Bhaskara. Concavidade: a>0 ∪, a<0 ∩.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="funcao-exponencial.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="funcao-exponencial.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Função Exponencial</h3>
       <p class="subject-card__desc">Função exponencial f(x)=aˣ (a>0, a≠1). Crescimento (a>1) e decrescimento (0<a<1). Gráfico nunca toca eixo x. Aplicações: juros compostos, crescimento populacional, radioatividade.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="funcao-logaritmica.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="funcao-logaritmica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Função Logarítmica</h3>
       <p class="subject-card__desc">Logaritmo: log_a(b)=x ⟺ aˣ=b. Propriedades: log do produto, quociente, potência. Mudança de base. Logaritmo natural (ln) e decimal (log). Inversa da exponencial.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -162,9 +176,9 @@
       </div>
     </a>
       
-    <a href="trigonometria-no-triangulo-retangulo.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="trigonometria-no-triangulo-retangulo.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Trigonometria no Triângulo Retângulo</h3>
       <p class="subject-card__desc">Trigonometria no triângulo retângulo: sen=CO/HIP, cos=CA/HIP, tan=CO/CA. Ângulos notáveis: 30°, 45°, 60°. Teorema de Pitágoras. Relações fundamentais.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -173,9 +187,9 @@
       </div>
     </a>
       
-    <a href="trigonometria-no-ciclo.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="trigonometria-no-ciclo.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Trigonometria no Ciclo</h3>
       <p class="subject-card__desc">Ciclo trigonométrico: seno e cosseno na circunferência unitária. Radianos (π=180°). Funções periódicas. Gráficos de sen(x), cos(x), tan(x). Período, amplitude.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -184,9 +198,9 @@
       </div>
     </a>
       
-    <a href="progressao-aritmetica-pa.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="progressao-aritmetica-pa.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Progressão Aritmética (PA)</h3>
       <p class="subject-card__desc">PA: sequência com razão constante. Termo geral aₙ=a₁+(n−1)r. Soma Sₙ=n(a₁+aₙ)/2. Classificação: crescente (r>0), decrescente (r<0), constante (r=0).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -195,9 +209,9 @@
       </div>
     </a>
       
-    <a href="progressao-geometrica-pg.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="progressao-geometrica-pg.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Progressão Geométrica (PG)</h3>
       <p class="subject-card__desc">PG: sequência com razão multiplicativa constante. Termo geral aₙ=a₁·qⁿ⁻¹. Soma finita Sₙ=a₁(qⁿ−1)/(q−1). PG infinita convergente: S=a₁/(1−q) quando |q|<1.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -206,11 +220,607 @@
       </div>
     </a>
       
-    <a href="matematica-financeira.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="matematica-financeira.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Matemática Financeira</h3>
       <p class="subject-card__desc">Matemática financeira: juros simples (J=Cit) e compostos (M=C(1+i)ᵗ). Porcentagem, acréscimo, desconto. Lucro e prejuízo. Aplicações práticas para o ENEM.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="numeros-naturais-operacoes.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Números Naturais: Operações e Propriedades</h3>
+      <p class="subject-card__desc">Adição, subtração, multiplicação e divisão com números naturais.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="multiplos-divisores-mmc-mdc.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Múltiplos e Divisores (MMC e MDC)</h3>
+      <p class="subject-card__desc">Múltiplos, divisores, critérios de divisibilidade, MMC e MDC.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="fracoes-conceito-operacoes.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Frações: Conceito e Operações</h3>
+      <p class="subject-card__desc">Frações, equivalência, simplificação, adição, subtração, multiplicação e divisão.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 10 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="numeros-decimais.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Números Decimais</h3>
+      <p class="subject-card__desc">Representação decimal, operações, conversão fração-decimal.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="porcentagem-basica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Porcentagem Básica</h3>
+      <p class="subject-card__desc">Porcentagem como fração de 100, cálculos e aplicações no dia a dia.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-figuras-planas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria: Figuras Planas</h3>
+      <p class="subject-card__desc">Triângulos, quadriláteros, círculos e polígonos — classificação e propriedades.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="angulos-tipos-medidas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Ângulos: Tipos e Medidas</h3>
+      <p class="subject-card__desc">Classificação de ângulos, graus, ângulos complementares e suplementares.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="perimetro-area-retangulo-quadrado.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Perímetro e Área (Retângulo e Quadrado)</h3>
+      <p class="subject-card__desc">Cálculo de perímetro e área das figuras planas fundamentais.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="grandezas-medidas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Grandezas e Medidas</h3>
+      <p class="subject-card__desc">Comprimento, massa, capacidade e tempo — unidades e conversões.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="graficos-tabelas-leitura.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Gráficos e Tabelas: Leitura e Interpretação</h3>
+      <p class="subject-card__desc">Como ler, interpretar e construir gráficos de barras, setores e linhas.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="simetria-padroes-geometricos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="70">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Simetria e Padrões Geométricos</h3>
+      <p class="subject-card__desc">Simetria de reflexão e rotação, eixos de simetria e padrões na arte.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +70 XP</span>
+      </div>
+    </a>
+      
+    <a href="probabilidade-basica-dados.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Problemas com Dados e Probabilidade Básica</h3>
+      <p class="subject-card__desc">Experimentos aleatórios, espaço amostral, chance e probabilidade simples.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="numeros-inteiros-reta-numerica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Números Inteiros: A Reta Numérica</h3>
+      <p class="subject-card__desc">Números positivos, negativos, zero e a representação na reta numérica.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="media-moda-mediana.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Média, Moda e Mediana</h3>
+      <p class="subject-card__desc">Medidas de tendência central: média aritmética, moda e mediana.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+      </div>
+    </section>
+    
+    <section class="subjects-section tier-section" data-tier="Intermediário" data-unlock-xp="500">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--matematica)">⚔️ Guerreiro</h2>
+        <p class="tier-desc">Desafios intermediários — prove seu valor! <span class="tier-count">39 quests</span> · <span class="tier-xp">💎 4340 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">500 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
+      <div class="subjects-grid">
+        
+    <a href="geometria-plana-triangulos.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Plana: Triângulos</h3>
+      <p class="subject-card__desc">Triângulos: classificação por lados e ângulos. Soma dos ângulos internos = 180°. Congruência (LLL, LAL, ALA, LAA₀). Semelhança e Teorema de Tales. Relações métricas.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-plana-poligonos-e-circulos.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Plana: Polígonos e Círculos</h3>
+      <p class="subject-card__desc">Polígonos: soma dos ângulos internos Sᵢ=(n−2)·180°. Polígonos regulares. Circunferência: comprimento C=2πr, arcos, ângulos central e inscrito.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="areas-de-figuras-planas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Áreas de Figuras Planas</h3>
+      <p class="subject-card__desc">Áreas: triângulo (b·h/2), retângulo (b·h), paralelogramo (b·h), trapézio ((B+b)·h/2), losango (D·d/2), círculo (πr²). Hexágono regular, setor circular.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-espacial-prismas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Espacial: Prismas</h3>
+      <p class="subject-card__desc">Prismas: dois polígonos congruentes (bases) + faces laterais retangulares. Volume = Área da base × altura. Área total = 2·A_base + A_lateral. Prisma reto e oblíquo.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-espacial-piramides.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Espacial: Pirâmides</h3>
+      <p class="subject-card__desc">Pirâmides: base poligonal + vértice. Volume V=A_base·h/3 (um terço do prisma). Pirâmide regular: apótema da base e apótema da pirâmide. Tronco de pirâmide.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-espacial-cilindro.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Espacial: Cilindro</h3>
+      <p class="subject-card__desc">Cilindro: duas bases circulares paralelas. Volume V=πr²h. Área lateral A_lat=2πrh. Área total A_t=2πr²+2πrh. Cilindro equilátero: h=2r (seção axial é quadrado).</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-espacial-cone.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Espacial: Cone</h3>
+      <p class="subject-card__desc">Cone: base circular + vértice. Volume V=πr²h/3. Área lateral A_lat=πrg (g=geratriz). Relação: g²=r²+h². Cone equilátero: seção axial é triângulo equilátero.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-espacial-esfera.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Espacial: Esfera</h3>
+      <p class="subject-card__desc">Esfera: conjunto de pontos equidistantes do centro no espaço. Volume V=4πr³/3. Área da superfície A=4πr². Seção plana é sempre um círculo.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-analitica-ponto-e-reta.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Analítica: Ponto e Reta</h3>
+      <p class="subject-card__desc">Geometria analítica: distância entre pontos d=√[(x₂−x₁)²+(y₂−y₁)²]. Ponto médio M=((x₁+x₂)/2, (y₁+y₂)/2). Equação da reta y=mx+n. Posições relativas.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-analitica-circunferencia.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Analítica: Circunferência</h3>
+      <p class="subject-card__desc">Circunferência: (x−a)²+(y−b)²=r². Centro C(a,b), raio r. Equação geral: x²+y²+Dx+Ey+F=0. Posições relativas entre ponto, reta e circunferência.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-analitica-conicas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Analítica: Cônicas</h3>
+      <p class="subject-card__desc">Cônicas: elipse (x²/a²+y²/b²=1), hipérbole (x²/a²−y²/b²=1) e parábola (y²=4px). Focos, excentricidade, diretriz. Seções de um cone duplo.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="matrizes-e-determinantes.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Matrizes e Determinantes</h3>
+      <p class="subject-card__desc">Matrizes: tipos (quadrada, identidade, nula, transposta), operações (soma, produto). Determinantes: 2×2 (ad−bc), 3×3 (Sarrus). Aplicações: sistemas lineares, transformações.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +150 XP</span>
+      </div>
+    </a>
+      
+    <a href="operacoes-numeros-inteiros.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Operações com Números Inteiros</h3>
+      <p class="subject-card__desc">Adição, subtração, multiplicação e divisão com inteiros e regra de sinais.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="numeros-racionais.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Números Racionais</h3>
+      <p class="subject-card__desc">O conjunto Q: frações, decimais, dízimas e representação na reta.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="equacoes-primeiro-grau.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Equações do 1º Grau</h3>
+      <p class="subject-card__desc">O que é equação, incógnita, resolução e aplicação em problemas.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="inequacoes-primeiro-grau.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Inequações do 1º Grau</h3>
+      <p class="subject-card__desc">Desigualdades, resolução de inequações e representação na reta.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="razao-proporcao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Razão e Proporção</h3>
+      <p class="subject-card__desc">Razão entre grandezas, proporção, propriedade fundamental e escala.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="regra-de-tres.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Regra de Três Simples e Composta</h3>
+      <p class="subject-card__desc">Resolução de problemas de proporcionalidade direta e inversa.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="porcentagem-juros-simples.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Porcentagem e Juros Simples</h3>
+      <p class="subject-card__desc">Porcentagem aplicada, aumentos, descontos e juros simples.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="angulos-retas-paralelas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Ângulos em Retas Paralelas</h3>
+      <p class="subject-card__desc">Ângulos formados por retas paralelas cortadas por transversal.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="poligonos-angulos-internos.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Polígonos e Ângulos Internos</h3>
+      <p class="subject-card__desc">Soma dos ângulos internos de polígonos, diagonais e classificação.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="area-triangulos-paralelogramos.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Área de Triângulos e Paralelogramos</h3>
+      <p class="subject-card__desc">Fórmulas de área para triângulos, paralelogramos, trapézios e losangos.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="potenciacao-radiciacao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Potenciação e Radiciação</h3>
+      <p class="subject-card__desc">Potências, propriedades, raízes quadradas e cúbicas, racionalização.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="notacao-cientifica.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Notação Científica</h3>
+      <p class="subject-card__desc">Representação de números muito grandes ou pequenos na forma a × 10ⁿ.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 7 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="expressoes-algebricas-produtos-notaveis.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Expressões Algébricas e Produtos Notáveis</h3>
+      <p class="subject-card__desc">Monômios, polinômios, operações e os três produtos notáveis fundamentais.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="fatoracao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Fatoração</h3>
+      <p class="subject-card__desc">Fator comum, agrupamento, trinômio quadrado perfeito e diferença de quadrados.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="sistemas-equacoes-primeiro-grau.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Sistemas de Equações do 1º Grau</h3>
+      <p class="subject-card__desc">Sistemas com duas equações e duas incógnitas: substituição e adição.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="triangulos-congruencia.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Triângulos: Congruência</h3>
+      <p class="subject-card__desc">Triângulos congruentes e os casos de congruência: LLL, LAL, ALA, LAAo.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="triangulos-semelhanca.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Triângulos: Semelhança</h3>
+      <p class="subject-card__desc">Triângulos semelhantes, razão de semelhança e aplicações.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="teorema-de-tales.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Teorema de Tales</h3>
+      <p class="subject-card__desc">Feixe de retas paralelas, proporcionalidade e aplicações práticas.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="volume-prismas-cilindros.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Volume de Prismas e Cilindros</h3>
+      <p class="subject-card__desc">Volume de prismas (V = Ab × h) e cilindros (V = πr²h), capacidade.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="probabilidade-8ano.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Probabilidade</h3>
+      <p class="subject-card__desc">Probabilidade de eventos compostos, árvore e princípio multiplicativo.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="graficos-estatisticos-avancados.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="80">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Gráficos Estatísticos Avançados</h3>
+      <p class="subject-card__desc">Histograma, gráfico de dispersão, box plot e análise crítica de dados.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +80 XP</span>
+      </div>
+    </a>
+      
+    <a href="conjuntos-numericos-revisao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Conjuntos Numéricos (Revisão)</h3>
+      <p class="subject-card__desc">Revisão de N, Z, Q, I e R — relações de inclusão e operações.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="funcao-conceito-representacao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Função: Conceito e Representação</h3>
+      <p class="subject-card__desc">O que é função, domínio, contradomínio, imagem e representação gráfica.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="funcao-afim-introducao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Função Afim (Introdução)</h3>
+      <p class="subject-card__desc">Função do 1º grau: f(x) = ax + b, coeficientes, gráfico e crescimento.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="teorema-de-pitagoras.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Teorema de Pitágoras</h3>
+      <p class="subject-card__desc">A relação a² = b² + c² no triângulo retângulo e aplicações.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="circunferencia-circulo.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="90">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Circunferência e Círculo</h3>
+      <p class="subject-card__desc">Comprimento da circunferência, área do círculo, arcos e setores.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +90 XP</span>
+      </div>
+    </a>
+      
+    <a href="geometria-analitica-plano-cartesiano.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Geometria Analítica: Plano Cartesiano</h3>
+      <p class="subject-card__desc">Coordenadas, distância entre pontos, ponto médio e alinhamento.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
         <span>⏱️ 8 min</span>
         <span style="color: var(--matematica)">💎 +100 XP</span>
@@ -220,152 +830,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--matematica)">Intermediário</h2>
+    <section class="subjects-section tier-section" data-tier="Avançado" data-unlock-xp="2000">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--matematica)">👑 Mestre</h2>
+        <p class="tier-desc">Conteúdo avançado — apenas para os mais dedicados! <span class="tier-count">19 quests</span> · <span class="tier-xp">💎 3190 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">2000 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="geometria-plana-triangulos.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Plana: Triângulos</h3>
-      <p class="subject-card__desc">Triângulos: classificação por lados e ângulos. Soma dos ângulos internos = 180°. Congruência (LLL, LAL, ALA, LAA₀). Semelhança e Teorema de Tales. Relações métricas.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 8 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-plana-poligonos-e-circulos.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Plana: Polígonos e Círculos</h3>
-      <p class="subject-card__desc">Polígonos: soma dos ângulos internos Sᵢ=(n−2)·180°. Polígonos regulares. Circunferência: comprimento C=2πr, arcos, ângulos central e inscrito.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 8 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="areas-de-figuras-planas.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Áreas de Figuras Planas</h3>
-      <p class="subject-card__desc">Áreas: triângulo (b·h/2), retângulo (b·h), paralelogramo (b·h), trapézio ((B+b)·h/2), losango (D·d/2), círculo (πr²). Hexágono regular, setor circular.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 8 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-espacial-prismas.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Espacial: Prismas</h3>
-      <p class="subject-card__desc">Prismas: dois polígonos congruentes (bases) + faces laterais retangulares. Volume = Área da base × altura. Área total = 2·A_base + A_lateral. Prisma reto e oblíquo.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 7 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-espacial-piramides.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Espacial: Pirâmides</h3>
-      <p class="subject-card__desc">Pirâmides: base poligonal + vértice. Volume V=A_base·h/3 (um terço do prisma). Pirâmide regular: apótema da base e apótema da pirâmide. Tronco de pirâmide.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 7 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-espacial-cilindro.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Espacial: Cilindro</h3>
-      <p class="subject-card__desc">Cilindro: duas bases circulares paralelas. Volume V=πr²h. Área lateral A_lat=2πrh. Área total A_t=2πr²+2πrh. Cilindro equilátero: h=2r (seção axial é quadrado).</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 7 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-espacial-cone.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Espacial: Cone</h3>
-      <p class="subject-card__desc">Cone: base circular + vértice. Volume V=πr²h/3. Área lateral A_lat=πrg (g=geratriz). Relação: g²=r²+h². Cone equilátero: seção axial é triângulo equilátero.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 7 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-espacial-esfera.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Espacial: Esfera</h3>
-      <p class="subject-card__desc">Esfera: conjunto de pontos equidistantes do centro no espaço. Volume V=4πr³/3. Área da superfície A=4πr². Seção plana é sempre um círculo.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 7 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-analitica-ponto-e-reta.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Analítica: Ponto e Reta</h3>
-      <p class="subject-card__desc">Geometria analítica: distância entre pontos d=√[(x₂−x₁)²+(y₂−y₁)²]. Ponto médio M=((x₁+x₂)/2, (y₁+y₂)/2). Equação da reta y=mx+n. Posições relativas.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 8 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-analitica-circunferencia.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Analítica: Circunferência</h3>
-      <p class="subject-card__desc">Circunferência: (x−a)²+(y−b)²=r². Centro C(a,b), raio r. Equação geral: x²+y²+Dx+Ey+F=0. Posições relativas entre ponto, reta e circunferência.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 7 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="geometria-analitica-conicas.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Geometria Analítica: Cônicas</h3>
-      <p class="subject-card__desc">Cônicas: elipse (x²/a²+y²/b²=1), hipérbole (x²/a²−y²/b²=1) e parábola (y²=4px). Focos, excentricidade, diretriz. Seções de um cone duplo.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 7 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-    <a href="matrizes-e-determinantes.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
-      <h3 class="subject-card__title">Matrizes e Determinantes</h3>
-      <p class="subject-card__desc">Matrizes: tipos (quadrada, identidade, nula, transposta), operações (soma, produto). Determinantes: 2×2 (ad−bc), 3×3 (Sarrus). Aplicações: sistemas lineares, transformações.</p>
-      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
-        <span>⏱️ 8 min</span>
-        <span style="color: var(--matematica)">💎 +150 XP</span>
-      </div>
-    </a>
-      
-      </div>
-    </section>
-    
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--matematica)">Avançado</h2>
-      <div class="subjects-grid">
-        
-    <a href="principio-fundamental-da-contagem.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="principio-fundamental-da-contagem.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Princípio Fundamental da Contagem</h3>
       <p class="subject-card__desc">PFC: se uma decisão tem m opções e outra tem n opções, o total de combinações é m×n. Base de toda análise combinatória. Árvore de possibilidades.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -374,9 +851,9 @@
       </div>
     </a>
       
-    <a href="fatorial-e-arranjo.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="fatorial-e-arranjo.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fatorial e Arranjo</h3>
       <p class="subject-card__desc">Fatorial: n!=n×(n−1)×...×1. Arranjo: A(n,p)=n!/(n−p)! — ordem importa, sem repetição. Aplicações: pódios, senhas sem repetição, ranking.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -385,9 +862,9 @@
       </div>
     </a>
       
-    <a href="permutacao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="permutacao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Permutação</h3>
       <p class="subject-card__desc">Permutação: arranjar todos os n elementos. Pₙ=n!. Permutação com repetição: n!/(n₁!·n₂!·...·nₖ!). Anagramas. Permutação circular: (n−1)!.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -396,9 +873,9 @@
       </div>
     </a>
       
-    <a href="combinacao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="combinacao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Combinação</h3>
       <p class="subject-card__desc">Combinação: C(n,p)=n!/[p!(n−p)!]. Ordem NÃO importa. Comissões, equipes, subconjuntos. Triângulo de Pascal. Relação C(n,p)=C(n,n−p).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -407,9 +884,9 @@
       </div>
     </a>
       
-    <a href="binomio-de-newton.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="binomio-de-newton.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Binômio de Newton</h3>
       <p class="subject-card__desc">Binômio de Newton: (a+b)ⁿ expandido. Termo geral Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Triângulo de Pascal gera os coeficientes. Propriedades dos coeficientes binomiais.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -418,9 +895,9 @@
       </div>
     </a>
       
-    <a href="probabilidade.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="probabilidade.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Probabilidade</h3>
       <p class="subject-card__desc">Probabilidade: P(A)=favoráveis/possíveis. Eventos independentes, mutuamente exclusivos. Probabilidade condicional P(A|B). Complementar P(Ā)=1−P(A). Espaço amostral.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -429,9 +906,9 @@
       </div>
     </a>
       
-    <a href="estatistica-medidas-de-tendencia-central.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="estatistica-medidas-de-tendencia-central.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Estatística: Medidas de Tendência Central</h3>
       <p class="subject-card__desc">Estatística: média aritmética (soma/n), mediana (valor central), moda (mais frequente). Média ponderada. Interpretação de gráficos e tabelas no ENEM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -440,9 +917,9 @@
       </div>
     </a>
       
-    <a href="estatistica-medidas-de-dispersao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="estatistica-medidas-de-dispersao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Estatística: Medidas de Dispersão</h3>
       <p class="subject-card__desc">Dispersão: variância (média dos desvios²), desvio padrão (√variância), amplitude (max−min). Medem a dispersão dos dados em torno da média.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -451,9 +928,9 @@
       </div>
     </a>
       
-    <a href="sistemas-lineares.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="sistemas-lineares.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Sistemas Lineares</h3>
       <p class="subject-card__desc">Sistemas lineares: 2×2 e 3×3. Métodos de resolução: substituição, adição, escalonamento, Cramer. Classificação: SPI (determinado), SPI (indeterminado), SI (impossível).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -462,9 +939,9 @@
       </div>
     </a>
       
-    <a href="numeros-complexos.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="numeros-complexos.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Números Complexos</h3>
       <p class="subject-card__desc">Números complexos: z=a+bi (i²=−1). Plano de Argand-Gauss. Módulo |z|=√(a²+b²). Conjugado z̄=a−bi. Forma trigonométrica z=|z|(cosθ+i·senθ). Operações.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -473,9 +950,9 @@
       </div>
     </a>
       
-    <a href="polinomios.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="polinomios.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Polinômios</h3>
       <p class="subject-card__desc">Polinômios: P(x)=aₙxⁿ+...+a₁x+a₀. Grau, valor numérico, operações. Divisão por Briot-Ruffini. Dispositivo prático. Identidade de polinômios.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -484,14 +961,91 @@
       </div>
     </a>
       
-    <a href="equacoes-polinomiais.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="equacoes-polinomiais.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Equações Polinomiais</h3>
       <p class="subject-card__desc">Equações polinomiais: Teorema Fundamental da Álgebra (grau n → n raízes). Relações de Girard. Raízes racionais. Decomposição em fatores lineares.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
         <span>⏱️ 7 min</span>
         <span style="color: var(--matematica)">💎 +200 XP</span>
+      </div>
+    </a>
+      
+    <a href="equacoes-segundo-grau.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="120">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Equações do 2º Grau</h3>
+      <p class="subject-card__desc">Forma ax²+bx+c=0, discriminante, fórmula de Bhaskara e soma/produto.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 10 min</span>
+        <span style="color: var(--matematica)">💎 +120 XP</span>
+      </div>
+    </a>
+      
+    <a href="funcao-quadratica-introducao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="120">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Função Quadrática (Introdução)</h3>
+      <p class="subject-card__desc">Função do 2º grau: f(x) = ax² + bx + c, parábola e vértice.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 10 min</span>
+        <span style="color: var(--matematica)">💎 +120 XP</span>
+      </div>
+    </a>
+      
+    <a href="relacoes-trigonometricas.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="120">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Relações Trigonométricas no Triângulo Retângulo</h3>
+      <p class="subject-card__desc">Seno, cosseno e tangente — conceito e cálculos no triângulo retângulo.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 10 min</span>
+        <span style="color: var(--matematica)">💎 +120 XP</span>
+      </div>
+    </a>
+      
+    <a href="volume-piramides-cones-esferas.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Volume de Pirâmides, Cones e Esferas</h3>
+      <p class="subject-card__desc">Volume de pirâmides (V=Ab×h/3), cones (V=πr²h/3) e esferas (V=4πr³/3).</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="juros-compostos.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="110">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Juros Compostos</h3>
+      <p class="subject-card__desc">Juros sobre juros, fórmula M = C(1+i)ᵗ e comparação com juros simples.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 9 min</span>
+        <span style="color: var(--matematica)">💎 +110 XP</span>
+      </div>
+    </a>
+      
+    <a href="estatistica-medidas-dispersao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Estatística: Medidas de Dispersão</h3>
+      <p class="subject-card__desc">Amplitude, variância e desvio padrão — como medir a variabilidade dos dados.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 8 min</span>
+        <span style="color: var(--matematica)">💎 +100 XP</span>
+      </div>
+    </a>
+      
+    <a href="revisao-integradora-em.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="120">
+      <div class="subject-card__icon" style="background:rgba(6, 214, 160, 0.10); color:var(--matematica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
+      <h3 class="subject-card__title">Revisão Integradora para o Ensino Médio</h3>
+      <p class="subject-card__desc">Consolidação dos conceitos fundamentais do EF2 para transição ao EM.</p>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
+        <span>⏱️ 10 min</span>
+        <span style="color: var(--matematica)">💎 +120 XP</span>
       </div>
     </a>
       
@@ -510,4 +1064,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'matematica';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>

@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>
         </div>
         <h1 class="hero__title">Geografia</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>32 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>32 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Geografia?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Geografia...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--geografia)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--geografia)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">10 quests</span> · <span class="tier-xp">💎 1000 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="cartografia-projecoes-escalas-e-coordenadas.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="cartografia-projecoes-escalas-e-coordenadas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Cartografia: Projeções, Escalas e Coordenadas</h3>
       <p class="subject-card__desc">Cartografia: projeções (Mercator, Peters, cônica). Escalas numéricas e gráficas. Coordenadas: latitude, longitude. Fusos horários.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="geologia-estrutura-interna-da-terra.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="geologia-estrutura-interna-da-terra.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Geologia: Estrutura Interna da Terra</h3>
       <p class="subject-card__desc">Estrutura da Terra: crosta, manto, núcleo externo (líquido) e interno (sólido). Tectônica de placas: limites convergentes, divergentes, transformantes. Terremotos, vulcanismo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="relevo-agentes-internos-e-externos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="relevo-agentes-internos-e-externos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Relevo: Agentes Internos e Externos</h3>
       <p class="subject-card__desc">Relevo: agentes internos (tectonismo, vulcanismo) e externos (intemperismo, erosão, deposição). Formas: planícies, planaltos, depressões, montanhas. Relevo brasileiro.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="hidrografia-rios-bacias-e-aquiferos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="hidrografia-rios-bacias-e-aquiferos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Hidrografia: Rios, Bacias e Aquíferos</h3>
       <p class="subject-card__desc">Hidrografia: bacias hidrográficas, rios (perenes, intermitentes), aquíferos, regime fluvial. Bacias brasileiras: Amazônica, Paraná, São Francisco. Aquífero Guarani.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="climatologia-fatores-e-elementos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="climatologia-fatores-e-elementos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Climatologia: Fatores e Elementos</h3>
       <p class="subject-card__desc">Climatologia: fatores climáticos (latitude, altitude, maritimidade, massas de ar). Elementos: temperatura, pressão, umidade, precipitação. Clima vs tempo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="tipos-de-clima-no-mundo.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="tipos-de-clima-no-mundo.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Tipos de Clima no Mundo</h3>
       <p class="subject-card__desc">Climas: equatorial, tropical, temperado, mediterrâneo, frio, árido, semiárido.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="vegetacao-e-biomas-mundiais.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="vegetacao-e-biomas-mundiais.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Vegetação e Biomas Mundiais</h3>
       <p class="subject-card__desc">Biomas mundiais: floresta tropical, savana, deserto, estepe, floresta temperada, taiga, tundra.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -162,9 +176,9 @@
       </div>
     </a>
       
-    <a href="dominios-morfoclimaticos-brasileiros.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="dominios-morfoclimaticos-brasileiros.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Domínios Morfoclimáticos Brasileiros</h3>
       <p class="subject-card__desc">Domínios morfoclimáticos (Ab Saber): Amazônico, Cerrado, Mares de Morros, Caatinga, Araucárias, Pradarias. Transições.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -173,9 +187,9 @@
       </div>
     </a>
       
-    <a href="solo-formacao-tipos-e-degradacao.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="solo-formacao-tipos-e-degradacao.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Solo: Formação, Tipos e Degradação</h3>
       <p class="subject-card__desc">Solo: pedogênese, horizontes (O,A,B,C,R), latossolo, erosão, desertificação, conservação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -184,9 +198,9 @@
       </div>
     </a>
       
-    <a href="questoes-ambientais-globais.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="questoes-ambientais-globais.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Questões Ambientais Globais</h3>
       <p class="subject-card__desc">Questões ambientais: aquecimento global, desmatamento, escassez hídrica. Conferências: Rio 92, Kyoto, Paris. ODS da ONU.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -198,13 +212,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--geografia)">Intermediário</h2>
+    <section class="subjects-section tier-section" data-tier="Intermediário" data-unlock-xp="500">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--geografia)">⚔️ Guerreiro</h2>
+        <p class="tier-desc">Desafios intermediários — prove seu valor! <span class="tier-count">10 quests</span> · <span class="tier-xp">💎 1500 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">500 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="ordem-mundial-e-geopolitica.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="ordem-mundial-e-geopolitica.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Ordem Mundial e Geopolítica</h3>
       <p class="subject-card__desc">Ordem mundial: bipolaridade (Guerra Fria), unipolaridade (pos-1991), multipolaridade atual. Geopolitica: ONU, OTAN, BRICS. Novos conflitos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -213,9 +233,9 @@
       </div>
     </a>
       
-    <a href="globalizacao-economia-cultura-e-contradicoes.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="globalizacao-economia-cultura-e-contradicoes.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Globalização: Economia, Cultura e Contradições</h3>
       <p class="subject-card__desc">Globalizacao: integracao economica, cultural e tecnologica. Multinacionais. Desigualdade. Redes e fluxos. Contradicoes e resistencias.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -224,9 +244,9 @@
       </div>
     </a>
       
-    <a href="blocos-economicos-e-comercio-internacional.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="blocos-economicos-e-comercio-internacional.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Blocos Econômicos e Comércio Internacional</h3>
       <p class="subject-card__desc">Blocos economicos: UE (maior integracao), Mercosul, NAFTA/USMCA, ASEAN. Comercio internacional: OMC, balanca comercial, protecionismo vs livre comercio.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -235,9 +255,9 @@
       </div>
     </a>
       
-    <a href="industrializacao-revolucoes-industriais.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="industrializacao-revolucoes-industriais.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Industrialização: Revoluções Industriais</h3>
       <p class="subject-card__desc">Industrializacao: 1a Rev (vapor, textil), 2a Rev (eletricidade, petroleo), 3a Rev (informatica), 4a Rev (IA, IoT). Industrializacao tardia (Brasil). DIT.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -246,9 +266,9 @@
       </div>
     </a>
       
-    <a href="urbanizacao-mundial.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="urbanizacao-mundial.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Urbanização Mundial</h3>
       <p class="subject-card__desc">Urbanizacao: processo de crescimento das cidades. Desenvolvidos vs subdesenvolvidos. Megalopoles, megacidades. Problemas urbanos. Rede e hierarquia urbana.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -257,9 +277,9 @@
       </div>
     </a>
       
-    <a href="urbanizacao-brasileira.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="urbanizacao-brasileira.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Urbanização Brasileira</h3>
       <p class="subject-card__desc">Urbanizacao brasileira: exodo rural pos-1950. Metropolizacao. Regioes metropolitanas. Problemas urbanos: favelizacao, transporte, violencia, segregacao.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -268,9 +288,9 @@
       </div>
     </a>
       
-    <a href="populacao-mundial-teorias-e-dinamica.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="populacao-mundial-teorias-e-dinamica.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">População Mundial: Teorias e Dinâmica</h3>
       <p class="subject-card__desc">Populacao: Malthus, neomalthusiana, reformista. Transicao demografica. Taxa natalidade, mortalidade, fecundidade. Piramide etaria. Envelhecimento.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -279,9 +299,9 @@
       </div>
     </a>
       
-    <a href="migracoes-internacionais-e-refugiados.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="migracoes-internacionais-e-refugiados.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Migrações Internacionais e Refugiados</h3>
       <p class="subject-card__desc">Migracoes: tipos (voluntaria, forcada), causas (economica, conflitos, climatica). Refugiados: ACNUR. Xenofobia. Diaspora. Migracoes no Brasil.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -290,9 +310,9 @@
       </div>
     </a>
       
-    <a href="matriz-energetica-mundial-e-brasileira.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="matriz-energetica-mundial-e-brasileira.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Matriz Energética Mundial e Brasileira</h3>
       <p class="subject-card__desc">Energia: matriz mundial (petroleoo, carvao, gas) vs brasileira (hidreletrica, biomassa, petroleo). Renovaveis vs nao-renovaveis. Solar, eolica, nuclear.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -301,9 +321,9 @@
       </div>
     </a>
       
-    <a href="agricultura-global-e-brasileira.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="agricultura-global-e-brasileira.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Agricultura Global e Brasileira</h3>
       <p class="subject-card__desc">Agricultura: revolução verde, agronegócio vs agricultura familiar. Monocultura, latifúndio. Brasil: soja, café, cana. Questão agrária. MST.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -315,13 +335,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--geografia)">Avançado</h2>
+    <section class="subjects-section tier-section" data-tier="Avançado" data-unlock-xp="2000">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--geografia)">👑 Mestre</h2>
+        <p class="tier-desc">Conteúdo avançado — apenas para os mais dedicados! <span class="tier-count">12 quests</span> · <span class="tier-xp">💎 2400 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">2000 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="brasil-territorio-e-regionalizacao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="brasil-territorio-e-regionalizacao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Brasil: Território e Regionalização</h3>
       <p class="subject-card__desc">Brasil: 5 regioes (IBGE), 3 complexos regionais (Becker/Egler). Fronteiras, fusos horarios, posicao geografica. Formacao territorial.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -330,9 +356,9 @@
       </div>
     </a>
       
-    <a href="economia-brasileira.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="economia-brasileira.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Economia Brasileira</h3>
       <p class="subject-card__desc">Economia BR: setores (agro, industria, servicos). Balanca comercial. Divida. Desigualdade. PIB. Commodities. Industrializacao tardia.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -341,9 +367,9 @@
       </div>
     </a>
       
-    <a href="populacao-brasileira.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="populacao-brasileira.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">População Brasileira</h3>
       <p class="subject-card__desc">Populacao BR: ~215 milhoes. Formacao: indigena, portuguesa, africana, imigrantes. Distribuicao desigual. IDH. Transicao demografica. Diversidade.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -352,9 +378,9 @@
       </div>
     </a>
       
-    <a href="problemas-sociais-e-urbanos-no-brasil.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="problemas-sociais-e-urbanos-no-brasil.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Problemas Sociais e Urbanos no Brasil</h3>
       <p class="subject-card__desc">Problemas sociais BR: desigualdade, pobreza, violencia, saude, educacao, moradia, saneamento, transporte. Segregacao socioespacial.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -363,9 +389,9 @@
       </div>
     </a>
       
-    <a href="eua-superpotencia.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="eua-superpotencia.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">EUA: Superpotência</h3>
       <p class="subject-card__desc">EUA: maior economia mundial. Poder militar, tecnologico e cultural. Belts, Sun Belt. Desigualdade racial. Politica externa.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -374,9 +400,9 @@
       </div>
     </a>
       
-    <a href="europa-uniao-europeia-e-desafios.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="europa-uniao-europeia-e-desafios.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Europa: União Europeia e Desafios</h3>
       <p class="subject-card__desc">Europa e UE: integracao europeia, euro, Schengen. Brexit. Envelhecimento. Imigracao. Crise de refugiados. Extrema-direita.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -385,9 +411,9 @@
       </div>
     </a>
       
-    <a href="russia-e-cei.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="russia-e-cei.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Rússia e CEI</h3>
       <p class="subject-card__desc">Russia: maior pais do mundo. Recursos naturais (gas, petroleo). CEI. Conflito com Ucrania. Putin. Ex-URSS. Geopolitica.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -396,9 +422,9 @@
       </div>
     </a>
       
-    <a href="china-e-india-potencias-emergentes.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="china-e-india-potencias-emergentes.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">China e Índia: Potências Emergentes</h3>
       <p class="subject-card__desc">China: 2a economia, fabrica do mundo. India: maior populacao. BRICS. Crescimento acelerado. Desafios sociais e ambientais.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -407,9 +433,9 @@
       </div>
     </a>
       
-    <a href="oriente-medio-petroleo-e-conflitos.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="oriente-medio-petroleo-e-conflitos.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Oriente Médio: Petróleo e Conflitos</h3>
       <p class="subject-card__desc">Oriente Medio: petroleo (OPEP), conflito Israel-Palestina, primavera arabe, Ira vs Arabia Saudita, agua escassa, Islamismo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -418,9 +444,9 @@
       </div>
     </a>
       
-    <a href="africa-potencial-e-desafios.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="africa-potencial-e-desafios.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">África: Potencial e Desafios</h3>
       <p class="subject-card__desc">Africa: 54 paises, recursos naturais. Colonizacao e fronteiras artificiais. Conflitos etnicos. IDH baixo. Crescimento demografico. Potencial economico.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -429,9 +455,9 @@
       </div>
     </a>
       
-    <a href="america-latina-integracao-e-desafios.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="america-latina-integracao-e-desafios.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">América Latina: Integração e Desafios</h3>
       <p class="subject-card__desc">America Latina: colonizacao ibérica. Desigualdade. Industrializacao tardia. Mercosul. Ditaduras e democracia. Dependencia economica.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -440,9 +466,9 @@
       </div>
     </a>
       
-    <a href="mudancas-climaticas-e-sustentabilidade.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="mudancas-climaticas-e-sustentabilidade.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(244, 162, 97, 0.10); color:var(--geografia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Mudanças Climáticas e Sustentabilidade</h3>
       <p class="subject-card__desc">Mudancas climaticas: aquecimento global, CO2, efeito estufa. Consequencias: nivel do mar, eventos extremos, refugiados climaticos. Sustentabilidade: ESG, economia circular.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -466,4 +492,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'geografia';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>

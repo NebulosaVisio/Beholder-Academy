@@ -207,17 +207,22 @@ function getBreadcrumb(relativePath, subject, articleTitle) {
 function generateLanding(subjectData, allSubjectsData) {
   const { subject, slug, articles, color } = subjectData;
   
-  const levels = ['Básico', 'Intermediário', 'Avançado'];
-  const sectionsHtml = levels.map(level => {
-    const filteredArticles = articles.filter(a => (a.difficulty || 'Básico') === level);
+  // RPG Tier system - progressive unlocking
+  const tiers = [
+    { key: 'Básico', name: '🌱 Explorador', desc: 'Conteúdo inicial — comece sua jornada aqui!', unlockXP: 0 },
+    { key: 'Intermediário', name: '⚔️ Guerreiro', desc: 'Desafios intermediários — prove seu valor!', unlockXP: 500 },
+    { key: 'Avançado', name: '👑 Mestre', desc: 'Conteúdo avançado — apenas para os mais dedicados!', unlockXP: 2000 }
+  ];
+  
+  const sectionsHtml = tiers.map(tier => {
+    const filteredArticles = articles.filter(a => (a.difficulty || 'Básico') === tier.key);
     if (filteredArticles.length === 0) return '';
 
     const cards = filteredArticles.map(art => {
-      const gradeLabel = art.grade ? `<span class="grade-badge">${art.grade}</span>` : '';
       return `
-    <a href="${art.slug}.html" class="subject-card reveal" data-grade="${art.grade || ''}">
-      <div class="subject-card__icon" style="background:${getBg(color, 10)}; color:${color}; font-weight:700; font-size:12px;">${art.difficulty || 'Básico'}</div>
-      ${gradeLabel}
+    <a href="${art.slug}.html" class="subject-card reveal quest-card" data-tier="${tier.key}" data-xp-required="${tier.unlockXP}" data-xp-reward="${art.xp}">
+      <div class="subject-card__icon" style="background:${getBg(color, 10)}; color:${color}; font-weight:700; font-size:12px;">${tier.key === 'Básico' ? '🌱' : tier.key === 'Intermediário' ? '⚔️' : '👑'}</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">${art.title}</h3>
       <p class="subject-card__desc">${art.desc}</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -228,9 +233,16 @@ function generateLanding(subjectData, allSubjectsData) {
       `;
     }).join('');
 
+    const totalXP = filteredArticles.reduce((s, a) => s + a.xp, 0);
     return `
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: ${color}">${level}</h2>
+    <section class="subjects-section tier-section" data-tier="${tier.key}" data-unlock-xp="${tier.unlockXP}">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: ${color}">${tier.name}</h2>
+        <p class="tier-desc">${tier.desc} <span class="tier-count">${filteredArticles.length} quests</span> · <span class="tier-xp">💎 ${totalXP} XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">${tier.unlockXP} XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         ${cards}
       </div>
@@ -263,10 +275,18 @@ function generateLanding(subjectData, allSubjectsData) {
           ${subjectIcons[slug] || ''}
         </div>
         <h1 class="hero__title">${subject}</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>${articles.length} artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>${articles.length} quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre ${subject}?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em ${subject}...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -279,6 +299,58 @@ function generateLanding(subjectData, allSubjectsData) {
   ${getFooter('../')}
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = '${slug}';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>`;
 
   fs.mkdirSync(slug, { recursive: true });
@@ -339,14 +411,14 @@ function generateArticle(subjectData, art, index, allArticles) {
   // Use raw desc for meta (escapeHtml is applied inside getOGTags via escapeHtml)
   const metaDescRaw = art.desc || art.body.replace(/<[^>]*>?/gm, '').substring(0, 155).trim() + '...';
   const metaDesc = escapeHtml(metaDescRaw);
-  const gradeLabel = art.grade ? ` | ${art.grade}` : '';
+  // grade is internal-only metadata, not shown on the site
   const articleUrl = `${SITE_URL}/${slug}/${art.slug}.html`;
 
   const html = `<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>${art.title} — ${subject}${gradeLabel} | Beholder Academy</title>
+  <title>${art.title} — ${subject} | Beholder Academy</title>
   <meta name="description" content="${metaDesc}">
   ${getOGTags(art.title + ' — ' + subject + ' | Beholder Academy', metaDescRaw, articleUrl)}
   ${getHeadExtras()}
@@ -366,8 +438,7 @@ function generateArticle(subjectData, art, index, allArticles) {
       <div class="article-meta" style="justify-content: center; margin-bottom: 1rem;">
         <span style="color: ${color}; font-weight: 700;">${subject}</span>
         <span style="color: var(--text-muted)">•</span>
-        <span>${art.difficulty || 'Básico'}</span>
-        ${art.grade ? `<span style="color: var(--text-muted)">•</span><span class="grade-badge">${art.grade}</span>` : ''}
+        <span>${art.difficulty === 'Básico' ? '🌱 Explorador' : art.difficulty === 'Intermediário' ? '⚔️ Guerreiro' : '👑 Mestre'}</span>
       </div>
       <h1 class="article-title">${art.title}</h1>
       <div class="article-meta">
@@ -456,70 +527,48 @@ if (fs.existsSync(fund1Dir)) {
   }
 }
 
-// Phase 1c: Load Fund2 data (content/fund2/*.json) - generates full HTML pages
-const fund2Data = [];
+// Phase 1c: Load Fund2 data (content/fund2/*.json) - merge into existing subjects
 const fund2Dir = path.join(CONTENT_DIR, 'fund2');
 if (fs.existsSync(fund2Dir)) {
   const fund2Files = fs.readdirSync(fund2Dir).filter(f => f.endsWith('.json'));
+  let fund2Total = 0;
   
-  // Group by subject for combined landing pages
-  const fund2BySubject = {};
   fund2Files.forEach(file => {
     try {
       const data = JSON.parse(fs.readFileSync(path.join(fund2Dir, file), 'utf8'));
       if (!data.articles || !Array.isArray(data.articles)) return;
       
+      // Find matching subject in allSubjectsData by normalized name
       const subjectKey = data.subject.toLowerCase()
         .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
         .replace(/\s+/g, '-');
       
-      if (!fund2BySubject[subjectKey]) {
-        fund2BySubject[subjectKey] = {
-          subject: data.subject,
-          slug: subjectKey,
-          articles: []
-        };
+      const match = allSubjectsData.find(s => {
+        const sKey = s.subject.toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/\s+/g, '-');
+        return sKey === subjectKey || s.slug === subjectKey;
+      });
+      
+      if (match) {
+        // Merge fund2 articles into the existing subject
+        match.articles.push(...data.articles);
+        totalArticlesCount += data.articles.length;
+        fund2Total += data.articles.length;
+      } else {
+        console.warn(`  ⚠ Fund2 ${file}: matéria "${data.subject}" não encontrada no EM, criando nova entrada`);
+        // Create a new subject entry if no EM equivalent exists
+        allSubjectsData.push(data);
+        totalArticlesCount += data.articles.length;
+        fund2Total += data.articles.length;
       }
-      fund2BySubject[subjectKey].articles.push(...data.articles);
-      fund2Data.push(data);
     } catch(e) {
       console.warn(`  ⚠ Fund2 ${file}: ${e.message}`);
     }
   });
   
-  // Assign colors to fund2 subjects (reuse existing or add new)
-  const fund2SubjectColors = {
-    'matematica': 'var(--matematica)',
-    'historia': 'var(--historia)',
-    'ciencias': 'var(--biologia)',
-    'geografia': 'var(--geografia)',
-    'ingles': 'var(--ingles)',
-    'artes': 'var(--literatura)',
-    'portugues': 'var(--portugues)'
-  };
-  
-  // Generate HTML for each fund2 subject
-  Object.values(fund2BySubject).forEach(subjectGroup => {
-    const outputSlug = subjectGroup.slug + '-ef2';
-    const color = fund2SubjectColors[subjectGroup.slug] || 'var(--portugues)';
-    const icon = subjectIcons[subjectGroup.slug] || subjectIcons['portugues'];
-    
-    const subjectData = {
-      subject: subjectGroup.subject + ' (Fund. 2)',
-      slug: outputSlug,
-      articles: subjectGroup.articles,
-      color: color
-    };
-    
-    // Generate landing page and article pages
-    generateLanding(subjectData, allSubjectsData);
-    subjectData.articles.forEach((art, i) => generateArticle(subjectData, art, i, subjectData.articles));
-    totalArticlesCount += subjectData.articles.length;
-  });
-  
-  if (fund2Data.length > 0) {
-    const totalF2 = fund2Data.reduce((s,d) => s+d.articles.length, 0);
-    console.log(`  ✓ Fund2: ${fund2Data.length} arquivos, ${totalF2} artigos (HTML generated)`);
+  if (fund2Total > 0) {
+    console.log(`  ✓ Fund2: ${fund2Files.length} arquivos, ${fund2Total} artigos (merged into subjects)`);
   }
 }
 
@@ -552,24 +601,6 @@ fund1Data.forEach(data => {
       desc: (art.desc || '').substring(0, 80),
       subject: data.subject,
       slug: '', // No HTML pages yet for Fund1
-      difficulty: art.difficulty || 'Básico',
-      grade: art.grade || '',
-      xp: art.xp
-    });
-  });
-});
-// Include Fund2 articles in search index (with working links)
-fund2Data.forEach(data => {
-  const subjectKey = data.subject.toLowerCase()
-    .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
-    .replace(/\s+/g, '-');
-  const outputSlug = subjectKey + '-ef2';
-  data.articles.forEach(art => {
-    searchIndex.push({
-      title: art.title,
-      desc: (art.desc || '').substring(0, 80),
-      subject: data.subject + ' (EF2)',
-      slug: `${outputSlug}/${art.slug}.html`,
       difficulty: art.difficulty || 'Básico',
       grade: art.grade || '',
       xp: art.xp

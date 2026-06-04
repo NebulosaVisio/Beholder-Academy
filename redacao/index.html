@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/></svg>
         </div>
         <h1 class="hero__title">Redação</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>21 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>21 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Redação?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Redação...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--redacao)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--redacao)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">7 quests</span> · <span class="tier-xp">💎 700 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="tipologia-textual.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="tipologia-textual.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Tipologia Textual</h3>
       <p class="subject-card__desc">Entenda os cinco tipos textuais cobrados no ENEM - narracao, descricao, dissertacao, injuncao e exposicao - e aprenda a identificar cada um em provas e vestibulares.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="texto-narrativo-estrutura.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="texto-narrativo-estrutura.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Texto Narrativo: Estrutura</h3>
       <p class="subject-card__desc">Domine a estrutura do texto narrativo - narrador, personagens, espaco, tempo e enredo - e entenda como identificar cada elemento em provas do ENEM e vestibulares.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="texto-descritivo.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="texto-descritivo.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Texto Descritivo</h3>
       <p class="subject-card__desc">Aprenda as tecnicas do texto descritivo - descricao objetiva vs. subjetiva, denotacao vs. conotacao, sinestesia e selecao de detalhes - para dominar analises textuais no ENEM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="coesao-textual.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="coesao-textual.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Coesão Textual</h3>
       <p class="subject-card__desc">Domine os mecanismos de coesao textual - referencia pronominal, substituicao lexical, elipse e conectivos - essenciais para a Competencia 4 da redacao do ENEM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="coerencia-textual.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="coerencia-textual.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Coerência Textual</h3>
       <p class="subject-card__desc">Entenda os principios da coerencia textual - nao-contradicao, progressao, continuidade e relacao - e evite erros que comprometem sua nota no ENEM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="paragrafo-estrutura.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="paragrafo-estrutura.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Parágrafo: Estrutura</h3>
       <p class="subject-card__desc">Aprenda a estrutura ideal do paragrafo - topico frasal, desenvolvimento e conclusao parcial - para construir textos organizados e pontuar alto no ENEM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="argumentacao-tipos-de-argumento.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="argumentacao-tipos-de-argumento.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Argumentação: Tipos de Argumento</h3>
       <p class="subject-card__desc">Conheca os principais tipos de argumento - autoridade, exemplificacao, dados, causa-consequencia, comparacao e contra-argumento - para fortalecer sua redacao no ENEM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -165,13 +179,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--redacao)">Intermediário</h2>
+    <section class="subjects-section tier-section" data-tier="Intermediário" data-unlock-xp="500">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--redacao)">⚔️ Guerreiro</h2>
+        <p class="tier-desc">Desafios intermediários — prove seu valor! <span class="tier-count">6 quests</span> · <span class="tier-xp">💎 900 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">500 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="estrutura-da-dissertacao.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="estrutura-da-dissertacao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Estrutura da Dissertação</h3>
       <p class="subject-card__desc">Domine a estrutura da dissertacao-argumentativa do ENEM - introducao, desenvolvimento e conclusao - com modelo de 4 paragrafos e 30 linhas para garantir nota maxima.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -180,9 +200,9 @@
       </div>
     </a>
       
-    <a href="introducao-contextualizacao-e-tese.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="introducao-contextualizacao-e-tese.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Introdução: Contextualização e Tese</h3>
       <p class="subject-card__desc">Aprenda a construir uma introducao poderosa para a redacao do ENEM - tecnicas de contextualizacao (citacao, dado historico, paradoxo) e formulacao de tese clara e assertiva.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -191,9 +211,9 @@
       </div>
     </a>
       
-    <a href="desenvolvimento-argumentacao-e-repertorio.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="desenvolvimento-argumentacao-e-repertorio.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Desenvolvimento: Argumentação e Repertório</h3>
       <p class="subject-card__desc">Aprenda a construir paragrafos de desenvolvimento poderosos - topico frasal, fundamentacao com repertorio sociocultural e analise critica - para a redacao do ENEM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -202,9 +222,9 @@
       </div>
     </a>
       
-    <a href="conclusao-proposta-de-intervencao-enem.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="conclusao-proposta-de-intervencao-enem.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Conclusão: Proposta de Intervenção (ENEM)</h3>
       <p class="subject-card__desc">Domine a proposta de intervencao do ENEM - os 5 elementos obrigatorios (agente, acao, meio, efeito, detalhamento) - e conquiste 200 pontos na Competencia 5.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -213,9 +233,9 @@
       </div>
     </a>
       
-    <a href="repertorio-sociocultural.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="repertorio-sociocultural.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Repertório Sociocultural</h3>
       <p class="subject-card__desc">Monte seu arsenal de repertorio sociocultural para a redacao do ENEM - filosofos, sociologos, filmes, livros, dados estatisticos e documentos legais prontos para usar.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -224,9 +244,9 @@
       </div>
     </a>
       
-    <a href="conectivos-para-cada-parte.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="conectivos-para-cada-parte.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Conectivos para Cada Parte</h3>
       <p class="subject-card__desc">Guia completo de conectivos para cada parte da redacao do ENEM - introducao, desenvolvimento e conclusao - com tabelas organizadas por funcao logica.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -238,13 +258,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--redacao)">Avançado</h2>
+    <section class="subjects-section tier-section" data-tier="Avançado" data-unlock-xp="2000">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--redacao)">👑 Mestre</h2>
+        <p class="tier-desc">Conteúdo avançado — apenas para os mais dedicados! <span class="tier-count">8 quests</span> · <span class="tier-xp">💎 1600 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">2000 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="as-5-competencias-do-enem-detalhamento.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="as-5-competencias-do-enem-detalhamento.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">As 5 Competências do ENEM (Detalhamento)</h3>
       <p class="subject-card__desc">Guia completo das 5 Competencias da redacao do ENEM - entenda o que cada uma avalia, como pontuar 200 em cada e atingir a nota 1000.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -253,9 +279,9 @@
       </div>
     </a>
       
-    <a href="competencia-1-norma-culta.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="competencia-1-norma-culta.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Competência 1: Norma Culta</h3>
       <p class="subject-card__desc">Domine a Competencia 1 da redacao do ENEM - erros graves e medios de gramatica, concordancia, regencia, crase e pontuacao que voce precisa evitar para pontuar 200.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -264,9 +290,9 @@
       </div>
     </a>
       
-    <a href="competencia-2-tema-e-repertorio.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="competencia-2-tema-e-repertorio.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Competência 2: Tema e Repertório</h3>
       <p class="subject-card__desc">Entenda a Competencia 2 do ENEM - como interpretar corretamente o tema, evitar tangenciamento e fuga, e usar repertorio sociocultural produtivo e legitimado.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -275,9 +301,9 @@
       </div>
     </a>
       
-    <a href="competencia-3-projeto-de-texto.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="competencia-3-projeto-de-texto.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Competência 3: Projeto de Texto</h3>
       <p class="subject-card__desc">Domine a Competencia 3 do ENEM - projeto de texto, organizacao argumentativa, progressao logica e autoria - para construir uma redacao com estrutura impecavel.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -286,9 +312,9 @@
       </div>
     </a>
       
-    <a href="competencia-4-coesao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="competencia-4-coesao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Competência 4: Coesão</h3>
       <p class="subject-card__desc">Domine a Competencia 4 do ENEM - articulacao textual com conectivos diversificados, referenciacao e sequenciacao - para garantir fluidez e nota maxima.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -297,9 +323,9 @@
       </div>
     </a>
       
-    <a href="competencia-5-proposta-de-intervencao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="competencia-5-proposta-de-intervencao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Competência 5: Proposta de Intervenção</h3>
       <p class="subject-card__desc">Guia definitivo da Competencia 5 do ENEM - como construir uma proposta de intervencao completa com agente, acao, meio, efeito e detalhamento para pontuar 200.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -308,9 +334,9 @@
       </div>
     </a>
       
-    <a href="temas-recorrentes-do-enem.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="temas-recorrentes-do-enem.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Temas Recorrentes do ENEM</h3>
       <p class="subject-card__desc">Conheca os temas mais recorrentes da redacao do ENEM - saude mental, tecnologia, educacao, meio ambiente, violencia e cidadania - e prepare-se com repertorio para cada um.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -319,9 +345,9 @@
       </div>
     </a>
       
-    <a href="erros-que-zeram-a-redacao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="erros-que-zeram-a-redacao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(255, 112, 67, 0.10); color:var(--redacao); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Erros que Zeram a Redação</h3>
       <p class="subject-card__desc">Conheca todos os erros que zeram a redacao do ENEM - fuga ao tema, tipo textual errado, copia, texto curto, Direitos Humanos e mais - e saiba como evita-los.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -345,4 +371,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'redacao';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>

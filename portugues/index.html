@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
         </div>
         <h1 class="hero__title">Português</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>55 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>55 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Português?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Português...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--portugues)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--portugues)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">55 quests</span> · <span class="tier-xp">💎 NaN XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="fonema-e-letra.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="fonema-e-letra.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fonema e Letra</h3>
       <p class="subject-card__desc">Fonema é a menor unidade sonora da língua (som); letra é sua representação gráfica (escrita). Dígrafo: 2 letras = 1 fonema (ch, lh, nh). Encontro consonantal: 2 consoantes com sons distintos (br, cl). Contagem de fonemas é tema frequente no ENEM.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="substantivo-classificacao-completa.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="substantivo-classificacao-completa.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Substantivo: Classificação Completa</h3>
       <p class="subject-card__desc">O substantivo nomeia seres, objetos, sentimentos e ideias. Classifica-se em: comum/próprio, concreto/abstrato, primitivo/derivado, simples/composto e coletivo. Flexiona em gênero, número e grau. Base da morfologia portuguesa.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="artigo-definido-e-indefinido.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="artigo-definido-e-indefinido.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Artigo Definido e Indefinido</h3>
       <p class="subject-card__desc">Artigos determinam substantivos: definidos (o, a, os, as) indicam algo específico; indefinidos (um, uma, uns, umas) indicam algo genérico. Substantivam palavras, distinguem gênero/sentido e se contraem com preposições (do, no, ao, à).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="adjetivo-grau-e-locucao.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="adjetivo-grau-e-locucao.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Adjetivo: Grau e Locução</h3>
       <p class="subject-card__desc">O adjetivo qualifica o substantivo. Locução adjetiva = preposição + substantivo (de chuva = pluvial). Graus: comparativo (mais/tão/menos que) e superlativo (absoluto: belíssimo; relativo: o mais da turma). Formas irregulares: bom→melhor→ótimo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="numeral.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="numeral.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Numeral</h3>
       <p class="subject-card__desc">Numerais indicam quantidade (cardinal: três), ordem (ordinal: terceiro), multiplicação (dobro) ou fração (metade). 'Cem' x 'cento': cem sozinho, cento e... seguido. Ordinais eruditos: quadragésimo (40º), quinquagésimo (50º).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="pronomes-pessoais-possessivos-e-demonstrativos.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="pronomes-pessoais-possessivos-e-demonstrativos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Pronomes Pessoais, Possessivos e Demonstrativos</h3>
       <p class="subject-card__desc">Pronomes pessoais substituem o substantivo nas 3 pessoas do discurso. Possessivos indicam posse. Demonstrativos situam no espaço, tempo e texto. Reto vs oblíquo, ambiguidade do 'seu', uso textual de este/esse.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="verbo-modos-indicativo-e-subjuntivo.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="verbo-modos-indicativo-e-subjuntivo.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Verbo: Modos Indicativo e Subjuntivo</h3>
       <p class="subject-card__desc">Verbos expressam ação, estado ou fenômeno. 3 modos: indicativo (certeza), subjuntivo (dúvida/desejo), imperativo (ordem). 6 tempos do indicativo, 3 do subjuntivo. 3 conjugações (-AR, -ER, -IR). Formas nominais: infinitivo, gerúndio, particípio.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -162,9 +176,9 @@
       </div>
     </a>
       
-    <a href="generos-mito-lenda-e-fabula.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="generos-mito-lenda-e-fabula.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: Mito, Lenda e Fábula</h3>
       <p class="subject-card__desc">Mito explica fenômenos sobrenaturais (deuses, criação). Lenda mistura fato real e fantasia popular. Fábula usa animais que falam para transmitir uma moral. Exemplos brasileiros: Curupira, Saci, Boto.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -173,9 +187,9 @@
       </div>
     </a>
       
-    <a href="generos-hq-charge-e-tirinha.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="generos-hq-charge-e-tirinha.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: HQ, Charge e Tirinha</h3>
       <p class="subject-card__desc">HQ é narrativa em quadros com diálogos em balões. Charge faz crítica satírica da atualidade com humor. Tirinha conta uma história curta em 3-4 quadros. Todos combinam linguagem verbal e não-verbal.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -184,9 +198,9 @@
       </div>
     </a>
       
-    <a href="interpretacao-de-texto-implicito-e-explicito.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="interpretacao-de-texto-implicito-e-explicito.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Interpretação de Texto: Implícito e Explícito</h3>
       <p class="subject-card__desc">Informação explícita está escrita no texto. Implícita exige inferência do leitor. Pressupostos são informações sugeridas por marcas linguísticas. Subentendidos dependem do contexto. Estratégias de leitura para provas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -195,9 +209,9 @@
       </div>
     </a>
       
-    <a href="ortografia-uso-do-hifen.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="ortografia-uso-do-hifen.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Ortografia: Uso do Hífen</h3>
       <p class="subject-card__desc">Regras do hífen pelo Novo Acordo Ortográfico (2009). Prefixos com/sem hífen. Vogais iguais separam, diferentes juntam. Sempre com hífen antes de H. Compostas com e sem hífen.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -206,9 +220,9 @@
       </div>
     </a>
       
-    <a href="paragrafacao-e-coesao.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="paragrafacao-e-coesao.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Paragrafação e Coesão</h3>
       <p class="subject-card__desc">Parágrafo é a unidade de composição do texto, com tópico frasal + desenvolvimento + conclusão. Coesão conecta as ideias: referencial (pronomes), sequencial (conjunções) e lexical (sinônimos).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -217,9 +231,9 @@
       </div>
     </a>
       
-    <a href="sujeito-tipos.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="sujeito-tipos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Sujeito: Tipos</h3>
       <p class="subject-card__desc">Sujeito é o termo da oração sobre o qual se declara algo. 5 tipos: simples (1 núcleo), composto (2+ núcleos), oculto (desinencial), indeterminado (não se sabe quem), inexistente (verbos impessoais).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -228,9 +242,9 @@
       </div>
     </a>
       
-    <a href="predicado-verbal-nominal-e-verbo-nominal.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="predicado-verbal-nominal-e-verbo-nominal.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Predicado: Verbal, Nominal e Verbo-Nominal</h3>
       <p class="subject-card__desc">Predicado é tudo que se declara sobre o sujeito. Verbal: núcleo é verbo significativo. Nominal: núcleo é predicativo (verbo de ligação). Verbo-nominal: tem dois núcleos (verbo + predicativo).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -239,9 +253,9 @@
       </div>
     </a>
       
-    <a href="verbos-de-ligacao.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="verbos-de-ligacao.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Verbos de Ligação</h3>
       <p class="subject-card__desc">Verbos de ligação (ser, estar, ficar, parecer, permanecer, continuar, tornar-se, andar) conectam o sujeito ao predicativo, sem expressar ação. Diferença de verbos significativos pelo contexto.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -250,9 +264,9 @@
       </div>
     </a>
       
-    <a href="transitividade-verbal.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="transitividade-verbal.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Transitividade Verbal</h3>
       <p class="subject-card__desc">Transitividade indica se o verbo precisa de complemento. VTD: complemento sem preposição. VTI: com preposição. VTDI: dois complementos. VI: sentido completo. O mesmo verbo muda de transitividade conforme o contexto.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -261,9 +275,9 @@
       </div>
     </a>
       
-    <a href="objeto-direto-e-indireto.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="objeto-direto-e-indireto.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Objeto Direto e Indireto</h3>
       <p class="subject-card__desc">Objeto direto complementa o verbo SEM preposição. Objeto indireto complementa COM preposição. OD preposicionado, OD pleonástico e pronomes oblíquos como OD/OI.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -272,9 +286,9 @@
       </div>
     </a>
       
-    <a href="adverbios-e-locucoes-adverbiais.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="adverbios-e-locucoes-adverbiais.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Advérbios e Locuções Adverbiais</h3>
       <p class="subject-card__desc">Advérbio modifica verbo, adjetivo ou outro advérbio, indicando circunstância. 7 classificações: modo, tempo, lugar, negação, afirmação, dúvida, intensidade. Locução adverbial = 2+ palavras com função de advérbio.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -283,9 +297,9 @@
       </div>
     </a>
       
-    <a href="conjuncoes-coordenativas.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="conjuncoes-coordenativas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Conjunções Coordenativas</h3>
       <p class="subject-card__desc">Conjunções coordenativas ligam orações ou termos independentes. 5 tipos: aditivas (e, nem), adversativas (mas, porém), alternativas (ou), conclusivas (logo, portanto), explicativas (pois, porque).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -294,9 +308,9 @@
       </div>
     </a>
       
-    <a href="generos-diario-e-blog.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="generos-diario-e-blog.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: Diário e Blog</h3>
       <p class="subject-card__desc">Diário pessoal: registro íntimo, 1ª pessoa, datas, confidencial. Blog: publicação online, opinativa, hipertextual, interativa. Ambos usam linguagem subjetiva e marcas de 1ª pessoa.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -305,9 +319,9 @@
       </div>
     </a>
       
-    <a href="generos-entrevista.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="generos-entrevista.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: Entrevista</h3>
       <p class="subject-card__desc">Entrevista: gênero oral/escrito com estrutura de perguntas e respostas. Apresentação do entrevistado, roteiro de perguntas, respostas e fechamento. Jornalística vs. científica.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -316,9 +330,9 @@
       </div>
     </a>
       
-    <a href="generos-texto-dramatico-teatro.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="generos-texto-dramatico-teatro.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: Texto Dramático (Teatro)</h3>
       <p class="subject-card__desc">Texto dramático é escrito para ser encenado. Estrutura: rubricas (indicações cênicas), falas dos personagens, atos e cenas. Gêneros: tragédia, comédia e drama.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -327,9 +341,9 @@
       </div>
     </a>
       
-    <a href="concordancia-verbal.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="concordancia-verbal.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Concordância Verbal</h3>
       <p class="subject-card__desc">Concordância verbal: o verbo concorda com o sujeito em número e pessoa. Regras especiais: sujeito composto, coletivo, porcentagem, expressões partitivas, 'quem', verbo 'haver' impessoal.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -338,9 +352,9 @@
       </div>
     </a>
       
-    <a href="regencia-verbal.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="regencia-verbal.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Regência Verbal</h3>
       <p class="subject-card__desc">Regência verbal determina qual preposição o verbo exige. Verbos que mudam de sentido conforme a preposição: assistir (a=ver, Ø=ajudar), aspirar (a=desejar, Ø=respirar), visar, obedecer, pagar, perdoar.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -349,9 +363,9 @@
       </div>
     </a>
       
-    <a href="periodo-simples-e-composto.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="periodo-simples-e-composto.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Período Simples e Composto</h3>
       <p class="subject-card__desc">Período simples tem 1 oração (1 verbo). Período composto tem 2+ orações. Coordenação: orações independentes. Subordinação: oração dependente da principal.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -360,9 +374,9 @@
       </div>
     </a>
       
-    <a href="oracoes-coordenadas.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="oracoes-coordenadas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Orações Coordenadas</h3>
       <p class="subject-card__desc">Orações coordenadas são independentes no período composto. Sindéticas: ligadas por conjunção (aditiva, adversativa, alternativa, conclusiva, explicativa). Assindéticas: sem conjunção, separadas por vírgula.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -371,9 +385,9 @@
       </div>
     </a>
       
-    <a href="oracoes-subordinadas-substantivas.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="oracoes-subordinadas-substantivas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Orações Subordinadas Substantivas</h3>
       <p class="subject-card__desc">Orações subordinadas substantivas exercem função de substantivo na oração principal. 6 tipos: subjetiva, objetiva direta, objetiva indireta, completiva nominal, predicativa, apositiva.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -382,9 +396,9 @@
       </div>
     </a>
       
-    <a href="oracoes-subordinadas-adjetivas.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="oracoes-subordinadas-adjetivas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Orações Subordinadas Adjetivas</h3>
       <p class="subject-card__desc">Subordinadas adjetivas funcionam como adjetivo, modificando um substantivo. Introduzidas por pronomes relativos (que, o qual, cujo). Restritivas: sem vírgula (restringem). Explicativas: com vírgula (explicam).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -393,9 +407,9 @@
       </div>
     </a>
       
-    <a href="oracoes-subordinadas-adverbiais.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="oracoes-subordinadas-adverbiais.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Orações Subordinadas Adverbiais</h3>
       <p class="subject-card__desc">Subordinadas adverbiais funcionam como advérbio, expressando circunstância. 9 tipos: causal, condicional, temporal, concessiva, comparativa, conformativa, consecutiva, final, proporcional.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -404,9 +418,9 @@
       </div>
     </a>
       
-    <a href="vozes-verbais.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="vozes-verbais.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Vozes Verbais</h3>
       <p class="subject-card__desc">3 vozes verbais: ativa (sujeito pratica ação), passiva (sujeito sofre ação), reflexiva (sujeito pratica e sofre). Passiva analítica (ser + particípio) e sintética (verbo + SE).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -415,9 +429,9 @@
       </div>
     </a>
       
-    <a href="crase-regras-completas.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="crase-regras-completas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Crase: Regras Completas</h3>
       <p class="subject-card__desc">Crase é a fusão da preposição 'a' com o artigo 'a'. Ocorre antes de palavras femininas. Dica: troque por 'ao' no masculino. Casos obrigatórios, facultativos e proibidos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -426,9 +440,9 @@
       </div>
     </a>
       
-    <a href="figuras-de-linguagem-avancadas.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="figuras-de-linguagem-avancadas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Figuras de Linguagem Avançadas</h3>
       <p class="subject-card__desc">Figuras de linguagem criam efeitos expressivos. De palavra: metáfora, metonímia, catacrese. De pensamento: antítese, ironia, eufemismo, hipérbole. De sintaxe: elipse, zeugma, anáfora. De som: aliteração, assonância.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -437,9 +451,9 @@
       </div>
     </a>
       
-    <a href="generos-artigo-de-opiniao.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="generos-artigo-de-opiniao.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: Artigo de Opinião</h3>
       <p class="subject-card__desc">Artigo de opinião: texto argumentativo que defende uma tese sobre tema atual. Estrutura: tese + argumentos + conclusão. Tom opinativo com base em fatos. Diferente do editorial (institucional).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -448,9 +462,9 @@
       </div>
     </a>
       
-    <a href="generos-resenha-e-resumo.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="generos-resenha-e-resumo.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: Resenha e Resumo</h3>
       <p class="subject-card__desc">Resumo condensa informações mantendo as ideias essenciais. Resenha = resumo + opinião crítica do autor. Resenha acadêmica avalia obras (livros, filmes, artigos) com fundamentação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -459,9 +473,9 @@
       </div>
     </a>
       
-    <a href="variacao-linguistica-aprofundada.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="variacao-linguistica-aprofundada.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Variação Linguística Aprofundada</h3>
       <p class="subject-card__desc">Variação linguística: diatópica (regional), diastrática (social), diafásica (formal/informal), diacrônica (temporal). Preconceito linguístico e norma culta vs norma popular.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -470,9 +484,9 @@
       </div>
     </a>
       
-    <a href="semantica-polissemia-homonimia-paronimia.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="semantica-polissemia-homonimia-paronimia.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Semântica: Polissemia, Homonímia, Paronímia</h3>
       <p class="subject-card__desc">Semântica estuda os significados das palavras. Polissemia: vários sentidos de uma palavra. Homonímia: palavras iguais com significados diferentes. Paronímia: palavras parecidas. Sinonímia e antonímia.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -481,9 +495,9 @@
       </div>
     </a>
       
-    <a href="revisao-analise-sintatica-completa.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="revisao-analise-sintatica-completa.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Revisão: Análise Sintática Completa</h3>
       <p class="subject-card__desc">Revisão completa de análise sintática: termos essenciais (sujeito, predicado), integrantes (OD, OI, CN, agente da passiva) e acessórios (adjunto adnominal, adjunto adverbial, aposto, vocativo).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -492,9 +506,9 @@
       </div>
     </a>
       
-    <a href="revisao-periodo-composto.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="revisao-periodo-composto.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Revisão: Período Composto</h3>
       <p class="subject-card__desc">Revisão do período composto: coordenação (5 tipos de sindéticas + assindéticas) e subordinação (substantivas, adjetivas, adverbiais). Mapa completo das orações.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -503,9 +517,9 @@
       </div>
     </a>
       
-    <a href="pontuacao-avancada.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="pontuacao-avancada.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Pontuação Avançada</h3>
       <p class="subject-card__desc">Pontuação avançada: ponto e vírgula, dois pontos, travessão, parênteses, reticências. Usos na separação de orações coordenadas, citações, enumerações e discurso direto.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -514,9 +528,9 @@
       </div>
     </a>
       
-    <a href="colocacao-pronominal.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="colocacao-pronominal.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Colocação Pronominal</h3>
       <p class="subject-card__desc">Colocação pronominal: próclise (antes do verbo), mesóclise (no meio) e ênclise (depois). Regras de atração: palavras negativas, conjunções subordinativas e pronomes relativos atraem o pronome.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -525,9 +539,9 @@
       </div>
     </a>
       
-    <a href="concordancia-nominal-avancada.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="concordancia-nominal-avancada.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Concordância Nominal Avançada</h3>
       <p class="subject-card__desc">Concordância nominal: adjetivo concorda com substantivo em gênero e número. Regras especiais: adjetivo posposto a dois substantivos, 'é proibido/é necessário', 'bastante', 'meio', 'anexo', 'obrigado'.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -536,9 +550,9 @@
       </div>
     </a>
       
-    <a href="regencia-nominal-e-verbal.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="regencia-nominal-e-verbal.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Regência Nominal e Verbal</h3>
       <p class="subject-card__desc">Revisão de regência nominal (nomes que exigem preposição) e verbal (verbos + preposição). Casos mais cobrados: aversão a, capacidade de, assistir a, preferir X a Y.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -547,9 +561,9 @@
       </div>
     </a>
       
-    <a href="generos-dissertacao-argumentativa.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="generos-dissertacao-argumentativa.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: Dissertação-Argumentativa</h3>
       <p class="subject-card__desc">Dissertação argumentativa: gênero da redação do ENEM. Estrutura: introdução (tema + tese), desenvolvimento (argumentos), conclusão (proposta de intervenção). 5 competências avaliadas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -558,9 +572,9 @@
       </div>
     </a>
       
-    <a href="generos-cronica-argumentativa.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="generos-cronica-argumentativa.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gêneros: Crônica Argumentativa</h3>
       <p class="subject-card__desc">Crônica argumentativa: texto curto, linguagem leve, que parte do cotidiano para defender uma tese. Diferença da crônica narrativa e da dissertação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -569,9 +583,9 @@
       </div>
     </a>
       
-    <a href="intertextualidade.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="intertextualidade.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Intertextualidade</h3>
       <p class="subject-card__desc">Intertextualidade: diálogo entre textos. Tipos: citação (referência direta), paráfrase (reescrita mantendo sentido), paródia (reescrita cômica/crítica), alusão (referência indireta), epígrafe.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -580,9 +594,9 @@
       </div>
     </a>
       
-    <a href="funcoes-da-linguagem.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="funcoes-da-linguagem.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Funções da Linguagem</h3>
       <p class="subject-card__desc">6 funções da linguagem de Jakobson: referencial (informar), emotiva (emoção), conativa (persuadir), fática (canal), metalinguística (explicar código), poética (forma estética).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -591,9 +605,9 @@
       </div>
     </a>
       
-    <a href="interpretacao-de-textos-complexos-enem.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="interpretacao-de-textos-complexos-enem.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Interpretação de Textos Complexos (ENEM)</h3>
       <p class="subject-card__desc">Estratégias para textos complexos do ENEM: multimodais, mistos, literários. Identificar tema, tese, argumentos. Diferença entre compreensão e interpretação. Distratores comuns.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -602,9 +616,9 @@
       </div>
     </a>
       
-    <a href="producao-textual-revisao-e-reescrita.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="producao-textual-revisao-e-reescrita.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Produção Textual: Revisão e Reescrita</h3>
       <p class="subject-card__desc">Processo de produção textual: planejamento, escrita, revisão e reescrita. Checklist de revisão: coesão, coerência, ortografia, concordância. Estratégias para melhorar a redação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -613,9 +627,9 @@
       </div>
     </a>
       
-    <a href="acentuacao-grafica.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="acentuacao-grafica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="undefined">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Acentuação Gráfica</h3>
       <p class="subject-card__desc">Acentuação gráfica marca a sílaba tônica. Proparoxítonas: todas acentuadas. Paroxítonas: acentuadas em R, L, N, X, PS, ditongo. Oxítonas: em A(S), E(S), O(S), EM/ENS. Inclui regras do Novo Acordo Ortográfico de 2009.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -624,9 +638,9 @@
       </div>
     </a>
       
-    <a href="complemento-nominal.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="complemento-nominal.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="undefined">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Complemento Nominal</h3>
       <p class="subject-card__desc">Complemento nominal completa o sentido de um nome (substantivo, adjetivo, advérbio) com preposição. Diferença do adjunto adnominal: CN completa nomes abstratos, AA caracteriza concretos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -635,9 +649,9 @@
       </div>
     </a>
       
-    <a href="encontros-vocalicos.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="encontros-vocalicos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="undefined">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Encontros Vocálicos</h3>
       <p class="subject-card__desc">Encontros vocálicos são sequências de vogais/semivogais: Ditongo (2 sons na mesma sílaba — pai, céu), Tritongo (3 sons na mesma sílaba — Paraguai), Hiato (2 vogais em sílabas diferentes — sa-ú-de). Fundamentais para acentuação e divisão silábica.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -646,9 +660,9 @@
       </div>
     </a>
       
-    <a href="fonema-e-grafema.html" class="subject-card reveal" data-grade="6º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">6º ano</span>
+    <a href="fonema-e-grafema.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="undefined">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fonema e Grafema</h3>
       <p class="subject-card__desc">Fonema é a menor unidade sonora da língua; grafema é o símbolo escrito (letra). A relação nem sempre é 1:1 — dígrafos (2 letras = 1 som), o 'x' (1 letra = até 2 sons) e o 'h' mudo são exemplos. Base da Fonologia e Ortografia.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -657,9 +671,9 @@
       </div>
     </a>
       
-    <a href="pontuacao-a-virgula.html" class="subject-card reveal" data-grade="7º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">7º ano</span>
+    <a href="pontuacao-a-virgula.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="undefined">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Pontuação: A Vírgula</h3>
       <p class="subject-card__desc">A vírgula separa termos na oração e orações no período. Usos obrigatórios: enumeração, vocativo, aposto, adjunto deslocado, intercalação. Proibições: nunca entre sujeito e verbo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -668,9 +682,9 @@
       </div>
     </a>
       
-    <a href="tipos-de-discurso.html" class="subject-card reveal" data-grade="8º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">8º ano</span>
+    <a href="tipos-de-discurso.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="undefined">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Tipos de Discurso</h3>
       <p class="subject-card__desc">3 tipos de discurso: direto (fala do personagem com travessão/aspas), indireto (narrador reporta em 3ª pessoa), indireto livre (fusão dos dois). Transformações entre discursos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -679,9 +693,9 @@
       </div>
     </a>
       
-    <a href="vicios-de-linguagem.html" class="subject-card reveal" data-grade="9º ano">
-      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">9º ano</span>
+    <a href="vicios-de-linguagem.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="undefined">
+      <div class="subject-card__icon" style="background:rgba(67, 97, 238, 0.10); color:var(--portugues); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Vícios de Linguagem</h3>
       <p class="subject-card__desc">Vícios de linguagem: pleonasmo vicioso (subir pra cima), cacofonia (boca dela), barbarismo (erro de pronúncia/grafia), solecismo (erro de sintaxe), ambiguidade, estrangeirismo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -705,4 +719,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'portugues';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>

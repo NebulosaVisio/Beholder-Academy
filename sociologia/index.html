@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
         </div>
         <h1 class="hero__title">Sociologia</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>26 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>26 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Sociologia?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Sociologia...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--sociologia)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--sociologia)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">8 quests</span> · <span class="tier-xp">💎 800 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="o-que-e-sociologia-senso-comum-vs-ciencia.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="o-que-e-sociologia-senso-comum-vs-ciencia.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">O que é Sociologia? Senso Comum vs. Ciência</h3>
       <p class="subject-card__desc">Sociologia como ciencia. Senso comum vs conhecimento cientifico. Imaginacao sociologica. Desnaturalizacao e estranhamento.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="contexto-de-surgimento.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="contexto-de-surgimento.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Contexto de Surgimento</h3>
       <p class="subject-card__desc">Surgimento da sociologia: Revolucao Francesa, Revolucao Industrial. Comte e positivismo. Nascimento da ciencia social no seculo XIX.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="durkheim-fato-social-e-solidariedade.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="durkheim-fato-social-e-solidariedade.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Durkheim: Fato Social e Solidariedade</h3>
       <p class="subject-card__desc">Durkheim: fato social (coercao, exterioridade, generalidade). Solidariedade mecanica vs organica. Anomia. Suicidio como fato social.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="marx-classes-sociais-e-exploracao.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="marx-classes-sociais-e-exploracao.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Marx: Classes Sociais e Exploração</h3>
       <p class="subject-card__desc">Marx na sociologia: classes sociais, luta de classes, alienacao, ideologia, infraestrutura e superestrutura. Materialismo historico.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="weber-acao-social-e-burocracia.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="weber-acao-social-e-burocracia.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Weber: Ação Social e Burocracia</h3>
       <p class="subject-card__desc">Weber: acao social (racional, afetiva, tradicional). Tipos ideais. Burocracia. Etica protestante e capitalismo. Desencantamento do mundo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="cultura-conceito-e-diversidade.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="cultura-conceito-e-diversidade.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Cultura: Conceito e Diversidade</h3>
       <p class="subject-card__desc">Cultura: conceito sociologico (tudo que e aprendido). Diversidade cultural. Etnocentrismo vs relativismo cultural. Cultura material e imaterial.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="socializacao-como-nos-tornamos-sociais.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="socializacao-como-nos-tornamos-sociais.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Socialização: Como nos Tornamos Sociais</h3>
       <p class="subject-card__desc">Socializacao: primaria (familia) e secundaria (escola, trabalho). Papeis sociais. Habitus (Bourdieu). Controle social. Desvio.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -162,9 +176,9 @@
       </div>
     </a>
       
-    <a href="industria-cultural-e-cultura-de-massa.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="industria-cultural-e-cultura-de-massa.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Indústria Cultural e Cultura de Massa</h3>
       <p class="subject-card__desc">Industria cultural (Adorno/Horkheimer). Cultura de massa. Midia e alienacao. Resistencia cultural. Contracultura.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -176,13 +190,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--sociologia)">Intermediário</h2>
+    <section class="subjects-section tier-section" data-tier="Intermediário" data-unlock-xp="500">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--sociologia)">⚔️ Guerreiro</h2>
+        <p class="tier-desc">Desafios intermediários — prove seu valor! <span class="tier-count">8 quests</span> · <span class="tier-xp">💎 1200 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">500 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="estratificacao-social-castas-estamentos-e-classes.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="estratificacao-social-castas-estamentos-e-classes.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Estratificação Social: Castas, Estamentos e Classes</h3>
       <p class="subject-card__desc">Estratificacao: castas (fechada, hereditaria), estamentos (semi-aberta, feudal), classes (aberta, economica). Mobilidade social.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -191,9 +211,9 @@
       </div>
     </a>
       
-    <a href="desigualdade-social-no-brasil.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="desigualdade-social-no-brasil.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Desigualdade Social no Brasil</h3>
       <p class="subject-card__desc">Desigualdade brasileira: renda, raca, genero, regiao. Indice de Gini. Pobreza e fome. Politicas publicas: Bolsa Familia, cotas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -202,9 +222,9 @@
       </div>
     </a>
       
-    <a href="estado-conceito-tipos-e-democracia.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="estado-conceito-tipos-e-democracia.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Estado: Conceito, Tipos e Democracia</h3>
       <p class="subject-card__desc">Estado: conceito, tipos (absoluto, liberal, bem-estar, totalitario). Democracia direta, representativa, participativa. Cidadania.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -213,9 +233,9 @@
       </div>
     </a>
       
-    <a href="poder-politica-e-participacao.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="poder-politica-e-participacao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Poder, Política e Participação</h3>
       <p class="subject-card__desc">Poder: Foucault (microfisica), Bourdieu (capital simbolico). Participacao politica: voto, movimentos, ONGs. Representatividade.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -224,9 +244,9 @@
       </div>
     </a>
       
-    <a href="direitos-humanos-e-cidadania.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="direitos-humanos-e-cidadania.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Direitos Humanos e Cidadania</h3>
       <p class="subject-card__desc">Direitos humanos: geracoes (civis, politicos, sociais). DUDH. Cidadania. Constituicao 1988. Minorias. Igualdade formal vs material.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -235,9 +255,9 @@
       </div>
     </a>
       
-    <a href="movimentos-sociais.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="movimentos-sociais.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Movimentos Sociais</h3>
       <p class="subject-card__desc">Movimentos sociais: feminismo, negro, LGBTQIA+, ambientalista, sem-terra (MST). Novos movimentos sociais. Redes e ativismo digital.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -246,9 +266,9 @@
       </div>
     </a>
       
-    <a href="violencia-tipos-e-causas-sociais.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="violencia-tipos-e-causas-sociais.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Violência: Tipos e Causas Sociais</h3>
       <p class="subject-card__desc">Violencia: fisica, simbolica (Bourdieu), institucional, de genero, racial. Causas sociais: desigualdade, exclusao. Violencia no Brasil.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -257,9 +277,9 @@
       </div>
     </a>
       
-    <a href="midia-redes-sociais-e-poder.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="midia-redes-sociais-e-poder.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Mídia, Redes Sociais e Poder</h3>
       <p class="subject-card__desc">Midia e poder: quarto poder, fake news, bolhas algoritmicas. Redes sociais e democracia. Concentracao midiática. Desinformacao.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -271,13 +291,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--sociologia)">Avançado</h2>
+    <section class="subjects-section tier-section" data-tier="Avançado" data-unlock-xp="2000">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--sociologia)">👑 Mestre</h2>
+        <p class="tier-desc">Conteúdo avançado — apenas para os mais dedicados! <span class="tier-count">10 quests</span> · <span class="tier-xp">💎 2000 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">2000 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="trabalho-conceito-e-transformacoes.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="trabalho-conceito-e-transformacoes.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Trabalho: Conceito e Transformações</h3>
       <p class="subject-card__desc">Trabalho: conceito sociologico. Marx (alienacao), Durkheim (divisao do trabalho), Weber (vocacao). Transformacoes historicas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -286,9 +312,9 @@
       </div>
     </a>
       
-    <a href="fordismo-toyotismo-e-uberizacao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="fordismo-toyotismo-e-uberizacao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fordismo, Toyotismo e Uberização</h3>
       <p class="subject-card__desc">Modelos de producao: fordismo (massa, linha de montagem), toyotismo (flexivel, just-in-time), uberizacao (plataformas, precarizacao).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -297,9 +323,9 @@
       </div>
     </a>
       
-    <a href="desemprego-informalidade-e-precarizacao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="desemprego-informalidade-e-precarizacao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Desemprego, Informalidade e Precarização</h3>
       <p class="subject-card__desc">Desemprego: estrutural, conjuntural, tecnologico. Informalidade no Brasil. Precarizacao. Reforma trabalhista. Futuro do trabalho.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -308,9 +334,9 @@
       </div>
     </a>
       
-    <a href="religiao-sagrado-profano-e-diversidade.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="religiao-sagrado-profano-e-diversidade.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Religião: Sagrado, Profano e Diversidade</h3>
       <p class="subject-card__desc">Sociologia da religiao: Durkheim (sagrado/profano), Weber (desencantamento), Marx (opio do povo). Secularizacao. Fundamentalismo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -319,9 +345,9 @@
       </div>
     </a>
       
-    <a href="diversidade-religiosa-no-brasil.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="diversidade-religiosa-no-brasil.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Diversidade Religiosa no Brasil</h3>
       <p class="subject-card__desc">Diversidade religiosa no Brasil: catolicismo, protestantismo, espiritismo, religioes afro-brasileiras, sem religiao. Intolerancia religiosa. Laicidade.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -330,9 +356,9 @@
       </div>
     </a>
       
-    <a href="educacao-reproducao-e-transformacao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="educacao-reproducao-e-transformacao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Educação: Reprodução e Transformação</h3>
       <p class="subject-card__desc">Sociologia da educacao: Bourdieu (reproducao), Freire (libertacao), Durkheim (socializacao). Educacao no Brasil: desigualdade, ENEM, cotas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -341,9 +367,9 @@
       </div>
     </a>
       
-    <a href="meio-ambiente-sustentabilidade-e-justica-ambiental.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="meio-ambiente-sustentabilidade-e-justica-ambiental.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Meio Ambiente: Sustentabilidade e Justiça Ambiental</h3>
       <p class="subject-card__desc">Sociologia ambiental: justica ambiental, racismo ambiental, desenvolvimento sustentavel. Conflitos socioambientais. Movimentos verdes.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -352,9 +378,9 @@
       </div>
     </a>
       
-    <a href="globalizacao-e-identidade-cultural.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="globalizacao-e-identidade-cultural.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Globalização e Identidade Cultural</h3>
       <p class="subject-card__desc">Globalizacao cultural: homogeneizacao vs hibridismo. Identidade na pos-modernidade. Stuart Hall. Bauman (modernidade liquida).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -363,9 +389,9 @@
       </div>
     </a>
       
-    <a href="tecnologia-e-sociedade.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="tecnologia-e-sociedade.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Tecnologia e Sociedade</h3>
       <p class="subject-card__desc">Tecnologia e sociedade: IA, redes sociais, vigilancia digital. Inclusao/exclusao digital. Algoritmos e vies. Privacidade.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -374,9 +400,9 @@
       </div>
     </a>
       
-    <a href="sociologia-no-enem.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="sociologia-no-enem.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(233, 30, 99, 0.10); color:var(--sociologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Sociologia no ENEM</h3>
       <p class="subject-card__desc">Como a sociologia cai no ENEM: temas mais cobrados, autores frequentes, dicas de interpretacao. Questoes comentadas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -400,4 +426,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'sociologia';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>

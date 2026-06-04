@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
         </div>
         <h1 class="hero__title">Literatura</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>24 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>24 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Literatura?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Literatura...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--literatura)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--literatura)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">7 quests</span> · <span class="tier-xp">💎 700 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="o-que-e-literatura-texto-literario-vs-nao-literario.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="o-que-e-literatura-texto-literario-vs-nao-literario.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">O que é Literatura? Texto Literário vs. Não-Literário</h3>
       <p class="subject-card__desc">Literatura: conceito. Texto literario vs nao literario. Funcao poetica. Generos literarios: lirico, epico/narrativo, dramatico.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="trovadorismo-sec-xii-xiv.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="trovadorismo-sec-xii-xiv.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Trovadorismo (Séc. XII-XIV)</h3>
       <p class="subject-card__desc">Trovadorismo: cantigas de amor (eu lirico masculino), cantigas de amigo (eu lirico feminino), cantigas de escarnio e maldizer. Sec. XII-XIV.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="humanismo-sec-xv.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="humanismo-sec-xv.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Humanismo (Séc. XV)</h3>
       <p class="subject-card__desc">Humanismo: Gil Vicente (teatro), Fernao Lopes (cronica historica). Transicao Idade Media-Renascimento. Auto da Barca do Inferno.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="classicismo-sec-xvi.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="classicismo-sec-xvi.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Classicismo (Séc. XVI)</h3>
       <p class="subject-card__desc">Classicismo: Camoes, Os Lusiadas (epopeia). Soneto. Medida nova (decassilabo). Renascimento em Portugal. Seculo XVI.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="quinhentismo-brasileiro-sec-xvi.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="quinhentismo-brasileiro-sec-xvi.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Quinhentismo Brasileiro (Séc. XVI)</h3>
       <p class="subject-card__desc">Quinhentismo: literatura informativa (Carta de Caminha) e jesuítica (Anchieta). Sec. XVI. Primeira literatura no Brasil.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="barroco-sec-xvii.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="barroco-sec-xvii.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Barroco (Séc. XVII)</h3>
       <p class="subject-card__desc">Barroco: dualismo (fe vs razao, ceu vs terra). Gregorio de Matos (Boca do Inferno). Padre Vieira (sermoes). Sec. XVII.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="arcadismo-sec-xviii.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="arcadismo-sec-xviii.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Arcadismo (Séc. XVIII)</h3>
       <p class="subject-card__desc">Arcadismo: bucolismo, pastoralismo, carpe diem, locus amoenus. Claudio Manuel da Costa, Tomas Antonio Gonzaga (Marilia de Dirceu). Sec. XVIII.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -165,13 +179,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--literatura)">Intermediário</h2>
+    <section class="subjects-section tier-section" data-tier="Intermediário" data-unlock-xp="500">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--literatura)">⚔️ Guerreiro</h2>
+        <p class="tier-desc">Desafios intermediários — prove seu valor! <span class="tier-count">9 quests</span> · <span class="tier-xp">💎 1350 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">500 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="romantismo-caracteristicas.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="romantismo-caracteristicas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Romantismo: Características</h3>
       <p class="subject-card__desc">Romantismo: subjetividade, sentimentalismo, liberdade criadora, nacionalismo, idealizacao, escapismo. Sec. XIX. Contexto historico.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -180,9 +200,9 @@
       </div>
     </a>
       
-    <a href="romantismo-1-geracao-nacionalista-indianista.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="romantismo-1-geracao-nacionalista-indianista.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Romantismo — 1ª Geração: Nacionalista/Indianista</h3>
       <p class="subject-card__desc">1a geracao romantica: nacionalismo, indianismo. Goncalves Dias (I-Juca-Pirama, Cancao do Exilio). Indio como heroi nacional.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -191,9 +211,9 @@
       </div>
     </a>
       
-    <a href="romantismo-2-geracao-ultrarromantica-mal-do-seculo.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="romantismo-2-geracao-ultrarromantica-mal-do-seculo.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Romantismo — 2ª Geração: Ultrarromântica/Mal do Século</h3>
       <p class="subject-card__desc">2a geracao romantica: mal do seculo, morte, tedio, desilusao. Alvares de Azevedo (Noite na Taverna, Lira dos Vinte Anos). Casimiro de Abreu.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -202,9 +222,9 @@
       </div>
     </a>
       
-    <a href="romantismo-3-geracao-condoreirista-social.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="romantismo-3-geracao-condoreirista-social.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Romantismo — 3ª Geração: Condoreirista/Social</h3>
       <p class="subject-card__desc">3a geracao romantica: poesia social, abolicionismo. Castro Alves (O Navio Negreiro, Vozes d'Africa). Condoreirismo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -213,9 +233,9 @@
       </div>
     </a>
       
-    <a href="romantismo-em-prosa-jose-de-alencar.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="romantismo-em-prosa-jose-de-alencar.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Romantismo em Prosa: José de Alencar</h3>
       <p class="subject-card__desc">Prosa romantica: Jose de Alencar. Romance indianista (Iracema, O Guarani), urbano (Lucíola, Senhora) e regionalista (O Sertanejo).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -224,9 +244,9 @@
       </div>
     </a>
       
-    <a href="realismo-machado-de-assis.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="realismo-machado-de-assis.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Realismo: Machado de Assis</h3>
       <p class="subject-card__desc">Realismo: Machado de Assis. Memorias Postumas, Dom Casmurro, Quincas Borba. Ironia, metalinguagem, narrador nao confiavel.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -235,9 +255,9 @@
       </div>
     </a>
       
-    <a href="naturalismo-aluisio-azevedo.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="naturalismo-aluisio-azevedo.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Naturalismo: Aluísio Azevedo</h3>
       <p class="subject-card__desc">Naturalismo: determinismo, zoomorfismo, temas polemicos. Aluisio Azevedo (O Cortico). Influencia de Zola.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -246,9 +266,9 @@
       </div>
     </a>
       
-    <a href="parnasianismo-e-simbolismo.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="parnasianismo-e-simbolismo.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Parnasianismo e Simbolismo</h3>
       <p class="subject-card__desc">Parnasianismo: forma perfeita, impassibilidade (Olavo Bilac). Simbolismo: subjetividade, musicalidade, espiritualidade (Cruz e Sousa).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -257,9 +277,9 @@
       </div>
     </a>
       
-    <a href="pre-modernismo-1902-1922.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="pre-modernismo-1902-1922.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Pré-Modernismo (1902-1922)</h3>
       <p class="subject-card__desc">Pre-Modernismo: Euclides da Cunha (Os Sertoes), Lima Barreto (Triste Fim de Policarpo Quaresma), Monteiro Lobato, Augusto dos Anjos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -271,13 +291,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--literatura)">Avançado</h2>
+    <section class="subjects-section tier-section" data-tier="Avançado" data-unlock-xp="2000">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--literatura)">👑 Mestre</h2>
+        <p class="tier-desc">Conteúdo avançado — apenas para os mais dedicados! <span class="tier-count">8 quests</span> · <span class="tier-xp">💎 1600 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">2000 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="semana-de-arte-moderna-1922.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="semana-de-arte-moderna-1922.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Semana de Arte Moderna (1922)</h3>
       <p class="subject-card__desc">Semana de Arte Moderna (1922): ruptura com academicismo. Mario de Andrade, Oswald de Andrade, Anita Malfatti, Di Cavalcanti, Villa-Lobos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -286,9 +312,9 @@
       </div>
     </a>
       
-    <a href="modernismo-1-fase-1922-1930-destruicao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="modernismo-1-fase-1922-1930-destruicao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Modernismo 1ª Fase (1922-1930): Destruição</h3>
       <p class="subject-card__desc">Modernismo 1a fase: destruicao. Oswald (Manifesto Antropofago, Pau-Brasil), Mario (Macunaíma, Paulicéia). Verso livre, humor, brasilidade.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -297,9 +323,9 @@
       </div>
     </a>
       
-    <a href="modernismo-2-fase-prosa-1930-1945-construcao.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="modernismo-2-fase-prosa-1930-1945-construcao.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Modernismo 2ª Fase — Prosa (1930-1945): Construção</h3>
       <p class="subject-card__desc">Modernismo 2a fase prosa: Romance de 30. Graciliano Ramos (Vidas Secas), Jorge Amado (Capitaes da Areia), Rachel de Queiroz, Jose Lins.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -308,9 +334,9 @@
       </div>
     </a>
       
-    <a href="modernismo-2-fase-poesia.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="modernismo-2-fase-poesia.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Modernismo 2ª Fase — Poesia</h3>
       <p class="subject-card__desc">Modernismo 2a fase poesia: Drummond (No Meio do Caminho), Cecilia Meireles, Vinicius de Moraes, Murilo Mendes.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -319,9 +345,9 @@
       </div>
     </a>
       
-    <a href="modernismo-3-fase-1945-maturidade.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="modernismo-3-fase-1945-maturidade.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Modernismo 3ª Fase (1945+): Maturidade</h3>
       <p class="subject-card__desc">Modernismo 3a fase: Guimaraes Rosa (Grande Sertao: Veredas), Clarice Lispector (A Hora da Estrela), Joao Cabral (Morte e Vida Severina).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -330,9 +356,9 @@
       </div>
     </a>
       
-    <a href="poesia-concreta-e-tendencias-pos-1950.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="poesia-concreta-e-tendencias-pos-1950.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Poesia Concreta e Tendências Pós-1950</h3>
       <p class="subject-card__desc">Poesia Concreta: Haroldo de Campos, Augusto de Campos, Decio Pignatari. Poesia visual. Tropicalia. Poesia marginal.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -341,9 +367,9 @@
       </div>
     </a>
       
-    <a href="literatura-contemporanea-brasileira.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="literatura-contemporanea-brasileira.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Literatura Contemporânea Brasileira</h3>
       <p class="subject-card__desc">Literatura contemporanea: Conceicao Evaristo, Milton Hatoum, Chico Buarque, Itamar Vieira Junior (Torto Arado). Pluralidade de vozes.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -352,9 +378,9 @@
       </div>
     </a>
       
-    <a href="literatura-africana-de-lingua-portuguesa.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="literatura-africana-de-lingua-portuguesa.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(141, 110, 99, 0.10); color:var(--literatura); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Literatura Africana de Língua Portuguesa</h3>
       <p class="subject-card__desc">Literatura africana lusofona: Mia Couto (Mocambique), Pepetela (Angola), Ondjaki. Identidade, colonialismo, independencia.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -378,4 +404,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'literatura';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>

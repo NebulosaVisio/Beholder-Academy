@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3L2 21h20L12 3z" fill="currentColor" fill-opacity="0.1"/><path d="M12 3v18"/><path d="M5 15h14"/></svg>
         </div>
         <h1 class="hero__title">Física</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>31 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>31 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Física?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Física...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--fisica)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--fisica)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">9 quests</span> · <span class="tier-xp">💎 900 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="cinematica-mu-movimento-uniforme.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="cinematica-mu-movimento-uniforme.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Cinemática: MU (Movimento Uniforme)</h3>
       <p class="subject-card__desc">Movimento Uniforme (MU): velocidade constante, aceleração zero. Equação: S=S₀+v·t. Gráficos S×t e v×t. Unidades SI: m, s, m/s.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="cinematica-muv-movimento-uniformemente-variado.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="cinematica-muv-movimento-uniformemente-variado.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Cinemática: MUV (Movimento Uniformemente Variado)</h3>
       <p class="subject-card__desc">MUV: aceleração constante. Equações: v=v₀+at, S=S₀+v₀t+at²/2, v²=v₀²+2aΔS. Queda livre (g≈10 m/s²). Gráficos S×t (parábola) e v×t (reta inclinada).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="vetores-e-movimento-em-2d.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="vetores-e-movimento-em-2d.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Vetores e Movimento em 2D</h3>
       <p class="subject-card__desc">Vetores: módulo, direção, sentido. Soma de vetores (regra do paralelogramo). Lançamento oblíquo e horizontal. Decomposição: Vx=V·cosθ, Vy=V·sinθ.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="leis-de-newton.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="leis-de-newton.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Leis de Newton</h3>
       <p class="subject-card__desc">Leis de Newton: 1ª (Inércia), 2ª (F=m·a), 3ª (Ação e Reação). Força peso (P=m·g), normal, atrito, tração. Plano inclinado. Elevador.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="trabalho-e-energia.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="trabalho-e-energia.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Trabalho e Energia</h3>
       <p class="subject-card__desc">Trabalho: τ=F·d·cosθ. Energia cinética (Ec=mv²/2), potencial gravitacional (Ep=mgh), elástica (Eel=kx²/2). Conservação de energia. Potência (P=τ/t).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="impulso-e-quantidade-de-movimento.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="impulso-e-quantidade-de-movimento.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Impulso e Quantidade de Movimento</h3>
       <p class="subject-card__desc">Impulso (I=F·Δt) e Quantidade de Movimento (Q=m·v). Teorema do impulso: I=ΔQ. Conservação da quantidade de movimento. Colisões elásticas e inelásticas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="gravitacao-universal.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="gravitacao-universal.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Gravitação Universal</h3>
       <p class="subject-card__desc">Gravitação: Lei de Newton (F=GMm/d²), aceleração gravitacional, leis de Kepler (órbitas elípticas, áreas iguais, T²∝R³). Satélites e órbitas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -162,9 +176,9 @@
       </div>
     </a>
       
-    <a href="estatica.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="estatica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Estática</h3>
       <p class="subject-card__desc">Estática: equilíbrio de forças (ΣF=0) e torques (Στ=0). Torque (τ=F·d·sinθ). Centro de gravidade. Alavancas. Equilíbrio estável, instável, indiferente.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -173,9 +187,9 @@
       </div>
     </a>
       
-    <a href="hidrostatica.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="hidrostatica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Hidrostática</h3>
       <p class="subject-card__desc">Hidrostática: pressão (P=F/A), pressão hidrostática (P=ρgh), Stevin, Pascal (prensa hidráulica), Empuxo de Arquimedes (E=ρ_fluido·V_imerso·g). Flutuação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -187,13 +201,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--fisica)">Intermediário</h2>
+    <section class="subjects-section tier-section" data-tier="Intermediário" data-unlock-xp="500">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--fisica)">⚔️ Guerreiro</h2>
+        <p class="tier-desc">Desafios intermediários — prove seu valor! <span class="tier-count">10 quests</span> · <span class="tier-xp">💎 1500 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">500 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="termometria.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="termometria.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Termometria</h3>
       <p class="subject-card__desc">Termometria: temperatura, escalas (Celsius, Fahrenheit, Kelvin). Conversões: C/5=(F-32)/9=(K-273)/5. Equilíbrio térmico. Zero absoluto (0K=-273°C).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -202,9 +222,9 @@
       </div>
     </a>
       
-    <a href="dilatacao-termica.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="dilatacao-termica.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Dilatação Térmica</h3>
       <p class="subject-card__desc">Dilatação térmica: linear (ΔL=L₀·α·ΔT), superficial (ΔA=A₀·β·ΔT), volumétrica (ΔV=V₀·γ·ΔT). Relação: β=2α, γ=3α. Juntas de dilatação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -213,9 +233,9 @@
       </div>
     </a>
       
-    <a href="calorimetria.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="calorimetria.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Calorimetria</h3>
       <p class="subject-card__desc">Calorimetria: calor sensível (Q=mcΔT), calor latente (Q=mL). Capacidade térmica. Mudanças de estado: fusão, ebulição, sublimação. Calorímetro.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -224,9 +244,9 @@
       </div>
     </a>
       
-    <a href="termodinamica.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="termodinamica.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Termodinâmica</h3>
       <p class="subject-card__desc">Termodinâmica: 1ª Lei (ΔU=Q-W, conservação). 2ª Lei (entropia, máquinas térmicas, rendimento). Transformações: isotérmica, isobárica, isocórica, adiabática.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -235,9 +255,9 @@
       </div>
     </a>
       
-    <a href="optica-geometrica-reflexao.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="optica-geometrica-reflexao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Óptica Geométrica: Reflexão</h3>
       <p class="subject-card__desc">Óptica: reflexão da luz (leis). Espelhos planos (imagem virtual, simétrica). Espelhos esféricos (côncavo, convexo): equação de Gauss (1/f=1/p+1/p'), ampliação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -246,9 +266,9 @@
       </div>
     </a>
       
-    <a href="optica-geometrica-refracao.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="optica-geometrica-refracao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Óptica Geométrica: Refração</h3>
       <p class="subject-card__desc">Refração: Lei de Snell (n₁·sinθ₁=n₂·sinθ₂). Índice de refração (n=c/v). Reflexão total interna (fibra óptica). Dispersão (arco-íris). Lentes.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -257,9 +277,9 @@
       </div>
     </a>
       
-    <a href="lentes-esfericas.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="lentes-esfericas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Lentes Esféricas</h3>
       <p class="subject-card__desc">Lentes: convergentes (bordas finas) e divergentes (bordas grossas). Equação: 1/f=1/p+1/p'. Vergência (V=1/f, dioptria). Defeitos da visão: miopia, hipermetropia.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -268,9 +288,9 @@
       </div>
     </a>
       
-    <a href="ondas-conceitos.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="ondas-conceitos.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Ondas: Conceitos</h3>
       <p class="subject-card__desc">Ondas: mecânicas e eletromagnéticas. Transversais e longitudinais. v=λ·f. Amplitude, período, frequência, comprimento de onda. Equação fundamental.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -279,9 +299,9 @@
       </div>
     </a>
       
-    <a href="ondas-sonoras.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="ondas-sonoras.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Ondas Sonoras</h3>
       <p class="subject-card__desc">Som: onda mecânica longitudinal. Velocidade (~340 m/s no ar). Características: altura (agudo/grave=frequência), intensidade (forte/fraco=amplitude), timbre. Efeito Doppler.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -290,9 +310,9 @@
       </div>
     </a>
       
-    <a href="ondas-fenomenos.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="ondas-fenomenos.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Ondas: Fenômenos</h3>
       <p class="subject-card__desc">Fenômenos ondulatórios: reflexão, refração, difração, interferência (construtiva/destrutiva), ressonância, polarização. Ondas estacionárias.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -304,13 +324,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--fisica)">Avançado</h2>
+    <section class="subjects-section tier-section" data-tier="Avançado" data-unlock-xp="2000">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--fisica)">👑 Mestre</h2>
+        <p class="tier-desc">Conteúdo avançado — apenas para os mais dedicados! <span class="tier-count">12 quests</span> · <span class="tier-xp">💎 2400 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">2000 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="eletrostatica-cargas-e-forcas.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="eletrostatica-cargas-e-forcas.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Eletrostática: Cargas e Forças</h3>
       <p class="subject-card__desc">Eletrostática: cargas elétricas (próton +, elétron −), Lei de Coulomb (F=kq₁q₂/d²). Eletrização: atrito, contato, indução. Campo elétrico.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -319,9 +345,9 @@
       </div>
     </a>
       
-    <a href="potencial-eletrico-e-trabalho.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="potencial-eletrico-e-trabalho.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Potencial Elétrico e Trabalho</h3>
       <p class="subject-card__desc">Potencial elétrico (V=kQ/d), diferença de potencial (ddp), trabalho da força elétrica (τ=qU). Energia potencial elétrica. Equipotenciais.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -330,9 +356,9 @@
       </div>
     </a>
       
-    <a href="corrente-eletrica.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="corrente-eletrica.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Corrente Elétrica</h3>
       <p class="subject-card__desc">Corrente elétrica: fluxo de cargas (i=ΔQ/Δt, Ampère). Sentido convencional vs real. Efeitos: térmico (Joule), magnético, químico. Geradores e receptores.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -341,9 +367,9 @@
       </div>
     </a>
       
-    <a href="resistencia-e-lei-de-ohm.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="resistencia-e-lei-de-ohm.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Resistência e Lei de Ohm</h3>
       <p class="subject-card__desc">Resistência elétrica: R=U/i (Ohm, Ω). 1ª Lei de Ohm (R=constante). 2ª Lei: R=ρL/A. Resistividade. Resistor ôhmico. Código de cores.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -352,9 +378,9 @@
       </div>
     </a>
       
-    <a href="potencia-eletrica-e-energia.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="potencia-eletrica-e-energia.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Potência Elétrica e Energia</h3>
       <p class="subject-card__desc">Potência elétrica: P=U·i=R·i²=U²/R (Watt). Energia consumida: E=P·t (Joule ou kWh). Efeito Joule (dissipação térmica). Conta de luz.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -363,9 +389,9 @@
       </div>
     </a>
       
-    <a href="circuitos-eletricos.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="circuitos-eletricos.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Circuitos Elétricos</h3>
       <p class="subject-card__desc">Circuitos: série e paralelo. Leis de Kirchhoff. Resistores em série (R_eq=R₁+R₂) e paralelo (1/R_eq=1/R₁+1/R₂). Amperímetro e voltímetro.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -374,9 +400,9 @@
       </div>
     </a>
       
-    <a href="magnetismo.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="magnetismo.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Magnetismo</h3>
       <p class="subject-card__desc">Magnetismo: ímãs, polos (N/S), campo magnético (B). Bússola. Magnetismo terrestre. Inseparabilidade dos polos. Materiais ferromagnéticos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -385,9 +411,9 @@
       </div>
     </a>
       
-    <a href="eletromagnetismo.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="eletromagnetismo.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Eletromagnetismo</h3>
       <p class="subject-card__desc">Eletromagnetismo: corrente gera campo magnético. Oersted. Regra da mão direita. Solenoide (eletroímã). Força sobre fio (F=BiL). Força de Lorentz (F=qvBsinθ).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -396,9 +422,9 @@
       </div>
     </a>
       
-    <a href="inducao-eletromagnetica.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="inducao-eletromagnetica.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Indução Eletromagnética</h3>
       <p class="subject-card__desc">Indução: Lei de Faraday (ε=-ΔΦ/Δt), Lei de Lenz (sentido se opõe à variação). Gerador elétrico. Transformador. Corrente alternada.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -407,9 +433,9 @@
       </div>
     </a>
       
-    <a href="ondas-eletromagneticas.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="ondas-eletromagneticas.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Ondas Eletromagnéticas</h3>
       <p class="subject-card__desc">Ondas eletromagnéticas: Maxwell. Espectro: rádio, micro-ondas, infravermelho, visível, UV, raios X, gama. Velocidade=c=3×10⁸ m/s no vácuo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -418,9 +444,9 @@
       </div>
     </a>
       
-    <a href="fisica-moderna-relatividade.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="fisica-moderna-relatividade.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Física Moderna: Relatividade</h3>
       <p class="subject-card__desc">Relatividade: Einstein (1905). Especial: c é constante, dilatação temporal, contração espacial, E=mc². Geral: gravidade=curvatura do espaço-tempo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -429,9 +455,9 @@
       </div>
     </a>
       
-    <a href="fisica-moderna-quantica.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="fisica-moderna-quantica.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(0, 188, 212, 0.10); color:var(--fisica); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Física Moderna: Quântica</h3>
       <p class="subject-card__desc">Física Quântica: dualidade onda-partícula, efeito fotoelétrico (Einstein), quantização de Planck (E=hf). Princípio da incerteza (Heisenberg). Átomo de Bohr.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -455,4 +481,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'fisica';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>

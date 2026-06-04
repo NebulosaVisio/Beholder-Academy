@@ -70,10 +70,18 @@
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 12a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z"/><path d="M10 8a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z"/><path d="M14 16a1 1 0 1 0 2 0 1 1 0 1 0-2 0Z"/><circle cx="12" cy="12" r="9"/></svg>
         </div>
         <h1 class="hero__title">Biologia</h1>
-        <p class="hero__desc">Explore o acervo completo — <strong>38 artigos</strong> organizados por nível de dificuldade.</p>
+        <p class="hero__desc"><strong>38 quests</strong> disponíveis — complete desafios, ganhe XP e desbloqueie novos níveis!</p>
+        
+        <div class="xp-status reveal" id="xp-status">
+          <span class="xp-status__level" id="xp-level">🌱 Explorador</span>
+          <span class="xp-status__xp" id="xp-display">💎 0 XP</span>
+        </div>
+        <div class="xp-progress-bar reveal">
+          <div class="xp-progress-fill" id="xp-bar" style="width: 0%"></div>
+        </div>
         
         <div class="search-bar reveal">
-          <input type="text" id="search-input" class="search-bar__input" placeholder="O que você quer aprender sobre Biologia?">
+          <input type="text" id="search-input" class="search-bar__input" placeholder="Buscar quest em Biologia...">
           <svg class="search-bar__icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
         </div>
       </div>
@@ -81,13 +89,19 @@
 
     <div class="container">
       
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--biologia)">Básico</h2>
+    <section class="subjects-section tier-section" data-tier="Básico" data-unlock-xp="0">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--biologia)">🌱 Explorador</h2>
+        <p class="tier-desc">Conteúdo inicial — comece sua jornada aqui! <span class="tier-count">13 quests</span> · <span class="tier-xp">💎 1300 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">0 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="bioquimica-agua-e-sais-minerais.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="bioquimica-agua-e-sais-minerais.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Bioquímica: Água e Sais Minerais</h3>
       <p class="subject-card__desc">Água: solvente universal, polaridade, coesão, adesão, calor específico alto. Sais minerais: cálcio (ossos), ferro (hemoglobina), sódio/potássio (impulso nervoso), fósforo (ATP, DNA).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -96,9 +110,9 @@
       </div>
     </a>
       
-    <a href="bioquimica-carboidratos-lipidios-proteinas-e-acidos-nucleicos.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="bioquimica-carboidratos-lipidios-proteinas-e-acidos-nucleicos.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Bioquímica: Carboidratos, Lipídios, Proteínas e Ácidos Nucleicos</h3>
       <p class="subject-card__desc">Biomoléculas orgânicas: carboidratos (energia), lipídios (reserva, membranas), proteínas (enzimas, estrutura), ácidos nucleicos (DNA, RNA). Monômeros e polímeros.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -107,9 +121,9 @@
       </div>
     </a>
       
-    <a href="celula-membrana-plasmatica.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="celula-membrana-plasmatica.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Célula: Membrana Plasmática</h3>
       <p class="subject-card__desc">Membrana plasmática: bicamada fosfolipídica, modelo mosaico fluido (Singer-Nicolson). Transportes: difusão, osmose, transporte ativo (bomba Na/K). Especializações.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -118,9 +132,9 @@
       </div>
     </a>
       
-    <a href="celula-citoplasma-e-organelas.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="celula-citoplasma-e-organelas.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Célula: Citoplasma e Organelas</h3>
       <p class="subject-card__desc">Citoplasma: citosol, citoesqueleto, organelas. Ribossomos (síntese proteica), RE liso/rugoso, Golgi (empacotamento), mitocôndria (ATP), lisossomo (digestão), cloroplasto (fotossíntese).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -129,9 +143,9 @@
       </div>
     </a>
       
-    <a href="celula-nucleo-e-material-genetico.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="celula-nucleo-e-material-genetico.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Célula: Núcleo e Material Genético</h3>
       <p class="subject-card__desc">Núcleo: carioteca, nucléolo, cromatina/cromossomo. DNA → transcrição → mRNA → tradução → proteína. Gene: trecho do DNA que codifica proteína. Cariótipo humano: 46 cromossomos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -140,9 +154,9 @@
       </div>
     </a>
       
-    <a href="divisao-celular-mitose.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="divisao-celular-mitose.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Divisão Celular: Mitose</h3>
       <p class="subject-card__desc">Mitose: divisão celular que produz 2 células idênticas (2n→2n). Fases: prófase, metáfase, anáfase, telófase. Citocinese. Crescimento, reparo, reprodução assexuada.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -151,9 +165,9 @@
       </div>
     </a>
       
-    <a href="divisao-celular-meiose.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="divisao-celular-meiose.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Divisão Celular: Meiose</h3>
       <p class="subject-card__desc">Meiose: divisão reducional (2n→n). Produz 4 células haploides (gametas). Crossing-over (variabilidade). Meiose I (reducional) e II (equacional).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -162,9 +176,9 @@
       </div>
     </a>
       
-    <a href="metabolismo-respiracao-celular.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="metabolismo-respiracao-celular.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Metabolismo: Respiração Celular</h3>
       <p class="subject-card__desc">Respiração celular: glicose + O₂ → CO₂ + H₂O + ATP. Glicólise (citoplasma), Ciclo de Krebs (matriz mitocondrial), Cadeia respiratória (cristas). Fermentação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -173,9 +187,9 @@
       </div>
     </a>
       
-    <a href="metabolismo-fotossintese.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="metabolismo-fotossintese.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Metabolismo: Fotossíntese</h3>
       <p class="subject-card__desc">Fotossíntese: CO₂ + H₂O → C₆H₁₂O₆ + O₂ (usando luz). Fase clara (tilacoides): fotólise da água, ATP/NADPH. Fase escura (estroma): Ciclo de Calvin, fixação de CO₂.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -184,9 +198,9 @@
       </div>
     </a>
       
-    <a href="histologia-tecido-epitelial-e-conjuntivo.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="histologia-tecido-epitelial-e-conjuntivo.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Histologia: Tecido Epitelial e Conjuntivo</h3>
       <p class="subject-card__desc">Tecido epitelial: revestimento e secreção (glândulas). Tecido conjuntivo: sustentação (ósseo, cartilaginoso), transporte (sangue), defesa, preenchimento, adiposo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -195,9 +209,9 @@
       </div>
     </a>
       
-    <a href="histologia-tecido-muscular-e-nervoso.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="histologia-tecido-muscular-e-nervoso.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Histologia: Tecido Muscular e Nervoso</h3>
       <p class="subject-card__desc">Tecido muscular: estriado esquelético (voluntário), estriado cardíaco (involuntário), liso (involuntário). Tecido nervoso: neurônios (impulso) e células da glia (suporte).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -206,9 +220,9 @@
       </div>
     </a>
       
-    <a href="genetica-leis-de-mendel.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="genetica-leis-de-mendel.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Genética: Leis de Mendel</h3>
       <p class="subject-card__desc">Genética mendeliana: 1ª Lei (segregação dos fatores, mono-híbrido), 2ª Lei (segregação independente, di-híbrido). Dominância, recessividade, genótipo, fenótipo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -217,9 +231,9 @@
       </div>
     </a>
       
-    <a href="genetica-extensoes-do-mendelismo.html" class="subject-card reveal" data-grade="1º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Básico</div>
-      <span class="grade-badge">1º EM</span>
+    <a href="genetica-extensoes-do-mendelismo.html" class="subject-card reveal quest-card" data-tier="Básico" data-xp-required="0" data-xp-reward="100">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">🌱</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Genética: Extensões do Mendelismo</h3>
       <p class="subject-card__desc">Extensões do mendelismo: dominância incompleta, codominância (AB0), alelos múltiplos, herança ligada ao sexo (daltonismo, hemofilia), epistasia, herança poligênica.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -231,13 +245,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--biologia)">Intermediário</h2>
+    <section class="subjects-section tier-section" data-tier="Intermediário" data-unlock-xp="500">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--biologia)">⚔️ Guerreiro</h2>
+        <p class="tier-desc">Desafios intermediários — prove seu valor! <span class="tier-count">13 quests</span> · <span class="tier-xp">💎 1950 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">500 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="taxonomia-e-classificacao.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="taxonomia-e-classificacao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Taxonomia e Classificação</h3>
       <p class="subject-card__desc">Taxonomia: Lineu, nomenclatura binomial. Domínios (Bacteria, Archaea, Eukarya). Reinos: Monera, Protista, Fungi, Plantae, Animalia. Classificação filogenética.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -246,9 +266,9 @@
       </div>
     </a>
       
-    <a href="virus.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="virus.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Vírus</h3>
       <p class="subject-card__desc">Vírus: acelulares, parasitas intracelulares obrigatórios. DNA ou RNA. Ciclo lítico e lisogênico. Retrovírus (HIV). Doenças: gripe, dengue, COVID-19, sarampo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -257,9 +277,9 @@
       </div>
     </a>
       
-    <a href="reino-monera-bacterias.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="reino-monera-bacterias.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Reino Monera: Bactérias</h3>
       <p class="subject-card__desc">Bactérias: procariontes, unicelulares. Formas: coco, bacilo, espirilo. Reprodução: fissão binária. Doenças: tuberculose, cólera, tétano. Importância: decomposição, fixação de N₂.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -268,9 +288,9 @@
       </div>
     </a>
       
-    <a href="reinos-protista-e-fungi.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="reinos-protista-e-fungi.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Reinos Protista e Fungi</h3>
       <p class="subject-card__desc">Protista: protozoários (ameba, Plasmodium/malária, Trypanosoma/Chagas) e algas. Fungi: fungos (leveduras, cogumelos, bolores). Decomposição, micorrizas, fermentação.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -279,9 +299,9 @@
       </div>
     </a>
       
-    <a href="botanica-briofitas-pteridofitas-gimnospermas-angiospermas.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="botanica-briofitas-pteridofitas-gimnospermas-angiospermas.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Botânica: Briófitas, Pteridófitas, Gimnospermas, Angiospermas</h3>
       <p class="subject-card__desc">Plantas: briófitas (musgos, sem vasos), pteridófitas (samambaias, com vasos), gimnospermas (pinheiro, sementes nuas), angiospermas (flores, frutos, sementes protegidas).</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -290,9 +310,9 @@
       </div>
     </a>
       
-    <a href="fisiologia-vegetal.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="fisiologia-vegetal.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fisiologia Vegetal</h3>
       <p class="subject-card__desc">Fisiologia vegetal: xilema (seiva bruta, transpiration pull), floema (seiva elaborada). Hormônios: auxina, giberelina, citocinina, etileno, ABA. Fototropismo, gravitropismo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -301,9 +321,9 @@
       </div>
     </a>
       
-    <a href="zoologia-invertebrados.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="zoologia-invertebrados.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Zoologia: Invertebrados</h3>
       <p class="subject-card__desc">Invertebrados: poríferos (esponjas), cnidários (águas-vivas), platelmintos (tênias), nematelmintos (lombriga), anelídeos (minhocas), moluscos (caracóis), artrópodes (insetos), equinodermos.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -312,9 +332,9 @@
       </div>
     </a>
       
-    <a href="zoologia-vertebrados-cordados.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="zoologia-vertebrados-cordados.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Zoologia: Vertebrados (Cordados)</h3>
       <p class="subject-card__desc">Cordados/Vertebrados: peixes (cartilaginosos e ósseos), anfíbios, répteis, aves e mamíferos. Evolução: conquista do ambiente terrestre.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -323,9 +343,9 @@
       </div>
     </a>
       
-    <a href="fisiologia-humana-digestao-e-respiracao.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="fisiologia-humana-digestao-e-respiracao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fisiologia Humana: Digestão e Respiração</h3>
       <p class="subject-card__desc">Sistema digestório: boca→esôfago→estômago→intestino delgado (absorção)→grosso. Enzimas: amilase, pepsina, tripsina, lipase. Sistema respiratório: alvéolos, hematose.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -334,9 +354,9 @@
       </div>
     </a>
       
-    <a href="fisiologia-humana-circulacao-e-excrecao.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="fisiologia-humana-circulacao-e-excrecao.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fisiologia Humana: Circulação e Excreção</h3>
       <p class="subject-card__desc">Sistema circulatório: coração (4 câmaras), artérias, veias, capilares. Sangue: hemácias, leucócitos, plaquetas. Sistema excretor: rins, néfrons, formação da urina.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -345,9 +365,9 @@
       </div>
     </a>
       
-    <a href="fisiologia-humana-nervoso-e-endocrino.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="fisiologia-humana-nervoso-e-endocrino.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fisiologia Humana: Nervoso e Endócrino</h3>
       <p class="subject-card__desc">Sistema nervoso: SNC (encéfalo, medula), SNP, arco reflexo. Neurotransmissores. Sistema endócrino: hipófise, tireoide, adrenais, pâncreas (insulina/glucagon). Feedback negativo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -356,9 +376,9 @@
       </div>
     </a>
       
-    <a href="evolucao-darwin-e-a-selecao-natural.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="evolucao-darwin-e-a-selecao-natural.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Evolução: Darwin e a Seleção Natural</h3>
       <p class="subject-card__desc">Evolução: Darwin, seleção natural, adaptação. Evidências: fósseis, anatomia comparada (homologia/analogia), embriologia, biologia molecular. Lamarck vs Darwin.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -367,9 +387,9 @@
       </div>
     </a>
       
-    <a href="evolucao-especiacao-e-genetica-de-populacoes.html" class="subject-card reveal" data-grade="2º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Intermediário</div>
-      <span class="grade-badge">2º EM</span>
+    <a href="evolucao-especiacao-e-genetica-de-populacoes.html" class="subject-card reveal quest-card" data-tier="Intermediário" data-xp-required="500" data-xp-reward="150">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">⚔️</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Evolução: Especiação e Genética de Populações</h3>
       <p class="subject-card__desc">Especiação: alopátrica (geográfica) e simpátrica. Fatores evolutivos: mutação, seleção, deriva genética, migração. Hardy-Weinberg. Isolamento reprodutivo.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -381,13 +401,19 @@
       </div>
     </section>
     
-    <section class="subjects-section">
-      <h2 class="section-title" style="border-bottom-color: var(--biologia)">Avançado</h2>
+    <section class="subjects-section tier-section" data-tier="Avançado" data-unlock-xp="2000">
+      <div class="tier-header">
+        <h2 class="section-title" style="border-bottom-color: var(--biologia)">👑 Mestre</h2>
+        <p class="tier-desc">Conteúdo avançado — apenas para os mais dedicados! <span class="tier-count">12 quests</span> · <span class="tier-xp">💎 2400 XP</span></p>
+        <div class="tier-unlock-msg" style="display:none;">
+          <span class="tier-lock-icon">🔒</span> Alcance <strong class="tier-xp-needed">2000 XP</strong> para desbloquear este nível!
+        </div>
+      </div>
       <div class="subjects-grid">
         
-    <a href="ecologia-conceitos-fundamentais.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="ecologia-conceitos-fundamentais.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Ecologia: Conceitos Fundamentais</h3>
       <p class="subject-card__desc">Ecologia: população, comunidade, ecossistema, biosfera. Nicho ecológico vs habitat. Cadeia e teia alimentar. Produtores, consumidores, decompositores. Pirâmides ecológicas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -396,9 +422,9 @@
       </div>
     </a>
       
-    <a href="fluxo-de-energia-e-ciclos-biogeoquimicos.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="fluxo-de-energia-e-ciclos-biogeoquimicos.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Fluxo de Energia e Ciclos Biogeoquímicos</h3>
       <p class="subject-card__desc">Fluxo de energia: unidirecional (sol→produtores→consumidores→calor). Ciclos biogeoquímicos: carbono, nitrogênio, água, oxigênio, fósforo. Efeito estufa e aquecimento global.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -407,9 +433,9 @@
       </div>
     </a>
       
-    <a href="relacoes-ecologicas.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="relacoes-ecologicas.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Relações Ecológicas</h3>
       <p class="subject-card__desc">Relações ecológicas: harmônicas (mutualismo, comensalismo, protocooperação, colônia) e desarmônicas (predação, parasitismo, competição, amensalismo). Intra e interespecíficas.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -418,9 +444,9 @@
       </div>
     </a>
       
-    <a href="sucessao-ecologica.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="sucessao-ecologica.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Sucessão Ecológica</h3>
       <p class="subject-card__desc">Sucessão ecológica: colonização de ambiente. Primária (rocha nua) e secundária (área degradada). Espécies pioneiras → intermediárias → clímax. Biodiversidade aumenta.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -429,9 +455,9 @@
       </div>
     </a>
       
-    <a href="biomas-brasileiros-e-mundiais.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="biomas-brasileiros-e-mundiais.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Biomas Brasileiros e Mundiais</h3>
       <p class="subject-card__desc">Biomas brasileiros: Amazônia, Cerrado, Mata Atlântica, Caatinga, Pampa, Pantanal. Mundiais: tundra, taiga, floresta temperada, tropical, savana, deserto.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -440,9 +466,9 @@
       </div>
     </a>
       
-    <a href="poluicao-e-impactos-ambientais.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="poluicao-e-impactos-ambientais.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Poluição e Impactos Ambientais</h3>
       <p class="subject-card__desc">Impactos ambientais: desmatamento, poluição (ar, água, solo), efeito estufa, camada de ozônio, chuva ácida, eutrofização, lixo. Desenvolvimento sustentável.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -451,9 +477,9 @@
       </div>
     </a>
       
-    <a href="biotecnologia-dna-recombinante.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="biotecnologia-dna-recombinante.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Biotecnologia: DNA Recombinante</h3>
       <p class="subject-card__desc">DNA recombinante: enzimas de restrição, ligase, vetores (plasmídeo). Transgênicos (OGM): bactéria produzindo insulina, soja transgênica. Terapia gênica.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -462,9 +488,9 @@
       </div>
     </a>
       
-    <a href="biotecnologia-pcr-eletroforese-e-sequenciamento.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="biotecnologia-pcr-eletroforese-e-sequenciamento.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Biotecnologia: PCR, Eletroforese e Sequenciamento</h3>
       <p class="subject-card__desc">PCR: amplificação de DNA (Taq polimerase, primers). Eletroforese: separação por tamanho. Sequenciamento de DNA. Teste de paternidade. DNA fingerprinting.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -473,9 +499,9 @@
       </div>
     </a>
       
-    <a href="biotecnologia-clonagem-e-celulas-tronco.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="biotecnologia-clonagem-e-celulas-tronco.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Biotecnologia: Clonagem e Células-Tronco</h3>
       <p class="subject-card__desc">Clonagem: reprodutiva (Dolly, 1996) e terapêutica. Células-tronco: embrionárias (totipotentes) e adultas (multipotentes). Ética: debates sobre embriões e clonagem humana.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -484,9 +510,9 @@
       </div>
     </a>
       
-    <a href="genetica-de-populacoes-humanas.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="genetica-de-populacoes-humanas.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Genética de Populações Humanas</h3>
       <p class="subject-card__desc">Genética de populações humanas: variação genética, polimorfismos, adaptações (lactase, melanina). Doenças genéticas: fibrose cística, anemia falciforme, fenilcetonúria. Aconselhamento genético.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -495,9 +521,9 @@
       </div>
     </a>
       
-    <a href="imunologia.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="imunologia.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Imunologia</h3>
       <p class="subject-card__desc">Imunologia: imunidade inata (barreiras, fagocitose) e adaptativa (linfócitos B=anticorpos, T=celular). Vacinas, soros. Tipos de imunidade: ativa/passiva, natural/artificial.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -506,9 +532,9 @@
       </div>
     </a>
       
-    <a href="saude-publica-e-epidemiologia.html" class="subject-card reveal" data-grade="3º EM">
-      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">Avançado</div>
-      <span class="grade-badge">3º EM</span>
+    <a href="saude-publica-e-epidemiologia.html" class="subject-card reveal quest-card" data-tier="Avançado" data-xp-required="2000" data-xp-reward="200">
+      <div class="subject-card__icon" style="background:rgba(155, 89, 182, 0.10); color:var(--biologia); font-weight:700; font-size:12px;">👑</div>
+      <div class="quest-lock" style="display:none;">🔒</div>
       <h3 class="subject-card__title">Saúde Pública e Epidemiologia</h3>
       <p class="subject-card__desc">Saúde pública: SUS, epidemiologia, endemia, epidemia, pandemia. Doenças: dengue, malária, tuberculose, hanseníase. Saneamento básico. Vigilância epidemiológica.</p>
       <div style="font-size: 0.8rem; color: var(--text-muted); display:flex; gap: 10px;">
@@ -532,4 +558,56 @@
   
   <script src="../assets/theme.js"></script>
   <script src="../assets/app.js"></script>
+  <script src="../assets/rpg-engine.js"></script>
+  <script>
+  (function() {
+    var SUBJECT = 'biologia';
+    var rpgData;
+    try { rpgData = JSON.parse(localStorage.getItem('beholder_rpg_data')); } catch(e) {}
+    var subjectXP = 0;
+    if (rpgData && rpgData.subjectProgress && rpgData.subjectProgress[SUBJECT]) {
+      subjectXP = rpgData.subjectProgress[SUBJECT].xp || 0;
+    }
+    var completedArticles = (rpgData && rpgData.completedQuests) ? rpgData.completedQuests : [];
+    
+    function updateDisplay() {
+      var levelEl = document.getElementById('xp-level');
+      var xpEl = document.getElementById('xp-display');
+      var barEl = document.getElementById('xp-bar');
+      if (!levelEl) return;
+      
+      if (subjectXP >= 2000) {
+        levelEl.textContent = '👑 Mestre';
+        barEl.style.width = '100%';
+      } else if (subjectXP >= 500) {
+        levelEl.textContent = '⚔️ Guerreiro';
+        barEl.style.width = Math.min(100, (subjectXP / 2000) * 100) + '%';
+      } else {
+        levelEl.textContent = '🌱 Explorador';
+        barEl.style.width = Math.min(100, (subjectXP / 500) * 100) + '%';
+      }
+      xpEl.textContent = '💎 ' + subjectXP + ' XP';
+      
+      document.querySelectorAll('.tier-section').forEach(function(section) {
+        var requiredXP = parseInt(section.dataset.unlockXp || '0');
+        if (subjectXP < requiredXP) {
+          section.classList.add('is-locked');
+        } else {
+          section.classList.remove('is-locked');
+        }
+      });
+      
+      document.querySelectorAll('.quest-card').forEach(function(card) {
+        var href = card.getAttribute('href');
+        if (href) {
+          var slug = SUBJECT + '/' + href.replace('.html', '');
+          if (completedArticles.includes(slug)) {
+            card.classList.add('is-completed');
+          }
+        }
+      });
+    }
+    updateDisplay();
+  })();
+  </script>
 </body></html>
