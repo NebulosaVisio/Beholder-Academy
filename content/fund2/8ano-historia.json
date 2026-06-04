@@ -1,0 +1,306 @@
+{
+  "subject": "História",
+  "slug": "8ano-historia",
+  "articles": [
+    {
+      "title": "Iluminismo",
+      "slug": "iluminismo",
+      "desc": "O Século das Luzes: razão, liberdade, igualdade e os filósofos iluministas.",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Iluminismo (séc. XVIII): razão acima da tradição. Filósofos: Voltaire (liberdade de expressão), Montesquieu (3 poderes), Rousseau (contrato social), Locke (direitos naturais). Inspirou revoluções.",
+      "body": "<p>O <strong>Iluminismo</strong> foi um movimento intelectual do séc. XVIII que defendia a <strong>razão</strong>, a <strong>liberdade</strong> e a <strong>igualdade</strong> contra o absolutismo e os privilégios da nobreza e do clero.</p><h2>Contexto</h2><p>Também chamado de 'Século das Luzes', o Iluminismo nasceu na Europa (principalmente França) como reação ao:</p><ul><li>Absolutismo (poder sem limites do rei)</li><li>Mercantilismo (controle econômico)</li><li>Privilégios do clero e da nobreza</li><li>Intolerância religiosa</li></ul><h2>Principais Pensadores</h2><ul><li><strong>John Locke (1632-1704):</strong> direitos naturais (vida, liberdade, propriedade), pai do liberalismo</li><li><strong>Voltaire (1694-1778):</strong> liberdade de expressão e tolerância religiosa</li><li><strong>Montesquieu (1689-1755):</strong> separação dos 3 poderes (Executivo, Legislativo, Judiciário)</li><li><strong>Rousseau (1712-1778):</strong> contrato social, soberania popular</li><li><strong>Adam Smith (1723-1790):</strong> liberalismo econômico, 'mão invisível' do mercado</li></ul><h2>Enciclopédia</h2><p><strong>Diderot e D'Alembert</strong> organizaram a <em>Encyclopédie</em> (1751-1772): obra monumental que compilou todo o conhecimento da época. Instrumento de difusão das ideias iluministas.</p><h2>Legado</h2><p>O Iluminismo inspirou as <strong>Revoluções Americana</strong> (1776) e <strong>Francesa</strong> (1789), e as <strong>independências na América Latina</strong>. Os 3 poderes de Montesquieu estão na Constituição brasileira.</p>",
+      "faq": [
+        {"q": "O Iluminismo era contra a religião?", "a": "Não necessariamente. A maioria era deísta (acreditava em Deus, mas rejeitava dogmas e a Igreja como instituição de poder). Voltaire combatia a intolerância religiosa, não a fé em si."},
+        {"q": "Os 3 poderes de Montesquieu existem no Brasil?", "a": "Sim! Executivo (Presidente), Legislativo (Congresso) e Judiciário (STF). É o princípio de separação de poderes para evitar tirania, adotado em quase todas as democracias modernas."},
+        {"q": "Adam Smith era iluminista?", "a": "Sim! Seu livro 'A Riqueza das Nações' (1776) defendia o livre mercado contra o mercantilismo. É considerado o pai da economia moderna."},
+        {"q": "O Iluminismo chegou ao Brasil?", "a": "Sim! Influenciou a Inconfidência Mineira (1789), a Conjuração Baiana (1798) e eventualmente a Independência (1822). Intelectuais brasileiros liam Voltaire e Rousseau."}
+      ],
+      "quiz": [
+        {"question": "A separação dos 3 poderes foi proposta por:", "options": ["Voltaire", "Rousseau", "Montesquieu", "Locke"], "answer": 2},
+        {"question": "O Iluminismo defendia acima de tudo:", "options": ["A fé", "O rei", "A razão", "A tradição"], "answer": 2},
+        {"question": "'Contrato social' é ideia de:", "options": ["Voltaire", "Rousseau", "Smith", "Diderot"], "answer": 1},
+        {"question": "O liberalismo econômico foi proposto por:", "options": ["Marx", "Adam Smith", "Montesquieu", "Locke"], "answer": 1},
+        {"question": "O Iluminismo inspirou diretamente:", "options": ["As Cruzadas", "A Revolução Francesa", "O feudalismo", "As Grandes Navegações"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Revolução Americana (1776)",
+      "slug": "revolucao-americana",
+      "desc": "Independência dos EUA: causas, guerra, Constituição e impacto global.",
+      "category": "Revoluções",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "13 colônias se rebelaram contra a Inglaterra. Causas: impostos sem representação (No taxation without representation). 4/julho/1776: Declaração de Independência (Jefferson). Constituição (1787): república, federalismo, 3 poderes.",
+      "body": "<p>A <strong>Revolução Americana</strong> foi a primeira grande revolução inspirada pelo Iluminismo — e a primeira colônia a se tornar independente na era moderna.</p><h2>As 13 Colônias</h2><p>Colonizadas pela Inglaterra desde o séc. XVII. Tinham relativa autonomia, mas após a Guerra dos Sete Anos (1756-1763), a Inglaterra aumentou impostos.</p><h2>Causas</h2><ul><li><strong>'No taxation without representation':</strong> colonos pagavam impostos sem ter representantes no Parlamento britânico</li><li><strong>Lei do Selo (1765):</strong> taxa sobre documentos</li><li><strong>Lei do Chá (1773):</strong> monopólio do chá. Revolta: <strong>Boston Tea Party</strong></li><li>Ideias iluministas: Locke, Montesquieu</li></ul><h2>Independência</h2><p><strong>4 de julho de 1776:</strong> Declaração de Independência, escrita por <strong>Thomas Jefferson</strong>.</p><p>'Todos os homens são criados iguais, dotados pelo Criador de direitos inalienáveis: vida, liberdade e busca da felicidade.'</p><h2>Guerra (1775-1783)</h2><p>George Washington comandou o exército colonial. A França apoiou os americanos. Vitória na Batalha de Yorktown (1781).</p><h2>Constituição (1787)</h2><ul><li>República federativa presidencialista</li><li>Separação dos 3 poderes (Montesquieu)</li><li>Bill of Rights (1791): 10 emendas de direitos individuais</li></ul><h2>Contradições</h2><p>A declaração dizia 'todos são iguais', mas manteve a <strong>escravidão</strong> e excluiu mulheres e indígenas dos direitos políticos.</p>",
+      "faq": [
+        {"q": "A independência dos EUA inspirou o Brasil?", "a": "Indiretamente. Os inconfidentes mineiros conheciam o processo americano. Mas o modelo brasileiro de independência foi diferente: liderado pela elite com apoio da monarquia portuguesa (Pedro I)."},
+        {"q": "O que foi o Boston Tea Party?", "a": "Em 1773, colonos disfarçados de indígenas jogaram 342 caixas de chá no porto de Boston em protesto contra o monopólio britânico. Foi o estopim da revolução."},
+        {"q": "Os EUA foram a primeira democracia?", "a": "Primeira república moderna em larga escala, sim. Mas a democracia ateniense é anterior. E a democracia americana excluía escravizados, mulheres e indígenas por décadas."},
+        {"q": "Por que a França ajudou os EUA?", "a": "Por rivalidade com a Inglaterra! A França queria enfraquecer seu inimigo. Ironicamente, os gastos com a guerra americana agravaram a crise financeira francesa — que levou à Revolução Francesa."}
+      ],
+      "quiz": [
+        {"question": "A independência dos EUA foi em:", "options": ["1789", "1776", "1492", "1815"], "answer": 1},
+        {"question": "'No taxation without representation' significa:", "options": ["Sem impostos sem representação", "Não há taxas", "Todos pagam igual", "Impostos são ilegais"], "answer": 0},
+        {"question": "A Declaração foi escrita por:", "options": ["Washington", "Jefferson", "Franklin", "Adams"], "answer": 1},
+        {"question": "A Constituição americana adotou:", "options": ["Monarquia", "Ditadura", "República com 3 poderes", "Anarquia"], "answer": 2},
+        {"question": "O Boston Tea Party envolveu:", "options": ["Café", "Açúcar", "Chá", "Algodão"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Revolução Francesa (1789)",
+      "slug": "revolucao-francesa",
+      "desc": "Queda do Antigo Regime: causas, fases, Terror e legado.",
+      "category": "Revoluções",
+      "difficulty": "Avançado",
+      "grade": "8º ano",
+      "reading_time": "10",
+      "xp": 120,
+      "essential": "Lema: Liberdade, Igualdade, Fraternidade. Causas: crise financeira, desigualdade, Iluminismo. 14/07/1789: queda da Bastilha. Declaração dos Direitos do Homem. Fases: monarquia constitucional, república, Terror (Robespierre), Napoleão.",
+      "body": "<p>A <strong>Revolução Francesa</strong> é o evento mais importante da história moderna — derrubou a monarquia absoluta e proclamou os direitos do cidadão.</p><h2>Causas</h2><ul><li><strong>Desigualdade:</strong> 3 estados (clero e nobreza = privilegiados; povo = 97% pagava impostos)</li><li><strong>Crise financeira:</strong> gastos com guerras e luxo de Versalhes</li><li><strong>Iluminismo:</strong> ideias de liberdade e igualdade</li><li><strong>Fome:</strong> más colheitas e preço do pão</li></ul><h2>Fases</h2><h3>1. Assembleia Nacional (1789-1792)</h3><ul><li><strong>14 de julho:</strong> queda da Bastilha (prisão = símbolo do absolutismo)</li><li><strong>Declaração dos Direitos do Homem e do Cidadão</strong></li><li>Abolição dos privilégios feudais</li><li>Monarquia constitucional (rei com poderes limitados)</li></ul><h3>2. Convenção / República (1792-1795)</h3><ul><li>Luís XVI executado na guilhotina (1793)</li><li><strong>Terror (1793-1794):</strong> Robespierre e o Comitê de Salvação Pública. ~40.000 executados</li><li>Robespierre foi guilhotinado (1794)</li></ul><h3>3. Diretório e Napoleão (1795-1799)</h3><ul><li>Governo instável</li><li><strong>Napoleão Bonaparte</strong> deu um golpe (1799) e depois se tornou imperador (1804)</li></ul><h2>Legado</h2><p>Liberdade, Igualdade, Fraternidade. Direitos humanos. Fim dos privilégios de nascimento. Inspirou revoluções no mundo todo.</p>",
+      "faq": [
+        {"q": "Por que a guilhotina foi usada?", "a": "Paradoxalmente, era considerada 'humanitária' — uma morte rápida e igualitária (antes, nobres eram decapitados com espada e plebeus enforcados). Durante o Terror, virou símbolo de violência revolucionária."},
+        {"q": "Robespierre era herói ou vilão?", "a": "Ambos, dependendo da perspectiva. Defendeu o sufrágio universal e a abolição da escravidão, mas instaurou o Terror. Foi executado pelo mesmo mecanismo que usou contra outros."},
+        {"q": "A Revolução Francesa afetou o Brasil?", "a": "Sim! Inspirou a Conjuração Baiana (1798), influenciou o pensamento liberal que levou à Independência (1822) e está na base da nossa Declaração de Direitos na Constituição."},
+        {"q": "Maria Antonieta disse 'que comam brioches'?", "a": "Provavelmente não. A frase já circulava antes dela e foi atribuída a ela por propaganda revolucionária. Mas simboliza a insensibilidade da aristocracia diante da fome do povo."}
+      ],
+      "quiz": [
+        {"question": "A Bastilha caiu em:", "options": ["4 de julho", "14 de julho", "1 de janeiro", "25 de dezembro"], "answer": 1},
+        {"question": "O lema da Revolução era:", "options": ["Ordem e Progresso", "Liberdade, Igualdade, Fraternidade", "Deus, Pátria, Família", "Vox populi, vox Dei"], "answer": 1},
+        {"question": "Luís XVI foi:", "options": ["Exilado", "Preso perpetuamente", "Guilhotinado", "Perdoado"], "answer": 2},
+        {"question": "O Terror foi liderado por:", "options": ["Napoleão", "Voltaire", "Robespierre", "Luís XVI"], "answer": 2},
+        {"question": "Quem deu o golpe em 1799?", "options": ["Robespierre", "Luís XVIII", "Napoleão", "Danton"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Era Napoleônica",
+      "slug": "era-napoleonica",
+      "desc": "Napoleão Bonaparte: Consulado, Império, guerras e impacto no Brasil.",
+      "category": "Idade Contemporânea",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Napoleão: cônsul (1799), imperador (1804). Código Napoleônico (base do direito civil). Conquistou boa parte da Europa. Invasão de Portugal → família real foge para o Brasil (1808). Derrotado em Waterloo (1815).",
+      "body": "<p><strong>Napoleão Bonaparte</strong> (1769-1821) subiu de soldado a imperador da França e redesenhou o mapa da Europa.</p><h2>Ascensão</h2><ul><li><strong>Golpe de 18 Brumário (1799):</strong> derrubou o Diretório</li><li><strong>Cônsul (1799-1804):</strong> reformas modernizadoras</li><li><strong>Imperador (1804-1815):</strong> coroou a si mesmo</li></ul><h2>Realizações</h2><ul><li><strong>Código Napoleônico (1804):</strong> unificou as leis francesas. Base do direito civil de muitos países (inclusive o Brasil)</li><li>Reforma educacional: liceus (escolas secundárias)</li><li>Banco da França e sistema métrico</li><li>Concordata com o Papa (paz com a Igreja)</li></ul><h2>Guerras Napoleônicas</h2><p>Napoleão conquistou quase toda a Europa continental. Seus exércitos espalharam ideais revolucionários (fim do feudalismo, igualdade perante a lei).</p><h2>Bloqueio Continental (1806)</h2><p>Proibiu a Europa de comerciar com a Inglaterra. Portugal se recusou → Napoleão invadiu → <strong>família real portuguesa fugiu para o Brasil (1808)</strong>.</p><h2>Derrota</h2><ul><li><strong>Campanha da Rússia (1812):</strong> desastre — 500.000 mortos</li><li><strong>Exílio em Elba (1814)</strong></li><li><strong>Retorno (Cem Dias)</strong> e derrota final em <strong>Waterloo (1815)</strong></li><li>Exilado em Santa Helena, morreu em 1821</li></ul>",
+      "faq": [
+        {"q": "Como Napoleão afetou o Brasil?", "a": "Ao invadir Portugal, forçou D. João VI a fugir para o Brasil (1808). A corte portuguesa no Rio de Janeiro abriu portos, criou instituições e, indiretamente, preparou o caminho para a independência."},
+        {"q": "Napoleão era baixo?", "a": "Mito! Tinha ~1,70m, altura média para a época. O mito vem de propaganda britânica e da confusão entre medidas francesas e inglesas."},
+        {"q": "O que foi Waterloo?", "a": "Batalha na Bélgica (1815) onde Napoleão foi definitivamente derrotado por ingleses e prussianos. 'Waterloo' virou sinônimo de derrota final e irreversível."},
+        {"q": "O Código Napoleônico ainda vale?", "a": "A versão original não, mas influenciou o direito civil de dezenas de países, incluindo Brasil, Itália, Espanha e boa parte da América Latina."}
+      ],
+      "quiz": [
+        {"question": "O Código Napoleônico unificou:", "options": ["O exército", "As leis civis", "A moeda", "A religião"], "answer": 1},
+        {"question": "A família real portuguesa fugiu para o Brasil em:", "options": ["1789", "1808", "1822", "1500"], "answer": 1},
+        {"question": "Napoleão foi derrotado definitivamente em:", "options": ["Trafalgar", "Waterloo", "Austerlitz", "Moscou"], "answer": 1},
+        {"question": "O Bloqueio Continental era contra:", "options": ["França", "Rússia", "Inglaterra", "Espanha"], "answer": 2},
+        {"question": "Napoleão morreu exilado em:", "options": ["Elba", "Córsega", "Santa Helena", "Paris"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Revolução Industrial",
+      "slug": "revolucao-industrial",
+      "desc": "Máquinas a vapor, fábricas, urbanização e a transformação do trabalho.",
+      "category": "Idade Contemporânea",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Revolução Industrial (séc. XVIII, Inglaterra): máquina a vapor (Watt), fábricas, produção em massa. Consequências: urbanização, proletariado, trabalho infantil, poluição. 2ª Rev.: eletricidade, petróleo, aço.",
+      "body": "<p>A <strong>Revolução Industrial</strong> transformou o mundo mais profundamente do que qualquer evento desde a Revolução Agrícola do Neolítico.</p><h2>Onde e Quando</h2><p>Começou na <strong>Inglaterra</strong>, na segunda metade do séc. XVIII.</p><h2>Por que a Inglaterra?</h2><ul><li>Acúmulo de capital (comércio e colonialismo)</li><li>Carvão e ferro abundantes</li><li>Mão de obra disponível (cercamentos expulsaram camponeses)</li><li>Mercado consumidor (colônias)</li><li>Estabilidade política</li></ul><h2>Inovações</h2><ul><li><strong>Máquina a vapor (James Watt, 1769):</strong> motor da revolução</li><li><strong>Spinning Jenny e Water Frame:</strong> mecanização da fiação</li><li><strong>Locomotiva (Stephenson, 1825)</strong></li><li><strong>Fábrica:</strong> substituiu oficinas artesanais</li></ul><h2>Consequências</h2><ul><li><strong>Urbanização acelerada:</strong> cidades cresceram caoticamente</li><li><strong>Proletariado:</strong> trabalhadores assalariados (16h/dia, sem direitos)</li><li><strong>Trabalho infantil:</strong> crianças de 5 anos nas fábricas</li><li><strong>Poluição:</strong> início da degradação ambiental industrial</li></ul><h2>2ª Revolução Industrial (~1870)</h2><ul><li>Eletricidade (Edison, Tesla)</li><li>Petróleo e motor a combustão (automóvel)</li><li>Aço (Bessemer)</li><li>Linha de montagem (Ford)</li></ul>",
+      "faq": [
+        {"q": "A Revolução Industrial foi boa ou ruim?", "a": "As duas coisas. Aumentou a produção, a riqueza e o conforto a longo prazo. Mas no curto prazo causou miséria operária, trabalho infantil, poluição e desigualdade extrema. Os benefícios demoraram gerações para se espalhar."},
+        {"q": "O que eram os cercamentos?", "a": "Proprietários ingleses cercaram terras comunais para criar ovelhas (lã para indústria têxtil). Camponeses sem terra migraram para as cidades — tornando-se a mão de obra fabril."},
+        {"q": "Existiu trabalho infantil nas fábricas?", "a": "Sim, extensivamente! Crianças de 5-10 anos trabalhavam em minas e fábricas por mais de 12h. Só leis como o Factory Act (1833) começaram a limitar (mas não eliminar) a prática."},
+        {"q": "O Brasil teve Revolução Industrial?", "a": "Tarde e limitada. A industrialização brasileira começou no final do séc. XIX (Barão de Mauá) e se acelerou com Getúlio Vargas (1930s). O pacto colonial e depois a economia agrária atrasaram o processo."}
+      ],
+      "quiz": [
+        {"question": "A Revolução Industrial começou na:", "options": ["França", "Alemanha", "Inglaterra", "EUA"], "answer": 2},
+        {"question": "A máquina a vapor foi aprimorada por:", "options": ["Edison", "Ford", "James Watt", "Newton"], "answer": 2},
+        {"question": "Proletariado é a classe dos:", "options": ["Proprietários", "Trabalhadores assalariados", "Nobres", "Clero"], "answer": 1},
+        {"question": "A 2ª Revolução Industrial trouxe:", "options": ["Vapor", "Eletricidade e petróleo", "Internet", "Energia nuclear"], "answer": 1},
+        {"question": "Os cercamentos geraram:", "options": ["Mais terra para camponeses", "Êxodo rural e mão de obra urbana", "Reforma agrária", "Menos desigualdade"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Independência da América Latina",
+      "slug": "independencia-america-latina",
+      "desc": "Processos de independência na América Espanhola: Bolívar, San Martín e o contexto.",
+      "category": "Idade Contemporânea",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Contexto: Iluminismo + Revolução Francesa + guerras napoleônicas enfraqueceram Espanha. Líderes: Simón Bolívar (norte), San Martín (sul). Criollos (elite local) lideraram. Independências entre 1810-1830.",
+      "body": "<p>Nas primeiras décadas do séc. XIX, quase toda a América Espanhola se tornou independente. Os processos foram violentos e liderados pela elite colonial.</p><h2>Contexto</h2><ul><li><strong>Iluminismo:</strong> ideias de liberdade e soberania popular</li><li><strong>Revolução Americana (1776):</strong> mostrou que colônias podiam se libertar</li><li><strong>Revolução Francesa (1789):</strong> inspirou o discurso de igualdade</li><li><strong>Guerras Napoleônicas:</strong> Napoleão invadiu a Espanha (1808), enfraquecendo o controle colonial</li></ul><h2>Quem Liderou?</h2><p>Os <strong>criollos</strong> (descendentes de espanhóis nascidos na América). Tinham riqueza mas não poder político — os altos cargos eram reservados a espanhóis da Espanha (chapetones).</p><h2>Simón Bolívar (1783-1830)</h2><p>'O Libertador' — liderou a independência de:</p><ul><li>Venezuela, Colômbia, Equador, Peru e Bolívia</li><li>Sonhava com uma <strong>América unida</strong> (Grã-Colômbia)</li></ul><h2>José de San Martín (1778-1850)</h2><p>Libertou Argentina, Chile e Peru (pelo sul do continente).</p><h2>Outros Processos</h2><ul><li><strong>Haiti (1804):</strong> primeira república negra, independência liderada por escravizados (Toussaint L'Ouverture)</li><li><strong>México (1821):</strong> Hidalgo e Morelos iniciaram, Iturbide concluiu</li></ul><h2>Resultado</h2><p>Independência política, mas manutenção da desigualdade social. Elites criollas mantiveram o poder. Escravidão e latifúndio persistiram em muitos países.</p>",
+      "faq": [
+        {"q": "Bolívar conseguiu unir a América?", "a": "Não. A Grã-Colômbia (Venezuela + Colômbia + Equador) durou pouco e se fragmentou. Rivalidades locais, caudilhismo e interesses regionais impediram a unificação."},
+        {"q": "A independência mudou a vida do povo?", "a": "Pouco, no início. As elites criollas substituíram os espanhóis no poder, mas a estrutura social (latifúndio, escravidão, desigualdade) permaneceu praticamente intacta."},
+        {"q": "O Haiti foi o primeiro país a abolir a escravidão?", "a": "Sim, em 1804! A revolução haitiana (1791-1804) foi a única revolta de escravizados que criou um país independente. Inspirou medo nas elites escravistas de toda a América."},
+        {"q": "O que é caudilhismo?", "a": "Sistema político em que líderes militares locais (caudilhos) controlavam regiões por força e carisma. Marcou a América Latina pós-independência com instabilidade e golpes."}
+      ],
+      "quiz": [
+        {"question": "Bolívar libertou:", "options": ["Brasil e Argentina", "Venezuela, Colômbia, Equador", "México e Cuba", "Chile e Uruguai"], "answer": 1},
+        {"question": "A primeira república negra foi:", "options": ["Cuba", "Haiti", "Jamaica", "Brasil"], "answer": 1},
+        {"question": "Os criollos eram:", "options": ["Espanhóis da Espanha", "Descendentes de espanhóis nascidos na América", "Indígenas", "Africanos"], "answer": 1},
+        {"question": "San Martín libertou pelo:", "options": ["Norte do continente", "Centro", "Sul do continente", "Caribe"], "answer": 2},
+        {"question": "Napoleão enfraqueceu a Espanha ao:", "options": ["Ajudá-la", "Invadi-la", "Financiá-la", "Ignorá-la"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Independência do Brasil (1822)",
+      "slug": "independencia-brasil",
+      "desc": "De colônia a império: D. João VI, Corte no Rio, Dia do Fico e o 7 de setembro.",
+      "category": "Brasil Império",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "1808: família real no Brasil (abertura dos portos). 1815: Brasil elevado a Reino Unido. 1821: D. João VI retorna a Portugal. 9/jan/1822: Dia do Fico. 7/set/1822: Independência (Pedro I). Processo conservador, sem participação popular.",
+      "body": "<p>A independência do Brasil foi peculiar: não houve revolução popular, mas sim uma ruptura liderada pelo próprio <strong>príncipe herdeiro português</strong>.</p><h2>Corte no Brasil (1808)</h2><p>Fugindo de Napoleão, <strong>D. João VI</strong> trouxe toda a corte portuguesa para o Rio de Janeiro.</p><ul><li><strong>Abertura dos Portos</strong> (1808): fim do pacto colonial</li><li>Criação do Banco do Brasil, Jardim Botânico, Biblioteca Nacional</li><li>Rio de Janeiro tornou-se capital do império português</li><li><strong>Brasil elevado a Reino Unido</strong> (1815): não era mais colônia</li></ul><h2>Retorno de D. João VI (1821)</h2><p>A Revolução Liberal do Porto (1820) exigiu o retorno do rei e a <strong>recolonização do Brasil</strong>. D. João voltou e deixou seu filho <strong>Pedro</strong> como regente.</p><h2>Independência</h2><ul><li><strong>Dia do Fico (9/jan/1822):</strong> Pedro recusa ordem de voltar a Portugal. 'Se é para o bem de todos, fico.'</li><li><strong>7 de setembro de 1822:</strong> Pedro proclama a independência às margens do rio Ipiranga (São Paulo)</li><li><strong>Pedro I</strong> é coroado imperador do Brasil</li></ul><h2>Características</h2><ul><li>Processo <strong>conservador:</strong> liderado pela elite e pela monarquia</li><li><strong>Sem participação popular:</strong> povo assistiu de longe</li><li><strong>Manteve escravidão</strong> e estrutura social colonial</li><li>Monarquia (não república) — único país da América</li></ul>",
+      "faq": [
+        {"q": "O 'grito do Ipiranga' aconteceu mesmo?", "a": "Há debate. O quadro famoso de Pedro Américo (1888) é romantizado. Pedro provavelmente estava com disenteria, montado numa mula (não cavalo), e a cena não foi tão dramática."},
+        {"q": "Por que o Brasil virou monarquia e não república?", "a": "A independência foi liderada pelo príncipe herdeiro português, não por uma revolução popular. A elite queria manter a ordem e evitar o caos das repúblicas vizinhas. A monarquia garantia estabilidade."},
+        {"q": "O povo participou da independência?", "a": "Muito pouco. Foi um arranjo de elites. O povo (escravizados, indígenas, pobres) não viu mudanças significativas em suas vidas. A independência foi mais política do que social."},
+        {"q": "A independência foi pacífica?", "a": "Em grande parte sim, mas houve resistência portuguesa na Bahia (2 de julho de 1823), no Maranhão, no Pará e na Cisplatina. A Bahia considera 2 de julho mais importante que 7 de setembro."}
+      ],
+      "quiz": [
+        {"question": "A independência do Brasil foi em:", "options": ["1808", "1822", "1889", "1500"], "answer": 1},
+        {"question": "O Dia do Fico foi em:", "options": ["7 de setembro", "9 de janeiro", "15 de novembro", "22 de abril"], "answer": 1},
+        {"question": "D. João VI veio ao Brasil fugindo de:", "options": ["Espanha", "Napoleão", "Inglaterra", "Holanda"], "answer": 1},
+        {"question": "O Brasil se tornou:", "options": ["República", "Monarquia", "Ditadura", "Colônia espanhola"], "answer": 1},
+        {"question": "A abertura dos portos foi em:", "options": ["1500", "1808", "1822", "1889"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Primeiro Reinado e Período Regencial",
+      "slug": "primeiro-reinado-periodo-regencial",
+      "desc": "Pedro I, Constituição de 1824, abdicação e as revoltas regenciais.",
+      "category": "Brasil Império",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Primeiro Reinado (1822-1831): Pedro I, Constituição de 1824 (Poder Moderador), Confederação do Equador. Abdicação (1831). Regência (1831-1840): revoltas (Cabanagem, Balaiada, Farroupilha, Sabinada). Golpe da Maioridade (1840).",
+      "body": "<p>O <strong>Primeiro Reinado</strong> (1822-1831) foi marcado por conflitos entre Pedro I e as elites brasileiras, seguido por um período de instabilidade.</p><h2>Constituição de 1824</h2><ul><li>Pedro I dissolveu a Assembleia Constituinte e <strong>outorgou</strong> (impôs) sua própria Constituição</li><li>Criou o <strong>Poder Moderador:</strong> 4º poder exclusivo do imperador (podia dissolver o Parlamento)</li><li>Voto censitário (só quem tinha renda mínima)</li><li>Catolicismo = religião oficial</li></ul><h2>Confederação do Equador (1824)</h2><p>Revolta em Pernambuco contra o autoritarismo de Pedro I. Reprimida violentamente. Líder: <strong>Frei Caneca</strong> (executado).</p><h2>Abdicação (1831)</h2><p>Pedro I perdeu apoio: autoritário, envolvido na guerra da Cisplatina (Uruguai), crise econômica. Em 7/abril/1831, <strong>abdicou</strong> em favor de seu filho Pedro II (5 anos).</p><h2>Período Regencial (1831-1840)</h2><p>Regentes governaram no lugar do menino Pedro. Foi o período mais instável do Império:</p><ul><li><strong>Cabanagem (PA, 1835-1840):</strong> revolta popular, ~30.000 mortos</li><li><strong>Farroupilha (RS, 1835-1845):</strong> separatismo gaúcho, República Rio-Grandense</li><li><strong>Sabinada (BA, 1837-1838)</strong></li><li><strong>Balaiada (MA, 1838-1841):</strong> revolta de camponeses e escravizados</li></ul><h2>Golpe da Maioridade (1840)</h2><p>Para estabilizar o país, Pedro II foi declarado maior de idade aos <strong>14 anos</strong>. Início do Segundo Reinado.</p>",
+      "faq": [
+        {"q": "O que é Poder Moderador?", "a": "Um 4º poder (além de Executivo, Legislativo e Judiciário) exclusivo do imperador. Podia dissolver a Câmara, nomear senadores e anistiar criminosos. Era chamado de 'chave de toda organização política'."},
+        {"q": "Pedro I era brasileiro ou português?", "a": "Nasceu em Portugal (1798), mas cresceu no Brasil. Após a independência, era visto como 'muito português' pelos brasileiros e 'muito brasileiro' pelos portugueses."},
+        {"q": "A Farroupilha queria separar o RS do Brasil?", "a": "Inicialmente sim! Proclamaram a República Rio-Grandense (1836) e a República Juliana (SC). Mas a maioria dos farrapos acabou aceitando reintegração ao Império em troca de anistia."},
+        {"q": "Pedro II com 14 anos sabia governar?", "a": "Não era ideal, mas a alternativa (continuar com regentes) era pior. O 'Golpe da Maioridade' foi uma manobra política para acabar com a instabilidade. Pedro II cresceu para ser um governante respeitado."}
+      ],
+      "quiz": [
+        {"question": "A Constituição de 1824 criou o:", "options": ["Voto universal", "Poder Moderador", "República", "Parlamento"], "answer": 1},
+        {"question": "Pedro I abdicou em:", "options": ["1822", "1831", "1840", "1889"], "answer": 1},
+        {"question": "A Farroupilha ocorreu no:", "options": ["Pará", "Bahia", "Rio Grande do Sul", "Pernambuco"], "answer": 2},
+        {"question": "O Golpe da Maioridade declarou Pedro II maior com:", "options": ["18 anos", "21 anos", "14 anos", "16 anos"], "answer": 2},
+        {"question": "A Cabanagem ocorreu no:", "options": ["Maranhão", "Pará", "Bahia", "Minas Gerais"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Segundo Reinado e Abolição",
+      "slug": "segundo-reinado-abolicao",
+      "desc": "Pedro II, café, imigração, Guerra do Paraguai e o fim da escravidão.",
+      "category": "Brasil Império",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Segundo Reinado (1840-1889): Pedro II. Economia do café (Vale do Paraíba → Oeste Paulista). Guerra do Paraguai (1864-1870). Abolição gradual: Lei Eunásio (1850), Ventre Livre (1871), Sexagenários (1885), Áurea (1888).",
+      "body": "<p>O <strong>Segundo Reinado</strong> (1840-1889) foi o período mais longo e estável do Império, marcado pelo café, pela guerra e pela abolição.</p><h2>Pedro II</h2><p>Governou por 49 anos. Culto, poliglota, interessado em ciência. Exerceu o Poder Moderador com habilidade, alternando partidos (Liberal e Conservador).</p><h2>Economia do Café</h2><ul><li><strong>Vale do Paraíba (RJ/SP):</strong> 1ª fase, trabalho escravo</li><li><strong>Oeste Paulista:</strong> 2ª fase, imigrantes (italianos, alemães, japoneses)</li><li>Café = principal exportação (>60% da receita do Império)</li><li>Barões do café = nova elite política</li></ul><h2>Guerra do Paraguai (1864-1870)</h2><p>Brasil, Argentina e Uruguai (Tríplice Aliança) contra o Paraguai de Solano López. O mais sangrento conflito da América do Sul.</p><ul><li>Paraguai devastado: perdeu ~60-90% da população masculina</li><li>Brasil: negros e indígenas foram para a frente de batalha</li><li>Questionamento da escravidão (escravos lutaram com promessa de liberdade)</li></ul><h2>Abolição Gradual</h2><ul><li><strong>Lei Eusébio de Queirós (1850):</strong> proibiu o tráfico transatlântico</li><li><strong>Lei do Ventre Livre (1871):</strong> filhos de escravas nascem livres</li><li><strong>Lei dos Sexagenários (1885):</strong> escravos >60 anos são livres</li><li><strong>Lei Áurea (13/05/1888):</strong> abolição total. Princesa Isabel</li></ul><p>O Brasil foi o <strong>último país das Américas</strong> a abolir a escravidão.</p>",
+      "faq": [
+        {"q": "Pedro II foi um bom governante?", "a": "Relativamente. Manteve estabilidade por 49 anos, incentivou educação e cultura. Mas não resolveu a questão agrária nem integrou os ex-escravizados. Ao final, perdeu apoio de todos os setores."},
+        {"q": "A Guerra do Paraguai foi justa?", "a": "Muito debatida. A versão tradicional culpa Solano López por provocar. A revisionista aponta interesse brasileiro/argentino em controlar o Paraguai. A verdade provavelmente está entre as duas."},
+        {"q": "Por que a abolição foi tão lenta?", "a": "A economia dependia do trabalho escravo. Os fazendeiros (elite política) resistiram a cada passo. As leis graduais eram concessões mínimas sob pressão internacional e de movimentos abolicionistas."},
+        {"q": "O que aconteceu com os ex-escravizados após 1888?", "a": "Nada! Não houve indenização, reforma agrária, educação ou emprego. Os libertos foram jogados à margem da sociedade — raiz da desigualdade racial que persiste até hoje."}
+      ],
+      "quiz": [
+        {"question": "A principal economia do Segundo Reinado era:", "options": ["Açúcar", "Ouro", "Café", "Borracha"], "answer": 2},
+        {"question": "A Guerra do Paraguai foi entre:", "options": ["1800-1810", "1864-1870", "1889-1900", "1914-1918"], "answer": 1},
+        {"question": "A Lei Áurea foi assinada em:", "options": ["1871", "1885", "1888", "1889"], "answer": 2},
+        {"question": "O último país das Américas a abolir foi:", "options": ["EUA", "Cuba", "Brasil", "Haiti"], "answer": 2},
+        {"question": "Pedro II governou por:", "options": ["9 anos", "25 anos", "49 anos", "67 anos"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Proclamação da República (1889)",
+      "slug": "proclamacao-republica",
+      "desc": "O fim do Império: crise, golpe militar e a República Velha.",
+      "category": "Brasil República",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Crise do Império: questão militar, religiosa, abolicionista e republicana. 15/11/1889: Marechal Deodoro da Fonseca proclama a República. Sem participação popular. República Velha: coronelismo, política café-com-leite.",
+      "body": "<p>Em <strong>15 de novembro de 1889</strong>, um golpe militar derrubou a monarquia e proclamou a República. O povo, segundo Aristides Lobo, 'assistiu bestializado'.</p><h2>Crise do Império</h2><ul><li><strong>Questão militar:</strong> oficiais queriam mais poder político</li><li><strong>Questão religiosa:</strong> conflito entre Estado e Igreja</li><li><strong>Questão abolicionista:</strong> fazendeiros se sentiram 'traídos' pela Lei Áurea</li><li><strong>Questão republicana:</strong> propaganda positivista (Ordem e Progresso)</li></ul><h2>O Golpe</h2><p><strong>Marechal Deodoro da Fonseca</strong> depôs o Gabinete Imperial. Pedro II foi exilado para a Europa. Não houve resistência.</p><h2>República Velha (1889-1930)</h2><ul><li><strong>Constituição de 1891:</strong> república federativa, separação Estado-Igreja, voto direto (homens alfabetizados)</li><li><strong>Política do café-com-leite:</strong> alternância entre SP (café) e MG (leite) na presidência</li><li><strong>Coronelismo:</strong> poder local dos coronéis, voto de cabresto, fraude eleitoral</li><li><strong>Política dos governadores:</strong> troca de favores entre presidente e governadores</li></ul><h2>Movimentos Sociais</h2><ul><li><strong>Canudos (BA, 1896-1897):</strong> Antônio Conselheiro, comunidade sertaneja destruída pelo exército</li><li><strong>Contestado (SC/PR, 1912-1916)</strong></li><li><strong>Cangaço (NE):</strong> Lampião e Maria Bonita</li><li><strong>Revolta da Vacina (RJ, 1904):</strong> contra vacinação obrigatória</li></ul>",
+      "faq": [
+        {"q": "O povo participou da proclamação?", "a": "Quase nada. Foi um golpe militar com apoio de fazendeiros e republicanos. O jornalista Aristides Lobo escreveu que o povo 'assistiu bestializado, sem compreender o que se passava'."},
+        {"q": "O que é voto de cabresto?", "a": "O coronel (chefe político local) obrigava os eleitores a votarem em seu candidato, sob ameaça de violência ou perda do emprego. Como o voto era aberto, era fácil controlar."},
+        {"q": "Canudos era uma ameaça?", "a": "Não militarmente, mas ideologicamente. Uma comunidade autossuficiente no sertão desafiava o poder da República. O exército destruiu Canudos com 4 expedições. Euclides da Cunha registrou em 'Os Sertões'."},
+        {"q": "'Ordem e Progresso' vem de onde?", "a": "Do positivismo de Auguste Comte, filosofia que influenciou os militares republicanos. A frase completa é 'O Amor por princípio, a Ordem por base, o Progresso por fim'. Está na bandeira do Brasil."}
+      ],
+      "quiz": [
+        {"question": "A República foi proclamada em:", "options": ["7 de setembro", "15 de novembro", "1 de janeiro", "21 de abril"], "answer": 1},
+        {"question": "A política café-com-leite alternava:", "options": ["RJ e BA", "SP e MG", "RS e PE", "PR e SC"], "answer": 1},
+        {"question": "Canudos foi liderado por:", "options": ["Lampião", "Antônio Conselheiro", "Zumbi", "Tiradentes"], "answer": 1},
+        {"question": "O coronelismo envolvia:", "options": ["Eleições livres", "Voto de cabresto e poder local", "Democracia direta", "Votação digital"], "answer": 1},
+        {"question": "'Ordem e Progresso' vem do:", "options": ["Iluminismo", "Marxismo", "Positivismo", "Liberalismo"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Ideologias do Século XIX: Liberalismo, Socialismo e Nacionalismo",
+      "slug": "ideologias-seculo-xix",
+      "desc": "As grandes correntes de pensamento que moldaram o mundo moderno.",
+      "category": "Idade Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Liberalismo: liberdade individual, livre mercado (Adam Smith, Locke). Socialismo: igualdade, propriedade coletiva (Marx, Engels — Manifesto Comunista 1848). Nacionalismo: povo-nação-Estado (unificações da Itália e Alemanha).",
+      "body": "<p>O século XIX viu o nascimento das grandes ideologias que ainda moldam o debate político atual.</p><h2>Liberalismo</h2><p>Defende <strong>liberdade individual</strong> e <strong>livre mercado</strong>:</p><ul><li>Estado mínimo (não interferir na economia)</li><li>Direitos individuais (propriedade, expressão, religião)</li><li>Teóricos: <strong>John Locke, Adam Smith</strong></li><li>Lema: 'Laissez-faire' (deixe fazer)</li></ul><h2>Socialismo</h2><p>Critica o capitalismo e defende <strong>igualdade social</strong>:</p><ul><li><strong>Socialismo utópico:</strong> Owen, Saint-Simon — sociedades ideais</li><li><strong>Socialismo científico (Marxismo):</strong> Marx e Engels</li><li><strong>Manifesto Comunista (1848):</strong> 'Proletários de todos os países, uni-vos!'</li><li>Luta de classes: burguesia × proletariado</li><li>Meta: abolir a propriedade privada dos meios de produção</li></ul><h2>Anarquismo</h2><p>Rejeita toda forma de governo. Teóricos: <strong>Bakunin, Proudhon</strong>. 'A propriedade é um roubo.'</p><h2>Nacionalismo</h2><p>Cada <strong>nação</strong> (povo com identidade comum) deve ter seu <strong>Estado</strong>:</p><ul><li><strong>Unificação da Itália (1861):</strong> Garibaldi, Cavour</li><li><strong>Unificação da Alemanha (1871):</strong> Bismarck, 'ferro e sangue'</li><li>Inspirou independências, mas também imperialismos</li></ul>",
+      "faq": [
+        {"q": "Liberalismo é de esquerda ou de direita?", "a": "Depende do contexto! No séc. XIX era progressista (contra o absolutismo). Hoje, o liberalismo econômico é associado à direita, enquanto o liberalismo social (direitos individuais) é mais associado à esquerda."},
+        {"q": "Marx queria violência?", "a": "Marx acreditava que a revolução proletária era historicamente inevitável, podendo ser violenta. Mas não 'queria' violência por si só — queria o fim da exploração. O debate sobre meios persiste até hoje."},
+        {"q": "Nacionalismo é bom ou ruim?", "a": "As duas coisas. Inspirou independências (positivo) mas também xenofobia, imperialismo e, no séc. XX, fascismo e guerras mundiais. Depende de como é usado."},
+        {"q": "Essas ideologias ainda existem?", "a": "Sim! Liberalismo, socialismo e nacionalismo (em suas diversas formas) são as bases do debate político até hoje. Partidos se definem em relação a elas."}
+      ],
+      "quiz": [
+        {"question": "'Laissez-faire' é princípio do:", "options": ["Socialismo", "Liberalismo", "Anarquismo", "Fascismo"], "answer": 1},
+        {"question": "O Manifesto Comunista foi escrito por:", "options": ["Adam Smith", "Locke", "Marx e Engels", "Bakunin"], "answer": 2},
+        {"question": "A unificação da Alemanha foi liderada por:", "options": ["Garibaldi", "Bismarck", "Bolívar", "Napoleão"], "answer": 1},
+        {"question": "O anarquismo defende:", "options": ["Estado forte", "Monarquia", "Ausência de governo", "Ditadura"], "answer": 2},
+        {"question": "Nacionalismo defende que cada nação tenha:", "options": ["Seu Estado", "Seu imperador", "Sua religião", "Sua moeda"], "answer": 0}
+      ]
+    },
+    {
+      "title": "Imperialismo e Partilha da África",
+      "slug": "imperialismo-partilha-africa",
+      "desc": "A corrida colonial europeia na África e Ásia no século XIX.",
+      "category": "Idade Contemporânea",
+      "difficulty": "Avançado",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Imperialismo (séc. XIX): potências europeias dominaram África e Ásia. Causas: matérias-primas, mercados, racismo ('missão civilizadora'). Conferência de Berlim (1884-1885): partilha da África sem africanos. Consequências: exploração, fronteiras artificiais.",
+      "body": "<p>No final do séc. XIX, as potências europeias industrializadas dominaram quase toda a <strong>África</strong> e grande parte da <strong>Ásia</strong>. É o <strong>Imperialismo</strong> ou <strong>Neocolonialismo</strong>.</p><h2>Causas</h2><ul><li><strong>Econômicas:</strong> matérias-primas (borracha, diamantes, petróleo) e novos mercados consumidores</li><li><strong>Políticas:</strong> prestígio nacional, competição entre potências</li><li><strong>Ideológicas:</strong> racismo científico, darwinismo social, 'missão civilizadora' (o 'fardo do homem branco')</li><li><strong>Tecnológicas:</strong> armas modernas, navios a vapor, quinino (combate à malária)</li></ul><h2>Conferência de Berlim (1884-1885)</h2><p>14 países europeus se reuniram para <strong>dividir a África</strong> entre si. <strong>Nenhum africano foi convidado.</strong></p><ul><li>Fronteiras foram traçadas com régua no mapa, ignorando etnias e culturas</li><li>Em 1914, 90% da África estava sob domínio europeu</li></ul><h2>Exemplos</h2><ul><li><strong>Congo Belga:</strong> Leopoldo II explorou com brutalidade extrema (~10 milhões de mortos)</li><li><strong>Índia Britânica:</strong> a 'joia da Coroa' do Império Britânico</li><li><strong>Guerra dos Bôeres (África do Sul):</strong> ingleses vs. descendentes de holandeses</li></ul><h2>Resistência</h2><p>Africanos resistiram: <strong>Samori Ture</strong> (África Ocidental), <strong>Zulus</strong> (África do Sul), <strong>Revolta dos Maji-Maji</strong> (Tanzânia). Mas a superioridade bélica europeia era esmagadora.</p><h2>Consequências</h2><ul><li>Exploração econômica brutal</li><li>Fronteiras artificiais que causam conflitos até hoje</li><li>Destruição de culturas e identidades</li><li>Tensões entre potências → caminho para a 1ª Guerra Mundial</li></ul>",
+      "faq": [
+        {"q": "O imperialismo acabou?", "a": "Formalmente sim (descolonização nos anos 1950-1970). Mas críticos apontam que o 'neocolonialismo' persiste: países ricos controlam economias do Sul Global através de dívida, comércio desigual e influência política."},
+        {"q": "O que é darwinismo social?", "a": "Aplicação distorcida da teoria de Darwin à sociedade: europeus 'evoluídos' teriam o direito de dominar povos 'inferiores'. É pseudociência racista, sem base científica, mas serviu para justificar o imperialismo."},
+        {"q": "As fronteiras africanas foram mesmo traçadas com régua?", "a": "Em boa parte, sim! 44% das fronteiras africanas são linhas retas, ignorando etnias, línguas e geografias. Isso separou povos e juntou inimigos, causando conflitos que duram até hoje."},
+        {"q": "O Congo de Leopoldo II foi genocídio?", "a": "Sim. Estima-se 10 milhões de mortos no Congo sob Leopoldo II (1885-1908). Trabalhadores que não atingiam cotas de borracha tinham as mãos cortadas. É um dos piores crimes da história."}
+      ],
+      "quiz": [
+        {"question": "A Conferência de Berlim ocorreu em:", "options": ["1776", "1848", "1884-1885", "1914"], "answer": 2},
+        {"question": "Em 1914, ___% da África era colonizada:", "options": ["50%", "70%", "90%", "100%"], "answer": 2},
+        {"question": "O 'fardo do homem branco' justificava:", "options": ["Abolição", "Imperialismo", "Democracia", "Pacifismo"], "answer": 1},
+        {"question": "O Congo foi brutalmente explorado por:", "options": ["França", "Inglaterra", "Bélgica", "Alemanha"], "answer": 2},
+        {"question": "A Conferência de Berlim incluiu:", "options": ["Africanos e europeus", "Só europeus", "Só africanos", "EUA e Japão"], "answer": 1}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "subject": "História",
+  "slug": "7ano-historia",
+  "articles": [
+    {
+      "title": "O Império Bizantino",
+      "slug": "imperio-bizantino",
+      "desc": "O Império Romano do Oriente: Constantinopla, Justiniano e a cultura bizantina.",
+      "category": "Idade Média",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Império Bizantino = Roma do Oriente (330-1453 d.C.). Capital: Constantinopla. Justiniano: Corpus Juris Civilis, Santa Sofia. Cesaropapismo. Caiu em 1453 para os turcos otomanos.",
+      "body": "<p>Enquanto o Império Romano do Ocidente caía em 476 d.C., o <strong>Império Romano do Oriente</strong> — o <strong>Império Bizantino</strong> — sobreviveu por quase mil anos a mais!</p><h2>Constantinopla</h2><p>Fundada por <strong>Constantino I</strong> em 330 d.C. sobre a antiga Bizâncio (atual Istambul). Localização estratégica entre Europa e Ásia, controlando o comércio entre os dois continentes.</p><h2>Imperador Justiniano (527-565)</h2><ul><li><strong>Corpus Juris Civilis:</strong> compilação do Direito Romano que influencia o direito ocidental até hoje</li><li><strong>Santa Sofia:</strong> catedral monumental com cúpula de 31m</li><li>Tentou reconquistar o Ocidente romano</li><li>Enfrentou a <strong>Revolta de Nika</strong> (532), reprimida com violência</li></ul><h2>Cesaropapismo</h2><p>O imperador controlava tanto o Estado quanto a Igreja — diferente do Ocidente, onde Papa e rei disputavam poder.</p><h2>Cisma do Oriente (1054)</h2><p>A Igreja Cristã se dividiu em:</p><ul><li><strong>Católica Romana</strong> (Ocidente, Papa em Roma)</li><li><strong>Ortodoxa</strong> (Oriente, Patriarca em Constantinopla)</li></ul><h2>Queda (1453)</h2><p>Os <strong>turcos otomanos</strong> conquistaram Constantinopla em 1453, marcando o fim da Idade Média.</p>",
+      "faq": [
+        {"q": "Por que 'Bizantino' e não 'Romano do Oriente'?", "a": "Os bizantinos se chamavam 'romanos' (rhomaioi). 'Bizantino' é um termo posterior, criado por historiadores modernos a partir de 'Bizâncio', o nome antigo de Constantinopla."},
+        {"q": "O Corpus Juris Civilis influencia o Brasil?", "a": "Sim! O Direito Civil brasileiro tem raízes no Direito Romano compilado por Justiniano. Conceitos como propriedade, contratos e herança vêm dessa tradição."},
+        {"q": "O que é cisma?", "a": "É uma divisão dentro de uma religião. O Cisma de 1054 separou a Igreja em Católica (Ocidente) e Ortodoxa (Oriente) por divergências sobre autoridade do Papa, celibato e iconografia."},
+        {"q": "Constantinopla ainda existe?", "a": "Sim, é a atual Istambul, Turquia! Após a conquista otomana em 1453, foi renomeada. Santa Sofia hoje é uma mesquita."}
+      ],
+      "quiz": [
+        {"question": "O Império Bizantino caiu em:", "options": ["476", "1054", "1453", "1789"], "answer": 2},
+        {"question": "Justiniano é conhecido pelo:", "options": ["Código de Hamurábi", "Corpus Juris Civilis", "Édito de Milão", "Tratado de Tordesilhas"], "answer": 1},
+        {"question": "Constantinopla hoje é:", "options": ["Atenas", "Roma", "Istambul", "Cairo"], "answer": 2},
+        {"question": "O Cisma de 1054 dividiu:", "options": ["Islã e Judaísmo", "Católicos e Protestantes", "Católicos e Ortodoxos", "Sunitas e Xiitas"], "answer": 2},
+        {"question": "Quem conquistou Constantinopla em 1453?", "options": ["Mongóis", "Árabes", "Turcos otomanos", "Cruzados"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Islã e o Mundo Árabe",
+      "slug": "isla-mundo-arabe",
+      "desc": "Maomé, os pilares do Islã, expansão árabe e contribuições culturais.",
+      "category": "Idade Média",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Islã: fundado por Maomé (570-632 d.C.) em Meca. Livro: Alcorão. 5 pilares: profissão de fé, oração, esmola, jejum, peregrinação. Expansão: Norte da África, Península Ibérica, Ásia. Contribuições: álgebra, medicina, astronomia.",
+      "body": "<p>O <strong>Islã</strong> é a segunda maior religião do mundo, com ~1,8 bilhão de seguidores. Nasceu na Arábia no século VII.</p><h2>Maomé (570-632 d.C.)</h2><p>Nascido em <strong>Meca</strong>, recebeu revelações de Alá (Deus) através do anjo Gabriel. Registradas no <strong>Alcorão</strong> (livro sagrado).</p><p>Em 622, migrou de Meca para <strong>Medina</strong> — a <strong>Hégira</strong>, marco inicial do calendário islâmico.</p><h2>Os 5 Pilares do Islã</h2><ol><li><strong>Shahada:</strong> profissão de fé ('Não há deus além de Alá, e Maomé é seu profeta')</li><li><strong>Salat:</strong> 5 orações diárias voltado para Meca</li><li><strong>Zakat:</strong> esmola obrigatória aos pobres</li><li><strong>Saum:</strong> jejum no mês do Ramadã</li><li><strong>Hajj:</strong> peregrinação a Meca pelo menos uma vez na vida</li></ol><h2>Expansão</h2><p>Em ~100 anos, o Islã se expandiu da Espanha à Índia. Os árabes criaram um vasto império (Califados).</p><h2>Contribuições Culturais</h2><ul><li><strong>Matemática:</strong> álgebra (al-jabr), algarismos arábicos (originários da Índia)</li><li><strong>Medicina:</strong> Avicena (Cânone da Medicina)</li><li><strong>Astronomia:</strong> nomes de estrelas (Aldebaran, Betelgeuse)</li><li><strong>Arquitetura:</strong> mesquitas, Alhambra (Espanha)</li></ul>",
+      "faq": [
+        {"q": "Islã e muçulmano são a mesma coisa?", "a": "Islã é a religião. Muçulmano é quem segue o Islã. Árabe é uma etnia/cultura — nem todo muçulmano é árabe (a Indonésia tem a maior população muçulmana)."},
+        {"q": "Sunitas e xiitas: qual a diferença?", "a": "Divergência sobre a sucessão de Maomé. Sunitas (~85%) aceitam os primeiros califas. Xiitas acreditam que a liderança deveria ter passado por Ali (genro de Maomé)."},
+        {"q": "O Islã é violento?", "a": "Não! A palavra 'Islã' significa 'submissão/paz'. O extremismo é uma distorção minoritária. O Alcorão proíbe matar inocentes. A grande maioria dos muçulmanos é pacífica."},
+        {"q": "O que é a Hégira?", "a": "A migração de Maomé de Meca para Medina em 622 d.C., fugindo de perseguição. Marca o início do calendário islâmico. Medina se tornou a primeira comunidade muçulmana organizada."}
+      ],
+      "quiz": [
+        {"question": "O livro sagrado do Islã é o:", "options": ["Torá", "Bíblia", "Alcorão", "Vedas"], "answer": 2},
+        {"question": "Quantos pilares tem o Islã?", "options": ["3", "5", "7", "10"], "answer": 1},
+        {"question": "A Hégira marca a migração para:", "options": ["Meca", "Jerusalém", "Medina", "Bagdá"], "answer": 2},
+        {"question": "Álgebra vem do árabe:", "options": ["Al-kimiya", "Al-jabr", "Al-manakh", "Al-kuhl"], "answer": 1},
+        {"question": "A maior população muçulmana do mundo está na:", "options": ["Arábia Saudita", "Irã", "Indonésia", "Egito"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Feudalismo: A Europa Medieval",
+      "slug": "feudalismo-europa-medieval",
+      "desc": "Sociedade feudal: senhores, vassalos, servos, Igreja e o feudo.",
+      "category": "Idade Média",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Feudalismo: sistema político-econômico da Europa Medieval (séc. V-XV). Feudo = terra. Suserania e vassalagem. Sociedade: clero (reza), nobreza (luta), servos (trabalha). Igreja Católica = instituição mais poderosa.",
+      "body": "<p>Após a queda de Roma (476), a Europa Ocidental fragmentou-se em reinos instáveis. O <strong>feudalismo</strong> foi o sistema que organizou essa sociedade por quase mil anos.</p><h2>O Feudo</h2><p>O <strong>feudo</strong> era uma grande propriedade de terra autossuficiente: produzia quase tudo que consumia.</p><ul><li><strong>Manso senhorial:</strong> terra exclusiva do senhor</li><li><strong>Manso servil:</strong> terra cultivada pelos servos</li><li><strong>Terras comunais:</strong> pastagens e bosques compartilhados</li></ul><h2>Relações Feudais</h2><p><strong>Suserania e vassalagem:</strong> um nobre (suserano) concedia terras a outro (vassalo) em troca de lealdade e serviço militar.</p><h2>A Sociedade Estamental</h2><p>Três ordens fixas (sem mobilidade social):</p><ul><li><strong>1ª ordem — Clero:</strong> 'os que rezam' (padres, bispos, monges)</li><li><strong>2ª ordem — Nobreza:</strong> 'os que lutam' (senhores feudais, cavaleiros)</li><li><strong>3ª ordem — Servos:</strong> 'os que trabalham' (camponeses presos à terra)</li></ul><h2>A Igreja Católica</h2><p>A instituição mais poderosa da Idade Média:</p><ul><li>Maior proprietária de terras</li><li>Controlava a educação (mosteiros)</li><li>Cobrava o <strong>dízimo</strong> (10% da produção)</li><li>Legitimava o poder dos reis</li></ul><h2>Economia</h2><p>Agricultura de subsistência, trocas (escambo), pouco comércio. As cidades encolheram. Era uma economia <strong>rural e fechada</strong>.</p>",
+      "faq": [
+        {"q": "O servo era escravo?", "a": "Não exatamente. O servo era preso à terra (não podia sair do feudo), mas tinha direitos: moradia, proteção e parte da produção. Diferente do escravo, que era propriedade e podia ser vendido."},
+        {"q": "Existia mobilidade social?", "a": "Quase nenhuma! Nascia servo, morria servo. A exceção era a Igreja: um camponês poderia entrar para o clero e ascender socialmente."},
+        {"q": "Por que a Igreja era tão poderosa?", "a": "Era a única instituição que sobreviveu à queda de Roma. Mantinha o latim (língua culta), a educação (mosteiros), e legitimava o poder dos reis pela 'autoridade divina'."},
+        {"q": "Feudalismo existiu no Brasil?", "a": "Não formalmente. Mas o sistema de capitanias hereditárias e as grandes fazendas coloniais tinham elementos semelhantes: concentração de terra, trabalho servil/escravo e poder local dos donos."}
+      ],
+      "quiz": [
+        {"question": "O feudo era:", "options": ["Uma cidade", "Uma propriedade rural", "Um castelo", "Um reino"], "answer": 1},
+        {"question": "'Os que rezam' no feudalismo eram:", "options": ["Servos", "Cavaleiros", "Clero", "Comerciantes"], "answer": 2},
+        {"question": "Vassalagem era uma relação entre:", "options": ["Servo e senhor", "Nobre e nobre", "Camponês e padre", "Rei e povo"], "answer": 1},
+        {"question": "A economia feudal era baseada em:", "options": ["Comércio marítimo", "Indústria", "Agricultura de subsistência", "Mineração"], "answer": 2},
+        {"question": "O dízimo era cobrado pela:", "options": ["Nobreza", "Igreja", "Monarquia", "Burguesia"], "answer": 1}
+      ]
+    },
+    {
+      "title": "As Cruzadas",
+      "slug": "cruzadas",
+      "desc": "Expedições militares cristãs à Terra Santa: causas, eventos e consequências.",
+      "category": "Idade Média",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Cruzadas (1096-1270): guerras cristãs para retomar Jerusalém dos muçulmanos. 8 expedições. Consequências: renascimento do comércio, contato com o Oriente, enfraquecimento do feudalismo.",
+      "body": "<p>As <strong>Cruzadas</strong> foram expedições militares organizadas pela Igreja Católica para reconquistar <strong>Jerusalém</strong> e a Terra Santa dos muçulmanos.</p><h2>Causas</h2><ul><li><strong>Religiosas:</strong> reconquistar os lugares sagrados do cristianismo</li><li><strong>Econômicas:</strong> busca de terras e riquezas do Oriente</li><li><strong>Sociais:</strong> filhos sem herança da nobreza buscavam oportunidades</li><li><strong>Políticas:</strong> o Papa queria aumentar seu poder</li></ul><h2>Principais Cruzadas</h2><ul><li><strong>1ª (1096-1099):</strong> Conquista de Jerusalém — sucesso militar</li><li><strong>3ª (1189-1192):</strong> Ricardo Coração de Leão vs. Saladino — empate</li><li><strong>4ª (1202-1204):</strong> Desviada! Cruzados saquearam Constantinopla cristã</li><li><strong>Cruzada das Crianças (1212):</strong> milhares de jovens morreram sem chegar à Terra Santa</li></ul><h2>Consequências</h2><ul><li><strong>Renascimento do comércio:</strong> Europa conheceu produtos orientais (seda, especiarias, açúcar)</li><li><strong>Crescimento das cidades:</strong> rotas comerciais revitalizaram centros urbanos</li><li><strong>Contato cultural:</strong> europeus aprenderam matemática, medicina e filosofia árabes</li><li><strong>Enfraquecimento do feudalismo:</strong> nobres perderam poder e riqueza</li><li><strong>Fortalecimento da burguesia:</strong> comerciantes enriqueceram</li></ul>",
+      "faq": [
+        {"q": "As Cruzadas foram bem-sucedidas?", "a": "Militarmente, não — Jerusalém voltou ao controle muçulmano. Mas as consequências indiretas (comércio, contato cultural, enfraquecimento feudal) transformaram a Europa profundamente."},
+        {"q": "Saladino era vilão?", "a": "Depende da perspectiva! Para os muçulmanos, era um herói que retomou Jerusalém (1187). Era conhecido pela cavalheirismo até pelos cruzados. A história é sempre contada de múltiplos lados."},
+        {"q": "A Cruzada das Crianças realmente aconteceu?", "a": "Há debate. Provavelmente eram jovens camponeses (não literalmente crianças) movidos por fervor religioso. A maioria morreu ou foi escravizada antes de chegar à Terra Santa."},
+        {"q": "As Cruzadas têm relação com conflitos atuais?", "a": "Indiretamente. O ressentimento pelas Cruzadas ainda é invocado em discursos políticos no Oriente Médio. Mas os conflitos atuais têm causas modernas (petróleo, geopolítica, nacionalismo)."}
+      ],
+      "quiz": [
+        {"question": "As Cruzadas tinham como objetivo principal:", "options": ["Destruir Roma", "Reconquistar Jerusalém", "Conquistar a China", "Derrotar os Vikings"], "answer": 1},
+        {"question": "A 1ª Cruzada ocorreu em:", "options": ["776 a.C.", "1096-1099", "1453", "1789"], "answer": 1},
+        {"question": "As Cruzadas fortaleceram:", "options": ["O feudalismo", "A burguesia e o comércio", "Os servos", "O Senado Romano"], "answer": 1},
+        {"question": "Saladino era líder:", "options": ["Cristão", "Muçulmano", "Judeu", "Bizantino"], "answer": 1},
+        {"question": "A 4ª Cruzada saqueou:", "options": ["Jerusalém", "Meca", "Constantinopla", "Roma"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Renascimento Cultural e Científico",
+      "slug": "renascimento-cultural-cientifico",
+      "desc": "O Renascimento: humanismo, arte, ciência e a transição para a Idade Moderna.",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Renascimento (séc. XIV-XVI): retorno à cultura greco-romana. Humanismo: ser humano no centro. Artistas: Leonardo, Michelangelo, Rafael. Ciência: Copérnico (heliocentrismo), Galileu. Imprensa de Gutenberg (1450).",
+      "body": "<p>O <strong>Renascimento</strong> foi um movimento cultural, artístico e científico que marcou a transição da Idade Média para a Idade Moderna (séc. XIV-XVI).</p><h2>Contexto</h2><p>Nasceu na <strong>Itália</strong> (Florença, Veneza, Roma) — rica pelo comércio mediterrâneo. Os <strong>Médici</strong> de Florença foram grandes mecenas (patrocinadores) das artes.</p><h2>Humanismo</h2><p>Filosofia central do Renascimento:</p><ul><li>O <strong>ser humano no centro</strong> (antropocentrismo, vs. teocentrismo medieval)</li><li>Valorização da <strong>razão</strong> e da experiência</li><li>Retorno à cultura <strong>greco-romana</strong> (clássica)</li><li>Individualismo: valorização do talento pessoal</li></ul><h2>Grandes Artistas</h2><ul><li><strong>Leonardo da Vinci:</strong> Mona Lisa, Última Ceia, estudos de anatomia (polímata)</li><li><strong>Michelangelo:</strong> Davi, teto da Capela Sistina</li><li><strong>Rafael:</strong> Escola de Atenas</li><li><strong>Botticelli:</strong> O Nascimento de Vênus</li></ul><h2>Ciência</h2><ul><li><strong>Copérnico:</strong> a Terra gira em torno do Sol (heliocentrismo)</li><li><strong>Galileu:</strong> telescópio, confirmou Copérnico</li><li><strong>Vesalius:</strong> anatomia humana moderna</li></ul><h2>Imprensa de Gutenberg (1450)</h2><p>A <strong>imprensa de tipos móveis</strong> revolucionou a difusão do conhecimento. Antes, copiar um livro à mão levava meses. Com Gutenberg, podia-se imprimir centenas de cópias rapidamente.</p>",
+      "faq": [
+        {"q": "O Renascimento foi um 'renascimento' de quê?", "a": "Da cultura clássica (greco-romana), que os humanistas consideravam o auge da civilização. 'Renascimento' significava sair das 'trevas' medievais — visão exagerada, mas era assim que se viam."},
+        {"q": "A Idade Média foi realmente a 'Idade das Trevas'?", "a": "Não! Esse rótulo é injusto. A Idade Média produziu catedrais góticas, universidades, filosofia escolástica e avanços agrícolas. Os renascentistas exageraram ao demonizar o período anterior."},
+        {"q": "Leonardo da Vinci era cientista ou artista?", "a": "Ambos! Era um polímata — pessoa de múltiplos talentos. Pintou a Mona Lisa, projetou máquinas voadoras, estudou anatomia e engenharia. Encarna o 'homem universal' renascentista."},
+        {"q": "A imprensa mudou o mundo como a internet?", "a": "Sim! Antes dela, livros eram raríssimos e caros. A imprensa democratizou o conhecimento, permitiu a Reforma Protestante e acelerou a Revolução Científica. É a 'internet' do século XV."}
+      ],
+      "quiz": [
+        {"question": "O Renascimento nasceu na:", "options": ["França", "Inglaterra", "Itália", "Alemanha"], "answer": 2},
+        {"question": "Humanismo valoriza:", "options": ["Deus acima de tudo", "O ser humano e a razão", "A guerra", "O feudalismo"], "answer": 1},
+        {"question": "Quem pintou a Mona Lisa?", "options": ["Michelangelo", "Rafael", "Leonardo da Vinci", "Botticelli"], "answer": 2},
+        {"question": "Gutenberg inventou:", "options": ["O telescópio", "A imprensa de tipos móveis", "A pólvora", "O papel"], "answer": 1},
+        {"question": "Heliocentrismo significa que:", "options": ["A Terra é o centro", "O Sol é o centro", "A Lua é o centro", "Não há centro"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Reforma Protestante e Contrarreforma",
+      "slug": "reforma-protestante-contrarreforma",
+      "desc": "Lutero, as 95 teses, calvinismo, anglicanismo e a reação católica.",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Reforma (1517): Lutero critica indulgências (95 teses). Protestantismo: sola fide, sola scriptura. Calvino: predestinação. Anglicanismo: Henrique VIII. Contrarreforma: Concílio de Trento, Jesuítas, Inquisição.",
+      "body": "<p>Em 1517, o monge alemão <strong>Martinho Lutero</strong> afixou suas <strong>95 teses</strong> na porta da igreja de Wittenberg, criticando a venda de <strong>indulgências</strong> pelo Papa. Foi o início da maior divisão do Cristianismo.</p><h2>Causas</h2><ul><li><strong>Venda de indulgências:</strong> o Papa vendia 'perdão dos pecados' para financiar a Basílica de São Pedro</li><li>Corrupção e luxo do clero</li><li>Insatisfação de reis com o poder papal</li><li>Humanismo renascentista: valorização da razão individual</li></ul><h2>Lutero e o Luteranismo</h2><ul><li><strong>Sola fide:</strong> salvação apenas pela fé (não por obras ou compras)</li><li><strong>Sola scriptura:</strong> só a Bíblia é autoridade (não o Papa)</li><li>Tradução da Bíblia para o alemão (acesso direto ao povo)</li></ul><h2>Calvino e o Calvinismo</h2><ul><li><strong>Predestinação:</strong> Deus já escolheu quem será salvo</li><li>Sucesso econômico como sinal de eleição divina</li><li>Base do protestantismo na Suíça, Escócia, Países Baixos</li></ul><h2>Anglicanismo</h2><p><strong>Henrique VIII</strong> rompeu com Roma para poder se divorciar e criou a Igreja Anglicana (1534).</p><h2>Contrarreforma Católica</h2><ul><li><strong>Concílio de Trento (1545-1563):</strong> reafirmou doutrinas e combateu abusos</li><li><strong>Companhia de Jesus (Jesuítas):</strong> ordem missionária para espalhar o catolicismo (vieram ao Brasil!)</li><li><strong>Inquisição:</strong> tribunal para combater 'heresias'</li></ul>",
+      "faq": [
+        {"q": "O que são indulgências?", "a": "Na doutrina católica, era a remissão (perdão) de penas por pecados. O abuso era vendê-las por dinheiro — como se pudesse 'comprar' o perdão divino. Lutero considerou isso escandaloso."},
+        {"q": "A Reforma foi só religiosa?", "a": "Não! Teve dimensão política (reis contra o Papa), econômica (burguesia queria liberdade de lucro) e social (camponeses se revoltaram). A religião era inseparável da política."},
+        {"q": "Os Jesuítas vieram ao Brasil?", "a": "Sim! A partir de 1549, com o padre Manoel da Nóbrega. Criaram missões, catequizaram indígenas e fundaram escolas e colégios. Tiveram papel fundamental na colonização."},
+        {"q": "A Inquisição era só católica?", "a": "A mais famosa, sim. Mas Calvino também perseguiu 'hereges' em Genebra. A intolerância religiosa existia dos dois lados."}
+      ],
+      "quiz": [
+        {"question": "Lutero publicou suas 95 teses em:", "options": ["1453", "1500", "1517", "1789"], "answer": 2},
+        {"question": "Sola fide significa:", "options": ["Só a fé salva", "Só a Igreja salva", "Só as obras salvam", "Só o Papa salva"], "answer": 0},
+        {"question": "Henrique VIII criou a Igreja:", "options": ["Luterana", "Calvinista", "Anglicana", "Ortodoxa"], "answer": 2},
+        {"question": "Os Jesuítas foram criados para:", "options": ["Combater Roma", "Espalhar o protestantismo", "Missionar e educar", "Destruir a Bíblia"], "answer": 2},
+        {"question": "O Concílio de Trento foi parte da:", "options": ["Reforma", "Contrarreforma", "Renascimento", "Revolução Francesa"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Grandes Navegações",
+      "slug": "grandes-navegacoes",
+      "desc": "Expansão marítima europeia: Portugal, Espanha e a era dos descobrimentos.",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Grandes Navegações (séc. XV-XVI): busca de rota marítima para as Índias. Portugal: Henrique, Vasco da Gama (Índia, 1498). Espanha: Colombo (América, 1492). Tratado de Tordesilhas (1494). Cabral (Brasil, 1500).",
+      "body": "<p>No século XV, <strong>Portugal</strong> e <strong>Espanha</strong> lideraram a expansão marítima que conectou todos os continentes pela primeira vez na história.</p><h2>Motivações</h2><ul><li><strong>Econômicas:</strong> buscar especiarias (pimenta, canela, cravo) diretamente da Ásia</li><li><strong>Religiosas:</strong> espalhar o cristianismo</li><li><strong>Políticas:</strong> reis queriam riqueza e prestígio</li><li><strong>Tecnológicas:</strong> caravela, bússola, astrolábio</li></ul><h2>Portugal — Pioneiro</h2><ul><li><strong>Henrique, o Navegador:</strong> escola de navegação em Sagres</li><li><strong>Bartolomeu Dias (1488):</strong> contornou o Cabo da Boa Esperança</li><li><strong>Vasco da Gama (1498):</strong> chegou à Índia por mar</li><li><strong>Pedro Álvares Cabral (1500):</strong> chegou ao Brasil</li></ul><h2>Espanha</h2><ul><li><strong>Cristóvão Colombo (1492):</strong> chegou à América pensando ser a Ásia</li><li><strong>Fernão de Magalhães (1519-1522):</strong> 1ª viagem ao redor do mundo</li></ul><h2>Tratado de Tordesilhas (1494)</h2><p>Portugal e Espanha dividiram o mundo 'descoberto' por uma linha imaginária a 370 léguas de Cabo Verde. O que ficasse a leste era português; a oeste, espanhol.</p><h2>Consequências</h2><ul><li>Colonização da América, África e Ásia</li><li>Genocídio de povos indígenas</li><li>Início do tráfico transatlântico de escravizados africanos</li><li>Globalização do comércio</li></ul>",
+      "faq": [
+        {"q": "Colombo 'descobriu' a América?", "a": "O termo é problemático: as Américas já tinham milhões de habitantes! Colombo foi o primeiro europeu a chegar (oficialmente) e abrir caminho para a colonização. Os vikings chegaram antes (~1000 d.C.)."},
+        {"q": "Por que Portugal liderou as navegações?", "a": "Posição geográfica (Atlântico), estabilidade política (sem guerras internas), investimento real em navegação (Henrique) e necessidade econômica (pouco ouro, pouca terra fértil)."},
+        {"q": "Cabral veio ao Brasil de propósito?", "a": "Há debate! Provavelmente sabia da existência de terras a oeste (portugueses já navegavam ali). Pode ter sido intencional, embora oficialmente tenha sido um 'desvio de rota'."},
+        {"q": "O Tratado de Tordesilhas valeu?", "a": "Para Portugal e Espanha, sim. Outros países (França, Inglaterra, Holanda) ignoraram completamente — afinal, o Papa não tinha autoridade para 'dar' continentes inteiros."}
+      ],
+      "quiz": [
+        {"question": "Vasco da Gama chegou à Índia em:", "options": ["1492", "1498", "1500", "1519"], "answer": 1},
+        {"question": "Colombo pensou ter chegado:", "options": ["Ao Brasil", "À Índia", "À China", "Ao Japão"], "answer": 1},
+        {"question": "O Tratado de Tordesilhas (1494) dividiu o mundo entre:", "options": ["França e Inglaterra", "Portugal e Espanha", "Roma e Bizâncio", "China e Japão"], "answer": 1},
+        {"question": "Cabral chegou ao Brasil em:", "options": ["1492", "1498", "1500", "1534"], "answer": 2},
+        {"question": "A 1ª viagem ao redor do mundo foi de:", "options": ["Colombo", "Cabral", "Magalhães", "Vasco da Gama"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Colonização da América Espanhola",
+      "slug": "colonizacao-america-espanhola",
+      "desc": "Conquista dos Astecas e Incas, exploração colonial e o sistema de encomiendas.",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Cortés conquistou Astecas (1521). Pizarro conquistou Incas (1533). Fatores: armas de fogo, cavalos, doenças, alianças com inimigos locais. Exploração: ouro/prata, encomiendas, trabalho forçado indígena.",
+      "body": "<p>Em poucas décadas, os espanhóis destruíram impérios que existiam há séculos. Como foi possível?</p><h2>Conquista dos Astecas (1519-1521)</h2><p><strong>Hernán Cortés</strong> com ~600 soldados derrotou o Império Asteca de milhões.</p><ul><li>Alianças com povos inimigos dos astecas (tlaxcaltecas)</li><li>Armas de fogo, cavalos e armaduras de aço</li><li><strong>Varíola:</strong> a doença matou mais que as espadas (~90% dos indígenas)</li><li>Moctezuma II hesitou em combater (achou que Cortés era o deus Quetzalcóatl)</li></ul><h2>Conquista dos Incas (1532-1533)</h2><p><strong>Francisco Pizarro</strong> capturou o imperador <strong>Atahualpa</strong> por traição. Exigiu resgate em ouro e prata, e depois o executou.</p><h2>Catástrofe Demográfica</h2><p>A população indígena caiu <strong>~90%</strong> em 100 anos. Principal causa: doenças (varíola, sarampo, gripe) contra as quais não tinham imunidade.</p><h2>Exploração Colonial</h2><ul><li><strong>Mineração:</strong> Potosí (Bolívia) — mina de prata que financiou o Império Espanhol</li><li><strong>Encomienda:</strong> sistema de trabalho forçado indígena</li><li><strong>Mita:</strong> trabalho rotativo nas minas</li></ul><h2>Resistência</h2><p>Nem todos aceitaram passivamente. Houve revoltas indígenas como a de <strong>Túpac Amaru II</strong> (1780) no Peru.</p>",
+      "faq": [
+        {"q": "Como tão poucos espanhóis venceram impérios?", "a": "Não venceram sozinhos! Tiveram aliados indígenas (inimigos dos astecas/incas), superioridade tecnológica (aço, cavalos, armas de fogo) e, principalmente, as doenças europeias devastaram a população nativa."},
+        {"q": "O que era a encomienda?", "a": "O rei espanhol 'encomendava' um grupo de indígenas a um colonizador, que deveria 'protegê-los e catequizá-los' em troca de trabalho. Na prática, era trabalho forçado com altíssima mortalidade."},
+        {"q": "Bartolomeu de Las Casas defendeu os indígenas?", "a": "Sim! Padre dominicano que denunciou os abusos contra indígenas em seus escritos. Ironicamente, inicialmente sugeriu importar africanos como alternativa — contribuindo para o tráfico de escravizados."},
+        {"q": "Quanto ouro os espanhóis levaram?", "a": "Entre 1500-1650, estima-se que 180 toneladas de ouro e 16.000 toneladas de prata cruzaram o Atlântico. Paradoxalmente, tanta riqueza causou inflação na Espanha."}
+      ],
+      "quiz": [
+        {"question": "Cortés conquistou os:", "options": ["Incas", "Maias", "Astecas", "Tupis"], "answer": 2},
+        {"question": "A maior causa de morte indígena foi:", "options": ["Guerras", "Fome", "Doenças europeias", "Trabalho forçado"], "answer": 2},
+        {"question": "Potosí era famosa por:", "options": ["Ouro", "Prata", "Diamantes", "Especiarias"], "answer": 1},
+        {"question": "Pizarro conquistou os:", "options": ["Astecas", "Incas", "Maias", "Chibchas"], "answer": 1},
+        {"question": "A encomienda era um sistema de:", "options": ["Educação", "Comércio livre", "Trabalho forçado", "Democracia"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Brasil Colonial: Capitanias e Açúcar",
+      "slug": "brasil-colonial-capitanias-acucar",
+      "desc": "Capitanias hereditárias, engenhos de açúcar e a sociedade colonial.",
+      "category": "Brasil Colonial",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "1530: colonização efetiva. Capitanias Hereditárias (1534): divisão em lotes. Governo-Geral (1548): Tomé de Sousa. Economia: cana-de-açúcar (engenhos no NE). Mão de obra: escravizada africana. Sociedade: patriarcal, senhores × escravizados.",
+      "body": "<p>Após 30 anos de pouco interesse (<strong>pau-brasil</strong>), Portugal decidiu colonizar o Brasil de verdade em 1530.</p><h2>Capitanias Hereditárias (1534)</h2><p>O rei <strong>D. João III</strong> dividiu o Brasil em <strong>15 lotes</strong> distribuídos a donatários (nobres). Resultado: fracasso na maioria, exceto:</p><ul><li><strong>São Vicente</strong> (Martim Afonso de Sousa)</li><li><strong>Pernambuco</strong> (Duarte Coelho) — açúcar!</li></ul><h2>Governo-Geral (1548)</h2><p>Para centralizar o poder, criou-se o cargo de Governador-Geral. <strong>Tomé de Sousa</strong> foi o primeiro, fundou <strong>Salvador</strong> (1549).</p><h2>Economia Açucareira</h2><p>O <strong>açúcar</strong> era o 'ouro branco' — produto mais valioso do mundo no século XVI.</p><ul><li><strong>Engenho:</strong> unidade produtiva (plantação + moagem + casa-grande + senzala)</li><li><strong>Plantation:</strong> monocultura + latifúndio + exportação + trabalho escravo</li><li>Nordeste: principal região (Pernambuco e Bahia)</li></ul><h2>Trabalho Escravizado</h2><p>Inicialmente: escravização de indígenas. A partir de ~1550: <strong>tráfico de africanos</strong> em larga escala.</p><ul><li>4-5 milhões de africanos trazidos ao Brasil (maior número das Américas)</li><li>Condições desumanas: trabalho de 16h, punições brutais, alta mortalidade</li></ul><h2>Sociedade Colonial</h2><ul><li><strong>Senhores de engenho:</strong> elite patriarcal</li><li><strong>Homens livres pobres:</strong> agregados, feitores</li><li><strong>Escravizados:</strong> base da pirâmide, sem direitos</li></ul>",
+      "faq": [
+        {"q": "Por que as capitanias fracassaram?", "a": "Falta de recursos dos donatários, ataques indígenas, distância de Portugal, dificuldade de administrar territórios enormes. Só deram certo onde o açúcar era viável."},
+        {"q": "Quantos africanos foram trazidos ao Brasil?", "a": "Estima-se 4-5 milhões entre 1550 e 1850 — o Brasil foi o maior destino do tráfico transatlântico. Vieram principalmente de Angola, Congo, Moçambique e Golfo do Guiné."},
+        {"q": "O que é plantation?", "a": "Sistema agrícola colonial: monocultura (1 produto), latifúndio (grande propriedade), mão de obra escravizada, produção voltada para exportação. Usado em todo o Atlântico (Brasil, Caribe, EUA)."},
+        {"q": "Como era a casa-grande?", "a": "Residência do senhor de engenho e sua família. Gilberto Freyre a descreveu como centro do poder patriarcal, onde conviviam (desigualmente) senhores, agregados e escravizados domésticos."}
+      ],
+      "quiz": [
+        {"question": "O primeiro Governador-Geral foi:", "options": ["Pedro Cabral", "Tomé de Sousa", "Mem de Sá", "Duarte Coelho"], "answer": 1},
+        {"question": "A principal economia colonial era:", "options": ["Café", "Ouro", "Açúcar", "Borracha"], "answer": 2},
+        {"question": "As capitanias hereditárias foram criadas em:", "options": ["1500", "1534", "1549", "1580"], "answer": 1},
+        {"question": "O Brasil recebeu ~___ milhões de africanos escravizados:", "options": ["1", "2", "4-5", "10"], "answer": 2},
+        {"question": "O sistema de plantation envolvia:", "options": ["Pequenas propriedades", "Policultura", "Monocultura e latifúndio", "Trabalho assalariado"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Escravidão e Resistência Africana",
+      "slug": "escravidao-resistencia-africana",
+      "desc": "O tráfico transatlântico, a vida nos engenhos e as formas de resistência.",
+      "category": "Brasil Colonial",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Tráfico negreiro: ~12,5 milhões de africanos. Resistência: quilombos (Palmares, Zumbi), fugas, revoltas, capoeira, preservação cultural (religiões, música, culinária). Abolição: 1888 (Lei Áurea).",
+      "body": "<p>A escravidão africana é o maior crime contra a humanidade das Américas. Mas os escravizados nunca aceitaram passivamente — resistiram de todas as formas possíveis.</p><h2>O Tráfico Transatlântico</h2><ul><li>~12,5 milhões de africanos sequestrados (séc. XVI-XIX)</li><li><strong>Navio negreiro:</strong> condições desumanas, viagem de 1-3 meses, mortalidade de 15-20%</li><li>Brasil = maior destino (~4-5 milhões)</li><li>Origem: Congo, Angola, Moçambique, Golfo do Guiné</li></ul><h2>Vida nos Engenhos</h2><ul><li>Trabalho de 16-18 horas no campo e na moenda</li><li>Punições brutais: tronco, pelourinho, açoite</li><li>Expectativa de vida: ~25 anos após a chegada</li><li>Famílias separadas nas vendas</li></ul><h2>Formas de Resistência</h2><ul><li><strong>Quilombos:</strong> comunidades de fugitivos. <strong>Palmares</strong> (Alagoas) chegou a ter ~20.000 pessoas e durou quase 100 anos</li><li><strong>Zumbi dos Palmares:</strong> líder emblemático, morto em 20/11/1695 (Dia da Consciência Negra)</li><li><strong>Fugas e revoltas:</strong> constantes e frequentes</li><li><strong>Capoeira:</strong> luta disfarçada de dança</li><li><strong>Cultura:</strong> preservaram religiões (candomblé, umbanda), música, culinária e línguas</li></ul><h2>Abolição</h2><p>Processo lento: Lei do Ventre Livre (1871), Lei dos Sexagenários (1885), <strong>Lei Áurea (13/05/1888)</strong> — Brasil foi o último país das Américas a abolir.</p>",
+      "faq": [
+        {"q": "Por que o Brasil foi o último a abolir?", "a": "A elite agrária (café, açúcar) dependia do trabalho escravo e resistiu. Não houve uma guerra civil como nos EUA. A abolição veio sem indenização aos ex-escravizados e sem integração social."},
+        {"q": "O que era um quilombo?", "a": "Comunidade formada por pessoas que escaparam da escravidão. Alguns eram pequenos (dezenas), outros enormes como Palmares. Tinham agricultura, organização política e defendiam-se militarmente."},
+        {"q": "A capoeira era luta ou dança?", "a": "As duas coisas! Os escravizados disfarçavam a luta marcial como dança para treinar sem serem punidos. Hoje é reconhecida como Patrimônio Cultural Imaterial do Brasil (UNESCO, 2014)."},
+        {"q": "O 20 de novembro é mais importante que o 13 de maio?", "a": "Ambos são relevantes, mas o 20/11 (morte de Zumbi) celebra a resistência negra ativa, enquanto o 13/05 celebra uma lei assinada pela princesa branca. O Dia da Consciência Negra dá protagonismo à luta dos próprios negros."}
+      ],
+      "quiz": [
+        {"question": "O maior quilombo do Brasil foi:", "options": ["Quilombo dos Macacos", "Quilombo de Palmares", "Quilombo de Vassouras", "Quilombo do Leblon"], "answer": 1},
+        {"question": "O Dia da Consciência Negra (20/11) homenageia:", "options": ["Princesa Isabel", "Machado de Assis", "Zumbi dos Palmares", "Martin Luther King"], "answer": 2},
+        {"question": "A Lei Áurea foi assinada em:", "options": ["1822", "1850", "1888", "1917"], "answer": 2},
+        {"question": "O Brasil recebeu africanos principalmente de:", "options": ["Ásia", "Europa", "Congo, Angola e Moçambique", "América Central"], "answer": 2},
+        {"question": "A capoeira era uma forma de:", "options": ["Oração", "Comércio", "Resistência cultural e física", "Trabalho"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Absolutismo e Mercantilismo",
+      "slug": "absolutismo-mercantilismo",
+      "desc": "Reis absolutos, teoria do direito divino, mercantilismo e o pacto colonial.",
+      "category": "Idade Moderna",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Absolutismo: poder total do rei. Direito divino: poder vem de Deus. Luís XIV: 'O Estado sou eu'. Mercantilismo: metalismo, balança comercial favorável, pacto colonial (colônia só comercia com metrópole).",
+      "body": "<p>Na Idade Moderna (séc. XVI-XVIII), os reis europeus concentraram poder absoluto. O sistema econômico que sustentava esse poder era o <strong>mercantilismo</strong>.</p><h2>Absolutismo</h2><p>O rei detinha <strong>poder total</strong>: legislava, julgava, cobrava impostos e comandava o exército. Não prestava contas a ninguém.</p><h3>Teoria do Direito Divino</h3><p>O poder do rei vem de <strong>Deus</strong> — desobedecer ao rei é desobedecer a Deus. Principal teórico: <strong>Bossuet</strong>.</p><h3>Principais Reis Absolutistas</h3><ul><li><strong>Luís XIV (França):</strong> 'O Estado sou eu' — Palácio de Versalhes</li><li><strong>Henrique VIII (Inglaterra):</strong> rompeu com o Papa</li><li><strong>Felipe II (Espanha):</strong> império 'onde o sol não se punha'</li></ul><h2>Mercantilismo</h2><p>Política econômica dos Estados absolutistas:</p><ul><li><strong>Metalismo:</strong> riqueza = ouro e prata</li><li><strong>Balança comercial favorável:</strong> exportar mais, importar menos</li><li><strong>Protecionismo:</strong> taxas sobre importações</li><li><strong>Colonialismo:</strong> colônias forneciam matérias-primas baratas</li></ul><h2>Pacto Colonial</h2><p>As colônias (Brasil, por ex.) só podiam comerciar com sua metrópole (Portugal). Era proibido fabricar manufaturas ou comerciar com outros países.</p>",
+      "faq": [
+        {"q": "O absolutismo era como uma ditadura?", "a": "Similar, mas com diferenças. O rei absolutista tinha legitimidade 'divina' e seguia costumes/tradições. Ditaduras modernas geralmente usam força militar e ideologia. Ambos concentram poder, mas os mecanismos são diferentes."},
+        {"q": "Versalhes era tão luxuoso?", "a": "Sim! Tinha 700 cômodos, 2.000 janelas, jardins de 800 hectares e 1.400 fontes. Custou ~300 bilhões de dólares (em valores atuais). Era símbolo do poder absoluto de Luís XIV."},
+        {"q": "O pacto colonial prejudicava as colônias?", "a": "Sim! As colônias não podiam industrializar-se, comerciar livremente ou definir seus preços. Todo lucro ia para a metrópole. Esse sistema gerou revolta e, eventualmente, os movimentos de independência."},
+        {"q": "O mercantilismo funcionava?", "a": "A curto prazo, enriquecia a metrópole. A longo prazo, não — o ouro espanhol causou inflação, e a proibição de livre comércio sufocou as economias coloniais. Adam Smith criticou o sistema em 1776."}
+      ],
+      "quiz": [
+        {"question": "'O Estado sou eu' é frase de:", "options": ["Napoleão", "Luís XIV", "Henrique VIII", "Carlos V"], "answer": 1},
+        {"question": "No mercantilismo, riqueza era:", "options": ["Terra", "Ouro e prata", "Tecnologia", "Conhecimento"], "answer": 1},
+        {"question": "O pacto colonial obrigava a colônia a:", "options": ["Se industrializar", "Comerciar apenas com a metrópole", "Eleger seus governantes", "Ter moeda própria"], "answer": 1},
+        {"question": "O direito divino dizia que o poder do rei vinha de:", "options": ["Do povo", "De Deus", "Do Parlamento", "Da riqueza"], "answer": 1},
+        {"question": "Versalhes foi construído por:", "options": ["Luís XVI", "Napoleão", "Luís XIV", "Henrique IV"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Brasil Holandês e Bandeirantes",
+      "slug": "brasil-holandes-bandeirantes",
+      "desc": "A invasão holandesa no Nordeste e as bandeiras paulistas no interior.",
+      "category": "Brasil Colonial",
+      "difficulty": "Intermediário",
+      "grade": "7º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Holandeses (1630-1654): invadiram Pernambuco, Nassau modernizou Recife. Bandeirantes (séc. XVII): paulistas entraram no interior para capturar indígenas e buscar ouro. Expandiram o território brasileiro.",
+      "body": "<p>Dois movimentos que moldaram o Brasil no século XVII: a <strong>presença holandesa</strong> no Nordeste e as <strong>bandeiras</strong> no interior.</p><h2>Brasil Holandês (1630-1654)</h2><p>A <strong>Companhia das Índias Ocidentais (WIC)</strong> holandesa invadiu o Nordeste açucareiro.</p><ul><li><strong>Maurício de Nassau</strong> (1637-1644): modernizou Recife, trouxe artistas e cientistas, permitiu liberdade religiosa</li><li>Pintores como <strong>Frans Post</strong> e <strong>Albert Eckhout</strong> retrataram o Brasil</li><li>Expulsos em 1654 na <strong>Batalha dos Guararapes</strong> (guerrilha de luso-brasileiros, indígenas e negros)</li></ul><h2>Consequência Econômica</h2><p>Os holandeses levaram o know-how do açúcar para o Caribe. A concorrência derrubou os preços e causou a <strong>crise do açúcar brasileiro</strong>.</p><h2>Bandeirantes (séc. XVII-XVIII)</h2><p>Expedições de paulistas que adentravam o interior:</p><ul><li><strong>Apresamento:</strong> captura de indígenas para escravização (missões jesuíticas eram alvos)</li><li><strong>Mineração:</strong> busca por ouro e pedras preciosas</li><li><strong>Sertanismo:</strong> contratados para combater quilombos e indígenas</li></ul><h3>Figuras</h3><ul><li><strong>Raposo Tavares:</strong> percorreu 12.000 km pelo interior</li><li><strong>Fernão Dias:</strong> buscador de esmeraldas</li><li><strong>Borba Gato:</strong> encontrou ouro em Minas Gerais</li></ul><h2>Legado Controverso</h2><p>Bandeirantes expandiram o território brasileiro para além de Tordesilhas, mas à custa da escravização e morte de milhares de indígenas.</p>",
+      "faq": [
+        {"q": "Por que os holandeses invadiram o Brasil?", "a": "Portugal e Holanda estavam em guerra (Portugal era unido à Espanha, inimiga da Holanda). Os holandeses queriam o lucrativo açúcar. Invadiram Salvador (1624) e Pernambuco (1630)."},
+        {"q": "Nassau foi bom para o Brasil?", "a": "Modernizou Recife, mas estava a serviço dos interesses holandeses. Sua tolerância religiosa e urbanismo foram positivos, mas a exploração do açúcar continuou com trabalho escravizado."},
+        {"q": "Os bandeirantes eram heróis?", "a": "Depende da perspectiva. Expandiram o território, mas escravizaram e mataram milhares de indígenas. A visão heroica é uma construção paulista do séc. XIX. Hoje são vistos de forma mais crítica."},
+        {"q": "A Batalha dos Guararapes é importante por quê?", "a": "É considerada o nascimento do Exército Brasileiro e um momento de unidade entre portugueses, indígenas e negros contra os holandeses. O Dia do Exército (19/04) homenageia essa batalha."}
+      ],
+      "quiz": [
+        {"question": "Nassau governou o Brasil Holandês entre:", "options": ["1500-1530", "1637-1644", "1700-1720", "1808-1822"], "answer": 1},
+        {"question": "Os holandeses foram expulsos na Batalha de:", "options": ["Aljubarrota", "Guararapes", "Itararé", "Riachuelo"], "answer": 1},
+        {"question": "Os bandeirantes buscavam:", "options": ["Especiarias", "Ouro e indígenas", "Café", "Açúcar"], "answer": 1},
+        {"question": "A crise do açúcar brasileiro foi causada por:", "options": ["Seca", "Concorrência holandesa no Caribe", "Abolição", "Falta de terra"], "answer": 1},
+        {"question": "Raposo Tavares era um:", "options": ["Governador", "Jesuíta", "Bandeirante", "Holandês"], "answer": 2}
+      ]
+    }
+  ]
+}

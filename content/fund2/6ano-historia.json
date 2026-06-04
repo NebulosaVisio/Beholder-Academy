@@ -1,0 +1,306 @@
+{
+  "subject": "História",
+  "slug": "6ano-historia",
+  "articles": [
+    {
+      "title": "O que é História?",
+      "slug": "o-que-e-historia",
+      "desc": "A ciência que estuda o passado humano: fontes, tempo histórico e o ofício do historiador.",
+      "category": "Introdução",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "7",
+      "xp": 70,
+      "essential": "História é a ciência que estuda as ações humanas no tempo. Usa fontes primárias (documentos da época) e secundárias (análises posteriores). Divide-se em Pré-História, Antiga, Medieval, Moderna e Contemporânea.",
+      "body": "<p>A <strong>História</strong> não é simplesmente decorar datas e nomes. É a ciência que investiga <strong>como os seres humanos viveram, pensaram e se organizaram ao longo do tempo</strong>.</p><h2>O Ofício do Historiador</h2><p>O historiador é um detetive do passado. Ele analisa <strong>fontes históricas</strong> para reconstruir o que aconteceu:</p><ul><li><strong>Fontes escritas:</strong> cartas, leis, jornais, diários</li><li><strong>Fontes materiais:</strong> objetos, ruínas, ferramentas</li><li><strong>Fontes visuais:</strong> pinturas, fotografias, mapas</li><li><strong>Fontes orais:</strong> depoimentos, tradições, canções</li></ul><h2>Tempo Histórico</h2><p>Diferente do tempo do relógio, o tempo histórico mede <strong>mudanças e permanências</strong> nas sociedades.</p><ul><li><strong>Século:</strong> 100 anos</li><li><strong>Milênio:</strong> 1.000 anos</li><li><strong>a.C. / d.C.:</strong> antes e depois de Cristo (marco do calendário ocidental)</li></ul><h2>Periodização Tradicional</h2><ul><li><strong>Pré-História:</strong> até ~3500 a.C. (invenção da escrita)</li><li><strong>Idade Antiga:</strong> ~3500 a.C. – 476 d.C.</li><li><strong>Idade Média:</strong> 476 – 1453</li><li><strong>Idade Moderna:</strong> 1453 – 1789</li><li><strong>Idade Contemporânea:</strong> 1789 – hoje</li></ul><h2>Por que Estudar História?</h2><p>Para entender o presente! As desigualdades, fronteiras, línguas e culturas de hoje são resultado de processos históricos. Quem conhece o passado compreende melhor o mundo e evita repetir erros.</p>",
+      "faq": [
+        {"q": "História é opinião ou ciência?", "a": "É ciência! O historiador usa método: pesquisa fontes, cruza informações, formula hipóteses e as testa. Diferentes interpretações existem, mas todas devem ser baseadas em evidências."},
+        {"q": "Quem decide o que é importante na História?", "a": "Os historiadores fazem escolhas sobre o que estudar. Por muito tempo, focou-se em reis e guerras. Hoje estuda-se também o cotidiano, as mulheres, os trabalhadores e os povos marginalizados."},
+        {"q": "A.C. e D.C. são usados no mundo todo?", "a": "É o sistema mais difundido, mas não o único. O calendário islâmico, judaico e chinês têm marcos diferentes. A.E.C. (Antes da Era Comum) e E.C. são alternativas mais neutras."},
+        {"q": "A Pré-História realmente existiu?", "a": "Sim! O termo é controverso porque sugere que sem escrita não há história. Hoje preferimos 'período pré-letrado'. As sociedades ágrafas tinham história — apenas não a registravam por escrito."}
+      ],
+      "quiz": [
+        {"question": "Fontes históricas são:", "options": ["Apenas livros antigos", "Qualquer vestígio do passado humano", "Só documentos oficiais", "Apenas fotografias"], "answer": 1},
+        {"question": "Um século tem:", "options": ["10 anos", "50 anos", "100 anos", "1000 anos"], "answer": 2},
+        {"question": "A Idade Média vai de 476 a:", "options": ["1789", "1453", "1500", "1492"], "answer": 1},
+        {"question": "O marco que separa Pré-História e História é:", "options": ["A descoberta do fogo", "A invenção da escrita", "A queda de Roma", "O nascimento de Cristo"], "answer": 1},
+        {"question": "a.C. significa:", "options": ["Antes de Cristo", "Ano Corrente", "Antes da Civilização", "Após a Contagem"], "answer": 0}
+      ]
+    },
+    {
+      "title": "Primeiros Humanos e a Pré-História",
+      "slug": "primeiros-humanos-pre-historia",
+      "desc": "Evolução humana, Paleolítico, Neolítico e a Revolução Agrícola.",
+      "category": "Pré-História",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 80,
+      "essential": "Paleolítico: caçadores-coletores nômades, uso do fogo, arte rupestre. Neolítico: revolução agrícola, sedentarismo, domesticação de animais, surgimento de aldeias. África é o berço da humanidade.",
+      "body": "<p>A história da humanidade começa na <strong>África</strong>, há cerca de 200 mil anos, com o surgimento do <em>Homo sapiens</em>.</p><h2>Paleolítico (Idade da Pedra Lascada)</h2><p>~2,5 milhões a.C. – ~10.000 a.C.</p><ul><li>Modo de vida <strong>nômade</strong> (sem moradia fixa)</li><li>Sobrevivência por <strong>caça, pesca e coleta</strong></li><li>Domínio do <strong>fogo</strong> (~400.000 anos atrás)</li><li>Ferramentas de pedra lascada</li><li><strong>Arte rupestre:</strong> pinturas em cavernas (Lascaux, Altamira, Serra da Capivara)</li></ul><h2>Neolítico (Idade da Pedra Polida)</h2><p>~10.000 a.C. – ~3.500 a.C.</p><p>A maior revolução da história humana: a <strong>Revolução Agrícola</strong>.</p><ul><li><strong>Agricultura:</strong> cultivo de trigo, arroz, milho</li><li><strong>Pecuária:</strong> domesticação de cabras, ovelhas, bois</li><li><strong>Sedentarismo:</strong> aldeias permanentes</li><li><strong>Cerâmica e tecelagem:</strong> novas tecnologias</li><li>Surgimento da <strong>propriedade privada</strong> e <strong>divisão do trabalho</strong></li></ul><h2>Idade dos Metais</h2><p>~3.500 a.C. – uso de cobre, bronze e ferro para ferramentas e armas mais resistentes. Permitiu avanços agrícolas e militares.</p><h2>No Brasil</h2><p>O sítio da <strong>Serra da Capivara</strong> (Piauí) tem pinturas rupestres de até 25.000 anos, evidenciando presença humana muito antiga nas Américas.</p>",
+      "faq": [
+        {"q": "O ser humano descende do macaco?", "a": "Não exatamente. Humanos e grandes primatas compartilham um ancestral comum, mas seguimos caminhos evolutivos diferentes. Somos 'primos', não descendentes diretos."},
+        {"q": "Por que a agricultura foi uma 'revolução'?", "a": "Porque mudou TUDO: de nômades passamos a sedentários, surgiram aldeias, propriedade, divisão de trabalho e hierarquias sociais. Foi a base da civilização."},
+        {"q": "O que é arte rupestre?", "a": "São pinturas e gravuras feitas em paredes de cavernas e rochas. Retratam animais, caçadas e rituais. São as primeiras manifestações artísticas da humanidade."},
+        {"q": "Onde fica a Serra da Capivara?", "a": "No sudeste do Piauí, Brasil. O Parque Nacional tem mais de 1.300 sítios arqueológicos com pinturas rupestres, sendo Patrimônio Mundial da UNESCO."}
+      ],
+      "quiz": [
+        {"question": "O berço da humanidade é:", "options": ["Europa", "Ásia", "África", "América"], "answer": 2},
+        {"question": "No Paleolítico, os humanos eram:", "options": ["Agricultores", "Nômades caçadores-coletores", "Comerciantes", "Construtores de cidades"], "answer": 1},
+        {"question": "A Revolução Agrícola ocorreu no:", "options": ["Paleolítico", "Neolítico", "Idade dos Metais", "Idade Antiga"], "answer": 1},
+        {"question": "A Serra da Capivara fica no:", "options": ["Pará", "Minas Gerais", "Piauí", "Bahia"], "answer": 2},
+        {"question": "O domínio do fogo ocorreu há cerca de:", "options": ["10 mil anos", "100 mil anos", "400 mil anos", "1 milhão de anos"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Mesopotâmia: O Berço da Civilização",
+      "slug": "mesopotamia-berco-civilizacao",
+      "desc": "Sumérios, babilônios, assírios, escrita cuneiforme e o Código de Hamurábi.",
+      "category": "Antiguidade Oriental",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Mesopotâmia = 'entre rios' (Tigre e Eufrates). Sumérios inventaram a escrita cuneiforme (~3500 a.C.). Código de Hamurábi: primeiro código de leis escritas. Povos: sumérios, acádios, babilônios, assírios, caldeus.",
+      "body": "<p>A <strong>Mesopotâmia</strong> (atual Iraque) significa 'terra entre rios' — localizada entre os rios <strong>Tigre e Eufrates</strong>. Ali nasceram as primeiras cidades da história.</p><h2>Os Sumérios (~3500 a.C.)</h2><p>Foram os primeiros a:</p><ul><li>Criar <strong>cidades-Estado</strong> (Ur, Uruk, Lagash)</li><li>Inventar a <strong>escrita cuneiforme</strong> (em tabletes de argila)</li><li>Desenvolver a <strong>roda</strong>, o <strong>arado</strong> e a <strong>irrigação</strong></li><li>Criar o sistema numérico de base 60 (horas e minutos!)</li></ul><h2>Império Babilônico</h2><p>O rei <strong>Hamurábi</strong> (~1792-1750 a.C.) unificou a Mesopotâmia e criou o <strong>Código de Hamurábi</strong>, o primeiro código de leis escritas.</p><p>Princípio: <strong>Lei de Talião</strong> — 'olho por olho, dente por dente'. As punições variavam conforme a classe social.</p><h2>Os Assírios</h2><p>Povo guerreiro com exército poderoso. Criaram um vasto império pela força militar. Conhecidos pela crueldade com os vencidos.</p><h2>Os Caldeus (Novo Império Babilônico)</h2><p><strong>Nabucodonosor II</strong> reconstruiu a Babilônia com os famosos <strong>Jardins Suspensos</strong> (uma das 7 Maravilhas do Mundo Antigo).</p><h2>Legado</h2><p>Escrita, leis escritas, astronomia, matemática (base 60), calendário lunar — a Mesopotâmia moldou a civilização ocidental.</p>",
+      "faq": [
+        {"q": "Por que as civilizações surgiam perto de rios?", "a": "Rios forneciam água para irrigação, transporte e pesca. As cheias fertilizavam o solo. Sem rios, a agricultura em larga escala era impossível."},
+        {"q": "O Código de Hamurábi era justo?", "a": "Pela visão atual, não. As penas variavam por classe social: um crime contra um nobre era punido mais severamente do que contra um plebeu. Mas foi revolucionário por registrar leis publicamente."},
+        {"q": "O que é escrita cuneiforme?", "a": "Um sistema de marcas em forma de cunha pressionadas em tabletes de argila com um estilete. Foi usada por mais de 3.000 anos e deu origem a vários alfabetos."},
+        {"q": "Os Jardins Suspensos existiram de verdade?", "a": "Não temos certeza! É a única das 7 Maravilhas cuja existência não foi confirmada arqueologicamente. Podem ter sido uma lenda ou estarem em outro local."}
+      ],
+      "quiz": [
+        {"question": "Mesopotâmia significa:", "options": ["Terra sagrada", "Entre rios", "Cidade antiga", "Império do sol"], "answer": 1},
+        {"question": "Quem inventou a escrita cuneiforme?", "options": ["Egípcios", "Babilônios", "Sumérios", "Fenícios"], "answer": 2},
+        {"question": "O Código de Hamurábi é:", "options": ["Um livro sagrado", "Um código de leis", "Um tratado militar", "Um mapa"], "answer": 1},
+        {"question": "'Olho por olho, dente por dente' é a Lei de:", "options": ["Moisés", "Talião", "Hamurábi", "Ur-Nammu"], "answer": 1},
+        {"question": "Os rios da Mesopotâmia são:", "options": ["Nilo e Ganges", "Tigre e Eufrates", "Danúbio e Reno", "Amazonas e Paraná"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Egito Antigo: A Civilização do Nilo",
+      "slug": "egito-antigo-civilizacao-nilo",
+      "desc": "Faraós, pirâmides, hieróglifos, religião e sociedade no Egito Antigo.",
+      "category": "Antiguidade Oriental",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Egito: 'dádiva do Nilo' (Heródoto). Sociedade: faraó (deus vivo), sacerdotes, escribas, artesãos, camponeses, escravos. Pirâmides de Gizé. Hieróglifos. Mumificação e crença no pós-vida.",
+      "body": "<p>'O <strong>Egito é uma dádiva do Nilo</strong>', disse o historiador grego Heródoto. Sem as cheias anuais do rio Nilo, que fertilizavam o solo, a civilização egípcia não teria existido.</p><h2>O Nilo</h2><p>As cheias anuais depositavam <strong>húmus</strong> (terra fértil) nas margens, permitindo agricultura abundante em meio ao deserto do Saara.</p><h2>Sociedade</h2><p>Piramidal e hierárquica:</p><ul><li><strong>Faraó:</strong> rei-deus, poder absoluto</li><li><strong>Sacerdotes:</strong> administravam templos e rituais</li><li><strong>Escribas:</strong> dominavam a escrita (grande privilégio)</li><li><strong>Soldados, artesãos e comerciantes</strong></li><li><strong>Camponeses (felás):</strong> maioria da população</li><li><strong>Escravos:</strong> prisioneiros de guerra</li></ul><h2>Religião</h2><p>Politeísta (muitos deuses): Rá (sol), Osíris (morte/renascimento), Ísis (magia), Anúbis (mumificação), Hórus (céu).</p><p>Acreditavam na <strong>vida após a morte</strong>: por isso mumificavam os corpos e construíam túmulos grandiosos.</p><h2>Pirâmides</h2><p>As <strong>Pirâmides de Gizé</strong> (Quéops, Quéfren, Miquerinos) são a única Maravilha do Mundo Antigo que ainda existe!</p><h2>Escrita</h2><p><strong>Hieróglifos:</strong> escrita sagrada com ~700 símbolos. Decifrada em 1822 por <strong>Champollion</strong> usando a <strong>Pedra de Roseta</strong>.</p>",
+      "faq": [
+        {"q": "As pirâmides foram construídas por escravos?", "a": "Provavelmente não! Evidências recentes mostram que foram construídas por trabalhadores livres assalariados, organizados em turnos, com alimentação e assistência médica."},
+        {"q": "O que é mumificação?", "a": "Processo de preservação do corpo: removiam os órgãos (guardados em vasos canopos), desidratavam com natrão, enfaixavam com linho. Acreditavam que o corpo seria necessário na vida após a morte."},
+        {"q": "O que é a Pedra de Roseta?", "a": "Uma pedra encontrada em 1799 com o mesmo texto em hieróglifos, demótico e grego. Permitiu que Champollion decifrasse os hieróglifos em 1822."},
+        {"q": "O faraó era realmente considerado um deus?", "a": "Sim! Era visto como a encarnação de Hórus na Terra e filho de Rá. Seu poder era religioso e político ao mesmo tempo — não havia separação entre Estado e religião."}
+      ],
+      "quiz": [
+        {"question": "'O Egito é uma dádiva do Nilo' é frase de:", "options": ["Ramsés", "Champollion", "Heródoto", "Cleópatra"], "answer": 2},
+        {"question": "Os escribas eram importantes porque:", "options": ["Eram guerreiros", "Dominavam a escrita", "Eram sacerdotes", "Construíam pirâmides"], "answer": 1},
+        {"question": "Os egípcios mumificavam os corpos por:", "options": ["Razões científicas", "Crença na vida após a morte", "Higiene", "Tradição militar"], "answer": 1},
+        {"question": "A única Maravilha Antiga que sobrevive é:", "options": ["Jardins Suspensos", "Colosso de Rodes", "Farol de Alexandria", "Pirâmides de Gizé"], "answer": 3},
+        {"question": "Os hieróglifos foram decifrados com a:", "options": ["Pedra de Roseta", "Esfinge", "Bíblia", "Torre de Babel"], "answer": 0}
+      ]
+    },
+    {
+      "title": "Grécia Antiga: Berço da Democracia",
+      "slug": "grecia-antiga-berco-democracia",
+      "desc": "Pólis, democracia ateniense, Esparta, filosofia, teatro e olimpíadas.",
+      "category": "Antiguidade Clássica",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "10",
+      "xp": 110,
+      "essential": "Grécia: cidades-Estado (pólis). Atenas: democracia direta (só homens livres). Esparta: militarismo. Filósofos: Sócrates, Platão, Aristóteles. Olimpíadas (776 a.C.). Teatro: tragédia e comédia.",
+      "body": "<p>A <strong>Grécia Antiga</strong> é considerada o berço da civilização ocidental. Lá nasceram a democracia, a filosofia, o teatro e os Jogos Olímpicos.</p><h2>As Pólis (Cidades-Estado)</h2><p>Os gregos não formaram um império unificado. Viviam em <strong>pólis</strong> independentes, cada uma com suas leis e governo. As mais famosas:</p><h3>Atenas</h3><ul><li>Inventou a <strong>democracia direta</strong></li><li>Cidadãos votavam nas assembleias (Eclésia)</li><li>Só eram cidadãos: homens livres, nascidos em Atenas, maiores de 18 anos</li><li>Mulheres, estrangeiros e escravos NÃO participavam</li><li>Centro cultural: filosofia, teatro, artes</li></ul><h3>Esparta</h3><ul><li>Sociedade <strong>militarista</strong></li><li>Meninos treinavam para a guerra desde os 7 anos</li><li>Mulheres tinham mais liberdade que em Atenas</li><li>Economia baseada no trabalho dos <strong>hilotas</strong> (escravos)</li></ul><h2>Filosofia</h2><p>'Amor à sabedoria' — os gregos criaram o pensamento racional:</p><ul><li><strong>Sócrates:</strong> 'Só sei que nada sei' — método de perguntas</li><li><strong>Platão:</strong> mundo das ideias, fundou a Academia</li><li><strong>Aristóteles:</strong> lógica, ciência, política</li></ul><h2>Cultura</h2><ul><li><strong>Teatro:</strong> tragédias (Sófocles, Eurípides) e comédias (Aristófanes)</li><li><strong>Olimpíadas:</strong> desde 776 a.C. em Olímpia, em honra a Zeus</li><li><strong>Mitologia:</strong> Zeus, Atena, Poseidon, Apolo, Afrodite...</li></ul>",
+      "faq": [
+        {"q": "A democracia grega era igual à nossa?", "a": "Não! Era direta (cidadãos votavam pessoalmente), mas muito exclusiva: apenas homens livres atenienses participavam. Mulheres, estrangeiros e escravos (maioria da população) eram excluídos."},
+        {"q": "Por que a Grécia nunca se unificou?", "a": "A geografia montanhosa dificultava comunicação entre regiões. Cada vale formou uma pólis independente com identidade própria. Só se uniam em ameaças externas (como as Guerras Médicas contra a Pérsia)."},
+        {"q": "O que era a Ágora?", "a": "A praça central da pólis, onde os cidadãos se reuniam para discutir política, fazer comércio e socializar. Era o coração da vida pública grega."},
+        {"q": "Os Jogos Olímpicos incluíam mulheres?", "a": "Não! Mulheres eram proibidas até de assistir. Tinham seus próprios jogos separados (Jogos Heranos, em honra a Hera). As Olimpíadas modernas só incluíram mulheres em 1900."}
+      ],
+      "quiz": [
+        {"question": "Pólis significa:", "options": ["País", "Cidade-Estado", "Província", "Império"], "answer": 1},
+        {"question": "A democracia foi inventada em:", "options": ["Roma", "Esparta", "Atenas", "Tebas"], "answer": 2},
+        {"question": "Sócrates é conhecido pela frase:", "options": ["Eureka!", "Penso, logo existo", "Só sei que nada sei", "O Estado sou eu"], "answer": 2},
+        {"question": "Esparta era uma sociedade:", "options": ["Democrática", "Militarista", "Comercial", "Religiosa"], "answer": 1},
+        {"question": "Os Jogos Olímpicos começaram em:", "options": ["776 a.C.", "476 d.C.", "1896 d.C.", "500 a.C."], "answer": 0}
+      ]
+    },
+    {
+      "title": "Roma Antiga: Da República ao Império",
+      "slug": "roma-antiga-republica-imperio",
+      "desc": "Fundação de Roma, República, Júlio César, Império e queda.",
+      "category": "Antiguidade Clássica",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "10",
+      "xp": 110,
+      "essential": "Roma: Monarquia (753-509 a.C.), República (509-27 a.C.) e Império (27 a.C.-476 d.C.). República: Senado + Cônsules. Império: César Augusto. Direito romano. Queda em 476 (bárbaros).",
+      "body": "<p><strong>Roma</strong> começou como uma pequena aldeia no rio Tibre e se tornou o maior império da Antiguidade, dominando todo o Mediterrâneo.</p><h2>Períodos</h2><h3>Monarquia (753-509 a.C.)</h3><p>Segundo a lenda, Roma foi fundada por <strong>Rômulo e Remo</strong>, gêmeos amamentados por uma loba. Foi governada por 7 reis.</p><h3>República (509-27 a.C.)</h3><ul><li>Governo do <strong>Senado</strong> (patrícios/nobres)</li><li>Dois <strong>cônsules</strong> eleitos anualmente</li><li><strong>Plebeus</strong> lutaram por direitos (Tribunos da Plebe)</li><li>Conquista do Mediterrâneo, Guerras Púnicas contra Cartago</li><li>Crise: <strong>Júlio César</strong> concentrou poder, foi assassinado em 44 a.C.</li></ul><h3>Império (27 a.C. - 476 d.C.)</h3><ul><li><strong>Augusto</strong> (Otávio) foi o 1º imperador</li><li><strong>Pax Romana:</strong> ~200 anos de estabilidade</li><li>Expansão máxima: da Britânia à Mesopotâmia</li><li>Adoção do <strong>Cristianismo</strong> (Édito de Milão, 313 d.C.)</li></ul><h2>Legado Romano</h2><ul><li><strong>Direito:</strong> base dos sistemas jurídicos ocidentais</li><li><strong>Engenharia:</strong> estradas, aquedutos, arcos, concreto</li><li><strong>Idioma:</strong> latim → português, espanhol, francês, italiano</li></ul><h2>Queda (476 d.C.)</h2><p>O Império Romano do Ocidente caiu com as <strong>invasões bárbaras</strong>. O Império do Oriente (Bizantino) sobreviveu até 1453.</p>",
+      "faq": [
+        {"q": "Roma realmente foi fundada por gêmeos criados por uma loba?", "a": "É uma lenda! A fundação real foi um processo gradual de aldeias se unindo. A lenda de Rômulo e Remo era o mito de origem que os romanos contavam sobre si mesmos."},
+        {"q": "Qual a diferença entre patrícios e plebeus?", "a": "Patrícios eram a elite aristocrática (donos de terras, acesso ao Senado). Plebeus eram o restante: comerciantes, artesãos, pequenos proprietários. Ao longo dos séculos, plebeus conquistaram mais direitos."},
+        {"q": "O que foram as Guerras Púnicas?", "a": "Três guerras entre Roma e Cartago (264-146 a.C.) pelo controle do Mediterrâneo. Na 2ª, Aníbal cruzou os Alpes com elefantes. Roma venceu e destruiu Cartago na 3ª guerra."},
+        {"q": "O que são 'bárbaros'?", "a": "Para os romanos, 'bárbaro' era qualquer povo que não falava latim ou grego. Não significa 'selvagem' — muitos eram civilizados. Incluíam germanos, hunos, vândalos e visigodos."}
+      ],
+      "quiz": [
+        {"question": "A República Romana era governada pelo:", "options": ["Faraó", "Senado", "Imperador", "Papa"], "answer": 1},
+        {"question": "Júlio César foi assassinado em:", "options": ["476 d.C.", "44 a.C.", "753 a.C.", "313 d.C."], "answer": 1},
+        {"question": "O primeiro imperador romano foi:", "options": ["Júlio César", "Nero", "Augusto", "Constantino"], "answer": 2},
+        {"question": "O latim deu origem ao:", "options": ["Inglês", "Alemão", "Português", "Japonês"], "answer": 2},
+        {"question": "Roma caiu em 476 por invasões de:", "options": ["Egípcios", "Persas", "Bárbaros", "Gregos"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Povos da África Antiga",
+      "slug": "povos-africa-antiga",
+      "desc": "Civilizações africanas além do Egito: Cuxe, Axum, Nok e Zimbábue.",
+      "category": "Antiguidade",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "África não é só Egito. Reino de Cuxe (Núbia): pirâmides, comércio de ouro. Axum (Etiópia): cristão desde séc. IV. Cultura Nok (Nigéria): metalurgia do ferro. Grande Zimbábue: arquitetura monumental.",
+      "body": "<p>A História da África vai muito além do Egito. O continente abrigou civilizações sofisticadas e diversas.</p><h2>Reino de Cuxe (Núbia)</h2><p>Ao sul do Egito, no atual Sudão. Teve intensa relação (e rivalidade) com o Egito.</p><ul><li>Capital: <strong>Meroé</strong></li><li>Construíram <strong>pirâmides</strong> (mais de 200!)</li><li>Ricos em <strong>ouro e ferro</strong></li><li>Chegaram a conquistar o Egito (dinastia dos 'faraós negros')</li></ul><h2>Reino de Axum</h2><p>Na atual Etiópia e Eritreia. Um dos primeiros reinos cristãos do mundo (séc. IV d.C.).</p><ul><li>Grande potência comercial (conectava Roma à Índia)</li><li>Criou seu próprio <strong>alfabeto</strong> (ge'ez)</li><li>Monumentos: obeliscos gigantes de pedra (estelas)</li></ul><h2>Cultura Nok (Nigéria)</h2><p>~1000 a.C. – 300 d.C. Conhecidos pela:</p><ul><li><strong>Metalurgia do ferro</strong> (uma das primeiras da África)</li><li>Esculturas de terracota com detalhes impressionantes</li></ul><h2>Grande Zimbábue</h2><p>Ruínas monumentais no atual Zimbábue (séc. XI-XV). Muros de pedra sem argamassa, comércio de ouro com o Oceano Índico.</p><h2>Por que Não Aprendemos Sobre Isso?</h2><p>O eurocentrismo na educação por muito tempo ignorou as civilizações africanas. A Lei 10.639/2003 no Brasil tornou obrigatório o ensino de história e cultura afro-brasileira.</p>",
+      "faq": [
+        {"q": "A África tinha civilizações antes dos europeus chegarem?", "a": "Absolutamente! Cuxe, Axum, Mali, Songhai, Zimbábue e muitas outras existiam séculos antes do contato europeu. A ideia de uma 'África sem história' é um mito colonialista."},
+        {"q": "O que é eurocentrismo?", "a": "É a visão que coloca a Europa como centro da história e padrão de civilização. Ignora ou diminui as contribuições de outros continentes. É uma perspectiva parcial e problemática."},
+        {"q": "Existiram pirâmides na África fora do Egito?", "a": "Sim! A Núbia (Cuxe) tem mais de 200 pirâmides, mais que o próprio Egito. São menores e mais íngremes, mas igualmente impressionantes."},
+        {"q": "O que é a Lei 10.639?", "a": "Lei brasileira de 2003 que tornou obrigatório o ensino de história e cultura afro-brasileira e africana nas escolas. Reconhece a importância da contribuição africana na formação do Brasil."}
+      ],
+      "quiz": [
+        {"question": "O Reino de Cuxe ficava no atual:", "options": ["Egito", "Sudão", "Nigéria", "Etiópia"], "answer": 1},
+        {"question": "Axum foi um dos primeiros reinos:", "options": ["Islâmicos", "Budistas", "Cristãos", "Hindus"], "answer": 2},
+        {"question": "A cultura Nok é famosa pela:", "options": ["Pirâmides", "Metalurgia do ferro", "Navegação", "Escrita"], "answer": 1},
+        {"question": "Grande Zimbábue era centro de comércio de:", "options": ["Prata", "Ouro", "Diamantes", "Sal"], "answer": 1},
+        {"question": "A Lei 10.639/2003 trata do ensino de:", "options": ["Matemática", "História afro-brasileira", "Educação ambiental", "Língua inglesa"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Povos Originários das Américas",
+      "slug": "povos-originarios-americas",
+      "desc": "Maias, astecas, incas e os povos indígenas do Brasil antes da colonização.",
+      "category": "América Pré-Colombiana",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Maias: astronomia, calendário, escrita. Astecas: Tenochtitlán, sacrifícios. Incas: Machu Picchu, estradas, quipu. Brasil: Tupi, Jê, Aruak — sociedades diversas com organização própria.",
+      "body": "<p>Antes da chegada dos europeus, as <strong>Américas</strong> abrigavam civilizações complexas e milhões de habitantes.</p><h2>Maias (América Central)</h2><ul><li>Apogeu: 250-900 d.C.</li><li><strong>Astronomia avançada:</strong> calendário mais preciso que o europeu</li><li><strong>Escrita hieroglífica</strong> (a mais complexa das Américas)</li><li>Matemática: inventaram o conceito de <strong>zero</strong></li><li>Cidades: Tikal, Chichén Itzá, Palenque</li></ul><h2>Astecas (México)</h2><ul><li>Capital: <strong>Tenochtitlán</strong> (atual Cidade do México), construída sobre um lago</li><li>Império militarista, com rituais de <strong>sacrifício humano</strong></li><li>Agricultura avançada: <strong>chinampas</strong> (ilhas artificiais flutuantes)</li><li>Conquistados por <strong>Hernán Cortés</strong> em 1521</li></ul><h2>Incas (Andes)</h2><ul><li>Império do <strong>Tawantinsuyu</strong> (Peru, Bolívia, Equador, Chile)</li><li><strong>Machu Picchu:</strong> cidade nas montanhas a 2.400m de altitude</li><li>Rede de <strong>estradas</strong> de 40.000 km pelos Andes</li><li><strong>Quipu:</strong> sistema de cordas com nós para registrar dados</li><li>Conquistados por <strong>Francisco Pizarro</strong> em 1533</li></ul><h2>Povos Indígenas do Brasil</h2><p>Estima-se que havia <strong>5 a 10 milhões</strong> de indígenas no território brasileiro em 1500.</p><ul><li><strong>Tupi:</strong> litoral, agricultura (mandioca, milho)</li><li><strong>Jê:</strong> cerrado e planalto central</li><li><strong>Aruak:</strong> Amazônia, grandes aldeias</li></ul><p>Cada povo tinha língua, religião, organização social e tecnologias próprias.</p>",
+      "faq": [
+        {"q": "Os indígenas eram 'atrasados'?", "a": "De jeito nenhum! Tinham conhecimentos sofisticados de agricultura, medicina, astronomia e engenharia. Os maias calcularam o ano solar com precisão de 17 segundos. Os incas fizeram cirurgias no crânio com sucesso."},
+        {"q": "Por que usar 'povos originários' e não 'índios'?", "a": "'Índio' vem do erro de Colombo, que pensou estar na Índia. 'Povos originários' ou 'indígenas' reconhece que estavam aqui primeiro e não são um grupo homogêneo — são centenas de povos distintos."},
+        {"q": "Quantos indígenas existem hoje no Brasil?", "a": "Cerca de 1,7 milhão (Censo 2022), pertencentes a mais de 300 etnias e falantes de ~270 línguas. A população caiu drasticamente com a colonização, mas está em recuperação."},
+        {"q": "O que são chinampas?", "a": "Ilhas artificiais flutuantes criadas pelos astecas no lago Texcoco para agricultura. Eram incrivelmente produtivas — alimentaram uma cidade de 200.000 habitantes."}
+      ],
+      "quiz": [
+        {"question": "Qual povo inventou o conceito de zero?", "options": ["Astecas", "Incas", "Maias", "Tupis"], "answer": 2},
+        {"question": "Tenochtitlán era capital dos:", "options": ["Maias", "Incas", "Astecas", "Olmecas"], "answer": 2},
+        {"question": "Machu Picchu pertencia aos:", "options": ["Maias", "Astecas", "Chibchas", "Incas"], "answer": 3},
+        {"question": "Quipu era um sistema de:", "options": ["Escrita", "Registro com cordas e nós", "Navegação", "Irrigação"], "answer": 1},
+        {"question": "Estima-se que em 1500 o Brasil tinha:", "options": ["500 mil", "5-10 milhões", "100 milhões", "50 mil"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Fenícios, Hebreus e Persas",
+      "slug": "fenicios-hebreus-persas",
+      "desc": "Fenícios (alfabeto e comércio), hebreus (monoteísmo) e persas (tolerância imperial).",
+      "category": "Antiguidade Oriental",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Fenícios: navegadores, comércio, inventaram o alfabeto fonético. Hebreus: monoteísmo (Javé/Iahweh), Torá, êxodo. Persas: Ciro, o Grande — tolerância religiosa, estradas, correio.",
+      "body": "<p>Três povos do Oriente Próximo que deixaram legados fundamentais para a civilização ocidental.</p><h2>Fenícios</h2><p>Povo de navegadores e comerciantes no atual Líbano.</p><ul><li><strong>Comércio marítimo:</strong> dominaram o Mediterrâneo</li><li>Fundaram colônias: <strong>Cartago</strong> (Tunísia), Cádiz (Espanha)</li><li><strong>Alfabeto fonético:</strong> ~22 letras representando sons (não ideias). Base dos alfabetos grego, latino e do nosso!</li><li>Produziam <strong>púrpura</strong> (tintura roxa, símbolo de nobreza)</li></ul><h2>Hebreus (Israelitas)</h2><p>Povo de destaque pela criação do <strong>monoteísmo</strong>:</p><ul><li>Crença em um único Deus: <strong>Javé (Iahweh)</strong></li><li>Livro sagrado: <strong>Torá</strong> (os 5 primeiros livros da Bíblia)</li><li>Patriarcas: Abraão, Moisés, Davi, Salomão</li><li><strong>Êxodo:</strong> saída do Egito liderada por Moisés</li><li><strong>Diáspora:</strong> dispersão dos judeus pelo mundo após a destruição de Jerusalém (70 d.C.)</li></ul><h2>Persas</h2><p>Construíram o maior império do mundo antigo (da Índia ao Egito).</p><ul><li><strong>Ciro, o Grande:</strong> conquistas com tolerância religiosa</li><li><strong>Dario I:</strong> dividiu o império em satrapias (províncias)</li><li><strong>Estrada Real:</strong> 2.500 km com estações de correio</li><li>Religião: <strong>Zoroastrismo</strong> (Bem vs. Mal)</li></ul>",
+      "faq": [
+        {"q": "Por que o alfabeto fenício foi tão importante?", "a": "Antes dele, a escrita era complexa (cuneiforme, hieróglifos). O alfabeto fonético simplificou tudo: ~22 símbolos para representar sons, que combinados formam qualquer palavra. Democratizou a escrita."},
+        {"q": "O monoteísmo começou com os hebreus?", "a": "Não necessariamente (Akhenaton no Egito tentou antes), mas os hebreus foram os primeiros a manter o monoteísmo de forma duradoura. Deu origem ao judaísmo, cristianismo e islamismo."},
+        {"q": "O que é a diáspora?", "a": "A dispersão dos judeus pelo mundo após a destruição do Templo de Jerusalém pelos romanos em 70 d.C. Os judeus viveram espalhados por 2.000 anos até a criação de Israel em 1948."},
+        {"q": "O que é zoroastrismo?", "a": "Religião persa fundada por Zoroastro/Zaratustra. Acredita na luta entre Bem (Ahura Mazda) e Mal (Angra Mainyu). Influenciou conceitos de céu, inferno e juízo final no cristianismo e islamismo."}
+      ],
+      "quiz": [
+        {"question": "O alfabeto fonético foi criado pelos:", "options": ["Egípcios", "Gregos", "Fenícios", "Romanos"], "answer": 2},
+        {"question": "Monoteísmo é a crença em:", "options": ["Muitos deuses", "Nenhum deus", "Um único deus", "Deuses da natureza"], "answer": 2},
+        {"question": "O Êxodo foi liderado por:", "options": ["Abraão", "Davi", "Moisés", "Salomão"], "answer": 2},
+        {"question": "Ciro, o Grande era:", "options": ["Egípcio", "Grego", "Persa", "Romano"], "answer": 2},
+        {"question": "Cartago foi fundada pelos:", "options": ["Romanos", "Gregos", "Fenícios", "Persas"], "answer": 2}
+      ]
+    },
+    {
+      "title": "China e Índia Antigas",
+      "slug": "china-india-antigas",
+      "desc": "Civilizações orientais: dinastias chinesas, invenções, hinduísmo e budismo.",
+      "category": "Antiguidade Oriental",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "China: dinastias Shang, Zhou, Qin (Muralha), Han (Rota da Seda). Invenções: papel, pólvora, bússola, imprensa. Índia: civilização do Vale do Indo, hinduísmo, budismo (Sidarta Gautama), sistema de castas.",
+      "body": "<p>Enquanto Grécia e Roma floresciam no Ocidente, grandes civilizações se desenvolviam no Oriente.</p><h2>China Antiga</h2><p>Uma das civilizações mais antigas e contínuas do mundo.</p><h3>Grandes Dinastias</h3><ul><li><strong>Shang (~1600-1046 a.C.):</strong> escrita em ossos de oráculo, bronzes</li><li><strong>Zhou (1046-256 a.C.):</strong> Confúcio e Lao-Tsé (filosofia)</li><li><strong>Qin (221-206 a.C.):</strong> unificação, <strong>Grande Muralha</strong>, exército de terracota</li><li><strong>Han (206 a.C.-220 d.C.):</strong> <strong>Rota da Seda</strong>, expansão cultural</li></ul><h3>Invenções Chinesas</h3><ul><li><strong>Papel</strong> (~105 d.C.)</li><li><strong>Pólvora</strong> (~850 d.C.)</li><li><strong>Bússola</strong> (~200 a.C.)</li><li><strong>Impressão</strong> com tipos móveis</li></ul><h2>Índia Antiga</h2><h3>Vale do Indo (~2600-1900 a.C.)</h3><p>Cidades planejadas como <strong>Mohenjo-Daro</strong>: ruas em grade, sistema de esgoto, banhos públicos.</p><h3>Hinduísmo</h3><p>Uma das religiões mais antigas (sem fundador único). Conceitos: karma, dharma, reencarnação, múltiplos deuses (Brahma, Vishnu, Shiva).</p><h3>Budismo</h3><p>Fundado por <strong>Sidarta Gautama (Buda)</strong> no séc. VI a.C. Busca a iluminação através da meditação e do Caminho do Meio.</p><h3>Sistema de Castas</h3><p>Divisão social rígida: brâmanes (sacerdotes), xátrias (guerreiros), vaixás (comerciantes), sudras (servos), e os 'intocáveis' (sem casta).</p>",
+      "faq": [
+        {"q": "A Grande Muralha é visível do espaço?", "a": "Mito! A Muralha tem ~6m de largura — impossível de ver a olho nu do espaço. Astronautas confirmaram isso. Mas tem ~21.000 km de extensão total!"},
+        {"q": "O que é a Rota da Seda?", "a": "Rede de rotas comerciais que conectava China à Europa, passando pela Ásia Central. Transportava seda, especiarias, ideias e religiões. Funcionou por ~1.500 anos."},
+        {"q": "Hinduísmo e budismo são iguais?", "a": "Não! O budismo surgiu como uma reforma do hinduísmo. Buda rejeitou o sistema de castas e os rituais bramânicos. Hinduísmo é politeísta; budismo não tem deus criador."},
+        {"q": "O sistema de castas ainda existe na Índia?", "a": "Oficialmente foi abolido pela Constituição indiana de 1950. Na prática, ainda influencia a sociedade, especialmente em áreas rurais, embora esteja diminuindo gradualmente."}
+      ],
+      "quiz": [
+        {"question": "A Grande Muralha foi iniciada na dinastia:", "options": ["Han", "Shang", "Qin", "Zhou"], "answer": 2},
+        {"question": "O papel foi inventado na:", "options": ["Índia", "Grécia", "China", "Pérsia"], "answer": 2},
+        {"question": "Buda se chamava:", "options": ["Confúcio", "Lao-Tsé", "Sidarta Gautama", "Ashoka"], "answer": 2},
+        {"question": "A Rota da Seda conectava:", "options": ["África e Europa", "China e Europa", "Índia e Egito", "Japão e Roma"], "answer": 1},
+        {"question": "Mohenjo-Daro ficava no:", "options": ["Vale do Nilo", "Vale do Indo", "Vale do Ganges", "Vale do Amarelo"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Cidadania e Direitos na Antiguidade",
+      "slug": "cidadania-direitos-antiguidade",
+      "desc": "Quem era cidadão no mundo antigo: Grécia, Roma e comparação com o presente.",
+      "category": "Cidadania",
+      "difficulty": "Intermediário",
+      "grade": "6º ano",
+      "reading_time": "7",
+      "xp": 80,
+      "essential": "Cidadania antiga era excludente: só homens livres. Atenas: democracia direta para cidadãos. Roma: cidadania expandida com Édito de Caracala (212 d.C.). Escravidão era normalizada em todas as sociedades antigas.",
+      "body": "<p>O conceito de <strong>cidadania</strong> nasceu na Antiguidade, mas era muito diferente do que conhecemos hoje.</p><h2>Cidadania em Atenas</h2><ul><li><strong>Cidadãos:</strong> homens livres, nascidos de pais atenienses, maiores de 18 anos</li><li>Direitos: votar, ser eleito, participar de tribunais</li><li><strong>Excluídos:</strong> mulheres (~50%), escravos (~30%), estrangeiros (metecos)</li><li>Na prática, apenas ~10-15% da população era 'cidadã'</li></ul><h2>Cidadania em Roma</h2><ul><li>Inicialmente: só patrícios romanos</li><li>Gradualmente expandida para plebeus e povos conquistados</li><li><strong>Édito de Caracala (212 d.C.):</strong> cidadania para todos os habitantes livres do Império</li><li>Direitos: proteção legal, propriedade, voto (na República)</li></ul><h2>Escravidão Antiga</h2><p>Escravidão existia em todas as civilizações antigas. Escravos eram geralmente prisioneiros de guerra ou devedores. Em Roma, podiam comprar sua liberdade (alforria).</p><h2>Comparação com Hoje</h2><table><tr><th>Aspecto</th><th>Antiguidade</th><th>Hoje (Brasil)</th></tr><tr><td>Quem é cidadão</td><td>Minoria (homens livres)</td><td>Todos nascidos no país</td></tr><tr><td>Mulheres</td><td>Excluídas</td><td>Direitos iguais</td></tr><tr><td>Escravidão</td><td>Legalizada</td><td>Crime</td></tr><tr><td>Voto</td><td>Direto, só para poucos</td><td>Universal, obrigatório</td></tr></table>",
+      "faq": [
+        {"q": "A democracia antiga era democrática de verdade?", "a": "Parcialmente. Era democracia para poucos — excluía mulheres, escravos e estrangeiros. Mas o princípio de que cidadãos devem decidir coletivamente foi revolucionário."},
+        {"q": "Toda escravidão antiga era igual?", "a": "Não! Em Roma, escravos podiam ser professores, médicos e administradores. Em Esparta, os hilotas eram servos da terra. As condições variavam enormemente."},
+        {"q": "Quando as mulheres ganharam cidadania plena?", "a": "Variou por país. Na Nova Zelândia, votaram em 1893. No Brasil, em 1932. Na Suíça, só em 1971! A luta por igualdade de direitos continua."},
+        {"q": "O que é o Édito de Caracala?", "a": "Decreto do imperador Caracala (212 d.C.) que estendeu a cidadania romana a todos os habitantes livres do Império. Foi uma expansão sem precedentes de direitos."}
+      ],
+      "quiz": [
+        {"question": "Em Atenas, mulheres:", "options": ["Votavam", "Eram cidadãs", "Eram excluídas da cidadania", "Governavam"], "answer": 2},
+        {"question": "O Édito de Caracala (212 d.C.):", "options": ["Proibiu a escravidão", "Deu cidadania a todos os livres", "Criou o Senado", "Fundou Roma"], "answer": 1},
+        {"question": "Em Atenas, a parcela de cidadãos era de:", "options": ["100%", "50%", "10-15%", "1%"], "answer": 2},
+        {"question": "Na escravidão romana, escravos podiam:", "options": ["Votar", "Comprar a liberdade", "Ser senadores", "Ser imperador"], "answer": 1},
+        {"question": "No Brasil atual, o voto é:", "options": ["Proibido", "Só para homens", "Universal e obrigatório", "Só para ricos"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Religião e Mitologia no Mundo Antigo",
+      "slug": "religiao-mitologia-mundo-antigo",
+      "desc": "Politeísmo, monoteísmo, mitos de criação e o papel da religião nas civilizações antigas.",
+      "category": "Cultura e Religião",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 80,
+      "essential": "Politeísmo: Grécia, Roma, Egito, Mesopotâmia (muitos deuses). Monoteísmo: hebreus (judaísmo). Mitos explicavam a origem do mundo. Religião organizava a sociedade (sacerdotes, templos, festas).",
+      "body": "<p>A <strong>religião</strong> era central na vida das civilizações antigas — não era separada da política, da economia ou do cotidiano.</p><h2>Politeísmo</h2><p>Crença em <strong>muitos deuses</strong>, cada um com função específica:</p><ul><li><strong>Egito:</strong> Rá (sol), Osíris (morte), Anúbis (mumificação)</li><li><strong>Grécia:</strong> Zeus (céu), Atena (sabedoria), Poseidon (mar)</li><li><strong>Roma:</strong> adaptou os deuses gregos (Zeus → Júpiter)</li><li><strong>Mesopotâmia:</strong> Marduk (Babilônia), Enlil (vento)</li></ul><h2>Monoteísmo</h2><p>Crença em <strong>um único deus</strong>. Os <strong>hebreus</strong> foram os primeiros monoteístas duradouros (Javé/Iahweh). Do judaísmo nasceram o cristianismo e o islamismo.</p><h2>Mitos de Criação</h2><p>Cada povo criou sua explicação para a origem do mundo:</p><ul><li><strong>Mesopotâmia:</strong> Enuma Elish (Marduk cria o mundo do corpo de Tiamat)</li><li><strong>Grécia:</strong> Caos originou Gaia (Terra), Urano (Céu), Titãs, Olímpicos</li><li><strong>Hebreus:</strong> Deus criou o mundo em 6 dias (Gênesis)</li><li><strong>Tupi:</strong> Tupã criou o céu e a Terra</li></ul><h2>Papel Social da Religião</h2><ul><li><strong>Explicar:</strong> fenômenos naturais (raios, terremotos, estações)</li><li><strong>Organizar:</strong> calendário, festas, leis</li><li><strong>Legitimar:</strong> poder dos governantes (faraó = deus)</li><li><strong>Unir:</strong> identidade coletiva do povo</li></ul>",
+      "faq": [
+        {"q": "Mito é mentira?", "a": "Não! Mito é uma narrativa simbólica que explica o mundo, a origem das coisas e os valores de uma sociedade. Não é 'verdade científica', mas expressa verdades culturais profundas."},
+        {"q": "Os romanos copiaram os deuses gregos?", "a": "Adaptaram! Identificaram seus deuses com os gregos: Zeus=Júpiter, Ares=Marte, Afrodite=Vênus. Mas os romanos tinham tradições religiosas próprias anteriores ao contato com a Grécia."},
+        {"q": "Existem religiões politeístas hoje?", "a": "Sim! O hinduísmo é a maior religião politeísta atual, com mais de 1 bilhão de seguidores. Religiões tradicionais africanas e indígenas também são politeístas."},
+        {"q": "Como o monoteísmo se espalhou?", "a": "Judaísmo → Cristianismo (expandiu com Roma) → Islamismo (expansão árabe). Os três são chamados 'religiões abraâmicas' por compartilharem Abraão como patriarca."}
+      ],
+      "quiz": [
+        {"question": "Politeísmo é a crença em:", "options": ["Nenhum deus", "Um deus", "Muitos deuses", "Espíritos"], "answer": 2},
+        {"question": "Zeus no Olimpo grego equivale a ___ em Roma:", "options": ["Marte", "Júpiter", "Netuno", "Vulcano"], "answer": 1},
+        {"question": "O monoteísmo hebraico deu origem a:", "options": ["Hinduísmo e budismo", "Cristianismo e islamismo", "Zoroastrismo e taoísmo", "Confucionismo e xintoísmo"], "answer": 1},
+        {"question": "Mitos serviam para:", "options": ["Enganar o povo", "Explicar o mundo e organizar a sociedade", "Substituir a ciência", "Divertir crianças"], "answer": 1},
+        {"question": "A religião legitimava o poder do faraó porque:", "options": ["Ele pagava os sacerdotes", "Era considerado um deus", "Construía templos", "Escrevia leis"], "answer": 1}
+      ]
+    }
+  ]
+}
