@@ -1,0 +1,105 @@
+{
+  "subject": "Matemática",
+  "slug": "2ano-matematica",
+  "level": "Fundamental 1",
+  "grade": "2º Ano",
+  "color": "var(--matematica)",
+  "articles": [
+    {
+      "title": "Números até 100",
+      "slug": "numeros-ate-100",
+      "desc": "Conhecendo dezenas e centenas.",
+      "category": "Números",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Dezenas: 10, 20, 30... 90. Unidades completam: 21=2 dezenas+1 unidade. 100 = 1 centena = 10 dezenas = 100 unidades.",
+      "body": "<p>Agora vamos contar até <strong>100</strong>! Os números são organizados em grupos: <strong>unidades</strong> (1 a 9), <strong>dezenas</strong> (10, 20, 30... 90) e <strong>centena</strong> (100).</p><p>Cada número de dois algarismos tem dezenas e unidades: <strong>35</strong> = 3 dezenas + 5 unidades (3 grupos de dez + 5 sobras). O número <strong>100</strong> é especial — é a primeira centena: 10 dezenas ou 100 unidades.</p><p>Dica: conte de 10 em 10 (10, 20, 30...) e depois complete: 30, 31, 32, 33... até 39, depois 40! Assim fica fácil decorar todos os números até 100.</p>",
+      "faq": [{"q":"O que é dezena?","a":"Grupo de 10 unidades. 30 = 3 dezenas."},{"q":"O que é centena?","a":"Grupo de 100 unidades. 100 = 1 centena."},{"q":"Quantas dezenas tem em 100?","a":"10 dezenas = 100."}]
+    },
+    {
+      "title": "Adição com Reagrupamento",
+      "slug": "adicao-reagrupamento",
+      "desc": "Quando a soma das unidades passa de 9.",
+      "category": "Operações",
+      "difficulty": "Intermediário",
+      "reading_time": "4",
+      "xp": "100",
+      "essential": "Quando unidades somam mais que 9, 'vai 1' para a dezena. Ex: 28+15 → unidades: 8+5=13 (escreve 3, vai 1) → dezenas: 2+1+1=4 → resultado: 43.",
+      "body": "<p>Às vezes, ao somar as unidades, o resultado passa de 9. Quando isso acontece, usamos o <strong>reagrupamento</strong> (ou 'vai 1').</p><p>Exemplo: <strong>28 + 15</strong>. Unidades: 8 + 5 = 13. Como 13 tem 1 dezena e 3 unidades, escrevemos 3 na unidade e 'vai 1' para a dezena. Dezenas: 2 + 1 + 1 (que veio) = 4. Resultado: <strong>43</strong>.</p><p>Monte a conta na vertical para facilitar: unidades embaixo de unidades, dezenas embaixo de dezenas. Some de baixo para cima e lembre: se passar de 9, vai 1!</p>",
+      "faq": [{"q":"O que é reagrupamento?","a":"Quando a soma das unidades dá 10 ou mais, transformamos em 1 dezena e restante unidades."},{"q":"Funciona com centenas?","a":"Sim! Se as dezenas passam de 9, 'vai 1' para a centena."}]
+    },
+    {
+      "title": "Subtração com Reagrupamento",
+      "slug": "subtracao-reagrupamento",
+      "desc": "Quando a unidade de cima é menor que a de baixo.",
+      "category": "Operações",
+      "difficulty": "Intermediário",
+      "reading_time": "4",
+      "xp": "100",
+      "essential": "Se a unidade de cima é menor, 'pede emprestado' 1 dezena. Ex: 42-18 → unidades: 2<8, pede emprestado → 12-8=4 → dezenas: 3-1=3 → resultado: 24.",
+      "body": "<p>Na subtração, às vezes a unidade de cima é <strong>menor</strong> que a de baixo: 42 − 18. Como tirar 8 de 2? Não dá! Precisamos <strong>pedir emprestado</strong>.</p><p>Pegamos 1 dezena do 4 (que vira 3) e damos para o 2 (que vira 12). Agora: 12 − 8 = 4 (unidades). 3 − 1 = 2 (dezenas). Resultado: <strong>24</strong>.</p><p>Pense assim: 'emprestar' é quebrar 1 dezena em 10 unidades e adicionar às unidades existentes. Com prática, fica automático!</p>",
+      "faq": [{"q":"O que é 'pedir emprestado'?","a":"Tirar 1 dezena e transformar em 10 unidades para poder subtrair."},{"q":"45-27: como resolver?","a":"Unidades: 5<7, empresta: 15-7=8. Dezenas: 3-2=1. Resultado: 18."}]
+    },
+    {
+      "title": "Introdução à Multiplicação",
+      "slug": "introducao-multiplicacao",
+      "desc": "Multiplicar é somar várias vezes o mesmo número.",
+      "category": "Operações",
+      "difficulty": "Intermediário",
+      "reading_time": "4",
+      "xp": "100",
+      "essential": "Multiplicação = soma repetida. 3 × 4 = 4+4+4 = 12 (3 vezes o 4). Símbolo: ×. Resultado: produto. Tabuada: tabela de multiplicações.",
+      "body": "<p><strong>Multiplicar</strong> é somar o mesmo número várias vezes. Se você tem 3 sacos com 4 balas cada, quantas balas são? Em vez de somar 4+4+4, use: 3 × 4 = <strong>12</strong>.</p><p>O símbolo é <strong>×</strong> (vezes) e o resultado se chama <strong>produto</strong>. Pense assim: '3 vezes 4' = '3 grupos de 4'. Para memorizar, usamos a <strong>tabuada</strong> — uma tabela com todos os resultados.</p><p>Comece pelas tabuadas fáceis: a do 2 (2, 4, 6, 8, 10...) e a do 5 (5, 10, 15, 20, 25...). Depois avance para as outras. A prática diária torna a tabuada automática!</p>",
+      "faq": [{"q":"Multiplicação é soma?","a":"É uma soma repetida! 5×3 = 3+3+3+3+3 = 15."},{"q":"Ordem importa?","a":"Não! 3×4 = 4×3 = 12. Isso é a propriedade comutativa."},{"q":"Qualquer número × 0?","a":"Sempre dá 0! 5×0 = 0, 100×0 = 0."}]
+    },
+    {
+      "title": "Tabuada do 2 e do 3",
+      "slug": "tabuada-2-3",
+      "desc": "Decorando as primeiras tabuadas.",
+      "category": "Operações",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Tabuada do 2: 2,4,6,8,10,12,14,16,18,20. Tabuada do 3: 3,6,9,12,15,18,21,24,27,30. Dica: resultados do 2 são sempre pares.",
+      "body": "<p>A <strong>tabuada do 2</strong> é a mais fácil: basta contar de 2 em 2. 2×1=2, 2×2=4, 2×3=6, 2×4=8, 2×5=10, 2×6=12, 2×7=14, 2×8=16, 2×9=18, 2×10=20. Todos os resultados são números <strong>pares</strong>!</p><p>A <strong>tabuada do 3</strong>: 3×1=3, 3×2=6, 3×3=9, 3×4=12, 3×5=15, 3×6=18, 3×7=21, 3×8=24, 3×9=27, 3×10=30. Dica: some 3 ao resultado anterior (3, 6, 9, 12...).</p><p>Para decorar, repita várias vezes em voz alta, escreva e pratique com quizzes. A tabuada é como andar de bicicleta — uma vez que aprende, nunca mais esquece!</p>",
+      "faq": [{"q":"Preciso decorar toda a tabuada?","a":"Sim, até a do 10! É essencial para matemática."},{"q":"Dica para a tabuada do 9?","a":"Nos resultados, o primeiro dígito sobe e o segundo desce: 09, 18, 27, 36, 45, 54, 63, 72, 81, 90."}]
+    },
+    {
+      "title": "Introdução à Divisão",
+      "slug": "introducao-divisao",
+      "desc": "Dividir é repartir igualmente.",
+      "category": "Operações",
+      "difficulty": "Intermediário",
+      "reading_time": "4",
+      "xp": "100",
+      "essential": "Divisão = repartir em partes iguais. 12 ÷ 3 = 4 (12 dividido em 3 grupos = 4 em cada). Inverso da multiplicação. Símbolo: ÷.",
+      "body": "<p><strong>Dividir</strong> é repartir algo em partes iguais. Se você tem 12 balas e quer dividir entre 3 amigos, cada um recebe: 12 ÷ 3 = <strong>4 balas</strong>.</p><p>O símbolo é <strong>÷</strong> (dividido por) e o resultado se chama <strong>quociente</strong>. Divisão é o <strong>inverso da multiplicação</strong>: se 3 × 4 = 12, então 12 ÷ 3 = 4.</p><p>Nem sempre a divisão é exata. 13 ÷ 3 = 4 e <strong>sobra 1</strong>. Essa sobra se chama <strong>resto</strong>. Com a tabuada memorizada, as divisões ficam muito mais fáceis!</p>",
+      "faq": [{"q":"Pode dividir por zero?","a":"Não! Divisão por zero não existe na matemática."},{"q":"O que é resto?","a":"O que sobra quando a divisão não é exata. 10÷3 = 3, resto 1."},{"q":"Divisão e multiplicação são opostas?","a":"Sim! 6×5=30, então 30÷5=6."}]
+    },
+    {
+      "title": "Medidas de Comprimento",
+      "slug": "medidas-comprimento",
+      "desc": "Metro, centímetro e quilômetro.",
+      "category": "Medidas",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Centímetro (cm): coisas pequenas (lápis=15cm). Metro (m): coisas médias (sala=8m). Quilômetro (km): distâncias grandes (cidades). 1m=100cm. 1km=1000m.",
+      "body": "<p>Para medir comprimentos usamos três unidades principais: <strong>centímetro (cm)</strong> para coisas pequenas (um lápis tem ~15 cm), <strong>metro (m)</strong> para coisas médias (uma sala tem ~8 m) e <strong>quilômetro (km)</strong> para distâncias grandes (a distância entre cidades).</p><p>As conversões são simples: <strong>1 metro = 100 centímetros</strong> e <strong>1 quilômetro = 1.000 metros</strong>. Para medir, usamos régua (cm), trena (m) ou odômetro do carro (km).</p><p>Pratique estimando: seu dedo tem ~1 cm, seu braço aberto ~1 m, e da sua casa até a escola são provavelmente alguns km!</p>",
+      "faq": [{"q":"Quanto mede uma pessoa adulta?","a":"Em média 1,70 m (170 cm)."},{"q":"O que é milímetro?","a":"Unidade menor que centímetro. 1 cm = 10 mm. Usado para coisas muito pequenas."}]
+    },
+    {
+      "title": "Gráficos e Tabelas Simples",
+      "slug": "graficos-e-tabelas",
+      "desc": "Lendo e interpretando informações visuais.",
+      "category": "Estatística",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Tabela: organiza dados em linhas e colunas. Gráfico de barras: mostra quantidades com barras de diferentes tamanhos. Barra maior = quantidade maior.",
+      "body": "<p><strong>Tabelas</strong> organizam informações em linhas e colunas, facilitando a comparação. Por exemplo, uma tabela com as frutas preferidas da turma mostra quantos alunos escolheram cada fruta.</p><p><strong>Gráficos de barras</strong> transformam números em barras visuais. Quanto maior a barra, maior a quantidade. É muito mais fácil comparar olhando barras do que lendo números!</p><p>Para ler um gráfico: olhe o <strong>título</strong> (sobre o que é), os <strong>eixos</strong> (o que está sendo medido) e o <strong>tamanho das barras</strong>. Qual barra é a maior? Qual é a menor? O que isso significa?</p>",
+      "faq": [{"q":"Para que servem gráficos?","a":"Para visualizar dados de forma rápida e fácil de entender."},{"q":"Que tipos de gráficos existem?","a":"Barras, pizza (circular), linhas e pictogramas são os mais comuns."}]
+    }
+  ]
+}

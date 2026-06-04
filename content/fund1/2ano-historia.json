@@ -1,0 +1,81 @@
+{
+  "subject": "História",
+  "slug": "2ano-historia",
+  "level": "Fundamental 1",
+  "grade": "2º Ano",
+  "color": "var(--historia)",
+  "articles": [
+    {
+      "title": "Passado e Presente",
+      "slug": "passado-e-presente",
+      "desc": "Como as coisas mudaram ao longo do tempo.",
+      "category": "Tempo",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "O mundo muda com o tempo. Antigamente não existia TV, celular ou internet. Fotos e objetos antigos contam a história.",
+      "body": "<p>Seus <strong>avós</strong> viveram sem celular, sem internet, sem videogame. Brincavam na rua, ouviam rádio e escreviam cartas. Transportes mudaram de cavalos para carros; comunicação de cartas para WhatsApp.</p><p>Olhar fotos antigas e conversar com avós é como viajar no tempo! A <strong>História</strong> estuda essas mudanças para entendermos como chegamos até aqui.</p>",
+      "faq": [{"q":"O que é fonte histórica?","a":"Qualquer registro do passado: fotos, cartas, objetos, documentos."}]
+    },
+    {
+      "title": "As Profissões",
+      "slug": "profissoes",
+      "desc": "O que as pessoas fazem para trabalhar.",
+      "category": "Comunidade",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Professor ensina, médico cuida da saúde, agricultor planta, bombeiro salva vidas. Toda profissão é importante e digna.",
+      "body": "<p>Cada profissional contribui para a comunidade: <strong>professor</strong> ensina, <strong>médico</strong> cuida da saúde, <strong>agricultor</strong> planta alimentos, <strong>bombeiro</strong> salva vidas.</p><p>Não existe profissão melhor ou pior — todas são <strong>importantes e dignas</strong>. Profissões novas surgem (youtuber, programador) e antigas desaparecem (telegrafista, acendedor de lampião).</p>",
+      "faq": [{"q":"Que profissões novas existem?","a":"Youtuber, desenvolvedor de apps, cientista de dados, influenciador digital."}]
+    },
+    {
+      "title": "Povos Indígenas do Brasil",
+      "slug": "povos-indigenas",
+      "desc": "Os primeiros habitantes do Brasil.",
+      "category": "Brasil",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Indígenas são os primeiros habitantes do Brasil. Mais de 300 povos, 900 mil pessoas. Palavras como jacaré, mandioca, pipoca vieram de línguas indígenas.",
+      "body": "<p>Antes dos portugueses (1500), milhões de <strong>indígenas</strong> habitavam o Brasil. Têm culturas riquíssimas: línguas próprias, danças, pinturas corporais e relação profunda com a natureza.</p><p>Hoje existem 300+ povos indígenas (~900 mil pessoas). Muitas palavras vieram de línguas indígenas: jacaré, mandioca, pipoca, caju, Paraná, Curitiba.</p>",
+      "faq": [{"q":"Indígenas ainda existem?","a":"Sim! São mais de 900 mil pessoas em 300+ povos diferentes."}]
+    },
+    {
+      "title": "A Cultura Africana no Brasil",
+      "slug": "cultura-africana",
+      "desc": "A herança dos povos africanos na cultura brasileira.",
+      "category": "Cultura",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Africanos trouxeram: samba, capoeira, feijoada, candomblé, berimbau. Palavras: samba, moleque, quitanda. Escravidão abolida em 1888 (Lei Áurea).",
+      "body": "<p>Milhões de africanos foram trazidos ao Brasil escravizados (séculos XVI-XIX). Trouxeram cultura riquíssima: <strong>samba, capoeira, maracatu, candomblé, feijoada, acarajé</strong>.</p><p>Palavras de origem africana: samba, batuque, moleque, quitanda, dendê. A escravidão acabou em 1888 com a Lei Áurea. A cultura brasileira é profundamente marcada pela herança africana.</p>",
+      "faq": [{"q":"Quando acabou a escravidão?","a":"13 de maio de 1888, com a Lei Áurea."}]
+    },
+    {
+      "title": "Festas e Tradições Brasileiras",
+      "slug": "festas-tradicoes",
+      "desc": "Carnaval, Festa Junina, Natal e outras celebrações.",
+      "category": "Cultura",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Carnaval (africana+europeia), Festa Junina (europeia), Natal (cristã), Bumba-meu-boi (popular). Cada região tem suas tradições.",
+      "body": "<p><strong>Carnaval</strong>: desfiles e música. <strong>Festa Junina</strong>: quadrilha, fogueira, paçoca. <strong>Natal</strong>: árvore, presentes, ceia. Cada região tem festas próprias: Bumba-meu-boi no Nordeste, Círio de Nazaré no Pará.</p><p>Essa diversidade vem das culturas que formaram o Brasil: indígena, africana e europeia.</p>",
+      "faq": [{"q":"De onde veio o Carnaval?","a":"De festas europeias misturadas com ritmos e danças africanas no Brasil."}]
+    },
+    {
+      "title": "Meios de Comunicação",
+      "slug": "meios-comunicacao",
+      "desc": "Do correio ao WhatsApp.",
+      "category": "Tecnologia",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Evolução: cartas → telégrafo → telefone → rádio → TV → internet → celular → redes sociais. Cada invenção tornou a comunicação mais rápida.",
+      "body": "<p>Antigamente: <strong>cartas</strong> (dias), <strong>telégrafo</strong> (mensagens curtas), <strong>telefone fixo</strong>. Depois: <strong>rádio</strong>, <strong>TV</strong>, <strong>jornais</strong>.</p><p>Hoje: <strong>internet, celular, redes sociais, videochamadas</strong>. Uma mensagem que levava meses por carta chega em segundos por WhatsApp!</p>",
+      "faq": [{"q":"Quando surgiu a internet?","a":"Anos 1990 para o público geral."}]
+    }
+  ]
+}

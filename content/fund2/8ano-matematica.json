@@ -1,0 +1,306 @@
+{
+  "subject": "Matemática",
+  "slug": "8ano-matematica",
+  "articles": [
+    {
+      "title": "Potenciação e Radiciação",
+      "slug": "potenciacao-radiciacao",
+      "desc": "Potências, propriedades, raízes quadradas e cúbicas, racionalização.",
+      "category": "Números e Operações",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Potência: aⁿ = a × a × ... × a (n vezes). Propriedades: aᵐ × aⁿ = aᵐ⁺ⁿ, aᵐ ÷ aⁿ = aᵐ⁻ⁿ. Raiz: ⁿ√a = a^(1/n). Raiz quadrada de a² = |a|.",
+      "body": "<p>A <strong>potenciação</strong> é a multiplicação repetida de um mesmo número, e a <strong>radiciação</strong> é sua operação inversa.</p><h2>Potenciação</h2><p><strong>aⁿ = a × a × a × ... × a</strong> (n vezes)</p><p>Ex: 3⁴ = 3 × 3 × 3 × 3 = 81</p><h2>Propriedades</h2><ul><li><strong>Produto de mesma base:</strong> aᵐ × aⁿ = aᵐ⁺ⁿ → 2³ × 2⁴ = 2⁷ = 128</li><li><strong>Divisão de mesma base:</strong> aᵐ ÷ aⁿ = aᵐ⁻ⁿ → 5⁶ ÷ 5² = 5⁴ = 625</li><li><strong>Potência de potência:</strong> (aᵐ)ⁿ = aᵐˣⁿ → (2³)² = 2⁶ = 64</li><li><strong>Expoente zero:</strong> a⁰ = 1 (para a ≠ 0)</li><li><strong>Expoente negativo:</strong> a⁻ⁿ = 1/aⁿ → 2⁻³ = 1/8</li></ul><h2>Radiciação</h2><p>A raiz é a operação inversa da potência:</p><p>√25 = 5 (porque 5² = 25)</p><p>∛27 = 3 (porque 3³ = 27)</p><h2>Propriedades das Raízes</h2><ul><li>√(a × b) = √a × √b → √12 = √4 × √3 = 2√3</li><li>√(a/b) = √a / √b</li><li>ⁿ√aᵐ = a^(m/n)</li></ul><h2>Simplificação de Raízes</h2><p>√72 = √(36 × 2) = 6√2</p><p>√50 = √(25 × 2) = 5√2</p>",
+      "faq": [
+        {"q": "Por que a⁰ = 1?", "a": "Pela propriedade da divisão: aⁿ ÷ aⁿ = aⁿ⁻ⁿ = a⁰. Como qualquer número dividido por ele mesmo é 1, então a⁰ = 1."},
+        {"q": "√ de número negativo existe?", "a": "Nos reais, não! √(-4) não existe. Só a partir dos números complexos (assunto do 3º EM) isso faz sentido, com o número imaginário i."},
+        {"q": "Qual a diferença entre (-2)² e -2²?", "a": "(-2)² = 4 (o sinal está dentro do parêntese). -2² = -(2²) = -4 (o sinal está fora). O parêntese faz toda diferença!"},
+        {"q": "O que é um quadrado perfeito?", "a": "É um número cuja raiz quadrada é inteira. Ex: 1, 4, 9, 16, 25, 36, 49, 64, 81, 100..."}
+      ],
+      "quiz": [
+        {"question": "Quanto é 2⁵?", "options": ["10", "25", "32", "64"], "answer": 2},
+        {"question": "Simplifique: 3² × 3⁴", "options": ["3⁶", "3⁸", "9⁶", "3²"], "answer": 0},
+        {"question": "Quanto é 5⁰?", "options": ["0", "5", "1", "50"], "answer": 2},
+        {"question": "√48 simplificado é:", "options": ["4√3", "6√2", "2√12", "8√3"], "answer": 0},
+        {"question": "2⁻² é igual a:", "options": ["-4", "4", "1/4", "-1/4"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Notação Científica",
+      "slug": "notacao-cientifica",
+      "desc": "Representação de números muito grandes ou pequenos na forma a × 10ⁿ.",
+      "category": "Números e Operações",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "7",
+      "xp": 80,
+      "essential": "Notação científica: a × 10ⁿ, onde 1 ≤ a < 10. Números grandes: n positivo. Números pequenos: n negativo. Ex: 3.500.000 = 3,5 × 10⁶.",
+      "body": "<p>Como escrever a distância da Terra ao Sol (150.000.000 km) ou o tamanho de um vírus (0,0000002 m) de forma prática? Usamos a <strong>notação científica</strong>!</p><h2>Formato</h2><p><strong>a × 10ⁿ</strong>, onde 1 ≤ a < 10 e n é inteiro.</p><h2>Números Grandes (n positivo)</h2><p>150.000.000 = <strong>1,5 × 10⁸</strong> (a vírgula andou 8 casas para a esquerda)</p><p>7.800.000 = <strong>7,8 × 10⁶</strong></p><h2>Números Pequenos (n negativo)</h2><p>0,0000002 = <strong>2 × 10⁻⁷</strong> (a vírgula andou 7 casas para a direita)</p><p>0,00045 = <strong>4,5 × 10⁻⁴</strong></p><h2>Operações</h2><p><strong>Multiplicação:</strong> (2 × 10³) × (3 × 10⁴) = 6 × 10⁷</p><p><strong>Divisão:</strong> (8 × 10⁶) ÷ (2 × 10²) = 4 × 10⁴</p><h2>Ordem de Grandeza</h2><p>É a potência de 10 mais próxima. Serve para estimar e comparar escalas.</p><p>População do Brasil (~210 milhões) → ordem de grandeza: 10⁸</p><h2>Exemplos no Cotidiano</h2><ul><li>Velocidade da luz: 3 × 10⁸ m/s</li><li>Massa do elétron: 9,1 × 10⁻³¹ kg</li><li>Distância ao Sol: 1,5 × 10⁸ km</li><li>Diâmetro de um fio de cabelo: 7 × 10⁻⁵ m</li></ul>",
+      "faq": [
+        {"q": "Por que 'a' precisa estar entre 1 e 10?", "a": "É a convenção que torna a notação padronizada. Se pudéssemos usar qualquer valor de 'a', não haveria vantagem: 35 × 10⁵ e 3,5 × 10⁶ seriam ambos válidos."},
+        {"q": "Como saber se o expoente é positivo ou negativo?", "a": "Número original grande (>10): expoente positivo. Número pequeno (<1): expoente negativo. Pense: a vírgula anda para onde?"},
+        {"q": "Posso somar números em notação científica?", "a": "Sim, mas os expoentes precisam ser iguais primeiro. Ex: 3×10⁴ + 5×10³ = 3×10⁴ + 0,5×10⁴ = 3,5×10⁴."},
+        {"q": "Calculadoras usam notação científica?", "a": "Sim! Quando o resultado é muito grande ou pequeno, a calculadora mostra 'E'. Ex: 2.5E8 = 2,5 × 10⁸."}
+      ],
+      "quiz": [
+        {"question": "3.200.000 em notação científica é:", "options": ["32 × 10⁵", "3,2 × 10⁶", "3,2 × 10⁷", "0,32 × 10⁷"], "answer": 1},
+        {"question": "0,00056 em notação científica é:", "options": ["5,6 × 10⁻⁴", "56 × 10⁻⁵", "5,6 × 10⁴", "0,56 × 10⁻³"], "answer": 0},
+        {"question": "(4 × 10³) × (2 × 10⁵) =", "options": ["8 × 10⁸", "6 × 10⁸", "8 × 10¹⁵", "6 × 10¹⁵"], "answer": 0},
+        {"question": "A velocidade da luz é ~3 × 10⁸ m/s. Isso é:", "options": ["300 m/s", "3.000 m/s", "300.000.000 m/s", "30.000 m/s"], "answer": 2},
+        {"question": "Qual destes está em notação científica correta?", "options": ["12 × 10³", "0,5 × 10⁴", "7,3 × 10⁻²", "100 × 10¹"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Expressões Algébricas e Produtos Notáveis",
+      "slug": "expressoes-algebricas-produtos-notaveis",
+      "desc": "Monômios, polinômios, operações e os três produtos notáveis fundamentais.",
+      "category": "Álgebra",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Monômio: 3x². Polinômio: soma de monômios. Produtos notáveis: (a+b)² = a²+2ab+b², (a-b)² = a²-2ab+b², (a+b)(a-b) = a²-b².",
+      "body": "<p>As <strong>expressões algébricas</strong> combinam números e letras (variáveis) com operações. Dominá-las é essencial para toda a matemática do Ensino Médio.</p><h2>Monômios</h2><p>Um <strong>monômio</strong> é um produto de número por variáveis: 3x², -5ab, 7y³</p><p><strong>Partes:</strong> coeficiente (número) e parte literal (letras com expoentes).</p><h2>Polinômios</h2><p>Soma de monômios: 3x² + 2x - 5 é um <strong>polinômio de grau 2</strong>.</p><h2>Operações com Polinômios</h2><p><strong>Adição:</strong> some os termos semelhantes (mesma parte literal).</p><p>(3x² + 2x) + (5x² - x) = <strong>8x² + x</strong></p><p><strong>Multiplicação:</strong> cada termo multiplica todos do outro (distributiva).</p><p>(2x + 3)(x - 1) = 2x² - 2x + 3x - 3 = <strong>2x² + x - 3</strong></p><h2>Produtos Notáveis</h2><p>São padrões que aparecem frequentemente:</p><p><strong>1. Quadrado da soma:</strong></p><p>(a + b)² = a² + 2ab + b²</p><p>Ex: (x + 3)² = x² + 6x + 9</p><p><strong>2. Quadrado da diferença:</strong></p><p>(a - b)² = a² - 2ab + b²</p><p>Ex: (x - 5)² = x² - 10x + 25</p><p><strong>3. Produto da soma pela diferença:</strong></p><p>(a + b)(a - b) = a² - b²</p><p>Ex: (x + 4)(x - 4) = x² - 16</p><h2>Por que Memorizar?</h2><p>Esses padrões aparecem em equações, fatoração, física e engenharia. São atalhos que economizam tempo em provas!</p>",
+      "faq": [
+        {"q": "O que são termos semelhantes?", "a": "São termos com a mesma parte literal (mesmas variáveis com mesmos expoentes). 3x² e 5x² são semelhantes. 3x² e 3x não são."},
+        {"q": "(a+b)² é igual a a² + b²?", "a": "NÃO! Esse é o erro mais comum. Falta o termo do meio: (a+b)² = a² + 2ab + b². O 2ab faz toda diferença."},
+        {"q": "Qual o grau de um polinômio?", "a": "É o maior expoente que aparece. 5x³ + 2x² - x + 1 tem grau 3 (cúbico)."},
+        {"q": "Para que servem os produtos notáveis?", "a": "São atalhos para multiplicações frequentes. Em vez de fazer a distributiva toda vez, você aplica a fórmula direto. Essenciais para fatoração."}
+      ],
+      "quiz": [
+        {"question": "(x + 2)² é igual a:", "options": ["x² + 4", "x² + 2x + 4", "x² + 4x + 4", "2x² + 4"], "answer": 2},
+        {"question": "(a + b)(a - b) é igual a:", "options": ["a² + b²", "a² - b²", "a² - 2ab + b²", "2a² - 2b²"], "answer": 1},
+        {"question": "(x - 3)² é igual a:", "options": ["x² - 9", "x² - 3x + 9", "x² - 6x + 9", "x² + 6x + 9"], "answer": 2},
+        {"question": "Some: (4x² + 3x) + (2x² - 5x)", "options": ["6x² - 2x", "6x⁴ - 2x", "2x² + 8x", "6x² + 8x"], "answer": 0},
+        {"question": "(3x)(2x²) =", "options": ["5x³", "6x³", "6x²", "5x²"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Fatoração",
+      "slug": "fatoracao",
+      "desc": "Fator comum, agrupamento, trinômio quadrado perfeito e diferença de quadrados.",
+      "category": "Álgebra",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Fatorar é escrever como produto. Fator comum: ax + ay = a(x+y). Trinômio: a²+2ab+b² = (a+b)². Diferença de quadrados: a²-b² = (a+b)(a-b).",
+      "body": "<p><strong>Fatorar</strong> é o processo inverso da multiplicação: transformar uma soma/subtração em um <strong>produto de fatores</strong>. É como \"desfazer\" a distributiva.</p><h2>1. Fator Comum em Evidência</h2><p>Identifique o fator que aparece em todos os termos e coloque em evidência.</p><p>6x + 9 = <strong>3(2x + 3)</strong></p><p>x² + 3x = <strong>x(x + 3)</strong></p><p>4a²b - 8ab² = <strong>4ab(a - 2b)</strong></p><h2>2. Agrupamento</h2><p>Quando temos 4 termos, agrupe em pares e fatore cada par.</p><p>ax + ay + bx + by = a(x+y) + b(x+y) = <strong>(a+b)(x+y)</strong></p><h2>3. Trinômio Quadrado Perfeito</h2><p>Reconheça o padrão dos produtos notáveis ao contrário:</p><p>x² + 6x + 9 = <strong>(x + 3)²</strong></p><p>x² - 10x + 25 = <strong>(x - 5)²</strong></p><h2>4. Diferença de Dois Quadrados</h2><p>a² - b² = <strong>(a + b)(a - b)</strong></p><p>x² - 16 = <strong>(x + 4)(x - 4)</strong></p><p>9a² - 25b² = <strong>(3a + 5b)(3a - 5b)</strong></p><h2>Estratégia de Fatoração</h2><ol><li>Primeiro, veja se há <strong>fator comum</strong></li><li>Depois, verifique se é <strong>diferença de quadrados</strong> ou <strong>trinômio quadrado perfeito</strong></li><li>Se tiver 4 termos, tente <strong>agrupamento</strong></li></ol><h2>Para que serve?</h2><p>Simplificar frações algébricas, resolver equações, encontrar raízes de polinômios.</p>",
+      "faq": [
+        {"q": "Como saber se é trinômio quadrado perfeito?", "a": "Verifique se o primeiro e último termos são quadrados perfeitos, e se o do meio é o dobro do produto das raízes. Ex: x² + 6x + 9 → √x²=x, √9=3, 2×x×3=6x ✓"},
+        {"q": "Toda expressão pode ser fatorada?", "a": "Nem toda. Algumas expressões já são irredutíveis. Ex: x² + 1 não pode ser fatorado nos reais (não é diferença de quadrados)."},
+        {"q": "Fatoração é o contrário de quê?", "a": "Da distributiva (expandir/multiplicar). Multiplicar (x+3)(x-2) dá x²+x-6. Fatorar x²+x-6 dá (x+3)(x-2). São operações inversas."},
+        {"q": "Por que fatoração é importante?", "a": "É essencial para simplificar frações algébricas, resolver equações do 2º grau, e em todo o cálculo avançado."}
+      ],
+      "quiz": [
+        {"question": "Fatore: 8x + 12", "options": ["4(2x + 3)", "2(4x + 6)", "8(x + 12)", "4(2x + 12)"], "answer": 0},
+        {"question": "Fatore: x² - 25", "options": ["(x-5)²", "(x+5)²", "(x+5)(x-5)", "x(x-25)"], "answer": 2},
+        {"question": "Fatore: x² + 8x + 16", "options": ["(x+4)²", "(x+8)²", "(x+2)(x+8)", "(x+4)(x-4)"], "answer": 0},
+        {"question": "Fatore: 3x² - 6x", "options": ["3(x²-6x)", "3x(x-2)", "x(3x-6)", "6x(x-1)"], "answer": 1},
+        {"question": "4a² - 9b² =", "options": ["(2a-3b)²", "(4a+9b)(4a-9b)", "(2a+3b)(2a-3b)", "(2a-9b)(2a+b)"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Equações do 2º Grau",
+      "slug": "equacoes-segundo-grau",
+      "desc": "Forma ax²+bx+c=0, discriminante, fórmula de Bhaskara e soma/produto.",
+      "category": "Álgebra",
+      "difficulty": "Avançado",
+      "grade": "8º ano",
+      "reading_time": "10",
+      "xp": 120,
+      "essential": "Equação do 2º grau: ax²+bx+c=0. Discriminante: Δ=b²-4ac. Raízes: x=(-b±√Δ)/2a. Se Δ>0: 2 raízes. Δ=0: 1 raiz. Δ<0: sem raiz real.",
+      "body": "<p>A <strong>equação do 2º grau</strong> tem a forma <strong>ax² + bx + c = 0</strong>, onde a ≠ 0. É o passo seguinte às equações do 1º grau.</p><h2>Coeficientes</h2><p>Em x² - 5x + 6 = 0: a=1, b=-5, c=6</p><h2>Discriminante (Δ)</h2><p><strong>Δ = b² - 4ac</strong></p><p>O discriminante determina quantas soluções a equação tem:</p><ul><li><strong>Δ > 0:</strong> duas raízes reais distintas</li><li><strong>Δ = 0:</strong> uma raiz real (dupla)</li><li><strong>Δ < 0:</strong> sem raízes reais</li></ul><h2>Fórmula de Bhaskara</h2><p><strong>x = (-b ± √Δ) / 2a</strong></p><h2>Exemplo Resolvido</h2><p>x² - 5x + 6 = 0</p><ol><li>a=1, b=-5, c=6</li><li>Δ = (-5)² - 4(1)(6) = 25 - 24 = <strong>1</strong></li><li>x = (5 ± √1) / 2 = (5 ± 1) / 2</li><li>x₁ = 6/2 = <strong>3</strong> e x₂ = 4/2 = <strong>2</strong></li></ol><p>Verificação: 3² - 5(3) + 6 = 9 - 15 + 6 = 0 ✓</p><h2>Relações de Girard (Soma e Produto)</h2><ul><li><strong>Soma das raízes:</strong> x₁ + x₂ = -b/a</li><li><strong>Produto das raízes:</strong> x₁ × x₂ = c/a</li></ul><p>No exemplo: soma = 3+2 = 5 = -(-5)/1 ✓ | produto = 3×2 = 6 = 6/1 ✓</p><h2>Equações Incompletas</h2><p><strong>Sem c:</strong> x² - 4x = 0 → x(x-4) = 0 → x=0 ou x=4</p><p><strong>Sem b:</strong> x² - 9 = 0 → x² = 9 → x = ±3</p>",
+      "faq": [
+        {"q": "Quem foi Bhaskara?", "a": "Bhaskara II foi um matemático indiano do século XII. A fórmula que leva seu nome no Brasil é chamada de 'fórmula quadrática' no resto do mundo."},
+        {"q": "Quando Δ < 0, realmente não tem solução?", "a": "Nos números reais, não. Mas nos complexos (3º EM), existem soluções com o número imaginário i = √(-1)."},
+        {"q": "Posso resolver sem Bhaskara?", "a": "Sim! Por fatoração (se as raízes forem inteiras) ou completando quadrados. Bhaskara é o método universal."},
+        {"q": "Para que serve equação do 2º grau?", "a": "Trajetórias de projéteis, otimização de lucro, geometria (áreas), física (movimento), e milhares de aplicações."}
+      ],
+      "quiz": [
+        {"question": "Na equação 2x² - 3x + 1 = 0, os coeficientes são:", "options": ["a=2, b=3, c=1", "a=2, b=-3, c=1", "a=-2, b=3, c=-1", "a=2, b=-3, c=-1"], "answer": 1},
+        {"question": "Se Δ = 0, a equação tem:", "options": ["2 raízes", "1 raiz dupla", "Nenhuma raiz", "Infinitas raízes"], "answer": 1},
+        {"question": "Raízes de x² - 5x + 6 = 0:", "options": ["2 e 3", "-2 e -3", "1 e 6", "-1 e -6"], "answer": 0},
+        {"question": "Em x² - 9 = 0, as raízes são:", "options": ["3 e -3", "9 e -9", "3 e 3", "81"], "answer": 0},
+        {"question": "O discriminante de x² + 2x + 5 = 0 é:", "options": ["24", "-16", "16", "0"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Sistemas de Equações do 1º Grau",
+      "slug": "sistemas-equacoes-primeiro-grau",
+      "desc": "Sistemas com duas equações e duas incógnitas: substituição e adição.",
+      "category": "Álgebra",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Sistema 2×2: duas equações, duas incógnitas. Métodos: substituição (isola uma variável) e adição (elimina somando). Solução é o par (x, y).",
+      "body": "<p>Um <strong>sistema de equações</strong> é um conjunto de equações que devem ser satisfeitas simultaneamente.</p><h2>Formato</h2><p>x + y = 10<br>x - y = 4</p><p>Qual par (x, y) satisfaz ambas?</p><h2>Método da Adição</h2><p>Some as equações para eliminar uma variável:</p><p>(x + y) + (x - y) = 10 + 4</p><p>2x = 14 → x = <strong>7</strong></p><p>Substituindo: 7 + y = 10 → y = <strong>3</strong></p><p>Solução: (7, 3)</p><h2>Método da Substituição</h2><p>Isole uma variável em uma equação e substitua na outra.</p><p>2x + y = 8 e x - y = 1</p><ol><li>Da 2ª: x = y + 1</li><li>Na 1ª: 2(y+1) + y = 8 → 2y + 2 + y = 8 → 3y = 6 → y = <strong>2</strong></li><li>x = 2 + 1 = <strong>3</strong></li></ol><h2>Classificação</h2><ul><li><strong>SPD</strong> (Sistema Possível Determinado): uma única solução (retas se cruzam)</li><li><strong>SPI</strong> (Sistema Possível Indeterminado): infinitas soluções (retas coincidentes)</li><li><strong>SI</strong> (Sistema Impossível): nenhuma solução (retas paralelas)</li></ul><h2>Aplicações</h2><p>\"Dois ingressos de adulto e 3 de criança custam R$ 56. Um de adulto e 4 de criança custam R$ 49.\"</p><p>2a + 3c = 56 e a + 4c = 49 → Resolva e encontre os preços!</p>",
+      "faq": [
+        {"q": "Como escolher entre adição e substituição?", "a": "Substituição é melhor quando uma variável já está quase isolada. Adição é melhor quando os coeficientes são simétricos ou facilmente anuláveis."},
+        {"q": "O que significam SPD, SPI e SI geometricamente?", "a": "Cada equação é uma reta. SPD: retas se cruzam num ponto. SPI: são a mesma reta (infinitos pontos). SI: retas paralelas (nunca se encontram)."},
+        {"q": "Posso ter sistema com 3 equações?", "a": "Sim! Sistemas 3×3 usam os mesmos métodos, mas com mais etapas. No EM você verá isso com matrizes."},
+        {"q": "Sistema serve para quê na vida real?", "a": "Problemas com duas incógnitas: preços, misturas, velocidades, idades. Sempre que duas condições precisam ser satisfeitas ao mesmo tempo."}
+      ],
+      "quiz": [
+        {"question": "Resolva: x+y=7, x-y=3. Valor de x:", "options": ["2", "5", "3", "7"], "answer": 1},
+        {"question": "No sistema acima, o valor de y é:", "options": ["2", "4", "3", "5"], "answer": 0},
+        {"question": "Retas paralelas correspondem a um sistema:", "options": ["SPD", "SPI", "SI", "Indeterminado"], "answer": 2},
+        {"question": "No método da adição, o objetivo é:", "options": ["Isolar x", "Eliminar uma variável somando", "Multiplicar as equações", "Inverter sinais"], "answer": 1},
+        {"question": "x + 2y = 10 e x = 4. Valor de y:", "options": ["2", "3", "4", "6"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Triângulos: Congruência",
+      "slug": "triangulos-congruencia",
+      "desc": "Triângulos congruentes e os casos de congruência: LLL, LAL, ALA, LAAo.",
+      "category": "Geometria",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Triângulos congruentes têm mesma forma e tamanho. Casos: LLL (3 lados), LAL (2 lados e ângulo entre), ALA (2 ângulos e lado entre), LAAo (2 lados e ângulo oposto ao maior).",
+      "body": "<p>Dois triângulos são <strong>congruentes</strong> quando têm exatamente o mesmo formato e tamanho — todos os lados e ângulos correspondentes são iguais.</p><h2>O Símbolo</h2><p>△ABC ≅ △DEF significa que o triângulo ABC é congruente ao DEF.</p><h2>Casos de Congruência</h2><p>Não precisamos verificar todos os 6 elementos (3 lados + 3 ângulos). Basta verificar:</p><h3>LLL (Lado-Lado-Lado)</h3><p>Os <strong>3 lados</strong> de um são iguais aos 3 lados do outro.</p><h3>LAL (Lado-Ângulo-Lado)</h3><p><strong>2 lados</strong> e o <strong>ângulo entre eles</strong> são iguais.</p><h3>ALA (Ângulo-Lado-Ângulo)</h3><p><strong>2 ângulos</strong> e o <strong>lado entre eles</strong> são iguais.</p><h3>LAAo (Lado-Ângulo-Ângulo oposto)</h3><p>Um lado, um ângulo adjacente e o ângulo oposto ao lado são iguais.</p><h2>Atenção!</h2><p><strong>LLA não é caso de congruência!</strong> Dois lados e um ângulo que não está entre eles pode gerar dois triângulos diferentes (caso ambíguo).</p><h2>Para que Serve?</h2><p>A congruência é usada para demonstrar propriedades geométricas: provar que diagonais se bissetam, que medianas dividem áreas iguais, que lados são iguais.</p>",
+      "faq": [
+        {"q": "Congruente é o mesmo que igual?", "a": "Em geometria, sim! Congruente = mesma forma + mesmo tamanho. Pode estar girado ou espelhado, mas as medidas são idênticas."},
+        {"q": "Por que LLA não funciona?", "a": "Porque com 2 lados e um ângulo não-incluído, podem existir 2 triângulos diferentes (caso ambíguo). Só funciona quando o ângulo é reto ou o lado oposto ao ângulo é maior."},
+        {"q": "Qual a diferença entre congruência e semelhança?", "a": "Congruência: mesma forma e tamanho. Semelhança: mesma forma, tamanho pode ser diferente (escala). Todo congruente é semelhante, mas nem todo semelhante é congruente."},
+        {"q": "Preciso decorar os 4 casos?", "a": "Sim! LLL, LAL, ALA e LAAo são ferramentas essenciais em demonstrações geométricas."}
+      ],
+      "quiz": [
+        {"question": "LAL significa:", "options": ["Lado-Ângulo-Lado", "Largo-Alto-Largo", "Lado-Aresta-Lado", "Longo-Agudo-Longo"], "answer": 0},
+        {"question": "Qual NÃO é caso de congruência?", "options": ["LLL", "LAL", "LLA", "ALA"], "answer": 2},
+        {"question": "Se △ABC ≅ △DEF, então:", "options": ["AB = DE, BC = EF, AC = DF", "Só os ângulos são iguais", "Só os lados são iguais", "As áreas são diferentes"], "answer": 0},
+        {"question": "Quantos elementos mínimos precisamos para provar congruência?", "options": ["2", "3", "4", "6"], "answer": 1},
+        {"question": "Dois triângulos com mesma forma mas tamanhos diferentes são:", "options": ["Congruentes", "Semelhantes", "Iguais", "Opostos"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Triângulos: Semelhança",
+      "slug": "triangulos-semelhanca",
+      "desc": "Triângulos semelhantes, razão de semelhança e aplicações.",
+      "category": "Geometria",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Triângulos semelhantes: mesmos ângulos, lados proporcionais. Razão k: todos os lados multiplicam por k. Casos: AA (2 ângulos), LAL, LLL. Áreas: proporção k².",
+      "body": "<p>Dois triângulos são <strong>semelhantes</strong> quando têm a mesma forma, mas podem ter tamanhos diferentes. Os ângulos são iguais e os lados são <strong>proporcionais</strong>.</p><h2>Notação</h2><p>△ABC ~ △DEF (o til indica semelhança)</p><h2>Razão de Semelhança (k)</h2><p>Se AB/DE = BC/EF = AC/DF = k, então k é a <strong>razão de semelhança</strong>.</p><p>Ex: Se k = 2, o triângulo maior tem lados que são o dobro do menor.</p><h2>Casos de Semelhança</h2><h3>AA (Ângulo-Ângulo)</h3><p>Se dois ângulos de um triângulo são iguais a dois de outro, são semelhantes. O terceiro ângulo será igual automaticamente (soma = 180°).</p><h3>LAL (Lado-Ângulo-Lado)</h3><p>Dois lados proporcionais e o ângulo entre eles igual.</p><h3>LLL (Lado-Lado-Lado)</h3><p>Todos os três lados proporcionais (mesma razão k).</p><h2>Relação entre Áreas</h2><p>Se a razão de semelhança é k, a razão das áreas é <strong>k²</strong>.</p><p>Ex: Se k = 3 (um é 3x maior), a área é 3² = 9 vezes maior.</p><h2>Aplicações</h2><p>Semelhança é usada para medir alturas inacessíveis: meça a sombra de um poste e de um bastão, e use proporcionalidade para calcular a altura do poste.</p>",
+      "faq": [
+        {"q": "Todo triângulo equilátero é semelhante a qualquer outro equilátero?", "a": "Sim! Todos têm ângulos de 60°, satisfazendo AA. Diferem apenas no tamanho."},
+        {"q": "Como medir a altura de um prédio com semelhança?", "a": "Meça sua sombra e a do prédio no mesmo horário. Sua altura/sua sombra = altura do prédio/sombra do prédio. Resolva a proporção."},
+        {"q": "Se k = 1, o que acontece?", "a": "Os triângulos são congruentes! Semelhança com razão 1 = mesma forma E mesmo tamanho."},
+        {"q": "A razão dos perímetros também é k?", "a": "Sim! Se os lados são proporcionais por k, a soma dos lados (perímetro) também é multiplicada por k."}
+      ],
+      "quiz": [
+        {"question": "Se △ABC ~ △DEF com razão k=2, e AB=6, então DE=", "options": ["3", "6", "12", "8"], "answer": 0},
+        {"question": "Qual é o caso mais simples de semelhança?", "options": ["LLL", "LAL", "AA", "LLA"], "answer": 2},
+        {"question": "Se k=3, a razão das áreas é:", "options": ["3", "6", "9", "27"], "answer": 2},
+        {"question": "Todo triângulo congruente é semelhante?", "options": ["Não", "Sim (k=1)", "Depende", "Só se for retângulo"], "answer": 1},
+        {"question": "Dois triângulos com ângulos 30°, 60°, 90° são:", "options": ["Congruentes", "Semelhantes", "Nem um nem outro", "Iguais"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Teorema de Tales",
+      "slug": "teorema-de-tales",
+      "desc": "Feixe de retas paralelas, proporcionalidade e aplicações práticas.",
+      "category": "Geometria",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 100,
+      "essential": "Teorema de Tales: retas paralelas cortadas por transversais dividem segmentos proporcionais. Se r//s//t, então a/b = c/d. Base da semelhança de triângulos.",
+      "body": "<p>O <strong>Teorema de Tales</strong> é um dos resultados mais importantes da geometria. Ele diz que <strong>retas paralelas cortadas por transversais determinam segmentos proporcionais</strong>.</p><h2>O Teorema</h2><p>Se três retas paralelas (r, s, t) são cortadas por duas transversais, os segmentos formados são proporcionais:</p><p><strong>a/b = c/d</strong></p><p>Onde a e b são os segmentos em uma transversal, e c e d são os correspondentes na outra.</p><h2>Exemplo</h2><p>Três ruas paralelas são cortadas por duas avenidas. Na primeira avenida, as distâncias entre as ruas são 200m e 300m. Na segunda, a primeira distância é 400m. Qual a segunda?</p><p>200/300 = 400/x → 200x = 120.000 → x = <strong>600m</strong></p><h2>Tales e a Pirâmide</h2><p>Conta a lenda que Tales de Mileto mediu a altura da pirâmide de Quéops usando sombras e proporcionalidade — essencialmente usando seu teorema!</p><h2>Aplicação em Triângulos</h2><p>Se uma reta é paralela a um lado do triângulo e corta os outros dois, ela divide esses lados proporcionalmente. Este é o fundamento da <strong>semelhança de triângulos</strong>.</p><h2>Exercício Clássico</h2><p>Num triângulo, uma reta paralela à base divide os lados em segmentos de 3 e 5. Se a base mede 16 cm, qual o comprimento do segmento paralelo?</p><p>3/(3+5) × 16 = 3/8 × 16 = <strong>6 cm</strong></p>",
+      "faq": [
+        {"q": "Quem foi Tales de Mileto?", "a": "Filósofo e matemático grego (~624-546 a.C.), considerado o primeiro filósofo ocidental. É famoso por usar geometria para medir a pirâmide do Egito."},
+        {"q": "O teorema funciona com retas não-paralelas?", "a": "Não! As retas precisam ser paralelas. Se não forem, os segmentos não são proporcionais."},
+        {"q": "Tales e semelhança são a mesma coisa?", "a": "Estão intimamente ligados. O Teorema de Tales é a base da semelhança de triângulos. Semelhança é a aplicação do Tales dentro de triângulos."},
+        {"q": "Quantas retas paralelas preciso?", "a": "No mínimo 3 retas paralelas e 2 transversais. Com 2 paralelas, não há como verificar proporcionalidade."}
+      ],
+      "quiz": [
+        {"question": "O Teorema de Tales trata de retas:", "options": ["Perpendiculares", "Paralelas", "Concorrentes", "Oblíquas"], "answer": 1},
+        {"question": "Se a/b = c/d, com a=4, b=6, c=8, então d=", "options": ["10", "12", "16", "48"], "answer": 1},
+        {"question": "Tales mediu a pirâmide usando:", "options": ["Uma fita métrica", "Trigonometria", "Sombras e proporcionalidade", "Aviões"], "answer": 2},
+        {"question": "Se uma reta paralela à base divide os lados em 2:3, a reta vale que fração da base?", "options": ["2/3", "2/5", "3/5", "1/2"], "answer": 1},
+        {"question": "O teorema vale para segmentos:", "options": ["Iguais", "Proporcionais", "Perpendiculares", "Opostos"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Volume de Prismas e Cilindros",
+      "slug": "volume-prismas-cilindros",
+      "desc": "Volume de prismas (V = Ab × h) e cilindros (V = πr²h), capacidade.",
+      "category": "Geometria",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Volume mede o espaço 3D. Prisma: V = área da base × altura. Cilindro: V = π × r² × h. 1 litro = 1 dm³ = 1000 cm³.",
+      "body": "<p>O <strong>volume</strong> mede o espaço que um sólido ocupa — a quantidade de água que caberia dentro dele.</p><h2>Prismas</h2><p>Prisma é um sólido com duas bases paralelas e iguais, unidas por retângulos.</p><p><strong>V = Área da base × altura</strong></p><p><strong>Paralelepípedo:</strong> V = comprimento × largura × altura</p><p>Ex: Caixa 10×5×3 cm → V = 150 cm³</p><p><strong>Cubo:</strong> V = aresta³</p><p>Ex: Cubo de aresta 4 → V = 4³ = 64 cm³</p><p><strong>Prisma triangular:</strong> V = (base×altura do triângulo/2) × altura do prisma</p><h2>Cilindro</h2><p>É um \"tubo\" com base circular.</p><p><strong>V = π × r² × h</strong></p><p>Ex: Lata de refrigerante r=3,3cm, h=12cm → V = π × 3,3² × 12 ≈ <strong>411 cm³</strong> ≈ 0,41 L</p><h2>Unidades de Volume</h2><ul><li>1 m³ = 1.000.000 cm³</li><li>1 dm³ = 1.000 cm³ = <strong>1 litro</strong></li><li>1 cm³ = 1 mL</li></ul><h2>Capacidade vs. Volume</h2><p><strong>Volume</strong> é o espaço total. <strong>Capacidade</strong> é quanto líquido cabe. Na prática, usamos litros para capacidade e cm³/m³ para volume.</p>",
+      "faq": [
+        {"q": "Qual a diferença entre prisma e pirâmide?", "a": "Prisma tem 2 bases paralelas e faces laterais retangulares. Pirâmide tem 1 base e faces triangulares que convergem num ponto (ápice)."},
+        {"q": "Por que 1 litro = 1 dm³?", "a": "Por definição! O litro foi criado como o volume de um cubo de 10 cm de aresta. 10×10×10 = 1000 cm³ = 1 dm³ = 1 L."},
+        {"q": "Como calcular o volume de objetos irregulares?", "a": "Pelo método do deslocamento de água: mergulhe o objeto na água e meça quanto o nível sobe. O volume de água deslocada = volume do objeto."},
+        {"q": "O valor de π é exatamente 3,14?", "a": "Não! π ≈ 3,14159265... É um número irracional com infinitas casas decimais. Usamos 3,14 ou π como aproximação."}
+      ],
+      "quiz": [
+        {"question": "Volume de um cubo de aresta 5 cm:", "options": ["25 cm³", "125 cm³", "15 cm³", "625 cm³"], "answer": 1},
+        {"question": "Volume de um cilindro com r=2 e h=10 (use π≈3,14):", "options": ["62,8 cm³", "125,6 cm³", "31,4 cm³", "40 cm³"], "answer": 1},
+        {"question": "1 litro equivale a:", "options": ["1 cm³", "100 cm³", "1000 cm³", "10 cm³"], "answer": 2},
+        {"question": "Volume de uma caixa 8×4×3 cm:", "options": ["96 cm³", "15 cm³", "48 cm³", "32 cm³"], "answer": 0},
+        {"question": "A fórmula V = πr²h é do:", "options": ["Cone", "Esfera", "Cilindro", "Prisma"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Probabilidade",
+      "slug": "probabilidade-8ano",
+      "desc": "Probabilidade de eventos compostos, árvore e princípio multiplicativo.",
+      "category": "Estatística e Probabilidade",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Eventos independentes: P(A e B) = P(A) × P(B). Eventos mutuamente exclusivos: P(A ou B) = P(A) + P(B). Árvore de possibilidades organiza resultados.",
+      "body": "<p>No 6º ano vimos probabilidade simples. Agora vamos combinar eventos e calcular chances mais complexas.</p><h2>Eventos Independentes</h2><p>Dois eventos são <strong>independentes</strong> quando um não afeta a chance do outro. Ex: jogar um dado e uma moeda ao mesmo tempo.</p><p><strong>P(A e B) = P(A) × P(B)</strong></p><p>Ex: P(cara E número 6) = 1/2 × 1/6 = <strong>1/12</strong></p><h2>Eventos Mutuamente Exclusivos</h2><p>Não podem acontecer ao mesmo tempo. Ex: tirar 3 ou tirar 5 num dado.</p><p><strong>P(A ou B) = P(A) + P(B)</strong></p><p>Ex: P(3 ou 5) = 1/6 + 1/6 = <strong>2/6 = 1/3</strong></p><h2>Árvore de Possibilidades</h2><p>Organiza visualmente todos os resultados possíveis. Cada ramificação representa uma escolha.</p><p>Ex: 2 moedas → Árvore com 4 ramos: CC, CK, KC, KK</p><p>P(pelo menos uma cara) = 3/4</p><h2>Princípio Multiplicativo</h2><p>Se um evento pode ocorrer de m maneiras e outro de n maneiras, juntos podem ocorrer de <strong>m × n</strong> maneiras.</p><p>Ex: 3 camisas × 4 calças = <strong>12 combinações</strong></p><h2>Probabilidade Complementar</h2><p>P(não A) = 1 - P(A)</p><p>\"Qual a chance de NÃO tirar 6?\" = 1 - 1/6 = <strong>5/6</strong></p>",
+      "faq": [
+        {"q": "Quando uso 'e' e quando uso 'ou'?", "a": "'E' = ambos acontecem (multiplica). 'Ou' = pelo menos um acontece (soma). Ex: cara E par (×) vs cara OU par (+)."},
+        {"q": "Jogar 2 dados é independente?", "a": "Sim! O resultado de um dado não afeta o outro. P(dois seis) = 1/6 × 1/6 = 1/36."},
+        {"q": "Quando os eventos NÃO são independentes?", "a": "Quando um afeta o outro. Ex: tirar carta de um baralho SEM reposição. A segunda probabilidade depende do que saiu primeiro."},
+        {"q": "Qual a chance de ganhar na Mega-Sena?", "a": "1 em 50.063.860 (≈ 0,000002%). Você tem mais chance de ser atingido por um raio."}
+      ],
+      "quiz": [
+        {"question": "P(cara em moeda) × P(6 no dado) =", "options": ["1/8", "1/12", "1/3", "7/12"], "answer": 1},
+        {"question": "3 camisas × 5 calças = quantas combinações?", "options": ["8", "15", "35", "53"], "answer": 1},
+        {"question": "P(NÃO tirar 6 no dado) =", "options": ["1/6", "5/6", "1/3", "2/3"], "answer": 1},
+        {"question": "Eventos mutuamente exclusivos usam:", "options": ["Multiplicação", "Adição", "Divisão", "Subtração"], "answer": 1},
+        {"question": "2 moedas: P(2 caras) =", "options": ["1/2", "1/4", "1/3", "3/4"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Gráficos Estatísticos Avançados",
+      "slug": "graficos-estatisticos-avancados",
+      "desc": "Histograma, gráfico de dispersão, box plot e análise crítica de dados.",
+      "category": "Estatística e Probabilidade",
+      "difficulty": "Intermediário",
+      "grade": "8º ano",
+      "reading_time": "8",
+      "xp": 80,
+      "essential": "Histograma: dados contínuos em intervalos. Box plot: mostra mediana, quartis e outliers. Dispersão: correlação entre variáveis. Análise crítica evita manipulação.",
+      "body": "<p>No 7º ano vimos gráficos básicos. Agora vamos estudar tipos mais avançados e aprender a <strong>analisar dados criticamente</strong>.</p><h2>Histograma</h2><p>Similar ao gráfico de barras, mas para <strong>dados contínuos agrupados em intervalos</strong> (classes). As barras são coladas (sem espaço entre elas).</p><p>Ex: Alturas dos alunos: 140-150cm, 150-160cm, 160-170cm...</p><p>A altura da barra indica a frequência (quantos alunos estão naquele intervalo).</p><h2>Gráfico de Dispersão</h2><p>Mostra a <strong>relação entre duas variáveis</strong>. Cada ponto representa um par de dados (x, y).</p><p>Ex: Horas de estudo vs. Nota na prova. Se os pontos formam uma tendência crescente, há <strong>correlação positiva</strong>.</p><h2>Box Plot (Diagrama de Caixa)</h2><p>Resume os dados em 5 números:</p><ul><li><strong>Mínimo</strong></li><li><strong>Q1</strong> (1º quartil = 25%)</li><li><strong>Mediana</strong> (Q2 = 50%)</li><li><strong>Q3</strong> (3º quartil = 75%)</li><li><strong>Máximo</strong></li></ul><p>A \"caixa\" vai de Q1 a Q3. Pontos fora dos \"bigodes\" são <strong>outliers</strong>.</p><h2>Análise Crítica</h2><p>Gráficos podem ser manipulados:</p><ul><li><strong>Escala cortada:</strong> começar o eixo Y em valor alto exagera diferenças</li><li><strong>3D desnecessário:</strong> distorce a percepção visual</li><li><strong>Escolha seletiva:</strong> mostrar só parte dos dados</li></ul><p>Sempre verifique: escala, fonte dos dados, amostra e período.</p>",
+      "faq": [
+        {"q": "Qual a diferença entre histograma e gráfico de barras?", "a": "Barras: categorias separadas (cidades, times). Histograma: intervalos contínuos de dados numéricos (faixas de idade, altura). No histograma, as barras ficam juntas."},
+        {"q": "O que é um outlier?", "a": "É um valor muito diferente dos demais (muito alto ou muito baixo). No box plot, aparece como ponto isolado. Pode ser erro de medição ou dado genuinamente raro."},
+        {"q": "Correlação significa causa?", "a": "NÃO! Correlação mostra que duas coisas variam juntas, mas não prova que uma causa a outra. Ex: venda de sorvete e afogamentos sobem no verão, mas sorvete não causa afogamento."},
+        {"q": "Como identificar manipulação em gráficos?", "a": "Verifique se o eixo Y começa em zero, se a escala é uniforme, se há fonte dos dados e se o tipo de gráfico é adequado."}
+      ],
+      "quiz": [
+        {"question": "Histograma é usado para dados:", "options": ["Categóricos", "Contínuos (intervalos)", "Qualitativos", "Nominais"], "answer": 1},
+        {"question": "No box plot, a mediana é:", "options": ["O mínimo", "A linha dentro da caixa", "O máximo", "O Q1"], "answer": 1},
+        {"question": "Pontos isolados no box plot são:", "options": ["Medianas", "Quartis", "Outliers", "Modas"], "answer": 2},
+        {"question": "Correlação positiva significa:", "options": ["Uma variável sobe, outra desce", "Ambas sobem juntas", "São iguais", "Não há relação"], "answer": 1},
+        {"question": "Um gráfico com eixo Y começando em 90% ao invés de 0%:", "options": ["É mais preciso", "Exagera as diferenças", "É padrão", "É melhor para comparar"], "answer": 1}
+      ]
+    }
+  ]
+}

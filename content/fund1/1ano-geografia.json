@@ -1,0 +1,93 @@
+{
+  "subject": "Geografia",
+  "slug": "1ano-geografia",
+  "level": "Fundamental 1",
+  "grade": "1º Ano",
+  "color": "var(--geografia)",
+  "articles": [
+    {
+      "title": "Paisagens Naturais e Modificadas",
+      "slug": "paisagens-naturais-modificadas",
+      "desc": "A diferença entre o que a natureza criou e o que o homem construiu.",
+      "category": "Paisagem",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Natural: criada pela natureza (floresta, rio, montanha). Modificada: alterada pelo ser humano (cidade, estrada, plantação).",
+      "body": "<p><strong>Paisagem natural</strong> é tudo que a natureza criou sem interferência humana: florestas, rios, montanhas, praias, desertos. Essas paisagens existem há milhares ou milhões de anos.</p><p><strong>Paisagem modificada</strong> (ou cultural) é aquela que o ser humano transformou: cidades, estradas, pontes, plantações, prédios. O homem modifica a natureza para construir suas moradias e produzir alimentos.</p><p>Na maioria dos lugares, encontramos as duas paisagens misturadas: uma cidade (modificada) pode ter um parque com árvores (natural) e um rio passando (natural). O desafio é modificar com <strong>responsabilidade</strong>, sem destruir a natureza.</p>",
+      "faq": [{"q":"Uma fazenda é natural ou modificada?","a":"Modificada! O ser humano derrubou a vegetação original e plantou o que queria."},{"q":"Uma praia com prédios ao redor?","a":"A praia em si é natural, mas os prédios são modificação humana. É uma paisagem mista."}]
+    },
+    {
+      "title": "Meu Lugar no Mundo",
+      "slug": "meu-lugar-no-mundo",
+      "desc": "Casa, rua, bairro, cidade, estado, país, planeta!",
+      "category": "Localização",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Do menor ao maior: casa → rua → bairro → cidade → estado → país (Brasil) → continente (América do Sul) → planeta (Terra).",
+      "body": "<p>Você mora em uma <strong>casa</strong> (ou apartamento), que fica em uma <strong>rua</strong>, que faz parte de um <strong>bairro</strong>, que pertence a uma <strong>cidade</strong>.</p><p>Sua cidade está dentro de um <strong>estado</strong> (como São Paulo, Minas Gerais ou Bahia), que faz parte de um <strong>país</strong> (o Brasil). O Brasil fica no continente da <strong>América do Sul</strong>.</p><p>E tudo isso está no nosso <strong>planeta Terra</strong>, que flutua no espaço! Do menor ao maior: sua casa → sua rua → seu bairro → sua cidade → seu estado → seu país → seu continente → seu planeta. Você tem um endereço no universo!</p>",
+      "faq": [{"q":"Quantos estados tem o Brasil?","a":"26 estados + 1 Distrito Federal = 27 unidades federativas."},{"q":"Quantos países tem o mundo?","a":"Aproximadamente 195 países reconhecidos pela ONU."},{"q":"O que é continente?","a":"Grande massa de terra. São 6: América, Europa, Ásia, África, Oceania e Antártida."}]
+    },
+    {
+      "title": "Campo e Cidade",
+      "slug": "campo-e-cidade",
+      "desc": "Diferenças entre a vida rural e a vida urbana.",
+      "category": "Espaços",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Campo (rural): agricultura, pecuária, natureza, menos gente. Cidade (urbano): prédios, comércio, trânsito, muita gente. Ambos dependem um do outro.",
+      "body": "<p>Existem dois tipos principais de lugares onde as pessoas vivem: o <strong>campo</strong> (zona rural) e a <strong>cidade</strong> (zona urbana).</p><p>No <strong>campo</strong>, as pessoas trabalham com agricultura (plantando alimentos), pecuária (criando animais) e extrativismo. Há muito espaço verde, poucos vizinhos e silêncio.</p><p>Na <strong>cidade</strong>, há prédios, lojas, escolas, hospitais, fábricas e muito trânsito. As pessoas trabalham em escritórios, comércios, escolas e indústrias. Campo e cidade <strong>dependem um do outro</strong>: o campo produz comida para a cidade, e a cidade produz produtos e serviços para o campo.</p>",
+      "faq": [{"q":"Onde mora mais gente?","a":"No Brasil, cerca de 85% da população vive em cidades."},{"q":"Quem produz a comida?","a":"A maioria dos alimentos vem do campo (agricultura e pecuária)."}]
+    },
+    {
+      "title": "Meios de Transporte",
+      "slug": "meios-de-transporte",
+      "desc": "Como nos deslocamos: terra, água e ar.",
+      "category": "Mobilidade",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Terrestres: carro, ônibus, trem, bicicleta. Aquáticos: barco, navio, lancha. Aéreos: avião, helicóptero. Cada um é melhor para uma situação.",
+      "body": "<p>Os <strong>meios de transporte</strong> nos levam de um lugar a outro. São divididos em três grupos: <strong>terrestres</strong>, <strong>aquáticos</strong> e <strong>aéreos</strong>.</p><p><strong>Terrestres</strong> andam no chão: carro, ônibus, trem, metrô, bicicleta, a pé. São os mais usados no dia a dia. <strong>Aquáticos</strong> navegam na água: barco, navio, lancha, canoa. Importantes em regiões com muitos rios, como a Amazônia.</p><p><strong>Aéreos</strong> voam pelo ar: avião e helicóptero. São os mais rápidos para longas distâncias. Antigamente, o principal transporte era o cavalo. Hoje temos opções para qualquer destino!</p>",
+      "faq": [{"q":"Qual o transporte mais usado no Brasil?","a":"O carro e o ônibus (transporte rodoviário)."},{"q":"Bicicleta é meio de transporte?","a":"Sim! É terrestre, ecológico e saudável."}]
+    },
+    {
+      "title": "Os Pontos de Referência",
+      "slug": "pontos-de-referencia",
+      "desc": "Como nos orientamos: direita, esquerda, perto, longe.",
+      "category": "Localização",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Para se localizar, usamos referências: direita/esquerda, em cima/embaixo, perto/longe, na frente/atrás. Pontos de referência: escola, praça, igreja.",
+      "body": "<p>Para nos localizar e dar direções, usamos <strong>pontos de referência</strong>. Em vez de dizer 'a padaria está nas coordenadas X,Y', dizemos 'a padaria fica <strong>perto da escola</strong>'.</p><p>As posições básicas são: <strong>direita/esquerda</strong>, <strong>em cima/embaixo</strong>, <strong>na frente/atrás</strong>, <strong>perto/longe</strong>, <strong>dentro/fora</strong>. Essas palavras ajudam a explicar onde as coisas estão.</p><p>Pontos de referência são lugares conhecidos que ajudam a encontrar o caminho: a escola, a praça, o mercado, a igreja, o posto de gasolina. 'Minha casa fica depois da praça, na rua da padaria' — pronto, você deu uma localização usando referências!</p>",
+      "faq": [{"q":"O que é ponto de referência?","a":"Lugar conhecido que ajuda as pessoas a se localizarem."},{"q":"Bússola serve para quê?","a":"Para encontrar os pontos cardeais (Norte, Sul, Leste, Oeste) usando o magnetismo da Terra."}]
+    },
+    {
+      "title": "O Tempo e as Estações do Ano",
+      "slug": "estacoes-do-ano",
+      "desc": "Primavera, verão, outono e inverno.",
+      "category": "Clima",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "4 estações: Primavera (flores), Verão (calor, férias), Outono (folhas caem) e Inverno (frio). Causadas pela inclinação da Terra em relação ao Sol.",
+      "body": "<p>O ano tem <strong>quatro estações</strong>: primavera, verão, outono e inverno. Cada uma dura cerca de 3 meses e traz mudanças no clima e na natureza.</p><p>Na <strong>primavera</strong> as flores desabrocham e os dias ficam mais longos. No <strong>verão</strong> faz calor, é época de férias e praia. No <strong>outono</strong> as folhas de algumas árvores caem e ficam amareladas. No <strong>inverno</strong> faz frio, os dias são mais curtos e em alguns lugares até neva!</p><p>As estações acontecem porque a Terra é <strong>inclinada</strong>. Quando o Brasil está mais inclinado para o Sol, temos verão. Quando está mais afastado, temos inverno. Curiosidade: quando é verão aqui, é inverno na Europa!</p>",
+      "faq": [{"q":"Por que as estações são invertidas?","a":"Porque o hemisfério sul e o norte recebem luz do Sol em épocas diferentes."},{"q":"No Brasil inteiro faz frio no inverno?","a":"Não! No Nordeste e Norte, o inverno é mais ameno. No Sul, pode fazer muito frio."}]
+    },
+    {
+      "title": "Cuidando do Meio Ambiente",
+      "slug": "meio-ambiente",
+      "desc": "Como podemos proteger a natureza no dia a dia.",
+      "category": "Sustentabilidade",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "75",
+      "essential": "Meio ambiente = tudo ao nosso redor (ar, água, solo, animais, plantas). Para cuidar: não jogar lixo no chão, economizar água, reciclar, plantar árvores.",
+      "body": "<p>O <strong>meio ambiente</strong> é tudo que nos rodeia: o ar que respiramos, a água que bebemos, o solo onde plantamos, os animais e as plantas. Precisamos cuidar dele para viver bem.</p><p>Problemas ambientais como <strong>poluição</strong>, <strong>desmatamento</strong> e <strong>lixo</strong> prejudicam a natureza e a saúde das pessoas. Rios poluídos matam peixes, desmatamento acaba com os animais, lixo espalhado causa doenças.</p><p>O que VOCÊ pode fazer: <strong>não jogar lixo no chão</strong>, <strong>economizar água</strong> (fechar a torneira ao escovar os dentes), <strong>separar o lixo para reciclagem</strong>, <strong>plantar árvores</strong> e <strong>respeitar os animais</strong>. Pequenas atitudes fazem grande diferença!</p>",
+      "faq": [{"q":"O que é reciclagem?","a":"Transformar lixo em material novo. Papel, plástico, vidro e metal podem ser reciclados."},{"q":"Por que economizar água?","a":"Apesar de o planeta ter muita água, apenas 3% é doce e potável. É um recurso precioso e limitado."}]
+    }
+  ]
+}

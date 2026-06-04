@@ -1,0 +1,105 @@
+{
+  "subject": "Português",
+  "slug": "2ano-portugues",
+  "level": "Fundamental 1",
+  "grade": "2º Ano",
+  "color": "var(--portugues)",
+  "articles": [
+    {
+      "title": "Substantivos",
+      "slug": "substantivos",
+      "desc": "Palavras que dão nome a tudo que existe.",
+      "category": "Gramática",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Substantivo = palavra que nomeia seres, objetos, lugares e sentimentos. Próprio (Maria, Brasil) ou Comum (menina, país). Concreto (mesa) ou Abstrato (saudade).",
+      "body": "<p><strong>Substantivos</strong> são as palavras que dão nome a tudo: pessoas (Maria, menino), animais (gato, borboleta), objetos (mesa, livro), lugares (escola, Brasil) e até sentimentos (alegria, saudade).</p><p>Existem dois tipos principais: <strong>próprios</strong> (nomes específicos, com maiúscula: Maria, São Paulo) e <strong>comuns</strong> (nomes genéricos, com minúscula: menina, cidade). Também podem ser <strong>concretos</strong> (coisas que tocamos: cadeira, bola) ou <strong>abstratos</strong> (coisas que sentimos: amor, medo, felicidade).</p><p>Para identificar um substantivo, pergunte: 'Esta palavra dá nome a algo?' Se sim, é substantivo! Na frase 'O gato preto dormiu no sofá', os substantivos são 'gato' e 'sofá'.</p>",
+      "faq": [{"q":"Como identificar substantivo?","a":"Pergunte: 'esta palavra dá nome a algo?' Se sim, é substantivo."},{"q":"'Amor' é substantivo?","a":"Sim! É um substantivo abstrato — nomeia um sentimento."},{"q":"Qual a diferença de próprio e comum?","a":"Próprio: específico (Maria). Comum: geral (menina)."}]
+    },
+    {
+      "title": "Adjetivos",
+      "slug": "adjetivos",
+      "desc": "Palavras que descrevem como as coisas são.",
+      "category": "Gramática",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "75",
+      "essential": "Adjetivo = palavra que qualifica o substantivo. Descreve como algo é: bonito, grande, azul, inteligente. Sempre acompanha um substantivo.",
+      "body": "<p><strong>Adjetivos</strong> são as palavras que descrevem como as coisas são. Eles acompanham os substantivos para dar mais detalhes: gato <strong>preto</strong>, casa <strong>grande</strong>, dia <strong>bonito</strong>.</p><p>Sem adjetivos, as frases ficam sem cor: 'Vi um carro' → sem graça. 'Vi um carro <strong>vermelho, brilhante e veloz</strong>' → agora sim, dá para imaginar!</p><p>Para identificar um adjetivo, pergunte ao substantivo: 'Como ele é?' O cachorro é... <strong>peludo, branco, brincalhão</strong>. Essas respostas são adjetivos!</p>",
+      "faq": [{"q":"Como achar o adjetivo?","a":"Pergunte 'como é?' ao substantivo. A resposta é o adjetivo."},{"q":"Cor é adjetivo?","a":"Sim! Azul, vermelho, verde são adjetivos que descrevem cor."},{"q":"Pode ter mais de um adjetivo?","a":"Sim! 'Menina bonita, inteligente e alegre' tem três adjetivos."}]
+    },
+    {
+      "title": "Singular e Plural",
+      "slug": "singular-e-plural",
+      "desc": "Um ou mais de um? A diferença entre singular e plural.",
+      "category": "Gramática",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Singular = 1 (gato, casa). Plural = 2+ (gatos, casas). Regra geral: adicionar S. Exceções: palavras terminadas em R, S, Z → acrescentar ES.",
+      "body": "<p><strong>Singular</strong> é quando falamos de apenas um: um gato, uma casa, um livro. <strong>Plural</strong> é quando falamos de dois ou mais: dois gatos, três casas, muitos livros.</p><p>A regra mais simples do plural é: <strong>acrescente S</strong> ao final. Gato → gatos, casa → casas, mesa → mesas. Funciona para a maioria das palavras.</p><p>Mas existem exceções: palavras terminadas em <strong>R, S, Z</strong> ganham <strong>ES</strong> (flor → flores, país → países, luz → luzes). Palavras em <strong>ÃO</strong> podem virar ÃOS, ÃES ou ÕES (mão → mãos, pão → pães, coração → corações).</p>",
+      "faq": [{"q":"Qual a regra básica?","a":"Adicionar S ao final: casa → casas."},{"q":"E palavras terminadas em L?","a":"Troca o L por IS: animal → animais, papel → papéis."},{"q":"'Óculos' é singular ou plural?","a":"Óculos é sempre plural! Mesmo falando de um par."}]
+    },
+    {
+      "title": "Masculino e Feminino",
+      "slug": "masculino-e-feminino",
+      "desc": "Gênero das palavras: o ou a?",
+      "category": "Gramática",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Masculino: usa 'o' (o gato, o menino). Feminino: usa 'a' (a gata, a menina). Muitas vezes troca-se O por A. Exceções: o mapa, a tribo.",
+      "body": "<p>Em português, as palavras têm <strong>gênero</strong>: masculino ou feminino. Palavras masculinas usam <strong>'o'</strong> na frente (o gato, o livro) e femininas usam <strong>'a'</strong> (a gata, a mesa).</p><p>Para muitos substantivos, basta trocar a terminação: menin<strong>o</strong> → menin<strong>a</strong>, gat<strong>o</strong> → gat<strong>a</strong>, professor → professor<strong>a</strong>. Mas nem sempre é simples: homem/mulher, boi/vaca, pai/mãe são completamente diferentes!</p><p>Cuidado com as exceções: 'o mapa' é masculino (não 'a mapa'), 'a tribo' é feminino. Quando tiver dúvida, pense no artigo (o ou a) que combina naturalmente.</p>",
+      "faq": [{"q":"Mesa é masculino ou feminino?","a":"Feminino: a mesa."},{"q":"Por que objetos têm gênero?","a":"É uma característica do português (e de muitas outras línguas). Não tem a ver com sexo biológico."}]
+    },
+    {
+      "title": "Tipos de Frases",
+      "slug": "tipos-de-frases",
+      "desc": "Afirmativa, negativa, interrogativa e exclamativa.",
+      "category": "Gramática",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Afirmativa: afirma algo (O gato dormiu.). Negativa: nega algo (O gato NÃO dormiu.). Interrogativa: pergunta (O gato dormiu?). Exclamativa: emoção (Como o gato dormiu!).",
+      "body": "<p>As frases podem ter diferentes <strong>intenções</strong>, e por isso são classificadas em tipos:</p><p><strong>Afirmativa:</strong> afirma algo — 'O dia está bonito.' <strong>Negativa:</strong> nega algo, usando NÃO ou NUNCA — 'O dia NÃO está bonito.' <strong>Interrogativa:</strong> faz uma pergunta — 'O dia está bonito?' <strong>Exclamativa:</strong> expressa emoção — 'Como o dia está bonito!'</p><p>Perceba como a <strong>pontuação</strong> muda: afirmativa e negativa usam ponto (.), interrogativa usa interrogação (?), exclamativa usa exclamação (!). A mesma ideia pode ser expressa de formas diferentes dependendo da intenção.</p>",
+      "faq": [{"q":"Uma frase pode ser negativa e interrogativa?","a":"Sim! 'Você NÃO gosta de sorvete?' é negativa e interrogativa ao mesmo tempo."},{"q":"Como transformar afirmativa em negativa?","a":"Adicione NÃO antes do verbo: 'Eu gosto' → 'Eu NÃO gosto'."}]
+    },
+    {
+      "title": "Encontros Vocálicos",
+      "slug": "encontros-vocalicos",
+      "desc": "Quando vogais se encontram nas palavras.",
+      "category": "Fonética",
+      "difficulty": "Intermediário",
+      "reading_time": "4",
+      "xp": "100",
+      "essential": "Ditongo: 2 vogais na mesma sílaba (cai-xa, lei-te). Tritongo: 3 vogais na mesma sílaba (Pa-ra-guai). Hiato: 2 vogais em sílabas separadas (sa-ú-de).",
+      "body": "<p>Quando duas ou mais vogais aparecem juntas em uma palavra, temos um <strong>encontro vocálico</strong>. Existem três tipos:</p><p><strong>Ditongo:</strong> duas vogais na mesma sílaba — cai-xa, lei-te, mãe, pai. <strong>Tritongo:</strong> três vogais na mesma sílaba — Pa-ra-guai, i-guais. <strong>Hiato:</strong> duas vogais em sílabas separadas — sa-ú-de, po-e-ta, pi-a-da.</p><p>A diferença entre ditongo e hiato está na separação silábica. Se ficam juntas na mesma sílaba, é ditongo. Se separam, é hiato. Pratique separando as sílabas das palavras para identificar!</p>",
+      "faq": [{"q":"'Pai' é ditongo ou hiato?","a":"Ditongo! A e I ficam na mesma sílaba: pai."},{"q":"'Saúde' é ditongo ou hiato?","a":"Hiato! A e U ficam em sílabas separadas: sa-ú-de."}]
+    },
+    {
+      "title": "Gêneros Textuais: Bilhete e Convite",
+      "slug": "generos-bilhete-convite",
+      "desc": "Aprendendo a escrever bilhetes e convites.",
+      "category": "Produção Textual",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "75",
+      "essential": "Bilhete: mensagem curta com destinatário, mensagem e remetente. Convite: convida para evento com data, hora, local e quem convida.",
+      "body": "<p>O <strong>bilhete</strong> é uma mensagem curta e direta. Tem três partes: para quem é (<strong>destinatário</strong>), a mensagem e quem escreveu (<strong>remetente</strong>). Exemplo: 'Mamãe, fui brincar na casa do Enzo. Volto às 17h. Beijos, Lucas.'</p><p>O <strong>convite</strong> é um texto que chama alguém para participar de algo. Deve ter: o que é o evento, data, hora, local e quem está convidando. Exemplo: 'Venha para minha festa! Dia 15/06, às 15h, na minha casa. Ana.'</p><p>Bilhetes e convites são textos do dia a dia — práticos e úteis. Pratique escrevendo um bilhete para alguém da sua família ou um convite para um amigo!</p>",
+      "faq": [{"q":"Bilhete precisa ser formal?","a":"Não! Bilhetes são informais e curtos."},{"q":"O que não pode faltar no convite?","a":"Data, hora e local do evento."}]
+    },
+    {
+      "title": "Acentuação: Acento Agudo e Circunflexo",
+      "slug": "acentuacao",
+      "desc": "Quando e por que colocar acento nas palavras.",
+      "category": "Ortografia",
+      "difficulty": "Intermediário",
+      "reading_time": "3",
+      "xp": "100",
+      "essential": "Acento agudo (´): som aberto (café, sofá). Acento circunflexo (^): som fechado (avô, você). Til (~): som nasal (maçã, coração). Acentos mudam o som e o significado.",
+      "body": "<p>Os <strong>acentos</strong> são sinais gráficos que colocamos sobre as vogais para indicar como devemos pronunciá-las. Os principais são:</p><p><strong>Acento agudo (´):</strong> indica som aberto — café, sofá, médico. <strong>Acento circunflexo (^):</strong> indica som fechado — avô, você, têm. <strong>Til (~):</strong> indica som nasal — maçã, coração, irmão.</p><p>Acentos podem mudar completamente o significado! 'Avó' (mãe da mãe, som aberto) é diferente de 'avô' (pai do pai, som fechado). Por isso é importante acentuar corretamente.</p>",
+      "faq": [{"q":"Toda palavra tem acento?","a":"Não! A maioria das palavras não tem acento. Só as que seguem regras específicas."},{"q":"'Voce' sem acento está errado?","a":"Sim! O correto é 'você' com acento agudo no E."}]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "subject": "Ciências",
+  "slug": "2ano-ciencias",
+  "level": "Fundamental 1",
+  "grade": "2º Ano",
+  "color": "var(--biologia)",
+  "articles": [
+    {
+      "title": "Seres Vivos: Classificação",
+      "slug": "seres-vivos-classificacao",
+      "desc": "Animais, plantas, fungos e microrganismos.",
+      "category": "Seres Vivos",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Seres vivos se dividem em: Animais (se movem, comem outros seres), Plantas (fazem fotossíntese), Fungos (cogumelos, bolores) e Microrganismos (bactérias, vírus — invisíveis).",
+      "body": "<p>Os seres vivos são divididos em grandes grupos. Os <strong>animais</strong> se movem e se alimentam de outros seres. As <strong>plantas</strong> produzem seu próprio alimento usando a luz do sol (fotossíntese).</p><p>Os <strong>fungos</strong> (cogumelos, mofos, leveduras) parecem plantas mas não fazem fotossíntese — se alimentam decompondo matéria orgânica. E os <strong>microrganismos</strong> são seres tão pequenos que só vemos com microscópio: bactérias e vírus.</p><p>Cada grupo tem papel importante na natureza: plantas produzem oxigênio, animais espalham sementes, fungos decompõem folhas mortas e bactérias enriquecem o solo.</p>",
+      "faq": [{"q":"Cogumelo é planta?","a":"Não! Cogumelo é fungo — um grupo separado."},{"q":"Bactéria é sempre ruim?","a":"Não! Muitas bactérias são boas — ajudam na digestão e no solo."}]
+    },
+    {
+      "title": "Habitat dos Animais",
+      "slug": "habitat-animais",
+      "desc": "Onde cada animal vive: terrestre, aquático e aéreo.",
+      "category": "Animais",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Habitat = lugar onde o animal vive. Terrestre: na terra (cachorro, leão). Aquático: na água (peixe, baleia). Aéreo: passa muito tempo voando (águia, morcego).",
+      "body": "<p><strong>Habitat</strong> é o lugar onde um animal vive naturalmente. Animais <strong>terrestres</strong> vivem na terra: cachorro, leão, cobra, formiga. Animais <strong>aquáticos</strong> vivem na água: peixes, golfinhos, água-viva.</p><p>Alguns animais vivem nos dois ambientes: o <strong>sapo</strong> vive na terra e na água (anfíbio). A <strong>tartaruga marinha</strong> vive no mar mas põe ovos na areia. Esses são chamados <strong>semi-aquáticos</strong>.</p><p>Cada animal é adaptado ao seu habitat: peixes têm guelras para respirar na água, aves têm asas para voar, camelos têm corcovas para sobreviver no deserto.</p>",
+      "faq": [{"q":"Baleia é peixe?","a":"Não! Baleia é mamífero — respira ar e amamenta os filhotes."},{"q":"O que é anfíbio?","a":"Animal que vive parte na água e parte na terra: sapos, rãs, salamandras."}]
+    },
+    {
+      "title": "Cadeia Alimentar Simples",
+      "slug": "cadeia-alimentar",
+      "desc": "Quem come quem na natureza.",
+      "category": "Ecologia",
+      "difficulty": "Intermediário",
+      "reading_time": "4",
+      "xp": "100",
+      "essential": "Cadeia alimentar: Produtor (planta) → Consumidor primário (herbívoro) → Consumidor secundário (carnívoro). Sol → Planta → Coelho → Raposa.",
+      "body": "<p>Na natureza, todos os seres vivos estão conectados pela alimentação. Isso se chama <strong>cadeia alimentar</strong>. Começa com as <strong>plantas</strong> (produtores), que usam o sol para produzir alimento.</p><p>Os <strong>herbívoros</strong> (consumidores primários) comem as plantas: coelhos, vacas, gafanhotos. Os <strong>carnívoros</strong> (consumidores secundários) comem os herbívoros: raposas, leões, águias.</p><p>Exemplo: Sol → Capim → Coelho → Raposa. Se os coelhos desaparecerem, as raposas ficam sem comida e o capim cresce demais. Tudo está conectado!</p>",
+      "faq": [{"q":"O que acontece se um elo some?","a":"Desequilíbrio! Quem come aquele ser fica sem comida, e quem era comido por ele se multiplica demais."},{"q":"Humano está na cadeia?","a":"Sim! Somos onívoros — comemos plantas e animais."}]
+    },
+    {
+      "title": "Materiais e suas Propriedades",
+      "slug": "materiais-propriedades",
+      "desc": "Madeira, metal, plástico, vidro: cada um é diferente.",
+      "category": "Matéria",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Materiais têm propriedades: duro/mole, leve/pesado, transparente/opaco, condutor/isolante. Escolhemos o material certo para cada uso.",
+      "body": "<p>Tudo ao nosso redor é feito de <strong>materiais</strong>: a mesa de <strong>madeira</strong>, a panela de <strong>metal</strong>, a garrafa de <strong>plástico</strong>, o copo de <strong>vidro</strong>. Cada material tem propriedades diferentes.</p><p><strong>Dureza:</strong> metal é duro, algodão é mole. <strong>Transparência:</strong> vidro é transparente, madeira é opaca. <strong>Flexibilidade:</strong> borracha dobra, cerâmica quebra. <strong>Condução de calor:</strong> metal esquenta rápido, madeira não.</p><p>Escolhemos o material pelo uso: panelas de metal (conduz calor), cabos de madeira (não esquenta), janelas de vidro (transparente). Cada material tem seu superpoder!</p>",
+      "faq": [{"q":"Por que o cabo da panela é de plástico?","a":"Porque plástico não conduz calor — não queima a mão."},{"q":"Vidro é frágil ou resistente?","a":"Depende! Vidro comum é frágil, mas vidro temperado é muito resistente."}]
+    },
+    {
+      "title": "O Solo",
+      "slug": "o-solo",
+      "desc": "A terra onde plantamos e construímos.",
+      "category": "Terra",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Solo = camada da Terra onde as plantas crescem. Tipos: arenoso (grãos grandes), argiloso (grudento) e humífero (rico em matéria orgânica, o melhor para plantar).",
+      "body": "<p>O <strong>solo</strong> (ou terra) é a camada da superfície terrestre onde as plantas crescem. É formado por minerais, matéria orgânica (restos de plantas e animais), água e ar.</p><p>Existem três tipos principais: <strong>arenoso</strong> (grãos grandes, água escorre rápido — praia), <strong>argiloso</strong> (grãos finos, grudento quando molhado — barro) e <strong>humífero</strong> (rico em matéria orgânica, escuro, excelente para plantas — terra preta).</p><p>O solo é precioso! Sem ele, não teríamos alimentos. Desmatamento e erosão destroem o solo. Por isso é importante preservar a vegetação.</p>",
+      "faq": [{"q":"Quanto tempo leva para formar solo?","a":"Centenas a milhares de anos! 1 cm de solo pode levar 100 anos para se formar."},{"q":"O que é erosão?","a":"Quando água ou vento levam embora a camada de solo. Sem plantas para segurar, o solo desaparece."}]
+    },
+    {
+      "title": "O Ar que Respiramos",
+      "slug": "o-ar",
+      "desc": "O que é o ar e por que precisamos dele.",
+      "category": "Terra",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Ar = mistura de gases invisíveis. Principal: nitrogênio (78%) e oxigênio (21%). Precisamos de oxigênio para viver. Poluição contamina o ar.",
+      "body": "<p>O <strong>ar</strong> está em todo lugar, mas não conseguimos ver, tocar ou cheirar (quando limpo). É uma mistura de gases: principalmente <strong>nitrogênio</strong> (78%) e <strong>oxigênio</strong> (21%).</p><p>Precisamos do <strong>oxigênio</strong> para respirar — ele entra nos pulmões e alimenta nosso corpo. As <strong>plantas</strong> produzem oxigênio através da fotossíntese. Por isso florestas são tão importantes!</p><p>A <strong>poluição do ar</strong> acontece quando fábricas, carros e queimadas jogam gases tóxicos na atmosfera. Isso causa doenças respiratórias e aquecimento global. Plantar árvores e reduzir poluição ajudam a manter o ar limpo.</p>",
+      "faq": [{"q":"Podemos viver sem ar?","a":"Não! Sem oxigênio, uma pessoa sobrevive apenas poucos minutos."},{"q":"O que é atmosfera?","a":"Camada de ar que envolve a Terra e nos protege do espaço."}]
+    },
+    {
+      "title": "Alimentação Saudável",
+      "slug": "alimentacao-saudavel",
+      "desc": "O que comer para crescer forte e saudável.",
+      "category": "Saúde",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Grupos: Carboidratos (energia: arroz, pão), Proteínas (músculos: carne, feijão), Vitaminas (saúde: frutas, verduras), Gorduras (energia reserva: azeite). Água é essencial.",
+      "body": "<p>Para crescer forte e saudável, precisamos comer alimentos variados. Eles se dividem em grupos com funções diferentes:</p><p><strong>Carboidratos</strong> dão energia: arroz, pão, massa, batata. <strong>Proteínas</strong> constroem os músculos: carne, peixe, ovo, feijão, leite. <strong>Vitaminas e minerais</strong> protegem a saúde: frutas, verduras e legumes. <strong>Gorduras boas</strong> dão energia de reserva: azeite, castanhas, abacate.</p><p>Evite excesso de açúcar (doces, refrigerantes) e ultraprocessados (salgadinhos, biscoitos). Beba bastante <strong>água</strong> — é o nutriente mais importante! O prato ideal é colorido: quanto mais cores, mais nutrientes.</p>",
+      "faq": [{"q":"Quantas refeições por dia?","a":"Idealmente 5-6: café, lanche, almoço, lanche, jantar e ceia."},{"q":"Refrigerante é saudável?","a":"Não! Tem muito açúcar e nenhum nutriente. Prefira água, suco natural ou água de coco."}]
+    }
+  ]
+}

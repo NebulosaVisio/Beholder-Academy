@@ -1,0 +1,129 @@
+{
+  "subject": "Português",
+  "slug": "1ano-portugues",
+  "level": "Fundamental 1",
+  "grade": "1º Ano",
+  "color": "var(--portugues)",
+  "articles": [
+    {
+      "title": "O Alfabeto",
+      "slug": "o-alfabeto",
+      "desc": "As 26 letras que formam todas as palavras.",
+      "category": "Alfabetização",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "26 letras: 21 consoantes e 5 vogais (A, E, I, O, U). Maiúsculas no início de frases e nomes próprios.",
+      "body": "<p>O alfabeto é o conjunto de letras que usamos para escrever. No português temos 26 letras: A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z.</p><p>Dividem-se em <strong>vogais</strong> (A, E, I, O, U) e <strong>consoantes</strong> (todas as outras 21). As vogais são sons abertos — tente dizer 'AAAA' sem fechar a boca. Já as consoantes precisam das vogais para soar: BA, CA, DA.</p><p>Cada letra tem forma <strong>maiúscula</strong> (A, B, C) e <strong>minúscula</strong> (a, b, c). Usamos maiúsculas no início de frases e em nomes de pessoas e lugares. Quando juntamos letras formamos sílabas, e sílabas formam palavras!</p>",
+      "faq": [{"q":"Quantas letras tem o alfabeto?","a":"26 letras."},{"q":"Quais são as vogais?","a":"A, E, I, O, U — são 5."},{"q":"Quando usar maiúscula?","a":"No início de frases e em nomes próprios."}]
+    },
+    {
+      "title": "Vogais e Consoantes",
+      "slug": "vogais-e-consoantes",
+      "desc": "A diferença entre os dois grupos de letras.",
+      "category": "Alfabetização",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Vogais: A, E, I, O, U — sons abertos, presentes em toda sílaba. Consoantes: as outras 21 letras — precisam de vogal para soar.",
+      "body": "<p>As <strong>vogais</strong> são as letras mais importantes porque toda sílaba precisa de pelo menos uma. São cinco: A, E, I, O, U. Quando falamos uma vogal, o ar passa livre pela boca.</p><p>As <strong>consoantes</strong> são as 21 letras restantes. O nome 'consoante' significa 'que soa junto' — elas precisam de uma vogal do lado para ter som: BA, BE, BI, BO, BU. Cada consoante com as 5 vogais forma uma família silábica.</p><p>Saber separar vogais de consoantes é o primeiro passo para ler e escrever. Com essa combinação formamos todas as palavras da língua portuguesa!</p>",
+      "faq": [{"q":"Por que vogais são importantes?","a":"Toda sílaba precisa de pelo menos uma vogal."},{"q":"O que é família silábica?","a":"Conjunto de sílabas de uma consoante com cada vogal: FA, FE, FI, FO, FU."},{"q":"Palavra pode ter só vogais?","a":"Sim! Exemplos: aí, eu, oi."}]
+    },
+    {
+      "title": "Sílabas",
+      "slug": "silabas",
+      "desc": "Os pedacinhos sonoros das palavras.",
+      "category": "Alfabetização",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "50",
+      "essential": "Sílaba = pedacinho da palavra. Monossílaba (1), dissílaba (2), trissílaba (3), polissílaba (4+). Bata palmas para contar.",
+      "body": "<p>A <strong>sílaba</strong> é o menor pedacinho de uma palavra que pronunciamos de uma vez. Na palavra CASA fazemos: CA-SA — duas sílabas. Bata palmas enquanto fala para contar!</p><p>Classificamos as palavras pelo número de sílabas: <strong>monossílabas</strong> têm 1 (sol, flor), <strong>dissílabas</strong> 2 (ca-sa), <strong>trissílabas</strong> 3 (ca-der-no) e <strong>polissílabas</strong> 4+ (bor-bo-le-ta).</p><p>Regra de ouro: toda sílaba tem pelo menos uma vogal. Então contar as vogais ajuda a estimar quantas sílabas a palavra tem.</p>",
+      "faq": [{"q":"Como separar sílabas?","a":"Bata palmas enquanto fala — cada palma é uma sílaba."},{"q":"O que é monossílaba?","a":"Palavra com 1 sílaba: sol, pé, mãe."},{"q":"O que é polissílaba?","a":"Palavra com 4+ sílabas: bor-bo-le-ta, pa-ra-le-le-pí-pe-do."}]
+    },
+    {
+      "title": "Nomes Próprios e Comuns",
+      "slug": "nomes-proprios-e-comuns",
+      "desc": "Quando usar letra maiúscula nos nomes.",
+      "category": "Gramática",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Próprios: específicos (Maria, Brasil) → MAIÚSCULA. Comuns: gerais (menina, país) → minúscula.",
+      "body": "<p><strong>Nomes próprios</strong> identificam algo específico e único — uma pessoa, cidade ou animal de estimação: Maria, São Paulo, Rex. Sempre começam com <strong>letra maiúscula</strong>.</p><p><strong>Nomes comuns</strong> se referem a coisas de forma geral: menina, cidade, cachorro. Quando dizemos 'menina' pode ser qualquer uma; quando dizemos 'Maria' é uma pessoa específica.</p><p>Resumo: viu um nome que identifica algo único? Maiúscula! É genérico? Minúscula (exceto no início de frase).</p>",
+      "faq": [{"q":"Dias da semana são próprios?","a":"Não. Em português são comuns: segunda-feira, terça-feira."},{"q":"Nome de animal é próprio?","a":"O apelido (Rex) é próprio. A espécie (cachorro) é comum."},{"q":"Meses do ano?","a":"Em português, meses são escritos com minúscula: janeiro, fevereiro."}]
+    },
+    {
+      "title": "Sinais de Pontuação",
+      "slug": "sinais-de-pontuacao",
+      "desc": "Ponto final, interrogação e exclamação.",
+      "category": "Gramática",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Ponto (.) = frase acabou. Interrogação (?) = pergunta. Exclamação (!) = emoção forte.",
+      "body": "<p>Sinais de pontuação são as 'placas de trânsito' da escrita. O <strong>ponto final (.)</strong> diz que a frase acabou: 'O gato dormiu.'</p><p>O <strong>ponto de interrogação (?)</strong> marca perguntas — a voz sobe no final: 'Você gosta de sorvete?' O <strong>ponto de exclamação (!)</strong> expressa emoção forte: 'Que lindo!' 'Cuidado!'</p><p>Lembre-se: toda frase começa com maiúscula e termina com um desses sinais. Sem pontuação, o texto vira uma bagunça impossível de entender!</p>",
+      "faq": [{"q":"Quando uso ponto final?","a":"No fim de frases que não são perguntas nem exclamações."},{"q":"Posso usar vários !!!?","a":"Na escrita formal, use apenas um."},{"q":"O que são reticências?","a":"Três pontinhos (...) indicam suspense ou frase incompleta."}]
+    },
+    {
+      "title": "Frases Simples",
+      "slug": "frases-simples",
+      "desc": "Montando frases com sentido completo.",
+      "category": "Escrita",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "75",
+      "essential": "Frase = palavras organizadas com sentido. Começa com MAIÚSCULA, termina com ponto. Quem? + Faz o quê? + Onde/Como?",
+      "body": "<p>Uma <strong>frase</strong> é um grupo de palavras que transmite uma ideia completa. 'O gato bebe leite' — sabemos quem (gato), o que faz (bebe) e o que (leite).</p><p>Regras: começa com <strong>maiúscula</strong>, termina com <strong>pontuação</strong>. Para montar, pense em três partes: Quem? Faz o quê? Onde/como? 'A menina brinca no parque.'</p><p>Tente criar frases! Pense em um animal + uma ação + um lugar: 'O pássaro canta na árvore.' Parabéns, você escreveu uma frase completa!</p>",
+      "faq": [{"q":"Toda frase precisa de verbo?","a":"A maioria sim. Mas 'Silêncio!' e 'Que lindo!' são frases sem verbo."},{"q":"Quantas palavras precisa ter?","a":"Não há mínimo. 'Chove.' é uma frase de 1 palavra."}]
+    },
+    {
+      "title": "Leitura de Palavras",
+      "slug": "leitura-de-palavras",
+      "desc": "Aprendendo a ler palavras do dia a dia.",
+      "category": "Leitura",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Para ler: junte o som das letras em sílabas, depois as sílabas na palavra. Pratique com palavras curtas: BOLA, CASA, GATO.",
+      "body": "<p>Ler é decifrar um código: cada letra tem um som, e juntando esses sons formamos palavras. Vá devagar: som por som, sílaba por sílaba.</p><p>Comece com palavras de 2 sílabas: BO-LA, CA-SA, GA-TO. Aponte cada sílaba, fale o som, depois junte: BO... LA... BOLA! Avance para 3 sílabas: CA-DER-NO, SA-PA-TO.</p><p>Dica de ouro: leia todo dia, mesmo pouco. Placas na rua, rótulos, nomes de lojas. Quanto mais pratica, mais rápido fica. A leitura é um superpoder conquistado com treino!</p>",
+      "faq": [{"q":"Normal ler devagar no começo?","a":"Sim! Todos começam lentos. A prática diária acelera."},{"q":"E quando não sei uma palavra?","a":"Separe em sílabas e leia cada pedacinho."}]
+    },
+    {
+      "title": "Rimas",
+      "slug": "rimas",
+      "desc": "Palavras que terminam com sons parecidos.",
+      "category": "Leitura",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Rima: palavras com finais iguais. GATO-PATO, CORAÇÃO-EMOÇÃO. Presentes em músicas, poemas e parlendas.",
+      "body": "<p><strong>Rima</strong> acontece quando palavras terminam com o mesmo som: GATO/PATO, BONECA/CANECA, CORAÇÃO/EMOÇÃO. É por isso que músicas e poemas soam tão bonitos!</p><p>Parlendas famosas usam rimas: 'Hoje é domingo, pede cachimbo'. As rimas ajudam a memorizar e se divertir.</p><p>Brinque de rimar! Encontre rimas para FLOR (cor, amor, calor), BOLA (mola, escola) e ANEL (mel, papel). Quanto mais pratica, mais fácil fica!</p>",
+      "faq": [{"q":"O que é rima?","a":"Quando palavras terminam com sons iguais ou parecidos."},{"q":"Onde encontrar rimas?","a":"Em músicas, poemas, parlendas e cantigas de roda."}]
+    },
+    {
+      "title": "Escrita do Nome",
+      "slug": "escrita-do-nome",
+      "desc": "Escrevendo seu nome com capricho.",
+      "category": "Escrita",
+      "difficulty": "Básico",
+      "reading_time": "2",
+      "xp": "50",
+      "essential": "Seu nome é um nome próprio → sempre com inicial MAIÚSCULA. Sobrenome também tem maiúscula. Pratique todo dia!",
+      "body": "<p>Seu nome é a palavra mais importante para você — representa quem você é! É um <strong>nome próprio</strong>, então sempre começa com <strong>maiúscula</strong>: Lucas, Ana, Pedro.</p><p>O nome completo inclui o <strong>sobrenome</strong> (nome da família), que também tem inicial maiúscula: Lucas Silva, Ana Oliveira.</p><p>Pratique escrevendo seu nome várias vezes, devagar e com capricho. Logo você escreverá rápido e bonito sem nem pensar!</p>",
+      "faq": [{"q":"Por que maiúscula?","a":"Nomes de pessoas são próprios e sempre começam com maiúscula."},{"q":"O que é sobrenome?","a":"Nome da família. Em 'João Santos', Santos é o sobrenome."}]
+    },
+    {
+      "title": "Ordem Alfabética",
+      "slug": "ordem-alfabetica",
+      "desc": "Organizando palavras na ordem do alfabeto.",
+      "category": "Alfabetização",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Ordem alfabética = organizar palavras pela primeira letra seguindo A-Z. Se a 1ª letra é igual, olhe a 2ª. Dicionários e listas usam essa ordem.",
+      "body": "<p>A <strong>ordem alfabética</strong> organiza palavras seguindo a sequência do alfabeto: A vem antes de B, B antes de C, e assim por diante até Z.</p><p>Para ordenar, olhe a <strong>primeira letra</strong> de cada palavra. Abacaxi (A) vem antes de Banana (B), que vem antes de Casa (C). Se a primeira letra é igual, olhe a segunda: Bala vem antes de Bola porque A vem antes de O.</p><p>Dicionários, listas de chamada e enciclopédias usam ordem alfabética. Saber essa ordem ajuda a encontrar informações muito mais rápido!</p>",
+      "faq": [{"q":"Para que serve?","a":"Para organizar e encontrar palavras rapidamente, como no dicionário."},{"q":"E se as primeiras letras são iguais?","a":"Compare a segunda letra, depois a terceira, e assim por diante."}]
+    }
+  ]
+}

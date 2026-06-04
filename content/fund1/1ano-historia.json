@@ -1,0 +1,93 @@
+{
+  "subject": "História",
+  "slug": "1ano-historia",
+  "level": "Fundamental 1",
+  "grade": "1º Ano",
+  "color": "var(--historia)",
+  "articles": [
+    {
+      "title": "Quem Sou Eu?",
+      "slug": "quem-sou-eu",
+      "desc": "Minha identidade: nome, idade, família e história pessoal.",
+      "category": "Identidade",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Cada pessoa é única: tem nome, sobrenome, data de nascimento e história. Seu nome foi escolhido pela família e faz parte da sua identidade.",
+      "body": "<p>Você é uma pessoa <strong>única</strong> no mundo! Tem um nome, uma data de nascimento, uma família e uma história só sua. Ninguém é exatamente igual a você.</p><p>Sua <strong>identidade</strong> é formada por muitas coisas: seu nome (escolhido pela família), sua aparência, seus gostos, o lugar onde mora e as pessoas com quem convive. Tudo isso faz de você quem é.</p><p>Conhecer sua própria história é importante. Quando você nasceu? Quem escolheu seu nome? Quais foram suas primeiras palavras? Pergunte à sua família — cada resposta é um pedacinho da sua história!</p>",
+      "faq": [{"q":"Por que tenho sobrenome?","a":"O sobrenome é o nome da sua família, passado de pais para filhos."},{"q":"O que é certidão de nascimento?","a":"Documento oficial que registra seu nome, data e local de nascimento e nomes dos pais."}]
+    },
+    {
+      "title": "Minha Família",
+      "slug": "minha-familia",
+      "desc": "Os diferentes tipos de família e como elas nos formam.",
+      "category": "Identidade",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Família: pessoas que cuidam de você e com quem convive. Existem muitos tipos: pai e mãe, avós, tios, famílias com 1 responsável, famílias adotivas.",
+      "body": "<p>A <strong>família</strong> são as pessoas que cuidam de você, te protegem e te ajudam a crescer. Cada família é diferente e todas são especiais.</p><p>Existem muitos tipos: famílias com pai e mãe, famílias com avós, com tios, com apenas um responsável, famílias adotivas, famílias grandes e pequenas. O que importa é o <strong>amor e o cuidado</strong>.</p><p>Na família aprendemos as primeiras coisas: falar, andar, comer, respeitar os outros. As tradições, festas e receitas da família fazem parte da nossa <strong>cultura</strong> e da nossa história.</p>",
+      "faq": [{"q":"Todas as famílias são iguais?","a":"Não! Cada família tem sua formação e todas são válidas e importantes."},{"q":"O que é árvore genealógica?","a":"Um desenho que mostra os membros da família: avós, pais, filhos, tios e primos."}]
+    },
+    {
+      "title": "A Escola",
+      "slug": "a-escola",
+      "desc": "O que é a escola e por que ela é importante.",
+      "category": "Comunidade",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Escola: lugar de aprender e conviver. Tem regras (respeito, horários). Profissionais: professor, diretor, merendeira, zelador. Deveres: estudar, respeitar colegas.",
+      "body": "<p>A <strong>escola</strong> é o lugar onde aprendemos coisas novas, fazemos amigos e nos preparamos para a vida. Na escola temos <strong>professores</strong> que ensinam, <strong>colegas</strong> para conviver e muitas atividades.</p><p>A escola tem <strong>regras</strong> para funcionar bem: chegar no horário, respeitar os colegas e professores, cuidar dos materiais e do ambiente. Essas regras existem para todos conviverem em harmonia.</p><p>Muitas pessoas trabalham para a escola funcionar: o <strong>diretor</strong> organiza tudo, a <strong>merendeira</strong> prepara a comida, o <strong>zelador</strong> cuida da limpeza. Cada um tem um papel importante!</p>",
+      "faq": [{"q":"Por que temos regras na escola?","a":"Para garantir que todos aprendam e convivam com respeito."},{"q":"Escola sempre existiu?","a":"Não! Antigamente, crianças aprendiam em casa ou trabalhando. Escolas para todos são relativamente recentes."}]
+    },
+    {
+      "title": "Ontem, Hoje e Amanhã",
+      "slug": "ontem-hoje-amanha",
+      "desc": "Entendendo a passagem do tempo.",
+      "category": "Tempo",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Passado = o que já aconteceu (ontem). Presente = o que está acontecendo (hoje). Futuro = o que vai acontecer (amanhã).",
+      "body": "<p>O tempo está sempre passando e nunca para. Dividimos o tempo em três partes: <strong>passado</strong>, <strong>presente</strong> e <strong>futuro</strong>.</p><p>O <strong>passado</strong> é tudo que já aconteceu: o que você fez ontem, o que comeu no almoço, como era quando bebê. O <strong>presente</strong> é agora, este momento em que está lendo. O <strong>futuro</strong> é o que ainda vai acontecer: o que fará amanhã, nas férias, quando crescer.</p><p>A <strong>História</strong> estuda o passado para entendermos como chegamos até aqui. Fotos antigas, objetos velhos e histórias dos avós nos conectam ao passado.</p>",
+      "faq": [{"q":"Podemos mudar o passado?","a":"Não! O passado já aconteceu. Mas podemos aprender com ele."},{"q":"Como sabemos o que aconteceu no passado?","a":"Por registros: fotos, cartas, livros, pinturas, ruínas e relatos de pessoas."}]
+    },
+    {
+      "title": "Datas Comemorativas",
+      "slug": "datas-comemorativas",
+      "desc": "As festas e feriados que celebramos durante o ano.",
+      "category": "Cultura",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "50",
+      "essential": "Datas comemorativas celebram eventos importantes. Exemplos: Páscoa, Dia das Mães, Festa Junina, Dia da Independência (7 de setembro), Natal.",
+      "body": "<p>Durante o ano, celebramos várias <strong>datas comemorativas</strong> — dias especiais que lembram eventos importantes ou homenageiam pessoas.</p><p>Algumas datas são <strong>cívicas</strong> (do país): o <strong>7 de setembro</strong> celebra a Independência do Brasil, o <strong>15 de novembro</strong> a Proclamação da República. Outras são <strong>culturais</strong>: Carnaval, Festa Junina, Natal.</p><p>E temos as datas <strong>afetivas</strong>: Dia das Mães, Dia dos Pais, Dia das Crianças. Cada data tem tradições próprias: na Festa Junina dançamos quadrilha e comemos paçoca; no Natal montamos árvore e trocamos presentes.</p>",
+      "faq": [{"q":"Todos os países têm as mesmas datas?","a":"Não! Cada país tem seus feriados e celebrações próprias."},{"q":"Por que o 7 de setembro é feriado?","a":"Porque nesse dia, em 1822, D. Pedro I declarou a Independência do Brasil de Portugal."}]
+    },
+    {
+      "title": "Meu Bairro e Minha Comunidade",
+      "slug": "meu-bairro",
+      "desc": "O lugar onde moramos e as pessoas ao nosso redor.",
+      "category": "Comunidade",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Bairro = parte da cidade onde moramos. Comunidade = pessoas que vivem e trabalham perto. Tem ruas, praças, escolas, mercados e igrejas.",
+      "body": "<p>Seu <strong>bairro</strong> é a parte da cidade onde você mora. Nele existem ruas, casas, prédios, praças, escolas, padarias e muitos vizinhos. Tudo isso forma uma <strong>comunidade</strong>.</p><p>Na comunidade, as pessoas convivem e se ajudam: o padeiro faz o pão, o médico cuida da saúde, o professor ensina. Cada um contribui para o lugar funcionar.</p><p>Respeitar o bairro é importante: não jogar lixo no chão, cuidar das árvores, ser educado com os vizinhos. Quando todos cuidam, o lugar fica melhor para todos!</p>",
+      "faq": [{"q":"Bairro e cidade são a mesma coisa?","a":"Não! A cidade é formada por muitos bairros."},{"q":"Quem cuida do bairro?","a":"A prefeitura (governo municipal) e os próprios moradores."}]
+    },
+    {
+      "title": "Brincadeiras de Antigamente",
+      "slug": "brincadeiras-antigamente",
+      "desc": "Como as crianças brincavam no passado.",
+      "category": "Cultura",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Crianças antigamente brincavam na rua: pega-pega, esconde-esconde, pipa, bolinha de gude, amarelinha, pião. Sem celular ou videogame!",
+      "body": "<p>Seus avós e bisavós brincavam de formas muito diferentes de hoje! Não existia celular, videogame ou internet. As brincadeiras eram na <strong>rua</strong>, com amigos do bairro.</p><p>Brincadeiras tradicionais: <strong>pega-pega</strong>, <strong>esconde-esconde</strong>, <strong>amarelinha</strong>, <strong>pular corda</strong>, <strong>bolinha de gude</strong>, <strong>pião</strong>, <strong>pipa</strong> e <strong>queimada</strong>. Muitas dessas brincadeiras existem há centenas de anos!</p><p>Essas brincadeiras são parte da <strong>cultura brasileira</strong>. Mesmo com a tecnologia, elas continuam sendo divertidas. Que tal experimentar uma brincadeira que seus avós gostavam?</p>",
+      "faq": [{"q":"De onde vieram essas brincadeiras?","a":"Muitas vieram de Portugal, África e dos povos indígenas — as três raízes da cultura brasileira."},{"q":"Por que as brincadeiras mudaram?","a":"Por causa da tecnologia (TV, videogame, internet) e da urbanização (menos espaço nas ruas)."}]
+    }
+  ]
+}

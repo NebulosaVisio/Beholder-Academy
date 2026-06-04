@@ -1,0 +1,81 @@
+{
+  "subject": "Geografia",
+  "slug": "2ano-geografia",
+  "level": "Fundamental 1",
+  "grade": "2º Ano",
+  "color": "var(--geografia)",
+  "articles": [
+    {
+      "title": "O Município",
+      "slug": "o-municipio",
+      "desc": "A cidade onde você mora e como ela é organizada.",
+      "category": "Organização",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Município = cidade + zona rural ao redor. Administrado pelo prefeito e vereadores. Tem bairros, ruas, praças, escolas, hospitais. Brasil tem 5.570 municípios.",
+      "body": "<p>O <strong>município</strong> é a unidade básica de organização do Brasil. Inclui a <strong>cidade</strong> (área urbana) e a <strong>zona rural</strong> ao redor. Quem governa é o <strong>prefeito</strong>, e as leis são feitas pelos <strong>vereadores</strong>.</p><p>Cada município tem serviços públicos: escolas, postos de saúde, praças, coleta de lixo, transporte. O dinheiro para isso vem dos <strong>impostos</strong> que os moradores pagam.</p><p>O Brasil tem <strong>5.570 municípios</strong>! O maior em área é Altamira (PA), quase do tamanho de Portugal. O maior em população é São Paulo (SP), com mais de 12 milhões de habitantes.</p>",
+      "faq": [{"q":"Município e cidade são a mesma coisa?","a":"Quase! Município inclui a cidade e a zona rural ao redor."},{"q":"Quem é o prefeito da minha cidade?","a":"Pesquise! Cada município elege seu prefeito a cada 4 anos."}]
+    },
+    {
+      "title": "Os Estados do Brasil",
+      "slug": "estados-do-brasil",
+      "desc": "As 27 unidades federativas e suas capitais.",
+      "category": "Brasil",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Brasil tem 26 estados + DF = 27 UFs. Divididos em 5 regiões: Norte, Nordeste, Centro-Oeste, Sudeste, Sul. Cada estado tem governador e capital.",
+      "body": "<p>O Brasil é dividido em <strong>26 estados</strong> e 1 <strong>Distrito Federal</strong> (onde fica Brasília, a capital). Cada estado tem um <strong>governador</strong> e uma <strong>capital</strong>.</p><p>Os estados são agrupados em <strong>5 regiões</strong>: <strong>Norte</strong> (Amazonas, Pará...), <strong>Nordeste</strong> (Bahia, Ceará...), <strong>Centro-Oeste</strong> (Goiás, Mato Grosso...), <strong>Sudeste</strong> (São Paulo, Rio...) e <strong>Sul</strong> (Paraná, Santa Catarina, Rio Grande do Sul).</p><p>O maior estado é o <strong>Amazonas</strong> (AM) e o menor é <strong>Sergipe</strong> (SE). O mais populoso é <strong>São Paulo</strong> (SP) com 46 milhões de pessoas!</p>",
+      "faq": [{"q":"Quantas regiões o Brasil tem?","a":"5: Norte, Nordeste, Centro-Oeste, Sudeste e Sul."},{"q":"Qual é a capital do Brasil?","a":"Brasília, no Distrito Federal, desde 1960."}]
+    },
+    {
+      "title": "Relevo: Montanhas, Planícies e Planaltos",
+      "slug": "relevo",
+      "desc": "As formas da superfície da Terra.",
+      "category": "Natureza",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "75",
+      "essential": "Relevo = formas da superfície. Montanha: alto e pontudo. Planalto: alto e plano. Planície: baixo e plano. Depressão: área rebaixada.",
+      "body": "<p>O <strong>relevo</strong> são as formas da superfície da Terra. Nem todo lugar é plano — existem montanhas, vales, planícies e planaltos.</p><p><strong>Montanhas</strong> são áreas muito altas e pontudas (Andes, Himalaia). <strong>Planaltos</strong> são áreas altas mas com topo relativamente plano (Planalto Central do Brasil). <strong>Planícies</strong> são áreas baixas e planas (Pantanal, Planície Amazônica).</p><p>O Brasil não tem montanhas muito altas (o pico mais alto, Neblina, tem 2.994m). A maior parte do país é formada por <strong>planaltos</strong> e <strong>planícies</strong>.</p>",
+      "faq": [{"q":"Qual a montanha mais alta do mundo?","a":"O Monte Everest, no Himalaia, com 8.849 metros."},{"q":"O Brasil tem vulcões?","a":"Não! O Brasil fica longe das bordas das placas tectônicas."}]
+    },
+    {
+      "title": "Rios e Mares",
+      "slug": "rios-e-mares",
+      "desc": "A água doce e salgada que cobre o planeta.",
+      "category": "Hidrografia",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Rios: água doce que corre para o mar. Mares/Oceanos: água salgada. Brasil tem o maior rio do mundo (Amazonas) e 7.400 km de litoral.",
+      "body": "<p><strong>Rios</strong> são cursos de água doce que nascem em nascentes (montanhas, serras) e correm até desaguar no mar ou em outro rio. Usamos rios para beber, irrigar, pescar e gerar energia (hidrelétricas).</p><p><strong>Mares e oceanos</strong> são enormes massas de água salgada que cobrem 70% da Terra. O Brasil é banhado pelo <strong>Oceano Atlântico</strong>, com 7.400 km de litoral.</p><p>O Brasil tem o <strong>Rio Amazonas</strong>, considerado o maior do mundo em volume de água. Outros rios importantes: São Francisco, Paraná, Tietê, Araguaia.</p>",
+      "faq": [{"q":"Podemos beber água do mar?","a":"Não! É salgada demais. Precisamos de água doce (rios, lagos, poços)."},{"q":"O que é nascente?","a":"O lugar onde o rio nasce, geralmente em montanhas ou serras."}]
+    },
+    {
+      "title": "Clima e Tempo",
+      "slug": "clima-e-tempo",
+      "desc": "A diferença entre o tempo de hoje e o clima de uma região.",
+      "category": "Clima",
+      "difficulty": "Intermediário",
+      "reading_time": "3",
+      "xp": "75",
+      "essential": "Tempo = como está agora (chuvoso, ensolarado). Clima = padrão ao longo de anos (tropical, semiárido). Brasil: equatorial (Norte), tropical (Centro), subtropical (Sul).",
+      "body": "<p><strong>Tempo</strong> é como está agora: chovendo, ensolarado, nublado, ventando. Muda todo dia! <strong>Clima</strong> é o padrão do tempo ao longo de muitos anos em uma região.</p><p>O Brasil tem vários climas: <strong>Equatorial</strong> (Norte — quente e úmido o ano todo), <strong>Tropical</strong> (Centro — quente com estação seca e chuvosa), <strong>Semiárido</strong> (Nordeste interior — quente e seco), <strong>Subtropical</strong> (Sul — estações bem definidas, frio no inverno).</p><p>O clima influencia tudo: a vegetação, os animais, a agricultura e até como as pessoas vivem e se vestem!</p>",
+      "faq": [{"q":"Neve cai no Brasil?","a":"Raramente! Pode nevar no Sul (Serra Catarinense, Serra Gaúcha) em invernos rigorosos."},{"q":"Qual a diferença entre tempo e clima?","a":"Tempo é o momento (hoje está chovendo). Clima é o padrão (aqui chove muito no verão)."}]
+    },
+    {
+      "title": "Mapas e Legendas",
+      "slug": "mapas-e-legendas",
+      "desc": "Aprendendo a ler e entender mapas.",
+      "category": "Cartografia",
+      "difficulty": "Intermediário",
+      "reading_time": "3",
+      "xp": "75",
+      "essential": "Mapa = representação da Terra no papel. Legenda: explica os símbolos. Rosa dos ventos: Norte, Sul, Leste, Oeste. Escala: relação entre distância no mapa e real.",
+      "body": "<p>Um <strong>mapa</strong> é uma representação de um lugar desenhada no papel ou na tela. Para entender um mapa, precisamos conhecer seus elementos:</p><p><strong>Legenda:</strong> explica o que cada cor e símbolo significa (azul=água, verde=floresta). <strong>Rosa dos ventos:</strong> indica as direções (Norte, Sul, Leste, Oeste). <strong>Escala:</strong> mostra a proporção — quanto 1 cm no mapa equivale na realidade.</p><p>Existem muitos tipos de mapas: <strong>políticos</strong> (mostram países e estados), <strong>físicos</strong> (mostram relevo e rios) e <strong>temáticos</strong> (mostram dados específicos como clima ou população).</p>",
+      "faq": [{"q":"O que é GPS?","a":"Sistema de Posicionamento Global — usa satélites para mostrar sua localização exata no mapa."},{"q":"Quem faz mapas?","a":"Cartógrafos! É a ciência da cartografia."}]
+    }
+  ]
+}

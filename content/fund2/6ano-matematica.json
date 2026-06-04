@@ -1,0 +1,306 @@
+{
+  "subject": "Matemática",
+  "slug": "6ano-matematica",
+  "articles": [
+    {
+      "title": "Números Naturais: Operações e Propriedades",
+      "slug": "numeros-naturais-operacoes",
+      "desc": "Adição, subtração, multiplicação e divisão com números naturais.",
+      "category": "Números e Operações",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 80,
+      "essential": "Números naturais (0, 1, 2, 3...) são usados para contar e ordenar. As quatro operações — adição, subtração, multiplicação e divisão — seguem propriedades como comutativa e associativa.",
+      "body": "<p>Os <strong>números naturais</strong> são os primeiros que aprendemos: 0, 1, 2, 3, 4, 5... Eles servem para <strong>contar</strong> (quantos alunos há na sala?) e <strong>ordenar</strong> (quem chegou primeiro?).</p><h2>As Quatro Operações</h2><p>Com os naturais, fazemos quatro operações fundamentais:</p><ul><li><strong>Adição (+):</strong> junta quantidades. Ex: 5 + 3 = 8</li><li><strong>Subtração (−):</strong> tira uma quantidade. Ex: 8 − 3 = 5</li><li><strong>Multiplicação (×):</strong> soma repetida. Ex: 4 × 3 = 12 (quatro vezes o três)</li><li><strong>Divisão (÷):</strong> reparte igualmente. Ex: 12 ÷ 3 = 4</li></ul><h2>Propriedades Importantes</h2><p><strong>Propriedade Comutativa:</strong> a ordem não altera o resultado na adição e multiplicação.</p><p>Ex: 3 + 5 = 5 + 3 = 8 e 4 × 2 = 2 × 4 = 8</p><p><strong>Propriedade Associativa:</strong> podemos agrupar de formas diferentes.</p><p>Ex: (2 + 3) + 4 = 2 + (3 + 4) = 9</p><p><strong>Elemento Neutro:</strong> somar 0 ou multiplicar por 1 não muda o número.</p><p>Ex: 7 + 0 = 7 e 7 × 1 = 7</p><h2>Expressões Numéricas</h2><p>Quando uma conta tem várias operações, seguimos a <strong>ordem de resolução</strong>:</p><ol><li>Parênteses ( ), colchetes [ ], chaves { }</li><li>Multiplicação e divisão (da esquerda para direita)</li><li>Adição e subtração (da esquerda para direita)</li></ol><p>Exemplo: 2 + 3 × 4 = 2 + 12 = <strong>14</strong> (a multiplicação vem primeiro!)</p><h2>Potenciação e Raiz Quadrada</h2><p>A <strong>potenciação</strong> é uma multiplicação repetida: 2³ = 2 × 2 × 2 = 8. Lemos \"dois elevado ao cubo\".</p><p>A <strong>raiz quadrada</strong> é a operação inversa: √9 = 3, porque 3 × 3 = 9.</p><h2>Dica RPG</h2><p>Pense nas operações como <strong>habilidades do seu personagem</strong>: a adição aumenta seu poder, a subtração consome energia, a multiplicação é um combo poderoso e a divisão reparte o tesouro com o grupo!</p>",
+      "faq": [
+        {"q": "O zero é um número natural?", "a": "Sim! O zero faz parte dos números naturais. O conjunto é N = {0, 1, 2, 3, ...}."},
+        {"q": "Por que a subtração não é comutativa?", "a": "Porque a ordem importa: 5 − 3 = 2, mas 3 − 5 = −2 (que nem é natural). Só adição e multiplicação são comutativas."},
+        {"q": "O que acontece quando divido por zero?", "a": "Divisão por zero não existe! É impossível repartir algo em zero partes."},
+        {"q": "Para que servem as expressões numéricas?", "a": "Para resolver problemas com várias operações de uma vez, como calcular o preço total de uma compra com descontos e frete."}
+      ],
+      "quiz": [
+        {"question": "Qual é o resultado de 3 + 5 × 2?", "options": ["16", "13", "11", "10"], "answer": 1},
+        {"question": "Qual propriedade diz que 4 + 7 = 7 + 4?", "options": ["Distributiva", "Associativa", "Comutativa", "Elemento neutro"], "answer": 2},
+        {"question": "Quanto é 2⁴?", "options": ["8", "16", "6", "32"], "answer": 1},
+        {"question": "Qual o elemento neutro da multiplicação?", "options": ["0", "1", "2", "10"], "answer": 1},
+        {"question": "Quanto é √25?", "options": ["4", "6", "5", "12,5"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Múltiplos e Divisores (MMC e MDC)",
+      "slug": "multiplos-divisores-mmc-mdc",
+      "desc": "Múltiplos, divisores, critérios de divisibilidade, MMC e MDC.",
+      "category": "Números e Operações",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Múltiplos são resultados da multiplicação. Divisores dividem exatamente. MMC é o menor múltiplo comum e MDC é o maior divisor comum entre dois ou mais números.",
+      "body": "<p><strong>Múltiplos</strong> de um número são os resultados quando multiplicamos ele por 0, 1, 2, 3... Por exemplo, os múltiplos de 3 são: 0, 3, 6, 9, 12, 15, 18...</p><p><strong>Divisores</strong> de um número são aqueles que dividem ele sem sobrar resto. Os divisores de 12 são: 1, 2, 3, 4, 6, 12.</p><h2>Critérios de Divisibilidade</h2><p>São atalhos para saber se um número é divisível por outro sem fazer a conta:</p><ul><li><strong>Por 2:</strong> termina em 0, 2, 4, 6 ou 8 (número par)</li><li><strong>Por 3:</strong> a soma dos algarismos é divisível por 3. Ex: 123 → 1+2+3=6 ✓</li><li><strong>Por 5:</strong> termina em 0 ou 5</li><li><strong>Por 10:</strong> termina em 0</li></ul><h2>Números Primos</h2><p>Um <strong>número primo</strong> só tem dois divisores: 1 e ele mesmo. Exemplos: 2, 3, 5, 7, 11, 13...</p><p>O número 1 <strong>não é primo</strong> (só tem um divisor). O 2 é o único primo par.</p><h2>Fatoração em Primos</h2><p>Todo número pode ser escrito como produto de primos. Ex: 60 = 2 × 2 × 3 × 5 = 2² × 3 × 5.</p><h2>MMC — Mínimo Múltiplo Comum</h2><p>É o <strong>menor múltiplo</strong> que dois números têm em comum (exceto o zero).</p><p>Ex: MMC(4, 6) → Múltiplos de 4: 4, 8, <strong>12</strong>, 16... / Múltiplos de 6: 6, <strong>12</strong>, 18... → MMC = 12</p><p><strong>Método da fatoração:</strong> Decomponha ambos em primos e multiplique cada fator com o maior expoente.</p><h2>MDC — Máximo Divisor Comum</h2><p>É o <strong>maior divisor</strong> que dois números compartilham.</p><p>Ex: MDC(12, 18) → Divisores de 12: 1, 2, 3, 4, <strong>6</strong>, 12 / Divisores de 18: 1, 2, 3, <strong>6</strong>, 9, 18 → MDC = 6</p><p><strong>Quando usar?</strong> MMC para alinhar ciclos (ex: sinais de trânsito). MDC para dividir em partes iguais (ex: cortar tecido).</p>",
+      "faq": [
+        {"q": "Qual a diferença entre MMC e MDC?", "a": "MMC é o menor número que aparece na lista de múltiplos de ambos. MDC é o maior número que divide os dois. MMC ≥ cada número, MDC ≤ cada número."},
+        {"q": "O número 1 é primo?", "a": "Não! Primos têm exatamente dois divisores. O 1 só tem um divisor (ele mesmo), então não é primo."},
+        {"q": "Como calcular MMC rapidamente?", "a": "Fatore os números em primos. Pegue cada primo que aparece com o maior expoente e multiplique todos."},
+        {"q": "Onde usamos MMC e MDC na vida real?", "a": "MMC: quando dois eventos se repetem em ciclos diferentes e queremos saber quando coincidem. MDC: quando queremos dividir algo em partes iguais sem sobras."}
+      ],
+      "quiz": [
+        {"question": "Quais são os divisores de 18?", "options": ["1, 2, 3, 6, 9, 18", "1, 2, 4, 9, 18", "2, 3, 6, 9", "1, 3, 6, 18"], "answer": 0},
+        {"question": "Qual o MMC de 4 e 6?", "options": ["2", "24", "12", "6"], "answer": 2},
+        {"question": "Qual o MDC de 12 e 8?", "options": ["2", "4", "6", "8"], "answer": 1},
+        {"question": "Qual destes é um número primo?", "options": ["9", "15", "21", "13"], "answer": 3},
+        {"question": "354 é divisível por 3?", "options": ["Sim, pois 3+5+4=12", "Não, pois termina em 4", "Sim, pois é par", "Não, pois 354÷3 não é exato"], "answer": 0}
+      ]
+    },
+    {
+      "title": "Frações: Conceito e Operações",
+      "slug": "fracoes-conceito-operacoes",
+      "desc": "Frações, equivalência, simplificação, adição, subtração, multiplicação e divisão.",
+      "category": "Números e Operações",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "10",
+      "xp": 100,
+      "essential": "Fração representa uma parte de um inteiro: numerador (partes tomadas) sobre denominador (total de partes). Operações exigem denominadores iguais (soma/subtração) ou multiplicação cruzada.",
+      "body": "<p>Uma <strong>fração</strong> representa uma <strong>parte de um todo</strong>. Se uma pizza tem 8 fatias e você come 3, comeu <strong>3/8</strong> da pizza.</p><h2>Partes da Fração</h2><ul><li><strong>Numerador</strong> (em cima): quantas partes foram tomadas</li><li><strong>Denominador</strong> (embaixo): em quantas partes o todo foi dividido</li></ul><p>3/8 → 3 é o numerador, 8 é o denominador.</p><h2>Tipos de Fração</h2><ul><li><strong>Própria:</strong> numerador < denominador (menor que 1). Ex: 2/5</li><li><strong>Imprópria:</strong> numerador ≥ denominador (maior ou igual a 1). Ex: 7/4</li><li><strong>Aparente:</strong> quando a divisão é exata. Ex: 6/3 = 2</li></ul><h2>Frações Equivalentes</h2><p>São frações que representam o mesmo valor: 1/2 = 2/4 = 3/6 = 4/8. Para encontrar frações equivalentes, <strong>multiplique ou divida</strong> numerador e denominador pelo mesmo número.</p><h2>Simplificação</h2><p>Dividimos numerador e denominador pelo MDC. Ex: 6/8 → divide ambos por 2 → <strong>3/4</strong>.</p><h2>Adição e Subtração</h2><p>Com <strong>mesmo denominador</strong>: some/subtraia os numeradores. Ex: 2/7 + 3/7 = 5/7.</p><p>Com <strong>denominadores diferentes</strong>: ache o MMC dos denominadores. Ex: 1/3 + 1/4 → MMC(3,4)=12 → 4/12 + 3/12 = <strong>7/12</strong>.</p><h2>Multiplicação</h2><p>Multiplique numerador × numerador e denominador × denominador.</p><p>Ex: 2/3 × 4/5 = 8/15</p><h2>Divisão</h2><p>Inverta a segunda fração e multiplique (\"mantém a primeira, inverte a segunda\").</p><p>Ex: 2/3 ÷ 4/5 = 2/3 × 5/4 = 10/12 = <strong>5/6</strong></p><h2>Dica Prática</h2><p>Frações aparecem em receitas (1/2 xícara), descontos (1/4 do preço) e notas (7/10 da prova). Dominar frações é essencial para todo o resto da matemática!</p>",
+      "faq": [
+        {"q": "O que é uma fração irredutível?", "a": "É a fração que já foi simplificada ao máximo — numerador e denominador não têm divisor comum além do 1. Ex: 3/4 é irredutível."},
+        {"q": "Como transformar fração em número decimal?", "a": "Basta dividir o numerador pelo denominador. Ex: 3/4 = 3 ÷ 4 = 0,75."},
+        {"q": "Por que invertemos a fração na divisão?", "a": "Porque dividir por uma fração é o mesmo que multiplicar pelo seu inverso. É uma regra matemática que simplifica o cálculo."},
+        {"q": "Fração com denominador 0 existe?", "a": "Não! Assim como a divisão por zero, fração com denominador zero é indefinida e não existe."}
+      ],
+      "quiz": [
+        {"question": "Qual fração é equivalente a 2/4?", "options": ["3/6", "2/3", "4/6", "1/3"], "answer": 0},
+        {"question": "Quanto é 1/3 + 1/6?", "options": ["2/9", "1/2", "2/6", "1/9"], "answer": 1},
+        {"question": "Quanto é 3/5 × 2/3?", "options": ["6/15", "5/8", "2/5", "6/8"], "answer": 2},
+        {"question": "A fração 7/4 é do tipo:", "options": ["Própria", "Imprópria", "Aparente", "Irredutível"], "answer": 1},
+        {"question": "Simplifique 12/18:", "options": ["6/9", "4/6", "2/3", "3/4"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Números Decimais",
+      "slug": "numeros-decimais",
+      "desc": "Representação decimal, operações, conversão fração-decimal.",
+      "category": "Números e Operações",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 80,
+      "essential": "Decimais usam vírgula para separar a parte inteira da parte decimal. 0,5 = 5/10 = 1/2. As operações seguem regras de alinhamento da vírgula.",
+      "body": "<p>Os <strong>números decimais</strong> são aqueles que usam a vírgula para separar a parte inteira da parte fracionária. Eles aparecem no dinheiro (R$ 3,50), nas medidas (1,75 m) e nas notas (7,5).</p><h2>Casas Decimais</h2><ul><li><strong>Décimos:</strong> 1ª casa após a vírgula (0,3 = 3/10)</li><li><strong>Centésimos:</strong> 2ª casa (0,05 = 5/100)</li><li><strong>Milésimos:</strong> 3ª casa (0,002 = 2/1000)</li></ul><p>Exemplo: 2,345 = 2 inteiros + 3 décimos + 4 centésimos + 5 milésimos.</p><h2>Conversão Fração ↔ Decimal</h2><p><strong>Fração → Decimal:</strong> divida numerador por denominador. Ex: 3/4 = 0,75.</p><p><strong>Decimal → Fração:</strong> use o denominador conforme as casas. Ex: 0,6 = 6/10 = 3/5.</p><h2>Adição e Subtração</h2><p>Alinhe pela vírgula e complete com zeros se necessário:</p><p>3,5 + 2,15 → alinhe: 3,50 + 2,15 = <strong>5,65</strong></p><h2>Multiplicação</h2><p>Multiplique como se não houvesse vírgula, depois conte as casas decimais:</p><p>2,3 × 1,5 → 23 × 15 = 345 → 2 casas decimais → <strong>3,45</strong></p><h2>Divisão</h2><p>Para dividir por decimal, transforme o divisor em inteiro multiplicando ambos por 10, 100, etc.</p><p>4,5 ÷ 0,3 → 45 ÷ 3 = <strong>15</strong></p><h2>Comparação de Decimais</h2><p>Complete com zeros e compare: 0,5 vs 0,48 → 0,50 > 0,48. O 0,5 é maior!</p><h2>Dízima Periódica</h2><p>Algumas frações geram decimais infinitos com padrão: 1/3 = 0,333... = 0,3̄ (dízima periódica simples).</p>",
+      "faq": [
+        {"q": "Qual a diferença entre decimal exato e dízima periódica?", "a": "Decimal exato tem fim (0,75). Dízima periódica se repete infinitamente (0,333...). Frações com denominador 2 ou 5 são exatas, as demais geralmente são dízimas."},
+        {"q": "Posso usar ponto em vez de vírgula?", "a": "No Brasil usamos vírgula para decimais. Nos EUA e em programação, usa-se ponto. Na escola brasileira, sempre vírgula."},
+        {"q": "Como multiplicar por 10, 100, 1000?", "a": "Basta 'andar' a vírgula para a direita: ×10 = 1 casa, ×100 = 2 casas, ×1000 = 3 casas. Ex: 2,5 × 10 = 25."},
+        {"q": "0,9999... é igual a 1?", "a": "Sim! Matematicamente, 0,999... = 1. Essa é uma das curiosidades mais famosas da matemática."}
+      ],
+      "quiz": [
+        {"question": "Quanto é 2,5 + 1,75?", "options": ["3,25", "4,25", "3,75", "4,75"], "answer": 1},
+        {"question": "Converta 3/5 em decimal:", "options": ["0,35", "0,6", "0,53", "1,6"], "answer": 1},
+        {"question": "Quanto é 0,4 × 0,3?", "options": ["1,2", "0,12", "0,7", "12"], "answer": 1},
+        {"question": "Qual é maior: 0,7 ou 0,65?", "options": ["0,65", "São iguais", "0,7", "Impossível comparar"], "answer": 2},
+        {"question": "1/3 em decimal é:", "options": ["0,33", "0,333...", "0,3", "0,13"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Porcentagem Básica",
+      "slug": "porcentagem-basica",
+      "desc": "Porcentagem como fração de 100, cálculos e aplicações no dia a dia.",
+      "category": "Números e Operações",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 80,
+      "essential": "Porcentagem é uma fração de denominador 100. 25% = 25/100 = 0,25. Para calcular x% de um valor, multiplique por x/100.",
+      "body": "<p><strong>Porcentagem</strong> significa \"por cento\" — ou seja, uma fração com denominador 100. Quando a loja anuncia 30% de desconto, quer dizer que você paga 30 a menos a cada 100 reais.</p><h2>Representações</h2><p>Todo valor percentual pode ser escrito de três formas:</p><ul><li><strong>Porcentagem:</strong> 25%</li><li><strong>Fração:</strong> 25/100 = 1/4</li><li><strong>Decimal:</strong> 0,25</li></ul><h2>Como Calcular</h2><p>Para encontrar x% de um valor, <strong>multiplique o valor por x/100</strong>.</p><p>Exemplo: 20% de 150 → 150 × 20/100 = 150 × 0,20 = <strong>30</strong></p><p>Ou use a regra prática: 10% de 150 = 15, então 20% = 15 × 2 = 30.</p><h2>Porcentagens Úteis de Cabeça</h2><ul><li><strong>10%:</strong> divida por 10. Ex: 10% de 80 = 8</li><li><strong>25%:</strong> divida por 4. Ex: 25% de 80 = 20</li><li><strong>50%:</strong> divida por 2. Ex: 50% de 80 = 40</li><li><strong>1%:</strong> divida por 100. Ex: 1% de 80 = 0,80</li></ul><h2>Desconto e Acréscimo</h2><p><strong>Desconto:</strong> Produto de R$ 200 com 15% off → 200 × 0,15 = 30 de desconto → Preço final: R$ 170.</p><p><strong>Acréscimo:</strong> Produto de R$ 200 com 15% de aumento → 200 × 1,15 = R$ 230.</p><h2>Aplicações no Dia a Dia</h2><p>Porcentagem está em toda parte: notas escolares (80% de acertos), previsão do tempo (70% de chance de chuva), eleições (52% dos votos) e nutrição (25% da dose diária).</p>",
+      "faq": [
+        {"q": "Posso ter mais de 100%?", "a": "Sim! 150% de 200 = 300. Mais de 100% significa mais que o todo. Ex: seu investimento rendeu 120%."},
+        {"q": "Como calcular o preço final com desconto rapidamente?", "a": "Multiplique pelo fator: com 30% de desconto, multiplique por 0,70 (100% − 30% = 70%). Ex: 200 × 0,70 = 140."},
+        {"q": "Qual a diferença entre porcentagem e percentual?", "a": "São sinônimos no uso popular. Tecnicamente, percentual é o valor numérico e porcentagem é o conceito."},
+        {"q": "15% de 200 é igual a 200% de 15?", "a": "Sim! Os dois dão 30. Isso porque a multiplicação é comutativa: 15/100 × 200 = 200/100 × 15."}
+      ],
+      "quiz": [
+        {"question": "Quanto é 30% de 200?", "options": ["30", "60", "90", "66"], "answer": 1},
+        {"question": "25% equivale a qual fração?", "options": ["1/5", "1/3", "1/4", "2/5"], "answer": 2},
+        {"question": "Um produto de R$ 80 com 10% de desconto custa:", "options": ["R$ 72", "R$ 70", "R$ 88", "R$ 78"], "answer": 0},
+        {"question": "50% de 50% é quanto?", "options": ["100%", "25%", "0%", "50%"], "answer": 1},
+        {"question": "Converta 0,75 em porcentagem:", "options": ["7,5%", "75%", "0,75%", "750%"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Geometria: Figuras Planas",
+      "slug": "geometria-figuras-planas",
+      "desc": "Triângulos, quadriláteros, círculos e polígonos — classificação e propriedades.",
+      "category": "Geometria",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "9",
+      "xp": 90,
+      "essential": "Figuras planas são formas em 2D: triângulos (3 lados), quadriláteros (4 lados), círculos. Polígonos são classificados pelo número de lados e tipos de ângulos.",
+      "body": "<p>As <strong>figuras planas</strong> são formas que existem em duas dimensões — comprimento e largura, sem profundidade. Elas estão por toda parte: uma folha de papel, uma tela de celular, o formato de um campo de futebol.</p><h2>Polígonos</h2><p>Um <strong>polígono</strong> é uma figura fechada formada por segmentos de reta (lados). Classificamos pelo número de lados:</p><ul><li><strong>Triângulo:</strong> 3 lados</li><li><strong>Quadrilátero:</strong> 4 lados</li><li><strong>Pentágono:</strong> 5 lados</li><li><strong>Hexágono:</strong> 6 lados</li></ul><h2>Triângulos</h2><p><strong>Pelos lados:</strong></p><ul><li><strong>Equilátero:</strong> 3 lados iguais</li><li><strong>Isósceles:</strong> 2 lados iguais</li><li><strong>Escaleno:</strong> todos diferentes</li></ul><p><strong>Pelos ângulos:</strong></p><ul><li><strong>Acutângulo:</strong> todos os ângulos < 90°</li><li><strong>Retângulo:</strong> um ângulo = 90°</li><li><strong>Obtusângulo:</strong> um ângulo > 90°</li></ul><p><strong>A soma dos ângulos internos de qualquer triângulo é sempre 180°.</strong></p><h2>Quadriláteros</h2><ul><li><strong>Quadrado:</strong> 4 lados iguais, 4 ângulos de 90°</li><li><strong>Retângulo:</strong> lados opostos iguais, 4 ângulos de 90°</li><li><strong>Losango:</strong> 4 lados iguais, ângulos variáveis</li><li><strong>Paralelogramo:</strong> lados opostos paralelos e iguais</li><li><strong>Trapézio:</strong> apenas 2 lados paralelos</li></ul><h2>Circunferência e Círculo</h2><p>A <strong>circunferência</strong> é a linha curva (contorno). O <strong>círculo</strong> é a região interna. O <strong>raio</strong> vai do centro à borda. O <strong>diâmetro</strong> cruza o centro (= 2 raios).</p>",
+      "faq": [
+        {"q": "Qual a diferença entre círculo e circunferência?", "a": "Circunferência é só a linha curva (contorno). Círculo é toda a região interna, incluindo a borda. Pense: circunferência = aro, círculo = prato."},
+        {"q": "Todo quadrado é um retângulo?", "a": "Sim! O quadrado é um caso especial de retângulo onde todos os lados são iguais. Mas nem todo retângulo é quadrado."},
+        {"q": "O que é um polígono regular?", "a": "É um polígono com todos os lados iguais e todos os ângulos iguais. Ex: triângulo equilátero, quadrado, hexágono regular."},
+        {"q": "Quantos graus tem a soma dos ângulos de um quadrilátero?", "a": "360°. A fórmula geral é (n-2) × 180°, onde n é o número de lados. Para quadrilátero: (4-2) × 180° = 360°."}
+      ],
+      "quiz": [
+        {"question": "Qual triângulo tem todos os lados iguais?", "options": ["Escaleno", "Isósceles", "Retângulo", "Equilátero"], "answer": 3},
+        {"question": "Qual a soma dos ângulos internos de um triângulo?", "options": ["360°", "180°", "90°", "270°"], "answer": 1},
+        {"question": "Qual quadrilátero tem 4 lados iguais e 4 ângulos retos?", "options": ["Losango", "Retângulo", "Quadrado", "Trapézio"], "answer": 2},
+        {"question": "Um polígono de 6 lados chama-se:", "options": ["Pentágono", "Heptágono", "Octógono", "Hexágono"], "answer": 3},
+        {"question": "O diâmetro é igual a:", "options": ["Metade do raio", "O dobro do raio", "O raio ao quadrado", "π vezes o raio"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Ângulos: Tipos e Medidas",
+      "slug": "angulos-tipos-medidas",
+      "desc": "Classificação de ângulos, graus, ângulos complementares e suplementares.",
+      "category": "Geometria",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "7",
+      "xp": 80,
+      "essential": "Ângulo é a abertura entre duas semirretas. Medimos em graus (°). Reto = 90°, raso = 180°, volta completa = 360°. Complementares somam 90°, suplementares somam 180°.",
+      "body": "<p>Um <strong>ângulo</strong> é formado por duas semirretas (lados) que partem de um mesmo ponto (vértice). A <strong>abertura</strong> entre elas é medida em <strong>graus (°)</strong>.</p><h2>Tipos de Ângulo</h2><ul><li><strong>Agudo:</strong> menor que 90° (como um bico de lápis)</li><li><strong>Reto:</strong> exatamente 90° (o canto de uma folha)</li><li><strong>Obtuso:</strong> entre 90° e 180° (uma porta entreaberta)</li><li><strong>Raso:</strong> exatamente 180° (uma linha reta)</li><li><strong>Volta completa:</strong> 360°</li></ul><h2>Medindo Ângulos</h2><p>Usamos o <strong>transferidor</strong>. Coloque o centro no vértice, alinhe um lado com 0° e leia a medida onde o outro lado cruza a escala.</p><h2>Ângulos Complementares</h2><p>Dois ângulos que <strong>somam 90°</strong>. Se um mede 35°, seu complementar mede 55°.</p><h2>Ângulos Suplementares</h2><p>Dois ângulos que <strong>somam 180°</strong>. Se um mede 110°, seu suplementar mede 70°.</p><h2>Ângulos Opostos pelo Vértice (OPV)</h2><p>Quando duas retas se cruzam, formam 4 ângulos. Os ângulos opostos são <strong>iguais</strong>. Se um mede 40°, o oposto também mede 40°.</p><h2>Bissetriz</h2><p>A <strong>bissetriz</strong> é a semirreta que divide um ângulo em duas partes iguais. A bissetriz de um ângulo de 80° cria dois ângulos de 40°.</p>",
+      "faq": [
+        {"q": "O que é um ângulo nulo?", "a": "É um ângulo de 0° — os dois lados estão completamente sobrepostos. Na prática, é como se não houvesse abertura."},
+        {"q": "Existe ângulo maior que 360°?", "a": "Sim, em contextos avançados (como rotação de engrenagens). 720° = duas voltas completas. Mas no 6º ano trabalhamos até 360°."},
+        {"q": "Como saber se dois ângulos são complementares?", "a": "Some os dois. Se o total for 90°, são complementares. Se for 180°, são suplementares."},
+        {"q": "Ângulo reto e ângulo raso são a mesma coisa?", "a": "Não! Reto = 90° (um quarto de volta), raso = 180° (meia volta, uma linha reta)."}
+      ],
+      "quiz": [
+        {"question": "Um ângulo de 45° é classificado como:", "options": ["Reto", "Obtuso", "Agudo", "Raso"], "answer": 2},
+        {"question": "Qual o complementar de 60°?", "options": ["120°", "30°", "90°", "60°"], "answer": 1},
+        {"question": "Dois ângulos OPV medem 75° cada. Quanto mede cada um dos outros dois?", "options": ["75°", "105°", "115°", "85°"], "answer": 1},
+        {"question": "Qual o suplementar de 135°?", "options": ["45°", "55°", "35°", "225°"], "answer": 0},
+        {"question": "A bissetriz de um ângulo de 120° cria dois ângulos de:", "options": ["40°", "80°", "60°", "30°"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Perímetro e Área (Retângulo e Quadrado)",
+      "slug": "perimetro-area-retangulo-quadrado",
+      "desc": "Cálculo de perímetro e área das figuras planas fundamentais.",
+      "category": "Geometria",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Perímetro é a soma de todos os lados. Área é a medida da superfície. Retângulo: P = 2(b+h), A = b×h. Quadrado: P = 4L, A = L².",
+      "body": "<p><strong>Perímetro</strong> é a medida do contorno de uma figura — a \"cerca\" ao redor dela. <strong>Área</strong> é a medida da superfície interior — o \"piso\" que ela cobre.</p><h2>Perímetro</h2><p>Para calcular o perímetro, <strong>some todos os lados</strong>.</p><p><strong>Retângulo:</strong> P = 2 × (base + altura) = 2(b + h)</p><p>Ex: Retângulo 5 cm × 3 cm → P = 2(5 + 3) = 2 × 8 = <strong>16 cm</strong></p><p><strong>Quadrado:</strong> P = 4 × lado</p><p>Ex: Quadrado de lado 6 cm → P = 4 × 6 = <strong>24 cm</strong></p><h2>Área</h2><p><strong>Retângulo:</strong> A = base × altura</p><p>Ex: Retângulo 5 cm × 3 cm → A = 5 × 3 = <strong>15 cm²</strong></p><p><strong>Quadrado:</strong> A = lado × lado = lado²</p><p>Ex: Quadrado de lado 6 cm → A = 6² = <strong>36 cm²</strong></p><h2>Unidades de Medida</h2><ul><li><strong>Perímetro:</strong> medido em unidades lineares (cm, m, km)</li><li><strong>Área:</strong> medido em unidades quadradas (cm², m², km²)</li></ul><h2>Triângulo</h2><p>A = (base × altura) / 2. É sempre a metade do retângulo que o contém.</p><p>Ex: Triângulo com base 10 e altura 6 → A = (10 × 6) / 2 = <strong>30 cm²</strong></p><h2>Aplicações Práticas</h2><p><strong>Perímetro:</strong> quanto de cerca para o jardim, moldura para um quadro.</p><p><strong>Área:</strong> quantidade de tinta para pintar, piso para cobrir, tamanho de um terreno.</p>",
+      "faq": [
+        {"q": "Qual a diferença entre perímetro e área?", "a": "Perímetro mede o contorno (em metros). Área mede a superfície (em metros quadrados). Perímetro é 1D, área é 2D."},
+        {"q": "Por que a área do triângulo é a metade?", "a": "Porque todo triângulo é a metade de um paralelogramo. Se você duplicar e girar um triângulo, forma um retângulo."},
+        {"q": "Como converter cm² para m²?", "a": "Divida por 10.000 (100 × 100). Ex: 50.000 cm² = 5 m². Cada metro tem 100 cm, então 1 m² = 10.000 cm²."},
+        {"q": "Duas figuras podem ter mesmo perímetro e áreas diferentes?", "a": "Sim! Um retângulo 1×9 tem P=20 e A=9. Um quadrado 5×5 tem P=20 e A=25. Mesmo perímetro, áreas diferentes."}
+      ],
+      "quiz": [
+        {"question": "Qual a área de um retângulo 8 cm × 5 cm?", "options": ["26 cm²", "40 cm²", "13 cm²", "80 cm²"], "answer": 1},
+        {"question": "Qual o perímetro de um quadrado de lado 7 m?", "options": ["49 m", "28 m", "14 m", "21 m"], "answer": 1},
+        {"question": "Qual a área de um triângulo com base 12 e altura 8?", "options": ["96", "48", "20", "60"], "answer": 1},
+        {"question": "Um terreno 20m × 30m tem perímetro de:", "options": ["600 m", "50 m", "100 m", "120 m"], "answer": 2},
+        {"question": "A unidade de área é:", "options": ["metros", "metros²", "metros³", "centímetros"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Grandezas e Medidas",
+      "slug": "grandezas-medidas",
+      "desc": "Comprimento, massa, capacidade e tempo — unidades e conversões.",
+      "category": "Grandezas e Medidas",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 80,
+      "essential": "Grandezas são tudo que podemos medir: comprimento (metro), massa (grama), capacidade (litro), tempo (segundo). Para converter, use fatores de ×10 ou ÷10 entre unidades.",
+      "body": "<p>Uma <strong>grandeza</strong> é tudo que pode ser medido e expresso por um número com uma unidade. Comprimento, massa, capacidade e tempo são as grandezas fundamentais do dia a dia.</p><h2>Comprimento</h2><p>A unidade padrão é o <strong>metro (m)</strong>. Conversões:</p><ul><li>1 km = 1.000 m</li><li>1 m = 100 cm</li><li>1 cm = 10 mm</li></ul><p>Subindo (km ← m): <strong>divide</strong> por 1000. Descendo (m → cm): <strong>multiplica</strong> por 100.</p><h2>Massa</h2><p>A unidade padrão é o <strong>grama (g)</strong>, mas no dia a dia usamos o quilograma (kg).</p><ul><li>1 kg = 1.000 g</li><li>1 g = 1.000 mg</li><li>1 tonelada = 1.000 kg</li></ul><h2>Capacidade</h2><p>A unidade padrão é o <strong>litro (L)</strong>.</p><ul><li>1 L = 1.000 mL</li><li>1 L = 1 dm³ (decímetro cúbico)</li></ul><p>Uma garrafa de água tem 500 mL = 0,5 L.</p><h2>Tempo</h2><p>Não segue o sistema decimal:</p><ul><li>1 hora = 60 minutos</li><li>1 minuto = 60 segundos</li><li>1 dia = 24 horas</li></ul><h2>Como Converter</h2><p>Para unidades de comprimento, massa e capacidade, use a escala: cada \"degrau\" entre unidades multiplica ou divide por 10.</p><p>Ex: 3,5 km = 3.500 m (desceu 3 degraus → ×10³)</p><p>Ex: 250 cm = 2,5 m (subiu 2 degraus → ÷10²)</p>",
+      "faq": [
+        {"q": "Por que o tempo não é decimal?", "a": "O sistema de tempo vem dos babilônios (base 60), muito antes do sistema decimal. Por isso temos 60 minutos na hora e 60 segundos no minuto."},
+        {"q": "Qual a diferença entre massa e peso?", "a": "Massa é a quantidade de matéria (medida em kg, constante). Peso é a força gravitacional sobre a massa (medida em Newtons, varia por planeta)."},
+        {"q": "Como converter litros em metros cúbicos?", "a": "1 m³ = 1.000 litros. Então divida por 1.000. Ex: 500 L = 0,5 m³."},
+        {"q": "O que significa mili, centi, deci?", "a": "São prefixos: mili = milésimo (÷1000), centi = centésimo (÷100), deci = décimo (÷10). Ex: mililitro = milésimo do litro."}
+      ],
+      "quiz": [
+        {"question": "Quantos centímetros tem 2,5 metros?", "options": ["25 cm", "250 cm", "2500 cm", "0,25 cm"], "answer": 1},
+        {"question": "3 kg equivalem a quantos gramas?", "options": ["30 g", "300 g", "3000 g", "0,3 g"], "answer": 2},
+        {"question": "500 mL equivalem a:", "options": ["5 L", "0,5 L", "50 L", "0,05 L"], "answer": 1},
+        {"question": "2 horas e 30 minutos = quantos minutos?", "options": ["230", "130", "150", "120"], "answer": 2},
+        {"question": "1 tonelada = quantos quilogramas?", "options": ["100", "10.000", "1.000", "10"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Gráficos e Tabelas: Leitura e Interpretação",
+      "slug": "graficos-tabelas-leitura",
+      "desc": "Como ler, interpretar e construir gráficos de barras, setores e linhas.",
+      "category": "Estatística e Probabilidade",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "8",
+      "xp": 80,
+      "essential": "Gráficos transformam dados em imagens. Barras comparam categorias, linhas mostram evolução, setores mostram partes do todo. Tabelas organizam dados em linhas e colunas.",
+      "body": "<p><strong>Gráficos e tabelas</strong> são formas de organizar e apresentar dados visualmente. Eles aparecem em jornais, provas, pesquisas e no nosso dia a dia.</p><h2>Tabelas</h2><p>Organizam informações em <strong>linhas e colunas</strong>. Cada linha é um registro e cada coluna é uma informação. Ex: tabela de notas dos alunos (nome × nota).</p><p>Dicas de leitura: sempre leia o <strong>título</strong>, os <strong>cabeçalhos das colunas</strong> e a <strong>fonte dos dados</strong>.</p><h2>Gráfico de Barras</h2><p>Usa barras (horizontais ou verticais) para <strong>comparar quantidades</strong> entre categorias. A altura/comprimento da barra representa o valor.</p><p>Exemplo: comparar a população de diferentes cidades, votos de cada candidato.</p><h2>Gráfico de Linhas</h2><p>Conecta pontos com linhas para mostrar <strong>evolução ao longo do tempo</strong>. Ideal para ver tendências (crescimento, queda, estabilidade).</p><p>Exemplo: temperatura ao longo do dia, crescimento de uma planta por semana.</p><h2>Gráfico de Setores (Pizza)</h2><p>Um círculo dividido em fatias que mostram <strong>partes de um todo</strong> (porcentagens). Todas as fatias somam 100%.</p><p>Exemplo: composição do lixo doméstico, distribuição de notas da turma.</p><h2>Pictograma</h2><p>Usa <strong>ícones/figuras</strong> para representar quantidades. Cada ícone vale um número fixo.</p><h2>Como Construir</h2><ol><li>Organize os dados em tabela</li><li>Escolha o tipo de gráfico adequado</li><li>Defina escala e rótulos</li><li>Desenhe e coloque título</li></ol>",
+      "faq": [
+        {"q": "Quando usar gráfico de barras vs. linhas?", "a": "Barras para comparar categorias (cidades, times). Linhas para mostrar mudança no tempo (meses, anos). Se o eixo X é temporal, use linhas."},
+        {"q": "O gráfico de pizza pode ter mais de 100%?", "a": "Não! As fatias sempre somam 100% do todo. Se a soma passa de 100%, há erro nos dados ou sobreposição de categorias."},
+        {"q": "O que é escala em um gráfico?", "a": "É a relação entre os valores reais e o tamanho no gráfico. Ex: cada quadradinho = 10 unidades. Escala errada pode distorcer a interpretação."},
+        {"q": "Gráficos podem enganar?", "a": "Sim! Manipulando a escala, cortando o eixo Y, ou escolhendo o tipo errado de gráfico. Por isso é importante analisar criticamente."}
+      ],
+      "quiz": [
+        {"question": "Qual gráfico é melhor para mostrar evolução da temperatura ao longo do ano?", "options": ["Barras", "Pizza", "Linhas", "Pictograma"], "answer": 2},
+        {"question": "Em um gráfico de setores, as fatias somam:", "options": ["360°", "180°", "90°", "100°"], "answer": 0},
+        {"question": "Uma tabela organiza dados em:", "options": ["Círculos e fatias", "Linhas e colunas", "Barras e eixos", "Pontos e linhas"], "answer": 1},
+        {"question": "Qual gráfico compara melhor a quantidade de alunos por turma?", "options": ["Linhas", "Setores", "Barras", "Pictograma"], "answer": 2},
+        {"question": "Se cada ícone vale 5 alunos e há 4 ícones, quantos alunos são?", "options": ["4", "9", "15", "20"], "answer": 3}
+      ]
+    },
+    {
+      "title": "Simetria e Padrões Geométricos",
+      "slug": "simetria-padroes-geometricos",
+      "desc": "Simetria de reflexão e rotação, eixos de simetria e padrões na arte.",
+      "category": "Geometria",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "7",
+      "xp": 70,
+      "essential": "Simetria é quando uma figura pode ser dividida em partes iguais. Reflexão (espelho), rotação (giro) e translação (deslocamento) são transformações que criam padrões.",
+      "body": "<p>A <strong>simetria</strong> está em toda parte: no rosto humano, nas asas de uma borboleta, nos flocos de neve, na arquitetura. Uma figura tem simetria quando podemos dividi-la em partes que são <strong>imagens espelhadas</strong> uma da outra.</p><h2>Simetria de Reflexão</h2><p>Uma figura tem <strong>simetria de reflexão</strong> quando existe uma reta (eixo de simetria) que a divide em duas metades iguais, como se uma fosse o reflexo da outra no espelho.</p><ul><li>Um <strong>quadrado</strong> tem 4 eixos de simetria</li><li>Um <strong>retângulo</strong> tem 2 eixos</li><li>Um <strong>triângulo equilátero</strong> tem 3 eixos</li><li>Um <strong>círculo</strong> tem infinitos eixos</li></ul><h2>Simetria de Rotação</h2><p>Uma figura tem <strong>simetria de rotação</strong> quando, ao girá-la em torno do centro, ela coincide consigo mesma antes de completar 360°.</p><p>Um quadrado coincide consigo a cada 90° de giro (4 vezes por volta).</p><h2>Translação</h2><p>A <strong>translação</strong> desloca uma figura em uma direção sem girá-la ou espelhá-la. É como \"arrastar\" a figura na tela do computador.</p><h2>Padrões Geométricos</h2><p>Combinando simetria, rotação e translação, criamos <strong>padrões</strong> (mosaicos, azulejos, estampas). A arte islâmica é famosa por seus padrões geométricos perfeitos.</p><h2>Na Natureza</h2><p>A simetria aparece em flores, conchas, cristais e no DNA. Os cientistas estudam simetria para entender a estrutura da matéria e até o universo!</p>",
+      "faq": [
+        {"q": "O corpo humano é simétrico?", "a": "Aproximadamente! Temos simetria bilateral (esquerda-direita), mas não perfeita. Detalhes como pintas e órgãos internos quebram a simetria exata."},
+        {"q": "O que é um mosaico?", "a": "É um padrão que cobre uma superfície sem lacunas e sem sobreposições, usando repetição de uma ou mais figuras. Triângulos, quadrados e hexágonos formam mosaicos perfeitos."},
+        {"q": "Quantos eixos de simetria tem um círculo?", "a": "Infinitos! Qualquer diâmetro é um eixo de simetria. Por isso o círculo é a figura mais simétrica."},
+        {"q": "A letra A tem eixo de simetria?", "a": "Sim, um eixo vertical. Já a letra B tem eixo horizontal. A letra X tem dois eixos (vertical e horizontal)."}
+      ],
+      "quiz": [
+        {"question": "Quantos eixos de simetria tem um quadrado?", "options": ["1", "2", "4", "8"], "answer": 2},
+        {"question": "Qual transformação 'desliza' uma figura sem girar?", "options": ["Reflexão", "Rotação", "Translação", "Dilatação"], "answer": 2},
+        {"question": "Um triângulo equilátero tem quantos eixos de simetria?", "options": ["1", "2", "3", "6"], "answer": 2},
+        {"question": "A borboleta tem qual tipo de simetria?", "options": ["Rotação", "Translação", "Reflexão bilateral", "Nenhuma"], "answer": 2},
+        {"question": "Qual figura tem infinitos eixos de simetria?", "options": ["Quadrado", "Hexágono", "Triângulo", "Círculo"], "answer": 3}
+      ]
+    },
+    {
+      "title": "Problemas com Dados e Probabilidade Básica",
+      "slug": "probabilidade-basica-dados",
+      "desc": "Experimentos aleatórios, espaço amostral, chance e probabilidade simples.",
+      "category": "Estatística e Probabilidade",
+      "difficulty": "Básico",
+      "grade": "6º ano",
+      "reading_time": "7",
+      "xp": 80,
+      "essential": "Probabilidade mede a chance de algo acontecer: P = casos favoráveis ÷ casos possíveis. Dado de 6 faces: chance de tirar 3 = 1/6. Moeda: chance de cara = 1/2.",
+      "body": "<p>A <strong>probabilidade</strong> é a parte da matemática que estuda as <strong>chances</strong> de algo acontecer. Vai chover amanhã? Qual a chance de tirar 6 no dado? Vou ganhar na loteria?</p><h2>Experimento Aleatório</h2><p>É uma situação cujo resultado <strong>não pode ser previsto com certeza</strong>: lançar uma moeda, jogar um dado, sortear uma carta do baralho.</p><h2>Espaço Amostral</h2><p>É o <strong>conjunto de todos os resultados possíveis</strong>.</p><ul><li><strong>Moeda:</strong> {Cara, Coroa} → 2 resultados</li><li><strong>Dado:</strong> {1, 2, 3, 4, 5, 6} → 6 resultados</li></ul><h2>Calculando a Probabilidade</h2><p>A fórmula é simples:</p><p><strong>P(evento) = número de resultados favoráveis ÷ número de resultados possíveis</strong></p><p>Exemplo 1: Chance de tirar 3 no dado = 1/6 ≈ 16,7%</p><p>Exemplo 2: Chance de tirar número par no dado = 3/6 = 1/2 = 50%</p><p>Exemplo 3: Chance de tirar cara na moeda = 1/2 = 50%</p><h2>Valores da Probabilidade</h2><ul><li><strong>P = 0:</strong> impossível (tirar 7 num dado de 6 faces)</li><li><strong>P = 1:</strong> certo (tirar número ≤ 6 num dado de 6 faces)</li><li><strong>0 < P < 1:</strong> possível mas incerto</li></ul><h2>Eventos Complementares</h2><p>Se a chance de chover é 30%, a chance de <strong>não</strong> chover é 70%. P(A) + P(não A) = 1.</p><h2>Na Prática</h2><p>Probabilidade é usada em previsão do tempo, seguros, jogos, medicina e inteligência artificial!</p>",
+      "faq": [
+        {"q": "Se a chance de tirar 6 é 1/6, posso jogar 6 vezes e garantir um 6?", "a": "Não! Cada lançamento é independente. A probabilidade de nunca tirar 6 em 6 lançamentos é (5/6)⁶ ≈ 33%. Probabilidade não garante resultados individuais."},
+        {"q": "O que é um evento certo?", "a": "É aquele que com certeza acontece. Ex: tirar um número entre 1 e 6 em um dado normal. A probabilidade é 1 (100%)."},
+        {"q": "Probabilidade 50% significa que acontece metade das vezes?", "a": "A longo prazo, sim. Se jogar uma moeda 1000 vezes, espera-se ~500 caras. Mas em poucas tentativas pode variar muito."},
+        {"q": "Qual a chance de tirar dois 6 seguidos no dado?", "a": "1/6 × 1/6 = 1/36 ≈ 2,8%. Multiplicamos porque os eventos são independentes."}
+      ],
+      "quiz": [
+        {"question": "Qual a probabilidade de tirar um número par em um dado?", "options": ["1/6", "1/3", "1/2", "2/3"], "answer": 2},
+        {"question": "Se P(chover) = 0,4, qual P(não chover)?", "options": ["0,4", "0,6", "1,0", "0,2"], "answer": 1},
+        {"question": "O espaço amostral de uma moeda tem:", "options": ["1 resultado", "2 resultados", "3 resultados", "6 resultados"], "answer": 1},
+        {"question": "Uma urna tem 3 bolas vermelhas e 7 azuis. Qual a chance de tirar vermelha?", "options": ["3/7", "7/10", "3/10", "1/3"], "answer": 2},
+        {"question": "Probabilidade igual a 0 significa:", "options": ["Muito provável", "Certo", "Possível", "Impossível"], "answer": 3}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,306 @@
+{
+  "subject": "Matemática",
+  "slug": "9ano-matematica",
+  "articles": [
+    {
+      "title": "Conjuntos Numéricos (Revisão)",
+      "slug": "conjuntos-numericos-revisao",
+      "desc": "Revisão de N, Z, Q, I e R — relações de inclusão e operações.",
+      "category": "Números e Operações",
+      "difficulty": "Intermediário",
+      "grade": "9º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "N ⊂ Z ⊂ Q ⊂ R. Naturais (0,1,2...), Inteiros (...-2,-1,0,1,2...), Racionais (frações), Irracionais (√2, π), Reais (Q ∪ I).",
+      "body": "<p>No 9º ano, consolidamos todos os conjuntos numéricos estudados antes e conhecemos os <strong>números irracionais</strong> e o conjunto dos <strong>reais</strong>.</p><h2>Os Conjuntos</h2><ul><li><strong>N (Naturais):</strong> {0, 1, 2, 3, ...} — para contar</li><li><strong>Z (Inteiros):</strong> {..., -2, -1, 0, 1, 2, ...} — inclui negativos</li><li><strong>Q (Racionais):</strong> todo número na forma a/b (b≠0) — inclui frações e dízimas periódicas</li><li><strong>I (Irracionais):</strong> decimais infinitos não-periódicos — √2, √3, π, e...</li><li><strong>R (Reais):</strong> Q ∪ I — todos os números da reta numérica</li></ul><h2>Relação de Inclusão</h2><p><strong>N ⊂ Z ⊂ Q ⊂ R</strong></p><p>Os irracionais NÃO estão dentro de Q: I ∩ Q = ∅ (conjunto vazio).</p><h2>Números Irracionais</h2><p>São decimais infinitos sem padrão de repetição:</p><ul><li>√2 = 1,41421356... (nunca se repete)</li><li>π = 3,14159265... (nunca se repete)</li><li>Número de Euler: e = 2,71828...</li></ul><h2>Intervalos na Reta Real</h2><p>Podemos representar subconjuntos dos reais como intervalos:</p><ul><li>[2, 5] = {x ∈ R | 2 ≤ x ≤ 5} (fechado)</li><li>(2, 5) = {x ∈ R | 2 < x < 5} (aberto)</li><li>[2, 5) = {x ∈ R | 2 ≤ x < 5} (misto)</li></ul>",
+      "faq": [
+        {"q": "Como provar que √2 é irracional?", "a": "Existe uma demonstração clássica por contradição (prova por absurdo). Supõe que √2 = a/b irredutível e chega a uma contradição: ambos a e b seriam pares."},
+        {"q": "π é realmente infinito e sem padrão?", "a": "Sim! Já calcularam trilhões de dígitos de π sem encontrar repetição. Foi provado irracional em 1761 por Lambert."},
+        {"q": "Existe algo além dos reais?", "a": "Sim! Os números complexos (C), que incluem a unidade imaginária i = √(-1). Você estudará no 3º EM."},
+        {"q": "Todo número na calculadora é racional?", "a": "Na prática, sim! Calculadoras trabalham com um número finito de dígitos, então arredondam irracionais. √2 na calculadora é uma aproximação racional."}
+      ],
+      "quiz": [
+        {"question": "Qual conjunto contém √5?", "options": ["N", "Z", "Q", "I"], "answer": 3},
+        {"question": "A relação correta é:", "options": ["Q ⊂ Z ⊂ N", "N ⊂ Z ⊂ Q", "I ⊂ Q ⊂ Z", "Z ⊂ N ⊂ Q"], "answer": 1},
+        {"question": "0,333... é:", "options": ["Irracional", "Natural", "Racional", "Complexo"], "answer": 2},
+        {"question": "R = Q ∪ ?", "options": ["Z", "N", "I", "C"], "answer": 2},
+        {"question": "O intervalo (3, 7] inclui:", "options": ["3 e 7", "Apenas 3", "Apenas 7", "Nenhum dos dois"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Função: Conceito e Representação",
+      "slug": "funcao-conceito-representacao",
+      "desc": "O que é função, domínio, contradomínio, imagem e representação gráfica.",
+      "category": "Álgebra",
+      "difficulty": "Intermediário",
+      "grade": "9º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Função associa cada elemento do domínio a exatamente um do contradomínio. f(x) = 2x+1 é uma regra. Domínio: entradas. Imagem: saídas. Gráfico: pares (x, y) no plano.",
+      "body": "<p>O conceito de <strong>função</strong> é uma das ideias mais importantes de toda a matemática. Ele aparece em todas as ciências e é a base do Ensino Médio.</p><h2>O que é Função?</h2><p>Uma função f é uma regra que associa <strong>cada elemento</strong> de um conjunto A (domínio) a <strong>exatamente um</strong> elemento de um conjunto B (contradomínio).</p><h2>Notação</h2><p>f: A → B, definida por f(x) = 2x + 1</p><p>x é a <strong>variável independente</strong> (entrada). f(x) é a <strong>variável dependente</strong> (saída).</p><h2>Domínio, Contradomínio e Imagem</h2><ul><li><strong>Domínio (D):</strong> todos os valores possíveis de x</li><li><strong>Contradomínio (CD):</strong> conjunto onde os resultados podem estar</li><li><strong>Imagem (Im):</strong> valores que realmente são atingidos (Im ⊆ CD)</li></ul><h2>Exemplo</h2><p>f(x) = 2x + 1</p><p>Se x = 0: f(0) = 1. Se x = 3: f(3) = 7. Se x = -2: f(-2) = -3.</p><h2>Representação Gráfica</h2><p>Cada par (x, f(x)) é um ponto no plano cartesiano. Ligando os pontos, formamos o <strong>gráfico da função</strong>.</p><p>f(x) = 2x + 1 é uma reta (função do 1º grau).</p><h2>Teste da Reta Vertical</h2><p>Um gráfico representa uma função se <strong>toda reta vertical</strong> corta o gráfico em no máximo um ponto.</p>",
+      "faq": [
+        {"q": "Todo gráfico é uma função?", "a": "Não! O gráfico de um círculo (x² + y² = r²) não é função, pois para um mesmo x existem dois valores de y. Use o teste da reta vertical."},
+        {"q": "Qual a diferença entre contradomínio e imagem?", "a": "Contradomínio é o conjunto 'alvo' (onde os resultados podem estar). Imagem é o subconjunto dos valores que realmente são atingidos. Imagem ⊆ Contradomínio."},
+        {"q": "Posso ter f(x) = 5 para todo x?", "a": "Sim! É a função constante. O gráfico é uma reta horizontal. Cada x tem saída 5. É função porque cada entrada tem uma única saída."},
+        {"q": "Função é máquina?", "a": "Boa analogia! Entra x (entrada), a máquina aplica a regra f(x), sai o resultado (saída). Cada entrada produz exatamente uma saída."}
+      ],
+      "quiz": [
+        {"question": "Se f(x) = 3x - 2, quanto é f(4)?", "options": ["10", "14", "12", "8"], "answer": 0},
+        {"question": "Domínio de uma função é:", "options": ["Os valores de saída", "Os valores de entrada", "O gráfico", "A fórmula"], "answer": 1},
+        {"question": "Qual teste verifica se um gráfico é função?", "options": ["Reta horizontal", "Reta vertical", "Reta diagonal", "Teste do ponto"], "answer": 1},
+        {"question": "Em f(x) = x + 5, se f(x) = 12, então x =", "options": ["17", "5", "7", "60"], "answer": 2},
+        {"question": "A imagem é sempre igual ao contradomínio?", "options": ["Sim", "Não, pode ser menor", "Não, pode ser maior", "São conceitos diferentes"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Função Afim (Introdução)",
+      "slug": "funcao-afim-introducao",
+      "desc": "Função do 1º grau: f(x) = ax + b, coeficientes, gráfico e crescimento.",
+      "category": "Álgebra",
+      "difficulty": "Intermediário",
+      "grade": "9º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Função afim: f(x) = ax + b. a = coeficiente angular (inclinação), b = coeficiente linear (onde corta o eixo y). Gráfico é uma reta. a>0: crescente, a<0: decrescente.",
+      "body": "<p>A <strong>função afim</strong> (ou do 1º grau) é a mais simples e aparece em inúmeras situações do cotidiano: preço por unidade, velocidade constante, contas de consumo.</p><h2>Formato</h2><p><strong>f(x) = ax + b</strong></p><ul><li><strong>a</strong> = coeficiente angular (determina a inclinação da reta)</li><li><strong>b</strong> = coeficiente linear (onde a reta cruza o eixo y)</li></ul><h2>Gráfico</h2><p>O gráfico é sempre uma <strong>reta</strong>. Para desenhá-lo, bastam 2 pontos:</p><p>Ex: f(x) = 2x + 1</p><ul><li>x = 0: f(0) = 1 → ponto (0, 1)</li><li>x = 2: f(2) = 5 → ponto (2, 5)</li></ul><p>Ligue os dois pontos: pronto, é a reta!</p><h2>Crescimento</h2><ul><li><strong>a > 0:</strong> reta crescente (sobe da esquerda para direita) ↗</li><li><strong>a < 0:</strong> reta decrescente (desce) ↘</li><li><strong>a = 0:</strong> reta horizontal (função constante) →</li></ul><h2>Raiz (Zero da Função)</h2><p>É o valor de x onde f(x) = 0. Graficamente, onde a reta cruza o eixo x.</p><p>f(x) = 2x + 6 → 2x + 6 = 0 → x = <strong>-3</strong></p><h2>Exemplos do Cotidiano</h2><ul><li><strong>Táxi:</strong> f(km) = 3,50 × km + 5,00 (bandeirada)</li><li><strong>Conta de luz:</strong> f(kWh) = 0,80 × kWh + 30 (taxa fixa)</li></ul>",
+      "faq": [
+        {"q": "Qual a diferença entre função afim e linear?", "a": "Linear: f(x) = ax (passa pela origem, b=0). Afim: f(x) = ax + b (pode não passar pela origem). Toda linear é afim, mas nem toda afim é linear."},
+        {"q": "O que o coeficiente angular 'a' representa?", "a": "A inclinação da reta. Se a=2, para cada 1 unidade que x avança, y sobe 2. Se a=-3, y desce 3 para cada x que avança 1."},
+        {"q": "E se a = 0?", "a": "A função vira f(x) = b, uma constante. O gráfico é uma reta horizontal no valor y = b."},
+        {"q": "Duas retas paralelas têm o mesmo 'a'?", "a": "Sim! Retas paralelas têm o mesmo coeficiente angular (mesma inclinação), mas coeficientes lineares diferentes (alturas diferentes)."}
+      ],
+      "quiz": [
+        {"question": "Em f(x) = -3x + 7, o coeficiente angular é:", "options": ["7", "-3", "3", "-7"], "answer": 1},
+        {"question": "O gráfico de f(x) = 2x - 1 cruza o eixo y em:", "options": ["2", "-1", "1", "0"], "answer": 1},
+        {"question": "Se a < 0, a função é:", "options": ["Crescente", "Constante", "Decrescente", "Quadrática"], "answer": 2},
+        {"question": "A raiz de f(x) = 4x - 8 é:", "options": ["x = 4", "x = -2", "x = 2", "x = 8"], "answer": 2},
+        {"question": "f(x) = 5 é uma função:", "options": ["Crescente", "Decrescente", "Afim", "Constante"], "answer": 3}
+      ]
+    },
+    {
+      "title": "Função Quadrática (Introdução)",
+      "slug": "funcao-quadratica-introducao",
+      "desc": "Função do 2º grau: f(x) = ax² + bx + c, parábola e vértice.",
+      "category": "Álgebra",
+      "difficulty": "Avançado",
+      "grade": "9º ano",
+      "reading_time": "10",
+      "xp": 120,
+      "essential": "f(x) = ax²+bx+c. Gráfico: parábola. a>0: concavidade para cima (vale). a<0: para baixo (montanha). Vértice: xv = -b/2a. Raízes: Bhaskara.",
+      "body": "<p>A <strong>função quadrática</strong> (2º grau) gera gráficos em forma de <strong>parábola</strong> — a curva dos arcos, jatos d'água e trajetórias de projéteis.</p><h2>Formato</h2><p><strong>f(x) = ax² + bx + c</strong>, com a ≠ 0</p><h2>A Parábola</h2><p>O gráfico é uma curva simétrica chamada parábola:</p><ul><li><strong>a > 0:</strong> parábola abre para cima (forma de vale ∪) — tem ponto mínimo</li><li><strong>a < 0:</strong> parábola abre para baixo (forma de montanha ∩) — tem ponto máximo</li></ul><h2>Vértice</h2><p>O ponto mais alto (ou mais baixo) da parábola:</p><p><strong>xv = -b / 2a</strong></p><p><strong>yv = f(xv)</strong> ou <strong>yv = -Δ / 4a</strong></p><h2>Raízes (Zeros)</h2><p>Onde a parábola cruza o eixo x. Usamos Bhaskara:</p><ul><li>Δ > 0: duas raízes (cruza 2 vezes)</li><li>Δ = 0: uma raiz (toca o eixo)</li><li>Δ < 0: nenhuma raiz (não toca o eixo)</li></ul><h2>Exemplo</h2><p>f(x) = x² - 4x + 3</p><p>a=1, b=-4, c=3</p><p>Δ = 16 - 12 = 4 → raízes: x = (4±2)/2 → x₁=3, x₂=1</p><p>Vértice: xv = 4/2 = 2, yv = 4-8+3 = -1 → V(2, -1)</p><h2>Aplicações</h2><p>Trajetória de uma bola, lucro máximo de uma empresa, área máxima com perímetro fixo.</p>",
+      "faq": [
+        {"q": "Por que o gráfico é uma parábola?", "a": "Porque o x² faz com que valores simétricos de x (ex: 2 e -2) produzam o mesmo f(x). Essa simetria gera a forma curva."},
+        {"q": "O que é concavidade?", "a": "A 'direção' da abertura da parábola. a>0: para cima (como uma tigela). a<0: para baixo (como um guarda-chuva)."},
+        {"q": "Para que serve o vértice?", "a": "É o ponto de máximo ou mínimo. Útil para otimização: lucro máximo, altura máxima de um projétil, custo mínimo."},
+        {"q": "Toda parábola cruza o eixo x?", "a": "Não! Se Δ < 0, a parábola não toca o eixo x. Ex: f(x) = x² + 1 está sempre acima do eixo x."}
+      ],
+      "quiz": [
+        {"question": "Se a > 0, a parábola abre para:", "options": ["Baixo", "Esquerda", "Cima", "Direita"], "answer": 2},
+        {"question": "O vértice de f(x) = x² - 6x + 8 tem xv =", "options": ["6", "3", "-3", "-6"], "answer": 1},
+        {"question": "Se Δ < 0, a parábola tem:", "options": ["2 raízes", "1 raiz", "0 raízes", "Infinitas raízes"], "answer": 2},
+        {"question": "f(x) = -x² é uma parábola que abre para:", "options": ["Cima", "Baixo", "Direita", "Esquerda"], "answer": 1},
+        {"question": "As raízes de x² - 5x + 6 = 0 são:", "options": ["1 e 6", "2 e 3", "-2 e -3", "5 e 6"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Teorema de Pitágoras",
+      "slug": "teorema-de-pitagoras",
+      "desc": "A relação a² = b² + c² no triângulo retângulo e aplicações.",
+      "category": "Geometria",
+      "difficulty": "Intermediário",
+      "grade": "9º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Em todo triângulo retângulo: hipotenusa² = cateto² + cateto² (a² = b² + c²). Hipotenusa é o maior lado (oposto ao ângulo de 90°).",
+      "body": "<p>O <strong>Teorema de Pitágoras</strong> é talvez o resultado mais famoso de toda a matemática: em todo triângulo retângulo, o quadrado da hipotenusa é igual à soma dos quadrados dos catetos.</p><h2>O Teorema</h2><p><strong>a² = b² + c²</strong></p><ul><li><strong>a</strong> = hipotenusa (lado oposto ao ângulo reto, sempre o maior)</li><li><strong>b</strong> e <strong>c</strong> = catetos (os lados que formam o ângulo de 90°)</li></ul><h2>Exemplo 1</h2><p>Catetos 3 e 4 → a² = 9 + 16 = 25 → a = <strong>5</strong></p><p>O triângulo 3-4-5 é o mais clássico da matemática!</p><h2>Exemplo 2 — Encontrando um Cateto</h2><p>Hipotenusa 13, cateto 5 → 13² = 5² + c² → 169 = 25 + c² → c² = 144 → c = <strong>12</strong></p><h2>Ternas Pitagóricas</h2><p>Conjuntos de 3 inteiros que satisfazem o teorema:</p><ul><li>3, 4, 5</li><li>5, 12, 13</li><li>8, 15, 17</li><li>7, 24, 25</li></ul><h2>Aplicações</h2><ul><li><strong>Diagonal do retângulo:</strong> d² = b² + h²</li><li><strong>Distância entre dois pontos:</strong> d = √[(x₂-x₁)² + (y₂-y₁)²]</li><li><strong>Escadas:</strong> qual a altura que uma escada de 5m encostada a 3m da parede alcança? h = √(25-9) = √16 = 4m</li></ul><h2>Recíproca</h2><p>Se a² = b² + c², o triângulo É retângulo. Isso serve para verificar se um ângulo é reto.</p>",
+      "faq": [
+        {"q": "Quem foi Pitágoras?", "a": "Filósofo e matemático grego (~570-495 a.C.). Fundou uma escola filosófica. O teorema já era conhecido antes dele, mas Pitágoras (ou sua escola) apresentou a demonstração formal."},
+        {"q": "O teorema vale para triângulos não-retângulos?", "a": "Não na forma original. Para outros triângulos usa-se a Lei dos Cossenos: a² = b² + c² - 2bc·cos(A), que generaliza Pitágoras."},
+        {"q": "O que é hipotenusa?", "a": "É o maior lado do triângulo retângulo, sempre oposto ao ângulo de 90°. Os outros dois são os catetos."},
+        {"q": "Existe versão 3D de Pitágoras?", "a": "Sim! A diagonal do paralelepípedo: d² = a² + b² + c². É Pitágoras aplicado duas vezes."}
+      ],
+      "quiz": [
+        {"question": "Catetos 6 e 8. Hipotenusa =", "options": ["10", "14", "48", "100"], "answer": 0},
+        {"question": "Hipotenusa 10, cateto 6. O outro cateto =", "options": ["4", "8", "16", "64"], "answer": 1},
+        {"question": "A hipotenusa é sempre:", "options": ["O menor lado", "O lado do ângulo reto", "O maior lado", "Um cateto"], "answer": 2},
+        {"question": "3² + 4² = ?", "options": ["12", "7", "25", "49"], "answer": 2},
+        {"question": "Diagonal de um retângulo 3×4 =", "options": ["7", "12", "5", "3,5"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Relações Trigonométricas no Triângulo Retângulo",
+      "slug": "relacoes-trigonometricas",
+      "desc": "Seno, cosseno e tangente — conceito e cálculos no triângulo retângulo.",
+      "category": "Geometria",
+      "difficulty": "Avançado",
+      "grade": "9º ano",
+      "reading_time": "10",
+      "xp": 120,
+      "essential": "No triângulo retângulo: sen(α) = cateto oposto / hipotenusa. cos(α) = cateto adjacente / hipotenusa. tan(α) = cateto oposto / cateto adjacente.",
+      "body": "<p>A <strong>trigonometria</strong> estuda relações entre ângulos e lados de triângulos. No triângulo retângulo, definimos três razões fundamentais.</p><h2>As Três Razões</h2><p>Para um ângulo agudo α:</p><ul><li><strong>Seno:</strong> sen(α) = cateto oposto / hipotenusa</li><li><strong>Cosseno:</strong> cos(α) = cateto adjacente / hipotenusa</li><li><strong>Tangente:</strong> tan(α) = cateto oposto / cateto adjacente</li></ul><p>Mnemônico: <strong>SOH-CAH-TOA</strong> (Seno=Oposto/Hipotenusa, Cosseno=Adjacente/Hipotenusa, Tangente=Oposto/Adjacente)</p><h2>Ângulos Notáveis</h2><table><tr><th>Ângulo</th><th>sen</th><th>cos</th><th>tan</th></tr><tr><td>30°</td><td>1/2</td><td>√3/2</td><td>√3/3</td></tr><tr><td>45°</td><td>√2/2</td><td>√2/2</td><td>1</td></tr><tr><td>60°</td><td>√3/2</td><td>1/2</td><td>√3</td></tr></table><h2>Exemplo</h2><p>Uma rampa de 10m faz ângulo de 30° com o chão. Qual a altura?</p><p>sen(30°) = h/10 → 1/2 = h/10 → h = <strong>5m</strong></p><h2>Relação Fundamental</h2><p><strong>sen²(α) + cos²(α) = 1</strong></p><p>E: tan(α) = sen(α) / cos(α)</p><h2>Aplicações</h2><p>Calcular alturas de prédios, distâncias inacessíveis, inclinação de rampas, ângulos de lançamento, navegação.</p>",
+      "faq": [
+        {"q": "O que é SOH-CAH-TOA?", "a": "É um mnemônico: Seno = Oposto/Hipotenusa, Cosseno = Adjacente/Hipotenusa, Tangente = Oposto/Adjacente. Ajuda a lembrar as definições."},
+        {"q": "Preciso decorar a tabela de ângulos notáveis?", "a": "Sim! 30°, 45° e 60° são cobrados em todas as provas. Com o tempo, você decora naturalmente."},
+        {"q": "Trigonometria funciona só em triângulos retângulos?", "a": "A introdução sim. No EM você estudará trigonometria no ciclo (seno e cosseno para qualquer ângulo) e lei dos senos/cossenos."},
+        {"q": "Para que serve trigonometria na vida real?", "a": "GPS, engenharia civil, astronomia, computação gráfica, música, ondas, eletricidade... é uma das áreas mais aplicáveis da matemática."}
+      ],
+      "quiz": [
+        {"question": "sen(30°) =", "options": ["√3/2", "1/2", "√2/2", "1"], "answer": 1},
+        {"question": "cos(60°) =", "options": ["√3/2", "1", "√2/2", "1/2"], "answer": 3},
+        {"question": "tan(45°) =", "options": ["0", "1/2", "1", "√2"], "answer": 2},
+        {"question": "Tangente é a razão:", "options": ["Oposto/Hipotenusa", "Adjacente/Hipotenusa", "Oposto/Adjacente", "Hipotenusa/Oposto"], "answer": 2},
+        {"question": "sen²(α) + cos²(α) =", "options": ["0", "2", "1", "sen(2α)"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Circunferência e Círculo",
+      "slug": "circunferencia-circulo",
+      "desc": "Comprimento da circunferência, área do círculo, arcos e setores.",
+      "category": "Geometria",
+      "difficulty": "Intermediário",
+      "grade": "9º ano",
+      "reading_time": "8",
+      "xp": 90,
+      "essential": "Comprimento: C = 2πr. Área: A = πr². Arco: proporcional ao ângulo central. Setor circular: A = (α/360) × πr².",
+      "body": "<p>Aprofundamos o estudo da circunferência e do círculo com fórmulas e cálculos envolvendo <strong>π</strong>.</p><h2>Circunferência vs. Círculo</h2><p><strong>Circunferência:</strong> a linha curva (1D). <strong>Círculo:</strong> a região interna (2D).</p><h2>Elementos</h2><ul><li><strong>Raio (r):</strong> do centro à borda</li><li><strong>Diâmetro (d):</strong> de borda a borda passando pelo centro (d = 2r)</li><li><strong>Corda:</strong> segmento com ambas extremidades na circunferência</li></ul><h2>Comprimento da Circunferência</h2><p><strong>C = 2πr = πd</strong></p><p>Ex: r = 7 cm → C = 2 × 3,14 × 7 = <strong>43,96 cm</strong></p><h2>Área do Círculo</h2><p><strong>A = πr²</strong></p><p>Ex: r = 7 cm → A = 3,14 × 49 = <strong>153,86 cm²</strong></p><h2>Arco de Circunferência</h2><p>Porção da circunferência determinada por um ângulo central α:</p><p><strong>ℓ = (α/360) × 2πr</strong></p><h2>Setor Circular</h2><p>\"Fatia de pizza\" — a área correspondente ao arco:</p><p><strong>A_setor = (α/360) × πr²</strong></p><p>Ex: Setor de 90° com r=10 → A = (90/360) × π × 100 = <strong>25π ≈ 78,5 cm²</strong></p><h2>Coroa Circular</h2><p>Região entre dois círculos concêntricos:</p><p><strong>A = π(R² - r²)</strong></p>",
+      "faq": [
+        {"q": "De onde vem o número π?", "a": "π é a razão entre o comprimento de qualquer circunferência e seu diâmetro. É uma constante universal: C/d = π ≈ 3,14159..."},
+        {"q": "Qual o valor exato de π?", "a": "π é irracional — tem infinitas casas decimais sem repetição. Usamos 3,14 ou 22/7 como aproximação."},
+        {"q": "O que são círculos concêntricos?", "a": "São círculos com o mesmo centro mas raios diferentes, como um alvo de tiro ao alvo."},
+        {"q": "A pizza inteira é um setor de quantos graus?", "a": "360° — o círculo completo. Uma fatia de 1/8 da pizza é um setor de 360°/8 = 45°."}
+      ],
+      "quiz": [
+        {"question": "Comprimento de circunferência com r=5 (π≈3,14):", "options": ["15,7 cm", "31,4 cm", "78,5 cm", "10 cm"], "answer": 1},
+        {"question": "Área do círculo com r=3 (π≈3,14):", "options": ["18,84 cm²", "28,26 cm²", "9,42 cm²", "6,28 cm²"], "answer": 1},
+        {"question": "Um setor de 180° é que fração do círculo?", "options": ["1/4", "1/3", "1/2", "3/4"], "answer": 2},
+        {"question": "d = 2r significa que o diâmetro é:", "options": ["Metade do raio", "O dobro do raio", "Igual ao raio", "O quadrado do raio"], "answer": 1},
+        {"question": "π é aproximadamente:", "options": ["2,14", "3,14", "4,14", "3,41"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Geometria Analítica: Plano Cartesiano",
+      "slug": "geometria-analitica-plano-cartesiano",
+      "desc": "Coordenadas, distância entre pontos, ponto médio e alinhamento.",
+      "category": "Geometria",
+      "difficulty": "Intermediário",
+      "grade": "9º ano",
+      "reading_time": "8",
+      "xp": 100,
+      "essential": "Plano cartesiano: eixo x (horizontal) e y (vertical). Ponto P(x,y). Distância: d = √[(x₂-x₁)² + (y₂-y₁)²]. Ponto médio: M = ((x₁+x₂)/2, (y₁+y₂)/2).",
+      "body": "<p>A <strong>geometria analítica</strong> une álgebra e geometria: representa figuras geométricas no plano usando coordenadas numéricas.</p><h2>O Plano Cartesiano</h2><p>Dois eixos perpendiculares:</p><ul><li><strong>Eixo x (abscissa):</strong> horizontal</li><li><strong>Eixo y (ordenada):</strong> vertical</li><li><strong>Origem O:</strong> ponto (0, 0)</li></ul><h2>Quadrantes</h2><ul><li>1º quadrante: x > 0, y > 0 (+,+)</li><li>2º quadrante: x < 0, y > 0 (-,+)</li><li>3º quadrante: x < 0, y < 0 (-,-)</li><li>4º quadrante: x > 0, y < 0 (+,-)</li></ul><h2>Distância entre Dois Pontos</h2><p><strong>d = √[(x₂ - x₁)² + (y₂ - y₁)²]</strong></p><p>É o Teorema de Pitágoras aplicado ao plano!</p><p>Ex: A(1, 2) e B(4, 6) → d = √[(3)² + (4)²] = √[9 + 16] = √25 = <strong>5</strong></p><h2>Ponto Médio</h2><p><strong>M = ((x₁ + x₂)/2, (y₁ + y₂)/2)</strong></p><p>Ex: A(2, 4) e B(6, 8) → M = (4, 6)</p><h2>Alinhamento de Três Pontos</h2><p>Três pontos estão alinhados quando formam uma reta. Verificamos pela condição do determinante = 0 ou conferindo se a \"inclinação\" entre quaisquer dois pares é a mesma.</p>",
+      "faq": [
+        {"q": "Quem inventou o plano cartesiano?", "a": "René Descartes, filósofo e matemático francês do século XVII. 'Cartesiano' vem de 'Cartesius', a versão latina de seu nome."},
+        {"q": "A fórmula da distância vem de Pitágoras?", "a": "Exatamente! A distância entre dois pontos forma a hipotenusa de um triângulo retângulo com catetos (x₂-x₁) e (y₂-y₁)."},
+        {"q": "O que é um sistema de coordenadas?", "a": "É uma forma de identificar posições no espaço usando números. GPS usa coordenadas (latitude, longitude), mapas usam (x, y)."},
+        {"q": "Pontos no eixo x têm y = ?", "a": "Zero! Pontos no eixo x têm y = 0 (ex: (3, 0)). Pontos no eixo y têm x = 0 (ex: (0, 5))."}
+      ],
+      "quiz": [
+        {"question": "Distância entre (0,0) e (3,4):", "options": ["7", "5", "25", "12"], "answer": 1},
+        {"question": "Ponto médio entre (2,6) e (8,10):", "options": ["(10, 16)", "(5, 8)", "(6, 4)", "(4, 3)"], "answer": 1},
+        {"question": "O ponto (3, -2) está no:", "options": ["1º quadrante", "2º quadrante", "3º quadrante", "4º quadrante"], "answer": 3},
+        {"question": "O ponto (-5, 0) está:", "options": ["No eixo x", "No eixo y", "No 3º quadrante", "Na origem"], "answer": 0},
+        {"question": "A origem tem coordenadas:", "options": ["(1, 1)", "(0, 0)", "(0, 1)", "(1, 0)"], "answer": 1}
+      ]
+    },
+    {
+      "title": "Volume de Pirâmides, Cones e Esferas",
+      "slug": "volume-piramides-cones-esferas",
+      "desc": "Volume de pirâmides (V=Ab×h/3), cones (V=πr²h/3) e esferas (V=4πr³/3).",
+      "category": "Geometria",
+      "difficulty": "Avançado",
+      "grade": "9º ano",
+      "reading_time": "9",
+      "xp": 100,
+      "essential": "Pirâmide: V = (Ab × h)/3. Cone: V = (πr²h)/3. Esfera: V = (4πr³)/3 e A = 4πr². Pirâmide e cone = 1/3 do prisma/cilindro correspondente.",
+      "body": "<p>No 8º ano estudamos prismas e cilindros. Agora vamos ver sólidos com vértice (pirâmides e cones) e a esfera.</p><h2>Pirâmide</h2><p>Tem uma base poligonal e faces triangulares convergindo para um vértice (ápice).</p><p><strong>V = (Área da base × altura) / 3</strong></p><p>É <strong>1/3 do prisma</strong> com mesma base e altura!</p><p>Ex: Base quadrada 6×6, altura 9 → V = (36 × 9)/3 = <strong>108 cm³</strong></p><h2>Cone</h2><p>Como uma pirâmide, mas com base circular.</p><p><strong>V = (πr² × h) / 3</strong></p><p>É <strong>1/3 do cilindro</strong> correspondente!</p><p>Ex: r = 5, h = 12 → V = (π × 25 × 12)/3 = <strong>100π ≈ 314 cm³</strong></p><h2>Esfera</h2><p>O sólido perfeitamente redondo.</p><p><strong>Volume: V = (4πr³) / 3</strong></p><p><strong>Área da superfície: A = 4πr²</strong></p><p>Ex: r = 6 → V = (4π × 216)/3 = <strong>288π ≈ 904,8 cm³</strong></p><h2>Comparação</h2><p>Se cilindro, cone e esfera têm mesmo raio e a esfera cabe exatamente no cilindro:</p><ul><li>V_cilindro = πr²(2r) = 2πr³</li><li>V_esfera = 4πr³/3</li><li>V_cone = πr²(2r)/3 = 2πr³/3</li></ul><p>Cone : Esfera : Cilindro = 1 : 2 : 3. Descoberta de Arquimedes!</p>",
+      "faq": [
+        {"q": "Por que pirâmide e cone são 1/3?", "a": "Pode ser demonstrado com cálculo integral ou experimentalmente: 3 cones cheios de água enchem exatamente 1 cilindro de mesma base e altura."},
+        {"q": "Quem descobriu o volume da esfera?", "a": "Arquimedes de Siracusa (~287-212 a.C.), que considerou essa sua maior descoberta. Pediu que a relação cone:esfera:cilindro fosse gravada em seu túmulo."},
+        {"q": "O que é a geratriz do cone?", "a": "É a linha inclinada da ponta à borda da base. Se r é o raio e h a altura, a geratriz g = √(r² + h²) (Pitágoras!)."},
+        {"q": "A Terra é uma esfera perfeita?", "a": "Quase! É ligeiramente achatada nos polos (geoide). Mas para cálculos básicos, a aproximação esférica funciona bem."}
+      ],
+      "quiz": [
+        {"question": "Volume do cone é que fração do cilindro?", "options": ["1/2", "1/3", "2/3", "1/4"], "answer": 1},
+        {"question": "V da esfera com r=3 (use π≈3,14):", "options": ["113,04", "84,78", "28,26", "36π"], "answer": 0},
+        {"question": "Pirâmide base 4×4, h=9. V=", "options": ["144", "48", "36", "108"], "answer": 1},
+        {"question": "Área da superfície da esfera: A =", "options": ["2πr²", "4πr²", "πr²", "4πr³/3"], "answer": 1},
+        {"question": "A razão cone:esfera:cilindro de Arquimedes é:", "options": ["1:2:3", "1:3:5", "2:3:4", "1:1:1"], "answer": 0}
+      ]
+    },
+    {
+      "title": "Juros Compostos",
+      "slug": "juros-compostos",
+      "desc": "Juros sobre juros, fórmula M = C(1+i)ᵗ e comparação com juros simples.",
+      "category": "Números e Operações",
+      "difficulty": "Avançado",
+      "grade": "9º ano",
+      "reading_time": "9",
+      "xp": 110,
+      "essential": "Juros compostos: M = C × (1 + i)ᵗ. Os juros incidem sobre capital + juros anteriores (juros sobre juros). Crescimento exponencial. Sempre rendem mais que simples.",
+      "body": "<p>No 7º ano vimos juros simples (J = C × i × t). Agora estudamos os <strong>juros compostos</strong>, o sistema usado pelo mercado financeiro.</p><h2>A Diferença</h2><ul><li><strong>Simples:</strong> juros calculados sempre sobre o capital INICIAL</li><li><strong>Compostos:</strong> juros calculados sobre o capital + juros acumulados</li></ul><h2>Fórmula</h2><p><strong>M = C × (1 + i)ᵗ</strong></p><ul><li>M = montante final</li><li>C = capital inicial</li><li>i = taxa (em decimal)</li><li>t = tempo (períodos)</li></ul><h2>Exemplo</h2><p>R$ 1.000 a 10% ao mês por 3 meses:</p><p><strong>Simples:</strong> J = 1000 × 0,10 × 3 = 300 → M = R$ 1.300</p><p><strong>Compostos:</strong></p><ul><li>Mês 1: 1000 × 1,10 = 1.100</li><li>Mês 2: 1100 × 1,10 = 1.210</li><li>Mês 3: 1210 × 1,10 = 1.331</li></ul><p>M = 1000 × (1,10)³ = <strong>R$ 1.331</strong></p><p>Compostos renderam R$ 31 a mais!</p><h2>Crescimento Exponencial</h2><p>Juros compostos crescem <strong>exponencialmente</strong> — quanto mais tempo, maior a diferença em relação aos simples.</p><h2>A Regra dos 72</h2><p>Para saber em quanto tempo o dinheiro dobra: <strong>72 ÷ taxa ≈ tempo</strong></p><p>A 6% ao ano: 72 ÷ 6 = <strong>~12 anos</strong> para dobrar.</p>",
+      "faq": [
+        {"q": "Por que bancos usam juros compostos?", "a": "Porque rendem mais para quem empresta (o banco). Na poupança, você ganha compostos; no empréstimo, você paga compostos. O efeito se acumula exponencialmente."},
+        {"q": "Juros compostos sempre são piores para o tomador?", "a": "Sim, se comparados aos simples para o mesmo prazo e taxa. Mas juros compostos são a realidade do mercado. Use a seu favor investindo!"},
+        {"q": "O que é a Regra dos 72?", "a": "Uma aproximação rápida: divida 72 pela taxa percentual anual para saber em quantos anos o investimento dobra. A 8%: 72/8 = 9 anos."},
+        {"q": "Posso usar juros compostos para descontos?", "a": "Sim! Desconto composto: VF = VA × (1 - i)ᵗ. Ex: produto com 10% de desconto ao mês por 2 meses: VF = P × 0,90² = 0,81P (19% off, não 20%)."}
+      ],
+      "quiz": [
+        {"question": "M = C(1+i)ᵗ. Se C=500, i=10%, t=2:", "options": ["R$ 600", "R$ 605", "R$ 550", "R$ 610"], "answer": 1},
+        {"question": "Juros compostos incidem sobre:", "options": ["Só o capital", "Capital + juros anteriores", "Só os juros", "O montante fixo"], "answer": 1},
+        {"question": "Pela regra dos 72, a 12% ao ano o dinheiro dobra em:", "options": ["12 anos", "6 anos", "72 anos", "8 anos"], "answer": 1},
+        {"question": "Em 3 meses, juros compostos rendem ___ que simples:", "options": ["Menos", "Igual", "Mais", "Depende da taxa"], "answer": 2},
+        {"question": "O fator (1+i) elevado a t representa:", "options": ["Juros simples", "Crescimento linear", "Crescimento exponencial", "Desconto fixo"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Estatística: Medidas de Dispersão",
+      "slug": "estatistica-medidas-dispersao",
+      "desc": "Amplitude, variância e desvio padrão — como medir a variabilidade dos dados.",
+      "category": "Estatística e Probabilidade",
+      "difficulty": "Avançado",
+      "grade": "9º ano",
+      "reading_time": "8",
+      "xp": 100,
+      "essential": "Dispersão mede o 'espalhamento' dos dados. Amplitude = máximo - mínimo. Variância = média dos quadrados dos desvios. Desvio padrão = √variância.",
+      "body": "<p>No 7º ano estudamos média, moda e mediana (tendência central). Agora vamos medir o <strong>quanto os dados variam</strong> ao redor dessa tendência.</p><h2>Amplitude</h2><p><strong>A = maior valor - menor valor</strong></p><p>Ex: Notas 3, 5, 7, 8, 9 → A = 9 - 3 = <strong>6</strong></p><p>Simples, mas sensível a outliers.</p><h2>Desvio</h2><p>É a distância de cada valor até a média: d = x - x̄</p><p>Notas: 4, 6, 8. Média = 6.</p><p>Desvios: -2, 0, +2. A soma dos desvios é sempre zero!</p><h2>Variância (σ²)</h2><p>Média dos <strong>quadrados</strong> dos desvios:</p><p><strong>σ² = Σ(xi - x̄)² / n</strong></p><p>Ex: Desvios: -2, 0, +2 → Quadrados: 4, 0, 4 → σ² = 8/3 ≈ <strong>2,67</strong></p><h2>Desvio Padrão (σ)</h2><p><strong>σ = √variância</strong></p><p>Ex: σ = √2,67 ≈ <strong>1,63</strong></p><p>O desvio padrão está na mesma unidade dos dados (notas, cm, kg), por isso é mais intuitivo que a variância.</p><h2>Interpretação</h2><ul><li><strong>Desvio padrão pequeno:</strong> dados concentrados perto da média (consistentes)</li><li><strong>Desvio padrão grande:</strong> dados espalhados (muita variação)</li></ul><h2>Exemplo Prático</h2><p>Turma A: notas 7, 7, 7, 7 (σ = 0, perfeita consistência)</p><p>Turma B: notas 2, 5, 9, 12 (σ alto, muita variação)</p><p>Ambas podem ter a mesma média (7), mas comportamentos bem diferentes!</p>",
+      "faq": [
+        {"q": "Por que elevar ao quadrado os desvios?", "a": "Para eliminar os sinais negativos. A soma dos desvios sempre dá zero (se cancelam). Elevando ao quadrado, todos ficam positivos e podemos calcular a média."},
+        {"q": "Qual a diferença entre variância e desvio padrão?", "a": "A variância está em unidades ao quadrado (difícil interpretar). O desvio padrão é a raiz da variância, voltando à unidade original dos dados."},
+        {"q": "Desvio padrão zero significa o quê?", "a": "Que todos os valores são iguais (nenhuma variação). Ex: {5, 5, 5, 5} tem σ = 0."},
+        {"q": "Qual é melhor: amplitude ou desvio padrão?", "a": "Desvio padrão! A amplitude só usa 2 valores (max e min) e é muito sensível a outliers. O desvio padrão usa todos os dados."}
+      ],
+      "quiz": [
+        {"question": "Amplitude de {2, 5, 8, 11, 14}:", "options": ["6", "8", "12", "14"], "answer": 2},
+        {"question": "A soma dos desvios em relação à média é sempre:", "options": ["Positiva", "Negativa", "Zero", "Igual a n"], "answer": 2},
+        {"question": "Desvio padrão é:", "options": ["A raiz da amplitude", "A raiz da variância", "O quadrado da média", "A metade da amplitude"], "answer": 1},
+        {"question": "Dados mais concentrados têm desvio padrão:", "options": ["Grande", "Pequeno", "Zero", "Negativo"], "answer": 1},
+        {"question": "Variância de {5, 5, 5}:", "options": ["5", "15", "0", "1"], "answer": 2}
+      ]
+    },
+    {
+      "title": "Revisão Integradora para o Ensino Médio",
+      "slug": "revisao-integradora-em",
+      "desc": "Consolidação dos conceitos fundamentais do EF2 para transição ao EM.",
+      "category": "Revisão",
+      "difficulty": "Avançado",
+      "grade": "9º ano",
+      "reading_time": "10",
+      "xp": 120,
+      "essential": "Revisão dos pilares: conjuntos numéricos, álgebra (equações 1º e 2º grau), funções, geometria (Pitágoras, trigonometria), estatística. Base sólida para o EM.",
+      "body": "<p>Esta é a revisão final que conecta todos os conceitos estudados no Ensino Fundamental 2 e prepara você para o <strong>Ensino Médio</strong>.</p><h2>Pilar 1: Números</h2><ul><li>N ⊂ Z ⊂ Q ⊂ R</li><li>Operações com inteiros, frações, decimais</li><li>Potenciação e radiciação</li><li>Notação científica</li></ul><h2>Pilar 2: Álgebra</h2><ul><li>Equações do 1º grau: ax + b = 0</li><li>Equações do 2º grau: ax² + bx + c = 0 (Bhaskara)</li><li>Sistemas de equações</li><li>Produtos notáveis e fatoração</li><li>Conceito de função</li></ul><h2>Pilar 3: Geometria</h2><ul><li>Figuras planas: perímetro e área</li><li>Triângulos: congruência e semelhança</li><li>Teorema de Pitágoras</li><li>Trigonometria no triângulo retângulo (sen, cos, tan)</li><li>Circunferência: C = 2πr, A = πr²</li><li>Sólidos: V de prismas, cilindros, pirâmides, cones, esferas</li></ul><h2>Pilar 4: Estatística e Probabilidade</h2><ul><li>Média, moda, mediana</li><li>Desvio padrão</li><li>Probabilidade: P = favoráveis/possíveis</li><li>Gráficos e análise de dados</li></ul><h2>Pilar 5: Proporcionalidade e Finanças</h2><ul><li>Razão, proporção, regra de três</li><li>Porcentagem</li><li>Juros simples e compostos</li></ul><h2>O que Vem no EM?</h2><p>No Ensino Médio, cada pilar se aprofunda: funções (afim, quadrática, exponencial, log), geometria analítica, trigonometria no ciclo, matrizes, combinatória, probabilidade avançada e estatística aplicada ao ENEM.</p>",
+      "faq": [
+        {"q": "Preciso saber tudo isso de cabeça?", "a": "Não de cabeça, mas saber aplicar. O EM presume que você domina esses conceitos. Revise os que sentir mais dificuldade."},
+        {"q": "Qual o conceito mais importante para o EM?", "a": "Funções! Todo o 1º EM gira em torno de funções (afim, quadrática, exponencial, logarítmica). Domine o conceito e a leitura de gráficos."},
+        {"q": "O ENEM cobra conteúdo do EF2?", "a": "Sim, bastante! Cerca de 30-40% das questões de Matemática do ENEM envolvem proporção, porcentagem, gráficos e geometria básica — todos do EF2."},
+        {"q": "O que fazer se tenho lacunas?", "a": "Identifique os temas que mais erra e revise especificamente. Não adianta avançar para funções exponenciais se ainda não domina equações do 1º grau."}
+      ],
+      "quiz": [
+        {"question": "Bhaskara resolve equações de que grau?", "options": ["1º", "2º", "3º", "Qualquer"], "answer": 1},
+        {"question": "sen(30°) =", "options": ["√3/2", "1/2", "√2/2", "1"], "answer": 1},
+        {"question": "A fórmula da distância entre pontos é derivada de:", "options": ["Tales", "Pitágoras", "Bhaskara", "Euler"], "answer": 1},
+        {"question": "M = C(1+i)ᵗ é a fórmula de:", "options": ["Juros simples", "Juros compostos", "Proporção", "Estatística"], "answer": 1},
+        {"question": "Uma função associa cada entrada a:", "options": ["Duas saídas", "Nenhuma saída", "Exatamente uma saída", "Infinitas saídas"], "answer": 2}
+      ]
+    }
+  ]
+}

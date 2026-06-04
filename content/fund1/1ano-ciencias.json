@@ -1,0 +1,105 @@
+{
+  "subject": "Ciências",
+  "slug": "1ano-ciencias",
+  "level": "Fundamental 1",
+  "grade": "1º Ano",
+  "color": "var(--biologia)",
+  "articles": [
+    {
+      "title": "Os Cinco Sentidos",
+      "slug": "cinco-sentidos",
+      "desc": "Visão, audição, tato, olfato e paladar.",
+      "category": "Corpo Humano",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "50",
+      "essential": "5 sentidos: Visão (olhos), Audição (ouvidos), Tato (pele), Olfato (nariz), Paladar (língua). Cada um usa um órgão diferente.",
+      "body": "<p>Nosso corpo tem <strong>cinco sentidos</strong> que nos ajudam a perceber o mundo. A <strong>visão</strong> (olhos) nos faz ver cores e formas. A <strong>audição</strong> (ouvidos) nos faz ouvir sons e músicas.</p><p>O <strong>tato</strong> (pele) nos faz sentir se algo é quente, frio, macio ou áspero. O <strong>olfato</strong> (nariz) nos faz sentir cheiros. E o <strong>paladar</strong> (língua) nos faz sentir sabores: doce, salgado, azedo e amargo.</p><p>Sem esses sentidos, não conseguiríamos interagir com o mundo! Eles nos protegem: o tato avisa que algo está quente demais, o olfato percebe cheiro de fumaça, o paladar rejeita comida estragada.</p>",
+      "faq": [{"q":"Qual o sentido mais usado?","a":"A visão — cerca de 80% das informações que recebemos vêm dos olhos."},{"q":"Pessoas cegas usam que sentidos?","a":"Usam muito o tato (braile), audição e olfato de forma mais aguçada."},{"q":"Quantos sabores existem?","a":"4 básicos: doce, salgado, azedo e amargo. Alguns cientistas incluem o umami."}]
+    },
+    {
+      "title": "Partes do Corpo",
+      "slug": "partes-do-corpo",
+      "desc": "Cabeça, tronco e membros.",
+      "category": "Corpo Humano",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Corpo dividido em 3 partes: cabeça (cérebro, rosto), tronco (peito, barriga) e membros (braços e pernas).",
+      "body": "<p>Nosso corpo se divide em três partes principais: <strong>cabeça</strong>, <strong>tronco</strong> e <strong>membros</strong>.</p><p>Na <strong>cabeça</strong> ficam o cérebro (que controla tudo), os olhos, ouvidos, nariz e boca. O <strong>tronco</strong> é a parte central, onde ficam o coração, pulmões e barriga. Os <strong>membros</strong> são os braços (membros superiores) e as pernas (membros inferiores).</p><p>Cada parte do corpo tem uma função importante. Os braços nos ajudam a pegar coisas, as pernas a andar e correr, e a cabeça abriga o cérebro que comanda tudo!</p>",
+      "faq": [{"q":"O que são membros superiores?","a":"São os braços e as mãos."},{"q":"E membros inferiores?","a":"São as pernas e os pés."},{"q":"Qual o órgão mais importante?","a":"O cérebro — ele controla todo o corpo."}]
+    },
+    {
+      "title": "Seres Vivos e Não Vivos",
+      "slug": "seres-vivos-e-nao-vivos",
+      "desc": "O que está vivo e o que não está?",
+      "category": "Natureza",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Seres vivos: nascem, crescem, se alimentam, se reproduzem e morrem. Exemplos: plantas, animais, pessoas. Não vivos: pedra, água, cadeira.",
+      "body": "<p><strong>Seres vivos</strong> são aqueles que nascem, crescem, se alimentam, se reproduzem e morrem. Pessoas, animais e plantas são seres vivos.</p><p><strong>Seres não vivos</strong> (ou inanimados) não fazem nada disso. Uma pedra não cresce, uma cadeira não come, a água não se reproduz. Eles existem, mas não estão vivos.</p><p>Dica para identificar: pergunte — isso cresce? Se alimenta? Pode ter filhotes ou sementes? Se sim, é um ser vivo!</p>",
+      "faq": [{"q":"Fogo é ser vivo?","a":"Não! Apesar de 'nascer' e 'morrer', fogo não se alimenta nem se reproduz de verdade."},{"q":"Planta é ser vivo?","a":"Sim! Plantas nascem, crescem, se alimentam (fotossíntese), produzem sementes e morrem."}]
+    },
+    {
+      "title": "Animais Domésticos e Selvagens",
+      "slug": "animais-domesticos-e-selvagens",
+      "desc": "Os animais que vivem com a gente e os que vivem livres.",
+      "category": "Animais",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Domésticos: vivem com humanos (cachorro, gato, galinha). Selvagens: vivem na natureza (leão, cobra, tucano).",
+      "body": "<p><strong>Animais domésticos</strong> são os que convivem com os seres humanos e dependem deles: cachorro, gato, cavalo, galinha, vaca. Foram 'domesticados' ao longo de milhares de anos.</p><p><strong>Animais selvagens</strong> vivem livres na natureza: leão, onça, tucano, cobra, jacaré. Eles encontram sua própria comida e moradia sem ajuda humana.</p><p>Alguns animais estão no meio: o papagaio pode ser domesticado, mas vive selvagem na floresta. A regra é: se depende do humano para viver, é doméstico; se vive sozinho na natureza, é selvagem.</p>",
+      "faq": [{"q":"Hamster é doméstico?","a":"Sim! Hamsters de estimação são domésticos."},{"q":"Animais do zoológico são selvagens?","a":"Sim, continuam sendo selvagens — estão em cativeiro mas sua espécie é da natureza."}]
+    },
+    {
+      "title": "Plantas: Partes e Funções",
+      "slug": "plantas-partes",
+      "desc": "Raiz, caule, folha, flor e fruto.",
+      "category": "Natureza",
+      "difficulty": "Básico",
+      "reading_time": "4",
+      "xp": "50",
+      "essential": "Raiz: absorve água. Caule: sustenta e transporta. Folha: faz fotossíntese. Flor: reprodução. Fruto: protege a semente.",
+      "body": "<p>As plantas têm partes com funções diferentes. A <strong>raiz</strong> fica enterrada no solo e absorve água e nutrientes. O <strong>caule</strong> é o 'corpo' da planta — sustenta e transporta água das raízes para as folhas.</p><p>As <strong>folhas</strong> são como fábricas de comida: usam a luz do sol, água e gás carbônico para produzir alimento (fotossíntese). A <strong>flor</strong> é responsável pela reprodução — dela nascem os frutos.</p><p>O <strong>fruto</strong> protege a <strong>semente</strong>, que pode dar origem a uma nova planta. Maçã, laranja e tomate são frutos! Dentro de cada um há sementes.</p>",
+      "faq": [{"q":"Tomate é fruta ou legume?","a":"Cientificamente é fruto! Fruto é tudo que vem da flor e tem semente."},{"q":"Cacto tem folhas?","a":"Sim, mas são modificadas em espinhos para evitar perda de água."}]
+    },
+    {
+      "title": "Água: Estados Físicos",
+      "slug": "agua-estados-fisicos",
+      "desc": "A água pode ser líquida, sólida e gasosa!",
+      "category": "Matéria",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "75",
+      "essential": "Líquido: água da torneira. Sólido: gelo. Gasoso: vapor (nuvens). Muda de estado com calor (derrete) e frio (congela).",
+      "body": "<p>A água é uma substância incrível porque pode existir em <strong>três estados</strong>. No estado <strong>líquido</strong>, é a água que bebemos e que cai da chuva.</p><p>Quando esfria muito (abaixo de 0°C), a água vira <strong>gelo</strong> — estado sólido. E quando esquenta muito, vira <strong>vapor</strong> — estado gasoso, como a fumaça que sai da panela quente.</p><p>Essas mudanças acontecem o tempo todo na natureza: o sol esquenta a água dos rios (evapora), o vapor sobe e forma nuvens, as nuvens esfriam e a água cai como chuva (condensa). É o <strong>ciclo da água</strong>!</p>",
+      "faq": [{"q":"Nuvem é feita de quê?","a":"De gotinhas minúsculas de água ou cristais de gelo flutuando no ar."},{"q":"A que temperatura a água congela?","a":"A 0°C (zero graus Celsius)."},{"q":"E a que temperatura ferve?","a":"A 100°C (cem graus Celsius)."}]
+    },
+    {
+      "title": "Dia e Noite",
+      "slug": "dia-e-noite",
+      "desc": "Por que temos dia claro e noite escura?",
+      "category": "Terra e Universo",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "A Terra gira em torno de si mesma (rotação). O lado virado para o Sol tem dia; o lado oposto tem noite. 1 volta = 24 horas.",
+      "body": "<p>Já se perguntou por que temos dia e noite? É porque a <strong>Terra gira</strong> como um pião! Esse movimento se chama <strong>rotação</strong>.</p><p>O lado da Terra virado para o <strong>Sol</strong> recebe luz e calor — é <strong>dia</strong>. O lado oposto fica escuro — é <strong>noite</strong>. Enquanto é dia no Brasil, é noite no Japão!</p><p>A Terra leva <strong>24 horas</strong> para dar uma volta completa. Por isso nosso dia tem 24 horas: metade de luz e metade de escuridão (mais ou menos).</p>",
+      "faq": [{"q":"A Terra para de girar?","a":"Não! Ela gira sem parar. Por isso sempre temos dia e noite."},{"q":"Por que não sentimos a Terra girar?","a":"Porque tudo gira junto: nós, o ar, os prédios. É como estar dentro de um avião em velocidade constante."}]
+    },
+    {
+      "title": "Higiene e Saúde",
+      "slug": "higiene-e-saude",
+      "desc": "Hábitos que mantêm nosso corpo saudável.",
+      "category": "Saúde",
+      "difficulty": "Básico",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Lavar as mãos, tomar banho, escovar os dentes, comer frutas e verduras, beber água, dormir bem. Hábitos de higiene previnem doenças.",
+      "body": "<p><strong>Higiene</strong> são os hábitos que mantêm nosso corpo limpo e saudável. O mais importante: <strong>lavar as mãos</strong> com água e sabão — antes de comer, depois do banheiro e ao chegar em casa.</p><p>Outros hábitos essenciais: <strong>tomar banho</strong> todo dia, <strong>escovar os dentes</strong> após as refeições, <strong>cortar as unhas</strong> e usar roupas limpas. Isso evita germes e doenças!</p><p>Saúde também depende de <strong>alimentação</strong> (comer frutas, verduras e evitar muito doce), <strong>beber água</strong>, <strong>dormir bem</strong> (crianças precisam de 9-11 horas de sono) e <strong>brincar ao ar livre</strong>.</p>",
+      "faq": [{"q":"Por que lavar as mãos?","a":"Para remover germes invisíveis que podem causar gripe, diarreia e outras doenças."},{"q":"Quantas vezes escovar os dentes?","a":"Pelo menos 3 vezes ao dia: após café da manhã, almoço e antes de dormir."}]
+    }
+  ]
+}
