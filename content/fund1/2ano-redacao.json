@@ -1,0 +1,442 @@
+{
+  "subject": "Redação",
+  "slug": "2ano-redacao",
+  "level": "Fundamental 1",
+  "grade": "2º ano",
+  "color": "var(--redacao)",
+  "icon": "pen",
+  "articles": [
+    {
+      "title": "Estrutura da Dissertação",
+      "slug": "estrutura-da-dissertacao",
+      "desc": "Domine a estrutura da dissertacao-argumentativa do ENEM - introducao, desenvolvimento e conclusao - com modelo de 4 paragrafos e 30 linhas para garantir nota maxima.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "A dissertacao-argumentativa do ENEM segue uma estrutura rigida de 4 paragrafos minimos em ate 30 linhas. Introducao (1 paragrafo) traz contextualizacao do tema mais a tese (posicionamento do autor). Desenvolvimento 1 (1 paragrafo) apresenta argumento 1 com repertorio sociocultural e analise. Desenvolvimento 2 (1 paragrafo) traz argumento 2 com repertorio e analise. Conclusao (1 paragrafo) retoma a tese e apresenta a proposta de intervencao com os 5 elementos obrigatorios. O titulo e opcional no ENEM, mas obrigatorio em alguns vestibulares. A linguagem deve ser em 3a pessoa ou 1a pessoa do plural (nos).",
+      "body": "<h2>Vis&atilde;o Geral da Estrutura</h2><p>A disserta&ccedil;&atilde;o-argumentativa do ENEM segue uma estrutura consagrada que permite ao candidato organizar suas ideias de forma clara e eficiente dentro das 30 linhas dispon&iacute;veis. Dominar essa estrutura &eacute; o primeiro passo para conquistar uma nota alta.</p><h2>Mapa da Reda&ccedil;&atilde;o</h2><table><tr><th>Parte</th><th>Par&aacute;grafos</th><th>Linhas (aprox.)</th><th>Conte&uacute;do</th></tr><tr><td>Introdu&ccedil;&atilde;o</td><td>1</td><td>5-7</td><td>Contextualiza&ccedil;&atilde;o + Tese</td></tr><tr><td>Desenvolvimento 1</td><td>1</td><td>7-9</td><td>Argumento 1 + Repert&oacute;rio + An&aacute;lise</td></tr><tr><td>Desenvolvimento 2</td><td>1</td><td>7-9</td><td>Argumento 2 + Repert&oacute;rio + An&aacute;lise</td></tr><tr><td>Conclus&atilde;o</td><td>1</td><td>7-9</td><td>Retomada da Tese + Proposta de Interven&ccedil;&atilde;o</td></tr></table><h2>Introdu&ccedil;&atilde;o</h2><p>A introdu&ccedil;&atilde;o tem duas fun&ccedil;&otilde;es principais - <strong>contextualizar</strong> o tema (usando dado hist&oacute;rico, cita&ccedil;&atilde;o, alus&atilde;o ou paradoxo) e apresentar a <strong>tese</strong> (seu posicionamento claro sobre o problema). A tese deve ser a &uacute;ltima ou pen&uacute;ltima frase da introdu&ccedil;&atilde;o e antecipar os argumentos que ser&atilde;o desenvolvidos.</p><h2>Desenvolvimento</h2><p>Cada par&aacute;grafo de desenvolvimento defende UM aspecto da tese. A estrutura interna segue o padr&atilde;o - t&oacute;pico frasal (apresenta o argumento), fundamenta&ccedil;&atilde;o (repert&oacute;rio sociocultural) e an&aacute;lise (conex&atilde;o entre repert&oacute;rio e tema). Os dois par&aacute;grafos devem ser complementares, nunca repetitivos.</p><h2>Conclus&atilde;o</h2><p>A conclus&atilde;o do ENEM tem uma particularidade - al&eacute;m de retomar a tese, deve conter a <strong>proposta de interven&ccedil;&atilde;o</strong> com 5 elementos obrigat&oacute;rios (agente, a&ccedil;&atilde;o, meio, efeito e detalhamento). Essa &eacute; a parte avaliada na Compet&ecirc;ncia 5.</p><h2>Regras Importantes</h2><ul><li><strong>T&iacute;tulo</strong> - opcional no ENEM (n&atilde;o conta como linha), obrigat&oacute;rio em vestibulares como FUVEST e UNICAMP</li><li><strong>Linguagem</strong> - use 3&ordf; pessoa ou 1&ordf; pessoa do plural (\"n&oacute;s\"). Nunca use 1&ordf; pessoa do singular (\"eu acho\")</li><li><strong>30 linhas</strong> - n&atilde;o ultrapasse o limite. Textos com menos de 8 linhas s&atilde;o zerados</li><li>A estrutura de 4 par&aacute;grafos &eacute; o m&iacute;nimo - voc&ecirc; pode usar 5 se preferir dividir a conclus&atilde;o</li></ul>",
+      "faq": [
+        {
+          "q": "Quantos paragrafos a redacao do ENEM deve ter",
+          "a": "O minimo sao 4 paragrafos - 1 de introducao, 2 de desenvolvimento e 1 de conclusao. E possivel usar 5 paragrafos dividindo a conclusao, mas a estrutura de 4 e a mais eficiente para as 30 linhas disponiveis."
+        },
+        {
+          "q": "O titulo e obrigatorio na redacao do ENEM",
+          "a": "No ENEM, o titulo e opcional e nao conta como linha da redacao. Porem, em vestibulares como FUVEST e UNICAMP, o titulo geralmente e obrigatorio. Se optar por colocar, ele deve ser curto e relacionado ao tema."
+        },
+        {
+          "q": "Qual linguagem usar na redacao do ENEM",
+          "a": "Use 3a pessoa (impessoal) ou 1a pessoa do plural (nos). Nunca use 1a pessoa do singular (eu acho, na minha opiniao). A linguagem deve ser formal, seguindo a norma culta da lingua portuguesa."
+        },
+        {
+          "q": "Quantas linhas cada parte da redacao deve ter",
+          "a": "A introducao deve ter 5-7 linhas, cada paragrafo de desenvolvimento 7-9 linhas, e a conclusao 7-9 linhas, totalizando cerca de 26-30 linhas. O limite maximo e de 30 linhas, e textos com menos de 8 linhas sao zerados."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A estrutura minima da dissertacao-argumentativa do ENEM e composta por",
+          "options": [
+            "2 paragrafos",
+            "3 paragrafos",
+            "4 paragrafos",
+            "5 paragrafos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A tese na redacao do ENEM deve aparecer em qual parte do texto",
+          "options": [
+            "No desenvolvimento 1",
+            "Na conclusao",
+            "Na introducao",
+            "No titulo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual o limite maximo de linhas na redacao do ENEM",
+          "options": [
+            "20 linhas",
+            "25 linhas",
+            "30 linhas",
+            "35 linhas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A proposta de intervencao e avaliada em qual parte da redacao",
+          "options": [
+            "Introducao",
+            "Desenvolvimento 1",
+            "Desenvolvimento 2",
+            "Conclusao"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Introdução: Contextualização e Tese",
+      "slug": "introducao-contextualizacao-e-tese",
+      "desc": "Aprenda a construir uma introducao poderosa para a redacao do ENEM - tecnicas de contextualizacao (citacao, dado historico, paradoxo) e formulacao de tese clara e assertiva.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "A introducao da redacao do ENEM tem duas funcoes essenciais - contextualizar o tema e apresentar a tese. A contextualizacao situa o leitor no assunto e pode usar diferentes estrategias como dado historico, citacao filosofica, alusao cultural, paradoxo ou pergunta retorica. A tese e o posicionamento claro do autor sobre o tema, geralmente expressa em 1-2 frases no final da introducao, e deve ser defendida nos paragrafos de desenvolvimento. Uma boa tese antecipa os argumentos que serao desenvolvidos no texto.",
+      "body": "<h2>A Fun&ccedil;&atilde;o da Introdu&ccedil;&atilde;o</h2><p>A introdu&ccedil;&atilde;o &eacute; o cart&atilde;o de visitas da sua reda&ccedil;&atilde;o. &Eacute; nela que o corretor forma a primeira impress&atilde;o sobre a qualidade do seu texto. Uma introdu&ccedil;&atilde;o bem construida deve cumprir duas miss&otilde;es - <strong>contextualizar</strong> o leitor no tema proposto e apresentar a <strong>tese</strong> que ser&aacute; defendida ao longo do texto.</p><h2>Estrat&eacute;gias de Contextualiza&ccedil;&atilde;o</h2><table><tr><th>Estrat&eacute;gia</th><th>Como funciona</th><th>Exemplo</th></tr><tr><td>Dado hist&oacute;rico</td><td>Situar o tema em perspectiva temporal</td><td>\"Desde a Revolu&ccedil;&atilde;o Industrial, o trabalho infantil...\"</td></tr><tr><td>Cita&ccedil;&atilde;o filos&oacute;fica</td><td>Usar pensador para introduzir a reflex&atilde;o</td><td>\"Segundo Kant, a educa&ccedil;&atilde;o &eacute; o caminho para a autonomia\"</td></tr><tr><td>Alus&atilde;o cultural</td><td>Referir-se a obra, filme ou s&eacute;rie</td><td>\"No filme Coringa, a sa&uacute;de mental &eacute; retratada como...\"</td></tr><tr><td>Paradoxo</td><td>Apresentar contradi&ccedil;&atilde;o que provoca reflex&atilde;o</td><td>\"O Brasil &eacute; o 5&ordm; maior pa&iacute;s do mundo, mas ocupa a 84&ordf; posi&ccedil;&atilde;o em educa&ccedil;&atilde;o\"</td></tr><tr><td>Pergunta ret&oacute;rica</td><td>Questionar para engajar o leitor</td><td>\"At&eacute; quando a desigualdade ser&aacute; naturalizada?\"</td></tr></table><h2>Como Formular a Tese</h2><p>A tese &eacute; a alma da reda&ccedil;&atilde;o. Ela deve ser um posicionamento <strong>claro</strong>, <strong>assertivo</strong> e <strong>defens&aacute;vel</strong> sobre o tema proposto. Geralmente aparece nas &uacute;ltimas 1-2 frases da introdu&ccedil;&atilde;o e deve antecipar os dois argumentos que ser&atilde;o desenvolvidos.</p><h2>Modelo de Tese com Dois Argumentos</h2><p>Uma t&eacute;cnica eficaz &eacute; formular a tese antecipando os dois eixos argumentativos. Por exemplo, para o tema \"Fake news no Brasil\" - \"A dissemina&ccedil;&atilde;o de not&iacute;cias falsas no Brasil se deve tanto &agrave; <strong>falta de educa&ccedil;&atilde;o midi&aacute;tica</strong> [argumento 1] quanto &agrave; <strong>omiss&atilde;o das plataformas digitais</strong> [argumento 2].\"</p><h2>Erros a Evitar na Introdu&ccedil;&atilde;o</h2><ul><li><strong>Clich&ecirc;s</strong> - evite \"Desde os prim&oacute;rdios da humanidade...\" ou \"No mundo atual em que vivemos...\"</li><li><strong>Come&ccedil;ar com condi&ccedil;&atilde;o</strong> - \"Se a gente parar para pensar...\" demonstra informalidade</li><li><strong>Tese vaga</strong> - \"A situa&ccedil;&atilde;o &eacute; muito complicada\" n&atilde;o &eacute; um posicionamento</li><li><strong>Copiar textos motivadores</strong> - usar trechos da colet&acirc;nea pode zerar a reda&ccedil;&atilde;o</li></ul>",
+      "faq": [
+        {
+          "q": "Quais sao as funcoes da introducao na redacao do ENEM",
+          "a": "A introducao tem duas funcoes essenciais - contextualizar o leitor no tema proposto (usando dado historico, citacao, alusao cultural, paradoxo ou pergunta retorica) e apresentar a tese, que e o posicionamento claro do autor sobre o tema."
+        },
+        {
+          "q": "Onde a tese deve aparecer na introducao",
+          "a": "A tese deve aparecer nas ultimas 1-2 frases da introducao. Ela funciona como a ponte entre a contextualizacao e o desenvolvimento, antecipando os argumentos que serao defendidos nos paragrafos seguintes."
+        },
+        {
+          "q": "Qual estrategia de contextualizacao e mais eficaz",
+          "a": "Nao existe uma unica estrategia 'melhor' - depende do tema. Citacoes filosoficas funcionam bem para temas sociais, dados historicos para temas de desigualdade, e alusoes culturais para temas comportamentais. O importante e que a contextualizacao se conecte naturalmente a tese."
+        },
+        {
+          "q": "Posso comecar a redacao com 'Desde os primordios da humanidade'",
+          "a": "Nao e recomendavel. Essa expressao e considerada cliche e demonstra falta de originalidade. Prefira contextualizacoes especificas e relacionadas ao tema, como um dado concreto, uma citacao de filosofo ou uma referencia cultural relevante."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "As duas funcoes essenciais da introducao na redacao do ENEM sao",
+          "options": [
+            "Tese e proposta de intervencao",
+            "Contextualizacao e tese",
+            "Argumento e repertorio",
+            "Dados e citacao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A tese na introducao deve ser",
+          "options": [
+            "Vaga e generica para dar margem",
+            "Clara, assertiva e defensavel",
+            "Uma pergunta sem resposta",
+            "Uma copia do texto motivador"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual das opcoes e considerada cliche na introducao",
+          "options": [
+            "Citar filosofo relacionado ao tema",
+            "Apresentar dado estatistico",
+            "Desde os primordios da humanidade",
+            "Fazer alusao a filme relevante"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A estrategia de apresentar uma contradicao para provocar reflexao chama-se",
+          "options": [
+            "Citacao",
+            "Paradoxo",
+            "Exemplificacao",
+            "Alusao"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Desenvolvimento: Argumentação e Repertório",
+      "slug": "desenvolvimento-argumentacao-e-repertorio",
+      "desc": "Aprenda a construir paragrafos de desenvolvimento poderosos - topico frasal, fundamentacao com repertorio sociocultural e analise critica - para a redacao do ENEM.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Os paragrafos de desenvolvimento sao o coracao da redacao do ENEM. Cada paragrafo deve defender UM aspecto da tese seguindo a estrutura de topico frasal (apresenta o argumento), fundamentacao (repertorio sociocultural que sustenta) e analise (conectar o repertorio ao tema, mostrando por que e relevante). O repertorio pode ser produtivo (elaborado, autoral, aprofundado - vai alem do senso comum) ou nao produtivo (citacao solta, sem conexao com o argumento). O repertorio legitimado deve vir de fonte confiavel como pesquisa, instituto ou autor reconhecido.",
+      "body": "<h2>O Papel do Desenvolvimento</h2><p>Os par&aacute;grafos de desenvolvimento s&atilde;o o cora&ccedil;&atilde;o da reda&ccedil;&atilde;o do ENEM. &Eacute; neles que voc&ecirc; demonstra capacidade de argumenta&ccedil;&atilde;o, conhecimento de mundo e pensamento cr&iacute;tico. Cada par&aacute;grafo de desenvolvimento deve sustentar um aspecto diferente da tese apresentada na introdu&ccedil;&atilde;o.</p><h2>Estrutura do Par&aacute;grafo de Desenvolvimento</h2><table><tr><th>Parte</th><th>Fun&ccedil;&atilde;o</th><th>Exemplo</th></tr><tr><td>T&oacute;pico Frasal</td><td>Apresentar o argumento que ser&aacute; defendido</td><td>\"A falta de educa&ccedil;&atilde;o midi&aacute;tica &eacute; a raiz da vulnerabilidade &agrave;s fake news\"</td></tr><tr><td>Fundamenta&ccedil;&atilde;o</td><td>Repert&oacute;rio sociocultural que sustenta</td><td>\"Segundo Adorno, a ind&uacute;stria cultural manipula as massas...\"</td></tr><tr><td>An&aacute;lise</td><td>Conectar repert&oacute;rio ao tema</td><td>\"Dessa forma, assim como Adorno previa, as redes sociais se tornaram instrumentos de manipula&ccedil;&atilde;o...\"</td></tr></table><h2>Repert&oacute;rio Sociocultural</h2><p>O repert&oacute;rio sociocultural &eacute; avaliado na <strong>Compet&ecirc;ncia 2</strong> do ENEM. Ele deve ser <strong>produtivo</strong> (elaborado, com an&aacute;lise autoral) e <strong>legitimado</strong> (de fonte confi&aacute;vel). Veja as fontes mais eficazes de repert&oacute;rio.</p><ul><li><strong>Filosofia</strong> - Plat&atilde;o, Kant, Foucault, Marx, Bauman, Hannah Arendt</li><li><strong>Sociologia</strong> - Durkheim, Bourdieu, Gilberto Freyre</li><li><strong>Literatura e Cinema</strong> - 1984 (Orwell), Tempos Modernos (Chaplin), Parasita</li><li><strong>Dados e Pesquisas</strong> - IBGE, IPEA, OMS, UNICEF, Datafolha</li><li><strong>Documentos Legais</strong> - Constitui&ccedil;&atilde;o Federal, DUDH, ECA, LDB</li></ul><h2>Repert&oacute;rio Produtivo vs. N&atilde;o Produtivo</h2><table><tr><th>Produtivo</th><th>N&atilde;o Produtivo</th></tr><tr><td>Cita&ccedil;&atilde;o acompanhada de an&aacute;lise pessoal</td><td>Cita&ccedil;&atilde;o solta, sem conex&atilde;o com o argumento</td></tr><tr><td>Aprofundamento da ideia do autor citado</td><td>Apenas mencionar o nome do fil&oacute;sofo</td></tr><tr><td>Conex&atilde;o clara entre repert&oacute;rio e tese</td><td>Repert&oacute;rio \"for&ccedil;ado\" no texto</td></tr></table><h2>A Import&acirc;ncia da An&aacute;lise</h2><p>A an&aacute;lise &eacute; o que transforma uma cita&ccedil;&atilde;o em argumento. N&atilde;o basta trazer o repert&oacute;rio - voc&ecirc; precisa explicar <strong>por que</strong> ele &eacute; relevante para o tema e <strong>como</strong> ele sustenta sua tese. Sem an&aacute;lise, o repert&oacute;rio &eacute; considerado n&atilde;o produtivo.</p><ul><li>Cada par&aacute;grafo de desenvolvimento deve ter pelo menos um repert&oacute;rio legitimado</li><li>Evite repetir o mesmo tipo de repert&oacute;rio nos dois par&aacute;grafos (ex. dois fil&oacute;sofos)</li><li>A an&aacute;lise deve ocupar pelo menos 2-3 linhas do par&aacute;grafo</li><li>Conecte o repert&oacute;rio ao tema usando express&otilde;es como \"Nesse sentido...\", \"Analogamente...\", \"De maneira semelhante...\"</li></ul>",
+      "faq": [
+        {
+          "q": "Qual a estrutura ideal de um paragrafo de desenvolvimento",
+          "a": "A estrutura ideal segue tres partes - topico frasal (apresenta o argumento), fundamentacao (repertorio sociocultural que sustenta) e analise (conectar o repertorio ao tema, explicando por que e relevante para a tese)."
+        },
+        {
+          "q": "Qual a diferenca entre repertorio produtivo e nao produtivo",
+          "a": "Repertorio produtivo e elaborado, acompanhado de analise pessoal e conectado ao argumento. Repertorio nao produtivo e uma citacao solta, sem conexao com a tese - apenas mencionar um filosofo sem explicar a relevancia para o tema."
+        },
+        {
+          "q": "Quais fontes de repertorio sao mais eficazes para o ENEM",
+          "a": "As fontes mais eficazes incluem filosofia (Kant, Foucault, Bauman), sociologia (Bourdieu, Durkheim), literatura e cinema (1984, Tempos Modernos), dados de pesquisa (IBGE, IPEA, OMS) e documentos legais (Constituicao Federal, DUDH)."
+        },
+        {
+          "q": "O que e a analise no paragrafo de desenvolvimento",
+          "a": "A analise e a parte onde voce conecta o repertorio sociocultural ao tema, explicando por que ele e relevante e como sustenta sua tese. Sem analise, o repertorio e considerado nao produtivo e a nota na Competencia 2 e prejudicada."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual a ordem correta da estrutura do paragrafo de desenvolvimento",
+          "options": [
+            "Analise - Topico frasal - Fundamentacao",
+            "Fundamentacao - Analise - Topico frasal",
+            "Topico frasal - Fundamentacao - Analise",
+            "Topico frasal - Analise - Fundamentacao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Um repertorio 'nao produtivo' se caracteriza por",
+          "options": [
+            "Usar dados do IBGE com analise",
+            "Citacao solta sem conexao com o argumento",
+            "Referencia a filosofo com aprofundamento",
+            "Comparacao entre paises com dados"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O repertorio sociocultural e avaliado em qual competencia do ENEM",
+          "options": [
+            "Competencia 1",
+            "Competencia 2",
+            "Competencia 3",
+            "Competencia 4"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual a funcao da analise no paragrafo de desenvolvimento",
+          "options": [
+            "Apenas citar o filosofo",
+            "Conectar o repertorio ao tema e explicar sua relevancia",
+            "Repetir a tese da introducao",
+            "Apresentar a proposta de intervencao"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Conclusão: Proposta de Intervenção (ENEM)",
+      "slug": "conclusao-proposta-de-intervencao-enem",
+      "desc": "Domine a proposta de intervencao do ENEM - os 5 elementos obrigatorios (agente, acao, meio, efeito, detalhamento) - e conquiste 200 pontos na Competencia 5.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "A proposta de intervencao e exclusiva do ENEM e vale 200 pontos na Competencia 5. Ela exige 5 elementos obrigatorios - AGENTE (quem vai agir, como governo, escola, midia, sociedade), ACAO (o que sera feito, como criar programa, implementar lei), MEIO/MODO (como sera feito, por meio de campanhas, atraves de educacao), EFEITO/FINALIDADE (para que, a fim de reduzir..., com o objetivo de...) e DETALHAMENTO (aprofundar qualquer um dos 4 anteriores). A proposta deve respeitar os Direitos Humanos e nao pode ser generica. Uma proposta que defenda tortura, censura ou discriminacao resulta em ZERO na Competencia 5.",
+      "body": "<h2>O que e a Proposta de Interven&ccedil;&atilde;o</h2><p>A proposta de interven&ccedil;&atilde;o &eacute; uma exclusividade da reda&ccedil;&atilde;o do ENEM. Enquanto outros vestibulares pedem apenas uma conclus&atilde;o reflexiva, o ENEM exige que o candidato proponha uma solu&ccedil;&atilde;o concreta para o problema discutido. Ela &eacute; avaliada na <strong>Compet&ecirc;ncia 5</strong>, valendo at&eacute; 200 pontos.</p><h2>Os 5 Elementos Obrigat&oacute;rios</h2><table><tr><th>Elemento</th><th>Pergunta-Chave</th><th>Exemplo</th></tr><tr><td>Agente</td><td>QUEM vai agir?</td><td>O Minist&eacute;rio da Educa&ccedil;&atilde;o</td></tr><tr><td>A&ccedil;&atilde;o</td><td>O QUE ser&aacute; feito?</td><td>Deve implementar disciplinas de educa&ccedil;&atilde;o midi&aacute;tica</td></tr><tr><td>Meio/Modo</td><td>COMO ser&aacute; feito?</td><td>Por meio de forma&ccedil;&atilde;o docente e material did&aacute;tico</td></tr><tr><td>Efeito/Finalidade</td><td>PARA QUE?</td><td>A fim de desenvolver o pensamento cr&iacute;tico dos jovens</td></tr><tr><td>Detalhamento</td><td>MAIS SOBRE qualquer elemento</td><td>Especialmente nas escolas p&uacute;blicas de regi&otilde;es perif&eacute;ricas</td></tr></table><h2>Exemplo Completo de Proposta</h2><p>\"Portanto, &eacute; necess&aacute;rio que o <strong>Minist&eacute;rio da Educa&ccedil;&atilde;o</strong> [agente] <strong>implemente disciplinas de educa&ccedil;&atilde;o midi&aacute;tica nas escolas p&uacute;blicas</strong> [a&ccedil;&atilde;o], <strong>por meio de forma&ccedil;&atilde;o continuada de professores e distribui&ccedil;&atilde;o de material did&aacute;tico espec&iacute;fico</strong> [meio], <strong>a fim de desenvolver o pensamento cr&iacute;tico dos jovens e reduzir a vulnerabilidade &agrave;s fake news</strong> [efeito], <strong>priorizando regi&otilde;es com menor acesso &agrave; informa&ccedil;&atilde;o de qualidade</strong> [detalhamento].\"</p><h2>N&iacute;veis de Pontua&ccedil;&atilde;o</h2><table><tr><th>Nota</th><th>Crit&eacute;rio</th></tr><tr><td>200</td><td>Proposta completa com todos os 5 elementos e detalhamento</td></tr><tr><td>160</td><td>Proposta boa, mas com detalhamento insuficiente</td></tr><tr><td>120</td><td>Proposta com 3-4 elementos identificados</td></tr><tr><td>80</td><td>Proposta vaga, com 1-2 elementos</td></tr><tr><td>40</td><td>Proposta prec&aacute;ria ou gen&eacute;rica</td></tr><tr><td>0</td><td>Sem proposta ou viola Direitos Humanos</td></tr></table><h2>Regras Importantes</h2><ul><li><strong>Respeite os Direitos Humanos</strong> - defender tortura, pena de morte, censura ou discrimina&ccedil;&atilde;o resulta em ZERO na C5</li><li><strong>Seja espec&iacute;fico</strong> - \"O governo deveria fazer alguma coisa\" n&atilde;o &eacute; uma proposta v&aacute;lida</li><li><strong>Varie os agentes</strong> - n&atilde;o coloque tudo nas m&atilde;os do governo; inclua escola, m&iacute;dia e sociedade civil</li><li>A proposta deve se relacionar diretamente com o problema discutido no texto</li></ul>",
+      "faq": [
+        {
+          "q": "Quais sao os 5 elementos obrigatorios da proposta de intervencao",
+          "a": "Os 5 elementos sao Agente (quem vai agir), Acao (o que sera feito), Meio/Modo (como sera feito), Efeito/Finalidade (para que) e Detalhamento (aprofundamento de qualquer um dos 4 anteriores). Todos devem estar presentes para nota maxima."
+        },
+        {
+          "q": "O que acontece se a proposta violar os Direitos Humanos",
+          "a": "Se a proposta defender tortura, pena de morte, censura, discriminacao ou qualquer violacao aos Direitos Humanos, o candidato recebe nota ZERO na Competencia 5, independentemente da qualidade do restante do texto."
+        },
+        {
+          "q": "Qual a diferenca entre uma proposta completa e uma generica",
+          "a": "Uma proposta completa especifica quem vai agir, o que fara, como fara, para que e detalha algum elemento. Uma proposta generica diz apenas 'o governo deveria resolver o problema' sem especificar acao, meio ou finalidade concreta."
+        },
+        {
+          "q": "Posso propor mais de uma intervencao na conclusao",
+          "a": "Sim, e possivel propor mais de uma intervencao, mas cuidado com o espaco. E melhor ter uma proposta completa com todos os 5 elementos do que duas propostas incompletas. Priorize a qualidade sobre a quantidade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quantos elementos obrigatorios a proposta de intervencao do ENEM exige",
+          "options": [
+            "3 elementos",
+            "4 elementos",
+            "5 elementos",
+            "6 elementos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O elemento que responde a pergunta 'COMO sera feito' na proposta e o",
+          "options": [
+            "Agente",
+            "Acao",
+            "Meio/Modo",
+            "Efeito"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Defender pena de morte na proposta de intervencao resulta em",
+          "options": [
+            "Nota 120",
+            "Nota 80",
+            "Nota 40",
+            "Nota ZERO"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "A proposta de intervencao e avaliada em qual competencia do ENEM",
+          "options": [
+            "Competencia 2",
+            "Competencia 3",
+            "Competencia 4",
+            "Competencia 5"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Repertório Sociocultural",
+      "slug": "repertorio-sociocultural",
+      "desc": "Monte seu arsenal de repertorio sociocultural para a redacao do ENEM - filosofos, sociologos, filmes, livros, dados estatisticos e documentos legais prontos para usar.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "O repertorio sociocultural e avaliado na Competencia 2 do ENEM e se refere as referencias externas usadas para fundamentar os argumentos. Os principais repertorios incluem Filosofia (Platao e a Alegoria da Caverna sobre alienacao, Kant sobre autonomia, Foucault sobre poder, Marx sobre ideologia, Sartre sobre liberdade, Adorno sobre industria cultural, Bauman sobre modernidade liquida, Hannah Arendt sobre banalidade do mal), Sociologia (Durkheim sobre fato social, Bourdieu sobre capital cultural), Filmes (Tempos Modernos, Coringa, Wall-E, Parasita), Livros (1984 de Orwell, Admiravel Mundo Novo de Huxley), Dados (IBGE, IPEA, OMS, UNICEF) e Documentos (Constituicao Federal, DUDH).",
+      "body": "<h2>O que e Repert&oacute;rio Sociocultural</h2><p>O repert&oacute;rio sociocultural &eacute; o conjunto de conhecimentos externos que o candidato utiliza para fundamentar seus argumentos na reda&ccedil;&atilde;o do ENEM. Ele &eacute; avaliado na <strong>Compet&ecirc;ncia 2</strong> e pode incluir refer&ecirc;ncias filos&oacute;ficas, sociol&oacute;gicas, liter&aacute;rias, cinematogr&aacute;ficas, hist&oacute;ricas e estat&iacute;sticas.</p><h2>Repertorios Filos&oacute;ficos</h2><table><tr><th>Pensador</th><th>Conceito-Chave</th><th>Temas Aplic&aacute;veis</th></tr><tr><td>Plat&atilde;o</td><td>Alegoria da Caverna (alien&atilde;cao)</td><td>Fake news, manipula&ccedil;&atilde;o midi&aacute;tica, ignor&acirc;ncia</td></tr><tr><td>Kant</td><td>Autonomia e esclarecimento</td><td>Educa&ccedil;&atilde;o, cidadania, pensamento cr&iacute;tico</td></tr><tr><td>Foucault</td><td>Rela&ccedil;&otilde;es de poder e vigil&acirc;ncia</td><td>Privacidade digital, controle social</td></tr><tr><td>Marx</td><td>Ideologia e aliena&ccedil;&atilde;o</td><td>Trabalho, desigualdade, capitalismo</td></tr><tr><td>Sartre</td><td>Liberdade e responsabilidade</td><td>Escolhas individuais, exist&ecirc;ncia</td></tr><tr><td>Adorno</td><td>Ind&uacute;stria cultural</td><td>M&iacute;dia, consumismo, padroniza&ccedil;&atilde;o</td></tr><tr><td>Bauman</td><td>Modernidade l&iacute;quida</td><td>Rela&ccedil;&otilde;es, identidade, consumo</td></tr><tr><td>Hannah Arendt</td><td>Banalidade do mal</td><td>Viol&ecirc;ncia, indiferen&ccedil;a, omiss&atilde;o</td></tr></table><h2>Repertorios Sociol&oacute;gicos</h2><table><tr><th>Pensador</th><th>Conceito-Chave</th><th>Temas Aplic&aacute;veis</th></tr><tr><td>Durkheim</td><td>Fato social e anomia</td><td>Normas, criminalidade, desorganiza&ccedil;&atilde;o</td></tr><tr><td>Bourdieu</td><td>Capital cultural e viol&ecirc;ncia simb&oacute;lica</td><td>Educa&ccedil;&atilde;o, desigualdade, cultura</td></tr></table><h2>Filmes, Livros e S&eacute;ries</h2><ul><li><strong>Tempos Modernos</strong> (Chaplin) - explora&ccedil;&atilde;o do trabalho, industrializa&ccedil;&atilde;o</li><li><strong>Coringa</strong> - sa&uacute;de mental, exclus&atilde;o social, desigualdade</li><li><strong>Wall-E</strong> - meio ambiente, consumismo, tecnologia</li><li><strong>Parasita</strong> - desigualdade social, luta de classes</li><li><strong>1984</strong> (Orwell) - vigil&acirc;ncia, censura, totalitarismo</li><li><strong>Admir&aacute;vel Mundo Novo</strong> (Huxley) - aliena&ccedil;&atilde;o, controle pelo prazer</li></ul><h2>Dados e Documentos</h2><table><tr><th>Fonte</th><th>Tipo</th><th>&Aacute;rea</th></tr><tr><td>IBGE</td><td>Dados demograficos e sociais</td><td>Popula&ccedil;&atilde;o, renda, educa&ccedil;&atilde;o</td></tr><tr><td>IPEA</td><td>Pesquisas econ&ocirc;micas</td><td>Desigualdade, pobreza, pol&iacute;ticas p&uacute;blicas</td></tr><tr><td>OMS</td><td>Dados de sa&uacute;de global</td><td>Sa&uacute;de mental, pandemias, doen&ccedil;as</td></tr><tr><td>UNICEF</td><td>Dados sobre crian&ccedil;as</td><td>Inf&acirc;ncia, educa&ccedil;&atilde;o, direitos</td></tr><tr><td>Constitui&ccedil;&atilde;o Federal</td><td>Documento legal</td><td>Direitos fundamentais, deveres do Estado</td></tr><tr><td>DUDH</td><td>Declara&ccedil;&atilde;o Universal</td><td>Direitos Humanos, dignidade</td></tr></table><h2>Dicas de Uso</h2><ul><li>Escolha repertorios que voce realmente conhece - nao cite filosofos que nao estudou</li><li>Conecte o repertorio ao tema com analise pessoal, nao apenas cole a citacao</li><li>Varie os tipos de repertorio entre os paragrafos de desenvolvimento</li><li>Memorize ao menos 5 repertorios versateis que servem para multiplos temas</li></ul>",
+      "faq": [
+        {
+          "q": "Quais filosofos sao mais uteis para a redacao do ENEM",
+          "a": "Os mais versateis sao Bauman (modernidade liquida - serve para temas de relacoes, identidade, consumo), Foucault (poder - privacidade, controle social), Hannah Arendt (banalidade do mal - violencia, omissao), Adorno (industria cultural - midia, consumismo) e Platao (Alegoria da Caverna - alienacao, fake news)."
+        },
+        {
+          "q": "Posso usar filmes e series como repertorio na redacao",
+          "a": "Sim, filmes, series e livros sao fontes validas de repertorio sociocultural. O importante e que a referencia seja usada de forma produtiva, com analise que conecte a obra ao tema. Filmes como Tempos Modernos, Parasita e Coringa sao bastante versateis."
+        },
+        {
+          "q": "Qual a diferenca entre repertorio legitimado e nao legitimado",
+          "a": "Repertorio legitimado vem de fonte confiavel e reconhecida (pesquisa do IBGE, filosofo consagrado, documento legal). Repertorio nao legitimado inclui senso comum, opinioes pessoais sem embasamento ou referencias a fontes duvidosas."
+        },
+        {
+          "q": "Quantos repertorios devo usar na redacao do ENEM",
+          "a": "O ideal e usar pelo menos um repertorio produtivo em cada paragrafo de desenvolvimento (total de 2). Porem, repertorios adicionais na introducao ou conclusao podem enriquecer o texto. Qualidade e mais importante que quantidade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O conceito de 'modernidade liquida' foi desenvolvido por qual pensador",
+          "options": [
+            "Foucault",
+            "Marx",
+            "Bauman",
+            "Kant"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Para temas sobre fake news e manipulacao midiatica, qual repertorio filosofico e mais adequado",
+          "options": [
+            "Sartre e a liberdade",
+            "Platao e a Alegoria da Caverna",
+            "Marx e o Capital",
+            "Durkheim e o fato social"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O repertorio sociocultural e avaliado em qual competencia do ENEM",
+          "options": [
+            "Competencia 1",
+            "Competencia 2",
+            "Competencia 3",
+            "Competencia 5"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual filme retrata temas de desigualdade social e luta de classes",
+          "options": [
+            "Wall-E",
+            "Tempos Modernos",
+            "Parasita",
+            "1984"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Conectivos para Cada Parte",
+      "slug": "conectivos-para-cada-parte",
+      "desc": "Guia completo de conectivos para cada parte da redacao do ENEM - introducao, desenvolvimento e conclusao - com tabelas organizadas por funcao logica.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Os conectivos sao palavras e expressoes que ligam ideias e paragrafos, essenciais para a Competencia 4 do ENEM. Na introducao, use expressoes como 'Desde a...', 'Segundo...', 'E notorio que...', 'No cenario contemporaneo...'. No desenvolvimento, organize por funcao - Adicao (alem disso, outrossim), Causa (uma vez que, posto que), Consequencia (de modo que, logo), Exemplificacao (a titulo de exemplo), Contraste (em contrapartida, todavia). Na conclusao, use 'Portanto,', 'Dessa forma,', 'Urge que,', 'E imperativo que,'. Diversificar conectivos e a chave para nota alta na Competencia 4.",
+      "body": "<h2>A Import&acirc;ncia dos Conectivos</h2><p>Os conectivos s&atilde;o as \"pontes\" que ligam ideias, frases e par&aacute;grafos no texto. Eles s&atilde;o fundamentais para a <strong>Compet&ecirc;ncia 4</strong> do ENEM, que avalia a articula&ccedil;&atilde;o entre as partes do texto. Um texto sem conectivos adequados parece uma lista de frases soltas, sem fluidez nem l&oacute;gica.</p><h2>Conectivos para a Introdu&ccedil;&atilde;o</h2><table><tr><th>Estrat&eacute;gia</th><th>Conectivos</th></tr><tr><td>Contextualiza&ccedil;&atilde;o hist&oacute;rica</td><td>\"Desde a...\", \"Ao longo da hist&oacute;ria...\", \"Historicamente...\"</td></tr><tr><td>Cita&ccedil;&atilde;o de autoridade</td><td>\"Segundo...\", \"De acordo com...\", \"Conforme...\"</td></tr><tr><td>Constata&ccedil;&atilde;o</td><td>\"&Eacute; not&oacute;rio que...\", \"Sabe-se que...\", \"&Eacute; ineg&aacute;vel que...\"</td></tr><tr><td>Situa&ccedil;&atilde;o atual</td><td>\"No cen&aacute;rio contempor&acirc;neo...\", \"Na sociedade atual...\", \"No Brasil do s&eacute;culo XXI...\"</td></tr></table><h2>Conectivos para o Desenvolvimento</h2><table><tr><th>Fun&ccedil;&atilde;o</th><th>Conectivos</th></tr><tr><td>Adi&ccedil;&atilde;o</td><td>al&eacute;m disso, outrossim, ademais, bem como, n&atilde;o apenas... mas tamb&eacute;m</td></tr><tr><td>Causa</td><td>uma vez que, posto que, visto que, j&aacute; que, haja vista que</td></tr><tr><td>Consequ&ecirc;ncia</td><td>de modo que, logo, por conseguinte, consequentemente, assim</td></tr><tr><td>Exemplifica&ccedil;&atilde;o</td><td>a t&iacute;tulo de exemplo, como &eacute; o caso de, pode-se citar, por exemplo</td></tr><tr><td>Contraste</td><td>em contrapartida, todavia, contudo, entretanto, no entanto, por&eacute;m</td></tr><tr><td>Compara&ccedil;&atilde;o</td><td>analogamente, de maneira semelhante, assim como, da mesma forma</td></tr><tr><td>Explica&ccedil;&atilde;o</td><td>isto &eacute;, ou seja, em outras palavras, vale ressaltar que</td></tr></table><h2>Conectivos para a Conclus&atilde;o</h2><table><tr><th>Fun&ccedil;&atilde;o</th><th>Conectivos</th></tr><tr><td>Retomada</td><td>\"Portanto,\", \"Dessa forma,\", \"Diante do exposto,\"</td></tr><tr><td>Urg&ecirc;ncia</td><td>\"Urge que,\", \"&Eacute; imperativo que,\", \"Faz-se necess&aacute;rio que,\"</td></tr><tr><td>Finalidade</td><td>\"a fim de\", \"com o objetivo de\", \"com o intuito de\"</td></tr></table><h2>Erros Comuns com Conectivos</h2><ul><li><strong>Repeti&ccedil;&atilde;o excessiva</strong> - usar \"al&eacute;m disso\" em todos os par&aacute;grafos demonstra vocabul&aacute;rio limitado</li><li><strong>Uso inadequado</strong> - \"por&eacute;m\" expressa oposi&ccedil;&atilde;o, n&atilde;o adi&ccedil;&atilde;o. N&atilde;o confunda as fun&ccedil;&otilde;es</li><li><strong>Conectivo sem fun&ccedil;&atilde;o</strong> - n&atilde;o use \"outrossim\" apenas para parecer culto se a rela&ccedil;&atilde;o n&atilde;o for de adi&ccedil;&atilde;o</li><li><strong>Dica</strong> - monte uma \"caixa de ferramentas\" com 3-4 conectivos para cada fun&ccedil;&atilde;o e pratique us&aacute;-los</li></ul>",
+      "faq": [
+        {
+          "q": "Quais conectivos usar na introducao da redacao do ENEM",
+          "a": "Na introducao, use expressoes de contextualizacao como 'Desde a...', 'Historicamente...', de citacao como 'Segundo...', 'De acordo com...', de constatacao como 'E notorio que...', 'E inegavel que...', ou de situacao atual como 'No cenario contemporaneo...'."
+        },
+        {
+          "q": "Qual o erro mais comum com conectivos na redacao",
+          "a": "O erro mais comum e a repeticao excessiva do mesmo conectivo, como usar 'alem disso' em todos os paragrafos. Isso demonstra vocabulario limitado e prejudica a nota na Competencia 4. Diversifique usando sinonimos e expressoes equivalentes."
+        },
+        {
+          "q": "Qual a diferenca entre conectivos de causa e de consequencia",
+          "a": "Conectivos de causa introduzem o motivo de algo (uma vez que, posto que, visto que). Conectivos de consequencia introduzem o resultado (de modo que, logo, por conseguinte). Exemplo - 'Uma vez que a educacao e precaria [causa], a desigualdade persiste [consequencia]'."
+        },
+        {
+          "q": "Quais conectivos usar para comecar a conclusao",
+          "a": "Para iniciar a conclusao, use conectivos de retomada como 'Portanto,', 'Dessa forma,', 'Diante do exposto,' ou de urgencia como 'Urge que,', 'E imperativo que,', 'Faz-se necessario que,'. Evite comecar apenas com 'Em conclusao'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Os conectivos 'alem disso', 'outrossim' e 'ademais' expressam relacao de",
+          "options": [
+            "Oposicao",
+            "Causa",
+            "Adicao",
+            "Consequencia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual conectivo e adequado para iniciar a conclusao da redacao",
+          "options": [
+            "Alem disso",
+            "Uma vez que",
+            "Portanto",
+            "Em contrapartida"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Os conectivos sao avaliados em qual competencia do ENEM",
+          "options": [
+            "Competencia 1",
+            "Competencia 2",
+            "Competencia 3",
+            "Competencia 4"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Usar 'porem' onde deveria ser 'portanto' e um erro de",
+          "options": [
+            "Ortografia",
+            "Concordancia",
+            "Uso inadequado de conectivo",
+            "Fuga ao tema"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

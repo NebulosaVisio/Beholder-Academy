@@ -1,0 +1,69 @@
+{
+  "subject": "Português",
+  "slug": "3ano-portugues",
+  "level": "Fundamental 1",
+  "grade": "3º Ano",
+  "color": "var(--portugues)",
+  "articles": [
+    {
+      "title": "Sinônimos e Antônimos",
+      "slug": "sinonimos-antonimos",
+      "desc": "Palavras com significados iguais ou opostos.",
+      "category": "Vocabulário",
+      "difficulty": "Nível 3",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Sinônimos = palavras diferentes com significados parecidos (feliz/alegre). Antônimos = palavras com significados opostos (frio/quente).",
+      "body": "<p>A língua portuguesa é cheia de palavras interessantes. Você sabia que podemos usar palavras diferentes para dizer a mesma coisa? Chamamos isso de <strong>sinônimos</strong>. Se você diz que está 'feliz' ou 'alegre', o sentido é o mesmo! Outros exemplos: bonito/belo, garoto/menino.</p><p>Mas e quando queremos dizer exatamente o contrário? Aí entram os <strong>antônimos</strong>! O antônimo de 'frio' é 'quente'. O antônimo de 'rápido' é 'lento'.</p><p>Saber sinônimos e antônimos ajuda você a não repetir as mesmas palavras quando for escrever uma redação. Seu texto fica muito mais rico!</p>",
+      "faq": [
+        {"q":"Qual o sinônimo de rápido?","a":"Veloz, ligeiro, apressado."},
+        {"q":"Qual o antônimo de forte?","a":"Fraco."}
+      ]
+    },
+    {
+      "title": "Sílabas Tônicas",
+      "slug": "silabas-tonicas",
+      "desc": "A sílaba mais forte de cada palavra.",
+      "category": "Ortografia",
+      "difficulty": "Nível 3",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Sílaba tônica é a pronunciada com mais força. Oxítona (última sílaba forte: ca-FÉ). Paroxítona (penúltima forte: me-NI-no). Proparoxítona (antepenúltima forte: ÁR-vo-re).",
+      "body": "<p>Toda palavra tem uma sílaba que falamos com mais força. É a chamada <strong>sílaba tônica</strong>. Experimente 'chamar' a palavra como se estivesse no portão: 'Ó me-NI-nooo!'. A sílaba que você esticou (NI) é a tônica!</p><p>Dependendo da posição dessa sílaba forte, a palavra tem um nome especial. Se for a <strong>última</strong> sílaba (so-FÁ, ca-FÉ), ela é <strong>Oxítona</strong>.</p><p>Se for a <strong>penúltima</strong> (ca-DER-no, ga-TO), é <strong>Paroxítona</strong>. E se for a <strong>antepenúltima</strong> (MÉ-di-co, PÁS-sa-ro), é <strong>Proparoxítona</strong>. Detalhe importante: TODAS as proparoxítonas têm acento!</p>",
+      "faq": [
+        {"q":"Como achar a sílaba tônica fácil?","a":"Finja que está gritando a palavra. A sílaba que demorar mais na sua boca é a tônica."},
+        {"q":"Toda sílaba tônica tem acento?","a":"Não! Em 'gato', a tônica é 'ga', mas não leva acento."}
+      ]
+    },
+    {
+      "title": "Sinais de Pontuação",
+      "slug": "sinais-pontuacao",
+      "desc": "Dando ritmo e emoção ao texto.",
+      "category": "Gramática",
+      "difficulty": "Nível 3",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Ponto final (.): fim de frase. Interrogação (?): pergunta. Exclamação (!): surpresa/emoção. Vírgula (,): pausa.",
+      "body": "<p>Ler um texto sem pontuação é como correr sem respirar! Os <strong>sinais de pontuação</strong> existem para dar pausa e emoção à nossa leitura.</p><p>O <strong>Ponto Final (.)</strong> mostra que a frase acabou. O <strong>Ponto de Interrogação (?)</strong> é usado no final de todas as perguntas. Já o <strong>Ponto de Exclamação (!)</strong> demonstra emoção: alegria, susto, raiva ou surpresa!</p><p>A <strong>Vírgula (,)</strong> é uma pausa pequena. Ela serve para separar itens de uma lista ('Comprei maçã, banana e pera') ou para dar um 'respiro' na frase.</p>",
+      "faq": [
+        {"q":"Quando usar dois pontos (:) ?","a":"Usamos quando alguém vai falar ou antes de uma lista."},
+        {"q":"E o travessão (—)?","a":"Usamos antes da fala de um personagem em uma história."}
+      ]
+    },
+    {
+      "title": "Textos Narrativos",
+      "slug": "textos-narrativos",
+      "desc": "Como as histórias são contadas.",
+      "category": "Leitura",
+      "difficulty": "Nível 3",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Texto narrativo conta uma história. Precisa ter: Narrador, Personagens, Cenário (onde), Tempo (quando) e um Enredo (o que acontece).",
+      "body": "<p>Todo mundo adora uma boa história! Um conto de fadas, uma lenda ou até uma história em quadrinhos. Todos eles são <strong>textos narrativos</strong>, ou seja, servem para contar uma história (real ou inventada).</p><p>Para a história fazer sentido, ela precisa ter: <strong>Personagens</strong> (quem vive a aventura), o <strong>Cenário</strong> (onde acontece, como um castelo ou uma floresta) e o <strong>Tempo</strong> (quando aconteceu, como 'era uma vez...').</p><p>E o mais importante: o <strong>Narrador</strong>, que é a voz que está contando tudo para você. Ele pode participar da história (narrador personagem) ou apenas observar de fora (narrador observador).</p>",
+      "faq": [
+        {"q":"O que é o Enredo?","a":"É a sequência de acontecimentos da história. É o 'início, meio e fim'."},
+        {"q":"Fábula é um texto narrativo?","a":"Sim! Uma fábula conta a história de animais que agem como humanos."}
+      ]
+    }
+  ]
+}

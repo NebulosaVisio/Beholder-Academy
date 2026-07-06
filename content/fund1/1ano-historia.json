@@ -2,92 +2,1017 @@
   "subject": "História",
   "slug": "1ano-historia",
   "level": "Fundamental 1",
-  "grade": "1º Ano",
+  "grade": "1º ano",
   "color": "var(--historia)",
+  "icon": "shield",
   "articles": [
     {
-      "title": "Quem Sou Eu?",
-      "slug": "quem-sou-eu",
-      "desc": "Minha identidade: nome, idade, família e história pessoal.",
-      "category": "Identidade",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Cada pessoa é única: tem nome, sobrenome, data de nascimento e história. Seu nome foi escolhido pela família e faz parte da sua identidade.",
-      "body": "<p>Você é uma pessoa <strong>única</strong> no mundo! Tem um nome, uma data de nascimento, uma família e uma história só sua. Ninguém é exatamente igual a você.</p><p>Sua <strong>identidade</strong> é formada por muitas coisas: seu nome (escolhido pela família), sua aparência, seus gostos, o lugar onde mora e as pessoas com quem convive. Tudo isso faz de você quem é.</p><p>Conhecer sua própria história é importante. Quando você nasceu? Quem escolheu seu nome? Quais foram suas primeiras palavras? Pergunte à sua família — cada resposta é um pedacinho da sua história!</p>",
-      "faq": [{"q":"Por que tenho sobrenome?","a":"O sobrenome é o nome da sua família, passado de pais para filhos."},{"q":"O que é certidão de nascimento?","a":"Documento oficial que registra seu nome, data e local de nascimento e nomes dos pais."}]
+      "title": "Pré-História: Paleolítico e Neolítico",
+      "slug": "pre-historia-paleolitico-e-neolitico",
+      "desc": "Pré-História: Paleolítico (caça, coleta, nomadismo, ferramentas de pedra lascada) e Neolítico (agricultura, sedentarismo, cerâmica, pedra polida). Revolução Neolítica.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Paleolítico (Pedra Lascada): nômades, caça/coleta, fogo, pinturas rupestres, instrumentos toscos. Neolítico (Pedra Polida): Revolução Neolítica = agricultura + domesticação de animais → sedentarismo, aldeias, cerâmica, tecelagem, divisão do trabalho, excedente alimentar. Idade dos Metais: cobre → bronze → ferro.",
+      "body": "<h2>Introdução</h2><p>A <strong>Pré-História</strong> compreende o período desde o surgimento dos primeiros hominídeos (~4 milhões de anos atrás) até a invenção da <strong>escrita</strong> (~3500 a.C.). É dividida em Paleolítico, Neolítico e Idade dos Metais.</p><h2>Paleolítico (Pedra Lascada)</h2><p>~2,5 milhões – 10.000 a.C.</p><ul><li><strong>Modo de vida:</strong> nômades, caçadores-coletores</li><li><strong>Ferramentas:</strong> pedra lascada (tosca)</li><li><strong>Descoberta do fogo:</strong> proteção, cozimento, aquecimento</li><li><strong>Arte:</strong> pinturas rupestres (Lascaux, Altamira, Serra da Capivara no Brasil)</li><li><strong>Organização:</strong> bandos familiares, igualitários</li></ul><h2>Neolítico (Pedra Polida)</h2><p>~10.000 – 4.000 a.C.</p><ul><li><strong>Revolução Neolítica:</strong> agricultura + domesticação de animais</li><li><strong>Sedentarismo:</strong> aldeias fixas próximas a rios</li><li><strong>Excedente alimentar:</strong> permitiu divisão do trabalho e crescimento populacional</li><li><strong>Técnicas:</strong> cerâmica, tecelagem, pedra polida</li><li><strong>Consequência:</strong> surgimento da propriedade privada e hierarquia social</li></ul><h2>Idade dos Metais</h2><p>~4.000 – 3.500 a.C.: Cobre → Bronze (cobre+estanho) → Ferro</p><p>Permitiu armas e ferramentas mais eficientes, arado metálico, avanço militar.</p><h2>Resumo</h2><ul><li>✅ Paleolítico = nômade, caça, pedra lascada</li><li>✅ Neolítico = sedentário, agricultura, pedra polida</li><li>⚠️ ENEM: Revolução Neolítica = transformação mais importante da Pré-História!</li></ul><h2>Curiosidade</h2><p>O <strong>Parque Nacional da Serra da Capivara</strong> (Piauí) tem pinturas rupestres com mais de 25.000 anos — evidências de que humanos habitaram o Brasil muito antes do que se pensava!</p>",
+      "faq": [
+        {
+          "q": "O que foi a Revolução Neolítica?",
+          "a": "Foi a transição da caça/coleta para a agricultura e domesticação de animais (~10.000 a.C.). Permitiu sedentarismo, aldeias, excedente alimentar e, por consequência, civilizações."
+        },
+        {
+          "q": "Por que a escrita marca o fim da Pré-História?",
+          "a": "Porque a escrita permitiu registros permanentes. Antes dela, a história é reconstruída por vestígios materiais (arqueologia). A divisão é convencional e eurocêntrica."
+        },
+        {
+          "q": "Qual a importância do fogo?",
+          "a": "Proteção contra animais, cozimento de alimentos (mais nutrientes), aquecimento, socialização em torno da fogueira e técnica para caça."
+        },
+        {
+          "q": "Existem sítios pré-históricos no Brasil?",
+          "a": "Sim! Serra da Capivara (PI) tem pinturas rupestres de 25.000+ anos. Lagoa Santa (MG) tem o fóssil de Luzia (~11.500 anos), o crânio humano mais antigo das Américas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Revolução Neolítica se caracteriza por:",
+          "options": [
+            "Descoberta do fogo",
+            "Uso de metais",
+            "Agricultura e sedentarismo",
+            "Escrita cuneiforme"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "No Paleolítico, os humanos eram:",
+          "options": [
+            "Sedentários",
+            "Nômades",
+            "Urbanos",
+            "Agricultores"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "As pinturas rupestres brasileiras estão em:",
+          "options": [
+            "Fernando de Noronha",
+            "Serra da Capivara (PI)",
+            "Amazônia",
+            "Rio de Janeiro"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Pré-História termina com:",
+          "options": [
+            "O fogo",
+            "A agricultura",
+            "A escrita",
+            "O ferro"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Minha Família",
-      "slug": "minha-familia",
-      "desc": "Os diferentes tipos de família e como elas nos formam.",
-      "category": "Identidade",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Família: pessoas que cuidam de você e com quem convive. Existem muitos tipos: pai e mãe, avós, tios, famílias com 1 responsável, famílias adotivas.",
-      "body": "<p>A <strong>família</strong> são as pessoas que cuidam de você, te protegem e te ajudam a crescer. Cada família é diferente e todas são especiais.</p><p>Existem muitos tipos: famílias com pai e mãe, famílias com avós, com tios, com apenas um responsável, famílias adotivas, famílias grandes e pequenas. O que importa é o <strong>amor e o cuidado</strong>.</p><p>Na família aprendemos as primeiras coisas: falar, andar, comer, respeitar os outros. As tradições, festas e receitas da família fazem parte da nossa <strong>cultura</strong> e da nossa história.</p>",
-      "faq": [{"q":"Todas as famílias são iguais?","a":"Não! Cada família tem sua formação e todas são válidas e importantes."},{"q":"O que é árvore genealógica?","a":"Um desenho que mostra os membros da família: avós, pais, filhos, tios e primos."}]
+      "title": "Mesopotâmia: Berço da Civilização",
+      "slug": "mesopotamia-berco-da-civilizacao",
+      "desc": "Mesopotâmia (entre rios Tigre e Eufrates): sumérios, acádios, babilônios e assírios. Escrita cuneiforme, Código de Hamurabi, zigurates, astronomia.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Mesopotâmia = 'entre rios' (Tigre/Eufrates), atual Iraque. Sumérios: escrita cuneiforme, roda, cidades-estado. Babilônios: Código de Hamurabi ('olho por olho'). Assírios: império militar. Caldeus (Neobabilônicos): Jardins Suspensos. Religião politeísta. Zigurates = templos. Astronomia: 360° na circunferência, 60 minutos na hora.",
+      "body": "<h2>Introdução</h2><p>A <strong>Mesopotâmia</strong> ('terra entre rios') é considerada o <strong>berço da civilização</strong>. Localizada entre os rios Tigre e Eufrates (atual Iraque), viu surgir as primeiras cidades, a escrita e o direito codificado.</p><h2>Povos Mesopotâmicos</h2><table><thead><tr><th>Povo</th><th>Período</th><th>Contribuição</th></tr></thead><tbody><tr><td><strong>Sumérios</strong></td><td>~3500 a.C.</td><td>Escrita cuneiforme, roda, cidades-estado (Ur, Uruk)</td></tr><tr><td><strong>Acádios</strong></td><td>~2350 a.C.</td><td>Primeiro império (Sargão de Acádia)</td></tr><tr><td><strong>Babilônios</strong></td><td>~1792 a.C.</td><td>Código de Hamurabi, astronomia</td></tr><tr><td><strong>Assírios</strong></td><td>~1200 a.C.</td><td>Império militar, Biblioteca de Nínive</td></tr><tr><td><strong>Caldeus</strong></td><td>~626 a.C.</td><td>Jardins Suspensos da Babilônia</td></tr></tbody></table><h2>Código de Hamurabi</h2><p>Primeiro código de leis escritas (~1772 a.C.). Princípio: <strong>'olho por olho, dente por dente'</strong> (Lei de Talião). Diferenciava punições por classe social.</p><h2>Legado</h2><ul><li><strong>Escrita cuneiforme:</strong> primeira forma de escrita</li><li><strong>Matemática:</strong> sistema sexagesimal (base 60) → 360° e 60 minutos</li><li><strong>Astronomia:</strong> calendário lunar, constelações, eclipses</li><li><strong>Arquitetura:</strong> zigurates (templos em degraus)</li></ul><h2>Resumo</h2><ul><li>✅ Mesopotâmia = berço da civilização</li><li>✅ Hamurabi = primeiro código de leis</li><li>⚠️ ENEM: relação entre controle da água (irrigação) e poder político</li></ul><h2>Curiosidade</h2><p>A escrita cuneiforme foi decifrada em 1857 por Henry Rawlinson, usando a Inscrição de Behistun — uma espécie de \"Pedra de Roseta\" da Mesopotâmia!</p>",
+      "faq": [
+        {
+          "q": "Por que a Mesopotâmia é o berço da civilização?",
+          "a": "Porque lá surgiram as primeiras cidades, a escrita cuneiforme, o código de leis (Hamurabi), a roda e sistemas de irrigação — elementos fundamentais da civilização."
+        },
+        {
+          "q": "O que é o Código de Hamurabi?",
+          "a": "Primeiro código de leis escritas (~1772 a.C.). Baseado na Lei de Talião ('olho por olho'). Tinha 282 leis que diferenciavam punições conforme a classe social."
+        },
+        {
+          "q": "O que era um zigurate?",
+          "a": "Templo mesopotâmico em forma de pirâmide de degraus. Era o centro religioso e administrativo da cidade-estado."
+        },
+        {
+          "q": "De onde vem o sistema de 60 minutos?",
+          "a": "Dos sumérios! Usavam sistema sexagesimal (base 60), que nos deu 60 minutos na hora, 60 segundos no minuto e 360° na circunferência."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Olho por olho, dente por dente' é do:",
+          "options": [
+            "Código Civil",
+            "Código de Hamurabi",
+            "Alcorão",
+            "Direito Romano"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mesopotâmia significa:",
+          "options": [
+            "Terra dos faraós",
+            "Terra entre rios",
+            "Terra prometida",
+            "Terra santa"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A escrita cuneiforme foi criada pelos:",
+          "options": [
+            "Egípcios",
+            "Sumérios",
+            "Romanos",
+            "Fenícios"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O sistema de 60 minutos vem do:",
+          "options": [
+            "Egito",
+            "Grécia",
+            "Mesopotâmia",
+            "Roma"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "A Escola",
-      "slug": "a-escola",
-      "desc": "O que é a escola e por que ela é importante.",
-      "category": "Comunidade",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Escola: lugar de aprender e conviver. Tem regras (respeito, horários). Profissionais: professor, diretor, merendeira, zelador. Deveres: estudar, respeitar colegas.",
-      "body": "<p>A <strong>escola</strong> é o lugar onde aprendemos coisas novas, fazemos amigos e nos preparamos para a vida. Na escola temos <strong>professores</strong> que ensinam, <strong>colegas</strong> para conviver e muitas atividades.</p><p>A escola tem <strong>regras</strong> para funcionar bem: chegar no horário, respeitar os colegas e professores, cuidar dos materiais e do ambiente. Essas regras existem para todos conviverem em harmonia.</p><p>Muitas pessoas trabalham para a escola funcionar: o <strong>diretor</strong> organiza tudo, a <strong>merendeira</strong> prepara a comida, o <strong>zelador</strong> cuida da limpeza. Cada um tem um papel importante!</p>",
-      "faq": [{"q":"Por que temos regras na escola?","a":"Para garantir que todos aprendam e convivam com respeito."},{"q":"Escola sempre existiu?","a":"Não! Antigamente, crianças aprendiam em casa ou trabalhando. Escolas para todos são relativamente recentes."}]
+      "title": "Egito Antigo",
+      "slug": "egito-antigo",
+      "desc": "Egito Antigo: faraó (rei-deus), pirâmides, mumificação, hieróglifos. Sociedade estratificada. Rio Nilo: cheias, agricultura. Antigo, Médio e Novo Império.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Egito = 'dádiva do Nilo' (Heródoto). Faraó: rei-deus (teocracia). Sociedade: faraó → sacerdotes/nobres → escribas → artesãos/camponeses → escravos. Pirâmides: Quéops, Quéfren, Miquerinos (Gizé). Mumificação: crença na vida após a morte. Hieróglifos: decifrados por Champollion (Pedra de Roseta, 1822). Períodos: Antigo Império (pirâmides), Médio Império (expansão), Novo Império (apogeu).",
+      "body": "<h2>Introdução</h2><p>O <strong>Egito Antigo</strong> é uma das civilizações mais fascinantes da história. Desenvolveu-se ao longo do <strong>Rio Nilo</strong>, cujas cheias anuais fertilizavam as terras, permitindo a agricultura no meio do deserto.</p><h2>O Nilo e a Civilização</h2><p>Heródoto: <strong>\"O Egito é uma dádiva do Nilo.\"</strong> As cheias anuais depositavam húmus (lodo fértil). O controle da água exigia organização centralizada → poder do faraó.</p><h2>Sociedade</h2><table><thead><tr><th>Camada</th><th>Função</th></tr></thead><tbody><tr><td>Faraó</td><td>Rei-deus (teocracia)</td></tr><tr><td>Sacerdotes/Nobres</td><td>Templos e administração</td></tr><tr><td>Escribas</td><td>Escrita, contabilidade</td></tr><tr><td>Artesãos/Camponeses</td><td>Trabalho manual</td></tr><tr><td>Escravos</td><td>Prisioneiros de guerra</td></tr></tbody></table><h2>Religião e Morte</h2><ul><li><strong>Politeísmo:</strong> Rá (Sol), Osíris (mortos), Ísis, Hórus, Anúbis</li><li><strong>Mumificação:</strong> preservar o corpo para a vida eterna</li><li><strong>Livro dos Mortos:</strong> guia para o julgamento de Osíris</li><li><strong>Pirâmides:</strong> túmulos dos faraós (Gizé: Quéops, Quéfren, Miquerinos)</li></ul><h2>Legado</h2><ul><li>Hieróglifos (decifrados por Champollion, 1822)</li><li>Papiro, calendário solar de 365 dias</li><li>Medicina, geometria, arquitetura monumental</li></ul><h2>Resumo</h2><ul><li>✅ Nilo = vida. Faraó = rei-deus. Pirâmides = túmulos.</li><li>⚠️ ENEM: relação Nilo↔poder político↔religião</li></ul><h2>Curiosidade</h2><p>A Grande Pirâmide de Quéops tem 146m de altura e foi a estrutura mais alta do mundo por <strong>3.800 anos</strong> — até a construção da Catedral de Lincoln (1311)!</p>",
+      "faq": [
+        {
+          "q": "Por que o Nilo era tão importante?",
+          "a": "Suas cheias anuais fertilizavam as margens com húmus, permitindo agricultura no deserto. O controle das águas exigia governo centralizado, fortalecendo o faraó."
+        },
+        {
+          "q": "O que era teocracia?",
+          "a": "Governo onde o líder é considerado divino ou representante dos deuses. O faraó era rei E deus ao mesmo tempo."
+        },
+        {
+          "q": "Quem decifrou os hieróglifos?",
+          "a": "Jean-François Champollion, em 1822, usando a Pedra de Roseta (texto em hieróglifos, demótico e grego)."
+        },
+        {
+          "q": "Escravos construíram as pirâmides?",
+          "a": "Pesquisas recentes sugerem que foram construídas por trabalhadores assalariados (camponeses durante as cheias), não escravos. Eram bem alimentados e recebiam cuidados médicos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'O Egito é dádiva do Nilo' é de:",
+          "options": [
+            "Champollion",
+            "Heródoto",
+            "Tutancâmon",
+            "Ramsés"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Faraó era considerado:",
+          "options": [
+            "Apenas rei",
+            "Apenas sacerdote",
+            "Rei-deus",
+            "General"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Hieróglifos foram decifrados por:",
+          "options": [
+            "Schliemann",
+            "Champollion",
+            "Carter",
+            "Rawlinson"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "As pirâmides de Gizé são:",
+          "options": [
+            "Templos",
+            "Palácios",
+            "Túmulos",
+            "Bibliotecas"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Ontem, Hoje e Amanhã",
-      "slug": "ontem-hoje-amanha",
-      "desc": "Entendendo a passagem do tempo.",
-      "category": "Tempo",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Passado = o que já aconteceu (ontem). Presente = o que está acontecendo (hoje). Futuro = o que vai acontecer (amanhã).",
-      "body": "<p>O tempo está sempre passando e nunca para. Dividimos o tempo em três partes: <strong>passado</strong>, <strong>presente</strong> e <strong>futuro</strong>.</p><p>O <strong>passado</strong> é tudo que já aconteceu: o que você fez ontem, o que comeu no almoço, como era quando bebê. O <strong>presente</strong> é agora, este momento em que está lendo. O <strong>futuro</strong> é o que ainda vai acontecer: o que fará amanhã, nas férias, quando crescer.</p><p>A <strong>História</strong> estuda o passado para entendermos como chegamos até aqui. Fotos antigas, objetos velhos e histórias dos avós nos conectam ao passado.</p>",
-      "faq": [{"q":"Podemos mudar o passado?","a":"Não! O passado já aconteceu. Mas podemos aprender com ele."},{"q":"Como sabemos o que aconteceu no passado?","a":"Por registros: fotos, cartas, livros, pinturas, ruínas e relatos de pessoas."}]
+      "title": "Hebreus, Fenícios e Persas",
+      "slug": "hebreus-fenicios-e-persas",
+      "desc": "Hebreus: monoteísmo (Javé), Torá, diáspora. Fenícios: alfabeto fonético, comércio marítimo, púrpura. Persas: Império tolerante, estradas, zoroastrismo.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Hebreus: monoteísmo (Javé/Iahweh), Torá, patriarcas (Abraão, Moisés, Davi, Salomão), Êxodo, diáspora (dispersão). Fenícios: alfabeto fonético (22 letras, base do nosso), comércio marítimo, cidades-estado (Tiro, Sídon, Biblos), púrpura. Persas: Ciro, Dario I, tolerância religiosa, satrapias, Estrada Real, zoroastrismo (Ahura Mazda × Arimã, bem × mal).",
+      "body": "<h2>Introdução</h2><p>Três povos da Antiguidade Oriental deixaram legados fundamentais: os <strong>Hebreus</strong> (monoteísmo), os <strong>Fenícios</strong> (alfabeto) e os <strong>Persas</strong> (tolerância imperial).</p><h2>Hebreus</h2><ul><li><strong>Monoteísmo:</strong> culto a um único deus (Javé/Iahweh) — base do judaísmo, cristianismo e islã</li><li><strong>Patriarcas:</strong> Abraão (aliança), Moisés (Êxodo, 10 Mandamentos), Davi, Salomão (Templo)</li><li><strong>Diáspora:</strong> dispersão pelo mundo após destruição do Templo por Roma (70 d.C.)</li><li><strong>Torá:</strong> livro sagrado (5 primeiros livros da Bíblia)</li></ul><h2>Fenícios</h2><ul><li><strong>Alfabeto fonético:</strong> 22 letras consonantais — base do alfabeto grego, latino e do nosso!</li><li><strong>Comércio marítimo:</strong> maior potência naval do Mediterrâneo</li><li><strong>Cidades-estado:</strong> Tiro, Sídon, Biblos (papel da cidade = biblioteca)</li><li><strong>Púrpura:</strong> tinta roxa extraída do molusco múrex, valia mais que ouro</li></ul><h2>Persas</h2><ul><li><strong>Império tolerante:</strong> Ciro II respeitava culturas e religiões dos conquistados</li><li><strong>Administração:</strong> satrapias (províncias) + olhos e ouvidos do rei (inspetores)</li><li><strong>Estrada Real:</strong> 2.500 km, sistema de correios</li><li><strong>Zoroastrismo:</strong> luta entre Bem (Ahura Mazda) × Mal (Arimã) — influenciou o conceito de céu/inferno</li></ul><h2>Resumo</h2><ul><li>✅ Hebreus: monoteísmo. Fenícios: alfabeto. Persas: tolerância.</li><li>⚠️ ENEM: legado cultural desses povos na civilização ocidental</li></ul><h2>Curiosidade</h2><p>A palavra <strong>'Bíblia'</strong> vem de <strong>Biblos</strong>, cidade fenícia famosa por produzir papiro. 'Biblos' em grego significa 'livro'!</p>",
+      "faq": [
+        {
+          "q": "Por que o monoteísmo hebraico é tão importante?",
+          "a": "Foi a primeira religião monoteísta consolidada. Influenciou diretamente o cristianismo e o islamismo — as 3 maiores religiões monoteístas do mundo."
+        },
+        {
+          "q": "Qual a importância do alfabeto fenício?",
+          "a": "Foi o primeiro alfabeto fonético (letras = sons). Simplificou a escrita, democratizando-a. Gerou o alfabeto grego, que gerou o latino, que gerou o nosso."
+        },
+        {
+          "q": "O que eram satrapias?",
+          "a": "Províncias do Império Persa, cada uma governada por um sátrapa. Dario I criou o sistema para administrar o vasto império com eficiência."
+        },
+        {
+          "q": "O que é diáspora?",
+          "a": "Dispersão dos hebreus pelo mundo após a destruição do Segundo Templo por Roma (70 d.C.). Os judeus viveram espalhados por séculos até a criação de Israel (1948)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O monoteísmo é contribuição dos:",
+          "options": [
+            "Fenícios",
+            "Persas",
+            "Hebreus",
+            "Egípcios"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O alfabeto fonético foi criado pelos:",
+          "options": [
+            "Hebreus",
+            "Gregos",
+            "Fenícios",
+            "Romanos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Zoroastrismo é religião dos:",
+          "options": [
+            "Hebreus",
+            "Fenícios",
+            "Persas",
+            "Egípcios"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A palavra 'Bíblia' vem da cidade de:",
+          "options": [
+            "Jerusalém",
+            "Tiro",
+            "Sídon",
+            "Biblos"
+          ],
+          "answer": 3
+        }
+      ]
     },
     {
-      "title": "Datas Comemorativas",
-      "slug": "datas-comemorativas",
-      "desc": "As festas e feriados que celebramos durante o ano.",
-      "category": "Cultura",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "50",
-      "essential": "Datas comemorativas celebram eventos importantes. Exemplos: Páscoa, Dia das Mães, Festa Junina, Dia da Independência (7 de setembro), Natal.",
-      "body": "<p>Durante o ano, celebramos várias <strong>datas comemorativas</strong> — dias especiais que lembram eventos importantes ou homenageiam pessoas.</p><p>Algumas datas são <strong>cívicas</strong> (do país): o <strong>7 de setembro</strong> celebra a Independência do Brasil, o <strong>15 de novembro</strong> a Proclamação da República. Outras são <strong>culturais</strong>: Carnaval, Festa Junina, Natal.</p><p>E temos as datas <strong>afetivas</strong>: Dia das Mães, Dia dos Pais, Dia das Crianças. Cada data tem tradições próprias: na Festa Junina dançamos quadrilha e comemos paçoca; no Natal montamos árvore e trocamos presentes.</p>",
-      "faq": [{"q":"Todos os países têm as mesmas datas?","a":"Não! Cada país tem seus feriados e celebrações próprias."},{"q":"Por que o 7 de setembro é feriado?","a":"Porque nesse dia, em 1822, D. Pedro I declarou a Independência do Brasil de Portugal."}]
+      "title": "Grécia Antiga: Política e Sociedade",
+      "slug": "grecia-antiga-politica-e-sociedade",
+      "desc": "Grécia Antiga: pólis (Atenas e Esparta), democracia ateniense, cidadania, oligarquia espartana. Sociedade: cidadãos, metecos, escravos. Guerras Médicas e do Peloponeso.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Pólis = cidade-estado independente. Atenas: democracia direta (Clístenes), Eclésia (assembleia), cidadão = homem livre ateniense. Esparta: oligarquia militar, 2 reis + Gerúsia. Guerras Médicas: gregos × persas (Maratona, Termópilas, Salamina). Guerra do Peloponeso: Atenas × Esparta → enfraquecimento. Mulheres, escravos e metecos NÃO eram cidadãos.",
+      "body": "<h2>Introdução</h2><p>A <strong>Grécia Antiga</strong> é o berço da democracia, da filosofia e da cultura ocidental. Os gregos organizaram-se em <strong>pólis</strong> (cidades-estado) independentes.</p><h2>As Duas Pólis</h2><table><thead><tr><th>Aspecto</th><th>Atenas</th><th>Esparta</th></tr></thead><tbody><tr><td>Governo</td><td>Democracia direta</td><td>Oligarquia militar</td></tr><tr><td>Educação</td><td>Filosofia, artes, retórica</td><td>Militar (agogê)</td></tr><tr><td>Economia</td><td>Comércio marítimo</td><td>Agricultura (hilotas)</td></tr><tr><td>Mulher</td><td>Reclusa no lar</td><td>Mais liberdade</td></tr></tbody></table><h2>Democracia Ateniense</h2><ul><li><strong>Direta:</strong> cidadãos votavam pessoalmente na Eclésia (assembleia)</li><li><strong>Cidadão:</strong> homem livre, ateniense, maior de 18 anos, filho de pais atenienses</li><li><strong>Excluídos:</strong> mulheres, escravos, metecos (estrangeiros) — maioria da população!</li><li><strong>Reformadores:</strong> Sólon, Clístenes, Péricles</li></ul><h2>Guerras</h2><ul><li><strong>Médicas (490-479 a.C.):</strong> gregos × persas → vitória grega (Maratona, Termópilas, Salamina)</li><li><strong>Peloponeso (431-404 a.C.):</strong> Atenas × Esparta → vitória espartana → enfraquecimento grego</li></ul><h2>Resumo</h2><ul><li>✅ Democracia ateniense era direta mas excludente</li><li>⚠️ ENEM: limites da democracia grega (mulheres, escravos excluídos)</li></ul><h2>Curiosidade</h2><p>A corrida de <strong>Maratona</strong> (42km) homenageia o soldado grego Filípides, que correu de Maratona a Atenas para anunciar a vitória sobre os persas — e morreu de exaustão ao chegar!</p>",
+      "faq": [
+        {
+          "q": "A democracia grega era para todos?",
+          "a": "Não! Só cidadãos (homens livres, atenienses, maiores de 18). Mulheres, escravos e metecos eram excluídos — cerca de 85% da população não participava."
+        },
+        {
+          "q": "Qual a diferença entre Atenas e Esparta?",
+          "a": "Atenas: democracia, comércio, filosofia. Esparta: oligarquia militar, agricultura, educação guerreira (agogê). Eram rivais."
+        },
+        {
+          "q": "O que foram as Guerras Médicas?",
+          "a": "Conflitos entre gregos e persas (490-479 a.C.). Batalhas famosas: Maratona (490), Termópilas (480, 300 espartanos), Salamina (480, vitória naval ateniense)."
+        },
+        {
+          "q": "O que era a Eclésia?",
+          "a": "Assembleia popular de Atenas onde os cidadãos votavam diretamente nas leis e decisões. Era a base da democracia direta."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A democracia ateniense era:",
+          "options": [
+            "Representativa",
+            "Direta",
+            "Universal",
+            "Parlamentar"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Quem NÃO era cidadão em Atenas?",
+          "options": [
+            "Homens livres",
+            "Filhos de atenienses",
+            "Mulheres e escravos",
+            "Maiores de 18"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Guerras Médicas: gregos vs:",
+          "options": [
+            "Romanos",
+            "Egípcios",
+            "Persas",
+            "Fenícios"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Esparta tinha governo:",
+          "options": [
+            "Democrático",
+            "Oligárquico militar",
+            "Teocrático",
+            "Anarquista"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Meu Bairro e Minha Comunidade",
-      "slug": "meu-bairro",
-      "desc": "O lugar onde moramos e as pessoas ao nosso redor.",
-      "category": "Comunidade",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Bairro = parte da cidade onde moramos. Comunidade = pessoas que vivem e trabalham perto. Tem ruas, praças, escolas, mercados e igrejas.",
-      "body": "<p>Seu <strong>bairro</strong> é a parte da cidade onde você mora. Nele existem ruas, casas, prédios, praças, escolas, padarias e muitos vizinhos. Tudo isso forma uma <strong>comunidade</strong>.</p><p>Na comunidade, as pessoas convivem e se ajudam: o padeiro faz o pão, o médico cuida da saúde, o professor ensina. Cada um contribui para o lugar funcionar.</p><p>Respeitar o bairro é importante: não jogar lixo no chão, cuidar das árvores, ser educado com os vizinhos. Quando todos cuidam, o lugar fica melhor para todos!</p>",
-      "faq": [{"q":"Bairro e cidade são a mesma coisa?","a":"Não! A cidade é formada por muitos bairros."},{"q":"Quem cuida do bairro?","a":"A prefeitura (governo municipal) e os próprios moradores."}]
+      "title": "Grécia: Cultura, Filosofia e Legado",
+      "slug": "grecia-cultura-filosofia-e-legado",
+      "desc": "Legado grego: filosofia (Sócrates, Platão, Aristóteles), teatro (tragédia e comédia), Olimpíadas, arquitetura (Partenon), mitologia, ciência e arte.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Filosofia: Sócrates (maiêutica, 'conhece-te a ti mesmo'), Platão (mundo das ideias, República), Aristóteles (lógica, empirismo). Teatro: tragédia (Ésquilo, Sófocles, Eurípides) e comédia (Aristófanes). Mitologia: Zeus, Atena, Apolo. Olimpíadas: desde 776 a.C. Helenismo: Alexandre Magno difunde cultura grega pelo Oriente.",
+      "body": "<h2>Introdução</h2><p>O legado cultural grego moldou a civilização ocidental. Da <strong>filosofia</strong> à <strong>democracia</strong>, do <strong>teatro</strong> às <strong>Olimpíadas</strong>, os gregos lançaram as bases do pensamento ocidental.</p><h2>Filosofia</h2><table><thead><tr><th>Filósofo</th><th>Contribuição</th></tr></thead><tbody><tr><td><strong>Sócrates</strong></td><td>Maiêutica (\"parto das ideias\"), \"só sei que nada sei\"</td></tr><tr><td><strong>Platão</strong></td><td>Mundo das ideias, Alegoria da Caverna, República</td></tr><tr><td><strong>Aristóteles</strong></td><td>Lógica formal, empirismo, tutor de Alexandre</td></tr></tbody></table><h2>Teatro</h2><ul><li><strong>Tragédia:</strong> Ésquilo, Sófocles (Édipo Rei), Eurípides (Medeia)</li><li><strong>Comédia:</strong> Aristófanes (crítica social com humor)</li><li>Nasceu nos festivais de Dionísio</li></ul><h2>Ciência</h2><ul><li><strong>Pitágoras:</strong> teorema (a²+b²=c²)</li><li><strong>Hipócrates:</strong> pai da medicina</li><li><strong>Euclides:</strong> geometria</li><li><strong>Arquimedes:</strong> princípio do empuxo</li></ul><h2>Helenismo</h2><p><strong>Alexandre Magno</strong> (356-323 a.C.) espalhou a cultura grega pelo Oriente, criando o <strong>Helenismo</strong> — fusão cultural greco-oriental.</p><h2>Resumo</h2><ul><li>✅ Sócrates-Platão-Aristóteles: tríade filosófica</li><li>⚠️ ENEM: mitologia, filosofia e seus impactos no pensamento ocidental</li></ul><h2>Curiosidade</h2><p>As primeiras <strong>Olimpíadas</strong> foram em 776 a.C. em Olímpia. Durante os jogos, todas as guerras paravam (trégua sagrada). Atletas competiam <strong>nus</strong> — a palavra 'ginástica' vem do grego <em>gymnós</em> (nu)!</p>",
+      "faq": [
+        {
+          "q": "O que é a Alegoria da Caverna?",
+          "a": "Metáfora de Platão: prisioneiros numa caverna veem apenas sombras e acham que são a realidade. Ao sair, descobrem o mundo real. Representa a busca pelo conhecimento verdadeiro."
+        },
+        {
+          "q": "O que foi o Helenismo?",
+          "a": "Período cultural após as conquistas de Alexandre Magno (323-30 a.C.). Fusão da cultura grega com oriental (egípcia, persa). Centro cultural: Alexandria."
+        },
+        {
+          "q": "Por que Sócrates foi condenado?",
+          "a": "Acusado de 'corromper a juventude' e 'não acreditar nos deuses da cidade'. Foi condenado a beber cicuta (veneno). Escolheu morrer a renegar suas ideias."
+        },
+        {
+          "q": "Qual a diferença entre tragédia e comédia?",
+          "a": "Tragédia: tema sério, herói com falha fatal, fim trágico. Comédia: humor, crítica social, sátira. Ambas nasceram nos festivais religiosos de Dionísio."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Só sei que nada sei' é de:",
+          "options": [
+            "Platão",
+            "Aristóteles",
+            "Sócrates",
+            "Tales"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A Alegoria da Caverna é de:",
+          "options": [
+            "Sócrates",
+            "Platão",
+            "Aristóteles",
+            "Pitágoras"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Alexandre Magno difundiu:",
+          "options": [
+            "Cultura romana",
+            "Cultura grega",
+            "Zoroastrismo",
+            "Budismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "As Olimpíadas começaram em:",
+          "options": [
+            "490 a.C.",
+            "776 a.C.",
+            "323 a.C.",
+            "146 a.C."
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Brincadeiras de Antigamente",
-      "slug": "brincadeiras-antigamente",
-      "desc": "Como as crianças brincavam no passado.",
-      "category": "Cultura",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Crianças antigamente brincavam na rua: pega-pega, esconde-esconde, pipa, bolinha de gude, amarelinha, pião. Sem celular ou videogame!",
-      "body": "<p>Seus avós e bisavós brincavam de formas muito diferentes de hoje! Não existia celular, videogame ou internet. As brincadeiras eram na <strong>rua</strong>, com amigos do bairro.</p><p>Brincadeiras tradicionais: <strong>pega-pega</strong>, <strong>esconde-esconde</strong>, <strong>amarelinha</strong>, <strong>pular corda</strong>, <strong>bolinha de gude</strong>, <strong>pião</strong>, <strong>pipa</strong> e <strong>queimada</strong>. Muitas dessas brincadeiras existem há centenas de anos!</p><p>Essas brincadeiras são parte da <strong>cultura brasileira</strong>. Mesmo com a tecnologia, elas continuam sendo divertidas. Que tal experimentar uma brincadeira que seus avós gostavam?</p>",
-      "faq": [{"q":"De onde vieram essas brincadeiras?","a":"Muitas vieram de Portugal, África e dos povos indígenas — as três raízes da cultura brasileira."},{"q":"Por que as brincadeiras mudaram?","a":"Por causa da tecnologia (TV, videogame, internet) e da urbanização (menos espaço nas ruas)."}]
+      "title": "Roma: República e Império",
+      "slug": "roma-republica-e-imperio",
+      "desc": "Roma: da Monarquia à República (509 a.C.) ao Império (27 a.C.). Senado, cônsules, tribunos da plebe. Guerras Púnicas. Expansão. Júlio César e Augusto.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Monarquia (753-509 a.C.): reis etruscos. República (509-27 a.C.): Senado + cônsules + tribunos da plebe. Guerras Púnicas: Roma × Cartago (Aníbal), domínio do Mediterrâneo. Crise: latifúndios, escravismo, guerras civis. Júlio César: ditador perpétuo, assassinado (44 a.C.). Augusto (27 a.C.): 1º imperador, Pax Romana.",
+      "body": "<h2>Introdução</h2><p><strong>Roma</strong> foi a maior potência da Antiguidade, dominando todo o Mediterrâneo. Sua história divide-se em Monarquia, República e Império.</p><h2>Monarquia (753-509 a.C.)</h2><p>Fundação lendária: Rômulo e Remo. Reis etruscos. Derrubados em 509 a.C.</p><h2>República (509-27 a.C.)</h2><table><thead><tr><th>Instituição</th><th>Função</th></tr></thead><tbody><tr><td>Senado</td><td>Patrícios, poder real</td></tr><tr><td>Cônsules (2)</td><td>Poder executivo (1 ano)</td></tr><tr><td>Tribunos da plebe</td><td>Proteção dos plebeus (veto)</td></tr></tbody></table><h3>Guerras Púnicas (264-146 a.C.)</h3><p>Roma × Cartago (3 guerras). Aníbal cruzou os Alpes com elefantes. Roma venceu e dominou o <strong>Mare Nostrum</strong> (Mediterrâneo).</p><h2>Crise da República</h2><ul><li>Latifúndios + escravismo → empobrecimento dos plebeus</li><li>Guerras civis: Mário × Sila, Pompeu × César</li><li><strong>Júlio César:</strong> ditador perpétuo, assassinado em 44 a.C. (\"Até tu, Brutus?\")</li></ul><h2>Império (27 a.C. - 476 d.C.)</h2><p><strong>Augusto</strong> (Otávio): 1º imperador. Pax Romana (200 anos de estabilidade).</p><h2>Resumo</h2><ul><li>✅ República: Senado + cônsules + tribunos</li><li>✅ Guerras Púnicas → domínio do Mediterrâneo</li><li>⚠️ ENEM: conflitos patrícios × plebeus, expansionismo</li></ul><h2>Curiosidade</h2><p>Aníbal de Cartago cruzou os Alpes com <strong>37 elefantes de guerra</strong> para atacar Roma pelo norte — uma das façanhas militares mais audaciosas da história!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre República e Império?",
+          "a": "República: poder dividido (Senado, cônsules). Império: poder centralizado no imperador. A transição ocorreu com Augusto em 27 a.C."
+        },
+        {
+          "q": "O que foram as Guerras Púnicas?",
+          "a": "3 guerras entre Roma e Cartago (264-146 a.C.) pelo controle do Mediterrâneo. Cartago foi destruída na 3ª guerra. Roma tornou-se a potência dominante."
+        },
+        {
+          "q": "O que era o tribuno da plebe?",
+          "a": "Magistrado que representava os plebeus. Tinha poder de VETO sobre decisões do Senado. Foi conquista dos plebeus na luta contra os patrícios."
+        },
+        {
+          "q": "Júlio César era imperador?",
+          "a": "Não! Era ditador perpétuo na República. Foi assassinado em 44 a.C. O primeiro imperador foi Augusto (Otávio), sobrinho-neto adotivo de César."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O primeiro imperador romano foi:",
+          "options": [
+            "Júlio César",
+            "Augusto",
+            "Nero",
+            "Constantino"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Guerras Púnicas: Roma vs:",
+          "options": [
+            "Grécia",
+            "Egito",
+            "Cartago",
+            "Pérsia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Tribunos da plebe tinham poder de:",
+          "options": [
+            "Legislar",
+            "Veto",
+            "Declarar guerra",
+            "Nomear cônsules"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Até tu, Brutus?' refere-se a:",
+          "options": [
+            "Augusto",
+            "Nero",
+            "Júlio César",
+            "Cícero"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Roma: Legado, Cristianismo e Queda",
+      "slug": "roma-legado-cristianismo-e-queda",
+      "desc": "Legado romano: direito, latim, arquitetura (arcos, aquedutos, Coliseu). Cristianismo: de perseguição a religião oficial (Edito de Tessalônica, 380). Queda de Roma (476 d.C.).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Legado: direito romano (base do direito ocidental), latim (originou português, espanhol, francês, italiano), arquitetura (arcos, aquedutos, estradas, Coliseu), república. Cristianismo: Jesus (~4 a.C.-30 d.C.), perseguição → Edito de Milão (313, liberdade) → Edito de Tessalônica (380, religião oficial). Queda: 476 d.C. (Roma Ocidental cai, bárbaro Odoacro depõe Rômulo Augusto). Roma Oriental (Bizâncio) sobrevive até 1453.",
+      "body": "<h2>Introdução</h2><p>O legado de Roma perdura até hoje: nosso <strong>direito</strong>, nossas <strong>línguas</strong>, nossa <strong>arquitetura</strong> e o <strong>cristianismo</strong> como religião dominante do Ocidente.</p><h2>Legado Cultural</h2><table><thead><tr><th>Área</th><th>Contribuição</th></tr></thead><tbody><tr><td>Direito</td><td>Base do direito civil ocidental</td></tr><tr><td>Latim</td><td>Originou PT, ES, FR, IT, RO</td></tr><tr><td>Arquitetura</td><td>Arcos, aquedutos, estradas, Coliseu</td></tr><tr><td>Política</td><td>Conceito de república, senado, cidadania</td></tr></tbody></table><h2>Cristianismo</h2><ul><li><strong>Jesus Cristo</strong> (~4 a.C.-30 d.C.): pregação na Judeia</li><li><strong>Perseguição:</strong> cristãos perseguidos por 3 séculos</li><li><strong>Edito de Milão (313):</strong> Constantino libera o cristianismo</li><li><strong>Edito de Tessalônica (380):</strong> Teodósio torna o cristianismo <strong>religião oficial</strong></li></ul><h2>Queda do Império Romano</h2><p>Causas: invasões bárbaras, crise econômica, divisão do império (395), enfraquecimento militar.</p><ul><li><strong>476 d.C.:</strong> Odoacro (bárbaro) depõe Rômulo Augusto → fim do Império Romano do Ocidente</li><li><strong>Império Oriental (Bizâncio):</strong> sobrevive até <strong>1453</strong></li></ul><h2>Resumo</h2><ul><li>✅ Direito romano = base do nosso direito</li><li>✅ 476 d.C. = queda de Roma = início da Idade Média</li><li>⚠️ ENEM: processo de queda (não foi um evento súbito)</li></ul><h2>Curiosidade</h2><p>O <strong>Coliseu</strong> comportava 50.000 espectadores e tinha um sistema de cobertura retrátil (velarium) operado por marinheiros! Os espetáculos incluíam lutas de gladiadores, encenações navais e caçadas de animais.</p>",
+      "faq": [
+        {
+          "q": "Quando o cristianismo virou religião oficial?",
+          "a": "Em 380 d.C., com o Edito de Tessalônica de Teodósio. Antes disso, Constantino havia liberado a prática em 313 (Edito de Milão). Foram 3 séculos de perseguição."
+        },
+        {
+          "q": "O que causou a queda de Roma?",
+          "a": "Múltiplos fatores: invasões bárbaras, crise econômica, divisão do império (395), corrupção, enfraquecimento militar e epidemias. Foi um processo gradual, não um evento único."
+        },
+        {
+          "q": "Por que o latim é importante?",
+          "a": "Originou as línguas românicas: português, espanhol, francês, italiano, romeno. Termos jurídicos, médicos e científicos ainda usam latim."
+        },
+        {
+          "q": "Roma caiu em 476, mas Bizâncio sobreviveu?",
+          "a": "Sim! O Império Romano do Oriente (Bizâncio), com capital em Constantinopla, sobreviveu até 1453, quando caiu para os turcos otomanos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Queda de Roma Ocidental:",
+          "options": [
+            "395 d.C.",
+            "476 d.C.",
+            "313 d.C.",
+            "1453"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O cristianismo tornou-se oficial em:",
+          "options": [
+            "313",
+            "380",
+            "476",
+            "325"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O latim originou:",
+          "options": [
+            "Inglês e alemão",
+            "Português e espanhol",
+            "Árabe e hebraico",
+            "Grego e turco"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Edito de Milão (313) foi de:",
+          "options": [
+            "Teodósio",
+            "Augusto",
+            "Constantino",
+            "Nero"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Império Bizantino",
+      "slug": "imperio-bizantino",
+      "desc": "Império Bizantino (Roma Oriental): Constantinopla, Justiniano, Código Justiniano, cisma de 1054 (Igreja Ortodoxa). Sobreviveu até 1453 (queda para turcos otomanos).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Bizâncio = Império Romano do Oriente, capital Constantinopla. Justiniano (527-565): reconquista territorial, Código Justiniano (compilação do direito romano), Santa Sofia. Cisma de 1054: Igreja Católica (Roma) × Igreja Ortodoxa (Constantinopla). Queda: 1453 (turcos otomanos). Legado: preservou cultura greco-romana, direito romano, elo entre Antiguidade e Renascimento.",
+      "body": "<h2>Introdução</h2><p>O <strong>Império Bizantino</strong> (Roma Oriental) sobreviveu mil anos após a queda de Roma (476-1453). Com capital em <strong>Constantinopla</strong>, preservou a cultura greco-romana.</p><h2>Justiniano (527-565)</h2><ul><li><strong>Código Justiniano:</strong> compilação do direito romano (base do direito civil moderno)</li><li><strong>Reconquista:</strong> tentou restaurar o Império Romano (norte da África, Itália)</li><li><strong>Santa Sofia:</strong> obra-prima da arquitetura, cúpula de 55m</li></ul><h2>Cisma de 1054</h2><p>Divisão definitiva: <strong>Igreja Católica</strong> (Roma, Papa) × <strong>Igreja Ortodoxa</strong> (Constantinopla, Patriarca). Divergências: autoridade papal, ícones, filioque.</p><h2>Queda (1453)</h2><p>Turcos otomanos de <strong>Mehmed II</strong> conquistam Constantinopla com canhões gigantes. Fim da era medieval, início da Idade Moderna. Cidade renomeada Istambul.</p><h2>Resumo</h2><ul><li>✅ Bizâncio = elo entre Antiguidade e Renascimento</li><li>✅ Cisma 1054: Católica × Ortodoxa</li><li>⚠️ Queda em 1453 = marco do fim da Idade Média</li></ul><h2>Curiosidade</h2><p>Constantinopla tinha <strong>muralhas triplas</strong> de 6km que resistiram a mais de 20 cercos ao longo de mil anos. Só foram superadas em 1453 por canhões otomanos gigantes!</p>",
+      "faq": [
+        {
+          "q": "Por que Bizâncio é importante?",
+          "a": "Preservou o conhecimento greco-romano por mil anos, compilou o direito romano (Código Justiniano) e serviu de ponte cultural entre Antiguidade e Renascimento."
+        },
+        {
+          "q": "O que foi o Cisma de 1054?",
+          "a": "Divisão entre Igreja Católica (Roma, Papa) e Igreja Ortodoxa (Constantinopla, Patriarca). Causas: autoridade papal, uso de ícones, cláusula filioque."
+        },
+        {
+          "q": "Quem derrubou Constantinopla?",
+          "a": "Os turcos otomanos sob Mehmed II em 1453. Usaram canhões gigantes para romper as muralhas. A queda marcou o fim da Idade Média."
+        },
+        {
+          "q": "Constantinopla e Istambul são a mesma cidade?",
+          "a": "Sim! Constantinopla foi renomeada Istambul após a conquista otomana. Antes era Bizâncio (colônia grega). Fica na Turquia atual."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Bizâncio caiu em:",
+          "options": [
+            "476",
+            "1054",
+            "1453",
+            "1492"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Cisma de 1054 dividiu:",
+          "options": [
+            "Judeus e cristãos",
+            "Católicos e ortodoxos",
+            "Sunitas e xiitas",
+            "Roma e Cartago"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Código Justiniano compilou:",
+          "options": [
+            "Filosofia grega",
+            "Direito romano",
+            "Teologia cristã",
+            "Astronomia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Constantinopla fica na atual:",
+          "options": [
+            "Grécia",
+            "Itália",
+            "Turquia",
+            "Egito"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Islamismo e Civilização Árabe",
+      "slug": "islamismo-e-civilizacao-arabe",
+      "desc": "Islã: Maomé, Alcorão, 5 pilares (shahada, oração, esmola, jejum, hajj). Expansão árabe. Sunitas × xiitas. Contribuições: álgebra, algarismos, medicina, astronomia.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Maomé (570-632): profeta, Meca → Medina (Hégira, 622 = marco do calendário islâmico). Alcorão: livro sagrado. 5 pilares: shahada (profissão de fé), salat (5 orações), zakat (esmola), sawm (jejum no Ramadã), hajj (peregrinação a Meca). Sunitas (~85%): seguem a Suna. Xiitas (~15%): seguem Ali. Contribuições: álgebra (Al-Khwarizmi), algarismos arábicos, medicina (Avicena), astronomia.",
+      "body": "<h2>Introdução</h2><p>O <strong>Islã</strong> (submissão a Deus) é a religião monoteísta fundada por <strong>Maomé</strong> no séc. VII na Península Arábica. Rapidamente expandiu-se, criando uma civilização avançada.</p><h2>Maomé e o Alcorão</h2><ul><li><strong>Maomé (570-632):</strong> profeta, último mensageiro de Alá</li><li><strong>Hégira (622):</strong> fuga de Meca para Medina = marco do calendário islâmico</li><li><strong>Alcorão:</strong> livro sagrado, revelado por Alá via anjo Gabriel</li></ul><h2>5 Pilares do Islã</h2><table><thead><tr><th>Pilar</th><th>Significado</th></tr></thead><tbody><tr><td>Shahada</td><td>Profissão de fé</td></tr><tr><td>Salat</td><td>5 orações diárias voltado a Meca</td></tr><tr><td>Zakat</td><td>Esmola obrigatória</td></tr><tr><td>Sawm</td><td>Jejum no Ramadã</td></tr><tr><td>Hajj</td><td>Peregrinação a Meca (1x na vida)</td></tr></tbody></table><h2>Sunitas × Xiitas</h2><p><strong>Sunitas (~85%):</strong> seguem a Suna (tradição). <strong>Xiitas (~15%):</strong> seguem Ali (genro de Maomé como líder legítimo).</p><h2>Contribuições</h2><ul><li><strong>Álgebra:</strong> Al-Khwarizmi (a palavra 'algoritmo' vem do seu nome!)</li><li><strong>Algarismos:</strong> sistema decimal posicional (\"arábicos\", originários da Índia)</li><li><strong>Medicina:</strong> Avicena (Cânone da Medicina)</li></ul><h2>Resumo</h2><ul><li>✅ 5 pilares: fé, oração, esmola, jejum, peregrinação</li><li>⚠️ ENEM: contribuições científicas árabes e tolerância cultural</li></ul><h2>Curiosidade</h2><p>A palavra <strong>'álgebra'</strong> vem do árabe <em>al-jabr</em> (restauração), título do livro de Al-Khwarizmi. E <strong>'algoritmo'</strong> é a latinização do nome dele!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre sunitas e xiitas?",
+          "a": "Sunitas (~85%) seguem a Suna (tradição) e aceitam os 4 primeiros califas. Xiitas (~15%) acreditam que Ali (genro de Maomé) era o sucessor legítimo. A divisão é política, não teológica."
+        },
+        {
+          "q": "O que é a Hégira?",
+          "a": "A fuga de Maomé de Meca para Medina em 622 d.C. Marca o início do calendário islâmico. Em Medina, Maomé consolidou a comunidade muçulmana."
+        },
+        {
+          "q": "Islã e Islamismo são a mesma coisa?",
+          "a": "Islã é a religião. Islamismo às vezes é usado como sinônimo, às vezes para se referir ao Islã político. Muçulmano é o seguidor."
+        },
+        {
+          "q": "Quais contribuições científicas dos árabes?",
+          "a": "Álgebra, algarismos indo-arábicos, astronomia (astrolábio), medicina (Avicena), óptica (Alhazen), química (destilação), filosofia (Averróis)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Hégira ocorreu em:",
+          "options": [
+            "570",
+            "622",
+            "632",
+            "711"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Quantos pilares tem o Islã?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A palavra 'álgebra' vem do:",
+          "options": [
+            "Latim",
+            "Grego",
+            "Árabe",
+            "Hebraico"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Sunitas representam:",
+          "options": [
+            "~15%",
+            "~50%",
+            "~85%",
+            "~100%"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Feudalismo",
+      "slug": "feudalismo",
+      "desc": "Feudalismo: sistema político-social da Idade Média. Suserania-vassalagem, feudo, servidão. Sociedade estamental: clero, nobreza, servos. Economia agrária autossuficiente.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Feudalismo (séc. V-XV): descentralização política. Relação suserano-vassalo: troca de terras (feudo) por proteção e lealdade. Sociedade estamental: clero (ora), nobreza (luta), servos (trabalha) — imóvel. Feudo: unidade autossuficiente. Servos: presos à terra, pagavam talha, corveia, banalidades. Economia: agrária, subsistência, sem comércio significativo.",
+      "body": "<h2>Introdução</h2><p>O <strong>Feudalismo</strong> foi o sistema político, social e econômico que dominou a Europa Ocidental durante a <strong>Idade Média</strong> (séc. V-XV). Nasceu da fragmentação do poder após a queda de Roma.</p><h2>Relações Feudais</h2><ul><li><strong>Suserano:</strong> senhor que concede o feudo (terra)</li><li><strong>Vassalo:</strong> recebe o feudo em troca de lealdade e serviço militar</li><li><strong>Cerimônia:</strong> homenagem (juramento de fidelidade) + investidura (entrega do feudo)</li></ul><h2>Sociedade Estamental</h2><table><thead><tr><th>Estamento</th><th>Função</th><th>Mobilidade</th></tr></thead><tbody><tr><td><strong>Clero</strong></td><td>Orar (oratores)</td><td>Única mobilidade possível</td></tr><tr><td><strong>Nobreza</strong></td><td>Lutar (bellatores)</td><td>Nascimento</td></tr><tr><td><strong>Servos</strong></td><td>Trabalhar (laboratores)</td><td>Presos à terra</td></tr></tbody></table><h2>Obrigações dos Servos</h2><ul><li><strong>Talha:</strong> parte da produção ao senhor</li><li><strong>Corveia:</strong> trabalho gratuito nas terras do senhor</li><li><strong>Banalidades:</strong> taxas pelo uso de forno, moinho, prensa</li></ul><h2>Economia</h2><p>Agrária, de subsistência, autossuficiente. Pouco comércio. Feudo = unidade econômica.</p><h2>Resumo</h2><ul><li>✅ Suserano-vassalo: terra por lealdade</li><li>✅ 3 ordens: clero, nobreza, servos</li><li>⚠️ ENEM: feudalismo ≠ escravidão (servo preso à terra, mas não era propriedade)</li></ul><h2>Curiosidade</h2><p>Um servo medieval trabalhava cerca de <strong>150 dias por ano</strong> — menos que um trabalhador moderno! Havia muitos feriados religiosos, festas e períodos de descanso entre as colheitas.</p>",
+      "faq": [
+        {
+          "q": "Servo é a mesma coisa que escravo?",
+          "a": "Não! Servo era preso à TERRA (não ao senhor). Não podia ser vendido separadamente da terra. Tinha direitos limitados. Escravo era propriedade, sem direitos."
+        },
+        {
+          "q": "O que era o feudo?",
+          "a": "A unidade territorial do feudalismo: terras do senhor + aldeias + campos de cultivo. Era autossuficiente — produzia quase tudo que consumia."
+        },
+        {
+          "q": "Havia mobilidade social?",
+          "a": "Quase nenhuma. A sociedade era estamental (fixa): nascia servo, morria servo. A exceção era o clero — um camponês podia entrar para a Igreja."
+        },
+        {
+          "q": "O que era a corveia?",
+          "a": "Trabalho gratuito e obrigatório nas terras do senhor feudal. O servo dedicava alguns dias da semana ao senhor e o resto para si."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "No feudalismo, o vassalo recebia:",
+          "options": [
+            "Salário",
+            "Um feudo (terra)",
+            "Escravos",
+            "Títulos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Os servos eram (presos):",
+          "options": [
+            "Ao senhor",
+            "À terra",
+            "Ao clero",
+            "Ao rei"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A sociedade feudal era:",
+          "options": [
+            "De classes",
+            "Estamental",
+            "Democrática",
+            "Igualitária"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Corveia era:",
+          "options": [
+            "Imposto em dinheiro",
+            "Trabalho gratuito",
+            "Taxa de uso",
+            "Dízimo"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Igreja Católica na Idade Média",
+      "slug": "igreja-catolica-na-idade-media",
+      "desc": "Igreja Católica medieval: maior poder da Idade Média. Papa, bispos, monastérios. Inquisição. Teocentrismo. Dízimo. Clero regular e secular. Influência cultural e política.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Igreja = maior instituição da Idade Média. Teocentrismo: Deus no centro de tudo. Papa: autoridade máxima (acima dos reis). Clero secular (padres, bispos) × regular (monges, mosteiros). Dízimo: 10% da produção. Inquisição: tribunal contra heresias. Influência: educação (universidades), arte, política, calendário, registro civil.",
+      "body": "<h2>Introdução</h2><p>A <strong>Igreja Católica</strong> foi a instituição mais poderosa da Idade Média. Controlava a educação, a cultura, a política e a vida espiritual de toda a Europa.</p><h2>Poder da Igreja</h2><ul><li><strong>Teocentrismo:</strong> Deus no centro de tudo</li><li><strong>Papa:</strong> autoridade acima dos reis (podia excomungar monarcas)</li><li><strong>Dízimo:</strong> 10% da produção de todos</li><li><strong>Terras:</strong> maior proprietária de terras da Europa</li></ul><h2>Organização</h2><table><thead><tr><th>Tipo</th><th>Membros</th><th>Função</th></tr></thead><tbody><tr><td>Clero secular</td><td>Padres, bispos</td><td>Atuam entre o povo</td></tr><tr><td>Clero regular</td><td>Monges, freiras</td><td>Vivem em mosteiros (regra)</td></tr></tbody></table><h2>Inquisição</h2><p>Tribunal eclesiástico para julgar <strong>heresias</strong> (ideias contrárias à doutrina). Métodos: interrogatório, tortura, fogueira. Auge: séc. XII-XIII.</p><h2>Influência Cultural</h2><ul><li>Universidades (Paris, Bolonha, Oxford)</li><li>Preservação de manuscritos nos mosteiros</li><li>Arte gótica (catedrais)</li></ul><h2>Resumo</h2><ul><li>✅ Igreja = maior poder medieval</li><li>✅ Teocentrismo dominava o pensamento</li><li>⚠️ ENEM: papel da Igreja na educação e na política</li></ul><h2>Curiosidade</h2><p>Os monges beneditinos preservaram grande parte da literatura antiga copiando manuscritos à mão. Sem eles, teríamos perdido obras de Platão, Aristóteles e Cícero!</p>",
+      "faq": [
+        {
+          "q": "O que é teocentrismo?",
+          "a": "Visão de mundo onde Deus está no centro de tudo. Todo conhecimento, política e arte deviam se submeter à fé. Oposto do antropocentrismo renascentista."
+        },
+        {
+          "q": "A Igreja era mais poderosa que os reis?",
+          "a": "Em muitos aspectos, sim. O Papa podia excomungar reis (expulsá-los da Igreja), o que retirava sua legitimidade. A Querela das Investiduras (séc. XI) foi um confronto direto."
+        },
+        {
+          "q": "O que era heresia?",
+          "a": "Qualquer ideia contrária à doutrina oficial da Igreja. Hereges podiam ser julgados pela Inquisição e punidos com fogueira."
+        },
+        {
+          "q": "Clero regular vs secular?",
+          "a": "Regular: monges/freiras que seguem uma regra (regula) em mosteiros. Secular: padres e bispos que atuam 'no século' (no mundo), entre os fiéis."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Teocentrismo coloca no centro:",
+          "options": [
+            "O homem",
+            "Deus",
+            "A ciência",
+            "A natureza"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O dízimo era:",
+          "options": [
+            "5%",
+            "10%",
+            "15%",
+            "20%"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Inquisição julgava:",
+          "options": [
+            "Crimes comuns",
+            "Heresias",
+            "Guerras",
+            "Comércio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Clero regular vivia em:",
+          "options": [
+            "Paróquias",
+            "Mosteiros",
+            "Palácios",
+            "Feudos"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Cruzadas e Renascimento Comercial",
+      "slug": "cruzadas-e-renascimento-comercial",
+      "desc": "Cruzadas (1096-1270): guerras religiosas para retomar Jerusalém. Consequências: renascimento comercial, feiras, rotas, burgos, surgimento da burguesia.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Cruzadas: 8 expedições militares cristãs para retomar Jerusalém dos muçulmanos. Consequências: reabertura do comércio com o Oriente, renascimento comercial e urbano, surgimento da burguesia, feiras medievais, enfraquecimento do feudalismo. Burgos: cidades comerciais. Burguesia: nova classe social (comerciantes, artesãos).",
+      "body": "<h2>Introdução</h2><p>As <strong>Cruzadas</strong> foram expedições militares cristãs para retomar <strong>Jerusalém</strong> dos muçulmanos. Suas consequências transformaram a Europa medieval.</p><h2>As Cruzadas (1096-1270)</h2><ul><li>8 Cruzadas ao longo de ~200 anos</li><li>Convocadas pelo Papa Urbano II (1095)</li><li>Motivações: religiosa (Terra Santa), econômica (terras, comércio), política (poder papal)</li><li>Resultado militar: fracasso (não retomaram Jerusalém permanentemente)</li></ul><h2>Consequências</h2><ul><li><strong>Renascimento comercial:</strong> contato com Oriente reabriu rotas comerciais</li><li><strong>Feiras medievais:</strong> Champagne, Flandres</li><li><strong>Renascimento urbano:</strong> crescimento dos burgos (cidades comerciais)</li><li><strong>Burguesia:</strong> nova classe social (comerciantes, artesãos, banqueiros)</li><li><strong>Enfraquecimento feudal:</strong> menos servos, mais economia monetária</li></ul><h2>Resumo</h2><ul><li>✅ Cruzadas fracassaram militarmente mas transformaram a economia europeia</li><li>⚠️ ENEM: consequências > batalhas (reabertura comercial, burguesia)</li></ul><h2>Curiosidade</h2><p>Na 4ª Cruzada (1204), os cruzados atacaram <strong>Constantinopla</strong> (cristã!) em vez de Jerusalém — saquearam a cidade por ganância!</p>",
+      "faq": [
+        {
+          "q": "As Cruzadas tiveram sucesso?",
+          "a": "Militarmente, não. Não retomaram Jerusalém permanentemente. Mas suas consequências indiretas (comércio, burguesia, enfraquecimento feudal) foram enormes."
+        },
+        {
+          "q": "O que era um burgo?",
+          "a": "Cidade comercial medieval. Os habitantes dos burgos eram os burgueses — a nova classe de comerciantes e artesãos que não se encaixava na sociedade feudal."
+        },
+        {
+          "q": "Qual a relação entre Cruzadas e capitalismo?",
+          "a": "As Cruzadas reabriram rotas comerciais com o Oriente, estimularam feiras, bancos e uma economia monetária — bases do capitalismo comercial."
+        },
+        {
+          "q": "Quem convocou a 1ª Cruzada?",
+          "a": "Papa Urbano II em 1095. Famosa frase: 'Deus vult!' (Deus quer!). A 1ª Cruzada conquistou Jerusalém em 1099."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "As Cruzadas visavam retomar:",
+          "options": [
+            "Roma",
+            "Constantinopla",
+            "Jerusalém",
+            "Meca"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Consequência das Cruzadas:",
+          "options": [
+            "Fim do cristianismo",
+            "Renascimento comercial",
+            "Fortalecimento feudal",
+            "Isolamento europeu"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Burguesia surgiu nos:",
+          "options": [
+            "Feudos",
+            "Mosteiros",
+            "Burgos (cidades)",
+            "Castelos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A 1ª Cruzada foi convocada por:",
+          "options": [
+            "Constantino",
+            "Urbano II",
+            "Inocêncio III",
+            "Carlos Magno"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Crise do Feudalismo (Séc. XIV)",
+      "slug": "crise-do-feudalismo-sec-xiv",
+      "desc": "Crise do séc. XIV: Peste Negra (1347-1353), fome, Guerra dos Cem Anos, revoltas camponesas. Enfraquecimento do feudalismo. Transição para Idade Moderna.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Crise do séc. XIV: tríade morte → Peste Negra (1347-1353, matou 1/3 da Europa), fome (Pequena Idade do Gelo, superpopulação) e guerra (Guerra dos Cem Anos, 1337-1453, Inglaterra × França, Joana d'Arc). Revoltas camponesas: Jacquerie (França), Revolta de Wat Tyler (Inglaterra). Consequências: escassez de mão de obra → fim da servidão → centralização monárquica.",
+      "body": "<h2>Introdução</h2><p>O séc. XIV marcou a <strong>crise final do feudalismo</strong> com uma tríade devastadora: <strong>fome, peste e guerra</strong>.</p><h2>Peste Negra (1347-1353)</h2><ul><li>Bubônica, transmitida por pulgas de ratos</li><li>Matou <strong>1/3 da população europeia</strong> (~25 milhões)</li><li>Consequência: escassez de mão de obra → servos exigiram melhores condições</li></ul><h2>Fome</h2><p>Superpopulação + Pequena Idade do Gelo = colheitas ruins, fome generalizada.</p><h2>Guerra dos Cem Anos (1337-1453)</h2><ul><li>Inglaterra × França por trono e territórios</li><li><strong>Joana d'Arc:</strong> camponesa que liderou exército francês, queimada como herege (1431)</li><li>Resultado: vitória francesa, fortalecimento da monarquia</li></ul><h2>Revoltas Camponesas</h2><ul><li><strong>Jacquerie (1358):</strong> camponeses franceses</li><li><strong>Revolta de Wat Tyler (1381):</strong> camponeses ingleses</li></ul><h2>Resumo</h2><ul><li>✅ Peste + fome + guerra = fim do feudalismo</li><li>✅ Escassez de servos → fim da servidão → monarquias centralizadas</li><li>⚠️ ENEM: transição feudalismo → capitalismo</li></ul><h2>Curiosidade</h2><p>A Peste Negra matou tanto que faltou mão de obra na Europa. Os servos sobreviventes passaram a exigir salários e liberdade — o feudalismo ruiu por dentro!</p>",
+      "faq": [
+        {
+          "q": "A Peste Negra acabou com o feudalismo?",
+          "a": "Contribuiu muito. A morte de 1/3 da população gerou escassez de mão de obra. Servos sobreviventes exigiram melhores condições ou fugiram. O sistema feudal perdeu viabilidade."
+        },
+        {
+          "q": "Quem foi Joana d'Arc?",
+          "a": "Camponesa francesa que, aos 17 anos, liderou o exército francês na Guerra dos Cem Anos. Capturada pelos ingleses, foi julgada por heresia e queimada viva em 1431. Canonizada em 1920."
+        },
+        {
+          "q": "O que veio depois do feudalismo?",
+          "a": "O capitalismo comercial e as monarquias nacionais centralizadas (absolutismo). A transição foi gradual, do séc. XIV ao XVI."
+        },
+        {
+          "q": "A Peste Negra voltou?",
+          "a": "Sim! Houve surtos recorrentes até o séc. XVIII. A bactéria Yersinia pestis ainda existe, mas antibióticos a tratam facilmente hoje."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Peste Negra matou:",
+          "options": [
+            "10%",
+            "25%",
+            "33%",
+            "50%"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Guerra dos Cem Anos:",
+          "options": [
+            "França × Espanha",
+            "Inglaterra × França",
+            "Roma × Cartago",
+            "Atenas × Esparta"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Joana d'Arc foi:",
+          "options": [
+            "Rainha",
+            "Camponesa e líder militar",
+            "Papa",
+            "Monja"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A crise do séc. XIV enfraqueceu:",
+          "options": [
+            "O Islã",
+            "O feudalismo",
+            "O cristianismo",
+            "As cidades"
+          ],
+          "answer": 1
+        }
+      ]
     }
   ]
 }

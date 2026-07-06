@@ -2,92 +2,729 @@
   "subject": "Geografia",
   "slug": "1ano-geografia",
   "level": "Fundamental 1",
-  "grade": "1º Ano",
+  "grade": "1º ano",
   "color": "var(--geografia)",
+  "icon": "globe",
   "articles": [
     {
-      "title": "Paisagens Naturais e Modificadas",
-      "slug": "paisagens-naturais-modificadas",
-      "desc": "A diferença entre o que a natureza criou e o que o homem construiu.",
-      "category": "Paisagem",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Natural: criada pela natureza (floresta, rio, montanha). Modificada: alterada pelo ser humano (cidade, estrada, plantação).",
-      "body": "<p><strong>Paisagem natural</strong> é tudo que a natureza criou sem interferência humana: florestas, rios, montanhas, praias, desertos. Essas paisagens existem há milhares ou milhões de anos.</p><p><strong>Paisagem modificada</strong> (ou cultural) é aquela que o ser humano transformou: cidades, estradas, pontes, plantações, prédios. O homem modifica a natureza para construir suas moradias e produzir alimentos.</p><p>Na maioria dos lugares, encontramos as duas paisagens misturadas: uma cidade (modificada) pode ter um parque com árvores (natural) e um rio passando (natural). O desafio é modificar com <strong>responsabilidade</strong>, sem destruir a natureza.</p>",
-      "faq": [{"q":"Uma fazenda é natural ou modificada?","a":"Modificada! O ser humano derrubou a vegetação original e plantou o que queria."},{"q":"Uma praia com prédios ao redor?","a":"A praia em si é natural, mas os prédios são modificação humana. É uma paisagem mista."}]
+      "title": "Cartografia: Projeções, Escalas e Coordenadas",
+      "slug": "cartografia-projecoes-escalas-e-coordenadas",
+      "desc": "Cartografia: projeções (Mercator, Peters, cônica). Escalas numéricas e gráficas. Coordenadas: latitude, longitude. Fusos horários.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Projeções: cilíndrica (Mercator: distorce áreas, conserva ângulos; Peters: conserva áreas), cônica (médias latitudes), azimutal (polos). Escala: E=d/D. 1:100.000 → 1cm=1km. Gráfica: independe de impressão. Latitude (0-90° N/S, paralelos). Longitude (0-180° E/W, meridianos). Fusos: 360°/24h=15°/h. Brasil: 4 fusos (UTC-2 a UTC-5).",
+      "body": "<h2>Introdução</h2><p>A <strong>cartografia</strong> representa a superfície esférica da Terra em mapas planos.</p><h2>Projeções</h2><table><thead><tr><th>Projeção</th><th>Conserva</th><th>Distorce</th></tr></thead><tbody><tr><td>Mercator</td><td>Ângulos (conforme)</td><td>Áreas (distorce polos)</td></tr><tr><td>Peters</td><td>Áreas (equivalente)</td><td>Formas</td></tr><tr><td>Cônica</td><td>Médias latitudes</td><td>Extremos</td></tr></tbody></table><h2>Escalas</h2><ul><li><strong>Numérica:</strong> 1:100.000 (1cm no mapa = 1km real)</li><li><strong>Gráfica:</strong> régua no mapa (independe de impressão)</li></ul><h2>Coordenadas</h2><ul><li><strong>Latitude:</strong> 0-90° N/S (paralelos). Equador=0°</li><li><strong>Longitude:</strong> 0-180° E/W (meridianos). Greenwich=0°</li></ul><h2>Resumo</h2><ul><li>✅ Mercator=ângulos, Peters=áreas. Escala: 1:x</li><li>⚠️ ENEM: escalas, fusos horários, projeções</li></ul><h2>Curiosidade</h2><p>A projeção de <strong>Mercator</strong> faz a Groenlândia parecer do tamanho da África, mas na realidade a África é <strong>14× maior</strong>!</p>",
+      "faq": [
+        {
+          "q": "Mercator é errado?",
+          "a": "Não é errado, é uma escolha. Conserva ângulos (ótimo para navegação). Mas distorce áreas nos polos. Peters conserva áreas mas distorce formas. Cada projeção tem propósito."
+        },
+        {
+          "q": "Como calcular distância real?",
+          "a": "D=d×denominador. Ex: escala 1:50.000, distância no mapa=3cm. D=3×50.000=150.000cm=1,5km."
+        },
+        {
+          "q": "Fusos horários do Brasil?",
+          "a": "4 fusos: Fernando de Noronha (UTC-2), Brasília (UTC-3), Manaus (UTC-4), Acre (UTC-5). Horário de Brasília é a referência oficial."
+        },
+        {
+          "q": "GPS usa coordenadas?",
+          "a": "Sim! GPS fornece latitude e longitude precisas (até centímetros com tecnologia moderna). Usa sinais de satélites + correção relativística."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Mercator conserva:",
+          "options": [
+            "Áreas",
+            "Ângulos",
+            "Distâncias",
+            "Tudo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "1:100.000 → 1cm = ?km:",
+          "options": [
+            "0,1",
+            "1",
+            "10",
+            "100"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Latitude vai de:",
+          "options": [
+            "0-180°",
+            "0-90°",
+            "0-360°",
+            "0-45°"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Brasil tem ? fusos:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 3
+        }
+      ]
     },
     {
-      "title": "Meu Lugar no Mundo",
-      "slug": "meu-lugar-no-mundo",
-      "desc": "Casa, rua, bairro, cidade, estado, país, planeta!",
-      "category": "Localização",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Do menor ao maior: casa → rua → bairro → cidade → estado → país (Brasil) → continente (América do Sul) → planeta (Terra).",
-      "body": "<p>Você mora em uma <strong>casa</strong> (ou apartamento), que fica em uma <strong>rua</strong>, que faz parte de um <strong>bairro</strong>, que pertence a uma <strong>cidade</strong>.</p><p>Sua cidade está dentro de um <strong>estado</strong> (como São Paulo, Minas Gerais ou Bahia), que faz parte de um <strong>país</strong> (o Brasil). O Brasil fica no continente da <strong>América do Sul</strong>.</p><p>E tudo isso está no nosso <strong>planeta Terra</strong>, que flutua no espaço! Do menor ao maior: sua casa → sua rua → seu bairro → sua cidade → seu estado → seu país → seu continente → seu planeta. Você tem um endereço no universo!</p>",
-      "faq": [{"q":"Quantos estados tem o Brasil?","a":"26 estados + 1 Distrito Federal = 27 unidades federativas."},{"q":"Quantos países tem o mundo?","a":"Aproximadamente 195 países reconhecidos pela ONU."},{"q":"O que é continente?","a":"Grande massa de terra. São 6: América, Europa, Ásia, África, Oceania e Antártida."}]
+      "title": "Geologia: Estrutura Interna da Terra",
+      "slug": "geologia-estrutura-interna-da-terra",
+      "desc": "Estrutura da Terra: crosta, manto, núcleo externo (líquido) e interno (sólido). Tectônica de placas: limites convergentes, divergentes, transformantes. Terremotos, vulcanismo.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Camadas: crosta (litosfera), manto (astenosfera=convecção), núcleo externo (Fe/Ni líquido, gera campo magnético), núcleo interno (Fe/Ni sólido, ~6000°C). Tectônica: placas litosféricas se movem sobre astenosfera. Convergentes: choque→montanhas/fossas. Divergentes: separação→dorsais oceânicas. Transformantes: deslizamento→terremotos (San Andreas). Vulcanismo: Cinturão de Fogo do Pacífico.",
+      "body": "<h2>Introdução</h2><p>A <strong>Terra</strong> é formada por camadas concêntricas com composição e estado diferentes.</p><h2>Camadas</h2><table><thead><tr><th>Camada</th><th>Estado</th><th>Temperatura</th></tr></thead><tbody><tr><td>Crosta</td><td>Sólido</td><td>~15°C (superfície)</td></tr><tr><td>Manto</td><td>Sólido viscoso</td><td>~1000-3700°C</td></tr><tr><td>Núcleo Externo</td><td>Líquido (Fe/Ni)</td><td>~4000-5000°C</td></tr><tr><td>Núcleo Interno</td><td>Sólido (Fe/Ni)</td><td>~6000°C</td></tr></tbody></table><h2>Tectônica de Placas</h2><ul><li><strong>Convergentes:</strong> placas colidem → montanhas (Andes, Himalaias)</li><li><strong>Divergentes:</strong> se afastam → dorsais oceânicas (Atlântico)</li><li><strong>Transformantes:</strong> deslizam → terremotos (Falha de San Andreas)</li></ul><h2>Resumo</h2><ul><li>✅ Convecção no manto → move placas</li><li>⚠️ ENEM: tectônica, terremotos, Cinturão de Fogo</li></ul><h2>Curiosidade</h2><p>O <strong>Cinturão de Fogo do Pacífico</strong> concentra ~75% dos vulcões ativos e ~90% dos terremotos do mundo!</p>",
+      "faq": [
+        {
+          "q": "Brasil tem terremoto?",
+          "a": "Sim, mas fracos! O Brasil fica no interior da placa Sul-Americana (longe dos limites). Terremotos são raros e de baixa intensidade."
+        },
+        {
+          "q": "Núcleo interno é sólido a 6000°C?",
+          "a": "Sim! A pressão extrema (~360GPa) impede que o ferro derreta, mesmo a essa temperatura. Pressão vence a temperatura."
+        },
+        {
+          "q": "O que é Pangeia?",
+          "a": "Supercontinente que existiu há ~200 milhões de anos. Todos os continentes eram unidos. Se fragmentou pela tectônica → posições atuais. Evidências: fósseis, encaixe dos continentes."
+        },
+        {
+          "q": "Vulcão no Brasil?",
+          "a": "Não há vulcões ativos. O Brasil está no interior da placa (longe dos limites). Existem registros de vulcanismo extinto (~60 milhões de anos atrás)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Núcleo externo é:",
+          "options": [
+            "Sólido",
+            "Líquido",
+            "Gasoso",
+            "Plasma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Andes formaram-se por:",
+          "options": [
+            "Divergência",
+            "Convergência",
+            "Transformante",
+            "Erosão"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cinturão de Fogo fica no:",
+          "options": [
+            "Atlântico",
+            "Pacífico",
+            "Índico",
+            "Ártico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Convecção ocorre no:",
+          "options": [
+            "Núcleo",
+            "Crosta",
+            "Manto",
+            "Atmosfera"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Campo e Cidade",
-      "slug": "campo-e-cidade",
-      "desc": "Diferenças entre a vida rural e a vida urbana.",
-      "category": "Espaços",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Campo (rural): agricultura, pecuária, natureza, menos gente. Cidade (urbano): prédios, comércio, trânsito, muita gente. Ambos dependem um do outro.",
-      "body": "<p>Existem dois tipos principais de lugares onde as pessoas vivem: o <strong>campo</strong> (zona rural) e a <strong>cidade</strong> (zona urbana).</p><p>No <strong>campo</strong>, as pessoas trabalham com agricultura (plantando alimentos), pecuária (criando animais) e extrativismo. Há muito espaço verde, poucos vizinhos e silêncio.</p><p>Na <strong>cidade</strong>, há prédios, lojas, escolas, hospitais, fábricas e muito trânsito. As pessoas trabalham em escritórios, comércios, escolas e indústrias. Campo e cidade <strong>dependem um do outro</strong>: o campo produz comida para a cidade, e a cidade produz produtos e serviços para o campo.</p>",
-      "faq": [{"q":"Onde mora mais gente?","a":"No Brasil, cerca de 85% da população vive em cidades."},{"q":"Quem produz a comida?","a":"A maioria dos alimentos vem do campo (agricultura e pecuária)."}]
+      "title": "Relevo: Agentes Internos e Externos",
+      "slug": "relevo-agentes-internos-e-externos",
+      "desc": "Relevo: agentes internos (tectonismo, vulcanismo) e externos (intemperismo, erosão, deposição). Formas: planícies, planaltos, depressões, montanhas. Relevo brasileiro.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Agentes internos (endógenos): tectonismo (dobras, falhas), vulcanismo, abalos sísmicos → constroem relevo. Agentes externos (exógenos): intemperismo (físico, químico, biológico), erosão (hídrica, eólica, glacial), deposição (sedimentação) → modelam/destroem. Formas: montanha, planalto (erosão predomina), planície (sedimentação predomina), depressão (entre planaltos). Brasil: planaltos e depressões (escudos antigos, sem grandes montanhas).",
+      "body": "<h2>Introdução</h2><p>O <strong>relevo</strong> é modelado pela disputa entre forças internas (constroem) e externas (destroem/modelam).</p><h2>Agentes Internos</h2><ul><li>Tectonismo: dobras (Andes) e falhas</li><li>Vulcanismo: lava forma montanhas</li></ul><h2>Agentes Externos</h2><table><thead><tr><th>Agente</th><th>Tipo</th><th>Exemplo</th></tr></thead><tbody><tr><td>Intemperismo</td><td>Físico, químico, biológico</td><td>Rocha se fragmentando</td></tr><tr><td>Erosão</td><td>Hídrica, eólica, glacial</td><td>Rio cavando vale</td></tr><tr><td>Deposição</td><td>Sedimentação</td><td>Delta de rio</td></tr></tbody></table><h2>Formas de Relevo</h2><ul><li><strong>Montanha:</strong> altitude elevada, formação recente (Andes, Himalaias)</li><li><strong>Planalto:</strong> superfície irregular, erosão predomina</li><li><strong>Planície:</strong> superfície plana, sedimentação predomina</li><li><strong>Depressão:</strong> área mais baixa que o entorno</li></ul><h2>Resumo</h2><ul><li>✅ Interno=constrói, Externo=modela/destrói</li><li>⚠️ ENEM: intemperismo, erosão, relevo brasileiro</li></ul><h2>Curiosidade</h2><p>O <strong>Brasil não tem grandes montanhas</strong> porque está sobre um escudo cristalino antigo e estável. O ponto mais alto (Pico da Neblina: 2.994m) é pequeno comparado ao Everest (8.848m).</p>",
+      "faq": [
+        {
+          "q": "Por que Himalaias crescem?",
+          "a": "As placas Indiana e Eurasiática continuam colidindo! Os Himalaias crescem ~1cm/ano. Erosão compensa parcialmente."
+        },
+        {
+          "q": "Intemperismo vs erosão?",
+          "a": "Intemperismo: desagregação da rocha IN SITU (sem transporte). Erosão: transporte do material desgastado. São processos complementares."
+        },
+        {
+          "q": "Brasil tem depressão?",
+          "a": "Sim! Depressão Sertaneja, Depressão Amazônica, etc. São áreas de altitude mais baixa que o entorno, formadas entre planaltos. A maioria é acima do nível do mar."
+        },
+        {
+          "q": "O que forma um delta?",
+          "a": "Deposição: quando o rio chega ao mar/lago, perde velocidade → deposita sedimentos → forma delta. Ex: Delta do Parnaíba (único delta em mar aberto das Américas)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Intemperismo ocorre:",
+          "options": [
+            "Com transporte",
+            "Sem transporte (in situ)",
+            "Só no mar",
+            "Só em vulcões"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Erosão hídrica é causada por:",
+          "options": [
+            "Vento",
+            "Água",
+            "Gelo",
+            "Temperatura"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Planalto: predomina:",
+          "options": [
+            "Sedimentação",
+            "Erosão",
+            "Vulcanismo",
+            "Nada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ponto mais alto do Brasil:",
+          "options": [
+            "Monte Roraima",
+            "Pico da Neblina",
+            "Serra da Mantiqueira",
+            "Chapada Diamantina"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Meios de Transporte",
-      "slug": "meios-de-transporte",
-      "desc": "Como nos deslocamos: terra, água e ar.",
-      "category": "Mobilidade",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Terrestres: carro, ônibus, trem, bicicleta. Aquáticos: barco, navio, lancha. Aéreos: avião, helicóptero. Cada um é melhor para uma situação.",
-      "body": "<p>Os <strong>meios de transporte</strong> nos levam de um lugar a outro. São divididos em três grupos: <strong>terrestres</strong>, <strong>aquáticos</strong> e <strong>aéreos</strong>.</p><p><strong>Terrestres</strong> andam no chão: carro, ônibus, trem, metrô, bicicleta, a pé. São os mais usados no dia a dia. <strong>Aquáticos</strong> navegam na água: barco, navio, lancha, canoa. Importantes em regiões com muitos rios, como a Amazônia.</p><p><strong>Aéreos</strong> voam pelo ar: avião e helicóptero. São os mais rápidos para longas distâncias. Antigamente, o principal transporte era o cavalo. Hoje temos opções para qualquer destino!</p>",
-      "faq": [{"q":"Qual o transporte mais usado no Brasil?","a":"O carro e o ônibus (transporte rodoviário)."},{"q":"Bicicleta é meio de transporte?","a":"Sim! É terrestre, ecológico e saudável."}]
+      "title": "Hidrografia: Rios, Bacias e Aquíferos",
+      "slug": "hidrografia-rios-bacias-e-aquiferos",
+      "desc": "Hidrografia: bacias hidrográficas, rios (perenes, intermitentes), aquíferos, regime fluvial. Bacias brasileiras: Amazônica, Paraná, São Francisco. Aquífero Guarani.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Bacia hidrográfica: área drenada por um rio e seus afluentes. Divisor de águas: linha que separa bacias. Regime: pluvial (chuva), nival (degelo), pluvionival. Brasil: maioria pluvial tropical. Bacias brasileiras: Amazônica (maior do mundo, ~60% do país), Paraná (Itaipu), São Francisco (integração, transposição). Aquífero Guarani: um dos maiores do mundo (~37.000 km³ de água). Água doce: 97,5% salgada, 2,5% doce (68% geleiras, 30% subterrânea).",
+      "body": "<h2>Introdução</h2><p>A <strong>hidrografia</strong> estuda as águas superficiais e subterrâneas: rios, lagos, geleiras, aquíferos.</p><h2>Bacias Hidrográficas</h2><table><thead><tr><th>Bacia</th><th>Destaque</th></tr></thead><tbody><tr><td>Amazônica</td><td>Maior do mundo, maior vazão</td></tr><tr><td>Paraná</td><td>Itaipu, maior potencial hidrelétrico explorado</td></tr><tr><td>São Francisco</td><td>'Velho Chico', transposição, integração NE</td></tr><tr><td>Tocantins-Araguaia</td><td>100% brasileira, Tucuruí</td></tr></tbody></table><h2>Aquíferos</h2><ul><li><strong>Guarani:</strong> BR, AR, UY, PY (~37.000 km³)</li><li>Alter do Chão: Amazônia (maior em volume de água disponível)</li></ul><h2>Resumo</h2><ul><li>✅ Amazônica=maior. Paraná=energia. São Francisco=integração.</li><li>⚠️ ENEM: distribuição de água, transposição, aquíferos</li></ul><h2>Curiosidade</h2><p>O Rio <strong>Amazonas</strong> despeja ~209.000 m³/s de água no Atlântico — 20% da água doce que chega aos oceanos do mundo!</p>",
+      "faq": [
+        {
+          "q": "Transposição do São Francisco?",
+          "a": "Projeto que leva água do São Francisco para o semiárido nordestino (PE, PB, CE, RN). Polêmico: beneficia milhões, mas gera impacto ambiental e social."
+        },
+        {
+          "q": "Aquífero Guarani é seguro?",
+          "a": "Está protegido por camadas rochosas em grande parte, mas há riscos de contaminação em áreas de recarga (onde aflora). Regulamentação é essencial."
+        },
+        {
+          "q": "Brasil tem potencial hidrelétrico?",
+          "a": "Enorme! ~12% do potencial mundial. Hidroelétricas geram ~60% da energia brasileira. Mas impactos ambientais (alagamento) limitam expansão na Amazônia."
+        },
+        {
+          "q": "Água doce é abundante?",
+          "a": "Só 2,5% é doce! E 68% está em geleiras. Apenas ~1% é acessível (rios, lagos, aquíferos). Brasil tem ~12% da água doce mundial, mas mal distribuída."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Maior bacia do mundo:",
+          "options": [
+            "Paraná",
+            "São Francisco",
+            "Amazônica",
+            "Nilo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Aquífero Guarani abrange:",
+          "options": [
+            "Só Brasil",
+            "BR, AR, UY, PY",
+            "Toda América",
+            "Mundo todo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Água doce da Terra:",
+          "options": [
+            "2,5%",
+            "10%",
+            "25%",
+            "50%"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Itaipu fica na bacia do:",
+          "options": [
+            "Amazonas",
+            "São Francisco",
+            "Paraná",
+            "Tocantins"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Os Pontos de Referência",
-      "slug": "pontos-de-referencia",
-      "desc": "Como nos orientamos: direita, esquerda, perto, longe.",
-      "category": "Localização",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Para se localizar, usamos referências: direita/esquerda, em cima/embaixo, perto/longe, na frente/atrás. Pontos de referência: escola, praça, igreja.",
-      "body": "<p>Para nos localizar e dar direções, usamos <strong>pontos de referência</strong>. Em vez de dizer 'a padaria está nas coordenadas X,Y', dizemos 'a padaria fica <strong>perto da escola</strong>'.</p><p>As posições básicas são: <strong>direita/esquerda</strong>, <strong>em cima/embaixo</strong>, <strong>na frente/atrás</strong>, <strong>perto/longe</strong>, <strong>dentro/fora</strong>. Essas palavras ajudam a explicar onde as coisas estão.</p><p>Pontos de referência são lugares conhecidos que ajudam a encontrar o caminho: a escola, a praça, o mercado, a igreja, o posto de gasolina. 'Minha casa fica depois da praça, na rua da padaria' — pronto, você deu uma localização usando referências!</p>",
-      "faq": [{"q":"O que é ponto de referência?","a":"Lugar conhecido que ajuda as pessoas a se localizarem."},{"q":"Bússola serve para quê?","a":"Para encontrar os pontos cardeais (Norte, Sul, Leste, Oeste) usando o magnetismo da Terra."}]
+      "title": "Climatologia: Fatores e Elementos",
+      "slug": "climatologia-fatores-e-elementos",
+      "desc": "Climatologia: fatores climáticos (latitude, altitude, maritimidade, massas de ar). Elementos: temperatura, pressão, umidade, precipitação. Clima vs tempo.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Tempo: estado momentâneo da atmosfera. Clima: padrão médio (30+ anos). Elementos climáticos: temperatura, umidade, pressão, precipitação, ventos. Fatores climáticos: latitude (↑lat→↓T), altitude (↑alt→↓T, ~6,5°C/km), maritimidade (ameniza), continentalidade (amplifica), massas de ar, correntes oceânicas. Massas de ar no Brasil: mEa (quente/úmida), mPa (fria/úmida), mTc (quente/seca).",
+      "body": "<h2>Introdução</h2><p><strong>Clima</strong> é o padrão atmosférico de uma região ao longo de décadas. <strong>Tempo</strong> é o estado momentâneo.</p><h2>Elementos vs Fatores</h2><table><thead><tr><th>Elementos (medidos)</th><th>Fatores (influenciam)</th></tr></thead><tbody><tr><td>Temperatura</td><td>Latitude</td></tr><tr><td>Umidade</td><td>Altitude</td></tr><tr><td>Pressão</td><td>Maritimidade/Continentalidade</td></tr><tr><td>Precipitação</td><td>Massas de ar</td></tr><tr><td>Ventos</td><td>Correntes oceânicas</td></tr></tbody></table><h2>Regras</h2><ul><li>↑ Latitude → ↓ Temperatura (mais longe do Equador)</li><li>↑ Altitude → ↓ Temperatura (~6,5°C a cada 1000m)</li><li>Maritimidade: ameniza variação (mar regula)</li></ul><h2>Resumo</h2><ul><li>✅ Clima≠tempo. Latitude e altitude: fatores mais cobrados.</li><li>⚠️ ENEM: massas de ar, fatores climáticos</li></ul><h2>Curiosidade</h2><p><strong>São Joaquim (SC)</strong>, a ~1.360m de altitude, é uma das cidades mais frias do Brasil — nevou mais de 30 vezes desde 1957! A altitude compensa a latitude tropical.</p>",
+      "faq": [
+        {
+          "q": "Clima e tempo: diferença?",
+          "a": "Tempo: chuva AGORA. Clima: chove em média 150mm em janeiro nessa região. Tempo é momentâneo, clima é estatístico (30+ anos de dados)."
+        },
+        {
+          "q": "Altitude reduz temperatura por quê?",
+          "a": "Ar rarefeito em altitude retém menos calor (menos moléculas para absorver radiação). ~6,5°C a cada 1000m de altitude."
+        },
+        {
+          "q": "O que é maritimidade?",
+          "a": "Influência do oceano no clima: ameniza variações de temperatura (água esquenta/esfria devagar). Cidades litorâneas têm menor amplitude térmica."
+        },
+        {
+          "q": "Massas de ar no Brasil?",
+          "a": "mEa (Equatorial Atlântica, quente/úmida), mEc (Equatorial Continental), mTa (Tropical Atlântica), mTc (Tropical Continental, quente/seca), mPa (Polar Atlântica, fria)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "↑Altitude → T:",
+          "options": [
+            "↑",
+            "↓",
+            "=",
+            "Variável"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Clima é padrão de:",
+          "options": [
+            "1 dia",
+            "1 mês",
+            "1 ano",
+            "30+ anos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Maritimidade:",
+          "options": [
+            "Amplifica variação",
+            "Ameniza variação",
+            "Não afeta",
+            "Aumenta chuva"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "mPa é massa:",
+          "options": [
+            "Quente/úmida",
+            "Quente/seca",
+            "Fria/úmida",
+            "Fria/seca"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "O Tempo e as Estações do Ano",
-      "slug": "estacoes-do-ano",
-      "desc": "Primavera, verão, outono e inverno.",
-      "category": "Clima",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "4 estações: Primavera (flores), Verão (calor, férias), Outono (folhas caem) e Inverno (frio). Causadas pela inclinação da Terra em relação ao Sol.",
-      "body": "<p>O ano tem <strong>quatro estações</strong>: primavera, verão, outono e inverno. Cada uma dura cerca de 3 meses e traz mudanças no clima e na natureza.</p><p>Na <strong>primavera</strong> as flores desabrocham e os dias ficam mais longos. No <strong>verão</strong> faz calor, é época de férias e praia. No <strong>outono</strong> as folhas de algumas árvores caem e ficam amareladas. No <strong>inverno</strong> faz frio, os dias são mais curtos e em alguns lugares até neva!</p><p>As estações acontecem porque a Terra é <strong>inclinada</strong>. Quando o Brasil está mais inclinado para o Sol, temos verão. Quando está mais afastado, temos inverno. Curiosidade: quando é verão aqui, é inverno na Europa!</p>",
-      "faq": [{"q":"Por que as estações são invertidas?","a":"Porque o hemisfério sul e o norte recebem luz do Sol em épocas diferentes."},{"q":"No Brasil inteiro faz frio no inverno?","a":"Não! No Nordeste e Norte, o inverno é mais ameno. No Sul, pode fazer muito frio."}]
+      "title": "Tipos de Clima no Mundo",
+      "slug": "tipos-de-clima-no-mundo",
+      "desc": "Climas: equatorial, tropical, temperado, mediterrâneo, frio, árido, semiárido.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Equatorial: quente e úmido o ano todo. Tropical: quente, verão chuvoso. Subtropical: 4 estações. Temperado: estações bem marcadas. Mediterrâneo: verão seco, inverno chuvoso. Semiárido: <500mm. Árido: <250mm. Polar: gelo permanente.",
+      "body": "<h2>Introdução</h2><p>Os <strong>tipos de clima</strong> determinam paisagens e atividades humanas.</p><h2>Principais Climas</h2><table><thead><tr><th>Clima</th><th>Temperatura</th><th>Chuva</th></tr></thead><tbody><tr><td>Equatorial</td><td>Quente</td><td>Abundante</td></tr><tr><td>Tropical</td><td>Quente</td><td>Verão chuvoso</td></tr><tr><td>Subtropical</td><td>Ameno</td><td>Bem distribuída</td></tr><tr><td>Temperado</td><td>4 estações</td><td>Regular</td></tr><tr><td>Semiárido</td><td>Quente</td><td>Escassa</td></tr><tr><td>Árido</td><td>Extremos</td><td>Quase nenhuma</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Brasil tem equatorial, tropical, semiárido, subtropical</li><li>⚠️ ENEM: clima-vegetação-solo</li></ul><h2>Curiosidade</h2><p>O <strong>Atacama</strong> (Chile) é o deserto mais seco do mundo.</p>",
+      "faq": [
+        {
+          "q": "Brasil tem clima temperado?",
+          "a": "Subtropical na região Sul, uma transição para temperado."
+        },
+        {
+          "q": "Sertão é deserto?",
+          "a": "Não. É semiárido (250-500mm/ano)."
+        },
+        {
+          "q": "O que é monção?",
+          "a": "Regime de chuvas sazonais intensas, típico da Ásia."
+        },
+        {
+          "q": "Mediterrâneo - inverno chuvoso?",
+          "a": "Sim. Verão seco e quente, inverno ameno e chuvoso."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Amazônia tem clima",
+          "options": [
+            "Tropical",
+            "Equatorial",
+            "Subtropical",
+            "Temperado"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Semiárido - chuva",
+          "options": [
+            "<100mm",
+            ">1000mm",
+            "250-500mm",
+            ">2000mm"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Mediterrâneo - verão",
+          "options": [
+            "Chuvoso",
+            "Seco",
+            "Frio",
+            "Nublado"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Deserto mais seco",
+          "options": [
+            "Saara",
+            "Gobi",
+            "Atacama",
+            "Kalahari"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Cuidando do Meio Ambiente",
-      "slug": "meio-ambiente",
-      "desc": "Como podemos proteger a natureza no dia a dia.",
-      "category": "Sustentabilidade",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "75",
-      "essential": "Meio ambiente = tudo ao nosso redor (ar, água, solo, animais, plantas). Para cuidar: não jogar lixo no chão, economizar água, reciclar, plantar árvores.",
-      "body": "<p>O <strong>meio ambiente</strong> é tudo que nos rodeia: o ar que respiramos, a água que bebemos, o solo onde plantamos, os animais e as plantas. Precisamos cuidar dele para viver bem.</p><p>Problemas ambientais como <strong>poluição</strong>, <strong>desmatamento</strong> e <strong>lixo</strong> prejudicam a natureza e a saúde das pessoas. Rios poluídos matam peixes, desmatamento acaba com os animais, lixo espalhado causa doenças.</p><p>O que VOCÊ pode fazer: <strong>não jogar lixo no chão</strong>, <strong>economizar água</strong> (fechar a torneira ao escovar os dentes), <strong>separar o lixo para reciclagem</strong>, <strong>plantar árvores</strong> e <strong>respeitar os animais</strong>. Pequenas atitudes fazem grande diferença!</p>",
-      "faq": [{"q":"O que é reciclagem?","a":"Transformar lixo em material novo. Papel, plástico, vidro e metal podem ser reciclados."},{"q":"Por que economizar água?","a":"Apesar de o planeta ter muita água, apenas 3% é doce e potável. É um recurso precioso e limitado."}]
+      "title": "Vegetação e Biomas Mundiais",
+      "slug": "vegetacao-e-biomas-mundiais",
+      "desc": "Biomas mundiais: floresta tropical, savana, deserto, estepe, floresta temperada, taiga, tundra.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Floresta tropical: biodiversa, equatorial. Savana: tropical com seca. Deserto: xerófitas. Estepe: gramíneas. Temperada: caducifólia. Taiga: coníferas, maior bioma. Tundra: musgos, permafrost.",
+      "body": "<h2>Introdução</h2><p>Os <strong>biomas mundiais</strong> refletem a relação clima-solo-vegetação.</p><h2>Biomas</h2><table><thead><tr><th>Bioma</th><th>Clima</th><th>Vegetação</th></tr></thead><tbody><tr><td>Floresta tropical</td><td>Equatorial</td><td>Densa, perene</td></tr><tr><td>Savana</td><td>Tropical</td><td>Gramíneas + árvores</td></tr><tr><td>Deserto</td><td>Árido</td><td>Xerófitas</td></tr><tr><td>Estepe</td><td>Continental</td><td>Gramíneas</td></tr><tr><td>Floresta temperada</td><td>Temperado</td><td>Caducifólias</td></tr><tr><td>Taiga</td><td>Frio</td><td>Coníferas</td></tr><tr><td>Tundra</td><td>Polar</td><td>Musgos/líquens</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Taiga=maior. Tropical=mais biodiversa.</li></ul><h2>Curiosidade</h2><p>A <strong>taiga</strong> é maior que a Amazônia!</p>",
+      "faq": [
+        {
+          "q": "Caducifólia significa?",
+          "a": "Árvores que perdem folhas no inverno."
+        },
+        {
+          "q": "Savana = Cerrado?",
+          "a": "Cerrado é a savana brasileira."
+        },
+        {
+          "q": "O que é permafrost?",
+          "a": "Solo permanentemente congelado na tundra."
+        },
+        {
+          "q": "Deserto tem vida?",
+          "a": "Sim, adaptada: cactos, animais noturnos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Maior bioma terrestre",
+          "options": [
+            "Floresta tropical",
+            "Deserto",
+            "Taiga",
+            "Tundra"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Savana brasileira",
+          "options": [
+            "Pampa",
+            "Caatinga",
+            "Cerrado",
+            "Mata Atlântica"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Permafrost na",
+          "options": [
+            "Savana",
+            "Tundra",
+            "Taiga",
+            "Estepe"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Caducifólia perde folhas",
+          "options": [
+            "Verão",
+            "Outono/inverno",
+            "Primavera",
+            "Nunca"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Domínios Morfoclimáticos Brasileiros",
+      "slug": "dominios-morfoclimaticos-brasileiros",
+      "desc": "Domínios morfoclimáticos (Ab Saber): Amazônico, Cerrado, Mares de Morros, Caatinga, Araucárias, Pradarias. Transições.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Ab Saber (1967): 6 domínios. Amazônico: terras baixas, equatorial. Cerrado: chapadas, tropical. Mares de Morros: Mata Atlântica. Caatinga: semiárido. Araucárias: planalto sul. Pradarias: Pampa. Transições: Pantanal, Cocais, Agreste.",
+      "body": "<h2>Introdução</h2><p><strong>Ab Saber</strong> definiu 6 domínios morfoclimáticos brasileiros.</p><h2>Domínios</h2><table><thead><tr><th>Domínio</th><th>Características</th></tr></thead><tbody><tr><td>Amazônico</td><td>Floresta densa, equatorial</td></tr><tr><td>Cerrado</td><td>Savana, tropical com seca</td></tr><tr><td>Mares de Morros</td><td>Mata Atlântica, úmido</td></tr><tr><td>Caatinga</td><td>Semiárido, xerófitas</td></tr><tr><td>Araucárias</td><td>Subtropical, coníferas</td></tr><tr><td>Pradarias</td><td>Pampa, campos</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ 6 domínios + transições</li></ul><h2>Curiosidade</h2><p>Pantanal é faixa de transição, não domínio.</p>",
+      "faq": [
+        {
+          "q": "Domínio vs bioma?",
+          "a": "Bioma foca na vegetação. Domínio integra relevo+clima+veg+solo+hidro."
+        },
+        {
+          "q": "Pantanal é domínio?",
+          "a": "Não, é faixa de transição."
+        },
+        {
+          "q": "Mares de Morros?",
+          "a": "Relevo ondulado da Mata Atlântica, parecem ondas."
+        },
+        {
+          "q": "Araucária em risco?",
+          "a": "Sim, restam ~12% da cobertura original."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Ab Saber definiu ? domínios",
+          "options": [
+            "4",
+            "5",
+            "6",
+            "7"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Mares de Morros = vegetação",
+          "options": [
+            "Cerrado",
+            "Caatinga",
+            "Mata Atlântica",
+            "Araucária"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Pantanal é",
+          "options": [
+            "Domínio",
+            "Bioma",
+            "Transição",
+            "Estado"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Caatinga clima",
+          "options": [
+            "Equatorial",
+            "Tropical",
+            "Semiárido",
+            "Subtropical"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Solo: Formação, Tipos e Degradação",
+      "slug": "solo-formacao-tipos-e-degradacao",
+      "desc": "Solo: pedogênese, horizontes (O,A,B,C,R), latossolo, erosão, desertificação, conservação.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Pedogênese: intemperismo + matéria orgânica. Horizontes: O (orgânico), A (superficial), B (acumulação), C (rocha alterada), R (rocha mãe). Latossolo: mais comum no Brasil. Erosão: voçoroca. Desertificação: semiárido. Conservação: terraceamento, curva de nível.",
+      "body": "<h2>Introdução</h2><p>O <strong>solo</strong> resulta de intemperismo por milhares de anos.</p><h2>Horizontes</h2><ul><li><strong>O:</strong> orgânico. <strong>A:</strong> superficial. <strong>B:</strong> acumulação. <strong>C:</strong> rocha alterada. <strong>R:</strong> rocha mãe.</li></ul><h2>Degradação</h2><table><thead><tr><th>Problema</th><th>Causa</th></tr></thead><tbody><tr><td>Erosão</td><td>Desmatamento, chuva</td></tr><tr><td>Desertificação</td><td>Uso excessivo em semiárido</td></tr><tr><td>Salinização</td><td>Irrigação mal gerida</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Latossolo=mais comum no Brasil. Conservar!</li></ul><h2>Curiosidade</h2><p>1cm de solo leva 200-1000 anos para se formar.</p>",
+      "faq": [
+        {
+          "q": "Voçoroca?",
+          "a": "Erosão profunda por água em terreno desprotegido."
+        },
+        {
+          "q": "Latossolo bom para agro?",
+          "a": "Profundo mas ácido, precisa calagem e adubação."
+        },
+        {
+          "q": "Desertificação vs arenização?",
+          "a": "Desertificação no semiárido. Arenização em clima úmido (Pampa)."
+        },
+        {
+          "q": "Conservar solo?",
+          "a": "Terraceamento, curvas de nível, plantio direto."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Solo mais comum no Brasil",
+          "options": [
+            "Neossolo",
+            "Latossolo",
+            "Argissolo",
+            "Cambissolo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Horizonte A",
+          "options": [
+            "Rocha mãe",
+            "Acumulação",
+            "Superficial",
+            "Orgânico"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Voçoroca é tipo de",
+          "options": [
+            "Solo",
+            "Erosão",
+            "Rocha",
+            "Relevo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Desertificação ocorre em",
+          "options": [
+            "Equatorial",
+            "Semiárido",
+            "Polar",
+            "Temperado"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Questões Ambientais Globais",
+      "slug": "questoes-ambientais-globais",
+      "desc": "Questões ambientais: aquecimento global, desmatamento, escassez hídrica. Conferências: Rio 92, Kyoto, Paris. ODS da ONU.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Aquecimento global: CO2 de fósseis intensifica efeito estufa. Desmatamento: Amazônia, Cerrado. Conferências: Rio 92 (Agenda 21), Kyoto (1997), Paris (2015, limitar +1.5C). ODS: 17 objetivos da ONU (2015). Créditos de carbono.",
+      "body": "<h2>Introdução</h2><p>As <strong>questões ambientais</strong> exigem cooperação internacional.</p><h2>Problemas</h2><table><thead><tr><th>Problema</th><th>Causa</th></tr></thead><tbody><tr><td>Aquecimento global</td><td>CO2 de fósseis</td></tr><tr><td>Desmatamento</td><td>Agro, urbanização</td></tr><tr><td>Escassez hídrica</td><td>Poluição, desperdício</td></tr></tbody></table><h2>Conferências</h2><ul><li><strong>Rio 92:</strong> Agenda 21</li><li><strong>Kyoto (1997):</strong> metas CO2</li><li><strong>Paris (2015):</strong> limitar +1,5°C</li></ul><h2>Resumo</h2><ul><li>✅ Paris 2015. 17 ODS.</li></ul><h2>Curiosidade</h2><p>CO2 subiu de ~280ppm para ~420ppm desde a Revolução Industrial.</p>",
+      "faq": [
+        {
+          "q": "Acordo de Paris?",
+          "a": "Limitar aquecimento a +1,5C ate 2100. Cada pais define contribuicoes."
+        },
+        {
+          "q": "O que sao ODS?",
+          "a": "17 Objetivos de Desenvolvimento Sustentavel da ONU (2015)."
+        },
+        {
+          "q": "Creditos de carbono?",
+          "a": "Mecanismo de mercado para incentivar reducao de emissoes."
+        },
+        {
+          "q": "Amazonia em risco?",
+          "a": "Cientistas alertam para ponto de inflexao em ~20-25% de desmatamento."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Acordo de Paris - ano",
+          "options": [
+            "1992",
+            "1997",
+            "2002",
+            "2015"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Meta aquecimento Paris",
+          "options": [
+            "+0,5C",
+            "+1,5C",
+            "+3C",
+            "+5C"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ODS sao ? objetivos",
+          "options": [
+            "10",
+            "15",
+            "17",
+            "20"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "CO2 atmosferico ~?ppm",
+          "options": [
+            "280",
+            "350",
+            "420",
+            "500"
+          ],
+          "answer": 2
+        }
+      ]
     }
   ]
 }

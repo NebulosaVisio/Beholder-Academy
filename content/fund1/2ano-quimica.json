@@ -1,0 +1,586 @@
+{
+  "subject": "Química",
+  "slug": "2ano-quimica",
+  "level": "Fundamental 1",
+  "grade": "2º ano",
+  "color": "var(--quimica)",
+  "icon": "flask",
+  "articles": [
+    {
+      "title": "Termoquímica",
+      "slug": "termoquimica",
+      "desc": "Termoquímica: entalpia (H), reações exotérmicas (ΔH<0) e endotérmicas (ΔH>0). Lei de Hess. Energia de ligação. Calor de formação e combustão.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Entalpia (H): conteúdo energético. ΔH=H_produtos−H_reagentes. Exotérmica: ΔH<0 (libera calor: combustão). Endotérmica: ΔH>0 (absorve calor: fotossíntese). Lei de Hess: ΔH da reação global = soma dos ΔH das etapas. Energia de ligação: energia para romper ligações. ΔH=Σ(ligações rompidas)−Σ(ligações formadas). Formação: ΔH_f° (elementos→substância).",
+      "body": "<h2>Introdução</h2><p><strong>Termoquímica</strong> estuda o calor envolvido nas reações químicas.</p><h2>Entalpia</h2><ul><li><strong>Exotérmica:</strong> ΔH < 0 (libera calor). Ex: combustão</li><li><strong>Endotérmica:</strong> ΔH > 0 (absorve calor). Ex: fotossíntese</li></ul><h2>Lei de Hess</h2><p>ΔH é independente do caminho: <strong>ΔH_total = ΣΔH_etapas</strong></p><h2>Energia de Ligação</h2><p><strong>ΔH = Σ(rompidas) − Σ(formadas)</strong></p><h2>Resumo</h2><ul><li>✅ Exo: ΔH<0 (libera). Endo: ΔH>0 (absorve)</li><li>⚠️ ENEM: Lei de Hess, cálculos com ΔH</li></ul><h2>Curiosidade</h2><p>A <strong>fotossíntese</strong> é endotérmica (absorve energia solar). A <strong>combustão</strong> é exotérmica (libera energia). São essencialmente reações inversas!</p>",
+      "faq": [
+        {
+          "q": "Exo ou endo: como saber?",
+          "a": "ΔH<0: exotérmica (libera calor, esquenta). ΔH>0: endotérmica (absorve calor, esfria). Dissolução de NaOH: exo (esquenta). Dissolução de NH₄NO₃: endo (gela)."
+        },
+        {
+          "q": "Hess funciona porque?",
+          "a": "Entalpia é função de estado: depende só do estado inicial e final, não do caminho. Podemos somar reações intermediárias para chegar ao ΔH desejado."
+        },
+        {
+          "q": "Romper ligação é endo ou exo?",
+          "a": "ENDO (gasta energia). Formar ligação é EXO (libera energia). Se mais energia é liberada na formação → reação exotérmica no total."
+        },
+        {
+          "q": "ΔH de formação: referência?",
+          "a": "A entalpia de formação (ΔH_f°) de substâncias simples em seu estado padrão é ZERO por convenção (H₂(g), O₂(g), C(grafite) etc.)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Combustão: ΔH:",
+          "options": [
+            "> 0",
+            "< 0",
+            "= 0",
+            "Variável"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Lei de Hess: ΔH depende do:",
+          "options": [
+            "Caminho",
+            "Estado inicial e final",
+            "Catalisador",
+            "Volume"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Romper ligação é:",
+          "options": [
+            "Exotérmico",
+            "Endotérmico",
+            "Neutro",
+            "Impossível"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fotossíntese é:",
+          "options": [
+            "Exotérmica",
+            "Endotérmica",
+            "Atérmica",
+            "Nuclear"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Cinética Química",
+      "slug": "cinetica-quimica",
+      "desc": "Cinética: velocidade de reação. Fatores: concentração, temperatura, superfície de contato, catalisador. Energia de ativação. Teoria das colisões.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Velocidade: v=Δ[concentração]/Δt. Fatores que aumentam v: ↑concentração, ↑temperatura, ↑superfície de contato, catalisador. Catalisador: diminui a energia de ativação (Ea) sem ser consumido. Teoria das colisões: reação ocorre quando moléculas colidem com energia≥Ea e orientação correta. Lei da velocidade: v=k·[A]^m·[B]^n (determinada experimentalmente).",
+      "body": "<h2>Introdução</h2><p>A <strong>cinética química</strong> estuda a velocidade das reações e como acelerá-las ou freá-las.</p><h2>Fatores</h2><table><thead><tr><th>Fator</th><th>↑ Velocidade</th></tr></thead><tbody><tr><td>Concentração</td><td>Mais reagente → mais colisões</td></tr><tr><td>Temperatura</td><td>Mais energia → mais colisões efetivas</td></tr><tr><td>Superfície</td><td>Fragmentar → mais área exposta</td></tr><tr><td>Catalisador</td><td>Diminui Ea (caminho alternativo)</td></tr></tbody></table><h2>Teoria das Colisões</h2><ul><li>Energia ≥ Ea (energia de ativação)</li><li>Orientação adequada</li></ul><h2>Resumo</h2><ul><li>✅ Catalisador diminui Ea (não é consumido)</li><li>⚠️ ENEM: fatores de velocidade, catalisador, Ea</li></ul><h2>Curiosidade</h2><p><strong>Enzimas</strong> são catalisadores biológicos! A catalase decompõe H₂O₂ a uma taxa 10⁷× maior que sem catalisador. Cada célula humana tem milhares de enzimas!</p>",
+      "faq": [
+        {
+          "q": "Catalisador é consumido?",
+          "a": "NÃO! Participa da reação mas é regenerado ao final. Diminui a Ea oferecendo um caminho alternativo de menor energia."
+        },
+        {
+          "q": "Por que geladeira conserva alimentos?",
+          "a": "Baixa temperatura reduz velocidade das reações de decomposição (enzimáticas e bacterianas). Não para as reações, apenas desacelera."
+        },
+        {
+          "q": "Comprimido triturado dissolve mais rápido?",
+          "a": "Sim! Maior superfície de contato → mais colisões → maior velocidade. Mesmo princípio de pó de café vs grão inteiro."
+        },
+        {
+          "q": "Catalisador muda o equilíbrio?",
+          "a": "NÃO! Catalisador acelera igualmente a reação direta e inversa. Atinge o equilíbrio mais rápido, mas não muda as concentrações no equilíbrio."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Catalisador diminui:",
+          "options": [
+            "Concentração",
+            "Ea",
+            "Temperatura",
+            "Pressão"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Geladeira conserva por:",
+          "options": [
+            "Matar bactérias",
+            "Reduzir T → reduzir v",
+            "Adicionar conservante",
+            "Pressão"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Enzima é:",
+          "options": [
+            "Reagente",
+            "Produto",
+            "Catalisador biológico",
+            "Inibidor"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Triturar comprimido: ↑:",
+          "options": [
+            "Massa",
+            "Superfície de contato",
+            "Temperatura",
+            "Concentração"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Equilíbrio Químico",
+      "slug": "equilibrio-quimico",
+      "desc": "Equilíbrio: v_direta=v_inversa. Constante Kc e Kp. Princípio de Le Chatelier: perturbação → sistema se desloca para compensar. Fatores: concentração, T, P.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Equilíbrio: v_direta=v_inversa (dinâmico, concentrações constantes). Kc=[produtos]/[reagentes] (elevados aos coeficientes). Kp=pressões parciais. Le Chatelier: sistema perturbado → desloca para minimizar perturbação. ↑concentração de reagente → desloca→produtos. ↑T: favorece reação endotérmica. ↑P: favorece lado com MENOS mols de gás. Catalisador: NÃO desloca equilíbrio.",
+      "body": "<h2>Introdução</h2><p>O <strong>equilíbrio químico</strong> é dinâmico: reação direta e inversa ocorrem na mesma velocidade.</p><h2>Constante de Equilíbrio</h2><p>aA + bB ⇌ cC + dD</p><p><strong>Kc = [C]^c·[D]^d / [A]^a·[B]^b</strong></p><h2>Le Chatelier</h2><table><thead><tr><th>Perturbação</th><th>Desloca para</th></tr></thead><tbody><tr><td>↑[reagente]</td><td>→ Produtos</td></tr><tr><td>↑Temperatura</td><td>→ Reação endotérmica</td></tr><tr><td>↑Pressão</td><td>→ Lado com menos mols gasosos</td></tr><tr><td>Catalisador</td><td>NÃO desloca</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Le Chatelier: perturbação → sistema compensa</li><li>⚠️ ENEM: Le Chatelier, Kc, efeito de T e P</li></ul><h2>Curiosidade</h2><p>O processo <strong>Haber-Bosch</strong> (N₂+3H₂⇌2NH₃) usa Le Chatelier: alta P e T moderada para maximizar NH₃ (amônia para fertilizantes). Alimenta ~50% da humanidade!</p>",
+      "faq": [
+        {
+          "q": "Equilíbrio é estático?",
+          "a": "NÃO! É dinâmico: reações direta e inversa continuam ocorrendo, mas na mesma velocidade. Concentrações ficam CONSTANTES (não iguais!)."
+        },
+        {
+          "q": "Catalisador desloca equilíbrio?",
+          "a": "NÃO! Acelera igualmente direta e inversa. Atinge o equilíbrio mais rápido, mas Kc não muda."
+        },
+        {
+          "q": "Kc muda com T?",
+          "a": "SIM! Kc depende da temperatura. Se T↑ e reação é exotérmica → Kc diminui. Se endotérmica → Kc aumenta."
+        },
+        {
+          "q": "Haber-Bosch: por que alta P?",
+          "a": "N₂+3H₂→2NH₃: 4 mols gasosos → 2 mols. Alta P desloca para menos mols (produtos) → mais NH₃. Geralmente ~200 atm."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "No equilíbrio, v_direta:",
+          "options": [
+            "> v_inversa",
+            "< v_inversa",
+            "= v_inversa",
+            "= 0"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "↑P desloca para:",
+          "options": [
+            "Mais mols",
+            "Menos mols",
+            "Não desloca",
+            "Reagentes sempre"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Catalisador e equilíbrio:",
+          "options": [
+            "Desloca→produtos",
+            "Desloca→reagentes",
+            "Não desloca",
+            "Impede"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Kc muda com:",
+          "options": [
+            "Concentração",
+            "Pressão",
+            "Temperatura",
+            "Catalisador"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Equilíbrio Iônico",
+      "slug": "equilibrio-ionico",
+      "desc": "Equilíbrio iônico: Ka, Kb, Kw=10⁻¹⁴. pH=-log[H⁺], pOH=-log[OH⁻]. Hidrólise salina. Soluções tampão. Produto de solubilidade (Kps).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Kw=[H⁺]·[OH⁻]=10⁻¹⁴ (25°C). pH=-log[H⁺]; pOH=-log[OH⁻]; pH+pOH=14. Ácido forte: ionização total. Fraco: Ka (constante de ionização). Hidrólise: sal de ácido forte+base fraca → solução ácida. Sal de ácido fraco+base forte → básica. Tampão: resiste a variação de pH (ácido fraco+sal ou base fraca+sal). Kps: produto de solubilidade (Kps=[cátion]^a·[ânion]^b).",
+      "body": "<h2>Introdução</h2><p>O <strong>equilíbrio iônico</strong> envolve ácidos, bases e sais em solução aquosa.</p><h2>Kw, pH e pOH</h2><ul><li><strong>Kw = [H⁺]·[OH⁻] = 10⁻¹⁴</strong> (25°C)</li><li>pH = -log[H⁺]; pOH = -log[OH⁻]; pH + pOH = 14</li></ul><h2>Hidrólise Salina</h2><table><thead><tr><th>Sal de</th><th>Solução</th></tr></thead><tbody><tr><td>Ácido forte + Base forte</td><td>Neutra</td></tr><tr><td>Ácido forte + Base fraca</td><td>Ácida</td></tr><tr><td>Ácido fraco + Base forte</td><td>Básica</td></tr></tbody></table><h2>Tampão</h2><p>Mantém pH aproximadamente constante: ácido fraco + seu sal (ou base fraca + seu sal).</p><h2>Resumo</h2><ul><li>✅ pH+pOH=14; Kw=10⁻¹⁴</li><li>⚠️ ENEM: cálculo de pH, hidrólise</li></ul><h2>Curiosidade</h2><p>O <strong>sangue humano</strong> é tamponado em pH≈7,4 pelo sistema H₂CO₃/HCO₃⁻. Variação de apenas 0,2 no pH pode ser fatal!</p>",
+      "faq": [
+        {
+          "q": "pH 7 é sempre neutro?",
+          "a": "A 25°C, sim. Mas Kw varia com T. A 37°C (corpo), Kw>10⁻¹⁴ → pH neutro<7. O critério é [H⁺]=[OH⁻]."
+        },
+        {
+          "q": "NH₄Cl é ácido ou básico?",
+          "a": "Ácido! NH₄⁺ (do NH₃, base fraca) hidrolisa → libera H⁺. Cl⁻ (do HCl, ácido forte) não hidrolisa. Resultado: solução ácida."
+        },
+        {
+          "q": "Tampão resiste a tudo?",
+          "a": "Não! Tem capacidade limitada. Se adicionar ácido/base demais, o tampão 'quebra'. Funciona melhor quando as concentrações dos componentes são altas."
+        },
+        {
+          "q": "Kps: para quê?",
+          "a": "Kps indica a solubilidade de sais pouco solúveis. Se Q>Kps → precipita. Q<Kps → dissolve. Q=Kps → equilíbrio (saturada)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Kw = ?:",
+          "options": [
+            "10⁻⁷",
+            "10⁻¹⁴",
+            "10⁻¹",
+            "10⁰"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "pH+pOH =:",
+          "options": [
+            "7",
+            "10",
+            "14",
+            "100"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "NaCl em água: solução:",
+          "options": [
+            "Ácida",
+            "Básica",
+            "Neutra",
+            "Tampão"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "pH do sangue ≈:",
+          "options": [
+            "2",
+            "5",
+            "7,4",
+            "10"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Eletroquímica: Pilhas",
+      "slug": "eletroquimica-pilhas",
+      "desc": "Pilhas/baterias: reações espontâneas de oxidação-redução geram corrente. Ânodo (oxidação), cátodo (redução). Pilha de Daniell. Potencial de redução (E°).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Pilha: reação redox espontânea → energia elétrica. Ânodo (−): oxidação (perde e⁻). Cátodo (+): redução (ganha e⁻). Pilha de Daniell: Zn|Zn²⁺||Cu²⁺|Cu. E°pilha=E°cátodo−E°ânodo (>0 = espontâneo). Potenciais de redução: E°(Cu²⁺/Cu)=+0,34V, E°(Zn²⁺/Zn)=−0,76V. E°pilha=0,34−(−0,76)=+1,10V. Ponte salina: fecha circuito iônico.",
+      "body": "<h2>Introdução</h2><p><strong>Pilhas</strong> convertem energia química em elétrica por reações redox espontâneas.</p><h2>Componentes</h2><ul><li><strong>Ânodo (−):</strong> oxidação (perde e⁻)</li><li><strong>Cátodo (+):</strong> redução (ganha e⁻)</li><li><strong>Ponte salina:</strong> fecha circuito iônico</li></ul><h2>Pilha de Daniell</h2><p>Zn → Zn²⁺ + 2e⁻ (ânodo, oxida)</p><p>Cu²⁺ + 2e⁻ → Cu (cátodo, reduz)</p><p><strong>E° = E°_cátodo − E°_ânodo = 0,34 − (−0,76) = +1,10V</strong></p><h2>Resumo</h2><ul><li>✅ Ânodo=oxidação(−); Cátodo=redução(+) na pilha</li><li>⚠️ ENEM: calcular E°, identificar ânodo/cátodo</li></ul><h2>Curiosidade</h2><p>A <strong>bateria do celular</strong> (Li-ion) usa lítio, o metal mais leve e com maior potencial de redução negativo — máxima energia por peso!</p>",
+      "faq": [
+        {
+          "q": "Como saber qual oxida?",
+          "a": "O metal com E° de redução MENOR (mais negativo) oxida (ânodo). Zn(−0,76V) oxida porque E° menor que Cu(+0,34V)."
+        },
+        {
+          "q": "Ponte salina faz o quê?",
+          "a": "Permite migração de íons entre as soluções para manter neutralidade elétrica. Sem ela, acumularia cargas e a pilha pararia."
+        },
+        {
+          "q": "Pilha e bateria: diferença?",
+          "a": "Pilha: célula eletroquímica única. Bateria: conjunto de pilhas em série. No uso popular, são sinônimos."
+        },
+        {
+          "q": "Pilha alcalina vs seca?",
+          "a": "Seca (Leclanché): Zn/MnO₂, 1,5V. Alcalina: KOH como eletrólito, dura mais. Li-ion: recarregável, leve, alta energia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Ânodo: ocorre:",
+          "options": [
+            "Redução",
+            "Oxidação",
+            "Nenhuma",
+            "Ambas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "E°pilha > 0 →:",
+          "options": [
+            "Não espontânea",
+            "Espontânea",
+            "Impossível",
+            "Equilíbrio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na pilha, ânodo é polo:",
+          "options": [
+            "+",
+            "−",
+            "Neutro",
+            "Variável"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Daniell: E° = ?V:",
+          "options": [
+            "0,34",
+            "0,76",
+            "1,10",
+            "2,00"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Eletroquímica: Eletrólise",
+      "slug": "eletroquimica-eletrolise",
+      "desc": "Eletrólise: corrente elétrica → reação não espontânea. Cátodo (redução), ânodo (oxidação). Eletrólise ígnea (NaCl fundido) e aquosa. Leis de Faraday.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Eletrólise: energia elétrica → reação redox não espontânea (inverso da pilha). Ânodo (+): oxidação. Cátodo (−): redução. ATENÇÃO: sinais INVERTIDOS vs pilha! Ígnea: NaCl fundido → Na(s) + Cl₂(g). Aquosa: competição com água. Faraday: Q=n·F (Q=carga, n=mols de e⁻, F=96500 C/mol); Q=i·t.",
+      "body": "<h2>Introdução</h2><p>A <strong>eletrólise</strong> é o inverso da pilha: usa corrente elétrica para forçar reações não espontâneas.</p><h2>Comparação</h2><table><thead><tr><th>Aspecto</th><th>Pilha</th><th>Eletrólise</th></tr></thead><tbody><tr><td>Espontaneidade</td><td>Espontânea</td><td>Não espontânea</td></tr><tr><td>Ânodo</td><td>Polo −</td><td>Polo +</td></tr><tr><td>Cátodo</td><td>Polo +</td><td>Polo −</td></tr></tbody></table><h2>Tipos</h2><ul><li><strong>Ígnea:</strong> substância fundida (NaCl → Na + Cl₂)</li><li><strong>Aquosa:</strong> em solução (NaCl_aq → NaOH + Cl₂ + H₂)</li></ul><h2>Leis de Faraday</h2><p><strong>Q = n · F = i · t</strong> (F = 96500 C/mol)</p><h2>Resumo</h2><ul><li>✅ Eletrólise = pilha ao contrário. Polos invertidos!</li><li>⚠️ ENEM: eletrólise de NaCl, Faraday</li></ul><h2>Curiosidade</h2><p>O <strong>alumínio</strong> é produzido por eletrólise! Bauxita (Al₂O₃) fundida → eletrólise → Al metálico. Gasta MUITA energia — por isso reciclagem de latas economiza 95% da energia!</p>",
+      "faq": [
+        {
+          "q": "Eletrólise da água: para quê?",
+          "a": "2H₂O → 2H₂ + O₂. Produz hidrogênio combustível (H₂). Pode ser 'hidrogênio verde' se a eletricidade vier de fontes renováveis."
+        },
+        {
+          "q": "Na eletrólise aquosa, quem reduz?",
+          "a": "Depende do potencial. Se o cátion é mais difícil de reduzir que a água, a ÁGUA reduz no cátodo: 2H₂O→H₂+2OH⁻. Metais nobres (Cu, Ag): o metal reduz."
+        },
+        {
+          "q": "Galvanoplastia é eletrólise?",
+          "a": "Sim! Deposita metal sobre objeto (cromeação, niquelação, douração). Objeto=cátodo (recebe o metal). Metal=ânodo (se dissolve)."
+        },
+        {
+          "q": "Faraday: Q=i·t, unidade?",
+          "a": "Q em Coulombs (C), i em Ampères (A), t em segundos (s). F=96500 C/mol de e⁻. Permite calcular massa depositada na eletrólise."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Na eletrólise, ânodo é polo:",
+          "options": [
+            "−",
+            "+",
+            "Neutro",
+            "Variável"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Eletrólise é:",
+          "options": [
+            "Espontânea",
+            "Não espontânea",
+            "Neutra",
+            "Impossível"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "F ≈ ? C/mol:",
+          "options": [
+            "9650",
+            "96500",
+            "965000",
+            "965"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Alumínio é produzido por:",
+          "options": [
+            "Mineração direta",
+            "Fundição",
+            "Eletrólise",
+            "Combustão"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Radioatividade",
+      "slug": "radioatividade",
+      "desc": "Radioatividade: emissão α (²He⁴), β (e⁻), γ (onda EM). Meia-vida (T½). Fissão (bomba atômica) e fusão (Sol). Aplicações: medicina, datação, energia.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Emissões: α (2p+2n, carga +2, pouco penetrante), β (elétron, carga −1, penetrante médio), γ (onda EM, sem carga, muito penetrante). Meia-vida (T½): tempo para metade dos átomos decair. Fissão: núcleo pesado → 2 menores + energia (U-235, bomba, usina). Fusão: 2 núcleos leves → 1 maior + MUITA energia (Sol, H→He). Datação C-14: T½=5730 anos.",
+      "body": "<h2>Introdução</h2><p>A <strong>radioatividade</strong> é a emissão espontânea de partículas/energia por núcleos instáveis.</p><h2>Tipos de Emissão</h2><table><thead><tr><th>Tipo</th><th>Composição</th><th>Carga</th><th>Penetração</th></tr></thead><tbody><tr><td>α</td><td>2p+2n (⁴He)</td><td>+2</td><td>Baixa (papel)</td></tr><tr><td>β</td><td>Elétron</td><td>−1</td><td>Média (alumínio)</td></tr><tr><td>γ</td><td>Onda EM</td><td>0</td><td>Alta (chumbo)</td></tr></tbody></table><h2>Meia-vida</h2><p>T½: tempo para metade dos átomos radioativos decaírem.</p><h2>Fissão × Fusão</h2><ul><li><strong>Fissão:</strong> U-235 → fragmentos + energia (usinas nucleares)</li><li><strong>Fusão:</strong> H → He + MUITA energia (Sol, bomba H)</li></ul><h2>Resumo</h2><ul><li>✅ α: +2, pouca penetração. β: −1, média. γ: 0, alta.</li><li>⚠️ ENEM: meia-vida, fissão vs fusão, datação</li></ul><h2>Curiosidade</h2><p>A <strong>datação por carbono-14</strong> (T½=5730 anos) permite determinar a idade de fósseis e artefatos até ~50.000 anos. Acima disso, C-14 é insuficiente → usam K-40 ou U-238.</p>",
+      "faq": [
+        {
+          "q": "Fissão vs fusão?",
+          "a": "Fissão: quebra núcleo pesado (U-235) → energia + resíduos. Fusão: junta núcleos leves (H→He) → MAIS energia, menos lixo. Fusão é o 'santo graal' da energia (difícil de controlar)."
+        },
+        {
+          "q": "Meia-vida é metade da vida?",
+          "a": "Do material, sim! Após 1 T½, sobra 50%. Após 2 T½: 25%. Após 3: 12,5%. Fórmula: N=N₀·(1/2)^(t/T½)."
+        },
+        {
+          "q": "Radiação é sempre perigosa?",
+          "a": "Depende do tipo, intensidade e exposição. Radiação natural (background) é inofensiva. Alta dose causa mutações, câncer. Mas radioterapia usa radiação para TRATAR câncer!"
+        },
+        {
+          "q": "Usina nuclear usa fissão ou fusão?",
+          "a": "FISSÃO! Usa U-235 ou Pu-239. Fusão nuclear controlada ainda é experimental (ITER, prevista para 2035). O Sol usa fusão."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Partícula α é:",
+          "options": [
+            "Elétron",
+            "⁴He",
+            "Onda EM",
+            "Nêutron"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Sol usa:",
+          "options": [
+            "Fissão",
+            "Fusão",
+            "Combustão",
+            "Eletrólise"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Meia-vida do C-14:",
+          "options": [
+            "57 anos",
+            "573 anos",
+            "5730 anos",
+            "57300 anos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Mais penetrante:",
+          "options": [
+            "α",
+            "β",
+            "γ",
+            "Todas iguais"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Propriedades Coligativas",
+      "slug": "propriedades-coligativas",
+      "desc": "Propriedades coligativas: ebulioscopia (↑PE), crioscopia (↓PF), tonoscopia (↓pressão de vapor), osmose. Dependem da quantidade de partículas, não da natureza.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Coligativas: dependem da QUANTIDADE de partículas de soluto (não do tipo). Tonoscopia: ↓pressão de vapor. Ebulioscopia: ↑ponto de ebulição. Crioscopia: ↓ponto de fusão (gelo+sal). Osmose: solvente passa da solução menos→mais concentrada pela membrana semipermeável. Pressão osmótica: π=MRT. Eletrólitos: mais partículas (NaCl→Na⁺+Cl⁻ = 2 partículas), fator de Van't Hoff (i).",
+      "body": "<h2>Introdução</h2><p><strong>Propriedades coligativas</strong> dependem apenas da quantidade de partículas dissolvidas, não de sua natureza.</p><h2>4 Propriedades</h2><table><thead><tr><th>Propriedade</th><th>Efeito</th><th>Exemplo</th></tr></thead><tbody><tr><td>Tonoscopia</td><td>↓ Pressão de vapor</td><td>Solução evapora menos</td></tr><tr><td>Ebulioscopia</td><td>↑ Ponto de ebulição</td><td>Água com sal ferve > 100°C</td></tr><tr><td>Crioscopia</td><td>↓ Ponto de fusão</td><td>Sal no gelo → derrete</td></tr><tr><td>Osmose</td><td>Fluxo de solvente</td><td>Célula em solução hipotônica</td></tr></tbody></table><h2>Osmose</h2><p>π = M·R·T (pressão osmótica)</p><h2>Resumo</h2><ul><li>✅ Dependem da QUANTIDADE de partículas (não do tipo)</li><li>⚠️ ENEM: crioscopia (sal+gelo), osmose (células)</li></ul><h2>Curiosidade</h2><p>Em países frios, jogam <strong>sal nas estradas</strong> para evitar gelo: crioscopia! O sal dissolve na água superficial, abaixando o ponto de fusão para abaixo de 0°C.</p>",
+      "faq": [
+        {
+          "q": "Sal nas estradas funciona como?",
+          "a": "Crioscopia: sal dissolve na água, aumenta partículas de soluto → diminui ponto de fusão. A mistura sal+gelo pode ficar líquida até −21°C!"
+        },
+        {
+          "q": "Osmose reversa: para quê?",
+          "a": "Dessalinização! Aplica-se pressão > pressão osmótica na solução concentrada → solvente (água) passa para o lado puro. Usada em estações de tratamento de água do mar."
+        },
+        {
+          "q": "Eletrólitos têm mais efeito?",
+          "a": "Sim! NaCl em água dá 2 partículas (Na⁺+Cl⁻). Glicose dá 1. Então NaCl tem ~2× mais efeito coligativo. Fator de Van't Hoff (i) corrige isso."
+        },
+        {
+          "q": "Panela de pressão e ebulioscopia?",
+          "a": "Na panela de pressão, o efeito é pressão (não coligativo). Maior pressão → maior PE da água → cozinha mais rápido. Coligativa seria adicionar soluto."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Sal+gelo = exemplo de:",
+          "options": [
+            "Ebulioscopia",
+            "Crioscopia",
+            "Tonoscopia",
+            "Osmose"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Coligativas dependem de:",
+          "options": [
+            "Tipo de soluto",
+            "Quantidade de partículas",
+            "Cor",
+            "Temperatura apenas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Osmose: solvente vai para:",
+          "options": [
+            "Menos concentrado",
+            "Mais concentrado",
+            "Ambos",
+            "Nenhum"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "NaCl em água: ? partículas:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "0"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

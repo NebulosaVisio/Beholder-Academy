@@ -2,104 +2,873 @@
   "subject": "Matemática",
   "slug": "2ano-matematica",
   "level": "Fundamental 1",
-  "grade": "2º Ano",
+  "grade": "2º ano",
   "color": "var(--matematica)",
+  "icon": "calculator",
   "articles": [
     {
-      "title": "Números até 100",
-      "slug": "numeros-ate-100",
-      "desc": "Conhecendo dezenas e centenas.",
-      "category": "Números",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Dezenas: 10, 20, 30... 90. Unidades completam: 21=2 dezenas+1 unidade. 100 = 1 centena = 10 dezenas = 100 unidades.",
-      "body": "<p>Agora vamos contar até <strong>100</strong>! Os números são organizados em grupos: <strong>unidades</strong> (1 a 9), <strong>dezenas</strong> (10, 20, 30... 90) e <strong>centena</strong> (100).</p><p>Cada número de dois algarismos tem dezenas e unidades: <strong>35</strong> = 3 dezenas + 5 unidades (3 grupos de dez + 5 sobras). O número <strong>100</strong> é especial — é a primeira centena: 10 dezenas ou 100 unidades.</p><p>Dica: conte de 10 em 10 (10, 20, 30...) e depois complete: 30, 31, 32, 33... até 39, depois 40! Assim fica fácil decorar todos os números até 100.</p>",
-      "faq": [{"q":"O que é dezena?","a":"Grupo de 10 unidades. 30 = 3 dezenas."},{"q":"O que é centena?","a":"Grupo de 100 unidades. 100 = 1 centena."},{"q":"Quantas dezenas tem em 100?","a":"10 dezenas = 100."}]
+      "title": "Geometria Plana: Triângulos",
+      "slug": "geometria-plana-triangulos",
+      "desc": "Triângulos: classificação por lados e ângulos. Soma dos ângulos internos = 180°. Congruência (LLL, LAL, ALA, LAA₀). Semelhança e Teorema de Tales. Relações métricas.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Classificação: lados (equilátero=3 iguais, isósceles=2, escaleno=0). Ângulos (acutângulo<90°, retângulo=90°, obtusângulo>90°). Soma ângulos internos = 180°. Congruência: LLL, LAL, ALA, LAA₀. Semelhança: AA, LAL, LLL (lados proporcionais). Tales: retas paralelas cortadas por transversais dividem segmentos proporcionais. Área = b·h/2.",
+      "body": "<h2>Introdução</h2><p>O <strong>triângulo</strong> é a figura geométrica mais fundamental — e a mais cobrada em vestibulares. Todo polígono pode ser decomposto em triângulos!</p><h2>Classificação</h2><table><thead><tr><th>Por lados</th><th>Definição</th></tr></thead><tbody><tr><td>Equilátero</td><td>3 lados iguais (3 ângulos = 60°)</td></tr><tr><td>Isósceles</td><td>2 lados iguais</td></tr><tr><td>Escaleno</td><td>3 lados diferentes</td></tr></tbody></table><table><thead><tr><th>Por ângulos</th><th>Definição</th></tr></thead><tbody><tr><td>Acutângulo</td><td>Todos < 90°</td></tr><tr><td>Retângulo</td><td>Um = 90°</td></tr><tr><td>Obtusângulo</td><td>Um > 90°</td></tr></tbody></table><h2>Propriedades</h2><ul><li><strong>Soma dos ângulos internos = 180°</strong></li><li><strong>Ângulo externo = soma dos 2 internos não adjacentes</strong></li><li><strong>Desigualdade triangular:</strong> cada lado < soma dos outros dois</li></ul><h2>Congruência</h2><p>Dois triângulos são congruentes se têm mesma forma e tamanho:</p><ul><li><strong>LLL</strong> (3 lados iguais)</li><li><strong>LAL</strong> (2 lados e ângulo entre eles)</li><li><strong>ALA</strong> (2 ângulos e lado entre eles)</li></ul><h2>Semelhança e Tales</h2><p>Triângulos semelhantes: mesma forma, tamanhos proporcionais. <strong>Teorema de Tales:</strong> retas paralelas cortadas por transversais dividem segmentos proporcionais.</p><h2>Área</h2><p><strong>A = base × altura / 2</strong></p><h2>Resumo</h2><ul><li>✅ Soma dos ângulos = 180°</li><li>✅ Área = b·h/2</li><li>⚠️ ENEM: Tales e semelhança são campeões de cobrança!</li></ul><h2>Curiosidade</h2><p>O triângulo é a única figura rígida — não deforma sem quebrar. Por isso, treliças de pontes e torres (como a Eiffel) são feitas com triângulos!</p>",
+      "faq": [
+        {
+          "q": "Soma dos ângulos é sempre 180°?",
+          "a": "Sim, para triângulos na geometria euclidiana (plana). Em geometria esférica (superfície da Terra), a soma pode ser maior que 180°."
+        },
+        {
+          "q": "Qual a diferença entre congruência e semelhança?",
+          "a": "Congruentes: mesma forma E tamanho. Semelhantes: mesma forma, tamanhos diferentes (lados proporcionais). Todo triângulo congruente é semelhante, mas nem todo semelhante é congruente."
+        },
+        {
+          "q": "O que é o Teorema de Tales?",
+          "a": "Retas paralelas cortadas por transversais dividem segmentos proporcionais. É a base da semelhança e aparece muito no ENEM."
+        },
+        {
+          "q": "Como calcular área de triângulo sem altura?",
+          "a": "Use Herão: A=√[s(s−a)(s−b)(s−c)] onde s=(a+b+c)/2. Ou se tiver 2 lados e ângulo: A=(1/2)·a·b·sen(C)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Soma dos ângulos internos:",
+          "options": [
+            "90°",
+            "180°",
+            "360°",
+            "270°"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Triângulo equilátero tem:",
+          "options": [
+            "2 lados iguais",
+            "3 lados iguais",
+            "Nenhum lado igual",
+            "1 ângulo reto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Área do triângulo:",
+          "options": [
+            "b·h",
+            "b·h/2",
+            "b²",
+            "πr²"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Teorema de Tales envolve:",
+          "options": [
+            "Ângulos",
+            "Retas paralelas e proporção",
+            "Áreas",
+            "Circunferências"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Adição com Reagrupamento",
-      "slug": "adicao-reagrupamento",
-      "desc": "Quando a soma das unidades passa de 9.",
-      "category": "Operações",
-      "difficulty": "Intermediário",
-      "reading_time": "4",
-      "xp": "100",
-      "essential": "Quando unidades somam mais que 9, 'vai 1' para a dezena. Ex: 28+15 → unidades: 8+5=13 (escreve 3, vai 1) → dezenas: 2+1+1=4 → resultado: 43.",
-      "body": "<p>Às vezes, ao somar as unidades, o resultado passa de 9. Quando isso acontece, usamos o <strong>reagrupamento</strong> (ou 'vai 1').</p><p>Exemplo: <strong>28 + 15</strong>. Unidades: 8 + 5 = 13. Como 13 tem 1 dezena e 3 unidades, escrevemos 3 na unidade e 'vai 1' para a dezena. Dezenas: 2 + 1 + 1 (que veio) = 4. Resultado: <strong>43</strong>.</p><p>Monte a conta na vertical para facilitar: unidades embaixo de unidades, dezenas embaixo de dezenas. Some de baixo para cima e lembre: se passar de 9, vai 1!</p>",
-      "faq": [{"q":"O que é reagrupamento?","a":"Quando a soma das unidades dá 10 ou mais, transformamos em 1 dezena e restante unidades."},{"q":"Funciona com centenas?","a":"Sim! Se as dezenas passam de 9, 'vai 1' para a centena."}]
+      "title": "Geometria Plana: Polígonos e Círculos",
+      "slug": "geometria-plana-poligonos-e-circulos",
+      "desc": "Polígonos: soma dos ângulos internos Sᵢ=(n−2)·180°. Polígonos regulares. Circunferência: comprimento C=2πr, arcos, ângulos central e inscrito.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Polígonos convexos: Soma ângulos internos = (n−2)·180°. Ângulo interno regular = (n−2)·180°/n. Diagonais = n(n−3)/2. Circunferência: C=2πr, área=πr². Ângulo central = arco. Ângulo inscrito = arco/2. Hexágono regular: 6 triângulos equiláteros.",
+      "body": "<h2>Introdução</h2><p><strong>Polígonos</strong> são figuras planas fechadas por segmentos de reta. A <strong>circunferência</strong> é o conjunto de pontos equidistantes do centro.</p><h2>Polígonos</h2><h3>Soma dos Ângulos Internos</h3><p><strong>Sᵢ = (n − 2) · 180°</strong></p><table><thead><tr><th>Polígono</th><th>n</th><th>Sᵢ</th></tr></thead><tbody><tr><td>Triângulo</td><td>3</td><td>180°</td></tr><tr><td>Quadrilátero</td><td>4</td><td>360°</td></tr><tr><td>Pentágono</td><td>5</td><td>540°</td></tr><tr><td>Hexágono</td><td>6</td><td>720°</td></tr></tbody></table><h3>Polígonos Regulares</h3><ul><li>Todos os lados iguais + todos os ângulos iguais</li><li>Ângulo interno = (n−2)·180°/n</li><li>Diagonais = n(n−3)/2</li></ul><h2>Circunferência e Círculo</h2><ul><li><strong>Comprimento:</strong> C = 2πr</li><li><strong>Área do círculo:</strong> A = πr²</li><li><strong>Ângulo central</strong> = medida do arco</li><li><strong>Ângulo inscrito</strong> = metade do arco</li></ul><h2>Resumo</h2><ul><li>✅ Sᵢ = (n−2)·180°</li><li>✅ C=2πr, A=πr²</li><li>⚠️ Ângulo inscrito = metade do central!</li></ul><h2>Curiosidade</h2><p>O hexágono regular é a forma mais eficiente para cobrir uma superfície (pavimentação). As abelhas usam hexágonos nos favos de mel porque assim gastam menos cera e armazenam mais mel!</p>",
+      "faq": [
+        {
+          "q": "Como calcular ângulo interno de polígono regular?",
+          "a": "(n−2)·180°/n. Hexágono regular: (6−2)·180°/6 = 720°/6 = 120°."
+        },
+        {
+          "q": "Diferença entre circunferência e círculo?",
+          "a": "Circunferência é a LINHA (contorno). Círculo é a REGIÃO (área). Comprimento da circunferência: 2πr. Área do círculo: πr²."
+        },
+        {
+          "q": "O que é ângulo inscrito?",
+          "a": "É o ângulo com vértice na circunferência e lados são cordas. Vale metade do arco correspondente. Ângulo central (vértice no centro) vale o arco inteiro."
+        },
+        {
+          "q": "Quantas diagonais tem um decágono?",
+          "a": "n(n−3)/2 = 10·7/2 = 35 diagonais."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Soma dos ângulos internos do hexágono:",
+          "options": [
+            "360°",
+            "540°",
+            "720°",
+            "900°"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Área do círculo:",
+          "options": [
+            "2πr",
+            "πr²",
+            "πd",
+            "2πr²"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ângulo inscrito vale:",
+          "options": [
+            "O arco",
+            "Metade do arco",
+            "Dobro do arco",
+            "90°"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Diagonais de um pentágono:",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "10"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Subtração com Reagrupamento",
-      "slug": "subtracao-reagrupamento",
-      "desc": "Quando a unidade de cima é menor que a de baixo.",
-      "category": "Operações",
-      "difficulty": "Intermediário",
-      "reading_time": "4",
-      "xp": "100",
-      "essential": "Se a unidade de cima é menor, 'pede emprestado' 1 dezena. Ex: 42-18 → unidades: 2<8, pede emprestado → 12-8=4 → dezenas: 3-1=3 → resultado: 24.",
-      "body": "<p>Na subtração, às vezes a unidade de cima é <strong>menor</strong> que a de baixo: 42 − 18. Como tirar 8 de 2? Não dá! Precisamos <strong>pedir emprestado</strong>.</p><p>Pegamos 1 dezena do 4 (que vira 3) e damos para o 2 (que vira 12). Agora: 12 − 8 = 4 (unidades). 3 − 1 = 2 (dezenas). Resultado: <strong>24</strong>.</p><p>Pense assim: 'emprestar' é quebrar 1 dezena em 10 unidades e adicionar às unidades existentes. Com prática, fica automático!</p>",
-      "faq": [{"q":"O que é 'pedir emprestado'?","a":"Tirar 1 dezena e transformar em 10 unidades para poder subtrair."},{"q":"45-27: como resolver?","a":"Unidades: 5<7, empresta: 15-7=8. Dezenas: 3-2=1. Resultado: 18."}]
+      "title": "Áreas de Figuras Planas",
+      "slug": "areas-de-figuras-planas",
+      "desc": "Áreas: triângulo (b·h/2), retângulo (b·h), paralelogramo (b·h), trapézio ((B+b)·h/2), losango (D·d/2), círculo (πr²). Hexágono regular, setor circular.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Triângulo: b·h/2. Retângulo: b·h. Paralelogramo: b·h. Trapézio: (B+b)·h/2. Losango: D·d/2 (diagonais). Quadrado: l². Círculo: πr². Hexágono regular: 3√3·l²/2. Setor circular: α·r²/2 (rad) ou α·πr²/360 (graus). Coroa circular: π(R²−r²).",
+      "body": "<h2>Introdução</h2><p>Calcular <strong>áreas</strong> é uma das habilidades mais cobradas em vestibulares. Cada figura tem sua fórmula — domine a tabela abaixo.</p><h2>Fórmulas Essenciais</h2><table><thead><tr><th>Figura</th><th>Área</th></tr></thead><tbody><tr><td><strong>Triângulo</strong></td><td>b·h/2</td></tr><tr><td><strong>Retângulo</strong></td><td>b·h</td></tr><tr><td><strong>Quadrado</strong></td><td>l²</td></tr><tr><td><strong>Paralelogramo</strong></td><td>b·h</td></tr><tr><td><strong>Trapézio</strong></td><td>(B+b)·h/2</td></tr><tr><td><strong>Losango</strong></td><td>D·d/2</td></tr><tr><td><strong>Círculo</strong></td><td>πr²</td></tr><tr><td><strong>Hexágono regular</strong></td><td>3√3·l²/2</td></tr></tbody></table><h2>Áreas Especiais</h2><ul><li><strong>Setor circular:</strong> A = αr²/2 (α em rad) ou α·πr²/360° (α em graus)</li><li><strong>Coroa circular:</strong> A = π(R² − r²)</li><li><strong>Triângulo por Herão:</strong> A = √[s(s−a)(s−b)(s−c)]</li></ul><h2>Resumo</h2><ul><li>✅ Triângulo: b·h/2 | Círculo: πr²</li><li>✅ Trapézio: (B+b)·h/2 | Losango: D·d/2</li><li>⚠️ Paralelogramo: b·h (mesmo do retângulo! a diferença é que h é a altura, não o lado oblíquo)</li></ul><h2>Curiosidade</h2><p>O hexágono regular aparece na natureza: favos de mel, cristais de basalto (como a Calçada dos Gigantes na Irlanda) e até a tempestade hexagonal de Saturno no polo norte!</p>",
+      "faq": [
+        {
+          "q": "Área do paralelogramo é igual à do retângulo?",
+          "a": "A fórmula é a mesma: b·h. Mas no paralelogramo, h é a ALTURA (perpendicular à base), não o lado oblíquo."
+        },
+        {
+          "q": "Como calcular área do losango?",
+          "a": "A = D·d/2, onde D e d são as diagonais. Funciona porque as diagonais do losango são perpendiculares e se bissectam."
+        },
+        {
+          "q": "Setor circular: como calcular?",
+          "a": "Se ângulo em graus: A = α·πr²/360. Se em radianos: A = αr²/2. É uma 'fatia de pizza' — proporção do ângulo em relação ao total."
+        },
+        {
+          "q": "O que é Herão?",
+          "a": "Fórmula de Herão calcula área conhecendo os 3 lados: A=√[s(s-a)(s-b)(s-c)] onde s=(a+b+c)/2. Útil quando não tem altura."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Área do trapézio:",
+          "options": [
+            "b·h",
+            "(B+b)·h/2",
+            "B·b·h",
+            "D·d/2"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Área do círculo:",
+          "options": [
+            "2πr",
+            "πd",
+            "πr²",
+            "πr"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Área do losango usa:",
+          "options": [
+            "Base e altura",
+            "Diagonais D·d/2",
+            "Lado²",
+            "π·r²"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Área do quadrado de lado 5:",
+          "options": [
+            "10",
+            "20",
+            "25",
+            "30"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Introdução à Multiplicação",
-      "slug": "introducao-multiplicacao",
-      "desc": "Multiplicar é somar várias vezes o mesmo número.",
-      "category": "Operações",
-      "difficulty": "Intermediário",
-      "reading_time": "4",
-      "xp": "100",
-      "essential": "Multiplicação = soma repetida. 3 × 4 = 4+4+4 = 12 (3 vezes o 4). Símbolo: ×. Resultado: produto. Tabuada: tabela de multiplicações.",
-      "body": "<p><strong>Multiplicar</strong> é somar o mesmo número várias vezes. Se você tem 3 sacos com 4 balas cada, quantas balas são? Em vez de somar 4+4+4, use: 3 × 4 = <strong>12</strong>.</p><p>O símbolo é <strong>×</strong> (vezes) e o resultado se chama <strong>produto</strong>. Pense assim: '3 vezes 4' = '3 grupos de 4'. Para memorizar, usamos a <strong>tabuada</strong> — uma tabela com todos os resultados.</p><p>Comece pelas tabuadas fáceis: a do 2 (2, 4, 6, 8, 10...) e a do 5 (5, 10, 15, 20, 25...). Depois avance para as outras. A prática diária torna a tabuada automática!</p>",
-      "faq": [{"q":"Multiplicação é soma?","a":"É uma soma repetida! 5×3 = 3+3+3+3+3 = 15."},{"q":"Ordem importa?","a":"Não! 3×4 = 4×3 = 12. Isso é a propriedade comutativa."},{"q":"Qualquer número × 0?","a":"Sempre dá 0! 5×0 = 0, 100×0 = 0."}]
+      "title": "Geometria Espacial: Prismas",
+      "slug": "geometria-espacial-prismas",
+      "desc": "Prismas: dois polígonos congruentes (bases) + faces laterais retangulares. Volume = Área da base × altura. Área total = 2·A_base + A_lateral. Prisma reto e oblíquo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Prisma: 2 bases congruentes e paralelas + faces laterais. Volume: V = A_base · h. Área lateral: A_lat = perímetro_base · h (prisma reto). Área total: A_t = 2·A_base + A_lat. Tipos: triangular, quadrangular, hexagonal. Paralelepípedo: prisma com bases retangulares. Cubo: 6 faces quadradas iguais, V=a³.",
+      "body": "<h2>Introdução</h2><p><strong>Prismas</strong> são sólidos com duas bases <strong>congruentes e paralelas</strong>, unidas por faces laterais retangulares (no prisma reto).</p><h2>Elementos</h2><ul><li><strong>Bases:</strong> 2 polígonos congruentes</li><li><strong>Faces laterais:</strong> retângulos (prisma reto)</li><li><strong>Altura (h):</strong> distância entre as bases</li></ul><h2>Fórmulas</h2><table><thead><tr><th>Grandeza</th><th>Fórmula</th></tr></thead><tbody><tr><td>Volume</td><td>V = A_base · h</td></tr><tr><td>Área lateral</td><td>A_lat = P_base · h</td></tr><tr><td>Área total</td><td>A_t = 2·A_base + A_lat</td></tr></tbody></table><h2>Casos Especiais</h2><ul><li><strong>Paralelepípedo:</strong> V = a·b·c</li><li><strong>Cubo:</strong> V = a³, A_t = 6a²</li></ul><h2>Resumo</h2><ul><li>✅ V = A_base · h (universal!)</li><li>✅ Cubo: V=a³, A=6a²</li></ul><h2>Curiosidade</h2><p>O cubo é um dos 5 sólidos platônicos — poliedros regulares conhecidos desde a Grécia Antiga. Platão os associava aos elementos: cubo = Terra.</p>",
+      "faq": [
+        {
+          "q": "Volume do prisma depende da forma da base?",
+          "a": "Sim! V=A_base·h. A fórmula é universal, mas a área da base muda: triângulo (b·h/2), quadrado (l²), hexágono (3√3l²/2)."
+        },
+        {
+          "q": "Diferença entre prisma e cilindro?",
+          "a": "Prisma tem base poligonal (triângulo, quadrado...). Cilindro tem base circular. As fórmulas de volume são análogas: V=A_base·h."
+        },
+        {
+          "q": "O que é paralelepípedo?",
+          "a": "É um prisma com bases retangulares. Uma caixa de sapato é um paralelepípedo. Volume: a·b·c. Diagonal: d=√(a²+b²+c²)."
+        },
+        {
+          "q": "Cubo é um caso especial de quê?",
+          "a": "Do paralelepípedo retângulo, com todos os 6 lados iguais. V=a³, A_total=6a², diagonal=a√3."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Volume do prisma:",
+          "options": [
+            "A_base·h",
+            "A_base·h/3",
+            "4πr³/3",
+            "A_base·h/2"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Volume do cubo de aresta 3:",
+          "options": [
+            "9",
+            "18",
+            "27",
+            "36"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Área total do cubo:",
+          "options": [
+            "a³",
+            "6a²",
+            "4a²",
+            "12a"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Prisma tem quantas bases?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "Depende"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Tabuada do 2 e do 3",
-      "slug": "tabuada-2-3",
-      "desc": "Decorando as primeiras tabuadas.",
-      "category": "Operações",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Tabuada do 2: 2,4,6,8,10,12,14,16,18,20. Tabuada do 3: 3,6,9,12,15,18,21,24,27,30. Dica: resultados do 2 são sempre pares.",
-      "body": "<p>A <strong>tabuada do 2</strong> é a mais fácil: basta contar de 2 em 2. 2×1=2, 2×2=4, 2×3=6, 2×4=8, 2×5=10, 2×6=12, 2×7=14, 2×8=16, 2×9=18, 2×10=20. Todos os resultados são números <strong>pares</strong>!</p><p>A <strong>tabuada do 3</strong>: 3×1=3, 3×2=6, 3×3=9, 3×4=12, 3×5=15, 3×6=18, 3×7=21, 3×8=24, 3×9=27, 3×10=30. Dica: some 3 ao resultado anterior (3, 6, 9, 12...).</p><p>Para decorar, repita várias vezes em voz alta, escreva e pratique com quizzes. A tabuada é como andar de bicicleta — uma vez que aprende, nunca mais esquece!</p>",
-      "faq": [{"q":"Preciso decorar toda a tabuada?","a":"Sim, até a do 10! É essencial para matemática."},{"q":"Dica para a tabuada do 9?","a":"Nos resultados, o primeiro dígito sobe e o segundo desce: 09, 18, 27, 36, 45, 54, 63, 72, 81, 90."}]
+      "title": "Geometria Espacial: Pirâmides",
+      "slug": "geometria-espacial-piramides",
+      "desc": "Pirâmides: base poligonal + vértice. Volume V=A_base·h/3 (um terço do prisma). Pirâmide regular: apótema da base e apótema da pirâmide. Tronco de pirâmide.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Pirâmide: 1 base + faces triangulares convergindo no vértice. Volume: V = A_base·h/3. Área lateral: A_lat = P_base·apótema_pirâmide/2. Área total: A_t = A_base + A_lat. Tetraedro regular: 4 faces triangulares equiláteras. V_tetraedro = a³√2/12.",
+      "body": "<h2>Introdução</h2><p>A <strong>pirâmide</strong> tem uma base poligonal e faces laterais triangulares que convergem em um <strong>vértice</strong>. Volume é um terço do prisma correspondente.</p><h2>Fórmulas</h2><table><thead><tr><th>Grandeza</th><th>Fórmula</th></tr></thead><tbody><tr><td>Volume</td><td>V = A_base · h / 3</td></tr><tr><td>Área lateral (regular)</td><td>A_lat = P_base · aₚ / 2</td></tr><tr><td>Área total</td><td>A_t = A_base + A_lat</td></tr></tbody></table><h2>Relação com Prisma</h2><p>Volume da pirâmide = <strong>1/3</strong> do volume do prisma de mesma base e altura.</p><h2>Tetraedro Regular</h2><p>4 faces = triângulos equiláteros. V = a³√2/12</p><h2>Resumo</h2><ul><li>✅ V = A_base·h/3</li><li>⚠️ Lembre do fator 1/3!</li></ul><h2>Curiosidade</h2><p>A Grande Pirâmide de Gizé tem base quadrada de 230m e altura de 146m. Seu volume é cerca de 2,6 milhões de m³ — cabem 2.600 piscinas olímpicas!</p>",
+      "faq": [
+        {
+          "q": "Por que dividir por 3?",
+          "a": "É uma propriedade demonstrada por Cavalieri: uma pirâmide tem exatamente 1/3 do volume do prisma de mesma base e altura. Vale para qualquer base."
+        },
+        {
+          "q": "O que é apótema da pirâmide?",
+          "a": "É a altura da face lateral triangular, medida do vértice ao ponto médio da aresta da base. Diferente do apótema da BASE."
+        },
+        {
+          "q": "Tetraedro é pirâmide?",
+          "a": "Sim! Tetraedro = pirâmide de base triangular. O tetraedro regular tem 4 faces equiláteras iguais."
+        },
+        {
+          "q": "O que é tronco de pirâmide?",
+          "a": "É a pirâmide cortada por um plano paralelo à base. V = h(A₁+A₂+√(A₁·A₂))/3."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Volume da pirâmide:",
+          "options": [
+            "A_b·h",
+            "A_b·h/3",
+            "A_b·h/2",
+            "πr²h/3"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pirâmide é que fração do prisma?",
+          "options": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "2/3"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tetraedro regular tem:",
+          "options": [
+            "3 faces",
+            "4 faces",
+            "5 faces",
+            "6 faces"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A fórmula V=A·h/3 usa:",
+          "options": [
+            "Raio",
+            "Apótema",
+            "Altura",
+            "Diagonal"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Introdução à Divisão",
-      "slug": "introducao-divisao",
-      "desc": "Dividir é repartir igualmente.",
-      "category": "Operações",
-      "difficulty": "Intermediário",
-      "reading_time": "4",
-      "xp": "100",
-      "essential": "Divisão = repartir em partes iguais. 12 ÷ 3 = 4 (12 dividido em 3 grupos = 4 em cada). Inverso da multiplicação. Símbolo: ÷.",
-      "body": "<p><strong>Dividir</strong> é repartir algo em partes iguais. Se você tem 12 balas e quer dividir entre 3 amigos, cada um recebe: 12 ÷ 3 = <strong>4 balas</strong>.</p><p>O símbolo é <strong>÷</strong> (dividido por) e o resultado se chama <strong>quociente</strong>. Divisão é o <strong>inverso da multiplicação</strong>: se 3 × 4 = 12, então 12 ÷ 3 = 4.</p><p>Nem sempre a divisão é exata. 13 ÷ 3 = 4 e <strong>sobra 1</strong>. Essa sobra se chama <strong>resto</strong>. Com a tabuada memorizada, as divisões ficam muito mais fáceis!</p>",
-      "faq": [{"q":"Pode dividir por zero?","a":"Não! Divisão por zero não existe na matemática."},{"q":"O que é resto?","a":"O que sobra quando a divisão não é exata. 10÷3 = 3, resto 1."},{"q":"Divisão e multiplicação são opostas?","a":"Sim! 6×5=30, então 30÷5=6."}]
+      "title": "Geometria Espacial: Cilindro",
+      "slug": "geometria-espacial-cilindro",
+      "desc": "Cilindro: duas bases circulares paralelas. Volume V=πr²h. Área lateral A_lat=2πrh. Área total A_t=2πr²+2πrh. Cilindro equilátero: h=2r (seção axial é quadrado).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Cilindro: 2 bases circulares + superfície lateral. Volume: V = πr²h. Área lateral: A_lat = 2πrh (retângulo 'desenrolado'). Área total: A_t = 2πr² + 2πrh = 2πr(r+h). Cilindro equilátero: h = 2r (seção axial = quadrado).",
+      "body": "<h2>Introdução</h2><p>O <strong>cilindro</strong> é como um prisma de base circular: duas bases circulares paralelas unidas por uma superfície curva.</p><h2>Fórmulas</h2><table><thead><tr><th>Grandeza</th><th>Fórmula</th></tr></thead><tbody><tr><td>Volume</td><td>V = πr²h</td></tr><tr><td>Área lateral</td><td>A_lat = 2πrh</td></tr><tr><td>Área total</td><td>A_t = 2πr² + 2πrh</td></tr></tbody></table><h2>Cilindro Equilátero</h2><p>Quando h = 2r, a seção axial é um <strong>quadrado</strong>. É o cilindro mais \"harmonioso\".</p><h2>Planificação</h2><p>A lateral do cilindro, \"desenrolada\", é um <strong>retângulo</strong> de base 2πr e altura h.</p><h2>Resumo</h2><ul><li>✅ V=πr²h (análogo ao prisma)</li><li>✅ A_lat=2πrh (retângulo desenrolado)</li></ul><h2>Curiosidade</h2><p>Uma lata de refrigerante é um cilindro quase equilátero! O design otimiza o alumínio usado (área) para o volume de líquido.</p>",
+      "faq": [
+        {
+          "q": "A lateral do cilindro é que forma planificada?",
+          "a": "Retângulo! Com base = 2πr (circunferência da base) e altura = h. Por isso A_lat = 2πrh."
+        },
+        {
+          "q": "Cilindro equilátero?",
+          "a": "É quando h=2r (altura = diâmetro). A seção axial vira um quadrado."
+        },
+        {
+          "q": "Cilindro x prisma?",
+          "a": "Cilindro = 'prisma circular'. As fórmulas são análogas: V=A_base·h. No cilindro, A_base=πr²."
+        },
+        {
+          "q": "Volume em litros?",
+          "a": "1 litro = 1000 cm³. Calcule V em cm³ e divida por 1000."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Volume do cilindro:",
+          "options": [
+            "2πrh",
+            "πr²h",
+            "πr²h/3",
+            "4πr³/3"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Área lateral do cilindro:",
+          "options": [
+            "πr²",
+            "2πrh",
+            "πr²h",
+            "2πr²"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cilindro equilátero tem h=",
+          "options": [
+            "r",
+            "2r",
+            "r/2",
+            "πr"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A lateral planificada é um:",
+          "options": [
+            "Triângulo",
+            "Círculo",
+            "Retângulo",
+            "Trapézio"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Medidas de Comprimento",
-      "slug": "medidas-comprimento",
-      "desc": "Metro, centímetro e quilômetro.",
-      "category": "Medidas",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Centímetro (cm): coisas pequenas (lápis=15cm). Metro (m): coisas médias (sala=8m). Quilômetro (km): distâncias grandes (cidades). 1m=100cm. 1km=1000m.",
-      "body": "<p>Para medir comprimentos usamos três unidades principais: <strong>centímetro (cm)</strong> para coisas pequenas (um lápis tem ~15 cm), <strong>metro (m)</strong> para coisas médias (uma sala tem ~8 m) e <strong>quilômetro (km)</strong> para distâncias grandes (a distância entre cidades).</p><p>As conversões são simples: <strong>1 metro = 100 centímetros</strong> e <strong>1 quilômetro = 1.000 metros</strong>. Para medir, usamos régua (cm), trena (m) ou odômetro do carro (km).</p><p>Pratique estimando: seu dedo tem ~1 cm, seu braço aberto ~1 m, e da sua casa até a escola são provavelmente alguns km!</p>",
-      "faq": [{"q":"Quanto mede uma pessoa adulta?","a":"Em média 1,70 m (170 cm)."},{"q":"O que é milímetro?","a":"Unidade menor que centímetro. 1 cm = 10 mm. Usado para coisas muito pequenas."}]
+      "title": "Geometria Espacial: Cone",
+      "slug": "geometria-espacial-cone",
+      "desc": "Cone: base circular + vértice. Volume V=πr²h/3. Área lateral A_lat=πrg (g=geratriz). Relação: g²=r²+h². Cone equilátero: seção axial é triângulo equilátero.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Cone: 1 base circular + vértice. Volume: V = πr²h/3. Geratriz: g² = r² + h² (Pitágoras). Área lateral: A_lat = πrg. Área total: A_t = πr² + πrg = πr(r+g). Cone equilátero: g = 2r (seção axial = triângulo equilátero).",
+      "body": "<h2>Introdução</h2><p>O <strong>cone</strong> é a \"pirâmide circular\": uma base circular cujos pontos convergem para um <strong>vértice</strong>. Volume = 1/3 do cilindro correspondente.</p><h2>Elementos</h2><ul><li><strong>r:</strong> raio da base</li><li><strong>h:</strong> altura (perpendicular)</li><li><strong>g:</strong> geratriz (lateral) → <strong>g² = r² + h²</strong></li></ul><h2>Fórmulas</h2><table><thead><tr><th>Grandeza</th><th>Fórmula</th></tr></thead><tbody><tr><td>Volume</td><td>V = πr²h/3</td></tr><tr><td>Área lateral</td><td>A_lat = πrg</td></tr><tr><td>Área total</td><td>A_t = πr(r+g)</td></tr></tbody></table><h2>Cone Equilátero</h2><p>Quando g = 2r, a seção axial é um <strong>triângulo equilátero</strong>.</p><h2>Resumo</h2><ul><li>✅ V=πr²h/3 (1/3 do cilindro)</li><li>✅ g²=r²+h² (Pitágoras!)</li></ul><h2>Curiosidade</h2><p>Casquinhas de sorvete são cones! Se você soubesse o raio e a altura, poderia calcular o volume exato de sorvete que cabe dentro.</p>",
+      "faq": [
+        {
+          "q": "O que é geratriz?",
+          "a": "É o segmento da superfície lateral, do vértice até a borda da base. Relação com r e h: g²=r²+h² (triângulo retângulo na seção axial)."
+        },
+        {
+          "q": "Volume do cone é 1/3 do quê?",
+          "a": "Do cilindro de mesma base e altura: V_cone = V_cilindro/3 = πr²h/3."
+        },
+        {
+          "q": "O que é tronco de cone?",
+          "a": "Cone cortado por plano paralelo à base. V=πh(R²+r²+Rr)/3."
+        },
+        {
+          "q": "Cone equilátero?",
+          "a": "É quando g=2r. A seção que passa pelo vértice e centro da base é um triângulo equilátero."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Volume do cone:",
+          "options": [
+            "πr²h",
+            "πr²h/3",
+            "2πr²h/3",
+            "πrg"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "g² = ?",
+          "options": [
+            "r²+h²",
+            "r²−h²",
+            "r·h",
+            "2rh"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Cone = fração do cilindro:",
+          "options": [
+            "1/2",
+            "1/3",
+            "1/4",
+            "2/3"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Área lateral do cone:",
+          "options": [
+            "πr²",
+            "2πrh",
+            "πrg",
+            "πr²h"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Gráficos e Tabelas Simples",
-      "slug": "graficos-e-tabelas",
-      "desc": "Lendo e interpretando informações visuais.",
-      "category": "Estatística",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Tabela: organiza dados em linhas e colunas. Gráfico de barras: mostra quantidades com barras de diferentes tamanhos. Barra maior = quantidade maior.",
-      "body": "<p><strong>Tabelas</strong> organizam informações em linhas e colunas, facilitando a comparação. Por exemplo, uma tabela com as frutas preferidas da turma mostra quantos alunos escolheram cada fruta.</p><p><strong>Gráficos de barras</strong> transformam números em barras visuais. Quanto maior a barra, maior a quantidade. É muito mais fácil comparar olhando barras do que lendo números!</p><p>Para ler um gráfico: olhe o <strong>título</strong> (sobre o que é), os <strong>eixos</strong> (o que está sendo medido) e o <strong>tamanho das barras</strong>. Qual barra é a maior? Qual é a menor? O que isso significa?</p>",
-      "faq": [{"q":"Para que servem gráficos?","a":"Para visualizar dados de forma rápida e fácil de entender."},{"q":"Que tipos de gráficos existem?","a":"Barras, pizza (circular), linhas e pictogramas são os mais comuns."}]
+      "title": "Geometria Espacial: Esfera",
+      "slug": "geometria-espacial-esfera",
+      "desc": "Esfera: conjunto de pontos equidistantes do centro no espaço. Volume V=4πr³/3. Área da superfície A=4πr². Seção plana é sempre um círculo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Esfera: todos os pontos à distância r do centro. Volume: V = 4πr³/3. Área da superfície: A = 4πr². Seção por plano = círculo. Seção máxima (pelo centro) = círculo de raio r. Fuso esférico: α/360 da esfera. Cunha esférica: α/360 do volume.",
+      "body": "<h2>Introdução</h2><p>A <strong>esfera</strong> é o sólido mais simétrico: conjunto de todos os pontos a distância r do centro no espaço 3D.</p><h2>Fórmulas</h2><table><thead><tr><th>Grandeza</th><th>Fórmula</th></tr></thead><tbody><tr><td>Volume</td><td>V = 4πr³/3</td></tr><tr><td>Área superficial</td><td>A = 4πr²</td></tr></tbody></table><h2>Seções Planas</h2><p>Qualquer corte por um plano resulta em um <strong>círculo</strong>. Se o plano passa pelo centro → círculo máximo (raio = r).</p><h2>Partes da Esfera</h2><ul><li><strong>Fuso esférico:</strong> α/360° da superfície</li><li><strong>Cunha esférica:</strong> α/360° do volume</li></ul><h2>Resumo</h2><ul><li>✅ V=4πr³/3, A=4πr²</li><li>⚠️ Não confundir: 4πr² (esfera) com πr² (círculo)!</li></ul><h2>Curiosidade</h2><p>Arquimedes considerava a relação entre esfera e cilindro circunscrito sua maior descoberta: V_esfera = 2/3 · V_cilindro. Pediu que este diagrama fosse gravado em seu túmulo!</p>",
+      "faq": [
+        {
+          "q": "Diferença entre esfera e bola?",
+          "a": "Esfera = superfície (casca). Bola = volume (interior+superfície). Como circunferência e círculo."
+        },
+        {
+          "q": "Toda seção plana da esfera é círculo?",
+          "a": "Sim! Se o plano passa pelo centro, é o círculo máximo (raio r). Se não passa, é um círculo menor."
+        },
+        {
+          "q": "Como surgiu o 4/3 na fórmula?",
+          "a": "É deduzido por cálculo integral. Arquimedes o provou geometricamente comparando com cilindro e cone circunscritos."
+        },
+        {
+          "q": "A fórmula funciona para planetas?",
+          "a": "Sim! Se você sabe o raio da Terra (≈6371km), pode calcular volume e área superficial com essas fórmulas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Volume da esfera:",
+          "options": [
+            "4πr²",
+            "4πr³/3",
+            "πr²h",
+            "2πr³"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Área da superfície esférica:",
+          "options": [
+            "πr²",
+            "2πr²",
+            "4πr²",
+            "4πr³/3"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Seção plana da esfera é sempre:",
+          "options": [
+            "Elipse",
+            "Retângulo",
+            "Círculo",
+            "Triângulo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "V_esfera = ? × V_cilindro circunscrito:",
+          "options": [
+            "1/3",
+            "1/2",
+            "2/3",
+            "3/4"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Geometria Analítica: Ponto e Reta",
+      "slug": "geometria-analitica-ponto-e-reta",
+      "desc": "Geometria analítica: distância entre pontos d=√[(x₂−x₁)²+(y₂−y₁)²]. Ponto médio M=((x₁+x₂)/2, (y₁+y₂)/2). Equação da reta y=mx+n. Posições relativas.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Distância: d=√[(x₂−x₁)²+(y₂−y₁)²]. Ponto médio: M=((x₁+x₂)/2,(y₁+y₂)/2). Reta: y−y₁=m(x−x₁) ou y=mx+n. Coef. angular m=tan(α)=(y₂−y₁)/(x₂−x₁). Paralelas: m₁=m₂. Perpendiculares: m₁·m₂=−1. Distância ponto-reta: d=|ax₀+by₀+c|/√(a²+b²).",
+      "body": "<h2>Introdução</h2><p>A <strong>geometria analítica</strong> une álgebra e geometria no <strong>plano cartesiano</strong>. Pontos viram coordenadas, retas viram equações — tudo calculável!</p><h2>Distância entre Pontos</h2><p><strong>d = √[(x₂−x₁)² + (y₂−y₁)²]</strong></p><p>Extensão do Teorema de Pitágoras para o plano.</p><h2>Ponto Médio</h2><p><strong>M = ((x₁+x₂)/2, (y₁+y₂)/2)</strong></p><h2>Equação da Reta</h2><ul><li><strong>Geral:</strong> ax + by + c = 0</li><li><strong>Reduzida:</strong> y = mx + n</li><li><strong>Ponto-coeficiente:</strong> y − y₁ = m(x − x₁)</li></ul><p>Coef. angular: <strong>m = (y₂−y₁)/(x₂−x₁) = tan(α)</strong></p><h2>Posições Relativas</h2><table><thead><tr><th>Posição</th><th>Condição</th></tr></thead><tbody><tr><td>Paralelas</td><td>m₁ = m₂</td></tr><tr><td>Perpendiculares</td><td>m₁ · m₂ = −1</td></tr><tr><td>Concorrentes</td><td>m₁ ≠ m₂</td></tr></tbody></table><h2>Distância Ponto-Reta</h2><p><strong>d = |ax₀ + by₀ + c| / √(a² + b²)</strong></p><h2>Resumo</h2><ul><li>✅ Distância: Pitágoras no plano</li><li>✅ Paralelas: m₁=m₂. Perpendiculares: m₁·m₂=−1</li><li>⚠️ ENEM adora distância ponto-reta!</li></ul><h2>Curiosidade</h2><p>René Descartes inventou a geometria analítica em 1637, ao perceber que poderia representar pontos e curvas com equações. Diz a lenda que a ideia surgiu ao observar uma mosca andando no teto — ele queria descrever a posição dela com números!</p>",
+      "faq": [
+        {
+          "q": "Como calcular distância entre pontos?",
+          "a": "d=√[(x₂−x₁)²+(y₂−y₁)²]. É o Teorema de Pitágoras aplicado ao plano cartesiano."
+        },
+        {
+          "q": "Quando duas retas são perpendiculares?",
+          "a": "Quando m₁·m₂=−1. Ou seja, os coeficientes angulares são inversos opostos. Ex: m₁=2 → m₂=−1/2."
+        },
+        {
+          "q": "O que é coeficiente angular?",
+          "a": "É o 'm' da reta y=mx+n. Representa a inclinação: m=tan(α)=(y₂−y₁)/(x₂−x₁). Retas verticais não têm 'm' (tangente infinita)."
+        },
+        {
+          "q": "Como achar equação da reta?",
+          "a": "Se tem ponto (x₁,y₁) e coeficiente m: y−y₁=m(x−x₁). Se tem 2 pontos: calcule m primeiro, depois use a fórmula."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Distância entre (1,2) e (4,6):",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Retas perpendiculares têm:",
+          "options": [
+            "m₁=m₂",
+            "m₁·m₂=−1",
+            "m₁+m₂=0",
+            "m₁/m₂=1"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ponto médio de (0,0) e (6,8):",
+          "options": [
+            "(3,4)",
+            "(6,8)",
+            "(2,3)",
+            "(4,6)"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "A equação y=3x+2 tem m=",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "1"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Geometria Analítica: Circunferência",
+      "slug": "geometria-analitica-circunferencia",
+      "desc": "Circunferência: (x−a)²+(y−b)²=r². Centro C(a,b), raio r. Equação geral: x²+y²+Dx+Ey+F=0. Posições relativas entre ponto, reta e circunferência.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Equação reduzida: (x−a)²+(y−b)²=r². Centro C(a,b), raio r. Equação geral: x²+y²+Dx+Ey+F=0 → centro(−D/2,−E/2), r=√(D²/4+E²/4−F). Ponto e circ: d<r interior, d=r pertence, d>r exterior. Reta e circ: d<r secante (2 pontos), d=r tangente (1), d>r exterior (0).",
+      "body": "<h2>Introdução</h2><p>A <strong>circunferência</strong> na geometria analítica é o conjunto de pontos equidistantes do <strong>centro</strong>. Sua equação é um dos temas mais cobrados.</p><h2>Equação Reduzida</h2><p><strong>(x − a)² + (y − b)² = r²</strong></p><p>Centro C(a, b), raio r</p><p>Ex: (x−3)²+(y+1)²=16 → C(3,−1), r=4</p><h2>Equação Geral</h2><p><strong>x² + y² + Dx + Ey + F = 0</strong></p><p>Centro: (−D/2, −E/2) | Raio: r = √(D²/4 + E²/4 − F)</p><h2>Posições Relativas</h2><table><thead><tr><th>d(ponto,centro)</th><th>Posição do ponto</th></tr></thead><tbody><tr><td>d < r</td><td>Interior</td></tr><tr><td>d = r</td><td>Pertence à circunferência</td></tr><tr><td>d > r</td><td>Exterior</td></tr></tbody></table><h2>Reta × Circunferência</h2><table><thead><tr><th>d(centro,reta)</th><th>Posição</th><th>Pontos de interseção</th></tr></thead><tbody><tr><td>d < r</td><td>Secante</td><td>2</td></tr><tr><td>d = r</td><td>Tangente</td><td>1</td></tr><tr><td>d > r</td><td>Exterior</td><td>0</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ (x−a)²+(y−b)²=r²</li><li>✅ Compare distância com raio para posições</li></ul><h2>Curiosidade</h2><p>A equação da circunferência é um caso especial da equação das cônicas. Se mudarmos os coeficientes de x² e y², obtemos elipses, hipérboles e parábolas!</p>",
+      "faq": [
+        {
+          "q": "Como identificar centro e raio?",
+          "a": "Na forma (x−a)²+(y−b)²=r²: centro é (a,b) e raio é r. Cuidado com sinais: (x−3)²+(y+1)²=16 → C(3,−1), r=4."
+        },
+        {
+          "q": "Como converter geral→reduzida?",
+          "a": "Complete quadrados: agrupe x e y, complete os quadrados perfeitos. x²+y²−6x+2y−6=0 → (x−3)²+(y+1)²=16."
+        },
+        {
+          "q": "Quando reta é tangente?",
+          "a": "Quando d(centro,reta) = r. A distância do centro à reta é exatamente o raio → 1 ponto de contato."
+        },
+        {
+          "q": "Duas circunferências podem ser concêntricas?",
+          "a": "Sim! Concêntricas = mesmo centro, raios diferentes. São como anéis. Nunca se intersectam."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "(x−2)²+(y−3)²=25. Centro e raio:",
+          "options": [
+            "C(2,3),r=25",
+            "C(2,3),r=5",
+            "C(−2,−3),r=5",
+            "C(2,3),r=√25"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Se d(ponto,centro)<r, o ponto está:",
+          "options": [
+            "No exterior",
+            "Na circunferência",
+            "No interior",
+            "Na tangente"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Reta tangente toca a circunferência em:",
+          "options": [
+            "0 pontos",
+            "1 ponto",
+            "2 pontos",
+            "∞ pontos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na equação geral, r²=",
+          "options": [
+            "D²+E²−F",
+            "D²/4+E²/4−F",
+            "−F",
+            "D+E+F"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Geometria Analítica: Cônicas",
+      "slug": "geometria-analitica-conicas",
+      "desc": "Cônicas: elipse (x²/a²+y²/b²=1), hipérbole (x²/a²−y²/b²=1) e parábola (y²=4px). Focos, excentricidade, diretriz. Seções de um cone duplo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Elipse: x²/a²+y²/b²=1, c²=a²−b². Hipérbole: x²/a²−y²/b²=1, c²=a²+b². Parábola: y²=4px (foco F(p,0), diretriz x=−p). Excentricidade: e=c/a. Elipse: 0<e<1. Hipérbole: e>1. Parábola: e=1. Circunferência: e=0.",
+      "body": "<h2>Introdução</h2><p>As <strong>cônicas</strong> são curvas obtidas pela interseção de um plano com um <strong>cone duplo</strong>: elipse, hipérbole, parábola e circunferência.</p><h2>Elipse</h2><p><strong>x²/a² + y²/b² = 1</strong> (a > b)</p><ul><li>Focos: c² = a² − b²</li><li>Propriedade: PF₁ + PF₂ = 2a (soma constante)</li></ul><h2>Hipérbole</h2><p><strong>x²/a² − y²/b² = 1</strong></p><ul><li>Focos: c² = a² + b²</li><li>Propriedade: |PF₁ − PF₂| = 2a (diferença constante)</li><li>Assíntotas: y = ±(b/a)x</li></ul><h2>Parábola</h2><p><strong>y² = 4px</strong></p><ul><li>Foco: F(p, 0) | Diretriz: x = −p</li><li>Propriedade: PF = Pd (distância ao foco = à diretriz)</li></ul><h2>Excentricidade</h2><p><strong>e = c/a</strong></p><table><thead><tr><th>Cônica</th><th>e</th></tr></thead><tbody><tr><td>Circunferência</td><td>0</td></tr><tr><td>Elipse</td><td>0 < e < 1</td></tr><tr><td>Parábola</td><td>1</td></tr><tr><td>Hipérbole</td><td>> 1</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Elipse: soma→foco. Hipérbole: diferença→foco. Parábola: equidistância.</li><li>⚠️ c²=a²−b² (elipse) vs c²=a²+b² (hipérbole)!</li></ul><h2>Curiosidade</h2><p>As órbitas dos planetas são <strong>elipses</strong> (Kepler). A trajetória de cometas pode ser hiperbólica. Antenas parabólicas usam a propriedade focal da parábola: todos os raios paralelos convergem para o foco!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre elipse e hipérbole?",
+          "a": "Elipse: soma das distâncias aos focos é constante (c²=a²−b²). Hipérbole: diferença das distâncias é constante (c²=a²+b²). Elipse é fechada; hipérbole tem 2 ramos."
+        },
+        {
+          "q": "O que é excentricidade?",
+          "a": "e=c/a. Mede quão 'achatada' é a cônica. Circunferência: e=0 (perfeita). Elipse: 0<e<1. Parábola: e=1. Hipérbole: e>1."
+        },
+        {
+          "q": "Por que antena parabólica funciona?",
+          "a": "Pela propriedade focal: todos os raios paralelos ao eixo refletem para o foco. O receptor fica no foco, captando todo o sinal."
+        },
+        {
+          "q": "Órbitas dos planetas são cônicas?",
+          "a": "Sim! Kepler provou que órbitas planetárias são elipses com o Sol num dos focos. A excentricidade da Terra é 0,017 — quase circular."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Elipse: c²=",
+          "options": [
+            "a²+b²",
+            "a²−b²",
+            "a²·b²",
+            "a/b"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Excentricidade da parábola:",
+          "options": [
+            "0",
+            "0.5",
+            "1",
+            ">1"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Antenas parabólicas exploram:",
+          "options": [
+            "A forma circular",
+            "A propriedade focal",
+            "A excentricidade",
+            "As assíntotas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Hipérbole: c²=",
+          "options": [
+            "a²−b²",
+            "a²+b²",
+            "a²/b²",
+            "(a+b)²"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Matrizes e Determinantes",
+      "slug": "matrizes-e-determinantes",
+      "desc": "Matrizes: tipos (quadrada, identidade, nula, transposta), operações (soma, produto). Determinantes: 2×2 (ad−bc), 3×3 (Sarrus). Aplicações: sistemas lineares, transformações.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Matriz m×n: m linhas, n colunas. Tipos: quadrada (m=n), identidade (I), nula, transposta (Aᵀ). Soma: elemento a elemento. Produto: A(m×n)·B(n×p)=C(m×p), linha×coluna. Det 2×2: ad−bc. Det 3×3: Regra de Sarrus (duplicar colunas). Det=0 → sistema sem solução única.",
+      "body": "<h2>Introdução</h2><p><strong>Matrizes</strong> organizam números em linhas e colunas. São usadas em sistemas lineares, computação gráfica, criptografia e economia.</p><h2>Tipos de Matrizes</h2><table><thead><tr><th>Tipo</th><th>Definição</th></tr></thead><tbody><tr><td>Quadrada</td><td>m = n (mesma qtd de linhas e colunas)</td></tr><tr><td>Identidade (I)</td><td>Diagonal principal = 1, resto = 0</td></tr><tr><td>Nula</td><td>Todos os elementos = 0</td></tr><tr><td>Transposta (Aᵀ)</td><td>Troca linhas por colunas</td></tr></tbody></table><h2>Operações</h2><h3>Soma</h3><p>Elemento a elemento (matrizes de mesma ordem).</p><h3>Multiplicação</h3><p>A(m×n) · B(n×p) = C(m×p)</p><p>Cada cᵢⱼ = soma dos produtos (linha i de A) × (coluna j de B).</p><p>⚠️ <strong>A·B ≠ B·A</strong> em geral!</p><h2>Determinantes</h2><h3>2×2</h3><p><strong>det = ad − bc</strong></p><h3>3×3 (Sarrus)</h3><p>Duplique as 2 primeiras colunas à direita. Some as diagonais principais, subtraia as secundárias.</p><h2>Resumo</h2><ul><li>✅ Produto: linha × coluna, resultado m×p</li><li>✅ Det 2×2: ad−bc</li><li>⚠️ Multiplicação NÃO é comutativa!</li></ul><h2>Curiosidade</h2><p>A criptografia moderna usa matrizes! O ciframento de Hill multiplica a mensagem por uma matriz-chave. Sem a inversa da matriz, é quase impossível decifrar!</p>",
+      "faq": [
+        {
+          "q": "Quando posso multiplicar matrizes?",
+          "a": "A(m×n)·B(n×p): o número de COLUNAS de A deve ser igual ao número de LINHAS de B. O resultado tem dimensão m×p."
+        },
+        {
+          "q": "A·B = B·A?",
+          "a": "NÃO em geral! Multiplicação de matrizes NÃO é comutativa. A·B pode existir sem B·A existir (dimensões incompatíveis)."
+        },
+        {
+          "q": "O que significa determinante = 0?",
+          "a": "A matriz é singular (não tem inversa). O sistema linear associado é indeterminado ou impossível — sem solução única."
+        },
+        {
+          "q": "O que é Regra de Sarrus?",
+          "a": "Método para calcular determinante 3×3: duplique as 2 primeiras colunas à direita, some diagonais↘ e subtraia diagonais↗. Funciona APENAS para 3×3."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Det da matriz [[3,1],[2,4]]:",
+          "options": [
+            "14",
+            "10",
+            "11",
+            "5"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A(2×3)·B(3×4)=C(?×?):",
+          "options": [
+            "2×4",
+            "3×3",
+            "2×3",
+            "3×4"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Multiplicação de matrizes é:",
+          "options": [
+            "Comutativa",
+            "Associativa",
+            "Distributiva",
+            "B e C"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Se det=0, a matriz:",
+          "options": [
+            "É identidade",
+            "Tem inversa",
+            "NÃO tem inversa",
+            "É nula"
+          ],
+          "answer": 2
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,586 @@
+{
+  "subject": "Literatura",
+  "slug": "3ano-literatura",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--literatura)",
+  "icon": "book-open",
+  "articles": [
+    {
+      "title": "Semana de Arte Moderna (1922)",
+      "slug": "semana-de-arte-moderna-1922",
+      "desc": "Semana de Arte Moderna (1922): ruptura com academicismo. Mario de Andrade, Oswald de Andrade, Anita Malfatti, Di Cavalcanti, Villa-Lobos.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Semana de Arte Moderna: Teatro Municipal de SP, 13-17 de fevereiro de 1922. Ruptura com o passado academico. Protagonistas: Mario de Andrade, Oswald de Andrade, Anita Malfatti (pintura), Di Cavalcanti, Villa-Lobos (musica). Vaias e escandalo. Propostas: verso livre, linguagem coloquial, temas brasileiros, humor, experimentacao. Marco do Modernismo brasileiro.",
+      "body": "<h2>Introducao</h2><p>A <strong>Semana de 22</strong> revolucionou a arte brasileira.</p><h2>Participantes</h2><table><thead><tr><th>Artista</th><th>Area</th></tr></thead><tbody><tr><td>Mario de Andrade</td><td>Literatura</td></tr><tr><td>Oswald de Andrade</td><td>Literatura</td></tr><tr><td>Anita Malfatti</td><td>Pintura</td></tr><tr><td>Di Cavalcanti</td><td>Pintura</td></tr><tr><td>Villa-Lobos</td><td>Musica</td></tr></tbody></table><h2>Propostas</h2><ul><li>Verso livre, sem rima obrigatoria</li><li>Linguagem coloquial brasileira</li><li>Humor, ironia, provocacao</li></ul><h2>Resumo</h2><ul><li>1922 = ruptura com o passado</li><li>ENEM: Semana de 22 e tema certeiro</li></ul><h2>Curiosidade</h2><p>O publico <strong>vaiou</strong> os artistas! A elite paulistana rejeitou. Hoje, a Semana e celebrada como marco cultural!</p>",
+      "faq": [
+        {
+          "q": "Por que 1922?",
+          "a": "Centenario da Independencia. Momento de repensar a identidade brasileira. Urbanizacao, industrializacao, imigracao mudavam SP. Contexto de efervescencia."
+        },
+        {
+          "q": "Anita Malfatti?",
+          "a": "Pintora que trouxe arte moderna europeia ao Brasil. Criticada por Monteiro Lobato ('Paranoia ou mistificacao?'). A critica motivou a Semana."
+        },
+        {
+          "q": "Mario vs Oswald?",
+          "a": "Mario: estudioso, sistematico (Macunaíma, Paulicéia Desvairada). Oswald: irreverente, provocador (Manifesto Antropofago, Pau-Brasil). Complementares."
+        },
+        {
+          "q": "Semana foi so em SP?",
+          "a": "Sim! Teatro Municipal de SP. Mas o impacto foi NACIONAL. Modernismo se espalhou por todo o Brasil."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Semana de 22 foi em",
+          "options": [
+            "Rio",
+            "SP",
+            "Belo Horizonte",
+            "Salvador"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Anita Malfatti era",
+          "options": [
+            "Escritora",
+            "Pintora",
+            "Musicista",
+            "Escultora"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Villa-Lobos representava a",
+          "options": [
+            "Pintura",
+            "Literatura",
+            "Musica",
+            "Escultura"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Semana de 22 propunha",
+          "options": [
+            "Academicismo",
+            "Ruptura",
+            "Conservadorismo",
+            "Classicismo"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Modernismo 1ª Fase (1922-1930): Destruição",
+      "slug": "modernismo-1-fase-1922-1930-destruicao",
+      "desc": "Modernismo 1a fase: destruicao. Oswald (Manifesto Antropofago, Pau-Brasil), Mario (Macunaíma, Paulicéia). Verso livre, humor, brasilidade.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "1a fase (1922-1930): destruicao/experimentacao. Oswald de Andrade: Manifesto Pau-Brasil (1924), Manifesto Antropofago (1928) - 'Tupi or not tupi, that is the question'. Devorar cultura estrangeira e criar algo novo. Mario de Andrade: Macunaíma (1928) - heroi sem nenhum carater, rapsodia brasileira. Paulicéia Desvairada (1922). Verso livre, linguagem coloquial, humor, nacionalismo critico.",
+      "body": "<h2>Introducao</h2><p>A <strong>1a fase modernista</strong> destruiu regras e inventou uma literatura genuinamente brasileira.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Obra-chave</th></tr></thead><tbody><tr><td>Oswald</td><td>Manifesto Antropofago, Pau-Brasil</td></tr><tr><td>Mario</td><td>Macunaíma, Paulicéia Desvairada</td></tr></tbody></table><h2>Antropofagia</h2><p>Devorar cultura estrangeira + cultura local = criar algo NOVO e brasileiro. 'Tupi or not tupi!'</p><h2>Resumo</h2><ul><li>Destruir para reconstruir</li><li>ENEM: Oswald, antropofagia, Macunaíma</li></ul><h2>Curiosidade</h2><p><strong>Macunaíma</strong> e o 'heroi sem nenhum carater': preguicoso, malandro, safado - e por isso MUITO brasileiro!</p>",
+      "faq": [
+        {
+          "q": "Antropofagia?",
+          "a": "Oswald: assim como indios comiam inimigos para absorver sua forca, Brasil deve 'comer' cultura estrangeira e transformar em algo proprio. Nao copiar - DEVORAR."
+        },
+        {
+          "q": "Macunaíma?",
+          "a": "Heroi indio que nasce no Amazonas, vai a SP, vira branco, volta. Mistura mitos, folclore, humor. 'Ai que preguica!' - frase-simbolo."
+        },
+        {
+          "q": "1a fase so destruiu?",
+          "a": "Construiu tambem! Criou verso livre, linguagem brasileira, humor na poesia, nacionalismo critico. Mas a ENFASE era destruir o velho."
+        },
+        {
+          "q": "Pau-Brasil?",
+          "a": "Manifesto de Oswald (1924): poesia de exportacao. Simplicidade, humor, linguagem popular. 'A poesia existe nos fatos.' Contra o rebuscamento."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Tupi or not tupi' e de",
+          "options": [
+            "Mario",
+            "Oswald",
+            "Bandeira",
+            "Drummond"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Macunaíma e",
+          "options": [
+            "Heroi perfeito",
+            "Heroi sem nenhum carater",
+            "Heroi tragico",
+            "Anti-heroi"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "1a fase modernista e de",
+          "options": [
+            "Destruicao",
+            "Construcao",
+            "Maturidade",
+            "Conservacao"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Antropofagia propoe",
+          "options": [
+            "Copiar",
+            "Rejeitar",
+            "Devorar e transformar",
+            "Ignorar"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Modernismo 2ª Fase — Prosa (1930-1945): Construção",
+      "slug": "modernismo-2-fase-prosa-1930-1945-construcao",
+      "desc": "Modernismo 2a fase prosa: Romance de 30. Graciliano Ramos (Vidas Secas), Jorge Amado (Capitaes da Areia), Rachel de Queiroz, Jose Lins.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "2a fase (1930-1945): construcao. Romance de 30: regionalismo critico e social. Graciliano Ramos: Vidas Secas (seca nordestina, linguagem seca como o sertao), Sao Bernardo. Jorge Amado: Capitaes da Areia (meninos de rua), Cacau. Rachel de Queiroz: O Quinze (primeira grande romancista brasileira). Jose Lins do Rego: Menino de Engenho (ciclo da cana). Erico Verissimo: O Tempo e o Vento (RS).",
+      "body": "<h2>Introducao</h2><p>A <strong>2a fase em prosa</strong> construiu o grande romance social brasileiro.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Obra</th><th>Regiao</th></tr></thead><tbody><tr><td>Graciliano Ramos</td><td>Vidas Secas</td><td>Nordeste (seca)</td></tr><tr><td>Jorge Amado</td><td>Capitaes da Areia</td><td>Bahia</td></tr><tr><td>Rachel de Queiroz</td><td>O Quinze</td><td>Ceara (seca)</td></tr><tr><td>Jose Lins</td><td>Menino de Engenho</td><td>Paraiba (cana)</td></tr></tbody></table><h2>Resumo</h2><ul><li>Romance social, regionalismo critico</li><li>ENEM: Vidas Secas e o mais cobrado</li></ul><h2>Curiosidade</h2><p>Em <strong>Vidas Secas</strong>, ate a cadela Baleia 'pensa'! Graciliano da voz interior aos que nao tem voz na sociedade.</p>",
+      "faq": [
+        {
+          "q": "Vidas Secas?",
+          "a": "Familia de retirantes nordestinos (Fabiano, sinha Vitoria, meninos, Baleia). Linguagem seca como o sertao. Capitulos independentes. Obra-prima absoluta."
+        },
+        {
+          "q": "Romance de 30?",
+          "a": "Geracao de romancistas que retratou o Brasil profundo: seca, miseria, latifundio, engenho. Literatura como denuncia social. Nordeste no centro."
+        },
+        {
+          "q": "Rachel de Queiroz?",
+          "a": "Primeira mulher na Academia Brasileira de Letras. O Quinze (1930): seca de 1915 no Ceara. Publicou aos 19 anos!"
+        },
+        {
+          "q": "Jorge Amado e so Bahia?",
+          "a": "Inicio: romance social (Cacau, Capitaes). Depois: humor baiano (Dona Flor, Gabriela). Mais traduzido dos brasileiros no mundo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Vidas Secas e de",
+          "options": [
+            "Jorge Amado",
+            "Graciliano Ramos",
+            "Rachel",
+            "Jose Lins"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Romance de 30 foca no",
+          "options": [
+            "Urbano",
+            "Regional/social",
+            "Fantastico",
+            "Historico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Quinze e de",
+          "options": [
+            "Jorge Amado",
+            "Rachel de Queiroz",
+            "Graciliano",
+            "Jose Lins"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Baleia e",
+          "options": [
+            "Pessoa",
+            "Cadela",
+            "Cidade",
+            "Rio"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Modernismo 2ª Fase — Poesia",
+      "slug": "modernismo-2-fase-poesia",
+      "desc": "Modernismo 2a fase poesia: Drummond (No Meio do Caminho), Cecilia Meireles, Vinicius de Moraes, Murilo Mendes.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Drummond (1902-1987): maior poeta brasileiro. No Meio do Caminho (pedra), Sentimento do Mundo (engajamento), Jose (existencialismo), Poema de Sete Faces ('gauche na vida'). Cecilia Meireles: lirismo delicado, Romanceiro da Inconfidencia. Vinicius de Moraes: Soneto de Fidelidade, bossa nova. Murilo Mendes: surrealismo. Poesia equilibrada entre forma e conteudo.",
+      "body": "<h2>Introducao</h2><p>A <strong>poesia da 2a fase</strong> atingiu o apice da literatura brasileira.</p><h2>Poetas</h2><table><thead><tr><th>Poeta</th><th>Destaque</th></tr></thead><tbody><tr><td>Drummond</td><td>No Meio do Caminho, Sentimento do Mundo</td></tr><tr><td>Cecilia Meireles</td><td>Romanceiro da Inconfidencia</td></tr><tr><td>Vinicius</td><td>Soneto de Fidelidade, bossa nova</td></tr></tbody></table><h2>Drummond</h2><ul><li>'No meio do caminho tinha uma pedra' - poema mais famoso/polemico</li><li>'Gauche na vida' - desajuste existencial</li></ul><h2>Resumo</h2><ul><li>Drummond = o poeta do seculo</li><li>ENEM: Drummond e certeza absoluta!</li></ul><h2>Curiosidade</h2><p>'<strong>No Meio do Caminho</strong>' causou ESCANDALO quando publicado. Hoje e o poema brasileiro mais citado!</p>",
+      "faq": [
+        {
+          "q": "'Gauche na vida'?",
+          "a": "Drummond: 'Quando nasci, um anjo torto me disse: Vai, Carlos, ser gauche na vida.' Gauche = desajustado, torto, fora do lugar. Marca toda sua poesia."
+        },
+        {
+          "q": "Vinicius e bossa nova?",
+          "a": "Sim! Vinicius parceirou com Tom Jobim em 'Garota de Ipanema' e outras. Poeta que virou letrista. Musica E poesia."
+        },
+        {
+          "q": "Cecilia e suave?",
+          "a": "Aparentemente sim, mas tem profundidade enorme. Romanceiro da Inconfidencia e epico. Metafisica, passagem do tempo, efemeridade. Poeta completa."
+        },
+        {
+          "q": "Drummond mudou de estilo?",
+          "a": "Sim! 7 fases: ironia (gauche), social (Sentimento do Mundo), existencial (A Rosa do Povo), metafisica (Claro Enigma). Sempre se renovando."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'No meio do caminho tinha uma' ...",
+          "options": [
+            "Flor",
+            "Pedra",
+            "Arvore",
+            "Casa"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Soneto de Fidelidade e de",
+          "options": [
+            "Drummond",
+            "Cecilia",
+            "Vinicius",
+            "Bandeira"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'Gauche' significa",
+          "options": [
+            "Direito",
+            "Desajustado",
+            "Feliz",
+            "Rico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Romanceiro da Inconfidencia e de",
+          "options": [
+            "Drummond",
+            "Cecilia Meireles",
+            "Vinicius",
+            "Bandeira"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Modernismo 3ª Fase (1945+): Maturidade",
+      "slug": "modernismo-3-fase-1945-maturidade",
+      "desc": "Modernismo 3a fase: Guimaraes Rosa (Grande Sertao: Veredas), Clarice Lispector (A Hora da Estrela), Joao Cabral (Morte e Vida Severina).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "3a fase (1945+): maturidade, experimentacao formal. Guimaraes Rosa: Grande Sertao: Veredas (1956) - reinventa a lingua portuguesa, sertao como universo. Riobaldo e Diadorim. Clarice Lispector: A Hora da Estrela, A Paixao Segundo G.H. - fluxo de consciencia, epifania. Joao Cabral de Melo Neto: Morte e Vida Severina - poesia seca, antiiirica, engajada. 'Pedra do sono'.",
+      "body": "<h2>Introducao</h2><p>A <strong>3a fase</strong> levou a literatura brasileira ao apice da experimentacao.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Obra</th><th>Estilo</th></tr></thead><tbody><tr><td>Guimaraes Rosa</td><td>Grande Sertao: Veredas</td><td>Reinvencao da lingua</td></tr><tr><td>Clarice Lispector</td><td>A Hora da Estrela</td><td>Fluxo de consciencia</td></tr><tr><td>Joao Cabral</td><td>Morte e Vida Severina</td><td>Poesia seca/antilirica</td></tr></tbody></table><h2>Resumo</h2><ul><li>Rosa reinventa a lingua. Clarice mergulha na alma. Cabral e preciso como engenheiro.</li><li>ENEM: os 3 sao presenca garantida</li></ul><h2>Curiosidade</h2><p>Guimaraes Rosa <strong>inventava palavras</strong>: 'nonada', 'travessias'. Dizia que 'a lingua e a unica janela do infinito'!</p>",
+      "faq": [
+        {
+          "q": "Grande Sertao e dificil?",
+          "a": "Sim! 600 paginas sem capitulos, linguagem inventada, neologismos. Mas a historia de Riobaldo e Diadorim e apaixonante. Vale o esforco."
+        },
+        {
+          "q": "Clarice e feminista?",
+          "a": "Nao se rotulava, mas sua obra questiona a condicao feminina. A Hora da Estrela: Macabea, nordestina miseravel, invisivel na cidade grande. Brutal."
+        },
+        {
+          "q": "Morte e Vida - por que invertido?",
+          "a": "Joao Cabral: no sertao, a MORTE vem antes da vida. Severino foge da morte mas so encontra morte. No final, um nascimento da esperanca."
+        },
+        {
+          "q": "Epifania em Clarice?",
+          "a": "Momento de revelacao subita: personagem percebe algo profundo sobre si e o mundo. Acontece no cotidiano banal: cozinhando, olhando pela janela."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Grande Sertao e de",
+          "options": [
+            "Clarice",
+            "Joao Cabral",
+            "Guimaraes Rosa",
+            "Drummond"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A Hora da Estrela e de",
+          "options": [
+            "Guimaraes Rosa",
+            "Clarice Lispector",
+            "Cecilia",
+            "Rachel"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Morte e Vida Severina e de",
+          "options": [
+            "Drummond",
+            "Vinicius",
+            "Joao Cabral",
+            "Bandeira"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Diadorim e personagem de",
+          "options": [
+            "Clarice",
+            "Rosa",
+            "Cabral",
+            "Drummond"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Poesia Concreta e Tendências Pós-1950",
+      "slug": "poesia-concreta-e-tendencias-pos-1950",
+      "desc": "Poesia Concreta: Haroldo de Campos, Augusto de Campos, Decio Pignatari. Poesia visual. Tropicalia. Poesia marginal.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Poesia Concreta (anos 1950): poesia VISUAL, forma = conteudo. Palavras como objetos graficos. Haroldo de Campos, Augusto de Campos, Decio Pignatari. Revista Noigandres. Influencia de Mallarmé. Tropicalia (1960s): Caetano, Gil, Tom Zé - antropofagia pop. Poesia Marginal (1970s): linguagem coloquial, mimeografo, contracultura. Ana Cristina Cesar, Paulo Leminski, Waly Salomao.",
+      "body": "<h2>Introducao</h2><p>Apos o Modernismo, a poesia brasileira experimentou formas radicais.</p><h2>Movimentos</h2><table><thead><tr><th>Movimento</th><th>Decada</th><th>Caracteristica</th></tr></thead><tbody><tr><td>Poesia Concreta</td><td>1950s</td><td>Visual, forma=conteudo</td></tr><tr><td>Tropicalia</td><td>1960s</td><td>Antropofagia pop</td></tr><tr><td>Marginal</td><td>1970s</td><td>Coloquial, mimeografo</td></tr></tbody></table><h2>Resumo</h2><ul><li>Poesia que se ve, nao so se le</li><li>ENEM: poesia concreta, Tropicalia</li></ul><h2>Curiosidade</h2><p>Na poesia concreta, a DISPOSICAO das letras na pagina e tao importante quanto as palavras! O poema e <strong>visual</strong>!</p>",
+      "faq": [
+        {
+          "q": "Poesia concreta - exemplo?",
+          "a": "Augusto de Campos: 'beba coca cola / babe cola / beba coca / babe cola caco / cloaca'. As palavras se decompõem visualmente. Forma E conteudo."
+        },
+        {
+          "q": "Tropicalia e literatura?",
+          "a": "Mais musica (Caetano, Gil) mas influenciou toda a cultura. Retomou a antropofagia oswaldiana: misturar bossa nova, rock, baiao, cultura pop."
+        },
+        {
+          "q": "Poesia marginal?",
+          "a": "Poetas dos anos 70 (ditadura) publicavam em mimeografo e vendiam de mao em mao. Anti-institucional. Linguagem do cotidiano, humor, ironia."
+        },
+        {
+          "q": "Leminski?",
+          "a": "Poeta curitibano (1944-1989). Misturava erudito e popular, haicai e rock. 'Distraidos venceremos.' Virou pop apos a morte."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Poesia concreta e",
+          "options": [
+            "Sonora",
+            "Visual",
+            "Narrativa",
+            "Dramatica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tropicalia retoma a",
+          "options": [
+            "Parnasianismo",
+            "Antropofagia",
+            "Arcadismo",
+            "Barroco"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Poesia marginal usava",
+          "options": [
+            "Editoras grandes",
+            "Mimeografo",
+            "Impressao de luxo",
+            "E-book"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Irmãos Campos sao da poesia",
+          "options": [
+            "Marginal",
+            "Concreta",
+            "Social",
+            "Romantica"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Literatura Contemporânea Brasileira",
+      "slug": "literatura-contemporanea-brasileira",
+      "desc": "Literatura contemporanea: Conceicao Evaristo, Milton Hatoum, Chico Buarque, Itamar Vieira Junior (Torto Arado). Pluralidade de vozes.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Literatura contemporanea brasileira: pluralidade de vozes, diversidade. Conceicao Evaristo: escrevivencia (experiencia de mulher negra). Olhos d'Agua. Milton Hatoum: Dois Irmaos (Manaus, imigracao libanesa). Chico Buarque: Budapeste, Leite Derramado. Itamar Vieira Junior: Torto Arado (2019, quilombolas). Autoficção, literatura periferica (Ferréz, Sergio Vaz), diversidade de genero/raca/regiao.",
+      "body": "<h2>Introducao</h2><p>A <strong>literatura contemporanea</strong> brasileira e plural, diversa e urgente.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Obra</th><th>Tema</th></tr></thead><tbody><tr><td>Conceicao Evaristo</td><td>Olhos d'Agua</td><td>Mulher negra</td></tr><tr><td>Milton Hatoum</td><td>Dois Irmaos</td><td>Manaus, imigracao</td></tr><tr><td>Itamar Vieira Jr.</td><td>Torto Arado</td><td>Quilombolas</td></tr><tr><td>Chico Buarque</td><td>Budapeste</td><td>Identidade, linguagem</td></tr></tbody></table><h2>Resumo</h2><ul><li>Vozes diversas: negra, periferica, indigena, LGBTQIA+</li><li>ENEM: Conceicao Evaristo e tendencia forte</li></ul><h2>Curiosidade</h2><p><strong>Torto Arado</strong> vendeu mais de 1 milhao de copias e colocou quilombolas no centro da literatura brasileira!</p>",
+      "faq": [
+        {
+          "q": "Escrevivencia?",
+          "a": "Conceicao Evaristo: escrever a partir da propria vivencia de mulher negra e periferica. A escrita como ato de resistencia e existencia."
+        },
+        {
+          "q": "Literatura periferica?",
+          "a": "Ferréz, Sergio Vaz: escritores DA periferia escrevendo SOBRE a periferia. Rompem com o dominio da classe media/elite na literatura."
+        },
+        {
+          "q": "Autoficcao?",
+          "a": "Mistura de autobiografia com ficcao. O autor se coloca no texto mas ficcionaliza. Tendencia forte na literatura atual."
+        },
+        {
+          "q": "Itamar Vieira Junior?",
+          "a": "Baiano, geografo. Torto Arado (2019): historia de duas irmas quilombolas no interior da Bahia. Fenomeno editorial. Lingua e terra como temas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Escrevivencia e de",
+          "options": [
+            "Clarice",
+            "Conceicao Evaristo",
+            "Rachel",
+            "Cecilia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Torto Arado trata de",
+          "options": [
+            "Cidade",
+            "Quilombolas",
+            "Imigrantes",
+            "Indios"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Dois Irmaos se passa em",
+          "options": [
+            "SP",
+            "Rio",
+            "Manaus",
+            "Salvador"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Literatura periferica rompe com",
+          "options": [
+            "Tradicao",
+            "Dominio da elite",
+            "Poesia",
+            "Prosa"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Literatura Africana de Língua Portuguesa",
+      "slug": "literatura-africana-de-lingua-portuguesa",
+      "desc": "Literatura africana lusofona: Mia Couto (Mocambique), Pepetela (Angola), Ondjaki. Identidade, colonialismo, independencia.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Literatura africana de lingua portuguesa: Mocambique, Angola, Cabo Verde, Guine-Bissau, Sao Tome. Mia Couto (Mocambique): Terra Sonambula, reinvencao da lingua (como Guimaraes Rosa). Pepetela (Angola): Mayombe (guerrilha). Ondjaki: Os da Minha Rua (infancia em Luanda). Temas: colonialismo, independencia, identidade, oralidade, mistura de linguas. ENEM cobra cada vez mais.",
+      "body": "<h2>Introducao</h2><p>A <strong>literatura africana de lingua portuguesa</strong> e rica, diversa e cada vez mais cobrada no ENEM.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Pais</th><th>Obra</th></tr></thead><tbody><tr><td>Mia Couto</td><td>Mocambique</td><td>Terra Sonambula</td></tr><tr><td>Pepetela</td><td>Angola</td><td>Mayombe</td></tr><tr><td>Ondjaki</td><td>Angola</td><td>Os da Minha Rua</td></tr></tbody></table><h2>Temas</h2><ul><li>Colonialismo e independencia</li><li>Identidade africana</li><li>Oralidade e reinvencao da lingua</li></ul><h2>Resumo</h2><ul><li>Africa lusofona e presenca crescente no ENEM</li><li>Mia Couto reinventa o portugues</li></ul><h2>Curiosidade</h2><p><strong>Mia Couto</strong> e comparado a Guimaraes Rosa: ambos REINVENTAM a lingua portuguesa a partir de seus territorios!</p>",
+      "faq": [
+        {
+          "q": "Por que cai no ENEM?",
+          "a": "ENEM valoriza diversidade cultural. Literatura africana lusofona compartilha a lingua com Brasil. Temas de identidade, colonialismo sao relevantes."
+        },
+        {
+          "q": "Mia Couto inventa palavras?",
+          "a": "Sim! Como Rosa, Mia Couto cria neologismos e mistura portugues com linguas locais mocambicanas. Resultado: prosa poetica unica."
+        },
+        {
+          "q": "Pepetela?",
+          "a": "Nome de guerra (significa 'pestana' em kimbundo). Participou da guerrilha pela independencia de Angola. Mayombe: romance sobre a luta armada."
+        },
+        {
+          "q": "5 paises lusófonos africanos?",
+          "a": "Angola, Mocambique, Cabo Verde, Guine-Bissau, Sao Tome e Principe. Foram colonias portuguesas. Independencia nos anos 1970."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Mia Couto e de",
+          "options": [
+            "Angola",
+            "Brasil",
+            "Mocambique",
+            "Portugal"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Pepetela e de",
+          "options": [
+            "Mocambique",
+            "Angola",
+            "Cabo Verde",
+            "Guine"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Terra Sonambula e de",
+          "options": [
+            "Pepetela",
+            "Mia Couto",
+            "Ondjaki",
+            "Evaristo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Paises africanos lusofonos sao",
+          "options": [
+            "3",
+            "5",
+            "7",
+            "10"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

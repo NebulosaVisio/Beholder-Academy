@@ -1,0 +1,946 @@
+{
+  "subject": "Biologia",
+  "slug": "2ano-biologia",
+  "level": "Fundamental 1",
+  "grade": "2º ano",
+  "color": "var(--biologia)",
+  "icon": "dna",
+  "articles": [
+    {
+      "title": "Taxonomia e Classificação",
+      "slug": "taxonomia-e-classificacao",
+      "desc": "Taxonomia: Lineu, nomenclatura binomial. Domínios (Bacteria, Archaea, Eukarya). Reinos: Monera, Protista, Fungi, Plantae, Animalia. Classificação filogenética.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Lineu: sistema binomial (Homo sapiens). Categorias: Domínio→Reino→Filo→Classe→Ordem→Família→Gênero→Espécie. 3 Domínios: Bacteria, Archaea (procariontes), Eukarya (eucariontes). 5 Reinos: Monera (bactérias), Protista (protozoários, algas), Fungi (fungos), Plantae (plantas), Animalia (animais). Cladística: classificação baseada em ancestralidade comum.",
+      "body": "<h2>Introdução</h2><p>A <strong>taxonomia</strong> organiza a diversidade da vida em categorias hierárquicas. <strong>Lineu</strong> (séc. XVIII) criou o sistema que usamos até hoje.</p><h2>Nomenclatura Binomial</h2><ul><li>Duas palavras em latim/grego, em itálico</li><li>1ª = gênero (maiúscula), 2ª = espécie (minúscula)</li><li>Exemplo: <em>Homo sapiens</em></li></ul><h2>Categorias Taxonômicas</h2><p><strong>Domínio → Reino → Filo → Classe → Ordem → Família → Gênero → Espécie</strong></p><p>Mnemônico: <em>\"Dê Razão a Filhos Carentes e Ordene Famílias Geniais e Especiais\"</em></p><h2>Domínios e Reinos</h2><table><thead><tr><th>Domínio</th><th>Tipo celular</th><th>Reinos</th></tr></thead><tbody><tr><td>Bacteria</td><td>Procarionte</td><td>Monera (parte)</td></tr><tr><td>Archaea</td><td>Procarionte</td><td>Monera (parte)</td></tr><tr><td>Eukarya</td><td>Eucarionte</td><td>Protista, Fungi, Plantae, Animalia</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Binomial: <em>Gênero espécie</em> (itálico)</li><li>⚠️ ENEM: categorias taxonômicas e critérios de classificação</li></ul><h2>Curiosidade</h2><p>A espécie de mosca <em>Pieza kake</em> (\"piece of cake\") realmente existe! Cientistas adoram dar nomes criativos: há uma vespa chamada <em>Aha ha</em> e uma aranha chamada <em>Apopyllus now</em>!</p>",
+      "faq": [
+        {
+          "q": "Por que usar nomes em latim?",
+          "a": "Latim é 'língua morta' (não muda), evita confusão entre idiomas. 'Onça' pode significar coisas diferentes em cada país, mas Panthera onca é universal."
+        },
+        {
+          "q": "O que é espécie?",
+          "a": "Grupo de organismos que se reproduzem entre si e geram descendentes férteis. É a unidade básica de classificação."
+        },
+        {
+          "q": "Quantas espécies existem?",
+          "a": "Estima-se 8-10 milhões, mas só ~2 milhões foram descritas. A maioria das desconhecidas são insetos e microrganismos."
+        },
+        {
+          "q": "O que é cladística?",
+          "a": "Sistema de classificação baseado em ancestralidade comum (clados). Usa cladogramas (árvores evolutivas). Mais preciso que a classificação tradicional."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Nomenclatura binomial usa:",
+          "options": [
+            "Nome popular",
+            "Gênero + espécie",
+            "Filo + classe",
+            "Família + gênero"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Humanos são do domínio:",
+          "options": [
+            "Bacteria",
+            "Archaea",
+            "Eukarya",
+            "Monera"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A sequência correta é:",
+          "options": [
+            "Reino→Filo→Classe",
+            "Filo→Reino→Classe",
+            "Classe→Filo→Reino",
+            "Ordem→Classe→Filo"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Homo sapiens: 'Homo' é o:",
+          "options": [
+            "Espécie",
+            "Família",
+            "Gênero",
+            "Filo"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Vírus",
+      "slug": "virus",
+      "desc": "Vírus: acelulares, parasitas intracelulares obrigatórios. DNA ou RNA. Ciclo lítico e lisogênico. Retrovírus (HIV). Doenças: gripe, dengue, COVID-19, sarampo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Vírus: não são células (acelulares), parasitas intracelulares obrigatórios. Composição: cápsula proteica (capsídeo) + material genético (DNA OU RNA). Ciclo lítico: multiplica e destrói célula. Ciclo lisogênico: DNA viral integra-se ao DNA da célula. Retrovírus (HIV): RNA→DNA (transcriptase reversa). Doenças: gripe (Influenza), dengue/zika/chikungunya (Aedes), COVID-19 (SARS-CoV-2), sarampo, AIDS.",
+      "body": "<h2>Introdução</h2><p><strong>Vírus</strong> são entidades biológicas não celulares. Só se reproduzem dentro de células hospedeiras — são <strong>parasitas intracelulares obrigatórios</strong>.</p><h2>Estrutura</h2><ul><li><strong>Capsídeo:</strong> cápsula proteica</li><li><strong>Material genético:</strong> DNA OU RNA (nunca ambos)</li><li>Alguns têm envelope lipídico (ex: HIV, Influenza)</li></ul><h2>Ciclos</h2><table><thead><tr><th>Ciclo</th><th>O que acontece</th></tr></thead><tbody><tr><td>Lítico</td><td>Vírus replica → destrói célula → libera novos vírus</td></tr><tr><td>Lisogênico</td><td>DNA viral integra ao DNA celular → fica latente</td></tr></tbody></table><h2>Retrovírus (HIV)</h2><p>RNA → DNA (transcriptase reversa). Ataca linfócitos T CD4 → AIDS (imunodeficiência).</p><h2>Doenças Virais Importantes</h2><ul><li><strong>Dengue/Zika/Chikungunya:</strong> transmitidas pelo <em>Aedes aegypti</em></li><li><strong>COVID-19:</strong> SARS-CoV-2, RNA, pandemia 2020</li><li><strong>Gripe:</strong> Influenza, vacina anual</li></ul><h2>Resumo</h2><ul><li>✅ Vírus: acelular, parasita obrigatório, DNA ou RNA</li><li>⚠️ ENEM: dengue, AIDS, COVID-19, ciclos virais</li></ul><h2>Curiosidade</h2><p>Vírus são tão pequenos que <strong>1 milhão cabem na cabeça de um alfinete</strong>! E existe um debate se são seres vivos ou não — afinal, não têm metabolismo próprio.</p>",
+      "faq": [
+        {
+          "q": "Vírus é ser vivo?",
+          "a": "Debate! Pró: têm material genético, evoluem. Contra: não têm metabolismo próprio, não se reproduzem sozinhos, não são células. A maioria dos biólogos diz que não são."
+        },
+        {
+          "q": "Como age o HIV?",
+          "a": "É um retrovírus (RNA→DNA). Infecta linfócitos T CD4 (defesa). Sem tratamento, destrói o sistema imune → AIDS → infecções oportunistas."
+        },
+        {
+          "q": "Antibiótico mata vírus?",
+          "a": "NÃO! Antibióticos agem contra bactérias. Contra vírus usamos antivirais (ex: oseltamivir para gripe) e principalmente vacinas (prevenção)."
+        },
+        {
+          "q": "Por que a vacina da gripe muda todo ano?",
+          "a": "Porque o vírus Influenza sofre mutações frequentes (drift/shift antigênico). A vacina precisa ser atualizada para os subtipos circulantes naquele ano."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Vírus têm:",
+          "options": [
+            "DNA e RNA",
+            "DNA ou RNA",
+            "Só DNA",
+            "Só RNA"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "HIV é um:",
+          "options": [
+            "Bacteriófago",
+            "Retrovírus",
+            "Adenovírus",
+            "Prion"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Dengue é transmitida por:",
+          "options": [
+            "Anopheles",
+            "Aedes aegypti",
+            "Culex",
+            "Phlebotomus"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "No ciclo lítico, o vírus:",
+          "options": [
+            "Integra ao DNA",
+            "Destrói a célula",
+            "Fica latente",
+            "Morre"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Reino Monera: Bactérias",
+      "slug": "reino-monera-bacterias",
+      "desc": "Bactérias: procariontes, unicelulares. Formas: coco, bacilo, espirilo. Reprodução: fissão binária. Doenças: tuberculose, cólera, tétano. Importância: decomposição, fixação de N₂.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Bactérias: procariontes (sem núcleo), unicelulares, parede celular de peptidoglicano. Formas: coco (esfera), bacilo (bastão), espirilo (espiral), vibrião (vírgula). Reprodução: fissão binária (assexuada). Variabilidade: conjugação, transformação, transdução. Gram+/Gram−: diferença na parede (importante para antibióticos). Doenças: tuberculose, cólera, tétano, hanseníase. Importância: decomposição, fixação de N₂, flora intestinal.",
+      "body": "<h2>Introdução</h2><p><strong>Bactérias</strong> são os seres vivos mais abundantes e antigos da Terra. São <strong>procariontes</strong> (sem núcleo organizado).</p><h2>Estrutura</h2><ul><li>DNA circular (nucleoide) + plasmídeos</li><li>Parede de peptidoglicano, ribossomos 70S</li><li>Algumas têm cápsula, flagelo, pili</li></ul><h2>Formas</h2><table><thead><tr><th>Forma</th><th>Exemplo</th></tr></thead><tbody><tr><td>Coco (esfera)</td><td>Staphylococcus</td></tr><tr><td>Bacilo (bastão)</td><td>E. coli, Bacillus</td></tr><tr><td>Espirilo (espiral)</td><td>Treponema (sífilis)</td></tr><tr><td>Vibrião (vírgula)</td><td>Vibrio cholerae (cólera)</td></tr></tbody></table><h2>Reprodução e Variabilidade</h2><ul><li><strong>Fissão binária:</strong> assexuada, rápida (20 min)</li><li>Conjugação, transformação, transdução → variabilidade</li></ul><h2>Importância</h2><ul><li>Decomposição, fixação de N₂ (leguminosas), flora intestinal, biotecnologia</li></ul><h2>Resumo</h2><ul><li>✅ Procarionte, parede de peptidoglicano, fissão binária</li><li>⚠️ ENEM: bactérias benéficas (flora, decomposição) vs patogênicas</li></ul><h2>Curiosidade</h2><p>Seu intestino tem <strong>~100 trilhões de bactérias</strong> — mais que suas células! Elas ajudam na digestão, produzem vitaminas e protegem contra patógenos.</p>",
+      "faq": [
+        {
+          "q": "Bactéria tem núcleo?",
+          "a": "Não! São procariontes: DNA circular solto no citoplasma (nucleoide). Sem carioteca, sem organelas membranosas."
+        },
+        {
+          "q": "O que é Gram positiva/negativa?",
+          "a": "Coloração de Gram: positivas (parede espessa, coram roxo), negativas (parede fina + membrana externa, coram rosa). Importante: determina qual antibiótico usar."
+        },
+        {
+          "q": "Antibiótico funciona como?",
+          "a": "Ataca estruturas da bactéria: parede celular (penicilina), ribossomos (tetraciclina), DNA (fluoroquinolonas). Não afeta vírus (sem essas estruturas)."
+        },
+        {
+          "q": "O que é superbactéria?",
+          "a": "Bactéria resistente a múltiplos antibióticos. Causada por uso indiscriminado de antibióticos. Seleção natural: sobrevivem as resistentes."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Bactérias são:",
+          "options": [
+            "Eucariontes",
+            "Procariontes",
+            "Acelulares",
+            "Vírus"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fissão binária é reprodução:",
+          "options": [
+            "Sexuada",
+            "Assexuada",
+            "Por esporos",
+            "Brotamento"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cólera é causada por:",
+          "options": [
+            "Vírus",
+            "Bactéria",
+            "Fungo",
+            "Protozoário"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Bactérias fixadoras de N₂ vivem em:",
+          "options": [
+            "Raízes de leguminosas",
+            "Folhas de gramíneas",
+            "Águas",
+            "Ar"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reinos Protista e Fungi",
+      "slug": "reinos-protista-e-fungi",
+      "desc": "Protista: protozoários (ameba, Plasmodium/malária, Trypanosoma/Chagas) e algas. Fungi: fungos (leveduras, cogumelos, bolores). Decomposição, micorrizas, fermentação.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Protista: eucariontes, uni/pluricelulares. Protozoários: ameba (pseudópodes), Paramecium (cílios), Plasmodium (malária/Anopheles), Trypanosoma (Chagas/barbeiro), Leishmania. Algas: fotossintéticas, uni/pluricelulares. Fungi: eucariontes, heterotróficos por absorção, parede de quitina. Tipos: leveduras (unicelular, fermenta), bolores (multicelular), cogumelos (corpo de frutificação). Importância: decomposição, antibióticos (penicilina), micorrizas, alimentos.",
+      "body": "<h2>Introdução</h2><p><strong>Protistas</strong> (protozoários e algas) e <strong>Fungos</strong> são eucariontes com papéis ecológicos cruciais.</p><h2>Protozoários</h2><table><thead><tr><th>Organismo</th><th>Doença</th><th>Vetor/Transmissão</th></tr></thead><tbody><tr><td>Plasmodium</td><td>Malária</td><td>Mosquito Anopheles</td></tr><tr><td>Trypanosoma cruzi</td><td>Doença de Chagas</td><td>Barbeiro (Triatoma)</td></tr><tr><td>Leishmania</td><td>Leishmaniose</td><td>Mosquito-palha</td></tr><tr><td>Entamoeba</td><td>Amebíase</td><td>Água/alimento contaminado</td></tr></tbody></table><h2>Algas</h2><ul><li>Fotossintéticas, produzem ~50% do O₂ atmosférico</li><li>Uni (diatomáceas) ou pluricelulares (algas pardas)</li></ul><h2>Fungi (Fungos)</h2><ul><li>Heterotróficos por absorção, parede de quitina</li><li><strong>Leveduras:</strong> fermentação (pão, cerveja)</li><li><strong>Cogumelos:</strong> corpo de frutificação</li><li><strong>Penicillium:</strong> antibiótico penicilina</li><li><strong>Micorrizas:</strong> simbiose com raízes de plantas</li></ul><h2>Resumo</h2><ul><li>✅ Malária: Plasmodium/Anopheles. Chagas: Trypanosoma/barbeiro.</li><li>⚠️ ENEM: doenças parasitárias e importância ecológica dos fungos</li></ul><h2>Curiosidade</h2><p>O maior organismo vivo do mundo é um <strong>fungo</strong>! O <em>Armillaria ostoyae</em> no Oregon (EUA) ocupa <strong>9,6 km²</strong> e tem ~2.400 anos de idade!</p>",
+      "faq": [
+        {
+          "q": "Fungo é planta?",
+          "a": "Não! Fungos são mais próximos dos animais que das plantas. São heterotróficos (não fazem fotossíntese), têm parede de quitina (não celulose) e absorvem nutrientes."
+        },
+        {
+          "q": "Malária é causada por vírus?",
+          "a": "Não! É causada por protozoário Plasmodium, transmitido pelo mosquito Anopheles. Afeta ~200 milhões de pessoas/ano no mundo."
+        },
+        {
+          "q": "Levedura é fungo?",
+          "a": "Sim! Saccharomyces cerevisiae é fungo unicelular que faz fermentação alcoólica. Usada em pão (CO₂ faz crescer) e cerveja/vinho (produz etanol)."
+        },
+        {
+          "q": "O que são micorrizas?",
+          "a": "Simbiose entre fungos e raízes de plantas. O fungo aumenta a absorção de água e nutrientes; a planta fornece carboidratos. ~90% das plantas têm micorrizas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Malária: protozoário + vetor:",
+          "options": [
+            "Trypanosoma + barbeiro",
+            "Plasmodium + Anopheles",
+            "Leishmania + mosquito-palha",
+            "Ameba + água"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Parede dos fungos é de:",
+          "options": [
+            "Celulose",
+            "Peptidoglicano",
+            "Quitina",
+            "Sílica"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Penicilina vem de:",
+          "options": [
+            "Bactéria",
+            "Fungo",
+            "Alga",
+            "Planta"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Algas produzem:",
+          "options": [
+            "CO₂",
+            "O₂ (fotossíntese)",
+            "Metano",
+            "Etanol"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Botânica: Briófitas, Pteridófitas, Gimnospermas, Angiospermas",
+      "slug": "botanica-briofitas-pteridofitas-gimnospermas-angiospermas",
+      "desc": "Plantas: briófitas (musgos, sem vasos), pteridófitas (samambaias, com vasos), gimnospermas (pinheiro, sementes nuas), angiospermas (flores, frutos, sementes protegidas).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Evolução vegetal: algas→briófitas→pteridófitas→gimnospermas→angiospermas. Briófitas (musgos): avasculares, pequenas, reprodução por esporos, dependem de água. Pteridófitas (samambaias): vasculares, esporos, dependem de água para reprodução. Gimnospermas (pinheiros): sementes nuas (estróbilos), não dependem de água. Angiospermas: flores, frutos, sementes protegidas. Monocotiledôneas (1 cotilédone) × Dicotiledôneas (2 cotilédones).",
+      "body": "<h2>Introdução</h2><p>As <strong>plantas</strong> evoluíram de algas verdes → briófitas → pteridófitas → gimnospermas → <strong>angiospermas</strong> (grupo dominante).</p><h2>Grupos Vegetais</h2><table><thead><tr><th>Grupo</th><th>Vasos</th><th>Semente</th><th>Flor/Fruto</th><th>Exemplo</th></tr></thead><tbody><tr><td>Briófitas</td><td>Não</td><td>Não</td><td>Não</td><td>Musgos</td></tr><tr><td>Pteridófitas</td><td>Sim</td><td>Não</td><td>Não</td><td>Samambaias</td></tr><tr><td>Gimnospermas</td><td>Sim</td><td>Sim (nua)</td><td>Não</td><td>Pinheiros</td></tr><tr><td>Angiospermas</td><td>Sim</td><td>Sim (protegida)</td><td>Sim</td><td>Rosa, feijão, milho</td></tr></tbody></table><h2>Angiospermas</h2><ul><li><strong>Monocotiledôneas:</strong> 1 cotilédone, folhas paralelas, raiz fasciculada (milho, arroz, grama)</li><li><strong>Dicotiledôneas (eudicots):</strong> 2 cotilédones, folhas reticuladas, raiz pivotante (feijão, rosa, café)</li></ul><h2>Resumo</h2><ul><li>✅ Tendência evolutiva: independência da água + proteção do embrião</li><li>⚠️ ENEM: diferenças entre grupos vegetais (vasos, sementes, flores)</li></ul><h2>Curiosidade</h2><p>As <strong>angiospermas</strong> são o grupo mais diverso: ~300.000 espécies (~90% das plantas). Seu sucesso deve-se às flores (polinização por insetos) e frutos (dispersão de sementes)!</p>",
+      "faq": [
+        {
+          "q": "Por que briófitas são pequenas?",
+          "a": "Porque não têm vasos condutores (xilema/floema). O transporte é por difusão, limitando o tamanho. Também dependem de água para reprodução (gametas nadadores)."
+        },
+        {
+          "q": "Pinheiro tem flor?",
+          "a": "Não! Gimnospermas têm estróbilos (pinhas), não flores verdadeiras. As sementes ficam 'nuas' (expostas nas escamas da pinha), diferente das angiospermas (dentro do fruto)."
+        },
+        {
+          "q": "Qual a diferença mono vs dicotiledônea?",
+          "a": "Mono: 1 cotilédone, nervuras paralelas, raiz fasciculada (ex: milho). Dico: 2 cotilédones, nervuras reticuladas, raiz pivotante (ex: feijão)."
+        },
+        {
+          "q": "Para que serve o fruto?",
+          "a": "Proteger a semente e auxiliar na dispersão. Frutos carnosos: atraem animais que comem e espalham sementes. Frutos secos: vento, água."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Musgos são:",
+          "options": [
+            "Vasculares",
+            "Avasculares",
+            "Gimnospermas",
+            "Angiospermas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Samambaias se reproduzem por:",
+          "options": [
+            "Sementes",
+            "Esporos",
+            "Flores",
+            "Frutos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gimnospermas têm sementes:",
+          "options": [
+            "Dentro do fruto",
+            "Nuas",
+            "Sem embrião",
+            "Na flor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Milho é:",
+          "options": [
+            "Dicotiledônea",
+            "Monocotiledônea",
+            "Gimnosperma",
+            "Pteridófita"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Fisiologia Vegetal",
+      "slug": "fisiologia-vegetal",
+      "desc": "Fisiologia vegetal: xilema (seiva bruta, transpiration pull), floema (seiva elaborada). Hormônios: auxina, giberelina, citocinina, etileno, ABA. Fototropismo, gravitropismo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Xilema: transporta seiva bruta (água+sais) das raízes→folhas. Motor: transpiração foliar (teoria da coesão-tensão). Floema: transporta seiva elaborada (açúcares) das folhas→corpo. Hormônios: auxina (crescimento, fototropismo), giberelina (alongamento), citocinina (divisão celular), etileno (amadurecimento), ABA (estresse, fechamento de estômatos). Tropismos: foto (luz), gravi (gravidade), tigmo (contato).",
+      "body": "<h2>Introdução</h2><p>A <strong>fisiologia vegetal</strong> estuda como as plantas transportam água e nutrientes, crescem e respondem ao ambiente.</p><h2>Transporte</h2><table><thead><tr><th>Tecido</th><th>Transporta</th><th>Direção</th><th>Motor</th></tr></thead><tbody><tr><td>Xilema</td><td>Seiva bruta (água+sais)</td><td>Raiz→Folha</td><td>Transpiração (coesão-tensão)</td></tr><tr><td>Floema</td><td>Seiva elaborada (açúcares)</td><td>Folha→Corpo</td><td>Pressão osmótica (Münch)</td></tr></tbody></table><h2>Hormônios Vegetais</h2><ul><li><strong>Auxina:</strong> crescimento, fototropismo (curva para luz)</li><li><strong>Giberelina:</strong> alongamento do caule, germinação</li><li><strong>Citocinina:</strong> divisão celular, retarda envelhecimento</li><li><strong>Etileno:</strong> amadurecimento de frutos (gás!)</li><li><strong>ABA (ácido abscísico):</strong> estresse hídrico, fecha estômatos</li></ul><h2>Tropismos</h2><ul><li><strong>Fototropismo:</strong> crescimento em direção à luz (positivo no caule)</li><li><strong>Gravitropismo:</strong> raiz → para baixo (+), caule → para cima (−)</li></ul><h2>Resumo</h2><ul><li>✅ Xilema sobe (transpiração), Floema desce (pressão)</li><li>⚠️ ENEM: hormônios vegetais e seus efeitos</li></ul><h2>Curiosidade</h2><p>O <strong>etileno</strong> é um gás! Se você colocar uma banana madura junto a bananas verdes, o etileno liberado pela madura fará as verdes amadurecerem mais rápido!</p>",
+      "faq": [
+        {
+          "q": "Como a água sobe 100m nas árvores?",
+          "a": "Teoria da coesão-tensão: transpiração nas folhas puxa a coluna de água (coesão molecular da água). Como chupar canudo — a sucção puxa de baixo."
+        },
+        {
+          "q": "O que são estômatos?",
+          "a": "Poros nas folhas (duas células-guarda) que controlam troca de gases (CO₂/O₂) e transpiração. Abrem com luz e água; fecham com ABA (seca)."
+        },
+        {
+          "q": "Auxina e fototropismo?",
+          "a": "A luz distribui auxina para o lado escuro. Auxina estimula crescimento → o lado escuro cresce mais → planta curva para a luz."
+        },
+        {
+          "q": "Etileno amadurece frutos?",
+          "a": "Sim! É um hormônio gasoso. Por isso frutos em sacolas (concentram etileno) amadurecem mais rápido. Indústria usa para amadurecer bananas uniformemente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Xilema transporta:",
+          "options": [
+            "Seiva elaborada",
+            "Seiva bruta",
+            "Hormônios",
+            "O₂"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Etileno causa:",
+          "options": [
+            "Crescimento",
+            "Amadurecimento",
+            "Divisão celular",
+            "Fototropismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fototropismo é resposta à:",
+          "options": [
+            "Gravidade",
+            "Luz",
+            "Toque",
+            "Água"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Estômatos são controlados por:",
+          "options": [
+            "Auxina",
+            "Etileno",
+            "ABA",
+            "Giberelina"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Zoologia: Invertebrados",
+      "slug": "zoologia-invertebrados",
+      "desc": "Invertebrados: poríferos (esponjas), cnidários (águas-vivas), platelmintos (tênias), nematelmintos (lombriga), anelídeos (minhocas), moluscos (caracóis), artrópodes (insetos), equinodermos.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Poríferos: sésseis, sem tecidos verdadeiros. Cnidários: cnidócitos (queimam), pólipos/medusas. Platelmintos: achatados (planária, tênia, Schistosoma). Nematelmintos: cilíndricos (Ascaris/lombriga). Anelídeos: segmentados (minhoca). Moluscos: corpo mole ± concha (caracol, polvo, lula). Artrópodes: exoesqueleto de quitina, patas articuladas (insetos, aracnídeos, crustáceos). Equinodermos: espinhos, sistema ambulacral (estrela-do-mar).",
+      "body": "<h2>Introdução</h2><p><strong>Invertebrados</strong> (~97% das espécies animais!) não possuem coluna vertebral. Incluem desde esponjas até insetos.</p><h2>Filos</h2><table><thead><tr><th>Filo</th><th>Exemplo</th><th>Destaque</th></tr></thead><tbody><tr><td>Poríferos</td><td>Esponjas</td><td>Sem tecidos, sésseis</td></tr><tr><td>Cnidários</td><td>Águas-vivas, corais</td><td>Cnidócitos (queimam)</td></tr><tr><td>Platelmintos</td><td>Tênia, planária</td><td>Achatados, parasitas</td></tr><tr><td>Nematelmintos</td><td>Lombriga (Ascaris)</td><td>Cilíndricos</td></tr><tr><td>Anelídeos</td><td>Minhoca, sanguessuga</td><td>Segmentados</td></tr><tr><td>Moluscos</td><td>Polvo, caracol</td><td>Corpo mole ± concha</td></tr><tr><td>Artrópodes</td><td>Insetos, aranhas</td><td>Exoesqueleto, patas articuladas</td></tr><tr><td>Equinodermos</td><td>Estrela-do-mar</td><td>Sistema ambulacral</td></tr></tbody></table><h2>Artrópodes (maior filo)</h2><ul><li><strong>Insetos:</strong> 6 patas, 3 tagmas, asas</li><li><strong>Aracnídeos:</strong> 8 patas (aranhas, escorpiões)</li><li><strong>Crustáceos:</strong> camarões, lagostas</li></ul><h2>Resumo</h2><ul><li>✅ Artrópodes = maior grupo animal. Insetos = maior classe.</li><li>⚠️ ENEM: parasitas (tênia, Ascaris, Schistosoma) e seus ciclos</li></ul><h2>Curiosidade</h2><p>Existem mais espécies de <strong>besouros</strong> (~400.000) do que de qualquer outro grupo animal! O biólogo J.B.S. Haldane disse que Deus tinha 'uma predileção desmedida por besouros'.</p>",
+      "faq": [
+        {
+          "q": "Inseto tem quantas patas?",
+          "a": "6 patas (3 pares). Aranha tem 8 (4 pares). Crustáceo tem muitas. Esse é o critério básico para diferenciar artrópodes."
+        },
+        {
+          "q": "Como a minhoca ajuda o solo?",
+          "a": "Cava túneis (aera o solo), digere matéria orgânica (produz húmus rico) e mistura camadas do solo. É um 'engenheiro ecossistêmico'."
+        },
+        {
+          "q": "Coral é animal?",
+          "a": "Sim! Cnidário colonial que secreta esqueleto de carbonato de cálcio. Vive em simbiose com algas (zooxantelas). Recifes de coral são os ecossistemas mais biodiversos do oceano."
+        },
+        {
+          "q": "O que é exoesqueleto?",
+          "a": "Esqueleto externo de quitina dos artrópodes. Protege e sustenta, mas limita o crescimento → animal precisa fazer muda (ecdise) para crescer."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Insetos têm:",
+          "options": [
+            "4 patas",
+            "6 patas",
+            "8 patas",
+            "10 patas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tênia é:",
+          "options": [
+            "Nematelminto",
+            "Platelminto",
+            "Anelídeo",
+            "Artrópode"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Exoesqueleto é de:",
+          "options": [
+            "Celulose",
+            "Quitina",
+            "Cálcio",
+            "Queratina"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O maior filo animal é:",
+          "options": [
+            "Cordados",
+            "Moluscos",
+            "Artrópodes",
+            "Anelídeos"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Zoologia: Vertebrados (Cordados)",
+      "slug": "zoologia-vertebrados-cordados",
+      "desc": "Cordados/Vertebrados: peixes (cartilaginosos e ósseos), anfíbios, répteis, aves e mamíferos. Evolução: conquista do ambiente terrestre.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Cordados: notocorda, tubo neural dorsal, fendas faríngeas. Vertebrados: coluna vertebral. Peixes: aquáticos, brânquias. Cartilaginosos (tubarão) vs ósseos (tilápia). Anfíbios: metamorfose (girino→adulto), pele úmida, dependem de água. Répteis: ovo amniótico, escamas, ectotérmicos. Aves: penas, endotérmicas, ossos pneumáticos, ovo. Mamíferos: pelos, glândulas mamárias, endotérmicos. Monotremados (ovo), marsupiais (bolsa), placentários.",
+      "body": "<h2>Introdução</h2><p>Os <strong>vertebrados</strong> são cordados com coluna vertebral. A evolução mostra a progressiva <strong>conquista do ambiente terrestre</strong>.</p><h2>Classes de Vertebrados</h2><table><thead><tr><th>Classe</th><th>Respiração</th><th>Cobertura</th><th>Temperatura</th></tr></thead><tbody><tr><td>Peixes</td><td>Brânquias</td><td>Escamas</td><td>Ectotérmicos</td></tr><tr><td>Anfíbios</td><td>Pulmão + pele</td><td>Pele úmida</td><td>Ectotérmicos</td></tr><tr><td>Répteis</td><td>Pulmões</td><td>Escamas córneas</td><td>Ectotérmicos</td></tr><tr><td>Aves</td><td>Pulmões + sacos aéreos</td><td>Penas</td><td>Endotérmicas</td></tr><tr><td>Mamíferos</td><td>Pulmões</td><td>Pelos</td><td>Endotérmicos</td></tr></tbody></table><h2>Conquista do Meio Terrestre</h2><ul><li><strong>Ovo amniótico</strong> (répteis): embrião protegido, independente da água</li><li><strong>Endotermia</strong> (aves/mamíferos): temperatura corporal constante</li></ul><h2>Resumo</h2><ul><li>✅ Peixes→Anfíbios→Répteis→Aves/Mamíferos</li><li>⚠️ ENEM: ovo amniótico, endo vs ectotermia</li></ul><h2>Curiosidade</h2><p>O <strong>ornitorrinco</strong> é um mamífero que <strong>bota ovos</strong>, tem bico de pato, cauda de castor e veneno nos esporões! É um monotremado australiano.</p>",
+      "faq": [
+        {
+          "q": "Ecto vs endotérmico?",
+          "a": "Ectotérmico (répteis, anfíbios, peixes): temperatura varia com o ambiente. Endotérmico (aves, mamíferos): mantêm temperatura constante por metabolismo."
+        },
+        {
+          "q": "Anfíbio precisa de água por quê?",
+          "a": "Reprodução: ovos sem casca (gelatinosos), larva aquática (girino com brânquias). E a pele úmida ajuda na respiração cutânea (precisa ficar úmida)."
+        },
+        {
+          "q": "Aves são dinossauros?",
+          "a": "Sim, tecnicamente! Aves são dinossauros terópodes que sobreviveram à extinção de 66 milhões de anos atrás. São os únicos dinossauros vivos."
+        },
+        {
+          "q": "Baleia é peixe?",
+          "a": "Não! É mamífero: tem pelos (poucos), mama, pulmões, sangue quente. Evoluiu de mamíferos terrestres que voltaram ao mar."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Mamíferos se definem por:",
+          "options": [
+            "Escamas",
+            "Penas",
+            "Glândulas mamárias",
+            "Brânquias"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Ovo amniótico surgiu nos:",
+          "options": [
+            "Peixes",
+            "Anfíbios",
+            "Répteis",
+            "Mamíferos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Endotérmicos são:",
+          "options": [
+            "Peixes e anfíbios",
+            "Répteis",
+            "Aves e mamíferos",
+            "Todos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Tubarão é peixe:",
+          "options": [
+            "Ósseo",
+            "Cartilaginoso",
+            "Anfíbio",
+            "Réptil"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Fisiologia Humana: Digestão e Respiração",
+      "slug": "fisiologia-humana-digestao-e-respiracao",
+      "desc": "Sistema digestório: boca→esôfago→estômago→intestino delgado (absorção)→grosso. Enzimas: amilase, pepsina, tripsina, lipase. Sistema respiratório: alvéolos, hematose.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Digestório: boca (amilase salivar), esôfago (peristaltismo), estômago (HCl+pepsina, pH 2), intestino delgado (tripsina, lipase, bile, absorção), intestino grosso (absorção de água, flora), reto/ânus. Respiratório: nariz→faringe→laringe→traqueia→brônquios→bronquíolos→alvéolos. Hematose: troca gasosa nos alvéolos (O₂ entra, CO₂ sai). Diafragma: inspiração (contrai=desce) e expiração (relaxa=sobe).",
+      "body": "<h2>Introdução</h2><p>Os sistemas <strong>digestório</strong> e <strong>respiratório</strong> fornecem nutrientes e oxigênio para as células.</p><h2>Sistema Digestório</h2><table><thead><tr><th>Órgão</th><th>Função</th><th>Enzima/Substância</th></tr></thead><tbody><tr><td>Boca</td><td>Digestão mecânica + amido</td><td>Amilase salivar</td></tr><tr><td>Estômago</td><td>Proteínas, pH ácido</td><td>Pepsina, HCl</td></tr><tr><td>Intestino delgado</td><td>Absorção (vilosidades)</td><td>Tripsina, lipase, bile</td></tr><tr><td>Intestino grosso</td><td>Absorção de água</td><td>Flora bacteriana</td></tr></tbody></table><h2>Sistema Respiratório</h2><ul><li>Trajeto: nariz→faringe→laringe→traqueia→brônquios→bronquíolos→<strong>alvéolos</strong></li><li><strong>Hematose:</strong> troca O₂/CO₂ nos alvéolos (difusão)</li><li><strong>Diafragma:</strong> inspiração (contrai), expiração (relaxa)</li></ul><h2>Resumo</h2><ul><li>✅ Amilase (boca), pepsina (estômago), tripsina/lipase (intestino)</li><li>✅ Hematose = alvéolos</li><li>⚠️ ENEM: pH do estômago, absorção no intestino delgado</li></ul><h2>Curiosidade</h2><p>O intestino delgado tem <strong>~7 metros</strong> de comprimento e, com suas vilosidades, uma superfície de absorção equivalente a uma <strong>quadra de tênis</strong>!</p>",
+      "faq": [
+        {
+          "q": "Por que o estômago não se autodigere?",
+          "a": "Porque produz muco que protege a mucosa gástrica do ácido clorídrico (pH~2). Úlcera = falha nessa proteção (bactéria H. pylori)."
+        },
+        {
+          "q": "O que é hematose?",
+          "a": "Troca gasosa nos alvéolos pulmonares: O₂ passa do alvéolo para o sangue; CO₂ sai do sangue para o alvéolo. Por difusão simples."
+        },
+        {
+          "q": "Bile digere gordura?",
+          "a": "Não exatamente. Bile emulsifica (quebra em gotículas menores) a gordura, facilitando a ação da lipase. Bile é produzida pelo fígado, armazenada na vesícula."
+        },
+        {
+          "q": "Respiração usa o diafragma como?",
+          "a": "Inspiração: diafragma contrai (desce) → pulmão expande → ar entra. Expiração: diafragma relaxa (sobe) → pulmão comprime → ar sai."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Amilase salivar digere:",
+          "options": [
+            "Proteínas",
+            "Lipídios",
+            "Amido",
+            "Celulose"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Hematose ocorre nos:",
+          "options": [
+            "Brônquios",
+            "Alvéolos",
+            "Laringe",
+            "Nariz"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pepsina age no:",
+          "options": [
+            "Boca",
+            "Estômago",
+            "Intestino",
+            "Pâncreas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O pH do estômago é ~:",
+          "options": [
+            "2",
+            "7",
+            "10",
+            "14"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Fisiologia Humana: Circulação e Excreção",
+      "slug": "fisiologia-humana-circulacao-e-excrecao",
+      "desc": "Sistema circulatório: coração (4 câmaras), artérias, veias, capilares. Sangue: hemácias, leucócitos, plaquetas. Sistema excretor: rins, néfrons, formação da urina.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Circulação dupla e completa. Pequena circulação: coração→pulmão→coração (hematose). Grande circulação: coração→corpo→coração. Coração: 2 átrios + 2 ventrículos. Artérias: saem do coração. Veias: chegam ao coração. Sangue: hemácias (O₂), leucócitos (defesa), plaquetas (coagulação), plasma. Excretor: rins (filtram sangue), néfrons (unidade funcional), formação da urina: filtração→reabsorção→secreção. ADH: hormônio antidiurético.",
+      "body": "<h2>Introdução</h2><p>O sistema <strong>circulatório</strong> transporta nutrientes e O₂; o <strong>excretor</strong> filtra resíduos do sangue.</p><h2>Circulação</h2><ul><li><strong>Dupla:</strong> pequena (pulmonar) + grande (sistêmica)</li><li><strong>Completa:</strong> sangue venoso não se mistura com arterial (4 câmaras)</li></ul><h2>Sangue</h2><table><thead><tr><th>Componente</th><th>Função</th></tr></thead><tbody><tr><td>Hemácias</td><td>Transporte de O₂ (hemoglobina)</td></tr><tr><td>Leucócitos</td><td>Defesa (imunidade)</td></tr><tr><td>Plaquetas</td><td>Coagulação</td></tr><tr><td>Plasma</td><td>Transporte (55% do sangue)</td></tr></tbody></table><h2>Sistema Excretor</h2><ul><li><strong>Rins:</strong> filtram ~180L de sangue/dia!</li><li><strong>Néfron:</strong> unidade funcional (glomérulo, túbulos)</li><li><strong>Etapas:</strong> filtração → reabsorção → secreção → urina (~1,5L/dia)</li><li><strong>ADH:</strong> reabsorve água (pouca urina quando desidratado)</li></ul><h2>Resumo</h2><ul><li>✅ Circulação dupla e completa em mamíferos</li><li>⚠️ ENEM: néfron, ADH, diferença artéria/veia</li></ul><h2>Curiosidade</h2><p>Se colocássemos todos os vasos sanguíneos em linha, eles dariam <strong>~100.000 km</strong> — suficiente para dar a volta na Terra 2,5 vezes!</p>",
+      "faq": [
+        {
+          "q": "Artéria sempre leva sangue arterial?",
+          "a": "Não! Artérias SAEM do coração. A artéria pulmonar leva sangue venoso (pobre em O₂) do coração ao pulmão. É artéria com sangue venoso!"
+        },
+        {
+          "q": "O que faz o néfron?",
+          "a": "É a unidade funcional do rim. Filtra o sangue (glomérulo), reabsorve o útil (água, glicose, sais) e secreta resíduos → forma a urina."
+        },
+        {
+          "q": "ADH faz o quê?",
+          "a": "Hormônio antidiurético: faz os rins reabsorverem mais água. Quando desidratado → mais ADH → urina concentrada e escura. Álcool inibe ADH → mais urina."
+        },
+        {
+          "q": "Por que álcool dá sede?",
+          "a": "Álcool inibe ADH → rins reabsorvem menos água → mais urina → desidratação → sede. A ressaca é em grande parte desidratação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Circulação humana é:",
+          "options": [
+            "Simples e incompleta",
+            "Dupla e completa",
+            "Dupla e incompleta",
+            "Aberta"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Hemácias transportam:",
+          "options": [
+            "CO₂",
+            "O₂",
+            "Hormônios",
+            "Anticorpos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O néfron está no:",
+          "options": [
+            "Coração",
+            "Pulmão",
+            "Rim",
+            "Fígado"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "ADH regula:",
+          "options": [
+            "Pressão",
+            "Reabsorção de água",
+            "Glicose",
+            "Temperatura"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Fisiologia Humana: Nervoso e Endócrino",
+      "slug": "fisiologia-humana-nervoso-e-endocrino",
+      "desc": "Sistema nervoso: SNC (encéfalo, medula), SNP, arco reflexo. Neurotransmissores. Sistema endócrino: hipófise, tireoide, adrenais, pâncreas (insulina/glucagon). Feedback negativo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "SNC: encéfalo (cérebro, cerebelo, bulbo) + medula espinhal. SNP: nervos + gânglios. Arco reflexo: receptor→nervo aferente→medula→nervo eferente→efetor. Neurotransmissores: acetilcolina, dopamina, serotonina, adrenalina. Endócrino: hipófise (GH, TSH, FSH, LH), tireoide (T3/T4, metabolismo), adrenais (adrenalina, cortisol), pâncreas (insulina↓glicose, glucagon↑glicose). Feedback negativo: hormônio inibe sua própria produção.",
+      "body": "<h2>Introdução</h2><p>Os sistemas <strong>nervoso</strong> e <strong>endócrino</strong> controlam e coordenam todas as funções do corpo.</p><h2>Sistema Nervoso</h2><ul><li><strong>SNC:</strong> encéfalo (cérebro, cerebelo, bulbo) + medula espinhal</li><li><strong>SNP:</strong> nervos + gânglios (somático=voluntário, autônomo=involuntário)</li><li><strong>Arco reflexo:</strong> resposta rápida sem passar pelo cérebro (ex: tirar mão do fogo)</li></ul><h2>Sistema Endócrino</h2><table><thead><tr><th>Glândula</th><th>Hormônio</th><th>Função</th></tr></thead><tbody><tr><td>Hipófise</td><td>GH, TSH, FSH/LH</td><td>'Glândula-mestra'</td></tr><tr><td>Tireoide</td><td>T3/T4</td><td>Metabolismo</td></tr><tr><td>Adrenais</td><td>Adrenalina, cortisol</td><td>Estresse, luta/fuga</td></tr><tr><td>Pâncreas</td><td>Insulina/Glucagon</td><td>Glicemia</td></tr></tbody></table><h2>Feedback Negativo</h2><p>Hormônio ↑ → efeito → inibe produção → hormônio ↓. Mantém equilíbrio (homeostase).</p><h2>Resumo</h2><ul><li>✅ Insulina ↓ glicose, glucagon ↑ glicose</li><li>⚠️ ENEM: diabetes, feedback, arco reflexo</li></ul><h2>Curiosidade</h2><p>O <strong>cérebro</strong> consome <strong>20% da energia</strong> do corpo, embora represente apenas 2% do peso! É o órgão mais 'gastão'.</p>",
+      "faq": [
+        {
+          "q": "O que é diabetes?",
+          "a": "Tipo 1: pâncreas não produz insulina (autoimune). Tipo 2: células resistem à insulina (mais comum, ligada a obesidade). Ambas: glicose alta no sangue."
+        },
+        {
+          "q": "Feedback negativo funciona como?",
+          "a": "Exemplo: tireoide produz T3/T4 → metabolismo sobe → hipófise percebe e reduz TSH → tireoide reduz T3/T4. Equilíbrio. Como termostato de ar-condicionado."
+        },
+        {
+          "q": "Adrenalina serve para quê?",
+          "a": "Resposta 'luta ou fuga': coração acelera, pupilas dilatam, sangue vai para músculos, glicose sobe. Prepara o corpo para emergências."
+        },
+        {
+          "q": "Arco reflexo passa pelo cérebro?",
+          "a": "Não! Vai do receptor → medula espinhal → músculo diretamente. É mais rápido que esperar o cérebro processar. O cérebro fica sabendo depois."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Insulina ↓ e glucagon ↑:",
+          "options": [
+            "Pressão",
+            "Temperatura",
+            "Glicemia",
+            "Frequência cardíaca"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A 'glândula-mestra' é a:",
+          "options": [
+            "Tireoide",
+            "Hipófise",
+            "Adrenal",
+            "Pâncreas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Arco reflexo passa pela:",
+          "options": [
+            "Cérebro",
+            "Cerebelo",
+            "Medula espinhal",
+            "Hipófise"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Feedback negativo mantém:",
+          "options": [
+            "Desequilíbrio",
+            "Homeostase",
+            "Crescimento",
+            "Mutações"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Evolução: Darwin e a Seleção Natural",
+      "slug": "evolucao-darwin-e-a-selecao-natural",
+      "desc": "Evolução: Darwin, seleção natural, adaptação. Evidências: fósseis, anatomia comparada (homologia/analogia), embriologia, biologia molecular. Lamarck vs Darwin.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Darwin: seleção natural (1859, A Origem das Espécies). Princípios: variação, hereditariedade, seleção (os mais adaptados sobrevivem e reproduzem mais). NÃO é 'o mais forte'. Lamarck: uso/desuso + herança de caracteres adquiridos (refutado). Evidências: fósseis (registro), anatomia comparada (homólogos=mesma origem, análogos=mesma função), embriologia, biologia molecular (DNA). Seleção: direcional, estabilizadora, disruptiva.",
+      "body": "<h2>Introdução</h2><p><strong>Charles Darwin</strong> (1859) propôs a <strong>seleção natural</strong> como mecanismo da evolução: os mais <strong>adaptados</strong> ao ambiente deixam mais descendentes.</p><h2>Lamarck vs Darwin</h2><table><thead><tr><th>Lamarck</th><th>Darwin</th></tr></thead><tbody><tr><td>Uso/desuso (girafas esticam pescoço)</td><td>Variação (girafas com pescoço mais longo)</td></tr><tr><td>Herança de caracteres adquiridos</td><td>Seleção natural dos mais aptos</td></tr><tr><td>Refutado</td><td>Confirmado</td></tr></tbody></table><h2>Evidências da Evolução</h2><ul><li><strong>Fósseis:</strong> registro da mudança ao longo do tempo</li><li><strong>Homologia:</strong> mesma origem (braço humano, asa de morcego, nadadeira de baleia)</li><li><strong>Analogia:</strong> mesma função, origens diferentes (asa de inseto × asa de ave)</li><li><strong>Embriologia:</strong> embriões de vertebrados se parecem no início</li><li><strong>Biologia molecular:</strong> DNA compartilhado (humano × chimpanzé: 98,7%)</li></ul><h2>Resumo</h2><ul><li>✅ Seleção natural ≠ 'mais forte'. É o mais ADAPTADO ao ambiente.</li><li>⚠️ ENEM: Lamarck vs Darwin, homologia vs analogia</li></ul><h2>Curiosidade</h2><p>Darwin e <strong>Wallace</strong> chegaram à mesma conclusão independentemente! Wallace enviou um artigo a Darwin, que ficou chocado. Publicaram juntos em 1858.</p>",
+      "faq": [
+        {
+          "q": "'Sobrevivência do mais forte' é de Darwin?",
+          "a": "Não exatamente. A frase é de Herbert Spencer. Darwin disse 'mais apto' (fit), significando melhor adaptado ao ambiente — não necessariamente o mais forte fisicamente."
+        },
+        {
+          "q": "Humanos vieram de macacos?",
+          "a": "Não. Humanos e macacos modernos têm um ANCESTRAL COMUM. É como primos: não viemos um do outro, mas temos bisavós em comum."
+        },
+        {
+          "q": "O que é homologia?",
+          "a": "Estruturas com mesma ORIGEM embrionária mas funções diferentes: braço humano, asa de morcego, nadadeira de baleia. Indicam ancestral comum."
+        },
+        {
+          "q": "Por que Lamarck estava errado?",
+          "a": "Caracteres adquiridos NÃO são herdados. Malhar não muda o DNA dos seus filhos. A variação é pré-existente (mutações), e a seleção atua sobre ela."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Seleção natural seleciona os mais:",
+          "options": [
+            "Fortes",
+            "Inteligentes",
+            "Adaptados",
+            "Bonitos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Homologia indica:",
+          "options": [
+            "Mesma função",
+            "Ancestral comum",
+            "Convergência",
+            "Analogia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Lamarck propunha:",
+          "options": [
+            "Seleção natural",
+            "Herança de caracteres adquiridos",
+            "Mutação",
+            "Deriva genética"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "DNA humano×chimpanzé: ~",
+          "options": [
+            "50%",
+            "75%",
+            "90%",
+            "98,7%"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Evolução: Especiação e Genética de Populações",
+      "slug": "evolucao-especiacao-e-genetica-de-populacoes",
+      "desc": "Especiação: alopátrica (geográfica) e simpátrica. Fatores evolutivos: mutação, seleção, deriva genética, migração. Hardy-Weinberg. Isolamento reprodutivo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Especiação: formação de novas espécies. Alopátrica: barreira geográfica → isolamento → divergência → isolamento reprodutivo. Simpátrica: sem barreira geográfica (poliploidia em plantas). Fatores evolutivos: mutação (cria variação), seleção natural (direciona), deriva genética (acaso em populações pequenas), migração (fluxo gênico). Hardy-Weinberg: p²+2pq+q²=1 (equilíbrio se NÃO houver evolução).",
+      "body": "<h2>Introdução</h2><p><strong>Especiação</strong> é o processo de formação de novas espécies. Ocorre quando populações ficam isoladas e divergem.</p><h2>Tipos de Especiação</h2><ul><li><strong>Alopátrica:</strong> barreira geográfica (rio, montanha) → populações isoladas → divergência → isolamento reprodutivo → 2 espécies</li><li><strong>Simpátrica:</strong> sem barreira geográfica (ex: poliploidia em plantas)</li></ul><h2>Fatores Evolutivos</h2><table><thead><tr><th>Fator</th><th>Efeito</th></tr></thead><tbody><tr><td>Mutação</td><td>Cria variação (matéria-prima)</td></tr><tr><td>Seleção natural</td><td>Direciona (adapta)</td></tr><tr><td>Deriva genética</td><td>Acaso (forte em populações pequenas)</td></tr><tr><td>Migração</td><td>Fluxo gênico entre populações</td></tr></tbody></table><h2>Hardy-Weinberg</h2><p>Equilíbrio: p²+2pq+q²=1. Se NÃO há mutação, seleção, deriva, migração ou cruzamento preferencial → frequências alélicas NÃO mudam. Serve como modelo teórico.</p><h2>Resumo</h2><ul><li>✅ Especiação alopátrica = barreira geográfica + tempo</li><li>⚠️ ENEM: fatores evolutivos, Hardy-Weinberg (cálculos)</li></ul><h2>Curiosidade</h2><p>Os <strong>tentilhões de Galápagos</strong> inspiraram Darwin: cada ilha tinha espécies com bicos diferentes, adaptados a alimentos locais. É o exemplo clássico de <strong>irradiação adaptativa</strong>!</p>",
+      "faq": [
+        {
+          "q": "O que é isolamento reprodutivo?",
+          "a": "Quando duas populações não conseguem mais se reproduzir entre si (pré-zigótico: época, comportamento; ou pós-zigótico: híbrido estéril). São espécies diferentes."
+        },
+        {
+          "q": "Deriva genética é evolução?",
+          "a": "Sim! É mudança aleatória nas frequências alélicas, especialmente em populações pequenas. Efeito fundador e gargalo de garrafa são exemplos."
+        },
+        {
+          "q": "Para que serve Hardy-Weinberg?",
+          "a": "É um modelo ideal (sem evolução). Serve para detectar evolução: se as frequências alélicas mudaram em relação ao esperado por HW, algum fator evolutivo está agindo."
+        },
+        {
+          "q": "O que é irradiação adaptativa?",
+          "a": "Uma espécie ancestral origina várias espécies adaptadas a nichos diferentes. Exemplo clássico: tentilhões de Darwin, marsupiais australianos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Especiação alopátrica envolve:",
+          "options": [
+            "Mutação",
+            "Barreira geográfica",
+            "Poliploidia",
+            "Seleção sexual"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Deriva genética é forte em populações:",
+          "options": [
+            "Grandes",
+            "Pequenas",
+            "Urbanas",
+            "Antigas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Hardy-Weinberg assume:",
+          "options": [
+            "Evolução rápida",
+            "Sem evolução",
+            "Mutação alta",
+            "Seleção forte"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mutação é:",
+          "options": [
+            "Fator direcional",
+            "Fonte de variação",
+            "Seleção",
+            "Deriva"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

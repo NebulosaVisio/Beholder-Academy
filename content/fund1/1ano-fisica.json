@@ -1,0 +1,658 @@
+{
+  "subject": "Física",
+  "slug": "1ano-fisica",
+  "level": "Fundamental 1",
+  "grade": "1º ano",
+  "color": "var(--fisica)",
+  "icon": "zap",
+  "articles": [
+    {
+      "title": "Cinemática: MU (Movimento Uniforme)",
+      "slug": "cinematica-mu-movimento-uniforme",
+      "desc": "Movimento Uniforme (MU): velocidade constante, aceleração zero. Equação: S=S₀+v·t. Gráficos S×t e v×t. Unidades SI: m, s, m/s.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "MU: velocidade constante (v=const), aceleração=0. Equação horária: S=S₀+v·t. Gráficos: S×t=reta inclinada (inclinação=velocidade); v×t=reta horizontal (área=deslocamento). Velocidade média: Vm=ΔS/Δt. Unidades SI: metro (m), segundo (s), m/s. Conversão: km/h → m/s: dividir por 3,6.",
+      "body": "<h2>Introdução</h2><p>O <strong>Movimento Uniforme (MU)</strong> é o mais simples: velocidade constante, sem aceleração.</p><h2>Equação Horária</h2><p><strong>S = S₀ + v·t</strong></p><ul><li>S = posição final (m)</li><li>S₀ = posição inicial (m)</li><li>v = velocidade (m/s, constante)</li><li>t = tempo (s)</li></ul><h2>Gráficos</h2><table><thead><tr><th>Gráfico</th><th>Formato</th><th>Informação</th></tr></thead><tbody><tr><td>S × t</td><td>Reta inclinada</td><td>Inclinação = velocidade</td></tr><tr><td>v × t</td><td>Reta horizontal</td><td>Área sob a curva = deslocamento</td></tr></tbody></table><h2>Conversão</h2><p>km/h → m/s: <strong>÷ 3,6</strong>. Exemplo: 72 km/h = 20 m/s</p><h2>Resumo</h2><ul><li>✅ MU: v=constante, a=0, S=S₀+vt</li><li>⚠️ ENEM: interpretar gráficos S×t e v×t</li></ul><h2>Curiosidade</h2><p>A luz viaja a <strong>300.000 km/s</strong> em MU no vácuo — a maior velocidade possível no universo! A luz do Sol leva ~8 minutos para chegar à Terra.</p>",
+      "faq": [
+        {
+          "q": "Velocidade negativa significa o quê?",
+          "a": "Que o móvel se move no sentido contrário ao adotado como positivo. NÃO significa que está desacelerando."
+        },
+        {
+          "q": "Velocidade média = velocidade instantânea?",
+          "a": "No MU, sim! Como v é constante, a velocidade em qualquer instante é igual à velocidade média."
+        },
+        {
+          "q": "Como converter km/h para m/s?",
+          "a": "Divida por 3,6. Exemplo: 108 km/h ÷ 3,6 = 30 m/s. Para o inverso: multiplique por 3,6."
+        },
+        {
+          "q": "Repouso é MU?",
+          "a": "Sim! Repouso é MU com v=0. A equação fica S=S₀ (posição constante)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "No MU, aceleração é:",
+          "options": [
+            "Positiva",
+            "Negativa",
+            "Zero",
+            "Variável"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "72 km/h = ? m/s:",
+          "options": [
+            "7,2",
+            "20",
+            "72",
+            "200"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "No gráfico S×t do MU:",
+          "options": [
+            "Parábola",
+            "Reta horizontal",
+            "Reta inclinada",
+            "Curva"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "S=S₀+vt é a equação do:",
+          "options": [
+            "MUV",
+            "MU",
+            "MCU",
+            "Queda livre"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Cinemática: MUV (Movimento Uniformemente Variado)",
+      "slug": "cinematica-muv-movimento-uniformemente-variado",
+      "desc": "MUV: aceleração constante. Equações: v=v₀+at, S=S₀+v₀t+at²/2, v²=v₀²+2aΔS. Queda livre (g≈10 m/s²). Gráficos S×t (parábola) e v×t (reta inclinada).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "MUV: aceleração constante (a≠0). Equações: v=v₀+a·t; S=S₀+v₀·t+a·t²/2; v²=v₀²+2·a·ΔS. Gráficos: v×t=reta inclinada (inclinação=aceleração); S×t=parábola. Queda livre: a=g≈10 m/s² (para baixo), v₀=0 (se solto). Lançamento vertical: v₀≠0. Aceleração>0: acelerando. Aceleração<0: freando (se v>0).",
+      "body": "<h2>Introdução</h2><p>O <strong>MUV</strong> tem aceleração constante: a velocidade muda uniformemente.</p><h2>Equações</h2><ul><li><strong>v = v₀ + a·t</strong> (velocidade)</li><li><strong>S = S₀ + v₀·t + a·t²/2</strong> (posição)</li><li><strong>v² = v₀² + 2·a·ΔS</strong> (Torricelli)</li></ul><h2>Gráficos</h2><table><thead><tr><th>Gráfico</th><th>Formato</th></tr></thead><tbody><tr><td>v × t</td><td>Reta inclinada (inclinação = a)</td></tr><tr><td>S × t</td><td>Parábola</td></tr></tbody></table><h2>Queda Livre</h2><ul><li>a = g ≈ 10 m/s² (para baixo)</li><li>v₀ = 0 (se solto do repouso)</li><li>Todos os objetos caem com mesma aceleração (no vácuo)</li></ul><h2>Resumo</h2><ul><li>✅ 3 equações do MUV (memorize!)</li><li>⚠️ ENEM: Torricelli (sem tempo), queda livre</li></ul><h2>Curiosidade</h2><p>Na Lua (g≈1,6 m/s²), um astronauta solta uma pena e um martelo ao mesmo tempo — ambos caem <strong>juntos</strong>! (Sem ar, sem resistência!)</p>",
+      "faq": [
+        {
+          "q": "Quando usar Torricelli?",
+          "a": "Quando o problema NÃO dá o tempo (t). v²=v₀²+2aΔS relaciona velocidade, aceleração e deslocamento sem precisar de t."
+        },
+        {
+          "q": "Queda livre: objetos pesados caem mais rápido?",
+          "a": "No vácuo, NÃO! Galileu provou que todos caem com mesma aceleração (g). No ar, a resistência afeta mais objetos leves (pena vs bola)."
+        },
+        {
+          "q": "Aceleração negativa = freando?",
+          "a": "Não necessariamente. Se o móvel vai para trás (v<0), aceleração negativa significa acelerando para trás. Freia quando a e v têm sinais opostos."
+        },
+        {
+          "q": "Por que g≈10 m/s²?",
+          "a": "Simplificação de g=9,8 m/s² para facilitar cálculos. No ENEM, geralmente usam g=10 m/s². Varia com altitude e latitude."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "No MUV, aceleração é:",
+          "options": [
+            "Zero",
+            "Constante e ≠0",
+            "Variável",
+            "Infinita"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Equação de Torricelli:",
+          "options": [
+            "S=S₀+vt",
+            "v=v₀+at",
+            "v²=v₀²+2aΔS",
+            "F=ma"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Na queda livre, g≈:",
+          "options": [
+            "5 m/s²",
+            "10 m/s²",
+            "20 m/s²",
+            "100 m/s²"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gráfico S×t no MUV é:",
+          "options": [
+            "Reta",
+            "Parábola",
+            "Hipérbole",
+            "Círculo"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Vetores e Movimento em 2D",
+      "slug": "vetores-e-movimento-em-2d",
+      "desc": "Vetores: módulo, direção, sentido. Soma de vetores (regra do paralelogramo). Lançamento oblíquo e horizontal. Decomposição: Vx=V·cosθ, Vy=V·sinθ.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Vetor: grandeza com módulo, direção e sentido. Soma: regra do paralelogramo ou poligonal. Decomposição: Vx=V·cosθ, Vy=V·sinθ. Lançamento horizontal: Vx=constante (MU), Vy=g·t (queda livre). Lançamento oblíquo: Vx=V₀·cosθ (MU), Vy=V₀·sinθ−g·t (MUV). Alcance máximo: θ=45°. Movimento circular uniforme (MCU): velocidade linear constante, aceleração centrípeta.",
+      "body": "<h2>Introdução</h2><p><strong>Vetores</strong> são fundamentais para descrever movimentos em 2D: lançamentos, forças e campos.</p><h2>Vetores</h2><ul><li><strong>Grandeza vetorial:</strong> módulo + direção + sentido (força, velocidade)</li><li><strong>Grandeza escalar:</strong> só módulo (massa, temperatura)</li><li><strong>Decomposição:</strong> Vx = V·cosθ, Vy = V·sinθ</li></ul><h2>Lançamentos</h2><table><thead><tr><th>Tipo</th><th>Horizontal</th><th>Vertical</th></tr></thead><tbody><tr><td>Horizontal</td><td>MU (Vx = constante)</td><td>Queda livre (Vy = g·t)</td></tr><tr><td>Oblíquo</td><td>MU (Vx = V₀·cosθ)</td><td>MUV (Vy = V₀·sinθ − g·t)</td></tr></tbody></table><h2>Alcance Máximo</h2><p>θ = 45° → maior alcance horizontal (sem resistência do ar).</p><h2>Resumo</h2><ul><li>✅ Decomponha sempre: Vx (cos) e Vy (sin)</li><li>⚠️ ENEM: lançamento oblíquo, alcance, ângulos complementares (30° e 60° dão mesmo alcance)</li></ul><h2>Curiosidade</h2><p>Ângulos <strong>complementares</strong> (30° e 60°, 20° e 70°) dão o <strong>mesmo alcance</strong> em lançamento oblíquo! Mas 45° é o único que maximiza.</p>",
+      "faq": [
+        {
+          "q": "Por que decompor vetores?",
+          "a": "Para analisar cada direção (x e y) separadamente. Em 2D, o movimento é combinação de MU horizontal e MUV vertical (independentes)."
+        },
+        {
+          "q": "O que é aceleração centrípeta?",
+          "a": "No MCU, a velocidade muda de DIREÇÃO (não de módulo). A aceleração centrípeta aponta para o centro: ac=v²/R."
+        },
+        {
+          "q": "45° dá maior alcance por quê?",
+          "a": "É o equilíbrio perfeito entre componente horizontal (distância) e vertical (tempo no ar). Mais vertical=sobe mais mas anda menos; mais horizontal=anda mais mas cai antes."
+        },
+        {
+          "q": "Força é vetor?",
+          "a": "Sim! Força tem módulo (intensidade), direção (horizontal, vertical) e sentido (para cima, para baixo). Deve ser decomposta quando não está alinhada aos eixos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Vx = V·cosθ e Vy =:",
+          "options": [
+            "V·cosθ",
+            "V·sinθ",
+            "V·tanθ",
+            "V/sinθ"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Alcance máximo com θ=:",
+          "options": [
+            "0°",
+            "30°",
+            "45°",
+            "90°"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Lançamento horizontal: Vx é:",
+          "options": [
+            "Zero",
+            "Constante",
+            "Crescente",
+            "Decrescente"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Grandeza vetorial tem:",
+          "options": [
+            "Só módulo",
+            "Módulo e direção",
+            "Módulo, direção e sentido",
+            "Só sentido"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Leis de Newton",
+      "slug": "leis-de-newton",
+      "desc": "Leis de Newton: 1ª (Inércia), 2ª (F=m·a), 3ª (Ação e Reação). Força peso (P=m·g), normal, atrito, tração. Plano inclinado. Elevador.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "1ª Lei (Inércia): corpo em repouso/MU permanece assim se FR=0. 2ª Lei: FR=m·a (resultante=massa×aceleração). 3ª Lei: toda ação tem reação igual e oposta (em corpos diferentes!). Forças: Peso (P=m·g, para baixo), Normal (perpendicular à superfície), Atrito (fat=μ·N, contrário ao movimento), Tração (corda). Plano inclinado: Px=m·g·sinθ, Py=m·g·cosθ.",
+      "body": "<h2>Introdução</h2><p>As <strong>3 Leis de Newton</strong> são a base de toda a mecânica clássica.</p><h2>As Leis</h2><table><thead><tr><th>Lei</th><th>Enunciado</th></tr></thead><tbody><tr><td><strong>1ª (Inércia)</strong></td><td>FR=0 → repouso ou MU</td></tr><tr><td><strong>2ª (F=ma)</strong></td><td>FR = m·a (aceleração proporcional à força)</td></tr><tr><td><strong>3ª (Ação-Reação)</strong></td><td>Toda ação tem reação igual e oposta (em corpos DIFERENTES)</td></tr></tbody></table><h2>Forças Importantes</h2><ul><li><strong>Peso:</strong> P = m·g (gravitacional, para baixo)</li><li><strong>Normal:</strong> perpendicular à superfície de apoio</li><li><strong>Atrito:</strong> fat = μ·N (contrário ao movimento ou tendência)</li><li><strong>Tração:</strong> força transmitida por corda/fio</li></ul><h2>Plano Inclinado</h2><ul><li>Px = m·g·sinθ (desce rampa)</li><li>Py = m·g·cosθ (perpendicular = Normal)</li></ul><h2>Resumo</h2><ul><li>✅ F=ma é a equação mais usada da Física!</li><li>⚠️ ENEM: inércia (cinto de segurança), atrito, plano inclinado</li></ul><h2>Curiosidade</h2><p>O <strong>cinto de segurança</strong> existe por causa da 1ª Lei: quando o carro freia, seu corpo tende a continuar em movimento (inércia). O cinto impede que você voe pelo para-brisa!</p>",
+      "faq": [
+        {
+          "q": "Ação e reação se anulam?",
+          "a": "NÃO! Porque atuam em CORPOS DIFERENTES. Você empurra a parede (ação na parede), a parede empurra você (reação em você). Não se anulam porque estão em corpos distintos."
+        },
+        {
+          "q": "Atrito é sempre ruim?",
+          "a": "Não! Sem atrito não conseguiríamos andar (pés escorregariam), carros não freiariam, pregos não segurariam. Atrito é essencial para o cotidiano."
+        },
+        {
+          "q": "Peso e massa são iguais?",
+          "a": "Não! Massa (kg) = quantidade de matéria (não muda). Peso (N) = força gravitacional (P=m·g, muda com g). Na Lua, massa é igual mas peso é ~6× menor."
+        },
+        {
+          "q": "O que é força resultante?",
+          "a": "A soma vetorial de todas as forças atuando num corpo. Se FR=0 → equilíbrio (1ª Lei). Se FR≠0 → aceleração (2ª Lei)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "F=m·a é a:",
+          "options": [
+            "1ª Lei",
+            "2ª Lei",
+            "3ª Lei",
+            "Lei de Hooke"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Inércia é a:",
+          "options": [
+            "2ª Lei",
+            "3ª Lei",
+            "1ª Lei",
+            "Lei da Gravitação"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Ação e reação atuam em:",
+          "options": [
+            "Mesmo corpo",
+            "Corpos diferentes",
+            "Mesmo ponto",
+            "Mesma direção apenas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "P=m·g, onde g≈:",
+          "options": [
+            "5 m/s²",
+            "10 m/s²",
+            "20 m/s²",
+            "100 m/s²"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Trabalho e Energia",
+      "slug": "trabalho-e-energia",
+      "desc": "Trabalho: τ=F·d·cosθ. Energia cinética (Ec=mv²/2), potencial gravitacional (Ep=mgh), elástica (Eel=kx²/2). Conservação de energia. Potência (P=τ/t).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Trabalho: τ=F·d·cosθ (Joule). τ>0: motor. τ<0: resistente. τ=0: F⊥d. Energia cinética: Ec=mv²/2. Potencial gravitacional: Ep=mgh. Elástica: Eel=kx²/2. Teorema trabalho-energia: τ_resultante=ΔEc. Conservação: Em (Ec+Ep)=constante (sem atrito). Potência: P=τ/t=F·v (Watt).",
+      "body": "<h2>Introdução</h2><p><strong>Trabalho</strong> é a transferência de energia por uma força. <strong>Energia</strong> é a capacidade de realizar trabalho.</p><h2>Trabalho</h2><p><strong>τ = F·d·cosθ</strong> (Joule)</p><ul><li>θ=0°: τ=F·d (motor)</li><li>θ=90°: τ=0 (Normal, centrípeta)</li><li>θ=180°: τ=−F·d (resistente, atrito)</li></ul><h2>Energias</h2><table><thead><tr><th>Tipo</th><th>Fórmula</th></tr></thead><tbody><tr><td>Cinética</td><td>Ec = mv²/2</td></tr><tr><td>Potencial gravitacional</td><td>Ep = mgh</td></tr><tr><td>Elástica</td><td>Eel = kx²/2</td></tr></tbody></table><h2>Conservação</h2><p>Sem forças dissipativas: <strong>Ec₁ + Ep₁ = Ec₂ + Ep₂</strong></p><h2>Potência</h2><p><strong>P = τ/t = F·v</strong> (Watt)</p><h2>Resumo</h2><ul><li>✅ τ=F·d·cosθ; Ec=mv²/2; Ep=mgh</li><li>⚠️ ENEM: conservação de energia, potência elétrica</li></ul><h2>Curiosidade</h2><p>Uma montanha-russa funciona 100% por <strong>conservação de energia</strong>: toda energia potencial (alto) vira cinética (embaixo) e vice-versa!</p>",
+      "faq": [
+        {
+          "q": "Trabalho do peso depende do caminho?",
+          "a": "NÃO! Peso é força conservativa: τ_peso=m·g·h (só depende da altura). Qualquer caminho entre dois pontos dá o mesmo trabalho."
+        },
+        {
+          "q": "Força Normal faz trabalho?",
+          "a": "Em superfície plana horizontal, não (θ=90°). Mas em elevador subindo, a Normal faz trabalho motor (θ=0°)."
+        },
+        {
+          "q": "Potência em Watts ou cv?",
+          "a": "SI: Watt (W) = J/s. Cavalo-vapor: 1cv=735W. Potência de motores costuma ser dada em cv ou HP (1HP=746W)."
+        },
+        {
+          "q": "O que é energia mecânica?",
+          "a": "Soma de cinética + potencial: Em=Ec+Ep. Se não há atrito (forças dissipativas), Em se conserva."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "τ=F·d·cosθ, se θ=90°:",
+          "options": [
+            "τ=Fd",
+            "τ=0",
+            "τ=-Fd",
+            "τ=2Fd"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ec = mv²/?:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Potência é medida em:",
+          "options": [
+            "Joule",
+            "Newton",
+            "Watt",
+            "Pascal"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Ep = m·g·?:",
+          "options": [
+            "v",
+            "t",
+            "h",
+            "a"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Impulso e Quantidade de Movimento",
+      "slug": "impulso-e-quantidade-de-movimento",
+      "desc": "Impulso (I=F·Δt) e Quantidade de Movimento (Q=m·v). Teorema do impulso: I=ΔQ. Conservação da quantidade de movimento. Colisões elásticas e inelásticas.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Quantidade de movimento: Q=m·v (kg·m/s). Impulso: I=F·Δt. Teorema do impulso: I=ΔQ (impulso=variação da quantidade de movimento). Conservação: se forças externas=0, ΣQ_antes=ΣQ_depois. Colisão elástica: conserva Q e Ec. Inelástica: conserva Q, perde Ec. Perfeitamente inelástica: grudam após colisão.",
+      "body": "<h2>Introdução</h2><p><strong>Quantidade de movimento</strong> (Q) e <strong>impulso</strong> (I) são fundamentais para entender colisões e explosões.</p><h2>Fórmulas</h2><ul><li><strong>Q = m·v</strong> (quantidade de movimento, vetor)</li><li><strong>I = F·Δt</strong> (impulso)</li><li><strong>I = ΔQ</strong> (teorema do impulso)</li></ul><h2>Conservação</h2><p>Se forças externas resultantes = 0:</p><p><strong>ΣQ_antes = ΣQ_depois</strong></p><h2>Colisões</h2><table><thead><tr><th>Tipo</th><th>Q conserva?</th><th>Ec conserva?</th></tr></thead><tbody><tr><td>Elástica</td><td>Sim</td><td>Sim</td></tr><tr><td>Inelástica</td><td>Sim</td><td>Não (perde)</td></tr><tr><td>Perfeitamente inelástica</td><td>Sim</td><td>Não (máxima perda)</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Q sempre se conserva em colisões (sem forças externas)</li><li>⚠️ ENEM: airbag (aumenta Δt → reduz F para mesmo ΔQ)</li></ul><h2>Curiosidade</h2><p>O <strong>airbag</strong> funciona pelo teorema do impulso: aumenta o tempo de colisão (Δt) → para o mesmo ΔQ, a força (F) diminui. Menos força = menos lesão!</p>",
+      "faq": [
+        {
+          "q": "Airbag e impulso?",
+          "a": "I=F·Δt. O impulso (ΔQ) é fixo (depende da velocidade). O airbag aumenta Δt → F diminui. Mesmo princípio do cinto e zonas de amortecimento."
+        },
+        {
+          "q": "Quando Q se conserva?",
+          "a": "Quando a resultante de forças EXTERNAS é zero. Forças internas (entre os objetos na colisão) não afetam a conservação."
+        },
+        {
+          "q": "Colisão perfeitamente inelástica?",
+          "a": "Os objetos grudam após a colisão (se movem juntos). Conserva Q, mas perde MÁXIMA energia cinética (vira calor, som, deformação)."
+        },
+        {
+          "q": "Q é vetor?",
+          "a": "Sim! Q=m·v. Tem direção e sentido da velocidade. Na conservação, considere os sinais (sentidos) de cada Q."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Q=m·v é:",
+          "options": [
+            "Escalar",
+            "Vetor",
+            "Constante",
+            "Zero"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Airbag aumenta:",
+          "options": [
+            "Força",
+            "Tempo de colisão",
+            "Velocidade",
+            "Massa"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Colisão elástica conserva:",
+          "options": [
+            "Só Q",
+            "Só Ec",
+            "Q e Ec",
+            "Nenhuma"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "I=F·Δt é o:",
+          "options": [
+            "Impulso",
+            "Trabalho",
+            "Potência",
+            "Energia"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gravitação Universal",
+      "slug": "gravitacao-universal",
+      "desc": "Gravitação: Lei de Newton (F=GMm/d²), aceleração gravitacional, leis de Kepler (órbitas elípticas, áreas iguais, T²∝R³). Satélites e órbitas.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Lei da Gravitação Universal: F=G·M·m/d² (G=6,67×10⁻¹¹). Aceleração gravitacional: g=GM/R². Leis de Kepler: 1ª (órbitas elípticas, Sol no foco), 2ª (áreas iguais em tempos iguais → mais rápido perto do Sol), 3ª (T²=k·R³ → período² proporcional ao raio³). Velocidade orbital: v=√(GM/R). Energia de escape.",
+      "body": "<h2>Introdução</h2><p><strong>Newton</strong> unificou a queda da maçã e o movimento dos planetas: a mesma força — <strong>gravidade</strong> — governa ambos.</p><h2>Lei da Gravitação Universal</h2><p><strong>F = G·M·m/d²</strong></p><ul><li>G = 6,67 × 10⁻¹¹ N·m²/kg²</li><li>Proporcional às massas, inversamente proporcional ao quadrado da distância</li></ul><h2>Leis de Kepler</h2><table><thead><tr><th>Lei</th><th>Enunciado</th></tr></thead><tbody><tr><td>1ª</td><td>Órbitas elípticas (Sol num foco)</td></tr><tr><td>2ª</td><td>Áreas iguais em tempos iguais (mais rápido perto do Sol)</td></tr><tr><td>3ª</td><td>T² = k·R³ (período² ∝ raio³)</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ F=GMm/d²; Kepler: T²∝R³</li><li>⚠️ ENEM: 3ª Lei de Kepler (cálculos com proporção)</li></ul><h2>Curiosidade</h2><p>A <strong>ISS</strong> (Estação Espacial) orbita a Terra a ~400 km de altitude. Lá, g≈8,7 m/s² (não zero!). Os astronautas flutuam porque estão em <strong>queda livre</strong> constante!</p>",
+      "faq": [
+        {
+          "q": "Astronautas flutuam porque g=0?",
+          "a": "NÃO! Na ISS, g≈8,7 m/s² (90% do da superfície). Flutuam porque estão em queda livre orbital (a ISS cai junto com eles). É 'microgravidade', não gravidade zero."
+        },
+        {
+          "q": "Por que planetas não caem no Sol?",
+          "a": "Estão em queda livre orbital: a velocidade tangencial equilibra a atração gravitacional. Se a velocidade caísse, cairiam; se aumentasse, escapariam."
+        },
+        {
+          "q": "3ª Lei de Kepler para ENEM?",
+          "a": "T₁²/R₁³ = T₂²/R₂³. Se um planeta está 4× mais longe que outro, seu período é 8× maior (4³=64, √64=8). Muito cobrado!"
+        },
+        {
+          "q": "Maré é causada pela Lua?",
+          "a": "Sim! A Lua atrai o lado mais próximo com mais força → água se eleva → maré alta. Do lado oposto, inércia cria outra maré alta. 2 marés altas por dia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "F=G·M·m/?²:",
+          "options": [
+            "t",
+            "v",
+            "d",
+            "a"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Órbitas são:",
+          "options": [
+            "Circulares",
+            "Elípticas",
+            "Parabólicas",
+            "Retas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "3ª Lei de Kepler: T²∝:",
+          "options": [
+            "R",
+            "R²",
+            "R³",
+            "R⁴"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Na ISS, g≈:",
+          "options": [
+            "0",
+            "5 m/s²",
+            "8,7 m/s²",
+            "10 m/s²"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Estática",
+      "slug": "estatica",
+      "desc": "Estática: equilíbrio de forças (ΣF=0) e torques (Στ=0). Torque (τ=F·d·sinθ). Centro de gravidade. Alavancas. Equilíbrio estável, instável, indiferente.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Condições de equilíbrio: 1) ΣF=0 (translação); 2) Στ=0 (rotação). Torque/Momento: τ=F·d·sinθ (braço de alavanca). Centro de gravidade: ponto onde o peso se concentra. Alavancas: interfixas, inter-resistentes, interpotentes. Equilíbrio: estável (volta), instável (afasta), indiferente (qualquer posição).",
+      "body": "<h2>Introdução</h2><p>A <strong>Estática</strong> estuda corpos em equilíbrio: sem movimento de translação nem de rotação.</p><h2>Condições de Equilíbrio</h2><ul><li><strong>1ª:</strong> ΣF = 0 (forças equilibradas → sem translação)</li><li><strong>2ª:</strong> Στ = 0 (torques equilibrados → sem rotação)</li></ul><h2>Torque (Momento de Força)</h2><p><strong>τ = F · d · sinθ</strong></p><ul><li>d = braço de alavanca (distância F↔eixo)</li></ul><h2>Alavancas</h2><table><thead><tr><th>Tipo</th><th>Ordem</th><th>Exemplo</th></tr></thead><tbody><tr><td>Interfixa</td><td>Apoio no meio</td><td>Gangorra, tesoura</td></tr><tr><td>Inter-resistente</td><td>Resistência no meio</td><td>Quebra-nozes</td></tr><tr><td>Interpotente</td><td>Potência no meio</td><td>Pinça</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Equilíbrio: ΣF=0 E Στ=0 (ambos necessários)</li><li>⚠️ ENEM: torque, alavancas, centro de gravidade</li></ul><h2>Curiosidade</h2><p>Arquimedes disse: \"<strong>Dê-me um ponto de apoio e moverei o mundo</strong>\". Com uma alavanca longa o suficiente, teoricamente, uma pessoa poderia levantar a Terra!</p>",
+      "faq": [
+        {
+          "q": "Torque e força são a mesma coisa?",
+          "a": "Não! Força causa translação (F=ma). Torque causa rotação (τ=F·d). Uma porta gira porque você aplica torque no puxador (longe do eixo/dobradiça)."
+        },
+        {
+          "q": "Por que a maçaneta fica longe da dobradiça?",
+          "a": "Porque τ=F·d: quanto maior o braço (d), menor a força (F) necessária para mesmo torque. Maçaneta longe → menos esforço."
+        },
+        {
+          "q": "Equilíbrio estável vs instável?",
+          "a": "Estável: perturbado, volta (bola em vale). Instável: perturbado, afasta-se (bola em pico). Indiferente: fica onde deixar (bola em plano)."
+        },
+        {
+          "q": "Centro de gravidade muda?",
+          "a": "Sim! Se redistribuir a massa, o CG muda. Pessoas com pernas longas têm CG mais baixo. Acrobatas controlam o CG para equilibrar."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "τ = F · d é o:",
+          "options": [
+            "Trabalho",
+            "Torque",
+            "Impulso",
+            "Potência"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Para equilíbrio: ΣF=0 e:",
+          "options": [
+            "Στ=0",
+            "Σv=0",
+            "ΣE=0",
+            "Σa=0"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Gangorra é alavanca:",
+          "options": [
+            "Interfixa",
+            "Inter-resistente",
+            "Interpotente",
+            "Não é alavanca"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Centro de gravidade é onde:",
+          "options": [
+            "A massa é zero",
+            "O peso se concentra",
+            "A velocidade é máxima",
+            "A aceleração é zero"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Hidrostática",
+      "slug": "hidrostatica",
+      "desc": "Hidrostática: pressão (P=F/A), pressão hidrostática (P=ρgh), Stevin, Pascal (prensa hidráulica), Empuxo de Arquimedes (E=ρ_fluido·V_imerso·g). Flutuação.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Pressão: P=F/A (Pascal, Pa). Pressão atmosférica: ~1atm=10⁵Pa. Pressão hidrostática: P=ρ·g·h (Stevin). Pascal: pressão se transmite integralmente a todos os pontos (prensa: F₁/A₁=F₂/A₂). Empuxo (Arquimedes): E=ρ_fluido·g·V_imerso. Flutuação: E>P (sobe), E=P (equilíbrio), E<P (afunda). Corpo flutua se ρ_corpo < ρ_fluido.",
+      "body": "<h2>Introdução</h2><p>A <strong>Hidrostática</strong> estuda fluidos em repouso: pressão, empuxo e flutuação.</p><h2>Pressão</h2><ul><li><strong>P = F/A</strong> (Pa = N/m²)</li><li><strong>Pressão hidrostática:</strong> P = ρ·g·h (depende da profundidade)</li></ul><h2>Princípio de Pascal</h2><p>Pressão aplicada a um fluido se transmite integralmente.</p><p><strong>F₁/A₁ = F₂/A₂</strong> (prensa hidráulica: multiplicador de força)</p><h2>Empuxo (Arquimedes)</h2><p><strong>E = ρ_fluido · g · V_imerso</strong></p><ul><li>E > P: corpo sobe (flutua)</li><li>E = P: equilíbrio</li><li>E < P: corpo afunda</li></ul><h2>Resumo</h2><ul><li>✅ P=ρgh (Stevin), F₁/A₁=F₂/A₂ (Pascal), E=ρVg (Arquimedes)</li><li>⚠️ ENEM: empuxo, prensa hidráulica, pressão atmosférica</li></ul><h2>Curiosidade</h2><p>Arquimedes descobriu o empuxo no banho! Ao entrar na banheira, percebeu que a água subia proporcionalmente ao volume imerso e gritou: \"<strong>Eureka!</strong>\" (\"Encontrei!\")</p>",
+      "faq": [
+        {
+          "q": "Por que navio de aço flutua?",
+          "a": "Porque é oco! O volume deslocado é grande → empuxo grande. A densidade MÉDIA do navio (aço+ar) é menor que da água."
+        },
+        {
+          "q": "Pressão depende da forma do recipiente?",
+          "a": "Não! P=ρgh depende só da profundidade (h), densidade (ρ) e gravidade (g). Independe da forma do recipiente (Paradoxo de Stevin)."
+        },
+        {
+          "q": "Prensa hidráulica é uma máquina?",
+          "a": "Sim! Multiplica força usando diferença de áreas (Pascal). Exemplo: com A₂=10·A₁, aplicando 100N no pistão pequeno, gera 1000N no grande."
+        },
+        {
+          "q": "Iceberg flutua quanto?",
+          "a": "~90% submerso! Porque ρ_gelo=917 kg/m³ e ρ_água=1000 kg/m³. A razão é 917/1000=0,917 → 91,7% submerso."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "P=ρ·g·h é:",
+          "options": [
+            "Empuxo",
+            "Pressão hidrostática",
+            "Peso",
+            "Torque"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Empuxo depende de:",
+          "options": [
+            "Massa do corpo",
+            "Volume imerso",
+            "Cor do fluido",
+            "Forma do corpo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Prensa hidráulica usa:",
+          "options": [
+            "Newton",
+            "Pascal",
+            "Arquimedes",
+            "Kepler"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Corpo flutua se:",
+          "options": [
+            "ρ_corpo > ρ_fluido",
+            "ρ_corpo < ρ_fluido",
+            "ρ_corpo = 0",
+            "Não importa"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

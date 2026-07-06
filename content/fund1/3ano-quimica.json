@@ -1,0 +1,586 @@
+{
+  "subject": "Química",
+  "slug": "3ano-quimica",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--quimica)",
+  "icon": "flask",
+  "articles": [
+    {
+      "title": "Introdução à Orgânica",
+      "slug": "introducao-a-organica",
+      "desc": "Química Orgânica: compostos de carbono. Hibridização sp³, sp², sp. Cadeias carbônicas: classificação (aberta/fechada, normal/ramificada, saturada/insaturada, homogênea/heterogênea).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Carbono: 4 ligações (tetravalente). Hibridização: sp³ (simples, 109,5°, tetraédrica), sp² (dupla, 120°, trigonal), sp (tripla, 180°, linear). Cadeias: aberta/fechada (cíclica), normal/ramificada, saturada (só simples)/insaturada (dupla ou tripla), homogênea (só C e H na cadeia)/heterogênea (heteroátomo: O, N, S).",
+      "body": "<h2>Introdução</h2><p>A <strong>Química Orgânica</strong> estuda compostos de carbono — base da vida!</p><h2>Carbono</h2><ul><li><strong>Tetravalente:</strong> faz 4 ligações</li><li><strong>Hibridização:</strong> sp³ (simples), sp² (dupla), sp (tripla)</li></ul><h2>Classificação de Cadeias</h2><table><thead><tr><th>Critério</th><th>Tipos</th></tr></thead><tbody><tr><td>Disposição</td><td>Aberta (acíclica) / Fechada (cíclica)</td></tr><tr><td>Ramificação</td><td>Normal / Ramificada</td></tr><tr><td>Saturação</td><td>Saturada (simples) / Insaturada (dupla/tripla)</td></tr><tr><td>Heterogeneidade</td><td>Homogênea / Heterogênea (O, N, S na cadeia)</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ C=4 ligações; sp³, sp², sp</li><li>⚠️ ENEM: classificar cadeias carbônicas</li></ul><h2>Curiosidade</h2><p>Existem mais de <strong>19 milhões</strong> de compostos orgânicos conhecidos! O carbono é tão versátil que forma mais compostos que todos os outros elementos juntos.</p>",
+      "faq": [
+        {
+          "q": "Orgânica é só ser vivo?",
+          "a": "Não! Inicialmente pensava-se assim (Berzelius, 'força vital'). Wöhler (1828) sintetizou ureia em laboratório, derrubando essa ideia. Orgânica = compostos de C."
+        },
+        {
+          "q": "Carbono faz 4 ligações por quê?",
+          "a": "Configuração: 1s² 2s² 2p². Ao hibridizar, forma 4 orbitais equivalentes (sp³) → 4 ligações. É a base da diversidade orgânica."
+        },
+        {
+          "q": "Heterogênea: exemplo?",
+          "a": "Éter (CH₃-O-CH₃): o O está ENTRE carbonos da cadeia. Amina (CH₃-NH-CH₃): N na cadeia. Se O ou N for terminal, é homogênea."
+        },
+        {
+          "q": "Diamante e grafite são orgânicos?",
+          "a": "Não! São formas alotrópicas do carbono puro. Orgânica estuda compostos de C com H e outros (O, N, S). CO₂, Na₂CO₃ também são inorgânicos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Carbono faz ? ligações:",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "sp³ = ligação:",
+          "options": [
+            "Simples",
+            "Dupla",
+            "Tripla",
+            "Quádrupla"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Cadeia com O entre C é:",
+          "options": [
+            "Homogênea",
+            "Heterogênea",
+            "Aberta",
+            "Saturada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Wöhler sintetizou:",
+          "options": [
+            "Aspirina",
+            "Ureia",
+            "Plástico",
+            "Borracha"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Hidrocarbonetos",
+      "slug": "hidrocarbonetos",
+      "desc": "Hidrocarbonetos: alcanos (-ano, CnH₂n+₂), alcenos (-eno, dupla), alcinos (-ino, tripla), aromáticos (benzeno). Nomenclatura IUPAC. Petróleo e derivados.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Alcanos (CnH₂n+₂): metano, etano, propano. Todos simples, saturados. Alcenos (CnH₂n): eteno (etileno). 1 dupla. Alcinos (CnH₂n-₂): etino (acetileno). 1 tripla. Aromáticos: anel benzênico (C₆H₆). Nomenclatura: prefixo (nº C) + infixo (sat/insat) + sufixo (-o). Met(1), Et(2), Prop(3), But(4), Pent(5). Petróleo: mistura de hidrocarbonetos (destilação fracionada).",
+      "body": "<h2>Introdução</h2><p><strong>Hidrocarbonetos</strong> contêm apenas C e H. São a base do petróleo e gás natural.</p><h2>Famílias</h2><table><thead><tr><th>Tipo</th><th>Ligação</th><th>Fórmula</th><th>Exemplo</th></tr></thead><tbody><tr><td>Alcano</td><td>Simples</td><td>CnH₂n+₂</td><td>CH₄ (metano)</td></tr><tr><td>Alceno</td><td>Dupla</td><td>CnH₂n</td><td>C₂H₄ (eteno)</td></tr><tr><td>Alcino</td><td>Tripla</td><td>CnH₂n-₂</td><td>C₂H₂ (etino)</td></tr><tr><td>Aromático</td><td>Anel benzênico</td><td>—</td><td>C₆H₆ (benzeno)</td></tr></tbody></table><h2>Nomenclatura</h2><p>Prefixo (nº C) + infixo + sufixo: Met-an-o, Et-en-o, Prop-in-o</p><h2>Resumo</h2><ul><li>✅ Met(1), Et(2), Prop(3), But(4), Pent(5)</li><li>⚠️ ENEM: nomenclatura, petróleo, combustíveis</li></ul><h2>Curiosidade</h2><p>O <strong>metano</strong> (CH₄) é o principal componente do gás natural e do gás de cozinha. Vacas emitem ~100L de metano POR DIA — contribuindo para o efeito estufa!</p>",
+      "faq": [
+        {
+          "q": "Petróleo é hidrocarboneto?",
+          "a": "É uma MISTURA de hidrocarbonetos. Destilação fracionada separa: gás, gasolina, querosene, diesel, asfalto (em ordem de PE crescente)."
+        },
+        {
+          "q": "Benzeno é perigoso?",
+          "a": "Sim! Carcinogênico. Presente em gasolina e solventes. Exposição crônica causa leucemia. Uso controlado/regulamentado."
+        },
+        {
+          "q": "GLP é que hidrocarboneto?",
+          "a": "GLP = Gás Liquefeito de Petróleo = mistura de propano (C₃H₈) + butano (C₄H₁₀). Liquefeito sob pressão para caber no botijão."
+        },
+        {
+          "q": "Nomenclatura: como funciona?",
+          "a": "1) Ache a cadeia principal (mais longa com a insaturação). 2) Numere (menor nº para ramificação/insaturação). 3) Nome: prefixo+infixo+sufixo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Alcano: fórmula geral:",
+          "options": [
+            "CnH₂n",
+            "CnH₂n+₂",
+            "CnH₂n-₂",
+            "CnHn"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "CH₄ é:",
+          "options": [
+            "Etano",
+            "Metano",
+            "Propano",
+            "Butano"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Alceno tem ligação:",
+          "options": [
+            "Simples",
+            "Dupla",
+            "Tripla",
+            "Aromática"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Benzeno: fórmula:",
+          "options": [
+            "CH₄",
+            "C₂H₆",
+            "C₆H₆",
+            "C₈H₈"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Funções Oxigenadas",
+      "slug": "funcoes-oxigenadas",
+      "desc": "Funções oxigenadas: álcool (−OH), fenol (Ar−OH), éter (R−O−R'), aldeído (−CHO), cetona (C=O), ácido carboxílico (−COOH), éster (−COO−). Nomenclatura e aplicações.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Álcool: −OH em C saturado. Etanol (C₂H₅OH, bebida). Fenol: −OH em anel aromático (antisséptico). Éter: R−O−R' (éter dietílico, anestésico). Aldeído: −CHO (formol=metanal). Cetona: C=O entre carbonos (propanona=acetona). Ácido carboxílico: −COOH (acético=vinagre). Éster: −COO− (essências, gorduras, aspirina). Nomenclatura: prefixo+infixo+sufixo da função.",
+      "body": "<h2>Introdução</h2><p>As <strong>funções oxigenadas</strong> contêm oxigênio além de C e H.</p><h2>Principais Funções</h2><table><thead><tr><th>Função</th><th>Grupo</th><th>Exemplo</th></tr></thead><tbody><tr><td>Álcool</td><td>−OH</td><td>Etanol (C₂H₅OH)</td></tr><tr><td>Fenol</td><td>Ar−OH</td><td>Fenol (C₆H₅OH)</td></tr><tr><td>Éter</td><td>R−O−R'</td><td>Éter dietílico</td></tr><tr><td>Aldeído</td><td>−CHO</td><td>Metanal (formol)</td></tr><tr><td>Cetona</td><td>>C=O</td><td>Propanona (acetona)</td></tr><tr><td>Ác. Carboxílico</td><td>−COOH</td><td>Ác. acético (vinagre)</td></tr><tr><td>Éster</td><td>−COO−</td><td>Acetato de etila</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Identifique o grupo funcional → nome da função</li><li>⚠️ ENEM: identificar funções em estruturas</li></ul><h2>Curiosidade</h2><p>O <strong>etanol</strong> do combustível e da bebida é o MESMO composto (C₂H₅OH). A diferença é a pureza e os impostos!</p>",
+      "faq": [
+        {
+          "q": "Álcool e fenol: diferença?",
+          "a": "Álcool: −OH ligado a C saturado (fora do anel). Fenol: −OH ligado diretamente ao anel aromático. Fenol é mais ácido que álcool."
+        },
+        {
+          "q": "Formol é perigoso?",
+          "a": "Sim! Formol (metanal, HCHO) é carcinogênico. Usado como conservante (biologia) e desinfetante. Proibido em alisantes capilares."
+        },
+        {
+          "q": "Éster tem cheiro?",
+          "a": "Sim! Muitos ésteres têm odor de frutas (essências). Acetato de isoamila: banana. Butirato de etila: abacaxi. Usados em perfumaria e alimentação."
+        },
+        {
+          "q": "Aspirina é éster?",
+          "a": "Sim! Ácido acetilsalicílico = éster do ácido salicílico com ácido acético. Resultado de uma reação de esterificação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "−OH em C saturado é:",
+          "options": [
+            "Fenol",
+            "Álcool",
+            "Éter",
+            "Aldeído"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "−COOH é ácido:",
+          "options": [
+            "Mineral",
+            "Carboxílico",
+            "Sulfúrico",
+            "Nítrico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Acetona é:",
+          "options": [
+            "Álcool",
+            "Aldeído",
+            "Cetona",
+            "Éster"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Vinagre contém ácido:",
+          "options": [
+            "Clorídrico",
+            "Acético",
+            "Cítrico",
+            "Sulfúrico"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Funções Nitrogenadas e Outras",
+      "slug": "funcoes-nitrogenadas-e-outras",
+      "desc": "Funções nitrogenadas: amina (−NH₂), amida (−CONH₂), nitrilo (−C≡N). Haletos orgânicos. Compostos de enxofre. Nomenclatura.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Amina: N ligado a C (metilamina, anilina). Primária (R−NH₂), secundária (R₂NH), terciária (R₃N). Amida: N ligado a C=O (ureia, nylon). Nitrilo/cianeto: −C≡N (acetonitrila). Haletos orgânicos: C ligado a halogênio (F, Cl, Br, I). Ex: clorofórmio (CHCl₃), CFC (Freon). Compostos de S: tióis (−SH, cheiro de ovo podre), tioéteres.",
+      "body": "<h2>Introdução</h2><p>Compostos orgânicos também podem conter <strong>nitrogênio, halogênios e enxofre</strong>.</p><h2>Funções Nitrogenadas</h2><table><thead><tr><th>Função</th><th>Grupo</th><th>Exemplo</th></tr></thead><tbody><tr><td>Amina</td><td>−NH₂</td><td>Metilamina, anilina</td></tr><tr><td>Amida</td><td>−CONH₂</td><td>Ureia, nylon</td></tr><tr><td>Nitrilo</td><td>−C≡N</td><td>Acetonitrila</td></tr></tbody></table><h2>Haletos e Enxofre</h2><ul><li><strong>Haletos:</strong> C−X (X=F,Cl,Br,I). Ex: clorofórmio, DDT, CFC</li><li><strong>Tióis:</strong> −SH (cheiro de ovo podre, gás natural odorizado)</li></ul><h2>Resumo</h2><ul><li>✅ Amina: N. Amida: N+C=O. Haleto: C−X.</li><li>⚠️ ENEM: identificar funções, CFC e ozônio</li></ul><h2>Curiosidade</h2><p>O <strong>cheiro do gás de cozinha</strong> não vem do gás (propano/butano são inodoros), mas de um tiol adicionado (mercaptano) para detectar vazamentos!</p>",
+      "faq": [
+        {
+          "q": "Amina e amida: diferença?",
+          "a": "Amina: N ligado apenas a C e/ou H. Amida: N ligado a C=O (carbonila). Amida é derivada de ácido carboxílico."
+        },
+        {
+          "q": "CFC e ozônio?",
+          "a": "CFCs (clorofluorcarbonetos) eram usados em sprays e geladeiras. Liberam Cl na estratosfera → destroem O₃. Proibidos pelo Protocolo de Montreal (1987)."
+        },
+        {
+          "q": "DDT é haleto?",
+          "a": "Sim! Haleto orgânico clorado. Inseticida poderoso, mas acumula na cadeia alimentar (biomagnificação) → proibido em muitos países."
+        },
+        {
+          "q": "Nylon é amida?",
+          "a": "Sim! Poliamida: muitas ligações amida (−CO−NH−) em cadeia. Inventado em 1935 (DuPont). Usado em meias, cordas, peças plásticas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "−NH₂ é:",
+          "options": [
+            "Amida",
+            "Amina",
+            "Nitrilo",
+            "Haleto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "CFC destrói:",
+          "options": [
+            "CO₂",
+            "H₂O",
+            "O₃",
+            "N₂"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Tiol tem cheiro de:",
+          "options": [
+            "Flores",
+            "Ovo podre",
+            "Frutas",
+            "Nada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Nylon é:",
+          "options": [
+            "Poliéster",
+            "Poliamida",
+            "Polietileno",
+            "Poliacetal"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Isomeria",
+      "slug": "isomeria",
+      "desc": "Isomeria: mesma fórmula molecular, estrutura diferente. Plana (cadeia, posição, função, compensação). Espacial (geométrica cis/trans, óptica R/S).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Isomeria plana: cadeia (ramificação diferente), posição (insaturação em posição diferente), função (álcool vs éter), compensação/metameria (heteroátomo em posição diferente). Espacial geométrica: cis (mesmo lado) / trans (lados opostos), requer dupla + ligantes diferentes. Óptica: carbono quiral (4 ligantes diferentes) → enantiômeros (imagem especular, desviam luz). R/S, d/l.",
+      "body": "<h2>Introdução</h2><p><strong>Isômeros</strong> têm mesma fórmula molecular mas estrutura diferente → propriedades diferentes.</p><h2>Isomeria Plana</h2><table><thead><tr><th>Tipo</th><th>Diferença</th><th>Exemplo</th></tr></thead><tbody><tr><td>Cadeia</td><td>Ramificação</td><td>Butano vs isobutano</td></tr><tr><td>Posição</td><td>Local da insaturação/substituinte</td><td>Propan-1-ol vs propan-2-ol</td></tr><tr><td>Função</td><td>Grupo funcional</td><td>Etanol (álcool) vs metoximetano (éter)</td></tr></tbody></table><h2>Isomeria Espacial</h2><ul><li><strong>Geométrica (cis/trans):</strong> ligantes diferentes em C de dupla → cis (mesmo lado) vs trans (lados opostos)</li><li><strong>Óptica:</strong> C quiral (4 ligantes diferentes) → desviam plano de luz polarizada</li></ul><h2>Resumo</h2><ul><li>✅ Plana: cadeia, posição, função. Espacial: cis/trans, óptica.</li><li>⚠️ ENEM: isomeria óptica (C quiral), cis/trans</li></ul><h2>Curiosidade</h2><p>A <strong>talidomida</strong> é exemplo trágico de isomeria óptica: um enantiômero cura; o outro causa malformação fetal. Mesma fórmula, efeitos opostos!</p>",
+      "faq": [
+        {
+          "q": "Carbono quiral: o que é?",
+          "a": "C ligado a 4 grupos DIFERENTES. Ex: alanina (aminoácido): C central ligado a H, CH₃, NH₂, COOH → 4 diferentes → quiral → isomeria óptica."
+        },
+        {
+          "q": "Cis e trans: quando ocorre?",
+          "a": "Em duplas C=C com ligantes DIFERENTES em cada C da dupla. Se os 2 maiores/iguais estão do mesmo lado: cis. Lados opostos: trans."
+        },
+        {
+          "q": "Isomeria de função: exemplo?",
+          "a": "C₂H₆O: etanol (CH₃CH₂OH, álcool) e metoximetano (CH₃OCH₃, éter). Mesma fórmula, funções diferentes!"
+        },
+        {
+          "q": "Talidomida e isomeria?",
+          "a": "R-talidomida: sedativo eficaz. S-talidomida: teratogênico (malformação). No corpo, um enantiômero se converte no outro → nunca é seguro usar racemato."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "C quiral tem ? ligantes diferentes:",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Cis/trans é isomeria:",
+          "options": [
+            "Plana",
+            "Geométrica",
+            "Óptica",
+            "Cadeia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Etanol e éter dimetílico:",
+          "options": [
+            "Cadeia",
+            "Posição",
+            "Função",
+            "Óptica"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Enantiômeros desviam luz:",
+          "options": [
+            "Igual",
+            "Sentidos opostos",
+            "Não desviam",
+            "Para cima"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Reações Orgânicas",
+      "slug": "reacoes-organicas",
+      "desc": "Reações orgânicas: substituição (alcanos, aromáticos), adição (alcenos, alcinos), eliminação, oxidação, redução, esterificação/saponificação.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Substituição: troca de átomo/grupo (alcanos+Cl₂/luz, benzeno+Cl₂/catalisador). Adição: quebra dupla/tripla, adiciona átomos (H₂, HX, H₂O em alcenos). Eliminação: remove átomos → forma dupla (desidratação de álcool). Oxidação: álcool 1º→aldeído→ácido; 2º→cetona; 3º→não oxida. Esterificação: ácido+álcool→éster+água. Saponificação: éster+base→sal(sabão)+álcool(glicerol).",
+      "body": "<h2>Introdução</h2><p>As <strong>reações orgânicas</strong> transformam compostos orgânicos em novos produtos.</p><h2>Tipos Principais</h2><table><thead><tr><th>Tipo</th><th>O que faz</th><th>Onde</th></tr></thead><tbody><tr><td>Substituição</td><td>Troca grupo</td><td>Alcanos, aromáticos</td></tr><tr><td>Adição</td><td>Quebra dupla/tripla</td><td>Alcenos, alcinos</td></tr><tr><td>Eliminação</td><td>Remove átomos → dupla</td><td>Álcoois</td></tr></tbody></table><h2>Oxidação de Álcoois</h2><ul><li>1º → aldeído → ácido carboxílico</li><li>2º → cetona</li><li>3º → não oxida (em condições brandas)</li></ul><h2>Esterificação e Saponificação</h2><ul><li>Ácido + Álcool → Éster + Água (esterificação)</li><li>Éster + Base → Sabão + Glicerol (saponificação)</li></ul><h2>Resumo</h2><ul><li>✅ Substituição (alcano), Adição (alceno), Eliminação (álcool)</li><li>⚠️ ENEM: oxidação de álcoois, saponificação</li></ul><h2>Curiosidade</h2><p>O <strong>sabão</strong> é produzido por saponificação: gordura (éster) + NaOH → sabão + glicerina. Processo usado desde os babilônios (~2800 a.C.)!</p>",
+      "faq": [
+        {
+          "q": "Saponificação faz sabão como?",
+          "a": "Gordura (éster de glicerol + ácidos graxos) + NaOH → sais de ácidos graxos (sabão) + glicerol. O sabão tem parte polar e apolar → limpa gordura."
+        },
+        {
+          "q": "Álcool 3º não oxida?",
+          "a": "Em condições brandas (KMnO₄ diluído), não. O C−OH do terciário já está ligado a 3 outros C, sem H para remover. Em condições drásticas, pode quebrar a cadeia."
+        },
+        {
+          "q": "Regra de Markovnikov?",
+          "a": "Na adição de HX a alceno assimétrico, H vai para o C mais hidrogenado (com mais H) e X para o menos. 'Rico fica mais rico!' (em H)."
+        },
+        {
+          "q": "Bafômetro e oxidação?",
+          "a": "O bafômetro detecta etanol: soprar → etanol reage com K₂Cr₂O₇ (laranja→verde) → indica quantidade de álcool. É uma reação de oxidação do etanol."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Adição ocorre em:",
+          "options": [
+            "Alcanos",
+            "Alcenos/alcinos",
+            "Aromáticos",
+            "Sais"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Álcool 1º oxidado dá:",
+          "options": [
+            "Cetona",
+            "Éster",
+            "Aldeído",
+            "Éter"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Saponificação: éster + ?:",
+          "options": [
+            "Ácido",
+            "Base",
+            "Álcool",
+            "Água"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Markovnikov: H vai para C com:",
+          "options": [
+            "Menos H",
+            "Mais H",
+            "Mais C",
+            "Nenhum H"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Polímeros",
+      "slug": "polimeros",
+      "desc": "Polímeros: macromoléculas de monômeros repetidos. Adição (polietileno, PVC, PS) e condensação (nylon, poliéster, PET). Naturais (proteínas, celulose) e sintéticos.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Polímero: macro + mono (muitos+um). Adição: mero se une sem perda de átomos (dupla abre). Polietileno (PE, sacola), PVC (cano), PS (isopor), PP (tampas), PTFE (teflon). Condensação: libera H₂O. Nylon (poliamida), PET (poliéster, garrafa), baquelite (fenol+formol). Naturais: proteínas (aminoácidos), celulose (glicose), borracha (isopreno). Reciclagem: 1-PET, 2-PEAD, 3-PVC, 4-PEBD, 5-PP, 6-PS.",
+      "body": "<h2>Introdução</h2><p><strong>Polímeros</strong> são macromoléculas formadas pela repetição de unidades (monômeros).</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Mecanismo</th><th>Exemplos</th></tr></thead><tbody><tr><td>Adição</td><td>Dupla abre, sem perda de átomos</td><td>PE, PVC, PS, PP, PTFE</td></tr><tr><td>Condensação</td><td>Libera H₂O</td><td>PET, nylon, baquelite</td></tr></tbody></table><h2>Polímeros Importantes</h2><ul><li><strong>PET (1):</strong> garrafa, poliéster</li><li><strong>PEAD (2):</strong> frascos rígidos</li><li><strong>PVC (3):</strong> canos, pisos</li><li><strong>PP (5):</strong> tampas, potes</li><li><strong>PS (6):</strong> isopor, copos descartáveis</li></ul><h2>Resumo</h2><ul><li>✅ Adição: sem perda de átomos. Condensação: libera H₂O.</li><li>⚠️ ENEM: identificar monômero/polímero, reciclagem</li></ul><h2>Curiosidade</h2><p>O <strong>PET</strong> de uma garrafa leva ~400 anos para se decompor na natureza. Mas quando reciclado, pode virar fibra têxtil, embalagem ou até combustível!</p>",
+      "faq": [
+        {
+          "q": "Plástico é polímero?",
+          "a": "Sim! A maioria dos plásticos são polímeros sintéticos (PE, PVC, PET). Mas existem polímeros naturais (borracha, celulose, proteínas) e biodegradáveis (PLA)."
+        },
+        {
+          "q": "Teflon é polímero?",
+          "a": "Sim! PTFE (politetrafluoretileno). Extremamente antiaderente e resistente ao calor. Usado em panelas, revestimentos, indústria espacial."
+        },
+        {
+          "q": "Reciclagem: os números?",
+          "a": "Símbolos 1 a 7 identificam o tipo de plástico: 1=PET, 2=PEAD, 3=PVC, 4=PEBD, 5=PP, 6=PS, 7=outros. Facilitam a separação na reciclagem."
+        },
+        {
+          "q": "Bioplástico é solução?",
+          "a": "Parcialmente! PLA (ácido polilático, do milho) é biodegradável. Mas precisa de condições específicas para se decompor. Reduzir consumo é mais eficaz que substituir."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Polietileno é polímero de:",
+          "options": [
+            "Adição",
+            "Condensação",
+            "Natural",
+            "Mineral"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "PET é garrafa nº:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "5"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Nylon é:",
+          "options": [
+            "Poliadição",
+            "Policondensação",
+            "Natural",
+            "Mineral"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Condensação libera:",
+          "options": [
+            "CO₂",
+            "H₂",
+            "H₂O",
+            "O₂"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Bioquímica",
+      "slug": "bioquimica",
+      "desc": "Bioquímica: carboidratos (glicose, sacarose, amido), lipídios (gordura, óleos, fosfolipídios), proteínas (aminoácidos, ligação peptídica), ácidos nucleicos (DNA, RNA).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Carboidratos: monossacarídeos (glicose C₆H₁₂O₆, frutose), dissacarídeos (sacarose=glicose+frutose), polissacarídeos (amido, celulose, glicogênio). Lipídios: ésteres de ácidos graxos + glicerol. Saturados (gordura, sólida) vs insaturados (óleo, líquido). Trans: hidrogenação parcial (margarina). Proteínas: 20 aminoácidos → ligação peptídica (−CO−NH−). Estruturas: 1ª(sequência), 2ª(α-hélice), 3ª(dobra), 4ª(subunidades). DNA: dupla hélice (A-T, C-G).",
+      "body": "<h2>Introdução</h2><p>A <strong>Bioquímica</strong> estuda as moléculas da vida: carboidratos, lipídios, proteínas e ácidos nucleicos.</p><h2>Biomoléculas</h2><table><thead><tr><th>Classe</th><th>Monômero</th><th>Função</th></tr></thead><tbody><tr><td>Carboidratos</td><td>Monossacarídeo</td><td>Energia rápida</td></tr><tr><td>Lipídios</td><td>Ácido graxo + glicerol</td><td>Reserva energética, membranas</td></tr><tr><td>Proteínas</td><td>Aminoácido</td><td>Enzimas, estrutura, defesa</td></tr><tr><td>Ác. Nucleicos</td><td>Nucleotídeo</td><td>Informação genética</td></tr></tbody></table><h2>Gordura Trans</h2><p>Hidrogenação parcial de óleo → gordura trans. Aumenta LDL ('ruim') e diminui HDL ('bom') → risco cardiovascular.</p><h2>Resumo</h2><ul><li>✅ 4 biomoléculas: carbo, lipídio, proteína, ác. nucleico</li><li>⚠️ ENEM: gordura trans, aminoácidos, DNA</li></ul><h2>Curiosidade</h2><p>O <strong>DNA</strong> de uma única célula humana, esticado, teria ~2 metros de comprimento! Considerando todas as células do corpo, daria para ir da Terra ao Sol e voltar ~600 vezes!</p>",
+      "faq": [
+        {
+          "q": "Gordura trans é pior que saturada?",
+          "a": "Sim! Trans aumenta LDL E diminui HDL → pior perfil cardiovascular. Encontrada em alimentos industrializados com 'gordura vegetal hidrogenada'."
+        },
+        {
+          "q": "Proteína desnatura: o que significa?",
+          "a": "Perde a forma 3D (mas mantém ligações peptídicas). Causa: calor, pH, solvente. Ex: ovo fritando (albumina desnatura → fica branco). Perde função biológica."
+        },
+        {
+          "q": "Amido e celulose: mesma fórmula?",
+          "a": "Quase! Ambos são polímeros de glicose. Diferença: tipo de ligação (α no amido, β na celulose). Humanos digerem amido mas NÃO celulose (falta enzima celulase)."
+        },
+        {
+          "q": "DNA: A-T e C-G por quê?",
+          "a": "Complementaridade: A faz 2 pontes de H com T. C faz 3 com G. Por isso %A=%T e %C=%G (regra de Chargaff). A dupla hélice é estável por essas ligações."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Glicose é:",
+          "options": [
+            "Lipídio",
+            "Proteína",
+            "Carboidrato",
+            "Ác. nucleico"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Gordura trans aumenta:",
+          "options": [
+            "HDL",
+            "LDL",
+            "Ambos",
+            "Nenhum"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ligação peptídica une:",
+          "options": [
+            "Açúcares",
+            "Aminoácidos",
+            "Nucleotídeos",
+            "Ácidos graxos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "DNA: A pareia com:",
+          "options": [
+            "C",
+            "G",
+            "T",
+            "U"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "subject": "Inglês",
+  "slug": "3ano-ingles",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--ingles)",
+  "icon": "globe-alt",
+  "articles": [
+    {
+      "title": "ENEM English: What to Expect",
+      "slug": "enem-english-what-to-expect",
+      "desc": "Ingles no ENEM: 5 questoes, interpretacao de texto, generos textuais, estrategias, dicas de prova.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "ENEM: 5 questoes de ingles (ou espanhol). Interpretacao de texto (NAO gramatica isolada). Generos: musica, poema, artigo, noticia, charge, anuncio, tirinha. Habilidades: identificar tema, inferir significado, reconhecer funcao social do texto. Dicas: leia titulo primeiro, use cognatos, nao precisa traduzir tudo, atencao aos falsos cognatos, contexto e rei.",
+      "body": "<h2>Introducao</h2><p>O <strong>ingles no ENEM</strong> cobra interpretacao, nao gramatica pura.</p><h2>O que esperar</h2><table><thead><tr><th>Item</th><th>Detalhe</th></tr></thead><tbody><tr><td>Questoes</td><td>5</td></tr><tr><td>Foco</td><td>Interpretacao de texto</td></tr><tr><td>Generos</td><td>Musica, noticia, charge, anuncio</td></tr><tr><td>Tempo</td><td>~15 min (3 min por questao)</td></tr></tbody></table><h2>Dicas</h2><ol><li>Leia o titulo e opcoes ANTES do texto</li><li>Use cognatos e contexto</li><li>Nao precisa traduzir tudo</li><li>Cuidado com falsos cognatos</li><li>Identifique o genero textual</li></ol><h2>Resumo</h2><ul><li>5 questoes de interpretacao. Contexto e rei.</li></ul><h2>Curiosidade</h2><p>A maioria dos candidatos escolhe <strong>espanhol</strong>, mas ingles tem questoes mais faceis em media!</p>",
+      "faq": [
+        {
+          "q": "Ingles ou espanhol?",
+          "a": "Voce escolhe na inscricao. Se sabe algum ingles (musicas, series, games), vale a pena. Questoes costumam ser acessiveis com estrategia."
+        },
+        {
+          "q": "Cai gramatica?",
+          "a": "NAO isoladamente! Mas entender tempos verbais, modais e linking words ajuda na interpretacao. Foco e no TEXTO, nao na regra."
+        },
+        {
+          "q": "Posso chutar?",
+          "a": "Melhor eliminar 2-3 opcoes primeiro. Use cognatos, contexto, logica. Chute educado e melhor que aleatorio."
+        },
+        {
+          "q": "Como treinar?",
+          "a": "Faca provas anteriores do ENEM (2010-2024). Leia textos em ingles: noticias (BBC), letras de musica. Pratique inferencia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quantas questoes de ingles no ENEM",
+          "options": [
+            "3",
+            "5",
+            "10",
+            "15"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ENEM ingles foca em",
+          "options": [
+            "Gramatica",
+            "Traducao",
+            "Interpretacao",
+            "Redacao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Leia primeiro o",
+          "options": [
+            "Texto todo",
+            "Titulo e opcoes",
+            "Ultima frase",
+            "Nada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cognatos ajudam na",
+          "options": [
+            "Gramatica",
+            "Interpretacao",
+            "Pronúncia",
+            "Escrita"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Reading Strategy: Skimming and Scanning",
+      "slug": "reading-strategy-skimming-and-scanning",
+      "desc": "Skimming: leitura rapida para ideia geral. Scanning: busca de informacao especifica. Tecnicas aplicadas ao ENEM.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Skimming: ler rapidamente titulo, subtitulos, primeira/ultima frase de cada paragrafo. Objetivo: ideia GERAL. Scanning: procurar dado ESPECIFICO (nome, data, numero). Olho passa rapido ate achar. Aplicacao ENEM: skimming primeiro (entender sobre o que e), depois scanning (achar a resposta). Pre-reading: ler titulo + opcoes antes do texto.",
+      "body": "<h2>Introducao</h2><p><strong>Skimming e scanning</strong> sao as duas tecnicas mais poderosas para leitura rapida.</p><h2>Comparacao</h2><table><thead><tr><th>Skimming</th><th>Scanning</th></tr></thead><tbody><tr><td>Ideia geral</td><td>Dado especifico</td></tr><tr><td>Le titulo, subtitulos, 1a/ultima frase</td><td>Procura nome, data, numero</td></tr><tr><td>Responde: Sobre o que e?</td><td>Responde: Onde esta X?</td></tr></tbody></table><h2>Aplicacao no ENEM</h2><ol><li>Leia opcoes de resposta</li><li>Skim o texto (ideia geral)</li><li>Scan para achar a resposta</li></ol><h2>Resumo</h2><ul><li>Skim=geral. Scan=especifico.</li><li>ENEM: aplique nessa ordem</li></ul><h2>Curiosidade</h2><p>Nativos usam skimming e scanning o tempo todo - voce ja faz isso em <strong>portugues</strong> sem perceber!</p>",
+      "faq": [
+        {
+          "q": "Preciso ler tudo?",
+          "a": "NAO! Skim para entender o tema, scan para achar a resposta. Ler palavra por palavra desperdiça tempo e aumenta ansiedade."
+        },
+        {
+          "q": "Funciona mesmo?",
+          "a": "Sim! Pesquisas mostram que leitores eficientes NAO leem tudo. Usam pistas visuais (titulos, negritos, numeros) para focar no relevante."
+        },
+        {
+          "q": "Pre-reading?",
+          "a": "Antes de ler o texto: leia o titulo, veja imagens, leia as opcoes de resposta. Voce ja sabe O QUE procurar antes de comecar."
+        },
+        {
+          "q": "Dica para o ENEM?",
+          "a": "Comece pelas questoes mais faceis. Se uma e muito dificil, pule e volte depois. Tempo e recurso limitado."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Skimming busca",
+          "options": [
+            "Detalhe",
+            "Ideia geral",
+            "Traducao",
+            "Gramatica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Scanning busca",
+          "options": [
+            "Resumo",
+            "Ideia principal",
+            "Dado especifico",
+            "Opiniao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "No ENEM, leia PRIMEIRO",
+          "options": [
+            "O texto inteiro",
+            "As opcoes de resposta",
+            "A conclusao",
+            "Nada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pre-reading inclui ler o",
+          "options": [
+            "Texto todo",
+            "Titulo e opcoes",
+            "Rodape",
+            "Bibliografia"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Using Cognates and Context Clues",
+      "slug": "using-cognates-and-context-clues",
+      "desc": "Cognatos: palavras semelhantes entre ingles e portugues. Pistas contextuais: inferir significado de palavras desconhecidas.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Cognatos verdadeiros: ~30% do vocabulario ingles. Information=informacao, important=importante, culture=cultura. Pistas contextuais: definicao no texto, sinonimo proximo, antonimo, exemplo, logica do paragrafo. Estrategia: nao entre em panico com palavras desconhecidas. Use o CONTEXTO para inferir. No ENEM, o texto SEMPRE da pistas.",
+      "body": "<h2>Introducao</h2><p><strong>Cognatos e contexto</strong> sao suas melhores armas no ENEM de ingles.</p><h2>Cognatos Verdadeiros</h2><table><thead><tr><th>Ingles</th><th>Portugues</th></tr></thead><tbody><tr><td>information</td><td>informacao</td></tr><tr><td>important</td><td>importante</td></tr><tr><td>culture</td><td>cultura</td></tr><tr><td>education</td><td>educacao</td></tr><tr><td>technology</td><td>tecnologia</td></tr></tbody></table><h2>Pistas Contextuais</h2><ul><li>Definicao no proprio texto</li><li>Sinonimo ou antonimo proximo</li><li>Exemplo que esclarece</li><li>Logica do paragrafo</li></ul><h2>Resumo</h2><ul><li>30% de cognatos + contexto = compreensao</li><li>ENEM: nunca entre em panico</li></ul><h2>Curiosidade</h2><p>Ingles e portugues compartilham raizes latinas - por isso <strong>milhares</strong> de cognatos!</p>",
+      "faq": [
+        {
+          "q": "Quantos cognatos existem?",
+          "a": "Cerca de 30% das palavras em ingles tem cognato em portugues. Isso da uma base enorme para compreensao sem estudar vocabulario."
+        },
+        {
+          "q": "E os falsos cognatos?",
+          "a": "Sao poucos comparados aos verdadeiros (~200 comuns). Memorize os principais (actually, pretend, push, library) e o resto use contexto."
+        },
+        {
+          "q": "Pistas contextuais - como?",
+          "a": "Leia a frase toda. Se nao entendeu, leia o paragrafo. Busque: definicao, exemplo, sinonimo, antonimo, logica. A resposta quase sempre esta la."
+        },
+        {
+          "q": "Funciona para todas as questoes?",
+          "a": "Para a maioria! ENEM de ingles e LEITURA. Se voce entende o contexto geral e identifica cognatos, consegue responder a maioria."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Education' em portugues e",
+          "options": [
+            "Educacao",
+            "Edicao",
+            "Editora",
+            "Edifício"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Cognatos cobrem ~% do vocabulario",
+          "options": [
+            "10%",
+            "20%",
+            "30%",
+            "50%"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Pista contextual inclui",
+          "options": [
+            "Gramatica",
+            "Sinonimos no texto",
+            "Traducao",
+            "Dicionario"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Palavra desconhecida - primeiro passo",
+          "options": [
+            "Pular questao",
+            "Usar contexto",
+            "Traduzir literalmente",
+            "Chutar"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Genres for ENEM: Songs and Poems",
+      "slug": "genres-for-enem-songs-and-poems",
+      "desc": "Generos textuais no ENEM: musicas (lyrics) e poemas (poems). Interpretacao, figuras de linguagem, tematica, contexto cultural.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Musicas no ENEM: letras de artistas famosos (Bob Dylan, Beatles, Beyonce, etc). Interpretacao da mensagem, nao traducao. Figuras: metafora, ironia, repeticao. Poemas: ritmo, rima, imageria. Temas comuns: amor, protesto social, identidade, meio ambiente. Estrategia: titulo da musica da pista; refrao (chorus) contem a mensagem principal; repeticoes sao pistas.",
+      "body": "<h2>Introducao</h2><p><strong>Musicas e poemas</strong> sao generos frequentes no ENEM de ingles.</p><h2>Musicas</h2><ul><li>Titulo da pista: antecipa o tema</li><li>Refrao (chorus): mensagem principal</li><li>Figuras de linguagem: metafora, ironia</li></ul><h2>Poemas</h2><ul><li>Ritmo e rima criam efeito</li><li>Imageria: imagens visuais/sensoriais</li><li>Temas: amor, morte, natureza, protesto</li></ul><h2>Resumo</h2><ul><li>Foco na MENSAGEM, nao na traducao literal</li><li>ENEM: musicas sao presenca garantida</li></ul><h2>Curiosidade</h2><p>Bob Dylan ganhou o <strong>Nobel de Literatura</strong> (2016) - suas letras sao consideradas poesia!</p>",
+      "faq": [
+        {
+          "q": "Preciso conhecer a musica?",
+          "a": "NAO! O ENEM da o trecho necessario. Conhecer ajuda, mas nao e obrigatorio. Use skimming e cognatos normalmente."
+        },
+        {
+          "q": "Figuras de linguagem em ingles?",
+          "a": "Metafora (metaphor), ironia (irony), repeticao (repetition), personificacao (personification). Mesmas do portugues!"
+        },
+        {
+          "q": "Refrao e importante?",
+          "a": "SIM! O chorus se repete porque contem a MENSAGEM CENTRAL. Se entender so o refrao, ja tem uma boa pista da resposta."
+        },
+        {
+          "q": "Artistas que caem?",
+          "a": "Beatles, Bob Marley, Bob Dylan, Beyonce, John Lennon (Imagine), Michael Jackson. Mas pode ser qualquer um. O importante e interpretar."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Chorus e o",
+          "options": [
+            "Verso",
+            "Refrao",
+            "Titulo",
+            "Ponte"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "No ENEM, musicas pedem",
+          "options": [
+            "Traducao",
+            "Interpretacao",
+            "Cantoria",
+            "Gramatica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Bob Dylan ganhou o Nobel de",
+          "options": [
+            "Paz",
+            "Musica",
+            "Literatura",
+            "Ciencia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Metáfora em ingles e",
+          "options": [
+            "Metaphor",
+            "Simile",
+            "Irony",
+            "Pun"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Genres for ENEM: Ads, News, Cartoons",
+      "slug": "genres-for-enem-ads-news-cartoons",
+      "desc": "Generos no ENEM: anuncios (ads), noticias (news), cartuns (cartoons/comics). Estrutura, linguagem, interpretacao.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Anuncios (ads): linguagem persuasiva, imperativos, superlativos, imagens. Objetivo: vender produto/ideia. Noticias (news): quem, o que, quando, onde, por que (5W). Linguagem objetiva. Headline (manchete) contem essencia. Cartuns/Tirinhas: humor, critica social, ironia. Imagem + texto = significado. No ENEM: identifique o PROPOSITO do texto (informar, persuadir, entreter, criticar).",
+      "body": "<h2>Introducao</h2><p><strong>Ads, news e cartoons</strong> sao generos classicos do ENEM.</p><h2>Generos</h2><table><thead><tr><th>Genero</th><th>Linguagem</th><th>Objetivo</th></tr></thead><tbody><tr><td>Anuncio</td><td>Persuasiva, imperativos</td><td>Vender/convencer</td></tr><tr><td>Noticia</td><td>Objetiva, 5W</td><td>Informar</td></tr><tr><td>Cartum</td><td>Ironica, visual</td><td>Criticar/divertir</td></tr></tbody></table><h2>Dicas</h2><ul><li>Anuncio: procure o PRODUTO e o APELO</li><li>Noticia: leia a HEADLINE primeiro</li><li>Cartum: IMAGEM e tao importante quanto texto</li></ul><h2>Resumo</h2><ul><li>Identifique proposito: informar, persuadir, criticar</li><li>ENEM: cartuns e noticias sao muito frequentes</li></ul><h2>Curiosidade</h2><p>No ENEM, cartuns frequentemente trazem critica sobre <strong>meio ambiente</strong>, tecnologia e desigualdade!</p>",
+      "faq": [
+        {
+          "q": "Headline e importante?",
+          "a": "SIM! Na noticia, a headline resume TUDO. Se entender a headline, ja sabe o essencial. Comece por ela."
+        },
+        {
+          "q": "Cartum sem texto?",
+          "a": "Mesmo sem texto, a IMAGEM comunica. Analise expressoes faciais, cenario, simbolos. O humor vem da situacao visual."
+        },
+        {
+          "q": "Anuncio - o que buscar?",
+          "a": "1) Produto/servico. 2) Publico-alvo. 3) Estrategia persuasiva (emocao, humor, autoridade, urgencia). 4) Slogan."
+        },
+        {
+          "q": "5W da noticia?",
+          "a": "Who (quem), What (o que), When (quando), Where (onde), Why (por que). Todo texto jornalistico responde essas 5 perguntas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Anuncio usa linguagem",
+          "options": [
+            "Objetiva",
+            "Persuasiva",
+            "Cientifica",
+            "Poetica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na noticia, leia primeiro a",
+          "options": [
+            "Conclusao",
+            "Headline",
+            "Bibliografia",
+            "Legenda"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cartuns usam",
+          "options": [
+            "Ironia",
+            "Estatisticas",
+            "Formulas",
+            "Citacoes"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "5W inclui",
+          "options": [
+            "Who, What, When, Where, Why",
+            "Who, Which, What, When, Will",
+            "Where, Why, Who, With, While",
+            "None"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Cultural Aspects: English-Speaking World",
+      "slug": "cultural-aspects-english-speaking-world",
+      "desc": "Aspectos culturais do mundo anglofonos: EUA, UK, Australia, India, Africa do Sul. Variedades do ingles. Imperialismo linguístico.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Ingles: lingua global (~1,5 bilhao de falantes). Variedades: American English, British English, Australian, Indian, South African. Diferencas: vocabulario (truck vs lorry), ortografia (color vs colour), pronuncia. Imperialismo linguistico: ingles como lingua dominante pode suprimir linguas locais. English as a Lingua Franca (ELF): ingles como ferramenta de comunicacao entre nao-nativos. Multiculturalismo nos paises anglofonos.",
+      "body": "<h2>Introducao</h2><p>O <strong>ingles</strong> e falado em mais de 50 paises com enorme diversidade cultural.</p><h2>Variedades</h2><table><thead><tr><th>Aspecto</th><th>American</th><th>British</th></tr></thead><tbody><tr><td>Caminhao</td><td>truck</td><td>lorry</td></tr><tr><td>Apartamento</td><td>apartment</td><td>flat</td></tr><tr><td>Cor</td><td>color</td><td>colour</td></tr><tr><td>Tenis</td><td>sneakers</td><td>trainers</td></tr></tbody></table><h2>Ingles Global</h2><ul><li>~1,5 bilhao de falantes (maioria nao-nativos!)</li><li>English as a Lingua Franca</li><li>Debate: imperialismo linguistico</li></ul><h2>Resumo</h2><ul><li>Ingles e diverso, nao monolitico</li><li>ENEM: aspectos culturais, variedades</li></ul><h2>Curiosidade</h2><p>Mais pessoas falam ingles como <strong>segunda lingua</strong> do que como primeira! Nativos sao MINORIA!</p>",
+      "faq": [
+        {
+          "q": "American vs British?",
+          "a": "Vocabulario, ortografia e pronuncia diferentes. Ambos sao 'corretos'. ENEM aceita qualquer variedade."
+        },
+        {
+          "q": "Imperialismo linguistico?",
+          "a": "Debate: ingles como lingua global pode marginalizar linguas locais. Mas tambem conecta pessoas de diferentes culturas."
+        },
+        {
+          "q": "Ingles na India?",
+          "a": "Lingua oficial junto com hindi. Heranca colonial britanica. Indian English tem vocabulario e pronuncia proprios. ~125 milhoes de falantes."
+        },
+        {
+          "q": "Preciso falar como nativo?",
+          "a": "NAO! Sotaque brasileiro e valido. English as a Lingua Franca aceita variacoes. O importante e comunicar, nao imitar nativo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Truck (US) = ___ (UK)",
+          "options": [
+            "Car",
+            "Lorry",
+            "Van",
+            "Bus"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Falantes nativos sao",
+          "options": [
+            "Maioria",
+            "Minoria",
+            "50%",
+            "Todos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Colour e ortografia",
+          "options": [
+            "Americana",
+            "Britanica",
+            "Australiana",
+            "Indiana"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ELF significa English as a",
+          "options": [
+            "Local Form",
+            "Lingua Franca",
+            "Learning Framework",
+            "Literary Form"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Interpreting Multimodal Texts",
+      "slug": "interpreting-multimodal-texts",
+      "desc": "Textos multimodais: imagem + texto + graficos. Infograficos, memes, propagandas. Interpretacao integrada. Letramento visual.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Textos multimodais: combinam multiplas linguagens (verbal, visual, sonora). Infograficos: dados + design. Memes: imagem + texto humoristico/critico. Propagandas: imagem + slogan + persuasao. Letramento visual: interpretar imagens como 'texto'. No ENEM: integre TODAS as linguagens para responder. Imagem nao e decoracao - e INFORMACAO.",
+      "body": "<h2>Introducao</h2><p><strong>Textos multimodais</strong> combinam palavras, imagens e dados para comunicar.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Elementos</th></tr></thead><tbody><tr><td>Infografico</td><td>Dados + graficos + texto</td></tr><tr><td>Meme</td><td>Imagem + texto humoristico</td></tr><tr><td>Propaganda</td><td>Imagem + slogan + apelo</td></tr><tr><td>Tirinha</td><td>Sequencia visual + dialogos</td></tr></tbody></table><h2>Como interpretar</h2><ol><li>Observe a IMAGEM primeiro</li><li>Leia o TEXTO verbal</li><li>INTEGRE os dois para o significado completo</li></ol><h2>Resumo</h2><ul><li>Imagem + texto = significado completo</li><li>ENEM: textos multimodais sao frequentes</li></ul><h2>Curiosidade</h2><p><strong>Memes</strong> sao a forma mais pura de texto multimodal: imagem + texto criam significado que nenhum dos dois teria sozinho!</p>",
+      "faq": [
+        {
+          "q": "Imagem conta no ENEM?",
+          "a": "SIM! Muitas questoes dependem da imagem. Graficos, charges, fotos. Ignora-las e perder informacao crucial."
+        },
+        {
+          "q": "Memes no ENEM?",
+          "a": "Ja apareceram! Como exemplo de comunicacao digital, genero textual, intertextualidade. Memes sao textos multimodais legitimos."
+        },
+        {
+          "q": "Letramento visual?",
+          "a": "Saber 'ler' imagens: cores, expressoes, composicao, simbolos. Uma foto de crianca chorendo em zona de guerra COMUNICA sem palavras."
+        },
+        {
+          "q": "Infografico - como interpretar?",
+          "a": "Leia titulo, legenda, eixos. Identifique tendencias (subindo? descendo?). Integre dados com o texto que acompanha."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Texto multimodal combina",
+          "options": [
+            "So texto",
+            "So imagem",
+            "Texto + imagem + dados",
+            "So audio"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "No ENEM, imagem e",
+          "options": [
+            "Decoracao",
+            "Informacao",
+            "Irrelevante",
+            "Opcional"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Meme e texto",
+          "options": [
+            "Monolingue",
+            "Multimodal",
+            "Cientifico",
+            "Formal"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Infografico combina",
+          "options": [
+            "Poesia e musica",
+            "Dados e design",
+            "Som e video",
+            "Nada"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Common Mistakes by Brazilian Students",
+      "slug": "common-mistakes-by-brazilian-students",
+      "desc": "Erros comuns de brasileiros em ingles: falsos cognatos, 's' do plural vs verbo, preposicoes, articles (a/an/the), pronuncia.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Erros comuns: 1) Falsos cognatos (actually, pretend). 2) Esquecimento do 's' na 3a pessoa (She likes, nao She like). 3) Preposicoes erradas (depend ON, interested IN). 4) Artigos (a/an/the): ingles usa mais que portugues. 5) Traduzir literalmente ('make a party' deveria ser 'throw a party'). 6) Pronuncia: 'th' nao existe em PT (think, this). 7) Confundir 'people is' (correto: 'people are').",
+      "body": "<h2>Introducao</h2><p>Conhecer os <strong>erros comuns</strong> ajuda a evita-los!</p><h2>Top Erros</h2><table><thead><tr><th>Erro</th><th>Correto</th></tr></thead><tbody><tr><td>She like</td><td>She likeS</td></tr><tr><td>Depend of</td><td>Depend ON</td></tr><tr><td>Make a party</td><td>Throw/have a party</td></tr><tr><td>People is</td><td>People ARE</td></tr><tr><td>Informations</td><td>Information (incontavel)</td></tr><tr><td>I have 20 years</td><td>I am 20 years old</td></tr></tbody></table><h2>Resumo</h2><ul><li>Nao traduza literalmente!</li><li>ENEM: erros de interpretacao por traducao direta</li></ul><h2>Curiosidade</h2><p>'<strong>I have 20 years</strong>' e um dos erros mais comuns: em ingles a idade usa 'am', nao 'have'!</p>",
+      "faq": [
+        {
+          "q": "Por que erramos preposicoes?",
+          "a": "Cada lingua tem suas preposicoes. 'Depender DE' em PT = 'depend ON' em EN. Nao ha logica - precisa memorizar as combinacoes."
+        },
+        {
+          "q": "Information e incontavel?",
+          "a": "Sim! 'Information' nunca leva 's'. Assim como news, advice, furniture, homework. 'I need information' (nao informations)."
+        },
+        {
+          "q": "People are vs is?",
+          "a": "People = pessoas (plural). 'People ARE happy' (nao 'People is'). Excecao: 'a people' = um povo (entidade unica)."
+        },
+        {
+          "q": "Como corrigir?",
+          "a": "Pratique! Leia, escreva, fale. Apps como Duolingo ajudam com repeticao. Errar faz parte - o importante e aprender com o erro."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "She ___ pizza (gostar)",
+          "options": [
+            "like",
+            "likes",
+            "is like",
+            "liking"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "I ___ 20 years old",
+          "options": [
+            "have",
+            "am",
+            "has",
+            "is"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Depend ___",
+          "options": [
+            "of",
+            "from",
+            "on",
+            "at"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'Informations' esta",
+          "options": [
+            "Correto",
+            "Errado",
+            "Opcional",
+            "Formal"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

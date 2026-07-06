@@ -1,0 +1,865 @@
+{
+  "subject": "Português",
+  "slug": "9ano-portugues",
+  "level": "Fundamental 2",
+  "grade": "9º ano",
+  "color": "var(--portugues)",
+  "icon": "book",
+  "articles": [
+    {
+      "title": "Revisão: Análise Sintática Completa",
+      "slug": "revisao-analise-sintatica-completa",
+      "desc": "Revisão completa de análise sintática: termos essenciais (sujeito, predicado), integrantes (OD, OI, CN, agente da passiva) e acessórios (adjunto adnominal, adjunto adverbial, aposto, vocativo).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Termos essenciais: sujeito + predicado. Integrantes: OD (sem prep.), OI (com prep.), CN (completa nome), agente da passiva (pelo/por). Acessórios: adjunto adnominal (modifica nome), adjunto adverbial (modifica verbo/adj/adv), aposto (explica), vocativo (chama). Método: 1) Achar o verbo. 2) Perguntar 'quem?' = sujeito. 3) Classificar predicado. 4) Identificar complementos.",
+      "body": "<h2>Introdução</h2>\n<p>A <strong>análise sintática</strong> consiste em identificar a <strong>função de cada termo</strong> dentro da oração. É o conteúdo mais completo e mais cobrado de gramática em vestibulares. Esta revisão organiza todos os termos em um panorama completo.</p>\n\n<h2>Termos Essenciais</h2>\n<table>\n<thead><tr><th>Termo</th><th>Função</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Sujeito</strong></td><td>De quem se fala</td><td><strong>O aluno</strong> estudou.</td></tr>\n<tr><td><strong>Predicado</strong></td><td>O que se declara</td><td>O aluno <strong>estudou muito</strong>.</td></tr>\n</tbody>\n</table>\n\n<h2>Termos Integrantes</h2>\n<table>\n<thead><tr><th>Termo</th><th>Função</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>OD</strong></td><td>Complemento sem preposição</td><td>Comprei <strong>o livro</strong>.</td></tr>\n<tr><td><strong>OI</strong></td><td>Complemento com preposição</td><td>Gosto <strong>de música</strong>.</td></tr>\n<tr><td><strong>CN</strong></td><td>Completa nome com preposição</td><td>Tenho orgulho <strong>de você</strong>.</td></tr>\n<tr><td><strong>Agente da passiva</strong></td><td>Quem pratica na passiva</td><td>Foi lido <strong>pelo aluno</strong>.</td></tr>\n</tbody>\n</table>\n\n<h2>Termos Acessórios</h2>\n<table>\n<thead><tr><th>Termo</th><th>Função</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Adj. Adnominal</strong></td><td>Modifica substantivo</td><td>O <strong>bom</strong> aluno. / Casa <strong>de pedra</strong>.</td></tr>\n<tr><td><strong>Adj. Adverbial</strong></td><td>Modifica verbo/adj/adv</td><td>Estudou <strong>muito</strong>. / Saiu <strong>ontem</strong>.</td></tr>\n<tr><td><strong>Aposto</strong></td><td>Explica/resume um termo</td><td><strong>São Paulo, a maior cidade</strong>, ...</td></tr>\n<tr><td><strong>Vocativo</strong></td><td>Chama alguém</td><td><strong>Maria</strong>, venha cá!</td></tr>\n</tbody>\n</table>\n\n<h2>Método de Análise</h2>\n<ol>\n<li><strong>Ache o verbo</strong> (núcleo da oração)</li>\n<li>Pergunte <strong>\"quem?\"</strong> = sujeito</li>\n<li>Classifique o <strong>predicado</strong> (verbal, nominal, verbo-nominal)</li>\n<li>Identifique <strong>complementos</strong> (OD, OI, CN)</li>\n<li>Os demais são <strong>acessórios</strong></li>\n</ol>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Essenciais:</strong> sujeito + predicado.</li>\n<li>✅ <strong>Integrantes:</strong> OD, OI, CN, agente da passiva.</li>\n<li>✅ <strong>Acessórios:</strong> adj. adnominal, adj. adverbial, aposto, vocativo.</li>\n<li>⚠️ <strong>Método:</strong> Verbo → Sujeito → Predicado → Complementos → Acessórios.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A análise sintática como a conhecemos foi sistematizada no Brasil pelo gramático <strong>Rocha Lima</strong> na <em>Gramática Normativa da Língua Portuguesa</em> (1957). Antes disso, cada gramático tinha sua própria classificação, gerando muita confusão. A padronização tornou o estudo mais organizado!</p>",
+      "faq": [
+        {
+          "q": "Quais são os termos essenciais da oração?",
+          "a": "Sujeito (de quem se fala) e predicado (o que se declara). Toda oração precisa de pelo menos um predicado. O sujeito pode ser inexistente em verbos impessoais (Chove)."
+        },
+        {
+          "q": "Qual a diferença entre termos integrantes e acessórios?",
+          "a": "Integrantes completam o sentido de verbos ou nomes (OD, OI, CN) — são obrigatórios. Acessórios caracterizam ou especificam termos (adj. adnominal, adj. adverbial, aposto) — podem ser retirados sem prejudicar a estrutura."
+        },
+        {
+          "q": "Qual o método para analisar sintaticamente uma oração?",
+          "a": "1) Encontre o verbo. 2) Pergunte 'quem?' para achar o sujeito. 3) Classifique o predicado. 4) Identifique complementos (OD, OI, CN). 5) Os termos restantes são acessórios (adjuntos, aposto, vocativo)."
+        },
+        {
+          "q": "Vocativo faz parte da oração?",
+          "a": "Tecnicamente, o vocativo é um termo à parte — não se liga sintaticamente ao sujeito nem ao predicado. Ele apenas 'chama' alguém: 'Maria, venha cá!' — 'Maria' está isolado da oração 'venha cá'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Os termos essenciais da oração são:",
+          "options": [
+            "OD e OI",
+            "Sujeito e predicado",
+            "Adjunto e aposto",
+            "Vocativo e complemento"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "OD, OI, CN e agente da passiva são termos:",
+          "options": [
+            "Essenciais",
+            "Integrantes",
+            "Acessórios",
+            "Independentes"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O primeiro passo da análise sintática é:",
+          "options": [
+            "Encontrar o sujeito",
+            "Achar o verbo",
+            "Classificar o predicado",
+            "Identificar adjuntos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Adjunto adnominal e adjunto adverbial são termos:",
+          "options": [
+            "Essenciais",
+            "Integrantes",
+            "Acessórios",
+            "Vocativos"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Revisão: Período Composto",
+      "slug": "revisao-periodo-composto",
+      "desc": "Revisão do período composto: coordenação (5 tipos de sindéticas + assindéticas) e subordinação (substantivas, adjetivas, adverbiais). Mapa completo das orações.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Coordenadas: assindéticas (sem conjunção) + 5 sindéticas (aditiva, adversativa, alternativa, conclusiva, explicativa). Substantivas: 6 tipos (subjetiva, OD, OI, CN, predicativa, apositiva) — teste do 'ISSO'. Adjetivas: restritiva (sem vírgula) e explicativa (com vírgula). Adverbiais: 9 tipos (causal, condicional, temporal, concessiva, comparativa, conformativa, consecutiva, final, proporcional).",
+      "body": "<h2>Introdução</h2>\n<p>O <strong>período composto</strong> é formado por 2 ou mais orações. Pode ser por <strong>coordenação</strong> (orações independentes) ou <strong>subordinação</strong> (oração dependente + principal). Esta revisão mapeia todas as classificações.</p>\n\n<h2>Coordenação</h2>\n<h3>Assindéticas</h3>\n<p>Sem conjunção: \"Cheguei, vi, venci.\"</p>\n<h3>Sindéticas (5 tipos)</h3>\n<table>\n<thead><tr><th>Tipo</th><th>Conjunção</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td>Aditiva</td><td>e, nem</td><td>Estudou <strong>e</strong> passou.</td></tr>\n<tr><td>Adversativa</td><td>mas, porém</td><td>Estudou, <strong>mas</strong> não passou.</td></tr>\n<tr><td>Alternativa</td><td>ou, ora...ora</td><td>Estude <strong>ou</strong> reprove.</td></tr>\n<tr><td>Conclusiva</td><td>logo, portanto</td><td>Estudou, <strong>logo</strong> passou.</td></tr>\n<tr><td>Explicativa</td><td>pois (antes), porque</td><td>Estude, <strong>pois</strong> é importante.</td></tr>\n</tbody>\n</table>\n\n<h2>Subordinação</h2>\n<h3>Substantivas (6 tipos)</h3>\n<p>Função de substantivo. Teste: substitua por <strong>\"ISSO\"</strong>.</p>\n<p>Subjetiva, objetiva direta, objetiva indireta, completiva nominal, predicativa, apositiva.</p>\n\n<h3>Adjetivas (2 tipos)</h3>\n<p>Função de adjetivo. Introduzidas por pronomes relativos.</p>\n<ul>\n<li><strong>Restritiva</strong> (sem vírgula): delimita</li>\n<li><strong>Explicativa</strong> (com vírgula): acrescenta</li>\n</ul>\n\n<h3>Adverbiais (9 tipos)</h3>\n<p>Função de advérbio: causal, condicional, temporal, concessiva, comparativa, conformativa, consecutiva, final, proporcional.</p>\n\n<h2>Mapa Completo</h2>\n<table>\n<thead><tr><th>Tipo</th><th>Subtipos</th><th>Quantidade</th></tr></thead>\n<tbody>\n<tr><td>Coordenadas</td><td>Assindéticas + 5 sindéticas</td><td>6</td></tr>\n<tr><td>Sub. Substantivas</td><td>subj, OD, OI, CN, pred, apos</td><td>6</td></tr>\n<tr><td>Sub. Adjetivas</td><td>restritiva, explicativa</td><td>2</td></tr>\n<tr><td>Sub. Adverbiais</td><td>causal, cond, temp, conc, comp, conf, consec, final, prop</td><td>9</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Coordenadas:</strong> independentes (6 tipos).</li>\n<li>✅ <strong>Substantivas:</strong> teste do \"ISSO\" (6 tipos).</li>\n<li>✅ <strong>Adjetivas:</strong> vírgula define (2 tipos).</li>\n<li>✅ <strong>Adverbiais:</strong> circunstância (9 tipos).</li>\n<li>⚠️ Total: <strong>23 classificações</strong> de orações. Domine a conjunção para classificar.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>Ao todo, existem <strong>23 classificações</strong> possíveis de orações no período composto. Parece muito, mas a chave é identificar a <strong>conjunção</strong>: ela determina o tipo da oração. Dominar as conjunções é dominar o período composto!</p>",
+      "faq": [
+        {
+          "q": "Quantos tipos de orações existem no período composto?",
+          "a": "23 ao todo: 6 coordenadas (assindéticas + 5 sindéticas), 6 substantivas, 2 adjetivas e 9 adverbiais. A chave para classificar é identificar a conjunção ou pronome relativo que introduz a oração."
+        },
+        {
+          "q": "Como diferenciar coordenada de subordinada?",
+          "a": "Coordenada é independente (funciona sozinha). Subordinada depende da principal para ter sentido. 'Estudei e passei' (coordenação — ambas funcionam sozinhas). 'Espero que passe' (subordinação — 'que passe' não funciona sozinha)."
+        },
+        {
+          "q": "Qual o teste para substantivas?",
+          "a": "Substitua a oração por 'ISSO'. Se funcionar, é substantiva: 'Espero ISSO' = objetiva direta. 'ISSO é necessário' = subjetiva. 'A verdade é ISSO' = predicativa."
+        },
+        {
+          "q": "Como diferenciar adjetiva restritiva de explicativa?",
+          "a": "Pela vírgula! Restritiva (sem vírgula) delimita: 'Os alunos que estudaram passaram' (só esses). Explicativa (com vírgula) acrescenta: 'Os alunos, que estudaram, passaram' (todos)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Ao todo, quantas classificações de orações existem?",
+          "options": [
+            "10",
+            "15",
+            "23",
+            "30"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O teste do 'ISSO' identifica orações:",
+          "options": [
+            "Coordenadas",
+            "Adjetivas",
+            "Adverbiais",
+            "Substantivas"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "As adjetivas são introduzidas por:",
+          "options": [
+            "Conjunções coordenativas",
+            "Conjunções integrantes",
+            "Pronomes relativos",
+            "Preposições"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "As orações adverbiais expressam:",
+          "options": [
+            "Função de substantivo",
+            "Função de adjetivo",
+            "Circunstância",
+            "Coordenação"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Pontuação Avançada",
+      "slug": "pontuacao-avancada",
+      "desc": "Pontuação avançada: ponto e vírgula, dois pontos, travessão, parênteses, reticências. Usos na separação de orações coordenadas, citações, enumerações e discurso direto.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Ponto e vírgula: separa orações coordenadas longas e itens de enumeração complexa. Dois pontos: introduz citação, enumeração, explicação ou discurso direto. Travessão: marca discurso direto, aposto enfático ou intercalação. Parênteses: inserem informação acessória (explicação, data, sigla). Reticências: indicam interrupção, suspense ou continuidade.",
+      "body": "<h2>Introdução</h2>\n<p>Além da vírgula e do ponto final, outros sinais de <strong>pontuação</strong> são essenciais para organizar o texto e criar efeitos de sentido. Dominar o uso do ponto e vírgula, dois pontos, travessão, parênteses e reticências diferencia um texto mediano de um texto excelente.</p>\n\n<h2>Ponto e Vírgula (;)</h2>\n<ul>\n<li>Separa <strong>orações coordenadas longas</strong>: \"Estudei muito para a prova de história<strong>;</strong> porém, não consegui memorizar todas as datas.\"</li>\n<li>Separa <strong>itens de enumeração complexa</strong>: \"Compareçam: os alunos do 6º ano<strong>;</strong> os professores de Português<strong>;</strong> os pais ou responsáveis.\"</li>\n</ul>\n\n<h2>Dois Pontos (:)</h2>\n<ul>\n<li><strong>Citação:</strong> \"O professor disse<strong>:</strong> 'Estudem!'\"</li>\n<li><strong>Enumeração:</strong> \"Comprei tudo<strong>:</strong> café, leite, pão e manteiga.\"</li>\n<li><strong>Explicação:</strong> \"Havia um problema<strong>:</strong> ninguém trouxe o material.\"</li>\n<li><strong>Discurso direto:</strong> introduz a fala do personagem</li>\n</ul>\n\n<h2>Travessão (—)</h2>\n<ul>\n<li><strong>Discurso direto:</strong> \"<strong>—</strong> Preciso estudar mais — disse o aluno.\"</li>\n<li><strong>Aposto enfático:</strong> \"A Amazônia <strong>—</strong> maior floresta tropical <strong>—</strong> precisa de proteção.\"</li>\n<li><strong>Intercalação:</strong> similar aos parênteses, mas com mais destaque</li>\n</ul>\n\n<h2>Parênteses ( )</h2>\n<ul>\n<li><strong>Informação acessória:</strong> \"O Brasil <strong>(</strong>maior país da América do Sul<strong>)</strong> tem 210 milhões de habitantes.\"</li>\n<li><strong>Siglas:</strong> \"Base Nacional Comum Curricular <strong>(</strong>BNCC<strong>)</strong>\"</li>\n<li><strong>Datas:</strong> \"Machado de Assis <strong>(</strong>1839-1908<strong>)</strong>\"</li>\n</ul>\n\n<h2>Reticências (...)</h2>\n<ul>\n<li><strong>Interrupção:</strong> \"Se eu pudesse...\"</li>\n<li><strong>Suspense:</strong> \"E então... ele apareceu!\"</li>\n<li><strong>Continuidade:</strong> \"Comprou frutas, verduras, legumes...\"</li>\n</ul>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Ponto e vírgula:</strong> orações longas e enumerações complexas.</li>\n<li>✅ <strong>Dois pontos:</strong> citação, enumeração, explicação, discurso direto.</li>\n<li>✅ <strong>Travessão:</strong> discurso direto, aposto enfático, intercalação.</li>\n<li>✅ <strong>Parênteses:</strong> informação acessória, siglas, datas.</li>\n<li>✅ <strong>Reticências:</strong> interrupção, suspense, continuidade.</li>\n<li>⚠️ <strong>Travessão × Parênteses:</strong> ambos isolam, mas o travessão dá mais destaque.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>As reticências sempre são <strong>três pontos</strong> (nunca dois nem quatro). Na era digital, muitas pessoas usam \"......\" (6 pontos) para ênfase — mas na norma culta, são apenas 3. Em textos literários, as reticências criam efeito de suspense e são um recurso poderoso de estilo!</p>",
+      "faq": [
+        {
+          "q": "Quando usar ponto e vírgula?",
+          "a": "Para separar orações coordenadas longas com conjunção adversativa: 'Estudei muito; porém, não passei'. E para itens de enumeração complexa quando já há vírgulas internas. É um meio-termo entre vírgula e ponto."
+        },
+        {
+          "q": "Quais as funções dos dois pontos?",
+          "a": "Introduzir citação ('O autor disse: ...'), enumeração ('Comprei: café, leite, pão'), explicação ('Havia um problema: faltou material') e discurso direto. Sempre indicam que algo importante vem depois."
+        },
+        {
+          "q": "Qual a diferença entre travessão e parênteses?",
+          "a": "Ambos isolam informações intercaladas, mas o travessão dá mais DESTAQUE à informação, enquanto os parênteses a minimizam. 'A Amazônia — a maior floresta — precisa de proteção' (destaque). 'O Brasil (210 milhões de hab.) é grande' (informação secundária)."
+        },
+        {
+          "q": "Reticências sempre são 3 pontos?",
+          "a": "Sim! Na norma culta, reticências são sempre 3 pontos, sem espaço entre eles: '...' Usar mais pontos (como '.....' ou '......') é informal e incorreto em textos formais."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O ponto e vírgula é usado para:",
+          "options": [
+            "Encerrar frase",
+            "Separar orações longas e enumerações complexas",
+            "Introduzir citação",
+            "Marcar discurso direto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Os dois pontos introduzem:",
+          "options": [
+            "Apenas citações",
+            "Citação, enumeração, explicação e discurso direto",
+            "Apenas enumerações",
+            "Apenas discurso direto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O travessão se diferencia dos parênteses porque:",
+          "options": [
+            "São a mesma coisa",
+            "O travessão dá mais destaque",
+            "Os parênteses dão mais destaque",
+            "O travessão é proibido"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Reticências indicam:",
+          "options": [
+            "Fim de frase",
+            "Interrupção, suspense ou continuidade",
+            "Erro gramatical",
+            "Citação"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Colocação Pronominal",
+      "slug": "colocacao-pronominal",
+      "desc": "Colocação pronominal: próclise (antes do verbo), mesóclise (no meio) e ênclise (depois). Regras de atração: palavras negativas, conjunções subordinativas e pronomes relativos atraem o pronome.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "3 posições: Próclise (antes): obrigatória com negação (Não me diga), conjunções (Quando se fala), pronomes relativos (que me disse). Mesóclise (meio): futuro formal (Dir-me-á, Falar-se-ia). Ênclise (depois): início de frase (Diga-me), imperativo (Sente-se), gerúndio (Fazendo-se). NUNCA iniciar frase com pronome oblíquo (Me diga ❌).",
+      "body": "<h2>Introdução</h2>\n<p>Colocação pronominal: próclise (antes do verbo), mesóclise (no meio) e ênclise (depois). Regras de atração: palavras negativas, conjunções subordinativas e pronomes relativos atraem o pronome.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>3 posições: Próclise (antes): obrigatória com negação (Não me diga), conjunções (Quando se fala), pronomes relativos (que me disse). Mesóclise (meio): futuro formal (Dir-me-á, Falar-se-ia). Ênclise (depois): início de frase (Diga-me), imperativo (Sente-se), gerúndio (Fazendo-se). NUNCA iniciar frase com pronome oblíquo (Me diga ❌).</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Colocação Pronominal?",
+          "a": "3 posições: Próclise (antes): obrigatória com negação (Não me diga), conjunções (Quando se fala), pronomes relativos (que me disse). Mesóclise (meio): futuro formal (Dir-me-á, Falar-se-ia). Ênclise (depois): início de frase (Diga-me), imperativo (Sente-se), gerúndio (Fazendo-se). NUNCA iniciar frase"
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Colocação Pronominal?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Biologia",
+            "Matemática",
+            "Literatura",
+            "Colocação Pronominal"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Literatura",
+            "Matemática",
+            "Biologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Concordância Nominal Avançada",
+      "slug": "concordancia-nominal-avancada",
+      "desc": "Concordância nominal: adjetivo concorda com substantivo em gênero e número. Regras especiais: adjetivo posposto a dois substantivos, 'é proibido/é necessário', 'bastante', 'meio', 'anexo', 'obrigado'.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Regra: adjetivo concorda com substantivo. Adj. posposto a 2 subst.: plural ou concorda com mais próximo. 'É proibido/necessário': invariável sem artigo (É proibido entrada) / variável com artigo (É proibida a entrada). 'Bastante': adj.=variável (bastantes alunos), adv.=invariável (estudou bastante). 'Meio': adj.=variável (meia hora), adv.=invariável (meio cansada). 'Anexo': variável (segue anexa a lista). 'Obrigado': variável (ela disse obrigadA).",
+      "body": "<h2>Introdução</h2>\n<p>Concordância nominal: adjetivo concorda com substantivo em gênero e número. Regras especiais: adjetivo posposto a dois substantivos, 'é proibido/é necessário', 'bastante', 'meio', 'anexo', 'obrigado'.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>Regra: adjetivo concorda com substantivo. Adj. posposto a 2 subst.: plural ou concorda com mais próximo. 'É proibido/necessário': invariável sem artigo (É proibido entrada) / variável com artigo (É proibida a entrada). 'Bastante': adj.=variável (bastantes alunos), adv.=invariável (estudou bastante). 'Meio': adj.=variável (meia hora), adv.=invariável (meio cansada). 'Anexo': variável (segue anexa a lista). 'Obrigado': variável (ela disse obrigadA).</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Concordância Nominal Avançada?",
+          "a": "Regra: adjetivo concorda com substantivo. Adj. posposto a 2 subst.: plural ou concorda com mais próximo. 'É proibido/necessário': invariável sem artigo (É proibido entrada) / variável com artigo (É proibida a entrada). 'Bastante': adj.=variável (bastantes alunos), adv.=invariável (estudou bastante)."
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Concordância Nominal Avançada?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Filosofia",
+            "Química",
+            "Física",
+            "Concordância Nominal Avançada"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Física",
+            "Química",
+            "Filosofia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Regência Nominal e Verbal",
+      "slug": "regencia-nominal-e-verbal",
+      "desc": "Revisão de regência nominal (nomes que exigem preposição) e verbal (verbos + preposição). Casos mais cobrados: aversão a, capacidade de, assistir a, preferir X a Y.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Regência nominal: nomes + preposição obrigatória. Aversão A, capacidade DE, necessidade DE, orgulho DE, fiel A, contrário A, útil A/PARA. Regência verbal: assistir A (ver), aspirar A (desejar), obedecer A, preferir X A Y, pagar (coisa=VTD, pessoa=VTI), namorar Ø (VTD).",
+      "body": "<h2>Introdução</h2>\n<p>Revisão de regência nominal (nomes que exigem preposição) e verbal (verbos + preposição). Casos mais cobrados: aversão a, capacidade de, assistir a, preferir X a Y.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>Regência nominal: nomes + preposição obrigatória. Aversão A, capacidade DE, necessidade DE, orgulho DE, fiel A, contrário A, útil A/PARA. Regência verbal: assistir A (ver), aspirar A (desejar), obedecer A, preferir X A Y, pagar (coisa=VTD, pessoa=VTI), namorar Ø (VTD).</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Regência Nominal e Verbal?",
+          "a": "Regência nominal: nomes + preposição obrigatória. Aversão A, capacidade DE, necessidade DE, orgulho DE, fiel A, contrário A, útil A/PARA. Regência verbal: assistir A (ver), aspirar A (desejar), obedecer A, preferir X A Y, pagar (coisa=VTD, pessoa=VTI), namorar Ø (VTD)."
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Regência Nominal e Verbal?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Sociologia",
+            "Matemática",
+            "Regência Nominal e Verbal"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Sociologia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Dissertação-Argumentativa",
+      "slug": "generos-dissertacao-argumentativa",
+      "desc": "Dissertação argumentativa: gênero da redação do ENEM. Estrutura: introdução (tema + tese), desenvolvimento (argumentos), conclusão (proposta de intervenção). 5 competências avaliadas.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Estrutura: Introdução (contextualização + tese) → 2 parágrafos de Desenvolvimento (argumento + exemplo) → Conclusão com proposta de intervenção (ENEM: quem, o quê, como, meio, efeito). 5 competências: C1 (norma culta), C2 (compreensão do tema), C3 (argumentação), C4 (coesão), C5 (proposta de intervenção). Cada competência vale 200 pontos. Total: 1000.",
+      "body": "<h2>Introdução</h2>\n<p>Dissertação argumentativa: gênero da redação do ENEM. Estrutura: introdução (tema + tese), desenvolvimento (argumentos), conclusão (proposta de intervenção). 5 competências avaliadas.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>Estrutura: Introdução (contextualização + tese) → 2 parágrafos de Desenvolvimento (argumento + exemplo) → Conclusão com proposta de intervenção (ENEM: quem, o quê, como, meio, efeito). 5 competências: C1 (norma culta), C2 (compreensão do tema), C3 (argumentação), C4 (coesão), C5 (proposta de intervenção). Cada competência vale 200 pontos. Total: 1000.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Dissertação-Argumentativa?",
+          "a": "Estrutura: Introdução (contextualização + tese) → 2 parágrafos de Desenvolvimento (argumento + exemplo) → Conclusão com proposta de intervenção (ENEM: quem, o quê, como, meio, efeito). 5 competências: C1 (norma culta), C2 (compreensão do tema), C3 (argumentação), C4 (coesão), C5 (proposta de interve"
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Gêneros: Dissertação-Argumentativa?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Gêneros: Dissertação-Argumentativa",
+            "Literatura",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Literatura",
+            "Sociologia",
+            "Química"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Crônica Argumentativa",
+      "slug": "generos-cronica-argumentativa",
+      "desc": "Crônica argumentativa: texto curto, linguagem leve, que parte do cotidiano para defender uma tese. Diferença da crônica narrativa e da dissertação.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Crônica argumentativa: texto curto publicado em jornal/revista, linguagem leve e acessível, parte de fato cotidiano para defender opinião. Diferente da crônica narrativa (conta história) e da dissertação (formal, impessoal). Cronistas brasileiros: Rubem Braga, Luis Fernando Verissimo, Martha Medeiros, Antonio Prata.",
+      "body": "<h2>Introdução</h2>\n<p>Crônica argumentativa: texto curto, linguagem leve, que parte do cotidiano para defender uma tese. Diferença da crônica narrativa e da dissertação.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>Crônica argumentativa: texto curto publicado em jornal/revista, linguagem leve e acessível, parte de fato cotidiano para defender opinião. Diferente da crônica narrativa (conta história) e da dissertação (formal, impessoal). Cronistas brasileiros: Rubem Braga, Luis Fernando Verissimo, Martha Medeiros, Antonio Prata.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Gêneros: Crônica Argumentativa?",
+          "a": "Crônica argumentativa: texto curto publicado em jornal/revista, linguagem leve e acessível, parte de fato cotidiano para defender opinião. Diferente da crônica narrativa (conta história) e da dissertação (formal, impessoal). Cronistas brasileiros: Rubem Braga, Luis Fernando Verissimo, Martha Medeiro"
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Gêneros: Crônica Argumentativa?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Gêneros: Crônica Argumentativa",
+            "Física",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Física",
+            "Literatura",
+            "Geografia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Intertextualidade",
+      "slug": "intertextualidade",
+      "desc": "Intertextualidade: diálogo entre textos. Tipos: citação (referência direta), paráfrase (reescrita mantendo sentido), paródia (reescrita cômica/crítica), alusão (referência indireta), epígrafe.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Intertextualidade = diálogo entre textos. Citação: reprodução literal com aspas/referência. Paráfrase: reescrita com palavras próprias mantendo sentido. Paródia: reescrita cômica ou crítica (muda sentido para humor). Alusão: referência indireta sem citar. Epígrafe: citação no início de obra. Pastiche: imitação de estilo.",
+      "body": "<h2>Introdução</h2>\n<p>Intertextualidade: diálogo entre textos. Tipos: citação (referência direta), paráfrase (reescrita mantendo sentido), paródia (reescrita cômica/crítica), alusão (referência indireta), epígrafe.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>Intertextualidade = diálogo entre textos. Citação: reprodução literal com aspas/referência. Paráfrase: reescrita com palavras próprias mantendo sentido. Paródia: reescrita cômica ou crítica (muda sentido para humor). Alusão: referência indireta sem citar. Epígrafe: citação no início de obra. Pastiche: imitação de estilo.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Intertextualidade?",
+          "a": "Intertextualidade = diálogo entre textos. Citação: reprodução literal com aspas/referência. Paráfrase: reescrita com palavras próprias mantendo sentido. Paródia: reescrita cômica ou crítica (muda sentido para humor). Alusão: referência indireta sem citar. Epígrafe: citação no início de obra. Pastich"
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Intertextualidade?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Sociologia",
+            "Física",
+            "Matemática",
+            "Intertextualidade"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Matemática",
+            "Física",
+            "Sociologia"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Funções da Linguagem",
+      "slug": "funcoes-da-linguagem",
+      "desc": "6 funções da linguagem de Jakobson: referencial (informar), emotiva (emoção), conativa (persuadir), fática (canal), metalinguística (explicar código), poética (forma estética).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "6 funções (Jakobson): Referencial = informar (notícia, livro didático). Emotiva/Expressiva = emoção do emissor (1ª pessoa, interjeições). Conativa/Apelativa = persuadir receptor (publicidade, imperativo). Fática = testar canal (Alô? Entendeu?). Metalinguística = explicar o próprio código (dicionário, gramática). Poética = valorizar a forma (verso, rima, figuras).",
+      "body": "<h2>Introdução</h2>\n<p>6 funções da linguagem de Jakobson: referencial (informar), emotiva (emoção), conativa (persuadir), fática (canal), metalinguística (explicar código), poética (forma estética).</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>6 funções (Jakobson): Referencial = informar (notícia, livro didático). Emotiva/Expressiva = emoção do emissor (1ª pessoa, interjeições). Conativa/Apelativa = persuadir receptor (publicidade, imperativo). Fática = testar canal (Alô? Entendeu?). Metalinguística = explicar o próprio código (dicionário, gramática). Poética = valorizar a forma (verso, rima, figuras).</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Funções da Linguagem?",
+          "a": "6 funções (Jakobson): Referencial = informar (notícia, livro didático). Emotiva/Expressiva = emoção do emissor (1ª pessoa, interjeições). Conativa/Apelativa = persuadir receptor (publicidade, imperativo). Fática = testar canal (Alô? Entendeu?). Metalinguística = explicar o próprio código (dicionário"
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Funções da Linguagem?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Literatura",
+            "Sociologia",
+            "Funções da Linguagem",
+            "Geografia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Sociologia",
+            "Geografia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Interpretação de Textos Complexos (ENEM)",
+      "slug": "interpretacao-de-textos-complexos-enem",
+      "desc": "Estratégias para textos complexos do ENEM: multimodais, mistos, literários. Identificar tema, tese, argumentos. Diferença entre compreensão e interpretação. Distratores comuns.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Compreensão = informação explícita no texto. Interpretação = inferência a partir de pistas. Estratégias: 1) Leia todo o texto antes das alternativas. 2) Identifique tema e tese. 3) Atenção a textos multimodais (verbal + visual). 4) Cuidado com distratores (extrapolação, redução, inversão). No ENEM: 'depreende-se' e 'infere-se' = interpretação. 'Segundo o texto' = compreensão.",
+      "body": "<h2>Introdução</h2>\n<p>Estratégias para textos complexos do ENEM: multimodais, mistos, literários. Identificar tema, tese, argumentos. Diferença entre compreensão e interpretação. Distratores comuns.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>Compreensão = informação explícita no texto. Interpretação = inferência a partir de pistas. Estratégias: 1) Leia todo o texto antes das alternativas. 2) Identifique tema e tese. 3) Atenção a textos multimodais (verbal + visual). 4) Cuidado com distratores (extrapolação, redução, inversão). No ENEM: 'depreende-se' e 'infere-se' = interpretação. 'Segundo o texto' = compreensão.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Interpretação de Textos Complexos (ENEM)?",
+          "a": "Compreensão = informação explícita no texto. Interpretação = inferência a partir de pistas. Estratégias: 1) Leia todo o texto antes das alternativas. 2) Identifique tema e tese. 3) Atenção a textos multimodais (verbal + visual). 4) Cuidado com distratores (extrapolação, redução, inversão). No ENEM: "
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Interpretação de Textos Complexos (ENEM)?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Geografia",
+            "Biologia",
+            "Matemática",
+            "Interpretação de Textos Complexos (ENEM)"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Geografia",
+            "Biologia",
+            "Matemática"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Produção Textual: Revisão e Reescrita",
+      "slug": "producao-textual-revisao-e-reescrita",
+      "desc": "Processo de produção textual: planejamento, escrita, revisão e reescrita. Checklist de revisão: coesão, coerência, ortografia, concordância. Estratégias para melhorar a redação.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 9",
+      "grade": "9º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "4 etapas: 1) Planejamento (brainstorm, esquema, tese). 2) Escrita (rascunho seguindo estrutura). 3) Revisão (coesão, coerência, ortografia, concordância, pontuação). 4) Reescrita (versão final). Checklist: Tese clara? Argumentos sustentam? Conectivos variados? Concordância correta? Proposta completa (ENEM)? Leitura em voz alta ajuda a encontrar erros.",
+      "body": "<h2>Introdução</h2>\n<p>Processo de produção textual: planejamento, escrita, revisão e reescrita. Checklist de revisão: coesão, coerência, ortografia, concordância. Estratégias para melhorar a redação.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>4 etapas: 1) Planejamento (brainstorm, esquema, tese). 2) Escrita (rascunho seguindo estrutura). 3) Revisão (coesão, coerência, ortografia, concordância, pontuação). 4) Reescrita (versão final). Checklist: Tese clara? Argumentos sustentam? Conectivos variados? Concordância correta? Proposta completa (ENEM)? Leitura em voz alta ajuda a encontrar erros.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Produção Textual: Revisão e Reescrita?",
+          "a": "4 etapas: 1) Planejamento (brainstorm, esquema, tese). 2) Escrita (rascunho seguindo estrutura). 3) Revisão (coesão, coerência, ortografia, concordância, pontuação). 4) Reescrita (versão final). Checklist: Tese clara? Argumentos sustentam? Conectivos variados? Concordância correta? Proposta completa"
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Produção Textual: Revisão e Reescrita?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual é o tema principal abordado neste artigo?",
+          "options": [
+            "Produção Textual: Revisão e Reescrita",
+            "Geografia",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Este conteúdo é estudado em qual disciplina?",
+          "options": [
+            "Português",
+            "Geografia",
+            "Filosofia",
+            "Literatura"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Você concluiu a leitura completa deste artigo?",
+          "options": [
+            "Sim, li todo o conteúdo",
+            "Li apenas o resumo",
+            "Ainda não li",
+            "Pulei para o quiz"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "slug": "vicios-de-linguagem",
+      "title": "Vícios de Linguagem",
+      "desc": "Vícios de linguagem: pleonasmo vicioso (subir pra cima), cacofonia (boca dela), barbarismo (erro de pronúncia/grafia), solecismo (erro de sintaxe), ambiguidade, estrangeirismo.",
+      "grade": "9º ano",
+      "topic": "Estilística",
+      "body": "<h2>Introdução</h2>\n<p>Vícios de linguagem: pleonasmo vicioso (subir pra cima), cacofonia (boca dela), barbarismo (erro de pronúncia/grafia), solecismo (erro de sintaxe), ambiguidade, estrangeirismo.</p>\n<p>Este conteúdo é estudado no 9º ano e é frequentemente cobrado no ENEM e vestibulares, exigindo domínio avançado da língua portuguesa.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>Pleonasmo vicioso: redundância desnecessária (subir pra cima, entrar pra dentro, elo de ligação). Cacofonia: som desagradável (boca dela → 'cadela'). Barbarismo: erro de pronúncia (rúbrica ❌ → rubrica ✅) ou grafia (previlégio ❌ → privilégio ✅). Solecismo: erro de sintaxe (Fazem 3 anos ❌ → Faz 3 anos ✅). Ambiguidade: duplo sentido não intencional. Estrangeirismo: palavra estrangeira (delivery, feedback).</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Domine os conceitos-chave apresentados acima.</li>\n<li>✅ Pratique com questões de vestibulares anteriores.</li>\n<li>⚠️ Este tema aparece com frequência no ENEM e nos principais vestibulares.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A língua portuguesa é uma das mais ricas do mundo, com mais de 400.000 verbetes no dicionário Houaiss. Dominar seus mecanismos gramaticais e textuais é uma aventura que vale a pena!</p>",
+      "faq": [
+        {
+          "q": "O que é mais importante sobre Vícios de Linguagem?",
+          "a": "Pleonasmo vicioso: redundância desnecessária (subir pra cima, entrar pra dentro, elo de ligação). Cacofonia: som desagradável (boca dela → 'cadela'). Barbarismo: erro de pronúncia (rúbrica ❌ → rubrica ✅) ou grafia (previlégio ❌ → privilégio ✅). Solecismo: erro de sintaxe (Fazem 3 anos ❌ → Faz 3 anos"
+        },
+        {
+          "q": "Este conteúdo cai no ENEM?",
+          "a": "Sim! Este tema é frequentemente cobrado no ENEM e nos principais vestibulares, exigindo do estudante capacidade de análise e aplicação prática dos conceitos."
+        },
+        {
+          "q": "Qual a melhor forma de estudar Vícios de Linguagem?",
+          "a": "Pratique com questões de vestibulares anteriores, faça resumos e associe os conceitos a exemplos do cotidiano. A prática constante é essencial para fixar o conteúdo."
+        },
+        {
+          "q": "Em qual série este conteúdo é estudado?",
+          "a": "Este tema é estudado no 9º ano do Ensino Fundamental e revisado no Ensino Médio, sendo fundamental para a preparação para o ENEM e vestibulares."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual vício de linguagem está presente em 'subir pra cima'?",
+          "options": [
+            "Cacofonia",
+            "Pleonasmo vicioso",
+            "Barbarismo",
+            "Solecismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A expressão 'boca dela' pode gerar qual vício de linguagem?",
+          "options": [
+            "Ambiguidade",
+            "Estrangeirismo",
+            "Cacofonia",
+            "Pleonasmo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual alternativa contém um barbarismo?",
+          "options": [
+            "Ela foi ao mercado",
+            "A rúbrica é importante",
+            "Faz três anos que saí",
+            "A boca dela é linda"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Fazem três anos que me formei' apresenta qual vício?",
+          "options": [
+            "Cacofonia",
+            "Estrangeirismo",
+            "Pleonasmo",
+            "Solecismo"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Qual das alternativas é um exemplo de estrangeirismo?",
+          "options": [
+            "Elo de ligação",
+            "Feedback",
+            "Boca dela",
+            "Previlégio"
+          ],
+          "answer": 1
+        }
+      ],
+      "essential": "Pleonasmo vicioso: redundância desnecessária (subir pra cima, entrar pra dentro, elo de ligação). Cacofonia: som desagradável (boca dela → 'cadela'). Barbarismo: erro de pronúncia (rúbrica ❌ → rubrica ✅) ou grafia (previlégio ❌ → privilégio ✅). Solecismo: erro de sintaxe (Fazem 3 anos ❌ → Faz 3 anos ✅). Ambiguidade: duplo sentido não intencional. Estrangeirismo: palavra estrangeira (delivery, feedback).",
+      "reading_time": 7,
+      "difficulty": "Nível 9"
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "subject": "Sociologia",
+  "slug": "2ano-sociologia",
+  "level": "Fundamental 1",
+  "grade": "2º ano",
+  "color": "var(--sociologia)",
+  "icon": "users",
+  "articles": [
+    {
+      "title": "Estratificação Social: Castas, Estamentos e Classes",
+      "slug": "estratificacao-social-castas-estamentos-e-classes",
+      "desc": "Estratificacao: castas (fechada, hereditaria), estamentos (semi-aberta, feudal), classes (aberta, economica). Mobilidade social.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Estratificacao: divisao da sociedade em camadas (estratos). Castas (India): fechada, hereditaria, religiosa. Estamentos (feudal): semi-aberta (clero, nobreza, servos). Classes (capitalismo): economica, mobilidade possivel (mas limitada). Mobilidade social: ascendente (subir), descendente (cair), horizontal (mudar sem subir/cair). Fatores: educacao, heranca, raca, genero.",
+      "body": "<h2>Introducao</h2><p>A <strong>estratificacao social</strong> e a divisao da sociedade em camadas hierarquicas.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Mobilidade</th><th>Criterio</th><th>Exemplo</th></tr></thead><tbody><tr><td>Castas</td><td>Nenhuma</td><td>Religioso/hereditario</td><td>India</td></tr><tr><td>Estamentos</td><td>Muito pouca</td><td>Juridico/tradicao</td><td>Feudalismo</td></tr><tr><td>Classes</td><td>Possivel</td><td>Economico</td><td>Capitalismo</td></tr></tbody></table><h2>Mobilidade Social</h2><ul><li>Ascendente: pobre → classe media</li><li>Descendente: rico → pobre</li><li>Horizontal: muda sem subir/cair</li></ul><h2>Resumo</h2><ul><li>Castas=fechada. Estamentos=semi. Classes=aberta (em teoria).</li><li>ENEM: tipos de estratificacao, mobilidade</li></ul><h2>Curiosidade</h2><p>No Brasil, um negro pobre tem chance <strong>6x menor</strong> de ascender socialmente do que um branco rico. Meritocracia e mito?</p>",
+      "faq": [
+        {
+          "q": "Meritocracia existe?",
+          "a": "Debate! Em sociedades desiguais (Brasil), o ponto de partida e desigual. Quem nasce rico tem mais chances independente do merito. Meritocracia pura e ideal, nao realidade."
+        },
+        {
+          "q": "Castas ainda existem?",
+          "a": "Oficialmente abolidas na India (1950), mas socialmente persistem. Dalits (intocaveis) sofrem discriminacao. Castas sao a forma mais rigida de estratificacao."
+        },
+        {
+          "q": "Classe media e classe?",
+          "a": "Na sociologia, 'classe media' e imprecisa. Para Marx, so ha burguesia e proletariado. Weber acrescenta status e poder. Na pratica, classe media e grupo intermediario."
+        },
+        {
+          "q": "Mobilidade no Brasil?",
+          "a": "Baixa comparada a paises escandinavos. Educacao e o principal fator de ascensao. Mas raca, genero e regiao tambem determinam muito."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Castas sao estratificacao",
+          "options": [
+            "Aberta",
+            "Fechada",
+            "Semi-aberta",
+            "Flexivel"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Estamentos sao do periodo",
+          "options": [
+            "Antigo",
+            "Feudal",
+            "Moderno",
+            "Contemporaneo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mobilidade ascendente e",
+          "options": [
+            "Cair de classe",
+            "Subir de classe",
+            "Ficar igual",
+            "Mudar de pais"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Classes se definem por criterio",
+          "options": [
+            "Religioso",
+            "Juridico",
+            "Economico",
+            "Racial"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Desigualdade Social no Brasil",
+      "slug": "desigualdade-social-no-brasil",
+      "desc": "Desigualdade brasileira: renda, raca, genero, regiao. Indice de Gini. Pobreza e fome. Politicas publicas: Bolsa Familia, cotas.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Brasil: um dos paises mais desiguais do mundo. Gini ~0,53. Top 1% concentra ~50% da renda. Desigualdade racial: negros ganham ~60% do salario de brancos. Genero: mulheres ganham ~78% dos homens. Regional: NE e N mais pobres que SE e S. Causas: escravidao, concentracao fundiaria, educacao desigual. Politicas: Bolsa Familia, cotas raciais, SUS, educacao publica. Debate: redistribuicao vs crescimento.",
+      "body": "<h2>Introducao</h2><p>O <strong>Brasil</strong> e marcado por uma desigualdade social profunda e historica.</p><h2>Dados</h2><table><thead><tr><th>Indicador</th><th>Valor</th></tr></thead><tbody><tr><td>Gini</td><td>~0,53 (muito desigual)</td></tr><tr><td>Top 1%</td><td>~50% da renda</td></tr><tr><td>Gap racial</td><td>Negros ganham ~60% de brancos</td></tr><tr><td>Gap genero</td><td>Mulheres ganham ~78% dos homens</td></tr></tbody></table><h2>Politicas</h2><ul><li>Bolsa Familia: transferencia de renda condicionada</li><li>Cotas raciais: acesso a universidades</li></ul><h2>Resumo</h2><ul><li>Desigualdade e estrutural no Brasil</li><li>ENEM: desigualdade, cotas, politicas publicas</li></ul><h2>Curiosidade</h2><p>O Brasil produz comida para 1 bilhao de pessoas, mas <strong>33 milhoes</strong> passam fome internamente!</p>",
+      "faq": [
+        {
+          "q": "Cotas raciais funcionam?",
+          "a": "Dados mostram que sim: aumentaram presenca de negros nas universidades. Formados por cotas tem desempenho similar. Debate: meritocracia vs reparacao historica."
+        },
+        {
+          "q": "Bolsa Familia ajuda?",
+          "a": "Sim. Reduziu pobreza extrema, aumentou frequencia escolar, melhorou nutricao infantil. Criticas: assistencialismo, valor baixo. Mas dados mostram impacto positivo."
+        },
+        {
+          "q": "Por que Brasil e tao desigual?",
+          "a": "Raizes historicas: 300 anos de escravidao, concentracao fundiaria, educacao elitista, racismo estrutural. Nao e acidente - e resultado de politicas historicas."
+        },
+        {
+          "q": "Racismo estrutural?",
+          "a": "Nao e so preconceito individual. Estruturas sociais (mercado de trabalho, policia, educacao) produzem resultados desiguais para negros SISTEMATICAMENTE."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Gini do Brasil ~",
+          "options": [
+            "0,25",
+            "0,35",
+            "0,53",
+            "0,80"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Top 1% concentra ~ % da renda",
+          "options": [
+            "10%",
+            "25%",
+            "50%",
+            "75%"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Cotas raciais sao para",
+          "options": [
+            "Todos",
+            "Negros e indigenas",
+            "Ricos",
+            "Estrangeiros"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Desigualdade brasileira tem raiz na",
+          "options": [
+            "Democracia",
+            "Escravidao e concentracao",
+            "Industrializacao",
+            "Globalizacao"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Estado: Conceito, Tipos e Democracia",
+      "slug": "estado-conceito-tipos-e-democracia",
+      "desc": "Estado: conceito, tipos (absoluto, liberal, bem-estar, totalitario). Democracia direta, representativa, participativa. Cidadania.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Estado: instituicao com monopolio legitimo da forca (Weber). Tipos: absoluto, liberal (minimo), bem-estar social, totalitario. Democracia: poder do povo. Direta (Atenas), representativa (eleicoes), participativa (plebiscito, orcamento participativo). Autoritarismo vs totalitarismo. Cidadania: direitos civis, politicos e sociais (Marshall).",
+      "body": "<h2>Introducao</h2><p>O <strong>Estado</strong> e a instituicao com monopolio da forca legitima sobre um territorio.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Caracteristica</th></tr></thead><tbody><tr><td>Absoluto</td><td>Poder concentrado no monarca</td></tr><tr><td>Liberal</td><td>Estado minimo, mercado livre</td></tr><tr><td>Bem-estar</td><td>Saude, educacao, previdencia</td></tr><tr><td>Totalitario</td><td>Controle total (nazismo, stalinismo)</td></tr></tbody></table><h2>Democracia</h2><ul><li>Direta: cidadaos votam diretamente</li><li>Representativa: elegem representantes</li><li>Participativa: combina ambas</li></ul><h2>Resumo</h2><ul><li>Estado = monopolio da forca</li><li>ENEM: democracia, cidadania, tipos de Estado</li></ul><h2>Curiosidade</h2><p>Na democracia ateniense, mulheres, escravos e estrangeiros NAO votavam. Apenas ~10% eram 'cidadaos'!</p>",
+      "faq": [
+        {
+          "q": "Monopolio da forca?",
+          "a": "Weber: so o Estado pode usar forca legitimamente (policia, exercito). Se um individuo usa forca, e crime. Estado e unico autorizado."
+        },
+        {
+          "q": "Autoritarismo vs totalitarismo?",
+          "a": "Autoritarismo: controla a politica mas nao toda a vida. Totalitarismo: controla TUDO (economia, cultura, vida privada). Nazismo e stalinismo foram totalitarios."
+        },
+        {
+          "q": "Cidadania (Marshall)?",
+          "a": "3 geracoes de direitos: civis (liberdade, sec. XVIII), politicos (voto, sec. XIX), sociais (saude, educacao, sec. XX)."
+        },
+        {
+          "q": "Brasil e democracia?",
+          "a": "Democracia representativa desde 1988 (redemocratizacao). Desafios: desigualdade, corrupcao, participacao baixa. Democracia e processo, nao estado final."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Monopolio da forca e de",
+          "options": [
+            "Marx",
+            "Durkheim",
+            "Weber",
+            "Comte"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Estado de bem-estar oferece",
+          "options": [
+            "Nada",
+            "Saude, educacao, previdencia",
+            "Exercito",
+            "Riqueza para todos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Democracia representativa usa",
+          "options": [
+            "Voto direto em leis",
+            "Eleicao de representantes",
+            "Monarquia",
+            "Sorteio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Totalitarismo controla",
+          "options": [
+            "So a politica",
+            "So a economia",
+            "TUDO",
+            "Nada"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Poder, Política e Participação",
+      "slug": "poder-politica-e-participacao",
+      "desc": "Poder: Foucault (microfisica), Bourdieu (capital simbolico). Participacao politica: voto, movimentos, ONGs. Representatividade.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Poder (Foucault): nao e so do Estado, esta em toda parte (microfisica do poder). Biopoder: controle sobre corpos e populacoes. Bourdieu: poder simbolico (dominar pela cultura). Capital cultural, social, economico. Participacao politica: voto, greve, protesto, ONGs, conselhos. Crise de representatividade: povo nao se sente representado pelos politicos.",
+      "body": "<h2>Introducao</h2><p><strong>Poder</strong> nao esta so no Estado - permeia todas as relacoes sociais.</p><h2>Pensadores</h2><table><thead><tr><th>Pensador</th><th>Conceito</th></tr></thead><tbody><tr><td>Foucault</td><td>Microfisica do poder, biopoder</td></tr><tr><td>Bourdieu</td><td>Poder simbolico, capital cultural</td></tr></tbody></table><h2>Participacao</h2><ul><li>Formal: voto, partidos</li><li>Informal: protestos, greves, redes sociais</li><li>Organizada: ONGs, conselhos, orcamento participativo</li></ul><h2>Resumo</h2><ul><li>Poder esta em toda parte (Foucault)</li><li>ENEM: Foucault, Bourdieu, participacao</li></ul><h2>Curiosidade</h2><p>Foucault mostrou que ate o <strong>hospital</strong> e a <strong>escola</strong> sao instituicoes de poder e controle!</p>",
+      "faq": [
+        {
+          "q": "Microfisica do poder?",
+          "a": "Foucault: poder nao esta so no topo (Estado). Existe em relacoes cotidianas: professor-aluno, medico-paciente, pais-filhos. Poder e difuso."
+        },
+        {
+          "q": "Capital cultural?",
+          "a": "Bourdieu: educacao, diploma, conhecimento funcionam como 'capital'. Quem tem mais capital cultural tem vantagem social. Reproduz desigualdade."
+        },
+        {
+          "q": "Crise de representatividade?",
+          "a": "Povo nao se sente representado por politicos. Abstencao, votos nulos, desconfianca. Busca por participacao direta (referendos, redes)."
+        },
+        {
+          "q": "Biopoder?",
+          "a": "Foucault: poder moderno controla corpos (disciplina) e populacoes (biopolitica). Vacinas, censos, politicas de natalidade = biopoder."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Microfisica do poder e de",
+          "options": [
+            "Marx",
+            "Foucault",
+            "Weber",
+            "Bourdieu"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Capital cultural e de",
+          "options": [
+            "Marx",
+            "Foucault",
+            "Weber",
+            "Bourdieu"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Biopoder controla",
+          "options": [
+            "Maquinas",
+            "Corpos e populacoes",
+            "Territorio",
+            "Comercio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Participacao politica inclui",
+          "options": [
+            "So voto",
+            "So protesto",
+            "Voto, protesto, ONGs",
+            "Nada"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Direitos Humanos e Cidadania",
+      "slug": "direitos-humanos-e-cidadania",
+      "desc": "Direitos humanos: geracoes (civis, politicos, sociais). DUDH. Cidadania. Constituicao 1988. Minorias. Igualdade formal vs material.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Direitos humanos: inerentes a toda pessoa. DUDH (1948): Declaracao Universal. 3 geracoes: 1a (civis/politicos: liberdade, sec. XVIII), 2a (sociais/economicos: igualdade, sec. XIX-XX), 3a (coletivos: fraternidade, meio ambiente). Cidadania: direitos + deveres + participacao. Constituicao 1988 (cidada): ampliou direitos. Igualdade formal (na lei) vs material (na pratica). Minorias: grupos vulnerabilizados (nao necessariamente numericamente menores).",
+      "body": "<h2>Introducao</h2><p>Os <strong>direitos humanos</strong> sao direitos inerentes a toda pessoa, independente de qualquer condicao.</p><h2>Geracoes</h2><table><thead><tr><th>Geracao</th><th>Direitos</th><th>Principio</th></tr></thead><tbody><tr><td>1a</td><td>Civis e politicos</td><td>Liberdade</td></tr><tr><td>2a</td><td>Sociais e economicos</td><td>Igualdade</td></tr><tr><td>3a</td><td>Coletivos (meio ambiente)</td><td>Fraternidade</td></tr></tbody></table><h2>Brasil</h2><ul><li>CF/1988: 'Constituicao cidada'</li><li>Igualdade formal existe, material nem sempre</li></ul><h2>Resumo</h2><ul><li>3 geracoes de direitos. DUDH 1948.</li><li>ENEM: cidadania, DUDH, igualdade formal vs material</li></ul><h2>Curiosidade</h2><p>A DUDH foi escrita apos a <strong>2a Guerra Mundial</strong> para que atrocidades como o Holocausto nunca se repetissem!</p>",
+      "faq": [
+        {
+          "q": "Igualdade formal vs material?",
+          "a": "Formal: todos sao iguais perante a lei. Material: na pratica, condicoes desiguais impedem igualdade real. Cotas buscam igualdade MATERIAL."
+        },
+        {
+          "q": "Minorias?",
+          "a": "Na sociologia, minoria nao e quantidade. E grupo com MENOS poder. Mulheres sao maioria numerica mas minoria social (menos poder, direitos historicamente negados)."
+        },
+        {
+          "q": "Direitos sao universais?",
+          "a": "Debate! Universalismo: valem para todos. Relativismo: cada cultura define seus valores. A maioria defende direitos basicos como universais."
+        },
+        {
+          "q": "CF/1988 e importante?",
+          "a": "Chamada 'Constituicao cidada': ampliou direitos sociais, criou SUS, garantiu direitos indigenas, liberdade de expressao. Marco da redemocratizacao."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "DUDH foi adotada em",
+          "options": [
+            "1918",
+            "1945",
+            "1948",
+            "1988"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "1a geracao de direitos e",
+          "options": [
+            "Sociais",
+            "Ambientais",
+            "Civis e politicos",
+            "Economicos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "CF/1988 e chamada",
+          "options": [
+            "Imperial",
+            "Autoritaria",
+            "Cidada",
+            "Liberal"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Igualdade material e igualdade",
+          "options": [
+            "Na lei",
+            "Na pratica",
+            "Teorica",
+            "Impossivel"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Movimentos Sociais",
+      "slug": "movimentos-sociais",
+      "desc": "Movimentos sociais: feminismo, negro, LGBTQIA+, ambientalista, sem-terra (MST). Novos movimentos sociais. Redes e ativismo digital.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Movimentos sociais: acoes coletivas organizadas para transformacao social. Classicos: operario, camponeses (MST). Novos: feminismo, negro, LGBTQIA+, ambientalista, indigena. Caracteristicas: identidade coletiva, oposicao, projeto de mudanca. Ativismo digital: redes sociais como ferramenta. Primavera Arabe, Jornadas de Junho (2013). Interseccionalidade: cruzamento de opressoes (raca+genero+classe).",
+      "body": "<h2>Introducao</h2><p>Os <strong>movimentos sociais</strong> sao a forca organizada da sociedade civil por mudancas.</p><h2>Exemplos</h2><table><thead><tr><th>Movimento</th><th>Pauta</th></tr></thead><tbody><tr><td>Feminismo</td><td>Igualdade de genero</td></tr><tr><td>Negro</td><td>Antirracismo, cotas</td></tr><tr><td>LGBTQIA+</td><td>Direitos, combate a homofobia</td></tr><tr><td>MST</td><td>Reforma agraria</td></tr><tr><td>Ambientalista</td><td>Sustentabilidade</td></tr></tbody></table><h2>Ativismo Digital</h2><p>Redes sociais amplificam vozes, mobilizam, mas tambem criam 'slacktivismo' (ativismo de sofá).</p><h2>Resumo</h2><ul><li>Movimentos transformam a sociedade</li><li>ENEM: feminismo, mov. negro, MST</li></ul><h2>Curiosidade</h2><p>As <strong>Jornadas de Junho</strong> (2013) comecaram por R,20 de aumento na passagem e se tornaram o maior protesto do Brasil em decadas!</p>",
+      "faq": [
+        {
+          "q": "Interseccionalidade?",
+          "a": "Opressoes se cruzam: mulher negra pobre sofre racismo + machismo + classismo simultaneamente. Nao da para separar. Conceito de Kimberle Crenshaw."
+        },
+        {
+          "q": "Feminismo tem ondas?",
+          "a": "1a onda (voto), 2a onda (igualdade/trabalho), 3a onda (diversidade/interseccionalidade), 4a onda (digital/MeToo). Cada onda ampliou a luta."
+        },
+        {
+          "q": "Ativismo digital funciona?",
+          "a": "Parcialmente. Mobiliza rapido (hashtags, peticoes), mas pode ficar no superficial. Movimentos mais efetivos combinam digital + acao presencial."
+        },
+        {
+          "q": "MST e legal?",
+          "a": "MST e um movimento social legitimo. Ocupacoes de terras sao controversas juridicamente, mas a Constituicao preve funcao social da propriedade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Interseccionalidade cruza",
+          "options": [
+            "Leis",
+            "Opressoes (raca, genero, classe)",
+            "Partidos",
+            "Culturas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "MST luta por",
+          "options": [
+            "Voto",
+            "Reforma agraria",
+            "Educacao",
+            "Moradia urbana"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Jornadas de Junho foram em",
+          "options": [
+            "2010",
+            "2013",
+            "2016",
+            "2018"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Feminismo tem ? ondas",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Violência: Tipos e Causas Sociais",
+      "slug": "violencia-tipos-e-causas-sociais",
+      "desc": "Violencia: fisica, simbolica (Bourdieu), institucional, de genero, racial. Causas sociais: desigualdade, exclusao. Violencia no Brasil.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Violencia: nao e so fisica. Bourdieu: violencia simbolica (imposicao de valores da classe dominante). Tipos: fisica, psicologica, simbolica, institucional (policia, Estado), de genero (feminicidio), racial (racismo). Causas: desigualdade, exclusao, trafico, armas, impunidade. Brasil: ~45 mil homicidios/ano. Genocidio da juventude negra. Lei Maria da Penha (2006). Lei do Feminicidio (2015).",
+      "body": "<h2>Introducao</h2><p>A <strong>violencia</strong> na sociologia vai muito alem da agressao fisica.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Exemplo</th></tr></thead><tbody><tr><td>Fisica</td><td>Agressao, homicidio</td></tr><tr><td>Simbolica</td><td>Impor padroes culturais</td></tr><tr><td>Institucional</td><td>Violencia policial</td></tr><tr><td>De genero</td><td>Feminicidio, assedio</td></tr><tr><td>Racial</td><td>Racismo, genocidio negro</td></tr></tbody></table><h2>Brasil</h2><ul><li>~45 mil homicidios/ano</li><li>Maioria das vitimas: jovens negros da periferia</li></ul><h2>Resumo</h2><ul><li>Violencia e social, nao individual</li><li>ENEM: violencia simbolica, de genero, racial</li></ul><h2>Curiosidade</h2><p>A cada 7 minutos, uma <strong>mulher</strong> sofre violencia domestica no Brasil!</p>",
+      "faq": [
+        {
+          "q": "Violencia simbolica?",
+          "a": "Bourdieu: quando a classe dominante impoe seus valores como 'naturais'. Ex: falar 'errado' gera humilhacao - mas quem definiu o 'certo'?"
+        },
+        {
+          "q": "Genocidio da juventude negra?",
+          "a": "Jovens negros de 15-29 anos sao as maiores vitimas de homicidio no Brasil. A cada 23 minutos, um jovem negro e assassinado. E sistematico."
+        },
+        {
+          "q": "Lei Maria da Penha?",
+          "a": "Lei 11.340/2006: protege mulheres contra violencia domestica. Medidas protetivas, afastamento do agressor. Nome homenageia Maria da Penha Fernandes."
+        },
+        {
+          "q": "Violencia e so da periferia?",
+          "a": "Nao! Violencia domestica acontece em todas as classes. Violencia simbolica permeia a elite. Mas violencia letal se concentra na periferia por desigualdade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Violencia simbolica e de",
+          "options": [
+            "Marx",
+            "Foucault",
+            "Bourdieu",
+            "Weber"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Lei Maria da Penha e de",
+          "options": [
+            "2000",
+            "2003",
+            "2006",
+            "2010"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Maioria das vitimas de homicidio no BR",
+          "options": [
+            "Idosos brancos",
+            "Jovens negros",
+            "Mulheres",
+            "Criancas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Feminicidio e",
+          "options": [
+            "Qualquer morte",
+            "Assassinato por condicao de genero",
+            "Suicidio",
+            "Acidente"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Mídia, Redes Sociais e Poder",
+      "slug": "midia-redes-sociais-e-poder",
+      "desc": "Midia e poder: quarto poder, fake news, bolhas algoritmicas. Redes sociais e democracia. Concentracao midiática. Desinformacao.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Midia como quarto poder: influencia opiniao publica. Concentracao midiática: poucos grupos controlam TVs, jornais, portais. Redes sociais: democratizaram producao mas criaram bolhas (algoritmos mostram o que voce ja concorda). Fake news: desinformacao intencional. Pos-verdade: emocoes valem mais que fatos. Regulacao: debate entre liberdade de expressao e combate a desinformacao.",
+      "body": "<h2>Introducao</h2><p>A <strong>midia</strong> e as redes sociais sao espacos centrais de poder na sociedade contemporanea.</p><h2>Questoes</h2><table><thead><tr><th>Tema</th><th>Problema</th></tr></thead><tbody><tr><td>Concentracao</td><td>Poucos grupos controlam a midia</td></tr><tr><td>Bolhas</td><td>Algoritmos filtram informacao</td></tr><tr><td>Fake news</td><td>Desinformacao intencional</td></tr><tr><td>Pos-verdade</td><td>Emocoes acima de fatos</td></tr></tbody></table><h2>Resumo</h2><ul><li>Midia e poder. Redes democratizam mas criam bolhas.</li><li>ENEM: fake news, bolhas, concentracao</li></ul><h2>Curiosidade</h2><p>O termo '<strong>pos-verdade</strong>' foi eleito palavra do ano pelo dicionario Oxford em 2016!</p>",
+      "faq": [
+        {
+          "q": "Bolha algoritmica?",
+          "a": "Algoritmos mostram conteudo que voce ja curte. Voce so ve opinioes que confirmam as suas. Polarizacao aumenta. Dialogo diminui."
+        },
+        {
+          "q": "Fake news sao novas?",
+          "a": "Nao! Propaganda sempre existiu. Mas redes sociais amplificaram velocidade e alcance. Qualquer mentira pode viralizar em minutos."
+        },
+        {
+          "q": "Regular midia e censura?",
+          "a": "Debate! Regular nao e censurar. E garantir diversidade, combater fake news, responsabilizar plataformas. Mas limites sao sensiveis."
+        },
+        {
+          "q": "Midia tradicional vs redes?",
+          "a": "Midia tradicional: profissional, editada, regulada. Redes: qualquer um publica, sem filtro, viral. Complementares mas com logicas diferentes."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Pos-verdade prioriza",
+          "options": [
+            "Fatos",
+            "Emocoes",
+            "Ciencia",
+            "Logica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Bolha algoritmica faz",
+          "options": [
+            "Ver tudo",
+            "Ver so o que concorda",
+            "Ver o oposto",
+            "Nao ver nada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fake news e",
+          "options": [
+            "Noticia real",
+            "Desinformacao intencional",
+            "Opiniao",
+            "Satira"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Quarto poder se refere a",
+          "options": [
+            "Exercito",
+            "Midia",
+            "Igreja",
+            "Escola"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

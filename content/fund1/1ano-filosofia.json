@@ -1,0 +1,586 @@
+{
+  "subject": "Filosofia",
+  "slug": "1ano-filosofia",
+  "level": "Fundamental 1",
+  "grade": "1º ano",
+  "color": "var(--filosofia)",
+  "icon": "lightbulb",
+  "articles": [
+    {
+      "title": "O que é Filosofia? Do Mito ao Logos",
+      "slug": "o-que-e-filosofia-do-mito-ao-logos",
+      "desc": "Filosofia: do mito ao logos. Tales de Mileto. Passagem da explicacao mitologica para a racional. Grecia seculo VI a.C.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Mito: explicacao sobrenatural, narrativa religiosa. Logos: explicacao racional, logica. Passagem: Grecia, seculo VI a.C. Tales de Mileto: primeiro filosofo, arche=agua. Filosofia: amor (philo) pela sabedoria (sophia). Atitude filosofica: questionar, nao aceitar sem reflexao. Espanto (thaumazein) como origem.",
+      "body": "<h2>Introducao</h2><p>A <strong>Filosofia</strong> nasceu na Grecia antiga quando pensadores passaram do mito ao logos.</p><h2>Mito vs Logos</h2><table><thead><tr><th>Mito</th><th>Logos</th></tr></thead><tbody><tr><td>Sobrenatural</td><td>Racional</td></tr><tr><td>Narrativa</td><td>Argumentacao</td></tr><tr><td>Tradicao</td><td>Questionamento</td></tr><tr><td>Deuses explicam</td><td>Natureza explica</td></tr></tbody></table><h2>Tales de Mileto</h2><p>Primeiro filosofo (~624-546 a.C.). Buscou explicacao natural: a agua (arche).</p><h2>Resumo</h2><ul><li>Filosofia = amor pela sabedoria. Nasce do espanto.</li><li>ENEM: mito vs logos, Tales, atitude filosofica</li></ul><h2>Curiosidade</h2><p>A palavra <strong>filosofia</strong> foi criada por Pitagoras: 'Nao sou sabio (sophos), sou amante da sabedoria (philosophos)'.</p>",
+      "faq": [
+        {
+          "q": "Mito e mentira?",
+          "a": "Nao! E outra forma de explicar o mundo, valida em seu contexto cultural."
+        },
+        {
+          "q": "Por que na Grecia?",
+          "a": "Comercio maritimo, democracia, ocio (escravos liberavam cidadaos para pensar), escrita alfabetica."
+        },
+        {
+          "q": "Filosofia serve para que?",
+          "a": "Questionar certezas, pensar criticamente, fundamentar etica, politica, ciencia."
+        },
+        {
+          "q": "O que e thaumazein?",
+          "a": "Espanto/admiracao diante do mundo. Platao e Aristoteles diziam que a filosofia nasce do espanto."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Primeiro filosofo",
+          "options": [
+            "Socrates",
+            "Platao",
+            "Tales",
+            "Aristoteles"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Logos significa",
+          "options": [
+            "Mito",
+            "Deus",
+            "Razao",
+            "Agua"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Filosofia nasceu no seculo",
+          "options": [
+            "III a.C.",
+            "VI a.C.",
+            "I d.C.",
+            "X a.C."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Philo + sophia =",
+          "options": [
+            "Amor pela beleza",
+            "Amor pela sabedoria",
+            "Amor pela natureza",
+            "Amor pelos deuses"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Pré-Socráticos: A Busca pela Arché",
+      "slug": "pre-socraticos-a-busca-pela-arche",
+      "desc": "Pre-socraticos: busca pela arche. Tales (agua), Anaximandro (apeiron), Heraclito (devir), Parmenides (ser imutavel), Democrito (atomos).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Pre-socraticos: foco na natureza (physis). Arche: principio originario. Tales: agua. Anaximandro: apeiron. Heraclito: fogo/devir (tudo flui). Parmenides: ser imutavel. Democrito: atomos no vazio. Empedocles: 4 elementos.",
+      "body": "<h2>Introducao</h2><p>Os <strong>pre-socraticos</strong> buscavam a arche - o principio fundamental de toda a realidade.</p><h2>Principais</h2><table><thead><tr><th>Filosofo</th><th>Arche</th></tr></thead><tbody><tr><td>Tales</td><td>Agua</td></tr><tr><td>Anaximandro</td><td>Apeiron (indeterminado)</td></tr><tr><td>Heraclito</td><td>Fogo/Devir</td></tr><tr><td>Parmenides</td><td>Ser imutavel</td></tr><tr><td>Democrito</td><td>Atomos</td></tr></tbody></table><h2>Heraclito vs Parmenides</h2><ul><li><strong>Heraclito:</strong> 'nao se entra no mesmo rio duas vezes'</li><li><strong>Parmenides:</strong> mudanca e ilusao, so o ser e real</li></ul><h2>Resumo</h2><ul><li>Pre-socraticos = filosofia da natureza</li><li>ENEM: Heraclito vs Parmenides, atomismo</li></ul><h2>Curiosidade</h2><p><strong>Democrito</strong> propôs os atomos 2.400 anos antes da ciencia moderna!</p>",
+      "faq": [
+        {
+          "q": "Heraclito vs Parmenides?",
+          "a": "Heraclito: tudo flui (devir). Parmenides: so o ser e, mudanca e ilusao. Debate central da filosofia grega."
+        },
+        {
+          "q": "Atomos de Democrito?",
+          "a": "Particulas indivisiveis (a-tomos) no vazio. Intuicao pre-cientifica incrivel."
+        },
+        {
+          "q": "O que e apeiron?",
+          "a": "Anaximandro: principio indeterminado e infinito que gera tudo."
+        },
+        {
+          "q": "Pre-socraticos sao importantes?",
+          "a": "Fundaram o pensamento racional ocidental. Sem eles, nao haveria ciencia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Tudo flui' e de",
+          "options": [
+            "Parmenides",
+            "Heraclito",
+            "Tales",
+            "Socrates"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Arche de Democrito",
+          "options": [
+            "Agua",
+            "Fogo",
+            "Atomos",
+            "Ar"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Parmenides defendia",
+          "options": [
+            "Devir",
+            "Ser imutavel",
+            "Fogo",
+            "Apeiron"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pre-socraticos estudavam",
+          "options": [
+            "Etica",
+            "Politica",
+            "Natureza (physis)",
+            "Religiao"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Sócrates: Maiêutica e Ironia",
+      "slug": "socrates-maieutica-e-ironia",
+      "desc": "Socrates: 'so sei que nada sei'. Maieutica (parto das ideias). Ironia socratica. Julgamento e morte por cicuta.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Socrates (470-399 a.C.): nao escreveu nada. 'So sei que nada sei'. Maieutica: perguntas para 'parir' ideias. Ironia socratica: finge ignorancia para expor contradicoes. Condenado por 'corromper a juventude'. Bebeu cicuta.",
+      "body": "<h2>Introducao</h2><p><strong>Socrates</strong> e o marco divisor da filosofia grega.</p><h2>Metodo</h2><ul><li><strong>Ironia:</strong> finge ignorancia, faz perguntas</li><li><strong>Maieutica:</strong> ajuda o outro a 'parir' o conhecimento</li></ul><h2>Frases</h2><ul><li>'So sei que nada sei'</li><li>'Conhece-te a ti mesmo'</li><li>'Uma vida nao examinada nao vale a pena'</li></ul><h2>Julgamento</h2><p>Condenado a morte (399 a.C.). Bebeu cicuta. Recusou fugir por respeito as leis.</p><h2>Resumo</h2><ul><li>Metodo socratico = perguntas reveladoras</li><li>ENEM: maieutica, ironia, 'so sei que nada sei'</li></ul><h2>Curiosidade</h2><p>Socrates <strong>nunca escreveu</strong> uma linha! Tudo vem de Platao e Xenofonte.</p>",
+      "faq": [
+        {
+          "q": "Por que nao escreveu?",
+          "a": "Acreditava que a escrita 'mata' o pensamento. O dialogo vivo e superior."
+        },
+        {
+          "q": "Maieutica funciona como?",
+          "a": "Perguntas que levam o interlocutor a perceber contradicoes e chegar a conclusoes sozinho."
+        },
+        {
+          "q": "Por que foi condenado?",
+          "a": "Incomodou poderosos com perguntas. Mostrava que ninguem sabia tanto quanto pensava."
+        },
+        {
+          "q": "Socrates era feio?",
+          "a": "Sim! Baixo, barrigudo. Mas fascinava pela inteligencia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Maieutica significa",
+          "options": [
+            "Ironia",
+            "Parto de ideias",
+            "Logica",
+            "Retorica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Socrates morreu por",
+          "options": [
+            "Velhice",
+            "Cicuta",
+            "Guerra",
+            "Doenca"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'So sei que nada sei' e de",
+          "options": [
+            "Platao",
+            "Aristoteles",
+            "Socrates",
+            "Tales"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Socrates escreveu",
+          "options": [
+            "Muitos livros",
+            "Dialogos",
+            "Nada",
+            "Poesias"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Platão: Mundo das Ideias",
+      "slug": "platao-mundo-das-ideias",
+      "desc": "Platao: Teoria das Ideias. Alegoria da Caverna. Dualismo mundo sensivel vs inteligivel. Republica e rei-filosofo.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Platao (428-348 a.C.): discipulo de Socrates. Teoria das Ideias: mundo sensivel (copias) vs inteligivel (Formas perfeitas). Alegoria da Caverna: prisioneiros veem sombras; filosofo ve a verdade. Republica: rei-filosofo. Academia (387 a.C.). Dualismo corpo-alma.",
+      "body": "<h2>Introducao</h2><p><strong>Platao</strong> criou uma das filosofias mais influentes: o mundo visivel e apenas sombra do real.</p><h2>Mundo das Ideias</h2><table><thead><tr><th>Mundo Sensivel</th><th>Mundo Inteligivel</th></tr></thead><tbody><tr><td>Copias imperfeitas</td><td>Formas perfeitas e eternas</td></tr><tr><td>Mutavel</td><td>Imutavel</td></tr><tr><td>Sentidos</td><td>Razao</td></tr></tbody></table><h2>Alegoria da Caverna</h2><p>Prisioneiros acorrentados veem sombras na parede. Um se liberta, sai e descobre o sol (verdade).</p><h2>Resumo</h2><ul><li>Dualismo: sensivel vs inteligivel</li><li>ENEM: Caverna, mundo das Ideias, rei-filosofo</li></ul><h2>Curiosidade</h2><p>A <strong>Academia de Platao</strong> funcionou por quase 900 anos!</p>",
+      "faq": [
+        {
+          "q": "O que a Caverna representa?",
+          "a": "Sombras=opiniao (doxa). Sol=verdade (episteme). Filosofo=quem busca a luz."
+        },
+        {
+          "q": "Rei-filosofo?",
+          "a": "Governantes devem ser filosofos. So quem conhece a Justica pode governar com justica."
+        },
+        {
+          "q": "Platao vs Aristoteles?",
+          "a": "Platao: verdade no abstrato. Aristoteles: verdade no concreto. 'Platao aponta para cima, Aristoteles para baixo'."
+        },
+        {
+          "q": "Dualismo corpo-alma?",
+          "a": "Alma e imortal. Corpo e prisao da alma. Conhecer e recordar (anamnese)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Na Caverna, o sol representa",
+          "options": [
+            "Deus",
+            "Verdade",
+            "Fogo",
+            "Mito"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mundo inteligivel e",
+          "options": [
+            "Mutavel",
+            "Imperfeito",
+            "Eterno e perfeito",
+            "Sensorial"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Academia de Platao - ano",
+          "options": [
+            "500 a.C.",
+            "387 a.C.",
+            "300 a.C.",
+            "100 a.C."
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Rei-filosofo aparece em",
+          "options": [
+            "Etica",
+            "Republica",
+            "Poetica",
+            "Metafisica"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Aristóteles: Lógica, Ética e Política",
+      "slug": "aristoteles-logica-etica-e-politica",
+      "desc": "Aristoteles: logica (silogismo), etica (virtude como meio-termo), politica (animal politico), metafisica (4 causas), Liceu.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Aristoteles (384-322 a.C.): discipulo de Platao. Logica: silogismo. Etica: virtude = meio-termo. Politica: zoon politikon (animal politico). Metafisica: 4 causas (material, formal, eficiente, final). Ato e potencia. Fundou o Liceu.",
+      "body": "<h2>Introducao</h2><p><strong>Aristoteles</strong> e o 'pai da logica' e um dos mais influentes filosofos.</p><h2>Contribuicoes</h2><table><thead><tr><th>Area</th><th>Ideia Central</th></tr></thead><tbody><tr><td>Logica</td><td>Silogismo (deducao)</td></tr><tr><td>Etica</td><td>Virtude = meio-termo</td></tr><tr><td>Politica</td><td>Homem = animal politico</td></tr><tr><td>Metafisica</td><td>4 causas, ato e potencia</td></tr></tbody></table><h2>Silogismo</h2><p>Todo homem e mortal. Socrates e homem. Logo, Socrates e mortal.</p><h2>Resumo</h2><ul><li>Meio-termo, silogismo, zoon politikon</li><li>ENEM: etica aristotelica, logica, 4 causas</li></ul><h2>Curiosidade</h2><p>Aristoteles foi tutor de <strong>Alexandre, o Grande</strong>!</p>",
+      "faq": [
+        {
+          "q": "Meio-termo - exemplo?",
+          "a": "Coragem entre covardia e temeridade. Generosidade entre avareza e prodigalidade."
+        },
+        {
+          "q": "4 causas?",
+          "a": "Material (de que), formal (forma), eficiente (quem fez), final (para que)."
+        },
+        {
+          "q": "Ato e potencia?",
+          "a": "Potencia: o que pode vir a ser. Ato: o que ja e. Semente (potencia) a arvore (ato)."
+        },
+        {
+          "q": "Aristoteles vs Platao?",
+          "a": "Platao: idealista. Aristoteles: realista. 'Sou amigo de Platao, mas mais amigo da verdade'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Virtude para Aristoteles e",
+          "options": [
+            "Excesso",
+            "Falta",
+            "Meio-termo",
+            "Extremo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Zoon politikon significa",
+          "options": [
+            "Animal racional",
+            "Animal politico",
+            "Animal social",
+            "Animal livre"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Silogismo tem quantas premissas",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Aristoteles fundou o",
+          "options": [
+            "Academia",
+            "Liceu",
+            "Stoa",
+            "Jardim"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Helenismo: Estoicismo, Epicurismo, Ceticismo",
+      "slug": "helenismo-estoicismo-epicurismo-ceticismo",
+      "desc": "Filosofia helenistica: estoicismo (aceitar o destino), epicurismo (prazer moderado), ceticismo (suspensao do juizo). Pos-Aristoteles.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Helenismo: pos-Alexandre Magno, foco na etica individual. Estoicismo (Zenao, Seneca, Marco Aurelio): aceitar o destino com serenidade, virtude e razao. Epicurismo (Epicuro): prazer moderado (ataraxia=ausencia de perturbacao), amizade. Ceticismo (Pirro): suspensao do juizo (epoche), nada e certo. Cinismo (Diogenes): desprezar convencoes, viver conforme a natureza.",
+      "body": "<h2>Introducao</h2><p>A filosofia <strong>helenistica</strong> buscava a felicidade individual num mundo de incertezas.</p><h2>Escolas</h2><table><thead><tr><th>Escola</th><th>Fundador</th><th>Ideia Central</th></tr></thead><tbody><tr><td>Estoicismo</td><td>Zenao</td><td>Aceitar o destino com virtude</td></tr><tr><td>Epicurismo</td><td>Epicuro</td><td>Prazer moderado (ataraxia)</td></tr><tr><td>Ceticismo</td><td>Pirro</td><td>Suspender o juizo (epoche)</td></tr><tr><td>Cinismo</td><td>Diogenes</td><td>Desprezar convencoes</td></tr></tbody></table><h2>Resumo</h2><ul><li>Estoicos: controle interno. Epicuristas: prazer simples. Ceticos: duvida.</li><li>ENEM: estoicismo vs epicurismo</li></ul><h2>Curiosidade</h2><p><strong>Diogenes</strong> vivia num barril e andava com uma lanterna dizendo 'Procuro um homem honesto!'</p>",
+      "faq": [
+        {
+          "q": "Epicurismo e hedonismo?",
+          "a": "Nao exatamente. Epicuro defendia prazer MODERADO (amizade, filosofia), nao excessos. Hedonismo busca prazer maximo."
+        },
+        {
+          "q": "Marco Aurelio era estoico?",
+          "a": "Sim! Imperador romano E filosofo estoico. Suas 'Meditacoes' sao classico do estoicismo. Governou com virtude."
+        },
+        {
+          "q": "Ceticismo nega tudo?",
+          "a": "Nao nega: SUSPENDE o juizo. Nao diz 'nada e verdade', diz 'nao sei se e verdade'. Diferenca sutil mas importante."
+        },
+        {
+          "q": "Estoicismo hoje?",
+          "a": "Muito popular! Ryan Holiday, Tim Ferriss popularizaram. Controlar o que podemos, aceitar o que nao podemos. Terapia cognitiva tem raizes estoicas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Ataraxia e conceito de",
+          "options": [
+            "Estoicismo",
+            "Epicurismo",
+            "Ceticismo",
+            "Cinismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Epoche significa",
+          "options": [
+            "Prazer",
+            "Virtude",
+            "Suspensao do juizo",
+            "Destino"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Marco Aurelio era",
+          "options": [
+            "Epicurista",
+            "Estoico",
+            "Cetico",
+            "Cinico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Diogenes pertencia ao",
+          "options": [
+            "Estoicismo",
+            "Epicurismo",
+            "Ceticismo",
+            "Cinismo"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Filosofia Medieval: Fé e Razão",
+      "slug": "filosofia-medieval-fe-e-razao",
+      "desc": "Filosofia medieval: relacao fe e razao. Patristica (Santo Agostinho), Escolastica (Tomas de Aquino). 5 vias. Problema dos universais.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Patristica (sec. II-VIII): Padres da Igreja. Santo Agostinho: conciliar fe crista com filosofia platonica. Iluminacao divina. Cidade de Deus vs Cidade dos Homens. Escolastica (sec. IX-XV): filosofia nas universidades. Tomas de Aquino: conciliar fe com Aristoteles. 5 vias (provas da existencia de Deus). Problema dos universais: realismo vs nominalismo (Ockham).",
+      "body": "<h2>Introducao</h2><p>A <strong>filosofia medieval</strong> buscou conciliar fe crista com razao filosofica.</p><h2>Periodos</h2><table><thead><tr><th>Periodo</th><th>Pensador</th><th>Base</th></tr></thead><tbody><tr><td>Patristica</td><td>Santo Agostinho</td><td>Platao + Cristianismo</td></tr><tr><td>Escolastica</td><td>Tomas de Aquino</td><td>Aristoteles + Cristianismo</td></tr></tbody></table><h2>Tomas de Aquino - 5 Vias</h2><p>Provas racionais da existencia de Deus: movimento, causalidade, contingencia, graus de perfeicao, finalidade.</p><h2>Resumo</h2><ul><li>Agostinho=Platao+fe. Aquino=Aristoteles+fe.</li><li>ENEM: fe e razao, Agostinho, Aquino</li></ul><h2>Curiosidade</h2><p>A <strong>Navalha de Ockham</strong>: 'nao multiplique entidades sem necessidade' - a explicacao mais simples e preferivel. Principio cientifico ate hoje!</p>",
+      "faq": [
+        {
+          "q": "Fe e razao se opoem?",
+          "a": "Para os medievais, nao! Agostinho: 'crer para entender'. Aquino: fe e razao sao complementares, ambas vem de Deus."
+        },
+        {
+          "q": "5 vias de Aquino?",
+          "a": "Argumentos racionais para Deus: 1) motor imovel, 2) causa primeira, 3) ser necessario, 4) ser perfeito, 5) inteligencia ordenadora."
+        },
+        {
+          "q": "Universais?",
+          "a": "'Humanidade' existe de verdade (realismo) ou e so um nome/conceito (nominalismo)? Debate central da escolastica."
+        },
+        {
+          "q": "Idade Media foi das trevas?",
+          "a": "Mito! Houve intensa producao intelectual, universidades foram criadas (Paris, Oxford, Bologna). Filosofia sofisticada."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Santo Agostinho usou",
+          "options": [
+            "Aristoteles",
+            "Platao",
+            "Epicuro",
+            "Heraclito"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "5 vias sao de",
+          "options": [
+            "Agostinho",
+            "Aquino",
+            "Ockham",
+            "Anselmo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Escolastica - seculos",
+          "options": [
+            "I-V",
+            "V-VIII",
+            "IX-XV",
+            "XVI-XVIII"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Navalha de Ockham defende",
+          "options": [
+            "Complexidade",
+            "Simplicidade",
+            "Fe",
+            "Duvida"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Lógica: Argumentação e Falácias",
+      "slug": "logica-argumentacao-e-falacias",
+      "desc": "Logica: proposicoes, validade vs verdade. Falacias: ad hominem, espantalho, falso dilema, apelo a autoridade. Argumentacao.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Logica: estudo do raciocinio valido. Proposicao: frase verdadeira ou falsa. Argumento: premissas + conclusao. Validade: forma correta (nao importa se premissas sao verdadeiras). Verdade: correspondencia com a realidade. Falacias: erros de raciocinio. Ad hominem: atacar a pessoa. Espantalho: distorcer o argumento. Falso dilema: so 2 opcoes. Apelo a autoridade: 'fulano disse'. Petição de principio: conclusao nas premissas.",
+      "body": "<h2>Introducao</h2><p>A <strong>logica</strong> ensina a argumentar corretamente e identificar erros de raciocinio.</p><h2>Validade vs Verdade</h2><table><thead><tr><th>Conceito</th><th>Significado</th></tr></thead><tbody><tr><td>Validade</td><td>Forma correta do argumento</td></tr><tr><td>Verdade</td><td>Correspondencia com a realidade</td></tr></tbody></table><h2>Falacias Comuns</h2><ul><li><strong>Ad hominem:</strong> atacar a pessoa em vez do argumento</li><li><strong>Espantalho:</strong> distorcer o que o outro disse</li><li><strong>Falso dilema:</strong> apresentar so 2 opcoes</li><li><strong>Apelo a autoridade:</strong> 'fulano famoso disse'</li><li><strong>Generalizacao apressada:</strong> de 1 caso tirar regra geral</li></ul><h2>Resumo</h2><ul><li>Argumento valido pode ter premissas falsas!</li><li>ENEM: identificar falacias, validade vs verdade</li></ul><h2>Curiosidade</h2><p>Redes sociais estao cheias de <strong>falacias</strong>! Identificar ad hominem e espantalho e superpoder no debate.</p>",
+      "faq": [
+        {
+          "q": "Argumento valido = verdadeiro?",
+          "a": "NAO! Validade e sobre a FORMA. 'Todo gato voa. Rex e gato. Logo, Rex voa.' E valido (forma correta) mas falso (premissa falsa)."
+        },
+        {
+          "q": "Ad hominem e o que?",
+          "a": "Atacar a PESSOA em vez do ARGUMENTO. 'Voce e jovem demais para opinar.' Nao refuta o argumento, so ataca quem fala."
+        },
+        {
+          "q": "Espantalho?",
+          "a": "Distorcer o argumento do outro para atacar uma versao mais fraca. 'Voce quer mais impostos? Quer destruir a economia!' Nao foi isso que a pessoa disse."
+        },
+        {
+          "q": "Como argumentar bem?",
+          "a": "Premissas claras, logica valida, evidencias. Evitar falacias. Ouvir o outro. Mudar de ideia diante de bons argumentos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Atacar a pessoa e falacia",
+          "options": [
+            "Espantalho",
+            "Ad hominem",
+            "Falso dilema",
+            "Peticao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Argumento valido pode ser",
+          "options": [
+            "Sempre verdadeiro",
+            "Sempre falso",
+            "Verdadeiro ou falso",
+            "Nenhum"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Falso dilema apresenta",
+          "options": [
+            "1 opcao",
+            "2 opcoes apenas",
+            "Todas as opcoes",
+            "Nenhuma opcao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Espantalho faz o que",
+          "options": [
+            "Ataca a pessoa",
+            "Distorce o argumento",
+            "Apela a emocao",
+            "Generaliza"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

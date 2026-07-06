@@ -1,0 +1,874 @@
+{
+  "subject": "Geografia",
+  "slug": "3ano-geografia",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--geografia)",
+  "icon": "globe",
+  "articles": [
+    {
+      "title": "Brasil: Território e Regionalização",
+      "slug": "brasil-territorio-e-regionalizacao",
+      "desc": "Brasil: 5 regioes (IBGE), 3 complexos regionais (Becker/Egler). Fronteiras, fusos horarios, posicao geografica. Formacao territorial.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Brasil: 8,5 milhoes km2, 5o maior. 5 regioes IBGE: N, NE, SE, S, CO. 3 complexos regionais (Becker/Egler): Amazonia, Nordeste, Centro-Sul. 26 estados + DF. Fronteiras: 10 paises (so Equador e Chile nao). Formacao territorial: Tratado Tordesillas, bandeirantes, tratados. Posicao: maioria no hemisferio Sul, cortado pelo Equador e Tropico de Capricornio. 4 fusos horarios.",
+      "body": "<h2>Introducao</h2><p>O <strong>Brasil</strong> e o 5o maior pais do mundo em area e populacao.</p><h2>Regionalizacao</h2><table><thead><tr><th>IBGE (5 regioes)</th><th>Complexos (3)</th></tr></thead><tbody><tr><td>Norte</td><td>Amazonia</td></tr><tr><td>Nordeste</td><td>Nordeste</td></tr><tr><td>Sudeste, Sul, Centro-Oeste</td><td>Centro-Sul</td></tr></tbody></table><h2>Dados</h2><ul><li>Area: 8,5 milhoes km2</li><li>26 estados + DF</li><li>Faz fronteira com 10 paises</li><li>4 fusos horarios</li></ul><h2>Resumo</h2><ul><li>5 regioes IBGE vs 3 complexos regionais</li><li>ENEM: regionalizacao, formacao territorial</li></ul><h2>Curiosidade</h2><p>O Brasil faz fronteira com <strong>todos</strong> os paises da America do Sul, exceto Chile e Equador!</p>",
+      "faq": [
+        {
+          "q": "5 regioes vs 3 complexos?",
+          "a": "IBGE: criterio administrativo (N,NE,SE,S,CO). Complexos regionais: criterio socioeconômico e natural (Amazonia, Nordeste, Centro-Sul)."
+        },
+        {
+          "q": "Tordesillas?",
+          "a": "Tratado 1494 entre Portugal e Espanha. Dividiu terras da America. Brasil ficou com Portugal. Bandeirantes expandiram para oeste."
+        },
+        {
+          "q": "Maior regiao?",
+          "a": "Norte (3,8 milhoes km2, ~45% do territorio). Mais populosa: Sudeste (~42% da populacao)."
+        },
+        {
+          "q": "IDH por regiao?",
+          "a": "Sudeste e Sul: maiores IDH. Norte e Nordeste: menores. Desigualdade regional historica."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Brasil - area (milhoes km2)",
+          "options": [
+            "5,5",
+            "7,0",
+            "8,5",
+            "10,0"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Regioes IBGE",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Nao faz fronteira com Brasil",
+          "options": [
+            "Peru",
+            "Bolivia",
+            "Chile",
+            "Colombia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Regiao mais populosa",
+          "options": [
+            "Norte",
+            "Nordeste",
+            "Sudeste",
+            "Sul"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Economia Brasileira",
+      "slug": "economia-brasileira",
+      "desc": "Economia BR: setores (agro, industria, servicos). Balanca comercial. Divida. Desigualdade. PIB. Commodities. Industrializacao tardia.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "PIB BR: ~top 10 mundial. Setores: servicos (~70% PIB), industria (~20%), agro (~7% mas ~25% das exportacoes). Exportacoes: commodities (soja, minerio de ferro, petroleo, carne). Importacoes: maquinas, eletronicos, quimicos. Desigualdade: Gini alto (~0,53). IDH medio-alto (0,754). Problemas: desindustrializacao, dependencia de commodities, divida publica, informalidade.",
+      "body": "<h2>Introducao</h2><p>A <strong>economia brasileira</strong> e uma das maiores do mundo, mas marcada por desigualdade.</p><h2>Setores</h2><table><thead><tr><th>Setor</th><th>% PIB</th><th>Destaque</th></tr></thead><tbody><tr><td>Servicos</td><td>~70%</td><td>Comercio, financeiro</td></tr><tr><td>Industria</td><td>~20%</td><td>Automoveis, alimentos</td></tr><tr><td>Agropecuaria</td><td>~7%</td><td>Soja, carne, cafe</td></tr></tbody></table><h2>Exportacoes</h2><ul><li>Soja, minerio de ferro, petroleo, carne, acucar</li><li>Balanca superavitaria (exporta > importa)</li></ul><h2>Resumo</h2><ul><li>Servicos domina PIB. Agro domina exportacoes.</li><li>ENEM: commodities, desigualdade, balanca comercial</li></ul><h2>Curiosidade</h2><p>O Brasil exporta comida para alimentar ~1 bilhao de pessoas no mundo, mas ainda tem ~33 milhoes passando fome internamente.</p>",
+      "faq": [
+        {
+          "q": "Desindustrializacao?",
+          "a": "Industria perdeu participacao no PIB (de ~30% em 1980 para ~20% hoje). Custos altos, infraestrutura precaria, competicao com China."
+        },
+        {
+          "q": "O que sao commodities?",
+          "a": "Produtos basicos com preco definido no mercado internacional: soja, milho, cafe, minerio, petroleo. Brasil depende muito deles."
+        },
+        {
+          "q": "Gini do Brasil?",
+          "a": "~0,53 (quanto mais perto de 1, mais desigual). Brasil e um dos paises mais desiguais do mundo em renda."
+        },
+        {
+          "q": "Informalidade?",
+          "a": "~40% dos trabalhadores brasileiros sao informais (sem carteira assinada). Sem direitos trabalhistas, INSS, seguranca."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Setor que mais contribui ao PIB BR",
+          "options": [
+            "Agro",
+            "Industria",
+            "Servicos",
+            "Mineracao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Principal exportacao BR",
+          "options": [
+            "Carros",
+            "Soja",
+            "Eletronicos",
+            "Roupas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Coeficiente de Gini BR ~",
+          "options": [
+            "0,25",
+            "0,35",
+            "0,53",
+            "0,80"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Agro no PIB BR ~",
+          "options": [
+            "7%",
+            "20%",
+            "35%",
+            "50%"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "População Brasileira",
+      "slug": "populacao-brasileira",
+      "desc": "Populacao BR: ~215 milhoes. Formacao: indigena, portuguesa, africana, imigrantes. Distribuicao desigual. IDH. Transicao demografica. Diversidade.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "~215 milhoes (2023), 6o mais populoso. Formacao: miscigenacao (indigena, portuguesa, africana) + imigracao (italiana, alema, japonesa, arabe). Distribuicao: concentrada no litoral e SE. Densidade: ~25 hab/km2 (baixa, mas desigual). Transicao: natalidade caindo, envelhecimento. IDH: 0,754 (87o). Diversidade etnica e cultural. Desigualdade racial persistente.",
+      "body": "<h2>Introducao</h2><p>O <strong>Brasil</strong> tem ~215 milhoes de habitantes com enorme diversidade etnica e cultural.</p><h2>Formacao</h2><ul><li>Indigenas: povos originarios</li><li>Portugueses: colonizacao</li><li>Africanos: trafico escravagista</li><li>Imigrantes: italianos, alemaes, japoneses, arabes</li></ul><h2>Distribuicao</h2><ul><li>Concentrada no litoral e Sudeste</li><li>Amazonia e Centro-Oeste: pouco povoados</li><li>Densidade media: ~25 hab/km2</li></ul><h2>Resumo</h2><ul><li>Miscigenacao + desigualdade racial</li><li>ENEM: formacao, distribuicao, transicao demografica</li></ul><h2>Curiosidade</h2><p>O <strong>Sudeste</strong> tem ~42% da populacao em ~11% do territorio!</p>",
+      "faq": [
+        {
+          "q": "Brasil esta envelhecendo?",
+          "a": "Sim. Taxa de fecundidade caiu de 6,3 (1960) para 1,7 (2023). Populacao deve comecar a diminuir apos 2040."
+        },
+        {
+          "q": "Desigualdade racial?",
+          "a": "Negros e pardos (~56% da populacao) tem renda media 40% menor, menos acesso a educacao superior e mais vulnerabilidade a violencia."
+        },
+        {
+          "q": "Maior colonia japonesa fora do Japao?",
+          "a": "Brasil! ~2 milhoes de nipo-brasileiros, concentrados em Sao Paulo. Imigracao a partir de 1908."
+        },
+        {
+          "q": "Populacao indigena?",
+          "a": "~1,7 milhao (Censo 2022). 305 etnias, 274 linguas. Maioria na Amazonia. Demarcacao de terras e tema controverso."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Populacao BR (milhoes)",
+          "options": [
+            "150",
+            "180",
+            "215",
+            "250"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Regiao mais populosa",
+          "options": [
+            "Norte",
+            "Nordeste",
+            "Sudeste",
+            "Sul"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Maior colonia japonesa fora do Japao",
+          "options": [
+            "EUA",
+            "Peru",
+            "Brasil",
+            "Australia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Fecundidade BR 2023 ~",
+          "options": [
+            "1,7",
+            "2,1",
+            "3,0",
+            "4,5"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Problemas Sociais e Urbanos no Brasil",
+      "slug": "problemas-sociais-e-urbanos-no-brasil",
+      "desc": "Problemas sociais BR: desigualdade, pobreza, violencia, saude, educacao, moradia, saneamento, transporte. Segregacao socioespacial.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Desigualdade: Gini ~0,53, top 1% concentra ~50% da renda. Violencia: ~45 mil homicidios/ano, violencia policial, feminicidio. Moradia: deficit ~6 milhoes. Saneamento: ~35 milhoes sem agua tratada, 100 milhoes sem coleta de esgoto. Educacao: analfabetismo funcional ~30%. Saude: SUS (universal) mas com filas e falta de recursos. Segregacao socioespacial: centro vs periferia.",
+      "body": "<h2>Introducao</h2><p>O Brasil enfrenta <strong>graves problemas sociais e urbanos</strong> que refletem sua desigualdade historica.</p><h2>Principais Problemas</h2><table><thead><tr><th>Problema</th><th>Dados</th></tr></thead><tbody><tr><td>Desigualdade</td><td>Gini ~0,53, top 1% concentra ~50% renda</td></tr><tr><td>Violencia</td><td>~45 mil homicidios/ano</td></tr><tr><td>Moradia</td><td>Deficit ~6 milhoes</td></tr><tr><td>Saneamento</td><td>~100 milhoes sem esgoto</td></tr></tbody></table><h2>Segregacao</h2><ul><li>Centro: infraestrutura, servicos, populacao de maior renda</li><li>Periferia: precariedade, distancia, vulnerabilidade</li></ul><h2>Resumo</h2><ul><li>Desigualdade e raiz dos problemas sociais</li><li>ENEM: segregacao, saneamento, violencia</li></ul><h2>Curiosidade</h2><p><strong>100 milhoes</strong> de brasileiros vivem sem coleta de esgoto - quase metade da populacao!</p>",
+      "faq": [
+        {
+          "q": "SUS e gratuito?",
+          "a": "Sim, universal e gratuito. Atende desde vacinacao ate transplantes. Maior sistema publico de saude do mundo. Mas enfrenta subfinanciamento e filas."
+        },
+        {
+          "q": "Por que tanta violencia?",
+          "a": "Multicausal: desigualdade, exclusao social, trafico de drogas, armas, impunidade, falha do Estado nas periferias."
+        },
+        {
+          "q": "O que e segregacao socioespacial?",
+          "a": "Separacao fisica das classes sociais no espaco urbano. Ricos em bairros com infraestrutura, pobres na periferia sem servicos adequados."
+        },
+        {
+          "q": "Saneamento melhora saude?",
+          "a": "Cada R investido em saneamento economiza R em saude. Doencas por agua contaminada (diarreia, dengue) caem drasticamente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Deficit habitacional BR ~",
+          "options": [
+            "1 milhao",
+            "3 milhoes",
+            "6 milhoes",
+            "10 milhoes"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "BR sem coleta de esgoto ~",
+          "options": [
+            "10 milhoes",
+            "50 milhoes",
+            "100 milhoes",
+            "200 milhoes"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "SUS e",
+          "options": [
+            "Privado",
+            "Universal gratuito",
+            "So para pobres",
+            "Pago"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gini BR ~",
+          "options": [
+            "0,20",
+            "0,35",
+            "0,53",
+            "0,80"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "EUA: Superpotência",
+      "slug": "eua-superpotencia",
+      "desc": "EUA: maior economia mundial. Poder militar, tecnologico e cultural. Belts, Sun Belt. Desigualdade racial. Politica externa.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "PIB: ~25 trilhoes USD (maior do mundo). Poder: militar (OTAN), tecnologico (Silicon Valley), cultural (soft power: Hollywood, musica). Regioes: Manufacturing Belt (industria tradicional, declinio=Rust Belt), Sun Belt (sul/sudoeste, crescimento: tech, aeroespacial). Agricultura: grandes planicies, cinturoes (Corn Belt, Cotton Belt). Desigualdade: racial (negros, hispânicos), imigracao. Politica externa: intervencionismo, OTAN, rivalidade com China.",
+      "body": "<h2>Introducao</h2><p>Os <strong>EUA</strong> sao a maior superpotência mundial em poder economico, militar e cultural.</p><h2>Economia</h2><ul><li>PIB: ~25 trilhoes USD (1o mundial)</li><li>Silicon Valley: centro global de tecnologia</li><li>Wall Street: centro financeiro global</li></ul><h2>Regioes</h2><table><thead><tr><th>Regiao</th><th>Caracteristica</th></tr></thead><tbody><tr><td>Manufacturing/Rust Belt</td><td>Industria tradicional em declinio</td></tr><tr><td>Sun Belt</td><td>Crescimento: tech, aeroespacial</td></tr><tr><td>Corn Belt</td><td>Cinturao do milho</td></tr></tbody></table><h2>Resumo</h2><ul><li>Superpotencia: economia, militar, cultura</li><li>ENEM: belts, soft power, desigualdade racial</li></ul><h2>Curiosidade</h2><p>O orcamento militar dos EUA e maior que os dos <strong>proximos 10 paises</strong> combinados!</p>",
+      "faq": [
+        {
+          "q": "Soft power?",
+          "a": "Influencia cultural sem forca militar: cinema (Hollywood), musica, moda, fast food, universidades, tecnologia. EUA dominam o soft power global."
+        },
+        {
+          "q": "Rust Belt?",
+          "a": "Regiao industrial do nordeste (Detroit, Cleveland) que decaiu com desindustrializacao. Fabricas fecharam, populacao migrou para Sun Belt."
+        },
+        {
+          "q": "Imigracao e importante?",
+          "a": "Sim. EUA sao o pais com mais imigrantes do mundo (~45 milhoes). Debate: muro com Mexico, DACA, imigracao ilegal."
+        },
+        {
+          "q": "Rivalidade EUA-China?",
+          "a": "Competicao economica, tecnologica e geopolitica. Guerra comercial, disputas sobre Taiwan, 5G, semicondutores. Bipolaridade do seculo XXI?"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "PIB dos EUA ~",
+          "options": [
+            "5 tri",
+            "15 tri",
+            "25 tri",
+            "50 tri"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Silicon Valley - setor",
+          "options": [
+            "Petroleo",
+            "Tecnologia",
+            "Agricultura",
+            "Mineracao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Rust Belt - situacao",
+          "options": [
+            "Crescimento",
+            "Declinio industrial",
+            "Agrario",
+            "Deserto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Soft power inclui",
+          "options": [
+            "Exercito",
+            "Bombas",
+            "Cinema e cultura",
+            "Sancoes"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Europa: União Europeia e Desafios",
+      "slug": "europa-uniao-europeia-e-desafios",
+      "desc": "Europa e UE: integracao europeia, euro, Schengen. Brexit. Envelhecimento. Imigracao. Crise de refugiados. Extrema-direita.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "UE: 27 paises, maior bloco economico. Euro: 20 paises. Schengen: livre circulacao de pessoas. Brexit (2020): UK saiu. Desafios: envelhecimento (previdencia), imigracao/refugiados (2015: crise siria), extrema-direita crescendo, dependencia energetica (Russia/gas). PIB UE: ~18 trilhoes (2o bloco). IDH alto. Estado de bem-estar social: saude, educacao, previdencia.",
+      "body": "<h2>Introducao</h2><p>A <strong>Europa</strong> e a <strong>Uniao Europeia</strong> representam o maior projeto de integracao regional do mundo.</p><h2>UE</h2><ul><li>27 paises membros</li><li>Euro: moeda unica (20 paises)</li><li>Schengen: livre circulacao</li></ul><h2>Desafios</h2><table><thead><tr><th>Desafio</th><th>Contexto</th></tr></thead><tbody><tr><td>Envelhecimento</td><td>Populacao mais velha do mundo</td></tr><tr><td>Imigracao</td><td>Crise de refugiados 2015</td></tr><tr><td>Extrema-direita</td><td>Nacionalismo, anti-imigracao</td></tr><tr><td>Energia</td><td>Dependencia de gas russo</td></tr></tbody></table><h2>Resumo</h2><ul><li>Maior integracao regional. Brexit foi choque.</li><li>ENEM: UE, euro, envelhecimento, refugiados</li></ul><h2>Curiosidade</h2><p>A <strong>Alemanha</strong> e a maior economia da Europa e a 4a do mundo. Motor industrial da UE.</p>",
+      "faq": [
+        {
+          "q": "Brexit - consequencias?",
+          "a": "UK perdeu acesso ao mercado unico. Burocracia em fronteiras. Impacto no comercio, imigracao e diplomacia. Escocia quer independencia."
+        },
+        {
+          "q": "Schengen - o que e?",
+          "a": "Acordo de livre circulacao: sem controle de passaporte entre 27 paises europeus. Facilita turismo e negocios."
+        },
+        {
+          "q": "Por que extrema-direita cresce?",
+          "a": "Reacao a imigracao, crise economica, inseguranca. Nacionalismo e sentimento anti-UE. Fenomeno global, nao so europeu."
+        },
+        {
+          "q": "Estado de bem-estar social?",
+          "a": "Modelo europeu: saude publica universal, educacao gratuita, previdencia robusta, direitos trabalhistas. Alto custo fiscal (impostos altos)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "UE tem ? membros (2024)",
+          "options": [
+            "15",
+            "20",
+            "27",
+            "35"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Brexit - pais que saiu",
+          "options": [
+            "Franca",
+            "Alemanha",
+            "UK",
+            "Italia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Schengen permite",
+          "options": [
+            "Moeda unica",
+            "Livre circulacao",
+            "Exercito comum",
+            "Lingua unica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Maior economia da Europa",
+          "options": [
+            "Franca",
+            "UK",
+            "Espanha",
+            "Alemanha"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Rússia e CEI",
+      "slug": "russia-e-cei",
+      "desc": "Russia: maior pais do mundo. Recursos naturais (gas, petroleo). CEI. Conflito com Ucrania. Putin. Ex-URSS. Geopolitica.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Russia: 17,1 milhoes km2 (maior pais). Economia: petroleo, gas natural (maior exportador para Europa). CEI: Comunidade dos Estados Independentes (ex-URSS). Putin: poder centralizado. Conflito Ucrania (2022): invasao, OTAN, sancoes. Ex-URSS: 15 republicas independentes (1991). Arsenal nuclear: 2o maior. Permafrost: degelo libera metano. Siberia: rica em recursos mas pouco habitada.",
+      "body": "<h2>Introducao</h2><p>A <strong>Russia</strong> e o maior pais do mundo em area e potencia nuclear.</p><h2>Dados</h2><ul><li>Area: 17,1 milhoes km2 (11 fusos horarios!)</li><li>Populacao: ~144 milhoes</li><li>Economia: dependente de petroleo e gas</li></ul><h2>Geopolitica</h2><table><thead><tr><th>Tema</th><th>Contexto</th></tr></thead><tbody><tr><td>CEI</td><td>Comunidade pos-URSS</td></tr><tr><td>Ucrania</td><td>Invasao 2022, guerra</td></tr><tr><td>OTAN</td><td>Expansao causa tensao</td></tr><tr><td>Energia</td><td>Europa dependia do gas russo</td></tr></tbody></table><h2>Resumo</h2><ul><li>Maior pais, potencia energetica e nuclear</li><li>ENEM: Russia-Ucrania, URSS, CEI</li></ul><h2>Curiosidade</h2><p>A Russia tem <strong>11 fusos horarios</strong> - quando e meio-dia em Moscou, ja e meia-noite no extremo leste!</p>",
+      "faq": [
+        {
+          "q": "CEI - o que e?",
+          "a": "Comunidade dos Estados Independentes: organizacao de paises ex-URSS (Russia, Belarus, Cazaquistao, etc). Cooperacao economica e militar."
+        },
+        {
+          "q": "Conflito Russia-Ucrania?",
+          "a": "Russia invadiu Ucrania em fev/2022. Razoes: expansao da OTAN, Crimeia (2014), esferas de influencia. Guerra ainda em curso (2024). Sancoes ocidentais."
+        },
+        {
+          "q": "Gas russo e Europa?",
+          "a": "Russia fornecia ~40% do gas europeu. Apos 2022, Europa diversificou (GNL dos EUA, renovaveis). Nord Stream sabotado."
+        },
+        {
+          "q": "URSS acabou quando?",
+          "a": "1991. Gorbachev: glasnost (abertura) e perestroika (reestruturacao). 15 republicas se tornaram independentes. Fim da Guerra Fria."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Area da Russia (milhoes km2)",
+          "options": [
+            "9,5",
+            "13",
+            "17,1",
+            "22"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Russia invadiu Ucrania em",
+          "options": [
+            "2014",
+            "2020",
+            "2022",
+            "2024"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "URSS acabou em",
+          "options": [
+            "1985",
+            "1989",
+            "1991",
+            "2000"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Fusos horarios da Russia",
+          "options": [
+            "4",
+            "7",
+            "11",
+            "15"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "China e Índia: Potências Emergentes",
+      "slug": "china-e-india-potencias-emergentes",
+      "desc": "China: 2a economia, fabrica do mundo. India: maior populacao. BRICS. Crescimento acelerado. Desafios sociais e ambientais.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "China: 2a economia (PIB ~18 tri), 'fabrica do mundo', ZEEs, Partido Comunista, Belt and Road, maior exportador. India: maior populacao (1,4 bilhao, ultrapassou China em 2023), economia de servicos (TI), democracia, desigualdade, castas. Ambos: nucleares, BRICS, crescimento rapido, desafios ambientais (poluicao China, saneamento India). China: IDH medio-alto. India: IDH medio.",
+      "body": "<h2>Introducao</h2><p><strong>China e India</strong> sao as duas maiores populacoes do mundo e potencias emergentes.</p><h2>Comparacao</h2><table><thead><tr><th>Aspecto</th><th>China</th><th>India</th></tr></thead><tbody><tr><td>Populacao</td><td>~1,4 bilhao</td><td>~1,4 bilhao (maior desde 2023)</td></tr><tr><td>PIB</td><td>~18 tri (2o)</td><td>~3,5 tri (5o)</td></tr><tr><td>Regime</td><td>Partido Comunista</td><td>Democracia</td></tr><tr><td>Economia</td><td>Industria exportadora</td><td>Servicos (TI)</td></tr></tbody></table><h2>Resumo</h2><ul><li>China: fabrica do mundo. India: escritorio do mundo.</li><li>ENEM: ZEEs, Belt and Road, BRICS</li></ul><h2>Curiosidade</h2><p>A <strong>India</strong> ultrapassou a China como pais mais populoso do mundo em 2023!</p>",
+      "faq": [
+        {
+          "q": "ZEEs da China?",
+          "a": "Zonas Economicas Especiais: areas com regras capitalistas dentro do sistema comunista. Shenzhen: de vila pesqueira a megalopole tech em 40 anos."
+        },
+        {
+          "q": "Belt and Road?",
+          "a": "Nova Rota da Seda: mega-projeto chines de infraestrutura (portos, estradas, ferrovias) conectando Asia, Africa e Europa. Influencia geopolitica."
+        },
+        {
+          "q": "India - sistema de castas?",
+          "a": "Hierarquia social hereditaria milenar. Oficialmente abolido (1950) mas persiste socialmente. Discriminacao contra dalits (intocaveis) ainda e grave."
+        },
+        {
+          "q": "China comunista e capitalista?",
+          "a": "Socialismo de mercado: Partido Comunista controla politica, mas economia tem elementos capitalistas (empresas privadas, bolsa, investimento estrangeiro). Modelo unico."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "2a maior economia mundial",
+          "options": [
+            "Japao",
+            "Alemanha",
+            "China",
+            "India"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Pais mais populoso (2023)",
+          "options": [
+            "China",
+            "India",
+            "EUA",
+            "Indonesia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ZEEs sao da",
+          "options": [
+            "India",
+            "Russia",
+            "China",
+            "Japao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "India se destaca em",
+          "options": [
+            "Mineracao",
+            "TI/Servicos",
+            "Petroleo",
+            "Moda"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Oriente Médio: Petróleo e Conflitos",
+      "slug": "oriente-medio-petroleo-e-conflitos",
+      "desc": "Oriente Medio: petroleo (OPEP), conflito Israel-Palestina, primavera arabe, Ira vs Arabia Saudita, agua escassa, Islamismo.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Petroleo: ~48% das reservas mundiais. OPEP: controla producao/preco. Conflito Israel-Palestina: desde 1948, Cisjordania/Gaza, Jerusalem, sem solucao. Primavera Arabe (2011): protestos por democracia (Tunisia, Egito, Libia, Syria). Ira (xiita) vs Arabia Saudita (sunita): rivalidade regional. Agua: recurso escasso, disputas (Tigre/Eufrates, Jordao). Islamismo: sunitas (~85%) e xiitas (~15%).",
+      "body": "<h2>Introducao</h2><p>O <strong>Oriente Medio</strong> e estrategico por seu petroleo e marcado por conflitos historicos.</p><h2>Petroleo</h2><ul><li>~48% das reservas mundiais</li><li>OPEP: cartel de paises produtores</li><li>Arabia Saudita, Ira, Iraque, Kuwait, UAE</li></ul><h2>Conflitos</h2><table><thead><tr><th>Conflito</th><th>Contexto</th></tr></thead><tbody><tr><td>Israel-Palestina</td><td>Desde 1948, terra, Jerusalem</td></tr><tr><td>Primavera Arabe</td><td>2011, democracia</td></tr><tr><td>Ira vs Arabia</td><td>Xiita vs sunita</td></tr><tr><td>Syria</td><td>Guerra civil desde 2011</td></tr></tbody></table><h2>Resumo</h2><ul><li>Petroleo + conflitos = instabilidade</li><li>ENEM: Israel-Palestina, OPEP, agua</li></ul><h2>Curiosidade</h2><p>A <strong>OPEP</strong> controla ~40% da producao mundial de petroleo e pode influenciar precos globais.</p>",
+      "faq": [
+        {
+          "q": "Israel-Palestina resumo?",
+          "a": "1948: criacao de Israel em territorio palestino. Guerras (1948,1967,1973). Palestinos querem Estado proprio. Cisjordania/Gaza disputados. Jerusalem sagrada para 3 religioes."
+        },
+        {
+          "q": "Primavera Arabe funcionou?",
+          "a": "Parcialmente. Tunisia: democracia. Egito: golpe militar voltou. Libia/Syria: guerras civis. Expectativas frustradas na maioria."
+        },
+        {
+          "q": "Sunitas vs xiitas?",
+          "a": "Divisao no Isla apos morte de Maome. Sunitas (~85%): sucessor eleito. Xiitas (~15%): sucessor da familia. Arabia Saudita lidera sunitas, Ira lidera xiitas."
+        },
+        {
+          "q": "Agua no Oriente Medio?",
+          "a": "Recurso escassisimo. Disputas por Tigre/Eufrates (Turquia-Iraque-Syria), Rio Jordao (Israel-Jordania). Dessalinizacao e solucao cara."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Reservas de petroleo no Oriente Medio ~",
+          "options": [
+            "10%",
+            "25%",
+            "48%",
+            "75%"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Conflito Israel-Palestina desde",
+          "options": [
+            "1918",
+            "1948",
+            "1967",
+            "1991"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sunitas representam ~ % dos muculmanos",
+          "options": [
+            "15%",
+            "50%",
+            "70%",
+            "85%"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "OPEP controla",
+          "options": [
+            "Agua",
+            "Petroleo",
+            "Gas",
+            "Carvao"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "África: Potencial e Desafios",
+      "slug": "africa-potencial-e-desafios",
+      "desc": "Africa: 54 paises, recursos naturais. Colonizacao e fronteiras artificiais. Conflitos etnicos. IDH baixo. Crescimento demografico. Potencial economico.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "54 paises, 2o maior continente. Colonizacao europeia: Conferencia de Berlim (1884-85), fronteiras artificiais (ignoraram etnias). Consequencias: conflitos etnicos (Ruanda, Sudao), subdesenvolvimento, dependencia. Recursos: petroleo (Nigeria), diamantes (Botswana), minerios (Congo: cobalto para celulares). Desafios: pobreza, doencas (HIV, malaria), fome, educacao. Potencial: populacao jovem, crescimento economico, urbanizacao rapida.",
+      "body": "<h2>Introducao</h2><p>A <strong>Africa</strong> e o 2o maior continente, com imenso potencial mas marcada por desafios da colonizacao.</p><h2>Dados</h2><ul><li>54 paises, ~1,4 bilhao de habitantes</li><li>Continente mais jovem (mediana: ~19 anos)</li></ul><h2>Colonizacao</h2><table><thead><tr><th>Fato</th><th>Consequencia</th></tr></thead><tbody><tr><td>Conferencia de Berlim (1884)</td><td>Fronteiras artificiais</td></tr><tr><td>Exploracao de recursos</td><td>Dependencia economica</td></tr><tr><td>Divisao de etnias</td><td>Conflitos apos independencia</td></tr></tbody></table><h2>Resumo</h2><ul><li>Colonizacao e raiz dos problemas atuais</li><li>ENEM: neocolonialismo, fronteiras artificiais, recursos</li></ul><h2>Curiosidade</h2><p>O <strong>cobalto</strong> do Congo (60% mundial) e essencial para baterias de celulares e carros eletricos, mas extraido com trabalho infantil em condicoes precarias.</p>",
+      "faq": [
+        {
+          "q": "Fronteiras artificiais?",
+          "a": "Euroepeus dividiram a Africa em linhas retas, ignorando etnias, linguas e culturas. Mesma etnia ficou em paises diferentes. Etnias rivais no mesmo pais = conflitos."
+        },
+        {
+          "q": "Ruanda 1994?",
+          "a": "Genocidio: hutus massacraram ~800 mil tutsis em 100 dias. Raizes na colonizacao belga que privilegiou tutsis. Trauma ainda presente. Pais se reconstruiu."
+        },
+        {
+          "q": "Africa so tem problemas?",
+          "a": "Nao! Economia cresce (~5%/ano em paises como Etiopia, Gana). Classe media emergente. Tecnologia (M-Pesa no Quenia). Riqueza cultural imensa."
+        },
+        {
+          "q": "Neocolonialismo?",
+          "a": "Dominacao economica sem colonizacao formal. Potencias e multinacionais exploram recursos africanos com pouco retorno local. China investe pesadamente na Africa."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Africa tem ? paises",
+          "options": [
+            "30",
+            "44",
+            "54",
+            "64"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Conferencia de Berlim",
+          "options": [
+            "1784",
+            "1884",
+            "1914",
+            "1945"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "60% do cobalto mundial vem de",
+          "options": [
+            "Brasil",
+            "Australia",
+            "Congo",
+            "China"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Mediana de idade na Africa ~",
+          "options": [
+            "19 anos",
+            "30 anos",
+            "40 anos",
+            "50 anos"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "América Latina: Integração e Desafios",
+      "slug": "america-latina-integracao-e-desafios",
+      "desc": "America Latina: colonizacao ibérica. Desigualdade. Industrializacao tardia. Mercosul. Ditaduras e democracia. Dependencia economica.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "America Latina: Mexico ao sul. Colonizacao ibérica (Espanha e Portugal). Independencia seculo XIX. Desigualdade social historica (latifundio, escravidao). Industrializacao tardia e dependente. Ditaduras militares (1960-80). Democratizacao. Blocos: Mercosul, Alianca do Pacifico. Problemas: desigualdade, violencia, corrupcao, narcotráfico. Potencial: recursos naturais, biodiversidade, populacao jovem.",
+      "body": "<h2>Introducao</h2><p>A <strong>America Latina</strong> compartilha historias de colonizacao, desigualdade e busca por desenvolvimento.</p><h2>Caracteristicas</h2><ul><li>Colonizacao ibérica (Espanha, Portugal)</li><li>Independencia no seculo XIX</li><li>Desigualdade social profunda</li></ul><h2>Desafios</h2><table><thead><tr><th>Desafio</th><th>Exemplos</th></tr></thead><tbody><tr><td>Desigualdade</td><td>Brasil, Colombia, Mexico</td></tr><tr><td>Violencia</td><td>Narcotrafico, homicidios</td></tr><tr><td>Instabilidade politica</td><td>Venezuela, Haiti</td></tr><tr><td>Dependencia economica</td><td>Commodities para China/EUA</td></tr></tbody></table><h2>Resumo</h2><ul><li>Desigualdade e marca historica da regiao</li><li>ENEM: Mercosul, ditaduras, dependencia</li></ul><h2>Curiosidade</h2><p>A <strong>America Latina</strong> tem 6 dos 17 paises megadiversos do mundo (Brasil, Colombia, Mexico, Peru, Equador, Venezuela)!</p>",
+      "faq": [
+        {
+          "q": "Ditaduras militares?",
+          "a": "1960-80: varios paises tiveram ditaduras militares apoiadas pelos EUA (Guerra Fria). Brasil (1964-85), Argentina (1976-83), Chile (1973-90). Repressao, tortura, desaparecimentos."
+        },
+        {
+          "q": "Venezuela - o que aconteceu?",
+          "a": "Crise economica e politica: dependencia de petroleo, hiperinflacao, autoritarismo. ~7 milhoes de venezuelanos emigraram desde 2015."
+        },
+        {
+          "q": "Mercosul funciona?",
+          "a": "Parcialmente. Maior comercio entre membros, mas barreiras persistem. Acordo Mercosul-UE negociado por decadas, ainda nao em vigor."
+        },
+        {
+          "q": "America Latina vs America do Sul?",
+          "a": "America Latina: cultural (colonizacao ibérica + francesa): Mexico, America Central, Caribe, America do Sul. America do Sul: geografica (continente)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Colonizacao da AL foi",
+          "options": [
+            "Britanica",
+            "Francesa",
+            "Ibérica",
+            "Holandesa"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Ditadura no Brasil",
+          "options": [
+            "1930-45",
+            "1954-64",
+            "1964-85",
+            "1985-2002"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Paises megadiversos na AL",
+          "options": [
+            "2",
+            "4",
+            "6",
+            "10"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Crise venezuelana - causa principal",
+          "options": [
+            "Agricultura",
+            "Dependencia de petroleo",
+            "Turismo",
+            "Tecnologia"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Mudanças Climáticas e Sustentabilidade",
+      "slug": "mudancas-climaticas-e-sustentabilidade",
+      "desc": "Mudancas climaticas: aquecimento global, CO2, efeito estufa. Consequencias: nivel do mar, eventos extremos, refugiados climaticos. Sustentabilidade: ESG, economia circular.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Aquecimento global: +1,1C desde era pre-industrial. Causa: emissoes de GEE (CO2, CH4) por fosséis e desmatamento. Consequencias: derretimento de geleiras, nivel do mar sobe (~3,6mm/ano), eventos extremos (enchentes, secas, ondas de calor), refugiados climaticos. IPCC: painel cientifico da ONU. Meta Paris: limitar +1,5C. Sustentabilidade: ESG (ambiental, social, governanca), economia circular (reduzir, reusar, reciclar), transicao energetica (renovaveis).",
+      "body": "<h2>Introducao</h2><p>As <strong>mudancas climaticas</strong> sao o maior desafio ambiental da humanidade.</p><h2>Dados</h2><ul><li>+1,1C desde era pre-industrial</li><li>CO2: ~420ppm (50% acima do pre-industrial)</li><li>Nivel do mar: +~3,6mm/ano</li></ul><h2>Consequencias</h2><table><thead><tr><th>Efeito</th><th>Impacto</th></tr></thead><tbody><tr><td>Geleiras derretem</td><td>Nivel do mar sobe</td></tr><tr><td>Eventos extremos</td><td>Enchentes, secas, ondas de calor</td></tr><tr><td>Biodiversidade</td><td>Extincao de especies</td></tr><tr><td>Refugiados climaticos</td><td>Migracoes forcadas</td></tr></tbody></table><h2>Sustentabilidade</h2><ul><li>Economia circular: reduzir, reusar, reciclar</li><li>ESG: criterios ambientais, sociais, governanca</li><li>Transicao energetica: solar, eolica, hidrogenio</li></ul><h2>Resumo</h2><ul><li>+1,1C ja. Meta: nao passar de +1,5C.</li><li>ENEM: IPCC, Paris, sustentabilidade, economia circular</li></ul><h2>Curiosidade</h2><p>Se todo o gelo da Groenlândia derreter, o nivel do mar sobe <strong>7 metros</strong>, inundando cidades como Nova York, Miami e Rio de Janeiro!</p>",
+      "faq": [
+        {
+          "q": "IPCC - o que e?",
+          "a": "Painel Intergovernamental sobre Mudancas Climaticas da ONU. Reune cientistas do mundo todo para avaliar as evidencias. Relatorios sao referencia global."
+        },
+        {
+          "q": "Refugiados climaticos?",
+          "a": "Pessoas forcadas a migrar por desastres naturais ou mudancas climaticas (secas, enchentes, nivel do mar). Estimativa: 200 milhoes ate 2050. Ainda sem protecao juridica formal."
+        },
+        {
+          "q": "Economia circular?",
+          "a": "Oposto da linear (extrair-produzir-descartar). Circular: reduzir consumo, reusar, reciclar, regenerar. Menos residuos, menos recursos. Ex: garrafa PET vira tecido."
+        },
+        {
+          "q": "ESG - para que serve?",
+          "a": "Criterios para avaliar empresas: Environmental (ambiental), Social, Governance (governanca). Investidores usam ESG para decidir onde investir. Pressiona empresas a serem sustentaveis."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Aquecimento global ate agora ~",
+          "options": [
+            "+0,5C",
+            "+1,1C",
+            "+2,0C",
+            "+3,0C"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "IPCC e orgao da",
+          "options": [
+            "UE",
+            "EUA",
+            "ONU",
+            "OTAN"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Economia circular - principio",
+          "options": [
+            "Extrair mais",
+            "Reduzir reusar reciclar",
+            "Crescer sem limite",
+            "Descartar tudo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ESG - S significa",
+          "options": [
+            "Sustentavel",
+            "Social",
+            "Seguranca",
+            "Solo"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

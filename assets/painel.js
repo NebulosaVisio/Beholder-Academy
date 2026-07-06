@@ -19,11 +19,16 @@ const PainelUI = (function() {
   };
 
   function init() {
-    data = RPGEngine.load();
-    data = RPGEngine.registerDailyLogin(data);
+    try {
+      data = RPGEngine.load();
+      data = RPGEngine.registerDailyLogin(data);
+    } catch(e) {
+      console.warn('RPG Engine load error in painel:', e);
+      data = RPGEngine.createDefaultData();
+    }
     setupTabs();
     setupStoreTabs();
-    setupDelegation();
+    bindDelegation();
     renderAll();
   }
 
@@ -84,8 +89,9 @@ const PainelUI = (function() {
     setText('dash-multi', RPGEngine.streakMultiplier(data.streak).toFixed(2) + 'x');
 
     const bar = document.getElementById('dash-xp-bar');
-    if (bar) bar.style.width = progress.percent + '%';
-    setText('dash-xp-text', progress.current + ' / ' + progress.needed + ' XP');
+    if (bar) bar.style.width = Math.min(progress.percent, 100) + '%';
+    var displayCurrent = Math.min(progress.current, progress.needed);
+    setText('dash-xp-text', displayCurrent + ' / ' + progress.needed + ' XP');
 
     // Daily progress
     const dailyDone = data.challenges.daily.tasks.filter(t => t).length;
@@ -414,31 +420,28 @@ const PainelUI = (function() {
     return Math.floor(diff/86400) + 'd';
   }
 
+  // --- Event Delegation (inside module) ---
+  function bindDelegation() {
+    document.addEventListener('click', function(e) {
+      var el = e.target.closest('[data-action]');
+      if (!el) return;
+      var action = el.getAttribute('data-action');
+      switch (action) {
+        case 'tab':
+          switchTab(el.getAttribute('data-tab-target'));
+          break;
+        case 'close-chest':
+          closeChest();
+          break;
+        case 'buy-chest':
+          buyChest(el.getAttribute('data-chest-type'));
+          break;
+        case 'buy-essence':
+          buyEssence(el.getAttribute('data-essence-id'));
+          break;
+      }
+    });
+  }
+
   return { init, switchTab, buyChest, closeChest, buyEssence, renderAll };
 })();
-
-// --- Event Delegation Setup (called from init) ---
-function setupDelegation() {
-  document.addEventListener('click', function(e) {
-    var el = e.target.closest('[data-action]');
-    if (!el) return;
-    var action = el.getAttribute('data-action');
-    switch (action) {
-      case 'tab':
-        PainelUI.switchTab(el.getAttribute('data-tab-target'));
-        break;
-      case 'close-chest':
-        PainelUI.closeChest();
-        break;
-      case 'buy-chest':
-        PainelUI.buyChest(el.getAttribute('data-chest-type'));
-        break;
-      case 'buy-essence':
-        PainelUI.buyEssence(el.getAttribute('data-essence-id'));
-        break;
-      case 'deposit':
-        ResponsavelUI.deposit(parseInt(el.getAttribute('data-amount'), 10));
-        break;
-    }
-  });
-}

@@ -1,0 +1,730 @@
+{
+  "subject": "Física",
+  "slug": "2ano-fisica",
+  "level": "Fundamental 1",
+  "grade": "2º ano",
+  "color": "var(--fisica)",
+  "icon": "zap",
+  "articles": [
+    {
+      "title": "Termometria",
+      "slug": "termometria",
+      "desc": "Termometria: temperatura, escalas (Celsius, Fahrenheit, Kelvin). Conversões: C/5=(F-32)/9=(K-273)/5. Equilíbrio térmico. Zero absoluto (0K=-273°C).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Temperatura: agitação molecular. Calor: energia em trânsito (quente→frio). Escalas: Celsius (0°C=fusão, 100°C=ebulição da água), Fahrenheit (32°F e 212°F), Kelvin (273K e 373K). Conversão: C/5=(F-32)/9; K=C+273. Zero absoluto: 0K=-273°C (agitação molecular mínima). Equilíbrio térmico: corpos em contato → mesma temperatura (Lei Zero da Termodinâmica).",
+      "body": "<h2>Introdução</h2><p><strong>Termometria</strong> é a medição de temperatura. Calor e temperatura são conceitos diferentes!</p><h2>Temperatura × Calor</h2><ul><li><strong>Temperatura:</strong> grau de agitação molecular</li><li><strong>Calor:</strong> energia em trânsito (do mais quente → mais frio)</li></ul><h2>Escalas</h2><table><thead><tr><th>Escala</th><th>Fusão H₂O</th><th>Ebulição H₂O</th><th>Zero absoluto</th></tr></thead><tbody><tr><td>Celsius (°C)</td><td>0</td><td>100</td><td>-273</td></tr><tr><td>Fahrenheit (°F)</td><td>32</td><td>212</td><td>-459,4</td></tr><tr><td>Kelvin (K)</td><td>273</td><td>373</td><td>0</td></tr></tbody></table><h2>Conversões</h2><p><strong>C/5 = (F-32)/9 = (K-273)/5</strong></p><h2>Resumo</h2><ul><li>✅ K=C+273. Kelvin é a escala SI.</li><li>⚠️ ENEM: conversões, equilíbrio térmico, temperatura × calor</li></ul><h2>Curiosidade</h2><p>O <strong>zero absoluto</strong> (0K=-273°C) é a menor temperatura possível — moléculas param de se mover! Cientistas chegaram a frações de nanokelvins acima do zero absoluto em laboratórios.</p>",
+      "faq": [
+        {
+          "q": "Calor e temperatura são iguais?",
+          "a": "NÃO! Temperatura: nível de agitação molecular. Calor: energia transferida entre corpos de temperaturas diferentes. Calor é causa, temperatura é efeito."
+        },
+        {
+          "q": "Por que Kelvin não tem °?",
+          "a": "Kelvin é unidade absoluta (base do SI). Não se diz '100 graus Kelvin', mas '100 Kelvin'. Não há valores negativos."
+        },
+        {
+          "q": "Existe temperatura negativa em Kelvin?",
+          "a": "Na prática cotidiana, não. 0K é o limite inferior teórico. Porém, em mecânica quântica, 'temperaturas negativas' existem em sistemas especiais."
+        },
+        {
+          "q": "Qual escala os EUA usam?",
+          "a": "Fahrenheit! É a única grande nação que ainda usa. O resto do mundo usa Celsius. Ciência usa Kelvin."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "K = C + ?:",
+          "options": [
+            "32",
+            "100",
+            "273",
+            "373"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Zero absoluto é:",
+          "options": [
+            "0°C",
+            "0°F",
+            "0K",
+            "-100°C"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Calor é:",
+          "options": [
+            "Temperatura",
+            "Energia em trânsito",
+            "Massa",
+            "Pressão"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Água ferve a:",
+          "options": [
+            "50°C",
+            "100°C",
+            "200°C",
+            "273°C"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Dilatação Térmica",
+      "slug": "dilatacao-termica",
+      "desc": "Dilatação térmica: linear (ΔL=L₀·α·ΔT), superficial (ΔA=A₀·β·ΔT), volumétrica (ΔV=V₀·γ·ΔT). Relação: β=2α, γ=3α. Juntas de dilatação.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Dilatação linear: ΔL=L₀·α·ΔT (α=coeficiente linear). Superficial: ΔA=A₀·β·ΔT (β=2α). Volumétrica: ΔV=V₀·γ·ΔT (γ=3α). Dilatação dos líquidos: só volumétrica. Água: anomalia (dilata ao congelar, máxima densidade a 4°C). Aplicações: juntas de dilatação em pontes/trilhos, lâmina bimetálica em termostatos.",
+      "body": "<h2>Introdução</h2><p>A <strong>dilatação térmica</strong> ocorre quando materiais se expandem ao serem aquecidos.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Fórmula</th><th>Coeficiente</th></tr></thead><tbody><tr><td>Linear</td><td>ΔL = L₀·α·ΔT</td><td>α</td></tr><tr><td>Superficial</td><td>ΔA = A₀·β·ΔT</td><td>β = 2α</td></tr><tr><td>Volumétrica</td><td>ΔV = V₀·γ·ΔT</td><td>γ = 3α</td></tr></tbody></table><h2>Anomalia da Água</h2><ul><li>Água se expande ao congelar (gelo é menos denso → flutua)</li><li>Máxima densidade a 4°C</li></ul><h2>Aplicações</h2><ul><li>Juntas de dilatação em pontes e trilhos</li><li>Lâmina bimetálica em termostatos</li></ul><h2>Resumo</h2><ul><li>✅ β=2α, γ=3α. Água: anomalia!</li><li>⚠️ ENEM: juntas de dilatação, anomalia da água</li></ul><h2>Curiosidade</h2><p>A <strong>Torre Eiffel</strong> cresce até <strong>15 cm</strong> no verão por dilatação térmica! Por isso estruturas metálicas precisam de juntas de dilatação.</p>",
+      "faq": [
+        {
+          "q": "Por que gelo flutua?",
+          "a": "Água é anômala: se expande ao congelar (pontes de hidrogênio formam estrutura cristalina aberta). Gelo (ρ=0,917) é menos denso que água líquida (ρ=1,0)."
+        },
+        {
+          "q": "O que é junta de dilatação?",
+          "a": "Espaço intencional entre partes de uma estrutura (ponte, trilho, calçada) para permitir expansão/contração térmica sem causar trincas ou deformação."
+        },
+        {
+          "q": "Lâmina bimetálica funciona como?",
+          "a": "Dois metais com α diferentes colados: ao aquecer, dilatam diferentemente → lâmina curva. Usado em termostatos (ligar/desligar circuito conforme temperatura)."
+        },
+        {
+          "q": "Líquidos dilatam linearmente?",
+          "a": "Não! Líquidos só têm dilatação volumétrica (não mantêm forma). ΔV=V₀·γ_líq·ΔT. γ_líquido geralmente é muito maior que γ_sólido."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "γ = ?·α:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Gelo flutua porque:",
+          "options": [
+            "É mais denso",
+            "É menos denso",
+            "Tem mesma densidade",
+            "É mais pesado"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Juntas de dilatação servem para:",
+          "options": [
+            "Decoração",
+            "Permitir expansão",
+            "Reduzir peso",
+            "Aumentar resistência"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Dilatação linear: ΔL = L₀·α·?:",
+          "options": [
+            "ΔP",
+            "ΔV",
+            "ΔT",
+            "Δm"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Calorimetria",
+      "slug": "calorimetria",
+      "desc": "Calorimetria: calor sensível (Q=mcΔT), calor latente (Q=mL). Capacidade térmica. Mudanças de estado: fusão, ebulição, sublimação. Calorímetro.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Calor sensível: Q=m·c·ΔT (muda temperatura). Calor latente: Q=m·L (muda estado, T constante). Capacidade térmica: C=m·c (J/°C). Mudanças: sólido→líquido (fusão, L_f), líquido→gás (ebulição, L_v). Calorímetro: Q_cedido+Q_recebido=0 (equilíbrio térmico). Água: c=1 cal/g°C = 4186 J/kg·K (alto calor específico → termorregulação).",
+      "body": "<h2>Introdução</h2><p><strong>Calorimetria</strong> estuda trocas de calor entre corpos.</p><h2>Calor Sensível</h2><p><strong>Q = m·c·ΔT</strong></p><ul><li>c = calor específico (J/kg·K). Água: 4186 J/kg·K</li></ul><h2>Calor Latente</h2><p><strong>Q = m·L</strong> (mudança de estado, sem variação de T)</p><h2>Mudanças de Estado</h2><table><thead><tr><th>Processo</th><th>Transição</th><th>Q</th></tr></thead><tbody><tr><td>Fusão</td><td>Sólido→Líquido</td><td>Absorve (Q>0)</td></tr><tr><td>Ebulição</td><td>Líquido→Gás</td><td>Absorve (Q>0)</td></tr><tr><td>Solidificação</td><td>Líquido→Sólido</td><td>Libera (Q<0)</td></tr><tr><td>Condensação</td><td>Gás→Líquido</td><td>Libera (Q<0)</td></tr></tbody></table><h2>Calorímetro</h2><p>Q_cedido + Q_recebido = 0 → equilíbrio térmico</p><h2>Resumo</h2><ul><li>✅ Q=mcΔT (sensível) e Q=mL (latente)</li><li>⚠️ ENEM: trocas de calor, gráficos T×Q</li></ul><h2>Curiosidade</h2><p>A água tem calor específico tão alto que cidades litorâneas têm temperaturas mais <strong>amenas</strong> que cidades do interior — o mar absorve calor de dia e libera à noite!</p>",
+      "faq": [
+        {
+          "q": "Na mudança de estado, T muda?",
+          "a": "NÃO! Durante fusão/ebulição, toda energia vai para quebrar ligações intermoleculares. Temperatura fica constante até completar a mudança."
+        },
+        {
+          "q": "Calor específico alto é bom ou ruim?",
+          "a": "Depende! Alto c (como água) significa que demora para aquecer E para esfriar. Bom para termorregulação. Ruim se precisa aquecer rápido (metais são melhores)."
+        },
+        {
+          "q": "O que é sublimação?",
+          "a": "Passagem direta de sólido→gás (sem passar por líquido). Exemplo: gelo seco (CO₂), naftalina. O inverso é ressublimação."
+        },
+        {
+          "q": "Calorímetro funciona como?",
+          "a": "Sistema isolado termicamente. Mistura-se corpo quente + frio. Calor cedido pelo quente = calor absorvido pelo frio. Permite calcular c ou T_equilíbrio."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Q=m·c·ΔT é calor:",
+          "options": [
+            "Latente",
+            "Sensível",
+            "Nuclear",
+            "Mecânico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na fusão, T:",
+          "options": [
+            "Sobe",
+            "Desce",
+            "Fica constante",
+            "Dobra"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "c da água =:",
+          "options": [
+            "0,5 cal/g°C",
+            "1 cal/g°C",
+            "2 cal/g°C",
+            "10 cal/g°C"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sublimação: sólido→:",
+          "options": [
+            "Líquido",
+            "Gás",
+            "Plasma",
+            "Nada"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Termodinâmica",
+      "slug": "termodinamica",
+      "desc": "Termodinâmica: 1ª Lei (ΔU=Q-W, conservação). 2ª Lei (entropia, máquinas térmicas, rendimento). Transformações: isotérmica, isobárica, isocórica, adiabática.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "1ª Lei: ΔU=Q-W (energia interna = calor recebido - trabalho realizado). 2ª Lei: calor flui espontaneamente do quente→frio. Entropia sempre aumenta. Máquina térmica: converte calor em trabalho (rendimento η=W/Q_quente=1-Q_frio/Q_quente). Rendimento máximo: Carnot (η=1-T_frio/T_quente). Transformações: isotérmica (T=const), isobárica (P=const), isocórica (V=const, W=0), adiabática (Q=0).",
+      "body": "<h2>Introdução</h2><p>A <strong>Termodinâmica</strong> estuda transformações de calor em trabalho e vice-versa.</p><h2>1ª Lei</h2><p><strong>ΔU = Q - W</strong></p><ul><li>ΔU: variação da energia interna</li><li>Q: calor trocado</li><li>W: trabalho realizado pelo gás</li></ul><h2>Transformações</h2><table><thead><tr><th>Tipo</th><th>Constante</th><th>Consequência</th></tr></thead><tbody><tr><td>Isotérmica</td><td>T</td><td>ΔU=0 → Q=W</td></tr><tr><td>Isobárica</td><td>P</td><td>W=P·ΔV</td></tr><tr><td>Isocórica</td><td>V</td><td>W=0 → ΔU=Q</td></tr><tr><td>Adiabática</td><td>Q=0</td><td>ΔU=-W</td></tr></tbody></table><h2>2ª Lei e Máquinas Térmicas</h2><ul><li>Rendimento: η = W/Q_quente = 1 - Q_frio/Q_quente</li><li>Máximo teórico (Carnot): η = 1 - T_frio/T_quente</li><li>η < 100% sempre (impossível converter todo calor em trabalho)</li></ul><h2>Resumo</h2><ul><li>✅ ΔU=Q-W; η=1-Q_f/Q_q (em Kelvin!)</li><li>⚠️ ENEM: gráficos P×V, rendimento, transformações</li></ul><h2>Curiosidade</h2><p>O <strong>rendimento de Carnot</strong> depende das temperaturas! Um motor entre 600K e 300K tem η_max=50%. É impossível fazer uma máquina com η=100% — violaria a 2ª Lei!</p>",
+      "faq": [
+        {
+          "q": "Por que η nunca é 100%?",
+          "a": "2ª Lei: impossível converter TODO calor em trabalho. Parte sempre vai para a fonte fria. Entropia do universo sempre aumenta."
+        },
+        {
+          "q": "O que é entropia?",
+          "a": "Medida da 'desordem' de um sistema. 2ª Lei: entropia do universo sempre aumenta (ou fica constante em processos reversíveis). Nunca diminui espontaneamente."
+        },
+        {
+          "q": "Trabalho no gráfico P×V?",
+          "a": "Trabalho = área sob a curva no gráfico P×V. Expansão: W>0 (gás empurra). Compressão: W<0 (gás é empurrado)."
+        },
+        {
+          "q": "Geladeira viola a 2ª Lei?",
+          "a": "Não! Geladeira transfere calor do frio→quente, mas gasta energia (trabalho do compressor). Sem trabalho externo, calor NÃO flui espontaneamente do frio para o quente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "ΔU = Q - ?:",
+          "options": [
+            "F",
+            "m",
+            "W",
+            "T"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Na isocórica, W=:",
+          "options": [
+            "P·ΔV",
+            "0",
+            "Q",
+            "ΔU"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "η de Carnot = 1 - ?:",
+          "options": [
+            "V_f/V_q",
+            "T_f/T_q",
+            "P_f/P_q",
+            "m_f/m_q"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Entropia do universo:",
+          "options": [
+            "Diminui",
+            "Fica constante",
+            "Sempre aumenta",
+            "É zero"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Óptica Geométrica: Reflexão",
+      "slug": "optica-geometrica-reflexao",
+      "desc": "Óptica: reflexão da luz (leis). Espelhos planos (imagem virtual, simétrica). Espelhos esféricos (côncavo, convexo): equação de Gauss (1/f=1/p+1/p'), ampliação.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Leis da reflexão: 1) ângulo de incidência = reflexão; 2) raios no mesmo plano. Espelho plano: imagem virtual, direta, simétrica, mesmo tamanho. Espelhos esféricos: côncavo (convergente) e convexo (divergente). Equação de Gauss: 1/f=1/p+1/p'. Ampliação: A=-p'/p. Côncavo: pode dar imagem real ou virtual. Convexo: sempre virtual, menor, direta.",
+      "body": "<h2>Introdução</h2><p>A <strong>reflexão</strong> ocorre quando a luz bate numa superfície e volta. Espelhos usam esse princípio.</p><h2>Leis da Reflexão</h2><ul><li>1ª: ângulo de incidência = ângulo de reflexão (i=r)</li><li>2ª: raio incidente, refletido e normal estão no mesmo plano</li></ul><h2>Espelho Plano</h2><ul><li>Imagem: virtual, direta, simétrica, mesmo tamanho</li><li>Distância: objeto ↔ espelho = espelho ↔ imagem</li></ul><h2>Espelhos Esféricos</h2><table><thead><tr><th>Tipo</th><th>Imagem</th></tr></thead><tbody><tr><td>Côncavo</td><td>Depende da posição (real/virtual)</td></tr><tr><td>Convexo</td><td>Sempre virtual, menor, direta</td></tr></tbody></table><h2>Equação de Gauss</h2><p><strong>1/f = 1/p + 1/p'</strong></p><p>Ampliação: <strong>A = -p'/p</strong></p><h2>Resumo</h2><ul><li>✅ 1/f=1/p+1/p'; A=-p'/p</li><li>⚠️ ENEM: espelho retrovisor (convexo), espelho de maquiagem (côncavo)</li></ul><h2>Curiosidade</h2><p>O espelho retrovisor do carro é <strong>convexo</strong>: dá imagem menor mas com campo de visão amplo. Por isso a frase: \"objetos no espelho estão mais próximos do que parecem\"!</p>",
+      "faq": [
+        {
+          "q": "Retrovisor é côncavo ou convexo?",
+          "a": "Convexo! Imagem menor mas campo de visão amplo. Ideal para ver mais do trânsito. Espelho de maquiagem é côncavo (amplia o rosto)."
+        },
+        {
+          "q": "Imagem virtual = não existe?",
+          "a": "Existe para nossos olhos! Mas não pode ser projetada numa tela. É formada por prolongamentos dos raios (atrás do espelho)."
+        },
+        {
+          "q": "O que é foco?",
+          "a": "Ponto onde raios paralelos convergem (côncavo) ou parecem divergir (convexo). f=R/2 (metade do raio de curvatura)."
+        },
+        {
+          "q": "A=-p'/p negativo significa o quê?",
+          "a": "Imagem invertida. Se A>0: direta. Se |A|>1: maior. Se |A|<1: menor. O sinal diz orientação, o módulo diz tamanho."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "i = r é a lei da:",
+          "options": [
+            "Refração",
+            "Reflexão",
+            "Difração",
+            "Dispersão"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Espelho convexo dá imagem:",
+          "options": [
+            "Real e maior",
+            "Real e menor",
+            "Virtual e menor",
+            "Virtual e maior"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Equação de Gauss: 1/f = 1/p + ?:",
+          "options": [
+            "1/p'",
+            "1/A",
+            "1/R",
+            "1/n"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Retrovisor é espelho:",
+          "options": [
+            "Plano",
+            "Côncavo",
+            "Convexo",
+            "Parabólico"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Óptica Geométrica: Refração",
+      "slug": "optica-geometrica-refracao",
+      "desc": "Refração: Lei de Snell (n₁·sinθ₁=n₂·sinθ₂). Índice de refração (n=c/v). Reflexão total interna (fibra óptica). Dispersão (arco-íris). Lentes.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Refração: mudança de direção da luz ao mudar de meio. Índice de refração: n=c/v (c=3×10⁸m/s). Lei de Snell: n₁·sinθ₁=n₂·sinθ₂. Mais refringente: desvio para a normal. Menos refringente: afasta da normal. Reflexão total interna: luz em meio mais refringente + ângulo > ângulo limite → não refrata. Fibra óptica: usa reflexão total. Dispersão: separação de cores (prisma, arco-íris).",
+      "body": "<h2>Introdução</h2><p>A <strong>refração</strong> é a mudança de direção da luz ao passar de um meio para outro.</p><h2>Índice de Refração</h2><p><strong>n = c/v</strong> (c = 3×10⁸ m/s, v = velocidade no meio)</p><ul><li>n_vácuo = 1, n_ar ≈ 1, n_água ≈ 1,33, n_vidro ≈ 1,5</li></ul><h2>Lei de Snell</h2><p><strong>n₁ · sin θ₁ = n₂ · sin θ₂</strong></p><ul><li>Mais refringente (n maior) → desvio para a normal (raio se aproxima)</li><li>Menos refringente → afasta da normal</li></ul><h2>Reflexão Total Interna</h2><ul><li>Ocorre quando luz vai de meio mais refringente → menos refringente</li><li>Ângulo > ângulo limite → toda luz reflete</li><li><strong>Fibra óptica:</strong> usa reflexão total para transmitir dados por luz</li></ul><h2>Resumo</h2><ul><li>✅ n₁sinθ₁=n₂sinθ₂ (Lei de Snell)</li><li>⚠️ ENEM: refração, fibra óptica, arco-íris</li></ul><h2>Curiosidade</h2><p>O <strong>arco-íris</strong> acontece por refração + dispersão + reflexão interna nas gotas de chuva. Cada cor tem índice de refração diferente → separação!</p>",
+      "faq": [
+        {
+          "q": "Por que piscina parece mais rasa?",
+          "a": "Refração! A luz saindo da água (n=1,33) para o ar (n=1) se afasta da normal. Nosso cérebro projeta os raios em linha reta → fundo parece mais raso."
+        },
+        {
+          "q": "Fibra óptica usa refração?",
+          "a": "Usa reflexão total interna! A luz entra na fibra (vidro, n alto) e reflete repetidamente nas paredes (ângulo>limite). Transmite dados a velocidade da luz."
+        },
+        {
+          "q": "Por que diamante brilha tanto?",
+          "a": "n muito alto (2,42) → ângulo limite pequeno → muita reflexão total interna. A luz 'fica presa' dentro do diamante, saindo por facetas específicas (lapidação)."
+        },
+        {
+          "q": "Arco-íris é real?",
+          "a": "É um fenômeno óptico real (luz + gotas), mas não tem localização física. Cada pessoa vê 'seu' arco-íris de um ângulo diferente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "n = c/?:",
+          "options": [
+            "f",
+            "λ",
+            "v",
+            "t"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Lei de Snell: n₁sinθ₁ = ?:",
+          "options": [
+            "n₂sinθ₂",
+            "n₂cosθ₂",
+            "n₁cosθ₁",
+            "n₂tanθ₂"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Fibra óptica usa:",
+          "options": [
+            "Refração",
+            "Difração",
+            "Reflexão total",
+            "Dispersão"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "n da água ≈:",
+          "options": [
+            "1,0",
+            "1,33",
+            "1,5",
+            "2,42"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Lentes Esféricas",
+      "slug": "lentes-esfericas",
+      "desc": "Lentes: convergentes (bordas finas) e divergentes (bordas grossas). Equação: 1/f=1/p+1/p'. Vergência (V=1/f, dioptria). Defeitos da visão: miopia, hipermetropia.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Convergente (bordas finas): concentra luz, foco real. Divergente (bordas grossas): espalha luz, foco virtual. Equação: 1/f=1/p+1/p'. Vergência: V=1/f (dioptria=grau). f em metros! Miopia: foco antes da retina → lente divergente. Hipermetropia: foco após retina → lente convergente. Presbiopia: envelhecimento → lente convergente (multifocal).",
+      "body": "<h2>Introdução</h2><p><strong>Lentes</strong> são meios transparentes que refratam luz. Usadas em óculos, câmeras, microscópios.</p><h2>Tipos</h2><table><thead><tr><th>Lente</th><th>Bordas</th><th>Foco</th><th>Uso</th></tr></thead><tbody><tr><td>Convergente</td><td>Finas</td><td>Real</td><td>Lupa, hipermetropia</td></tr><tr><td>Divergente</td><td>Grossas</td><td>Virtual</td><td>Miopia</td></tr></tbody></table><h2>Equação e Vergência</h2><ul><li><strong>1/f = 1/p + 1/p'</strong> (mesma de espelhos)</li><li><strong>V = 1/f</strong> (dioptria = \"grau\"), f em metros</li></ul><h2>Defeitos da Visão</h2><ul><li><strong>Miopia:</strong> imagem antes da retina → lente divergente (V<0)</li><li><strong>Hipermetropia:</strong> imagem após retina → lente convergente (V>0)</li><li><strong>Astigmatismo:</strong> córnea irregular → lente cilíndrica</li></ul><h2>Resumo</h2><ul><li>✅ V=1/f (dioptria). Convergente: +. Divergente: −</li><li>⚠️ ENEM: defeitos da visão, cálculo de vergência</li></ul><h2>Curiosidade</h2><p>\"<strong>Grau</strong>\" é nome popular para <strong>dioptria</strong>. Uma lente de -2 graus (dioptrias) é divergente com f=-0,5m. Corrige miopia!</p>",
+      "faq": [
+        {
+          "q": "Miopia usa que lente?",
+          "a": "Divergente (negativa). O olho míope é 'longo demais' → imagem se forma antes da retina. A lente divergente 'atrasa' a convergência para que chegue na retina."
+        },
+        {
+          "q": "O que é dioptria?",
+          "a": "Unidade de vergência: V=1/f (f em metros). 1 dioptria = foco a 1m. 2 dioptrias = foco a 0,5m. Quanto maior V, mais 'forte' a lente."
+        },
+        {
+          "q": "Lupa é convergente ou divergente?",
+          "a": "Convergente! Quando o objeto está entre F e a lente, forma imagem virtual, direta e ampliada. É por isso que amplia."
+        },
+        {
+          "q": "Astigmatismo é diferente de miopia?",
+          "a": "Sim. Miopia: problema no comprimento do olho. Astigmatismo: córnea tem curvatura irregular. Pode ter ambos juntos. Astigmatismo usa lente cilíndrica (tórica)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Miopia → lente:",
+          "options": [
+            "Convergente",
+            "Divergente",
+            "Plana",
+            "Cilíndrica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "V = 1/f, com f em:",
+          "options": [
+            "cm",
+            "mm",
+            "metros",
+            "km"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Lupa é lente:",
+          "options": [
+            "Divergente",
+            "Convergente",
+            "Plana",
+            "Nenhuma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Dioptria é o popular:",
+          "options": [
+            "Watt",
+            "Grau",
+            "Hertz",
+            "Pascal"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Ondas: Conceitos",
+      "slug": "ondas-conceitos",
+      "desc": "Ondas: mecânicas e eletromagnéticas. Transversais e longitudinais. v=λ·f. Amplitude, período, frequência, comprimento de onda. Equação fundamental.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Onda: perturbação que transporta energia (sem transportar matéria). Mecânicas: precisam de meio (som, ondas do mar). Eletromagnéticas: não precisam (luz, rádio). Transversais: vibração ⊥ propagação. Longitudinais: vibração ∥ propagação. v=λ·f. T=1/f. Amplitude: máximo deslocamento. Comprimento de onda (λ): distância entre 2 cristas. Frequência (f): nº de ciclos/segundo (Hz).",
+      "body": "<h2>Introdução</h2><p><strong>Ondas</strong> transportam energia sem transportar matéria.</p><h2>Classificação</h2><table><thead><tr><th>Critério</th><th>Tipo A</th><th>Tipo B</th></tr></thead><tbody><tr><td>Natureza</td><td>Mecânica (precisa de meio)</td><td>Eletromagnética (não precisa)</td></tr><tr><td>Direção</td><td>Transversal (vibração ⊥)</td><td>Longitudinal (vibração ∥)</td></tr></tbody></table><h2>Grandezas</h2><ul><li><strong>λ (comprimento de onda):</strong> distância crista-crista</li><li><strong>f (frequência):</strong> ciclos/segundo (Hz)</li><li><strong>T (período):</strong> tempo de 1 ciclo. T=1/f</li><li><strong>A (amplitude):</strong> máximo deslocamento</li></ul><h2>Equação Fundamental</h2><p><strong>v = λ · f</strong></p><h2>Resumo</h2><ul><li>✅ v=λ·f; T=1/f</li><li>⚠️ ENEM: classificar ondas, calcular v, f, λ</li></ul><h2>Curiosidade</h2><p>No <strong>vácuo do espaço</strong>, nenhum som se propaga! Em filmes de ficção científica, explosões no espaço fariam barulho — mas na realidade, o espaço é completamente silencioso.</p>",
+      "faq": [
+        {
+          "q": "Som é transversal ou longitudinal?",
+          "a": "Longitudinal! O som vibra na mesma direção da propagação (compressão e rarefação do ar). Não pode ser transversal em fluidos."
+        },
+        {
+          "q": "Luz precisa de meio?",
+          "a": "Não! Luz é onda eletromagnética: propaga-se no vácuo a 3×10⁸ m/s. O Sol ilumina a Terra através do vácuo do espaço."
+        },
+        {
+          "q": "Amplitude muda velocidade?",
+          "a": "Não! v=λ·f. Amplitude afeta a intensidade (energia), mas não a velocidade. Velocidade depende do meio."
+        },
+        {
+          "q": "Onda transporta matéria?",
+          "a": "Não! Transporta energia. Na onda do mar, a água sobe e desce no mesmo lugar (movimento circular). Uma boia prova isso: flutua sem ser arrastada."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "v = λ · ?:",
+          "options": [
+            "T",
+            "A",
+            "f",
+            "n"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Som é onda:",
+          "options": [
+            "Eletromagnética",
+            "Mecânica",
+            "Transversal",
+            "Nuclear"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "T = 1/?:",
+          "options": [
+            "λ",
+            "v",
+            "f",
+            "A"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "No vácuo, som:",
+          "options": [
+            "Propaga normal",
+            "Propaga devagar",
+            "Não propaga",
+            "Propaga mais rápido"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Ondas Sonoras",
+      "slug": "ondas-sonoras",
+      "desc": "Som: onda mecânica longitudinal. Velocidade (~340 m/s no ar). Características: altura (agudo/grave=frequência), intensidade (forte/fraco=amplitude), timbre. Efeito Doppler.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Som: onda mecânica longitudinal. Velocidade no ar: ~340 m/s (depende da temperatura e do meio: sólido>líquido>gás). Audível: 20 Hz a 20.000 Hz. Infrassom: <20 Hz. Ultrassom: >20.000 Hz. Altura: frequência (agudo=alta f, grave=baixa f). Intensidade: amplitude (forte/fraco). Timbre: permite diferenciar instrumentos. Efeito Doppler: fonte se aproxima → f aumenta; se afasta → f diminui.",
+      "body": "<h2>Introdução</h2><p>O <strong>som</strong> é uma onda mecânica longitudinal que se propaga pela vibração das moléculas do meio.</p><h2>Características</h2><table><thead><tr><th>Propriedade</th><th>Depende de</th><th>Exemplos</th></tr></thead><tbody><tr><td>Altura</td><td>Frequência</td><td>Agudo (alta f) / Grave (baixa f)</td></tr><tr><td>Intensidade</td><td>Amplitude</td><td>Forte / Fraco (dB)</td></tr><tr><td>Timbre</td><td>Forma da onda</td><td>Violão ≠ piano (mesma nota)</td></tr></tbody></table><h2>Velocidade</h2><ul><li>Ar: ~340 m/s. Água: ~1500 m/s. Aço: ~5000 m/s</li><li>Sólido > Líquido > Gás</li></ul><h2>Efeito Doppler</h2><ul><li>Fonte se aproxima: f percebida ↑ (som mais agudo)</li><li>Fonte se afasta: f percebida ↓ (som mais grave)</li></ul><h2>Resumo</h2><ul><li>✅ Altura=frequência, Intensidade=amplitude, Timbre=forma</li><li>⚠️ ENEM: Efeito Doppler, ultrassom, velocidade do som</li></ul><h2>Curiosidade</h2><p>O <strong>efeito Doppler</strong> explica por que a sirene de uma ambulância parece mais aguda quando se aproxima e mais grave quando se afasta!</p>",
+      "faq": [
+        {
+          "q": "Ultrassom é usado em medicina?",
+          "a": "Sim! Ecografia usa ultrassom (>20.000 Hz). Emite ondas que refletem nos órgãos → forma imagem. Seguro (sem radiação ionizante), usado em gestação."
+        },
+        {
+          "q": "Som viaja mais rápido na água?",
+          "a": "Sim! ~1500 m/s na água vs ~340 m/s no ar. Baleias se comunicam a centenas de km de distância pelo som submarino."
+        },
+        {
+          "q": "Decibel (dB) é unidade de quê?",
+          "a": "Nível de intensidade sonora. 0dB=limiar de audição, 60dB=conversa, 120dB=limiar de dor, 140dB=avião. Escala logarítmica!"
+        },
+        {
+          "q": "Efeito Doppler funciona com luz?",
+          "a": "Sim! Redshift (desvio para o vermelho): galáxias se afastando → f diminui. Usado para descobrir que o universo está se expandindo (Hubble)!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Som agudo tem frequência:",
+          "options": [
+            "Baixa",
+            "Alta",
+            "Zero",
+            "Infinita"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Som no ar: ~?m/s:",
+          "options": [
+            "100",
+            "340",
+            "1500",
+            "5000"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Efeito Doppler: fonte aproximando → f:",
+          "options": [
+            "Diminui",
+            "Aumenta",
+            "Não muda",
+            "Zera"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ultrassom: f > ? Hz:",
+          "options": [
+            "20",
+            "2000",
+            "20.000",
+            "200.000"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Ondas: Fenômenos",
+      "slug": "ondas-fenomenos",
+      "desc": "Fenômenos ondulatórios: reflexão, refração, difração, interferência (construtiva/destrutiva), ressonância, polarização. Ondas estacionárias.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Reflexão: onda bate e volta (eco). Refração: muda de velocidade ao mudar de meio. Difração: contorna obstáculos (mais intensa se λ~tamanho do obstáculo). Interferência: construtiva (crista+crista=amplia) e destrutiva (crista+vale=anula). Ressonância: f_forçada = f_natural → amplitude máxima. Polarização: só ondas transversais (eletromagnéticas). Ondas estacionárias: sobreposição → nós e ventres.",
+      "body": "<h2>Introdução</h2><p>Ondas interagem com o meio e entre si: reflexão, refração, difração, interferência e mais.</p><h2>Fenômenos</h2><table><thead><tr><th>Fenômeno</th><th>Descrição</th><th>Exemplo</th></tr></thead><tbody><tr><td>Reflexão</td><td>Onda volta ao bater em superfície</td><td>Eco</td></tr><tr><td>Refração</td><td>Muda velocidade/direção entre meios</td><td>Arco-íris</td></tr><tr><td>Difração</td><td>Contorna obstáculos</td><td>Ouvir atrás de uma parede</td></tr><tr><td>Interferência</td><td>Ondas se somam</td><td>Fone cancelador de ruído</td></tr><tr><td>Ressonância</td><td>f_externa = f_natural → amplia</td><td>Taça quebra com voz</td></tr><tr><td>Polarização</td><td>Seleciona direção de vibração</td><td>Óculos polarizados</td></tr></tbody></table><h2>Interferência</h2><ul><li><strong>Construtiva:</strong> crista+crista → amplitude dobra</li><li><strong>Destrutiva:</strong> crista+vale → amplitude zero (anula)</li></ul><h2>Resumo</h2><ul><li>✅ Difração depende de λ vs tamanho do obstáculo</li><li>⚠️ ENEM: interferência (construtiva/destrutiva), ressonância</li></ul><h2>Curiosidade</h2><p>Fones <strong>canceladores de ruído</strong> usam interferência destrutiva: captam o som externo e emitem onda igual mas invertida → sons se anulam!</p>",
+      "faq": [
+        {
+          "q": "Difração é visível com luz?",
+          "a": "Sim, mas difícil. Como λ da luz é muito pequena (~400-700nm), a difração só é perceptível em fendas muito estreitas. Som difrata facilmente (λ maior)."
+        },
+        {
+          "q": "Fone noise cancelling funciona como?",
+          "a": "Microfone capta ruído externo. Processador gera onda 'invertida' (mesma f, fase oposta). Interferência destrutiva → ruído cancelado."
+        },
+        {
+          "q": "Ressonância é perigosa?",
+          "a": "Pode ser! Pontes podem colapsar se frequência de marcha = frequência natural (ex: colapso da Ponte de Tacoma, 1940). Soldados quebram passo em pontes."
+        },
+        {
+          "q": "Polarização funciona com som?",
+          "a": "Não! Polarização é exclusiva de ondas transversais. Som é longitudinal, então NÃO pode ser polarizado. Luz sim (eletromagnética, transversal)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Interferência destrutiva: crista + vale =:",
+          "options": [
+            "Amplia",
+            "Anula",
+            "Reflete",
+            "Difrata"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Polarização funciona com:",
+          "options": [
+            "Som",
+            "Luz",
+            "Ambas",
+            "Nenhuma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ressonância: f_externa = ?:",
+          "options": [
+            "f_natural",
+            "f/2",
+            "2f",
+            "0"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Difração é mais forte se λ é:",
+          "options": [
+            "Muito menor que obstáculo",
+            "Muito maior",
+            "Próximo ao tamanho",
+            "Zero"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

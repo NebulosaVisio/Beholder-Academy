@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -211,7 +211,9 @@
       try {
         var user = JSON.parse(userData);
         if (user.type !== 'aluno') {
-          window.location.href = 'responsavel.html';
+          // Fix: redirect to login so user can switch profiles
+          alert('Você está logado como responsável. Faça login como aluno para acessar este painel.');
+          window.location.href = 'login.html';
           return;
         }
         // Show user name in streak area
@@ -222,7 +224,10 @@
           nameEl.textContent = '👋 ' + user.name;
           streakLabel.parentElement.appendChild(nameEl);
         }
-      } catch(e) {}
+      } catch(e) {
+        window.location.href = 'login.html';
+        return;
+      }
 
       // Dark mode handled by theme.js
       PainelUI.init();

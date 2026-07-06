@@ -1,0 +1,946 @@
+{
+  "subject": "Biologia",
+  "slug": "1ano-biologia",
+  "level": "Fundamental 1",
+  "grade": "1º ano",
+  "color": "var(--biologia)",
+  "icon": "dna",
+  "articles": [
+    {
+      "title": "Bioquímica: Água e Sais Minerais",
+      "slug": "bioquimica-agua-e-sais-minerais",
+      "desc": "Água: solvente universal, polaridade, coesão, adesão, calor específico alto. Sais minerais: cálcio (ossos), ferro (hemoglobina), sódio/potássio (impulso nervoso), fósforo (ATP, DNA).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Água: molécula polar (H₂O), solvente universal, coesão/adesão (capilaridade), alto calor específico (termorregulação), participa de reações (hidrólise). 70% do corpo. Sais minerais: Ca (ossos/dentes), Fe (hemoglobina), Na/K (impulso nervoso), P (ATP, DNA), I (tireoide). Osteoporose: falta Ca. Anemia: falta Fe. Bócio: falta I.",
+      "body": "<h2>Introdução</h2><p>A <strong>água</strong> e os <strong>sais minerais</strong> são substâncias inorgânicas essenciais para a vida. Sem eles, nenhuma reação bioquímica aconteceria.</p><h2>Água (H₂O)</h2><ul><li><strong>Polaridade:</strong> molécula polar → excelente solvente</li><li><strong>Coesão/Adesão:</strong> tensão superficial, capilaridade nas plantas</li><li><strong>Calor específico alto:</strong> regula temperatura corporal e ambiental</li><li><strong>Participação metabólica:</strong> hidrólise, fotossíntese, transporte</li></ul><h2>Sais Minerais</h2><table><thead><tr><th>Mineral</th><th>Função</th><th>Carência</th></tr></thead><tbody><tr><td>Ca (Cálcio)</td><td>Ossos, dentes, coagulação</td><td>Osteoporose</td></tr><tr><td>Fe (Ferro)</td><td>Hemoglobina (transporte O₂)</td><td>Anemia</td></tr><tr><td>Na/K</td><td>Impulso nervoso, equilíbrio osmótico</td><td>Câimbras</td></tr><tr><td>P (Fósforo)</td><td>ATP, DNA, ossos</td><td>Fraqueza</td></tr><tr><td>I (Iodo)</td><td>Hormônios da tireoide</td><td>Bócio</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Água = solvente universal, termorregulação, transporte</li><li>⚠️ ENEM: propriedades da água (capilaridade, tensão superficial)</li></ul><h2>Curiosidade</h2><p>Uma água-viva é composta de <strong>95% de água</strong>! E um ser humano adulto tem cerca de 60-70% de água no corpo.</p>",
+      "faq": [
+        {
+          "q": "Por que a água é o solvente universal?",
+          "a": "Porque é polar: dissolve substâncias polares e iônicas (sais, açúcares). Não dissolve apolares (óleos). É essencial para reações celulares."
+        },
+        {
+          "q": "O que é capilaridade?",
+          "a": "Capacidade da água de subir em tubos finos contra a gravidade (coesão + adesão). É como a seiva sobe nas plantas."
+        },
+        {
+          "q": "Ferro serve para quê?",
+          "a": "Compõe a hemoglobina (proteína das hemácias que transporta O₂). Falta de ferro causa anemia ferropriva."
+        },
+        {
+          "q": "Sal iodado previne o quê?",
+          "a": "Bócio (aumento da tireoide). O iodo é necessário para produzir hormônios tireoidianos (T3, T4). No Brasil, o sal é iodado por lei."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A água é solvente universal porque é:",
+          "options": [
+            "Apolar",
+            "Polar",
+            "Ácida",
+            "Neutra"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Anemia ferropriva é causada pela falta de:",
+          "options": [
+            "Cálcio",
+            "Ferro",
+            "Iodo",
+            "Potássio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A capilaridade é importante para:",
+          "options": [
+            "Digestão",
+            "Subida de seiva nas plantas",
+            "Respiração",
+            "Excreção"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Alto calor específico da água ajuda na:",
+          "options": [
+            "Dissolução",
+            "Termorregulação",
+            "Fotossíntese",
+            "Digestão"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Bioquímica: Carboidratos, Lipídios, Proteínas e Ácidos Nucleicos",
+      "slug": "bioquimica-carboidratos-lipidios-proteinas-e-acidos-nucleicos",
+      "desc": "Biomoléculas orgânicas: carboidratos (energia), lipídios (reserva, membranas), proteínas (enzimas, estrutura), ácidos nucleicos (DNA, RNA). Monômeros e polímeros.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Carboidratos: mono (glicose, frutose), di (sacarose, lactose), poli (amido=vegetal, glicogênio=animal, celulose=estrutura). Lipídios: triglicerídeos (reserva), fosfolipídios (membrana), esteroides (colesterol, hormônios). Proteínas: aminoácidos→peptídeos, enzimas, anticorpos, hemoglobina. Estrutura: 1ª→4ª. Ácidos nucleicos: DNA (dupla hélice, A-T, C-G) e RNA (fita simples, A-U).",
+      "body": "<h2>Introdução</h2><p>As <strong>biomoléculas orgânicas</strong> são os tijolos da vida: carboidratos, lipídios, proteínas e ácidos nucleicos.</p><h2>Carboidratos</h2><table><thead><tr><th>Tipo</th><th>Exemplos</th><th>Função</th></tr></thead><tbody><tr><td>Monossacarídeos</td><td>Glicose, frutose</td><td>Energia imediata</td></tr><tr><td>Dissacarídeos</td><td>Sacarose, lactose</td><td>Energia</td></tr><tr><td>Polissacarídeos</td><td>Amido, glicogênio, celulose</td><td>Reserva, estrutura</td></tr></tbody></table><h2>Lipídios</h2><ul><li><strong>Triglicerídeos:</strong> reserva energética (gordura)</li><li><strong>Fosfolipídios:</strong> membrana plasmática</li><li><strong>Esteroides:</strong> colesterol, hormônios sexuais</li></ul><h2>Proteínas</h2><ul><li>Formadas por <strong>aminoácidos</strong> (20 tipos)</li><li>Funções: enzimas, anticorpos, transporte (hemoglobina), estrutura (colágeno)</li><li>Desnaturação: calor/pH altera a forma → perde função</li></ul><h2>Ácidos Nucleicos</h2><ul><li><strong>DNA:</strong> dupla hélice, A-T, C-G, desoxirribose</li><li><strong>RNA:</strong> fita simples, A-U, C-G, ribose</li></ul><h2>Resumo</h2><ul><li>✅ Carboidrato=energia, Lipídio=reserva, Proteína=enzima, DNA=informação</li><li>⚠️ ENEM: funções das biomoléculas, desnaturação proteica</li></ul><h2>Curiosidade</h2><p>O DNA de uma única célula humana, se desenrolado, mediria <strong>2 metros</strong>! Todo o DNA do corpo daria para ir da Terra ao Sol e voltar <strong>600 vezes</strong>!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre amido e glicogênio?",
+          "a": "Ambos são polissacarídeos de reserva. Amido: reserva vegetal. Glicogênio: reserva animal (fígado e músculos). Celulose: estrutura vegetal (parede celular)."
+        },
+        {
+          "q": "O que é desnaturação?",
+          "a": "Perda da forma tridimensional da proteína por calor, pH extremo ou agentes químicos. Sem a forma correta, a proteína perde sua função (ex: ovo frito)."
+        },
+        {
+          "q": "DNA e RNA são diferentes como?",
+          "a": "DNA: dupla hélice, desoxirribose, timina (T). RNA: fita simples, ribose, uracila (U). DNA armazena informação; RNA executa (mRNA, tRNA, rRNA)."
+        },
+        {
+          "q": "Enzimas são proteínas?",
+          "a": "Sim! São catalisadores biológicos que aceleram reações sem serem consumidas. Cada enzima é específica para um substrato (modelo chave-fechadura)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Reserva energética animal é:",
+          "options": [
+            "Amido",
+            "Celulose",
+            "Glicogênio",
+            "Quitina"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Fosfolipídios compõem:",
+          "options": [
+            "DNA",
+            "Membrana plasmática",
+            "Músculos",
+            "Ossos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "DNA tem:",
+          "options": [
+            "Fita simples",
+            "Dupla hélice",
+            "Uracila",
+            "Ribose"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Enzimas são:",
+          "options": [
+            "Lipídios",
+            "Carboidratos",
+            "Proteínas",
+            "Ácidos nucleicos"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Célula: Membrana Plasmática",
+      "slug": "celula-membrana-plasmatica",
+      "desc": "Membrana plasmática: bicamada fosfolipídica, modelo mosaico fluido (Singer-Nicolson). Transportes: difusão, osmose, transporte ativo (bomba Na/K). Especializações.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Membrana: bicamada de fosfolipídios + proteínas (mosaico fluido). Permeabilidade seletiva. Transporte passivo: difusão simples, facilitada e osmose (sem gasto de ATP). Transporte ativo: bomba Na⁺/K⁺ (gasta ATP). Osmose: hipotônica (célula incha), hipertônica (célula murcha), isotônica (equilíbrio). Endocitose: fagocitose (sólido), pinocitose (líquido).",
+      "body": "<h2>Introdução</h2><p>A <strong>membrana plasmática</strong> é a fronteira da célula: controla o que entra e sai, protege e comunica.</p><h2>Modelo Mosaico Fluido</h2><ul><li><strong>Bicamada fosfolipídica:</strong> cabeça polar (fora) + cauda apolar (dentro)</li><li>Proteínas mergulhadas (integrais) ou apoiadas (periféricas)</li><li>Colesterol: estabiliza a fluidez</li><li>Carboidratos: glicocálix (reconhecimento celular)</li></ul><h2>Transportes</h2><table><thead><tr><th>Tipo</th><th>Energia</th><th>Exemplo</th></tr></thead><tbody><tr><td>Difusão simples</td><td>Sem ATP</td><td>O₂, CO₂</td></tr><tr><td>Difusão facilitada</td><td>Sem ATP</td><td>Glicose (por proteína canal)</td></tr><tr><td>Osmose</td><td>Sem ATP</td><td>Água (da menor→maior concentração de soluto)</td></tr><tr><td>Transporte ativo</td><td>Com ATP</td><td>Bomba Na⁺/K⁺</td></tr></tbody></table><h2>Osmose</h2><ul><li><strong>Hipotônica:</strong> célula incha (entra água)</li><li><strong>Hipertônica:</strong> célula murcha (sai água)</li><li><strong>Isotônica:</strong> equilíbrio</li></ul><h2>Resumo</h2><ul><li>✅ Mosaico fluido: fosfolipídios + proteínas</li><li>⚠️ ENEM: osmose (soro fisiológico = isotônico)</li></ul><h2>Curiosidade</h2><p>O <strong>soro fisiológico</strong> (0,9% NaCl) é isotônico em relação ao sangue. Se fosse água pura (hipotônica), as hemácias inchariam e estourariam!</p>",
+      "faq": [
+        {
+          "q": "O que é mosaico fluido?",
+          "a": "Modelo proposto por Singer e Nicolson (1972): membrana = mosaico de proteínas em uma bicamada fluida de fosfolipídios. As proteínas 'flutuam' como icebergs."
+        },
+        {
+          "q": "Osmose é transporte de quê?",
+          "a": "De ÁGUA (solvente), da solução menos concentrada (hipotônica) para a mais concentrada (hipertônica), através de membrana semipermeável."
+        },
+        {
+          "q": "Para que serve a bomba Na/K?",
+          "a": "Transporta 3 Na⁺ para fora e 2 K⁺ para dentro da célula, usando ATP. Mantém o potencial de membrana necessário para impulsos nervosos."
+        },
+        {
+          "q": "O que é plasmólise?",
+          "a": "Quando célula vegetal em meio hipertônico perde água e a membrana se descola da parede celular. É reversível (deplasmólise em meio hipotônico)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A membrana é uma bicamada de:",
+          "options": [
+            "Proteínas",
+            "Fosfolipídios",
+            "Carboidratos",
+            "Colesterol"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Osmose é transporte de:",
+          "options": [
+            "Soluto",
+            "Água",
+            "Íons",
+            "Proteínas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Transporte ativo usa:",
+          "options": [
+            "Nada",
+            "ATP",
+            "Osmose",
+            "Difusão"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Célula em meio hipotônico:",
+          "options": [
+            "Murcha",
+            "Incha",
+            "Não muda",
+            "Morre"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Célula: Citoplasma e Organelas",
+      "slug": "celula-citoplasma-e-organelas",
+      "desc": "Citoplasma: citosol, citoesqueleto, organelas. Ribossomos (síntese proteica), RE liso/rugoso, Golgi (empacotamento), mitocôndria (ATP), lisossomo (digestão), cloroplasto (fotossíntese).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Citoplasma: citosol (gel), citoesqueleto, organelas. Ribossomos: síntese de proteínas. RE rugoso: ribossomos → proteínas. RE liso: lipídios, detoxificação. Golgi: empacotamento e secreção. Lisossomo: digestão intracelular. Mitocôndria: respiração celular → ATP (DNA próprio). Cloroplasto: fotossíntese (só vegetal, DNA próprio). Vacúolo: armazenamento (grande em vegetal). Centríolo: divisão celular (animal).",
+      "body": "<h2>Introdução</h2><p>O <strong>citoplasma</strong> é o espaço entre a membrana e o núcleo, preenchido pelo citosol (gel) e repleto de organelas especializadas.</p><h2>Organelas</h2><table><thead><tr><th>Organela</th><th>Função</th></tr></thead><tbody><tr><td><strong>Ribossomo</strong></td><td>Síntese de proteínas</td></tr><tr><td><strong>RE Rugoso</strong></td><td>Síntese de proteínas (ribossomos)</td></tr><tr><td><strong>RE Liso</strong></td><td>Lipídios, detoxificação</td></tr><tr><td><strong>Complexo de Golgi</strong></td><td>Empacotamento, secreção</td></tr><tr><td><strong>Lisossomo</strong></td><td>Digestão intracelular</td></tr><tr><td><strong>Mitocôndria</strong></td><td>Respiração celular → ATP</td></tr><tr><td><strong>Cloroplasto</strong></td><td>Fotossíntese (vegetal)</td></tr><tr><td><strong>Vacúolo</strong></td><td>Armazenamento (grande em vegetal)</td></tr><tr><td><strong>Centríolo</strong></td><td>Divisão celular (animal)</td></tr></tbody></table><h2>Animal vs Vegetal</h2><ul><li><strong>Só animal:</strong> centríolo, lisossomo</li><li><strong>Só vegetal:</strong> cloroplasto, parede celular, vacúolo central</li><li><strong>Ambas:</strong> mitocôndria, RE, Golgi, ribossomo</li></ul><h2>Resumo</h2><ul><li>✅ Mitocôndria = usina de ATP. Cloroplasto = fábrica de glicose.</li><li>⚠️ ENEM: diferenças animal × vegetal</li></ul><h2>Curiosidade</h2><p>Mitocôndrias e cloroplastos têm <strong>DNA próprio</strong>! A teoria endossimbiótica propõe que eram bactérias que foram \"engolidas\" por células ancestrais há bilhões de anos.</p>",
+      "faq": [
+        {
+          "q": "O que é a teoria endossimbiótica?",
+          "a": "Proposta por Lynn Margulis: mitocôndrias e cloroplastos eram bactérias que foram fagocitadas por células ancestrais e viveram em simbiose. Evidência: DNA próprio circular."
+        },
+        {
+          "q": "Qual organela produz ATP?",
+          "a": "Mitocôndria, por respiração celular (glicose+O₂→CO₂+H₂O+ATP). Está presente em todas as células eucarióticas."
+        },
+        {
+          "q": "Célula vegetal tem mitocôndria?",
+          "a": "Sim! Tem cloroplasto E mitocôndria. Faz fotossíntese (cloroplasto, com luz) e respiração celular (mitocôndria, sempre)."
+        },
+        {
+          "q": "Para que serve o Golgi?",
+          "a": "Complexo de Golgi: recebe proteínas do RE, modifica, empacota em vesículas e envia ao destino (secreção, membrana, lisossomos). É o 'correio' da célula."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Mitocôndria produz:",
+          "options": [
+            "Proteínas",
+            "ATP",
+            "Lipídios",
+            "DNA"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cloroplasto faz:",
+          "options": [
+            "Respiração",
+            "Fotossíntese",
+            "Digestão",
+            "Secreção"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Célula vegetal NÃO tem:",
+          "options": [
+            "Mitocôndria",
+            "Cloroplasto",
+            "Centríolo",
+            "Ribossomo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Lisossomo faz:",
+          "options": [
+            "Fotossíntese",
+            "Digestão intracelular",
+            "Síntese de DNA",
+            "Transporte"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Célula: Núcleo e Material Genético",
+      "slug": "celula-nucleo-e-material-genetico",
+      "desc": "Núcleo: carioteca, nucléolo, cromatina/cromossomo. DNA → transcrição → mRNA → tradução → proteína. Gene: trecho do DNA que codifica proteína. Cariótipo humano: 46 cromossomos.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Núcleo: carioteca (dupla membrana com poros), nucléolo (produz ribossomos), cromatina (DNA descondensado) → cromossomo (condensado na divisão). Gene: trecho do DNA que codifica proteína. Dogma central: DNA→(transcrição)→mRNA→(tradução)→Proteína. Cariótipo humano: 46 cromossomos (23 pares: 22 autossomos + 1 par sexual XX/XY).",
+      "body": "<h2>Introdução</h2><p>O <strong>núcleo</strong> é o centro de controle da célula eucarionte: armazena o DNA e coordena as atividades celulares.</p><h2>Estrutura</h2><ul><li><strong>Carioteca:</strong> membrana dupla com poros (controla troca com citoplasma)</li><li><strong>Nucléolo:</strong> produz RNA ribossômico (rRNA) → ribossomos</li><li><strong>Cromatina:</strong> DNA + histonas (descondensado, intérfase)</li><li><strong>Cromossomo:</strong> cromatina condensada (divisão celular)</li></ul><h2>Dogma Central da Biologia Molecular</h2><p><strong>DNA → (transcrição) → mRNA → (tradução) → Proteína</strong></p><h2>Cariótipo Humano</h2><ul><li><strong>46 cromossomos</strong> (23 pares)</li><li>22 pares autossomos + 1 par sexual (XX=feminino, XY=masculino)</li></ul><h2>Resumo</h2><ul><li>✅ DNA→mRNA→Proteína (dogma central)</li><li>✅ 46 cromossomos = 23 do pai + 23 da mãe</li><li>⚠️ ENEM: gene, cromossomo, transcrição, tradução</li></ul><h2>Curiosidade</h2><p>O genoma humano tem ~20.000 genes, mas <strong>98% do DNA não codifica proteínas</strong>! Esse \"DNA não codificante\" tem funções regulatórias ainda sendo descobertas.</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre cromatina e cromossomo?",
+          "a": "São a mesma coisa em estados diferentes! Cromatina: DNA descondensado (intérfase, acessível para leitura). Cromossomo: DNA condensado (divisão celular, visível ao microscópio)."
+        },
+        {
+          "q": "O que é um gene?",
+          "a": "Trecho do DNA que contém a informação para produzir uma proteína (ou RNA funcional). Humanos têm ~20.000 genes."
+        },
+        {
+          "q": "XX e XY determinam o quê?",
+          "a": "O sexo biológico: XX = feminino, XY = masculino. O cromossomo Y (do espermatozoide) determina o desenvolvimento masculino."
+        },
+        {
+          "q": "O que é transcrição?",
+          "a": "Processo de copiar uma parte do DNA em mRNA (RNA mensageiro). Ocorre no núcleo. O mRNA sai para o citoplasma, onde será traduzido em proteína nos ribossomos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Humanos têm quantos cromossomos?",
+          "options": [
+            "23",
+            "44",
+            "46",
+            "48"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "DNA→mRNA é chamado:",
+          "options": [
+            "Tradução",
+            "Transcrição",
+            "Replicação",
+            "Mutação"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "XX = sexo:",
+          "options": [
+            "Masculino",
+            "Feminino",
+            "Indefinido",
+            "Hermafrodita"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Nucléolo produz:",
+          "options": [
+            "DNA",
+            "mRNA",
+            "Ribossomos",
+            "ATP"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Divisão Celular: Mitose",
+      "slug": "divisao-celular-mitose",
+      "desc": "Mitose: divisão celular que produz 2 células idênticas (2n→2n). Fases: prófase, metáfase, anáfase, telófase. Citocinese. Crescimento, reparo, reprodução assexuada.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Mitose: 1 célula → 2 células idênticas (2n→2n). Equacional. Fases: Prófase (condensa cromossomos, fuso), Metáfase (alinhamento na placa), Anáfase (separação das cromátides), Telófase (descondensação, 2 núcleos). Citocinese: divisão do citoplasma. Função: crescimento, reparo, renovação, reprodução assexuada. Intérfase: G1-S(duplicação DNA)-G2.",
+      "body": "<h2>Introdução</h2><p>A <strong>mitose</strong> é a divisão celular que produz <strong>2 células-filhas idênticas</strong> à célula-mãe. É essencial para crescimento e reparo.</p><h2>Intérfase (Preparação)</h2><ul><li><strong>G1:</strong> crescimento, síntese de proteínas</li><li><strong>S:</strong> duplicação do DNA</li><li><strong>G2:</strong> preparação final para divisão</li></ul><h2>Fases da Mitose</h2><table><thead><tr><th>Fase</th><th>Evento</th></tr></thead><tbody><tr><td><strong>Prófase</strong></td><td>Cromatina condensa → cromossomos visíveis. Fuso se forma.</td></tr><tr><td><strong>Metáfase</strong></td><td>Cromossomos alinhados na placa equatorial</td></tr><tr><td><strong>Anáfase</strong></td><td>Cromátides-irmãs se separam para polos opostos</td></tr><tr><td><strong>Telófase</strong></td><td>Descondensação, envoltório nuclear se reforma</td></tr></tbody></table><h2>Citocinese</h2><ul><li><strong>Animal:</strong> centrípeta (estrangulamento de fora para dentro)</li><li><strong>Vegetal:</strong> centrífuga (placa celular de dentro para fora)</li></ul><h2>Resumo</h2><ul><li>✅ 2n → 2n (equacional, mantém ploidia)</li><li>✅ PMAT (Prófase-Metáfase-Anáfase-Telófase)</li><li>⚠️ ENEM: diferença mitose × meiose</li></ul><h2>Curiosidade</h2><p>Seu corpo faz <strong>~3,8 milhões de mitoses por segundo</strong>! A maioria na pele, medula óssea e intestino.</p>",
+      "faq": [
+        {
+          "q": "Mitose produz células iguais?",
+          "a": "Sim! 2 células geneticamente idênticas à mãe (clones). Por isso é usada em crescimento e reparo."
+        },
+        {
+          "q": "Diferença mitose vs meiose?",
+          "a": "Mitose: 1 divisão, 2 células iguais (2n→2n). Meiose: 2 divisões, 4 células diferentes (2n→n). Mitose=crescimento, Meiose=gametas."
+        },
+        {
+          "q": "O que é intérfase?",
+          "a": "Fase entre divisões onde a célula cresce e duplica seu DNA (fase S). NÃO é repouso — é a fase mais ativa! Ocupa 90% do ciclo celular."
+        },
+        {
+          "q": "Câncer tem relação com mitose?",
+          "a": "Sim! Câncer = mitose descontrolada. Mutações em genes reguladores (oncogenes, supressores) fazem a célula se dividir sem parar."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Mitose produz:",
+          "options": [
+            "4 células n",
+            "2 células 2n",
+            "1 célula 4n",
+            "2 células n"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na metáfase, cromossomos estão:",
+          "options": [
+            "Condensando",
+            "Alinhados no equador",
+            "Separando",
+            "Descondensando"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "DNA é duplicado na:",
+          "options": [
+            "Prófase",
+            "Metáfase",
+            "Intérfase (S)",
+            "Telófase"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Citocinese em vegetal é:",
+          "options": [
+            "Centrípeta",
+            "Centrífuga",
+            "Não ocorre",
+            "Igual à animal"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Divisão Celular: Meiose",
+      "slug": "divisao-celular-meiose",
+      "desc": "Meiose: divisão reducional (2n→n). Produz 4 células haploides (gametas). Crossing-over (variabilidade). Meiose I (reducional) e II (equacional).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Meiose: 1 célula (2n) → 4 células (n). Reducional. Gametas (espermatozoides/óvulos). Meiose I: reducional (separa homólogos). Crossing-over na prófase I → variabilidade genética. Meiose II: equacional (separa cromátides, similar à mitose). Importância: variabilidade genética + manutenção do número cromossômico na reprodução sexuada.",
+      "body": "<h2>Introdução</h2><p>A <strong>meiose</strong> produz <strong>4 células haploides (n)</strong> a partir de 1 célula diploide (2n). É essencial para a reprodução sexuada e variabilidade genética.</p><h2>Meiose I (Reducional)</h2><ul><li><strong>Prófase I:</strong> crossing-over (troca de segmentos entre homólogos → variabilidade)</li><li><strong>Metáfase I:</strong> pares homólogos alinhados</li><li><strong>Anáfase I:</strong> separação dos homólogos (reduz de 2n→n)</li><li><strong>Telófase I:</strong> 2 células haploides</li></ul><h2>Meiose II (Equacional)</h2><p>Similar à mitose: separa cromátides-irmãs. Resultado: <strong>4 células haploides</strong>.</p><h2>Crossing-Over</h2><p>Troca de segmentos entre cromossomos homólogos na Prófase I → <strong>recombinação genética</strong> → filhos diferentes dos pais.</p><h2>Resumo</h2><ul><li>✅ 2n→n (reducional). 4 células diferentes.</li><li>✅ Crossing-over = variabilidade genética</li><li>⚠️ ENEM: meiose I separa homólogos; meiose II separa cromátides</li></ul><h2>Curiosidade</h2><p>A meiose gera tanta variabilidade que <strong>dois irmãos</strong> (exceto gêmeos idênticos) têm probabilidade virtualmente <strong>zero</strong> de serem geneticamente iguais!</p>",
+      "faq": [
+        {
+          "q": "O que é crossing-over?",
+          "a": "Troca de segmentos entre cromossomos homólogos na Prófase I. Gera combinações genéticas novas. É a principal fonte de variabilidade na meiose."
+        },
+        {
+          "q": "Por que meiose produz células n?",
+          "a": "Para que, na fecundação (n + n = 2n), o número de cromossomos se mantenha constante. Se gametas fossem 2n, o número dobraria a cada geração."
+        },
+        {
+          "q": "Onde ocorre meiose em humanos?",
+          "a": "Nos órgãos reprodutores: testículos (espermatogênese) e ovários (ovogênese). Produz espermatozoides e óvulos."
+        },
+        {
+          "q": "Meiose II é igual à mitose?",
+          "a": "Similar: separa cromátides-irmãs. Mas parte de célula haploide (n) e produz células haploides (n). A diferença real está na meiose I (reducional)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Meiose produz:",
+          "options": [
+            "2 células 2n",
+            "4 células n",
+            "2 células n",
+            "4 células 2n"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Crossing-over ocorre na:",
+          "options": [
+            "Intérfase",
+            "Prófase I",
+            "Metáfase II",
+            "Anáfase I"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Meiose I é:",
+          "options": [
+            "Equacional",
+            "Reducional",
+            "Duplicacional",
+            "Mitótica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gametas humanos têm:",
+          "options": [
+            "46 cromossomos",
+            "23 cromossomos",
+            "44 cromossomos",
+            "22 cromossomos"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Metabolismo: Respiração Celular",
+      "slug": "metabolismo-respiracao-celular",
+      "desc": "Respiração celular: glicose + O₂ → CO₂ + H₂O + ATP. Glicólise (citoplasma), Ciclo de Krebs (matriz mitocondrial), Cadeia respiratória (cristas). Fermentação.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Respiração celular: C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~36-38 ATP. Etapas: 1) Glicólise (citoplasma, sem O₂): glicose→2 piruvato + 2 ATP. 2) Ciclo de Krebs (matriz mitocondrial): CO₂ + NADH/FADH₂. 3) Cadeia respiratória (cristas mitocondriais): NADH/FADH₂→ ~34 ATP + H₂O. Fermentação: sem O₂, glicólise + regeneração de NAD⁺ (alcoólica: etanol; lática: ácido lático).",
+      "body": "<h2>Introdução</h2><p>A <strong>respiração celular</strong> é o processo que \"queima\" glicose para produzir <strong>ATP</strong> — a moeda energética da célula.</p><h2>Equação Geral</h2><p><strong>C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O + ~36-38 ATP</strong></p><h2>Etapas</h2><table><thead><tr><th>Etapa</th><th>Local</th><th>O₂?</th><th>Saldo</th></tr></thead><tbody><tr><td>Glicólise</td><td>Citoplasma</td><td>Não</td><td>2 ATP</td></tr><tr><td>Ciclo de Krebs</td><td>Matriz mitocondrial</td><td>Sim</td><td>2 ATP + NADH/FADH₂</td></tr><tr><td>Cadeia respiratória</td><td>Cristas mitocondriais</td><td>Sim</td><td>~34 ATP</td></tr></tbody></table><h2>Fermentação</h2><p>Sem O₂: apenas glicólise (2 ATP).</p><ul><li><strong>Alcoólica:</strong> glicose → etanol + CO₂ (cerveja, pão)</li><li><strong>Lática:</strong> glicose → ácido lático (iogurte, músculos)</li></ul><h2>Resumo</h2><ul><li>✅ Respiração: ~36 ATP. Fermentação: 2 ATP.</li><li>⚠️ ENEM: fermentação (alcoólica vs lática) e localização das etapas</li></ul><h2>Curiosidade</h2><p>A dor muscular após exercício intenso é causada pelo <strong>ácido lático</strong> da fermentação lática — quando falta O₂, os músculos fazem fermentação!</p>",
+      "faq": [
+        {
+          "q": "Qual etapa produz mais ATP?",
+          "a": "Cadeia respiratória (~34 ATP de ~36-38 total). A glicólise e Krebs produzem pouco ATP direto, mas geram NADH e FADH₂ que alimentam a cadeia."
+        },
+        {
+          "q": "Fermentação ocorre em humanos?",
+          "a": "Sim! Fermentação lática nos músculos durante exercício intenso (falta O₂). Produz ácido lático → dor muscular."
+        },
+        {
+          "q": "Cerveja usa que tipo de fermentação?",
+          "a": "Alcoólica (leveduras): glicose → etanol + CO₂. O CO₂ faz as bolhas da cerveja. O etanol é o álcool."
+        },
+        {
+          "q": "Respiração celular = respiração pulmonar?",
+          "a": "Não! Respiração pulmonar: troca de gases (O₂/CO₂) nos pulmões. Respiração celular: produção de ATP nas mitocôndrias. São relacionadas mas diferentes."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Glicólise ocorre no:",
+          "options": [
+            "Núcleo",
+            "Citoplasma",
+            "Mitocôndria",
+            "Cloroplasto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Respiração celular produz ~:",
+          "options": [
+            "2 ATP",
+            "4 ATP",
+            "18 ATP",
+            "36-38 ATP"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Fermentação alcoólica produz:",
+          "options": [
+            "Ácido lático",
+            "Etanol + CO₂",
+            "ATP + O₂",
+            "Glicose"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cadeia respiratória fica nas:",
+          "options": [
+            "Cristas mitocondriais",
+            "Matriz",
+            "Citoplasma",
+            "Membrana plasmática"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Metabolismo: Fotossíntese",
+      "slug": "metabolismo-fotossintese",
+      "desc": "Fotossíntese: CO₂ + H₂O → C₆H₁₂O₆ + O₂ (usando luz). Fase clara (tilacoides): fotólise da água, ATP/NADPH. Fase escura (estroma): Ciclo de Calvin, fixação de CO₂.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Fotossíntese: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (energia luminosa). Fase clara (tilacoides): luz → fotólise da H₂O → O₂ + ATP + NADPH. Fase escura/Ciclo de Calvin (estroma): CO₂ + ATP + NADPH → glicose. Clorofila: pigmento verde que absorve luz. Fatores: luz, CO₂, temperatura, água. Quimiossíntese: energia de reações químicas (sem luz).",
+      "body": "<h2>Introdução</h2><p>A <strong>fotossíntese</strong> transforma energia luminosa em energia química (glicose). É a base de quase toda a vida na Terra.</p><h2>Equação Geral</h2><p><strong>6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂</strong> (energia luminosa)</p><h2>Fases</h2><table><thead><tr><th>Fase</th><th>Local</th><th>Luz?</th><th>Produto</th></tr></thead><tbody><tr><td>Clara (fotoquímica)</td><td>Tilacoides</td><td>Sim</td><td>ATP, NADPH, O₂</td></tr><tr><td>Escura (Calvin)</td><td>Estroma</td><td>Não</td><td>Glicose</td></tr></tbody></table><h2>Fase Clara</h2><ul><li>Clorofila absorve luz → excita elétrons</li><li>Fotólise da H₂O: 2H₂O → 4H⁺ + 4e⁻ + <strong>O₂</strong></li><li>Produz ATP e NADPH</li></ul><h2>Ciclo de Calvin (Fase Escura)</h2><ul><li>CO₂ é fixado usando ATP e NADPH da fase clara</li><li>Produz <strong>glicose</strong></li></ul><h2>Resumo</h2><ul><li>✅ O₂ vem da ÁGUA (fotólise), não do CO₂!</li><li>✅ Fotossíntese = inversa da respiração celular</li><li>⚠️ ENEM: fatores que afetam (luz, CO₂, temperatura)</li></ul><h2>Curiosidade</h2><p>O O₂ que respiramos vem da <strong>fotólise da água</strong>, não do CO₂! Van Niel demonstrou isso com bactérias. E <strong>algas marinhas</strong> produzem mais O₂ que todas as florestas juntas!</p>",
+      "faq": [
+        {
+          "q": "De onde vem o O₂ da fotossíntese?",
+          "a": "Da ÁGUA (fotólise da H₂O na fase clara), NÃO do CO₂. Experimentos com isótopos de oxigênio (¹⁸O) confirmaram isso."
+        },
+        {
+          "q": "Fase escura precisa de luz?",
+          "a": "Não precisa diretamente, mas depende dos produtos da fase clara (ATP, NADPH). Sem fase clara, a fase escura para."
+        },
+        {
+          "q": "Fotossíntese e respiração são opostas?",
+          "a": "Quase! Fotossíntese: CO₂+H₂O→glicose+O₂. Respiração: glicose+O₂→CO₂+H₂O. São complementares no ciclo do carbono."
+        },
+        {
+          "q": "Plantas respiram à noite?",
+          "a": "Plantas respiram SEMPRE (24h). Fazem fotossíntese só com luz. De dia: fotossíntese > respiração (liberam O₂). À noite: só respiração (liberam CO₂)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O O₂ da fotossíntese vem da:",
+          "options": [
+            "CO₂",
+            "Glicose",
+            "Água",
+            "Luz"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Ciclo de Calvin ocorre no:",
+          "options": [
+            "Tilacoide",
+            "Estroma",
+            "Citoplasma",
+            "Mitocôndria"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Clorofila absorve:",
+          "options": [
+            "Água",
+            "Luz",
+            "CO₂",
+            "O₂"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fotossíntese é o inverso de:",
+          "options": [
+            "Fermentação",
+            "Respiração celular",
+            "Mitose",
+            "Osmose"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Histologia: Tecido Epitelial e Conjuntivo",
+      "slug": "histologia-tecido-epitelial-e-conjuntivo",
+      "desc": "Tecido epitelial: revestimento e secreção (glândulas). Tecido conjuntivo: sustentação (ósseo, cartilaginoso), transporte (sangue), defesa, preenchimento, adiposo.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Tecido epitelial: células justapostas, avascular, revestimento (pele, mucosas) e secreção (glândulas: exócrinas=suor, endócrinas=hormônios). Tecido conjuntivo: células esparsas em matriz extracelular abundante. Tipos: frouxo (preenchimento), denso (tendões), adiposo (reserva), cartilaginoso (avascular), ósseo (Ca²⁺), sanguíneo (plasma+células). Colágeno: proteína mais abundante do corpo.",
+      "body": "<h2>Introdução</h2><p>Os <strong>tecidos</strong> são grupos de células especializadas. O epitelial reveste e secreta; o conjuntivo sustenta e conecta.</p><h2>Tecido Epitelial</h2><ul><li>Células <strong>justapostas</strong> (pouco espaço entre elas)</li><li><strong>Avascular</strong> (sem vasos sanguíneos)</li><li><strong>Revestimento:</strong> pele, mucosas, vasos</li><li><strong>Secreção (glândulas):</strong> exócrinas (suor, suco gástrico) e endócrinas (hormônios)</li></ul><h2>Tecido Conjuntivo</h2><table><thead><tr><th>Tipo</th><th>Função</th><th>Exemplo</th></tr></thead><tbody><tr><td>Frouxo</td><td>Preenchimento</td><td>Sob a pele</td></tr><tr><td>Denso</td><td>Resistência</td><td>Tendões, ligamentos</td></tr><tr><td>Adiposo</td><td>Reserva energética, isolamento</td><td>Subcutâneo</td></tr><tr><td>Cartilaginoso</td><td>Sustentação flexível</td><td>Orelha, nariz, traqueia</td></tr><tr><td>Ósseo</td><td>Sustentação rígida</td><td>Esqueleto</td></tr><tr><td>Sanguíneo</td><td>Transporte</td><td>Sangue</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Epitelial: junto, avascular. Conjuntivo: esparso, com matriz.</li><li>⚠️ ENEM: sangue é tecido conjuntivo! (matriz = plasma)</li></ul><h2>Curiosidade</h2><p>O <strong>colágeno</strong> é a proteína mais abundante do corpo humano (~30% de todas as proteínas). Está na pele, ossos, tendões, cartilagens e vasos sanguíneos!</p>",
+      "faq": [
+        {
+          "q": "Sangue é tecido?",
+          "a": "Sim! É tecido conjuntivo especial. Células = hemácias, leucócitos, plaquetas. Matriz extracelular = plasma sanguíneo."
+        },
+        {
+          "q": "Por que epitelial é avascular?",
+          "a": "Não tem vasos sanguíneos próprios. É nutrido por difusão a partir do conjuntivo subjacente. Por isso cortes superficiais na pele não sangram muito."
+        },
+        {
+          "q": "Cartilagem regenera?",
+          "a": "Muito pouco. É avascular (sem vasos), então nutrientes chegam por difusão lenta. Por isso lesões no joelho (menisco) demoram tanto para curar."
+        },
+        {
+          "q": "Glândula exócrina vs endócrina?",
+          "a": "Exócrina: secreta para fora (suor, suco gástrico) por ductos. Endócrina: secreta hormônios diretamente no sangue (sem ductos). Mistas: pâncreas (insulina + suco pancreático)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Tecido epitelial é:",
+          "options": [
+            "Vascularizado",
+            "Avascular",
+            "Com matriz",
+            "Esparso"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sangue é tecido:",
+          "options": [
+            "Epitelial",
+            "Muscular",
+            "Conjuntivo",
+            "Nervoso"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Tendões são de tecido conjuntivo:",
+          "options": [
+            "Frouxo",
+            "Denso",
+            "Adiposo",
+            "Cartilaginoso"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Glândulas endócrinas produzem:",
+          "options": [
+            "Suor",
+            "Hormônios",
+            "Muco",
+            "Enzimas"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Histologia: Tecido Muscular e Nervoso",
+      "slug": "histologia-tecido-muscular-e-nervoso",
+      "desc": "Tecido muscular: estriado esquelético (voluntário), estriado cardíaco (involuntário), liso (involuntário). Tecido nervoso: neurônios (impulso) e células da glia (suporte).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Muscular estriado esquelético: voluntário, multinucleado, contração rápida. Cardíaco: involuntário, discos intercalares, ramificado. Liso: involuntário, fusiforme, órgãos internos (intestino, útero). Nervoso: neurônios (dendrito→corpo→axônio→sinapse) + glia (sustentação, mielina). Sinapse: liberação de neurotransmissores. Mielina: bainha isolante (Schwann) → condução saltatória.",
+      "body": "<h2>Introdução</h2><p>Tecidos muscular e nervoso são especializados em <strong>movimento</strong> e <strong>comunicação</strong>, respectivamente.</p><h2>Tecido Muscular</h2><table><thead><tr><th>Tipo</th><th>Controle</th><th>Local</th></tr></thead><tbody><tr><td>Estriado esquelético</td><td>Voluntário</td><td>Músculos esqueléticos</td></tr><tr><td>Estriado cardíaco</td><td>Involuntário</td><td>Coração</td></tr><tr><td>Liso</td><td>Involuntário</td><td>Intestino, vasos, útero</td></tr></tbody></table><h2>Tecido Nervoso</h2><ul><li><strong>Neurônio:</strong> dendrito (recebe) → corpo celular → axônio (transmite) → sinapse</li><li><strong>Células da glia:</strong> astrócitos (nutrição), oligodendrócitos/Schwann (mielina), micróglia (defesa)</li><li><strong>Sinapse:</strong> junção entre neurônios, neurotransmissores (acetilcolina, dopamina, serotonina)</li></ul><h2>Resumo</h2><ul><li>✅ 3 tipos de músculos: esquelético, cardíaco, liso</li><li>✅ Neurônio: dendrito→corpo→axônio→sinapse</li><li>⚠️ ENEM: diferenças entre tecidos musculares, sinapse</li></ul><h2>Curiosidade</h2><p>O <strong>impulso nervoso</strong> viaja a até <strong>120 m/s</strong> nos axônios mielinizados — mais rápido que um carro na estrada (120 km/h = 33 m/s)!</p>",
+      "faq": [
+        {
+          "q": "Músculo cardíaco pode cansar?",
+          "a": "O coração nunca 'cansa' porque o músculo cardíaco tem muito mais mitocôndrias que o esquelético. Ele bate ~100.000 vezes/dia sem parar!"
+        },
+        {
+          "q": "O que é bainha de mielina?",
+          "a": "Camada isolante de lipídios que envolve o axônio. Acelera o impulso nervoso (condução saltatória). Na esclerose múltipla, a mielina é destruída."
+        },
+        {
+          "q": "O que é sinapse?",
+          "a": "Junção entre dois neurônios ou entre neurônio e músculo. O sinal elétrico vira químico (neurotransmissores) e depois volta a ser elétrico."
+        },
+        {
+          "q": "Músculo liso é lento?",
+          "a": "Sim, contração mais lenta que o esquelético, mas sustentada. Está em órgãos que precisam de contração contínua: intestino (peristaltismo), vasos (pressão), bexiga."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Músculo cardíaco é:",
+          "options": [
+            "Voluntário",
+            "Involuntário",
+            "Liso",
+            "Esquelético"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Neurônio transmite impulso pelo:",
+          "options": [
+            "Dendrito",
+            "Corpo celular",
+            "Axônio",
+            "Glia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Mielina acelera:",
+          "options": [
+            "Contração",
+            "Impulso nervoso",
+            "Digestão",
+            "Secreção"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Músculo liso está no:",
+          "options": [
+            "Braço",
+            "Coração",
+            "Intestino",
+            "Crânio"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Genética: Leis de Mendel",
+      "slug": "genetica-leis-de-mendel",
+      "desc": "Genética mendeliana: 1ª Lei (segregação dos fatores, mono-híbrido), 2ª Lei (segregação independente, di-híbrido). Dominância, recessividade, genótipo, fenótipo.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Conceitos: gene, alelo, homozigoto (AA, aa), heterozigoto (Aa), dominante (A), recessivo (a), genótipo (genes), fenótipo (expressão). 1ª Lei (Segregação): cada organismo tem 2 alelos; na formação de gametas, separam-se. Cruzamento mono-híbrido: Aa×Aa → 1AA:2Aa:1aa (3:1 fenotípico). 2ª Lei (Segregação Independente): genes em cromossomos diferentes segregam independentemente. Di-híbrido: 9:3:3:1.",
+      "body": "<h2>Introdução</h2><p><strong>Gregor Mendel</strong> (1822-1884) descobriu as leis da hereditariedade cruzando <strong>ervilhas</strong>. É o pai da Genética.</p><h2>Conceitos</h2><table><thead><tr><th>Termo</th><th>Significado</th></tr></thead><tbody><tr><td>Gene</td><td>Trecho do DNA que determina uma característica</td></tr><tr><td>Alelo</td><td>Versões do gene (A, a)</td></tr><tr><td>Homozigoto</td><td>AA ou aa (alelos iguais)</td></tr><tr><td>Heterozigoto</td><td>Aa (alelos diferentes)</td></tr><tr><td>Dominante</td><td>Expressa-se em Aa e AA</td></tr><tr><td>Recessivo</td><td>Só expressa em aa</td></tr></tbody></table><h2>1ª Lei (Segregação dos Fatores)</h2><p>Cada indivíduo tem 2 alelos; na formação de gametas, eles se separam.</p><p>Cruzamento Aa × Aa → <strong>1AA : 2Aa : 1aa</strong> (proporção 3:1 fenotípica)</p><h2>2ª Lei (Segregação Independente)</h2><p>Genes em cromossomos diferentes segregam independentemente.</p><p>Di-híbrido AaBb × AaBb → <strong>9:3:3:1</strong></p><h2>Resumo</h2><ul><li>✅ 1ª Lei: 3:1 (mono-híbrido). 2ª Lei: 9:3:3:1 (di-híbrido).</li><li>⚠️ ENEM: cruzamentos, probabilidade, heredogramas</li></ul><h2>Curiosidade</h2><p>Mendel publicou seus resultados em 1866, mas <strong>ninguém deu importância</strong>! Só em 1900, três cientistas redescobriram seu trabalho independentemente.</p>",
+      "faq": [
+        {
+          "q": "Por que Mendel usou ervilhas?",
+          "a": "Fáceis de cultivar, ciclo curto, autopolinização controlada, características contrastantes claras (lisa/rugosa, amarela/verde). Perfeitas para experimentos genéticos."
+        },
+        {
+          "q": "O que é dominância?",
+          "a": "Quando um alelo (dominante, A) mascara a expressão do outro (recessivo, a) no heterozigoto. Aa tem fenótipo dominante."
+        },
+        {
+          "q": "A 2ª Lei sempre funciona?",
+          "a": "Só para genes em CROMOSSOMOS DIFERENTES. Genes no mesmo cromossomo podem ser ligados (linkage) e não segregam independentemente."
+        },
+        {
+          "q": "O que é heredograma?",
+          "a": "Diagrama de uma família mostrando herança de uma característica. Quadrado=homem, círculo=mulher. Preenchido=afetado. ENEM adora!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Aa × Aa dá proporção fenotípica:",
+          "options": [
+            "1:1",
+            "1:2:1",
+            "3:1",
+            "9:3:3:1"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Heterozigoto é:",
+          "options": [
+            "AA",
+            "aa",
+            "Aa",
+            "AABB"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A 2ª Lei se aplica a genes em:",
+          "options": [
+            "Mesmo cromossomo",
+            "Cromossomos diferentes",
+            "Mesmo alelo",
+            "DNA mitocondrial"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Recessivo só aparece em:",
+          "options": [
+            "AA",
+            "Aa",
+            "aa",
+            "AA e Aa"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Genética: Extensões do Mendelismo",
+      "slug": "genetica-extensoes-do-mendelismo",
+      "desc": "Extensões do mendelismo: dominância incompleta, codominância (AB0), alelos múltiplos, herança ligada ao sexo (daltonismo, hemofilia), epistasia, herança poligênica.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Dominância incompleta: Aa = fenótipo intermediário (ex: flor rosa). Codominância: ambos alelos expressos (ex: sistema AB0 tipo AB). Alelos múltiplos: AB0 (IA, IB, i → 4 fenótipos). Herança ligada ao X: daltonismo, hemofilia (mais comum em homens, XᵈY). Epistasia: gene mascara outro gene. Herança poligênica: cor da pele, altura (vários genes).",
+      "body": "<h2>Introdução</h2><p>Nem tudo segue o padrão dominante/recessivo simples. Existem diversas <strong>extensões</strong> das leis de Mendel.</p><h2>Padrões de Herança</h2><table><thead><tr><th>Padrão</th><th>Descrição</th><th>Exemplo</th></tr></thead><tbody><tr><td>Dominância incompleta</td><td>Heterozigoto = intermediário</td><td>Flor vermelha × branca = rosa</td></tr><tr><td>Codominância</td><td>Ambos alelos expressos</td><td>Tipo AB (IA e IB)</td></tr><tr><td>Alelos múltiplos</td><td>Mais de 2 alelos na população</td><td>AB0 (IA, IB, i)</td></tr><tr><td>Ligada ao X</td><td>Gene no cromossomo X</td><td>Daltonismo, hemofilia</td></tr></tbody></table><h2>Sistema AB0</h2><ul><li><strong>Tipo A:</strong> IA IA ou IAi. <strong>Tipo B:</strong> IB IB ou IBi</li><li><strong>Tipo AB:</strong> IAIB (codominância). <strong>Tipo O:</strong> ii (doador universal)</li></ul><h2>Herança Ligada ao Sexo</h2><ul><li>Genes no cromossomo X: mulheres (XX) podem ser portadoras (XᴬXᵃ)</li><li>Homens (XY): basta 1 alelo recessivo para expressar (XᵃY)</li></ul><h2>Resumo</h2><ul><li>✅ AB0: codominância + alelos múltiplos</li><li>⚠️ ENEM: sistema AB0 e Rh, daltonismo e hemofilia</li></ul><h2>Curiosidade</h2><p>O <strong>daltonismo</strong> afeta ~8% dos homens mas apenas ~0,5% das mulheres. Por quê? Porque o gene está no X — homens têm só 1 X, mulheres precisam de 2 alelos recessivos!</p>",
+      "faq": [
+        {
+          "q": "O que é codominância?",
+          "a": "Quando AMBOS os alelos se expressam no heterozigoto. No tipo AB, o indivíduo produz antígenos A E B. Diferente da dominância incompleta (intermediário)."
+        },
+        {
+          "q": "Quem é doador universal?",
+          "a": "Tipo O negativo (ii, Rh⁻): não tem antígenos A, B nem Rh nas hemácias. Receptor universal: AB positivo (tem todos os antígenos, aceita qualquer sangue)."
+        },
+        {
+          "q": "Por que hemofilia é mais comum em homens?",
+          "a": "Gene no cromossomo X. Homens (XᴴY): 1 alelo recessivo = hemofílico. Mulheres (XX): precisam de 2 alelos recessivos (muito mais raro)."
+        },
+        {
+          "q": "O que é herança poligênica?",
+          "a": "Quando VÁRIOS genes influenciam uma característica: cor da pele, altura, peso. Produz variação contínua (gradiente) em vez de categorias discretas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Tipo AB é exemplo de:",
+          "options": [
+            "Dominância",
+            "Codominância",
+            "Recessividade",
+            "Epistasia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Daltonismo é mais comum em:",
+          "options": [
+            "Mulheres",
+            "Homens",
+            "Ambos",
+            "Crianças"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tipo O tem genótipo:",
+          "options": [
+            "IAIA",
+            "IAIB",
+            "IBi",
+            "ii"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Dominância incompleta: Aa =",
+          "options": [
+            "Dominante",
+            "Recessivo",
+            "Intermediário",
+            "Codominante"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

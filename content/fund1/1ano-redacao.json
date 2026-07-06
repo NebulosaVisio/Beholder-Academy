@@ -1,0 +1,514 @@
+{
+  "subject": "Redação",
+  "slug": "1ano-redacao",
+  "level": "Fundamental 1",
+  "grade": "1º ano",
+  "color": "var(--redacao)",
+  "icon": "pen",
+  "articles": [
+    {
+      "title": "Tipologia Textual",
+      "slug": "tipologia-textual",
+      "desc": "Entenda os cinco tipos textuais cobrados no ENEM - narracao, descricao, dissertacao, injuncao e exposicao - e aprenda a identificar cada um em provas e vestibulares.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Existem cinco tipologias textuais fundamentais na lingua portuguesa. A narracao conta uma historia com personagens, tempo, espaco e enredo. A descricao retrata caracteristicas de forma objetiva ou subjetiva. A dissertacao defende uma tese com argumentos (expositiva apenas informa, argumentativa convence). A injuncao instrui o leitor passo a passo. A exposicao apresenta informacoes sem juizo de valor. Um mesmo texto pode misturar mais de uma tipologia, sendo que o ENEM exige dominio da dissertacao-argumentativa na redacao.",
+      "body": "<h2>O que s&atilde;o Tipologias Textuais</h2><p>As tipologias textuais s&atilde;o as formas fundamentais de organizar um texto de acordo com a inten&ccedil;&atilde;o comunicativa do autor. Diferente dos <strong>g&ecirc;neros textuais</strong> (carta, cr&ocirc;nica, editorial), que s&atilde;o infinitos, as tipologias s&atilde;o apenas cinco e todo texto se encaixa em uma ou mais delas.</p><h2>Os Cinco Tipos Textuais</h2><table><tr><th>Tipologia</th><th>Fun&ccedil;&atilde;o</th><th>Exemplo de G&ecirc;nero</th></tr><tr><td>Narra&ccedil;&atilde;o</td><td>Contar uma hist&oacute;ria com personagens, tempo, espa&ccedil;o e enredo</td><td>Conto, romance, cr&ocirc;nica narrativa</td></tr><tr><td>Descri&ccedil;&atilde;o</td><td>Retratar caracter&iacute;sticas de seres, objetos ou ambientes</td><td>Retrato falado, an&uacute;ncio classificado</td></tr><tr><td>Disserta&ccedil;&atilde;o</td><td>Expor ou defender ideias com argumentos</td><td>Artigo de opini&atilde;o, editorial, reda&ccedil;&atilde;o do ENEM</td></tr><tr><td>Injun&ccedil;&atilde;o</td><td>Instruir, orientar passo a passo</td><td>Receita, manual, bula de rem&eacute;dio</td></tr><tr><td>Exposi&ccedil;&atilde;o</td><td>Informar sem opinar</td><td>Verbete de enciclop&eacute;dia, resumo cient&iacute;fico</td></tr></table><h2>Narra&ccedil;&atilde;o em Detalhes</h2><p>O texto narrativo possui elementos essenciais que o estruturam. O <strong>narrador</strong> pode ser em 1&ordf; pessoa (protagonista) ou 3&ordf; pessoa (observador/onisciente). Os <strong>personagens</strong> se dividem em protagonista, antagonista e coadjuvantes. O <strong>espa&ccedil;o</strong> indica onde a a&ccedil;&atilde;o ocorre, o <strong>tempo</strong> quando ela acontece (cronol&oacute;gico ou psicol&oacute;gico), e o <strong>enredo</strong> &eacute; a sequ&ecirc;ncia de fatos que comp&otilde;em a hist&oacute;ria.</p><h2>Descri&ccedil;&atilde;o - Objetiva vs. Subjetiva</h2><p>A descri&ccedil;&atilde;o objetiva funciona como uma c&acirc;mera, registrando detalhes precisos e mensur&aacute;veis, como em um laudo t&eacute;cnico. J&aacute; a descri&ccedil;&atilde;o subjetiva carrega as impress&otilde;es pessoais do autor, utilizando figuras de linguagem e adjetivos valorativos. Ambas s&atilde;o ferramentas poderosas na reda&ccedil;&atilde;o e aparecem frequentemente em textos liter&aacute;rios e jornal&iacute;sticos.</p><h2>Disserta&ccedil;&atilde;o - A Estrela do ENEM</h2><p>A disserta&ccedil;&atilde;o se divide em <strong>expositiva</strong> (apresenta informa&ccedil;&otilde;es de forma neutra) e <strong>argumentativa</strong> (defende um ponto de vista com tese e argumentos). No ENEM, o tipo exigido &eacute; a <strong>disserta&ccedil;&atilde;o-argumentativa</strong>, onde o candidato deve apresentar uma tese clara, sustent&aacute;-la com argumentos e propor uma interven&ccedil;&atilde;o.</p><h2>Curiosidade</h2><ul><li>Um mesmo texto pode combinar v&aacute;rias tipologias - por exemplo, uma cr&ocirc;nica que narra uma hist&oacute;ria, descreve cen&aacute;rios e faz uma reflex&atilde;o dissertativa ao final</li><li>A palavra \"disserta&ccedil;&atilde;o\" vem do latim dissertare, que significa \"discorrer, debater\"</li><li>No ENEM, confundir narra&ccedil;&atilde;o com disserta&ccedil;&atilde;o &eacute; um dos erros que pode zerar a reda&ccedil;&atilde;o</li><li>Textos injuntivos s&atilde;o os mais presentes no cotidiano - pense em manuais, receitas e tutoriais de internet</li></ul>",
+      "faq": [
+        {
+          "q": "Quais sao os cinco tipos textuais",
+          "a": "Os cinco tipos textuais sao narracao (conta historia), descricao (retrata caracteristicas), dissertacao (defende ou expoe ideias), injuncao (instrui passo a passo) e exposicao (informa sem opinar). Todo texto se encaixa em uma ou mais dessas tipologias."
+        },
+        {
+          "q": "Qual a diferenca entre tipologia e genero textual",
+          "a": "Tipologia textual se refere a forma de organizacao do texto (sao apenas 5 tipos), enquanto genero textual e a materializacao social do texto (carta, cronica, editorial etc.), sendo infinitos. Um genero pode conter mais de uma tipologia."
+        },
+        {
+          "q": "Qual tipologia o ENEM exige na redacao",
+          "a": "O ENEM exige a dissertacao-argumentativa, na qual o candidato deve apresentar uma tese sobre o tema proposto, sustenta-la com argumentos e repertorio sociocultural, e concluir com uma proposta de intervencao que respeite os Direitos Humanos."
+        },
+        {
+          "q": "Um texto pode ter mais de uma tipologia ao mesmo tempo",
+          "a": "Sim, um texto pode combinar varias tipologias. Uma cronica, por exemplo, pode narrar uma historia, descrever cenarios e incluir trechos dissertativos com reflexoes do autor. O importante e identificar qual tipologia predomina."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual tipologia textual tem como funcao principal contar uma historia com personagens e enredo",
+          "options": [
+            "Descricao",
+            "Injuncao",
+            "Narracao",
+            "Exposicao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A redacao do ENEM exige qual tipo de texto",
+          "options": [
+            "Narrativo",
+            "Descritivo",
+            "Dissertativo-argumentativo",
+            "Injuntivo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual a diferenca entre descricao objetiva e subjetiva",
+          "options": [
+            "A objetiva usa figuras de linguagem e a subjetiva e tecnica",
+            "A objetiva registra dados precisos e a subjetiva carrega impressoes pessoais",
+            "Nao existe diferenca entre elas",
+            "A objetiva e literaria e a subjetiva e cientifica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Receitas culinarias e manuais de instrucao pertencem a qual tipologia",
+          "options": [
+            "Narracao",
+            "Dissertacao",
+            "Exposicao",
+            "Injuncao"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Texto Narrativo: Estrutura",
+      "slug": "texto-narrativo-estrutura",
+      "desc": "Domine a estrutura do texto narrativo - narrador, personagens, espaco, tempo e enredo - e entenda como identificar cada elemento em provas do ENEM e vestibulares.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "O texto narrativo se organiza em torno de cinco elementos essenciais. O narrador pode ser em 1a pessoa (protagonista que vive a historia) ou 3a pessoa (observador que narra de fora ou onisciente que sabe tudo). Os personagens se classificam em protagonista, antagonista e coadjuvantes. O espaco e onde a acao ocorre. O tempo pode ser cronologico (linear, relogio) ou psicologico (memoria, fluxo de consciencia). O enredo segue a estrutura classica de situacao inicial, complicacao/conflito, climax (ponto de maior tensao) e desfecho. Recursos como flashback e in media res enriquecem a narrativa.",
+      "body": "<h2>Os Cinco Elementos da Narrativa</h2><p>Todo texto narrativo se constr&oacute;i a partir de cinco elementos fundamentais que se interconectam para dar vida &agrave; hist&oacute;ria. Compreender cada um deles &eacute; essencial para analisar textos liter&aacute;rios em provas e tamb&eacute;m para produzir narrativas de qualidade.</p><table><tr><th>Elemento</th><th>Defini&ccedil;&atilde;o</th><th>Exemplo</th></tr><tr><td>Narrador</td><td>Quem conta a hist&oacute;ria</td><td>\"Eu caminhava pela rua...\" (1&ordf; pessoa)</td></tr><tr><td>Personagens</td><td>Quem participa da a&ccedil;&atilde;o</td><td>Protagonista, antagonista, coadjuvantes</td></tr><tr><td>Espa&ccedil;o</td><td>Onde a a&ccedil;&atilde;o acontece</td><td>Cidade, floresta, escola</td></tr><tr><td>Tempo</td><td>Quando a a&ccedil;&atilde;o ocorre</td><td>Cronol&oacute;gico ou psicol&oacute;gico</td></tr><tr><td>Enredo</td><td>O que acontece, a sequ&ecirc;ncia de fatos</td><td>Conflito, cl&iacute;max, desfecho</td></tr></table><h2>Tipos de Narrador</h2><p>O narrador &eacute; a voz que conduz a hist&oacute;ria e pode assumir diferentes posi&ccedil;&otilde;es em rela&ccedil;&atilde;o aos fatos narrados.</p><ul><li><strong>Narrador-protagonista</strong> - narra em 1&ordf; pessoa e &eacute; o personagem principal da hist&oacute;ria. Exemplo cl&aacute;ssico - Dom Casmurro, de Machado de Assis</li><li><strong>Narrador-observador</strong> - narra em 3&ordf; pessoa, conta os fatos de fora sem conhecer pensamentos dos personagens</li><li><strong>Narrador-onisciente</strong> - narra em 3&ordf; pessoa, mas conhece os pensamentos e sentimentos de todos os personagens</li></ul><h2>Estrutura do Enredo</h2><p>O enredo cl&aacute;ssico segue uma progress&atilde;o que mant&eacute;m o leitor engajado do in&iacute;cio ao fim. A <strong>situa&ccedil;&atilde;o inicial</strong> apresenta personagens e contexto. A <strong>complica&ccedil;&atilde;o</strong> introduz o conflito que move a hist&oacute;ria. O <strong>cl&iacute;max</strong> &eacute; o ponto de maior tens&atilde;o, onde o conflito atinge seu &aacute;pice. O <strong>desfecho</strong> resolve (ou n&atilde;o) o conflito e encerra a narrativa.</p><h2>Tempo na Narrativa</h2><p>O tempo narrativo pode se apresentar de duas formas principais. O <strong>tempo cronol&oacute;gico</strong> segue a ordem linear dos acontecimentos, marcado por datas e rel&oacute;gios. O <strong>tempo psicol&oacute;gico</strong> acompanha a percep&ccedil;&atilde;o subjetiva do personagem, onde minutos podem parecer horas e vice-versa.</p><h2>Recursos Narrativos Avan&ccedil;ados</h2><ul><li><strong>Flashback (analepse)</strong> - interrup&ccedil;&atilde;o para narrar evento do passado</li><li><strong>In media res</strong> - iniciar a narrativa pelo meio da a&ccedil;&atilde;o, gerando suspense imediato</li><li><strong>Foreshadowing</strong> - pistas sutis sobre eventos futuros da trama</li><li>Na literatura brasileira, Machado de Assis &eacute; mestre em narra&ccedil;&atilde;o n&atilde;o-linear e narradores n&atilde;o confi&aacute;veis</li></ul>",
+      "faq": [
+        {
+          "q": "Quais sao os cinco elementos essenciais do texto narrativo",
+          "a": "Os cinco elementos sao narrador (quem conta), personagens (quem participa), espaco (onde ocorre), tempo (quando ocorre, cronologico ou psicologico) e enredo (sequencia de fatos com conflito, climax e desfecho)."
+        },
+        {
+          "q": "Qual a diferenca entre narrador-observador e narrador-onisciente",
+          "a": "Ambos narram em 3a pessoa, mas o observador conta os fatos de fora sem acessar pensamentos, enquanto o onisciente conhece os pensamentos e sentimentos de todos os personagens."
+        },
+        {
+          "q": "O que significa iniciar um texto in media res",
+          "a": "In media res significa comecar a narrativa pelo meio da acao, sem uma introducao gradual. Esse recurso gera suspense imediato e prende a atencao do leitor desde a primeira linha."
+        },
+        {
+          "q": "Qual a diferenca entre tempo cronologico e psicologico",
+          "a": "O tempo cronologico segue a ordem linear dos fatos, marcado por datas e horas. O tempo psicologico acompanha a percepcao subjetiva do personagem, onde a duracao dos eventos e distorcida pela emocao."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual tipo de narrador conhece os pensamentos de todos os personagens",
+          "options": [
+            "Narrador-protagonista",
+            "Narrador-observador",
+            "Narrador-onisciente",
+            "Narrador-testemunha"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Na estrutura do enredo, o ponto de maior tensao da narrativa e chamado de",
+          "options": [
+            "Situacao inicial",
+            "Complicacao",
+            "Climax",
+            "Desfecho"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O recurso narrativo de interromper a historia para narrar um evento do passado chama-se",
+          "options": [
+            "In media res",
+            "Flashback",
+            "Foreshadowing",
+            "Epilogo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O tempo psicologico na narrativa se caracteriza por",
+          "options": [
+            "Seguir a ordem linear do relogio",
+            "Acompanhar a percepcao subjetiva do personagem",
+            "Marcar datas e horarios precisos",
+            "Usar apenas o preterito perfeito"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Texto Descritivo",
+      "slug": "texto-descritivo",
+      "desc": "Aprenda as tecnicas do texto descritivo - descricao objetiva vs. subjetiva, denotacao vs. conotacao, sinestesia e selecao de detalhes - para dominar analises textuais no ENEM.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "O texto descritivo retrata as caracteristicas de seres, objetos, ambientes ou situacoes. Divide-se em dois tipos principais. A descricao objetiva e informativa e precisa, como um retrato tecnico. A descricao subjetiva e poetica e carrega impressoes pessoais. A linguagem descritiva utiliza denotacao (sentido literal) e conotacao (sentido figurado), alem de recursos como adjetivos, comparacoes, metaforas e sinestesia para criar imagens vividas na mente do leitor.",
+      "body": "<h2>O que e o Texto Descritivo</h2><p>O texto descritivo tem como objetivo principal retratar as caracter&iacute;sticas de algo ou algu&eacute;m, criando uma imagem mental no leitor. Diferente da narra&ccedil;&atilde;o, que se desenvolve no tempo, a descri&ccedil;&atilde;o trabalha com o espa&ccedil;o, congelando um momento para detalhar seus atributos. &Eacute; uma habilidade essencial tanto para a produ&ccedil;&atilde;o textual quanto para a interpreta&ccedil;&atilde;o de textos no ENEM.</p><h2>Descri&ccedil;&atilde;o Objetiva vs. Subjetiva</h2><table><tr><th>Aspecto</th><th>Descri&ccedil;&atilde;o Objetiva</th><th>Descri&ccedil;&atilde;o Subjetiva</th></tr><tr><td>Finalidade</td><td>Informar com precis&atilde;o</td><td>Transmitir impress&otilde;es e emo&ccedil;&otilde;es</td></tr><tr><td>Linguagem</td><td>Denotativa, t&eacute;cnica, impessoal</td><td>Conotativa, po&eacute;tica, pessoal</td></tr><tr><td>Exemplo</td><td>\"Homem de 1,75m, cabelos castanhos, 40 anos\"</td><td>\"Seus olhos carregavam o peso de mil invernos\"</td></tr><tr><td>Uso comum</td><td>Laudos, boletins de ocorr&ecirc;ncia, manuais</td><td>Literatura, cr&ocirc;nicas, poesia</td></tr></table><h2>Recursos da Linguagem Descritiva</h2><p>A constru&ccedil;&atilde;o de um bom texto descritivo depende do dom&iacute;nio de alguns recursos lingu&iacute;sticos fundamentais.</p><ul><li><strong>Adjetivos</strong> - s&atilde;o o cora&ccedil;&atilde;o da descri&ccedil;&atilde;o, qualificando substantivos com precis&atilde;o ou emo&ccedil;&atilde;o</li><li><strong>Compara&ccedil;&atilde;o</strong> - aproxima dois elementos para facilitar a visualiza&ccedil;&atilde;o (\"branco como a neve\")</li><li><strong>Met&aacute;fora</strong> - substitui um termo por outro em sentido figurado (\"seus olhos eram lagos tranquilos\")</li><li><strong>Sinestesia</strong> - mistura sensa&ccedil;&otilde;es de sentidos diferentes (\"som doce\", \"perfume &aacute;spero\")</li><li><strong>Enumera&ccedil;&atilde;o</strong> - lista detalhes em sequ&ecirc;ncia para construir a imagem completa</li></ul><h2>Denota&ccedil;&atilde;o e Conota&ccedil;&atilde;o</h2><p>A <strong>denota&ccedil;&atilde;o</strong> &eacute; o uso literal da palavra, seu significado de dicion&aacute;rio. A <strong>conota&ccedil;&atilde;o</strong> &eacute; o uso figurado, carregado de subjetividade e emo&ccedil;&atilde;o. Na descri&ccedil;&atilde;o objetiva predomina a denota&ccedil;&atilde;o; na subjetiva, a conota&ccedil;&atilde;o. Saber diferenciar esses dois usos &eacute; fundamental para interpretar textos no ENEM.</p><h2>Curiosidades e Dicas para o ENEM</h2><ul><li>A sinestesia &eacute; uma das figuras de linguagem mais cobradas em quest&otilde;es sobre descri&ccedil;&atilde;o</li><li>Muitas quest&otilde;es do ENEM pedem para identificar se um trecho &eacute; descritivo, narrativo ou dissertativo</li><li>Guimar&atilde;es Rosa &eacute; mestre da descri&ccedil;&atilde;o subjetiva na literatura brasileira, especialmente em \"Grande Sert&atilde;o - Veredas\"</li><li>Na reda&ccedil;&atilde;o do ENEM, trechos descritivos podem enriquecer a contextualiza&ccedil;&atilde;o na introdu&ccedil;&atilde;o</li></ul>",
+      "faq": [
+        {
+          "q": "Qual a diferenca entre descricao objetiva e subjetiva",
+          "a": "A descricao objetiva e informativa, precisa e impessoal, usando linguagem denotativa (como um laudo tecnico). A subjetiva carrega impressoes pessoais e emocoes do autor, usando linguagem conotativa e figuras de linguagem."
+        },
+        {
+          "q": "O que e sinestesia e como aparece na descricao",
+          "a": "Sinestesia e a figura de linguagem que mistura sensacoes de sentidos diferentes, como 'som doce' (audicao + paladar) ou 'perfume aspero' (olfato + tato). E muito usada em descricoes subjetivas e frequentemente cobrada no ENEM."
+        },
+        {
+          "q": "Qual a diferenca entre denotacao e conotacao",
+          "a": "Denotacao e o uso literal da palavra, seu significado de dicionario. Conotacao e o uso figurado, com sentido ampliado pela subjetividade e emocao. Na descricao objetiva predomina a denotacao; na subjetiva, a conotacao."
+        },
+        {
+          "q": "Como a descricao pode ser usada na redacao do ENEM",
+          "a": "Trechos descritivos podem enriquecer a contextualizacao na introducao da redacao, criando uma imagem vivida do problema. Porem, a redacao do ENEM e dissertativa-argumentativa, entao a descricao deve ser usada como recurso, nao como estrutura principal."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A frase 'Sala de 30m2, paredes brancas, uma janela de aluminio' e exemplo de",
+          "options": [
+            "Descricao subjetiva",
+            "Narracao",
+            "Descricao objetiva",
+            "Dissertacao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual figura de linguagem mistura sensacoes de sentidos diferentes, como 'som doce'",
+          "options": [
+            "Metafora",
+            "Comparacao",
+            "Sinestesia",
+            "Hiperbole"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Na descricao subjetiva, predomina o uso da linguagem",
+          "options": [
+            "Denotativa e tecnica",
+            "Conotativa e figurada",
+            "Injuntiva e imperativa",
+            "Expositiva e neutra"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual autor brasileiro e considerado mestre da descricao subjetiva em suas obras",
+          "options": [
+            "Machado de Assis",
+            "Guimaraes Rosa",
+            "Jose de Alencar",
+            "Carlos Drummond"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Coesão Textual",
+      "slug": "coesao-textual",
+      "desc": "Domine os mecanismos de coesao textual - referencia pronominal, substituicao lexical, elipse e conectivos - essenciais para a Competencia 4 da redacao do ENEM.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "A coesao textual e o conjunto de mecanismos linguisticos que ligam frases e paragrafos, garantindo a fluidez do texto. Os principais mecanismos sao referencia pronominal (retomar termos usando pronomes), substituicao lexical (trocar palavras por sinonimos ou hiperonimos), elipse (omitir termos ja mencionados) e conectivos (estabelecer relacoes logicas entre ideias). A coesao se divide em referencial (retomar termos anteriores) e sequencial (garantir a progressao do texto). No ENEM, a coesao e avaliada na Competencia 4, valendo ate 200 pontos.",
+      "body": "<h2>O que e Coesao Textual</h2><p>A coes&atilde;o textual se refere aos mecanismos lingu&iacute;sticos que conectam as partes de um texto, criando uma teia de liga&ccedil;&otilde;es entre palavras, frases e par&aacute;grafos. Sem coes&atilde;o, o texto se torna uma sequ&ecirc;ncia de frases soltas, sem conex&atilde;o entre si. No ENEM, a coes&atilde;o &eacute; avaliada exclusivamente na <strong>Compet&ecirc;ncia 4</strong>, podendo valer at&eacute; 200 pontos.</p><h2>Tipos de Coes&atilde;o</h2><table><tr><th>Tipo</th><th>Fun&ccedil;&atilde;o</th><th>Exemplo</th></tr><tr><td>Coes&atilde;o Referencial</td><td>Retomar ou antecipar termos do texto</td><td>\"A cidade cresceu. Ela j&aacute; n&atilde;o cabia em si.\"</td></tr><tr><td>Coes&atilde;o Sequencial</td><td>Garantir a progress&atilde;o l&oacute;gica das ideias</td><td>\"Primeiro... Em seguida... Por fim...\"</td></tr></table><h2>Mecanismos de Coes&atilde;o Referencial</h2><ul><li><strong>Refer&ecirc;ncia pronominal</strong> - usar pronomes para retomar termos anteriores (\"Maria estudou muito. Ela passou no vestibular\")</li><li><strong>Substitui&ccedil;&atilde;o lexical</strong> - trocar palavras por sin&ocirc;nimos, hiper&ocirc;nimos ou express&otilde;es equivalentes (educa&ccedil;&atilde;o, ensino, aprendizado)</li><li><strong>Elipse</strong> - omitir um termo j&aacute; mencionado, evitando repeti&ccedil;&atilde;o desnecess&aacute;ria (\"Pedro comprou um livro e leu em dois dias\")</li><li><strong>Nominaliza&ccedil;&atilde;o</strong> - transformar verbos em substantivos para retomar ideias (\"destru&iacute;ram a floresta - a destrui&ccedil;&atilde;o da floresta\")</li></ul><h2>Mecanismos de Coes&atilde;o Sequencial (Conectivos)</h2><table><tr><th>Rela&ccedil;&atilde;o</th><th>Conectivos</th></tr><tr><td>Adi&ccedil;&atilde;o</td><td>al&eacute;m disso, outrossim, ademais, bem como</td></tr><tr><td>Oposi&ccedil;&atilde;o</td><td>por&eacute;m, todavia, contudo, em contrapartida, no entanto</td></tr><tr><td>Causa</td><td>porque, uma vez que, posto que, visto que</td></tr><tr><td>Consequ&ecirc;ncia</td><td>portanto, logo, de modo que, por conseguinte</td></tr><tr><td>Exemplifica&ccedil;&atilde;o</td><td>por exemplo, a t&iacute;tulo de ilustra&ccedil;&atilde;o, como &eacute; o caso de</td></tr><tr><td>Conclus&atilde;o</td><td>em suma, dessa forma, diante do exposto</td></tr></table><h2>Erros Comuns e Dicas para o ENEM</h2><ul><li>Repetir o mesmo conectivo v&aacute;rias vezes (\"al&eacute;m disso\" em todos os par&aacute;grafos) demonstra repert&oacute;rio limitado</li><li>Usar conectivos inadequados (\"por&eacute;m\" onde deveria ser \"portanto\") prejudica a l&oacute;gica do texto</li><li>A coes&atilde;o referencial inadequada pode gerar ambiguidade - cuidado com pronomes que podem se referir a mais de um termo</li><li>Diversificar conectivos &eacute; uma das estrat&eacute;gias mais eficazes para subir a nota na Compet&ecirc;ncia 4</li></ul>",
+      "faq": [
+        {
+          "q": "Qual a diferenca entre coesao referencial e sequencial",
+          "a": "A coesao referencial retoma ou antecipa termos ja mencionados no texto (usando pronomes, sinonimos, elipse). A coesao sequencial garante a progressao logica das ideias por meio de conectivos que estabelecem relacoes como adicao, oposicao, causa e consequencia."
+        },
+        {
+          "q": "Quais sao os principais mecanismos de coesao referencial",
+          "a": "Os principais mecanismos sao referencia pronominal (usar pronomes para retomar termos), substituicao lexical (trocar por sinonimos ou hiperonimos), elipse (omitir termos ja mencionados) e nominalizacao (transformar verbos em substantivos para retomar ideias)."
+        },
+        {
+          "q": "Em qual competencia do ENEM a coesao e avaliada",
+          "a": "A coesao textual e avaliada na Competencia 4 do ENEM, que vale ate 200 pontos. Essa competencia avalia o uso de conectivos diversificados, referenciacao adequada e a progressao logica entre partes do texto."
+        },
+        {
+          "q": "Qual o erro mais comum relacionado a coesao na redacao do ENEM",
+          "a": "O erro mais comum e repetir o mesmo conectivo em varios paragrafos, como usar 'alem disso' em todos os desenvolvimentos. Isso demonstra repertorio linguistico limitado e reduz significativamente a nota na Competencia 4."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual mecanismo de coesao consiste em omitir um termo ja mencionado no texto",
+          "options": [
+            "Referencia pronominal",
+            "Substituicao lexical",
+            "Elipse",
+            "Nominalizacao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A troca de 'educacao' por 'ensino' ou 'aprendizado' no texto e um exemplo de",
+          "options": [
+            "Elipse",
+            "Referencia pronominal",
+            "Coesao sequencial",
+            "Substituicao lexical"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Os conectivos 'porem', 'todavia' e 'em contrapartida' expressam relacao de",
+          "options": [
+            "Adicao",
+            "Oposicao",
+            "Causa",
+            "Consequencia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Em qual competencia do ENEM a coesao textual e avaliada",
+          "options": [
+            "Competencia 1",
+            "Competencia 2",
+            "Competencia 3",
+            "Competencia 4"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Coerência Textual",
+      "slug": "coerencia-textual",
+      "desc": "Entenda os principios da coerencia textual - nao-contradicao, progressao, continuidade e relacao - e evite erros que comprometem sua nota no ENEM.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "A coerencia textual diz respeito ao sentido logico e a unidade de significado do texto. Um texto coerente segue quatro principios fundamentais. Nao-contradicao proibe afirmar e negar a mesma coisa dentro do texto. Progressao exige informacao nova a cada paragrafo. Continuidade pede manutencao do tema ao longo de todo o texto. Relacao determina que as ideias estejam conectadas logicamente entre si. A incoerencia pode ser interna (contradicoes dentro do proprio texto) ou externa (contradizer fatos conhecidos). No ENEM, problemas de coerencia afetam principalmente a Competencia 3.",
+      "body": "<h2>O que e Coer&ecirc;ncia Textual</h2><p>A coer&ecirc;ncia textual &eacute; o que garante que um texto fa&ccedil;a sentido como um todo. Enquanto a <strong>coes&atilde;o</strong> se refere aos mecanismos lingu&iacute;sticos (conectivos, pronomes), a <strong>coer&ecirc;ncia</strong> trata da l&oacute;gica, da unidade de significado e da consist&ecirc;ncia das ideias apresentadas. Um texto pode ser gramaticalmente perfeito e coeso, mas totalmente incoerente se suas ideias se contradisserem.</p><h2>Os Quatro Princ&iacute;pios da Coer&ecirc;ncia</h2><table><tr><th>Princ&iacute;pio</th><th>Defini&ccedil;&atilde;o</th><th>Exemplo de Viola&ccedil;&atilde;o</th></tr><tr><td>N&atilde;o-contradi&ccedil;&atilde;o</td><td>N&atilde;o afirmar e negar a mesma coisa</td><td>\"A educa&ccedil;&atilde;o &eacute; essencial\" e depois \"Escola n&atilde;o faz diferen&ccedil;a\"</td></tr><tr><td>Progress&atilde;o</td><td>Apresentar informa&ccedil;&atilde;o nova a cada par&aacute;grafo</td><td>Repetir a mesma ideia com palavras diferentes</td></tr><tr><td>Continuidade</td><td>Manter o tema ao longo de todo o texto</td><td>Come&ccedil;ar falando de educa&ccedil;&atilde;o e desviar para pol&iacute;tica externa</td></tr><tr><td>Rela&ccedil;&atilde;o</td><td>Conectar ideias logicamente entre si</td><td>Afirmar que \"chove muito\" como argumento para \"a educa&ccedil;&atilde;o &eacute; ruim\"</td></tr></table><h2>Incoer&ecirc;ncia Interna vs. Externa</h2><p>A <strong>incoer&ecirc;ncia interna</strong> acontece quando o texto se contradiz dentro de si mesmo. Por exemplo, defender que \"a tecnologia aliena as pessoas\" e depois afirmar que \"todos deveriam passar mais tempo nas redes sociais\". A <strong>incoer&ecirc;ncia externa</strong> ocorre quando o texto contradiz fatos da realidade, como afirmar que \"o Brasil &eacute; o menor pa&iacute;s da Am&eacute;rica do Sul\".</p><h2>Coer&ecirc;ncia na Reda&ccedil;&atilde;o do ENEM</h2><p>Na avalia&ccedil;&atilde;o do ENEM, problemas de coer&ecirc;ncia afetam diretamente a <strong>Compet&ecirc;ncia 3</strong>, que avalia a sele&ccedil;&atilde;o e organiza&ccedil;&atilde;o de argumentos. Um texto incoerente demonstra falta de planejamento e de dom&iacute;nio sobre o tema.</p><ul><li><strong>Planeje antes de escrever</strong> - fa&ccedil;a um esquema com tese e argumentos antes de redigir</li><li><strong>Releia o texto</strong> - verifique se cada par&aacute;grafo avan&ccedil;a em rela&ccedil;&atilde;o ao anterior</li><li><strong>Cheque fatos</strong> - n&atilde;o invente dados estat&iacute;sticos nem atribua cita&ccedil;&otilde;es a autores errados</li><li><strong>Mantenha a linha</strong> - cada argumento deve refor&ccedil;ar a tese, nunca contradiz&ecirc;-la</li></ul><h2>Curiosidades</h2><ul><li>A coer&ecirc;ncia depende tamb&eacute;m do conhecimento de mundo do leitor - o que parece incoerente para um leigo pode ser perfeitamente l&oacute;gico para um especialista</li><li>Textos liter&aacute;rios de vanguarda podem \"quebrar\" a coer&ecirc;ncia propositalmente como recurso est&eacute;tico</li><li>No ENEM, muitos candidatos perdem pontos por incoer&ecirc;ncia externa ao citar dados incorretos sobre o tema</li></ul>",
+      "faq": [
+        {
+          "q": "Quais sao os quatro principios da coerencia textual",
+          "a": "Os quatro principios sao nao-contradicao (nao afirmar e negar a mesma coisa), progressao (informacao nova a cada paragrafo), continuidade (manter o tema ao longo do texto) e relacao (ideias conectadas logicamente entre si)."
+        },
+        {
+          "q": "Qual a diferenca entre coesao e coerencia",
+          "a": "Coesao se refere aos mecanismos linguisticos que conectam partes do texto (conectivos, pronomes, sinonimos). Coerencia trata da logica e do sentido global do texto. Um texto pode ser coeso mas incoerente se usar conectivos corretamente, porem apresentar ideias contraditorias."
+        },
+        {
+          "q": "O que e incoerencia externa no texto",
+          "a": "Incoerencia externa ocorre quando o texto contradiz fatos da realidade ou conhecimentos universalmente aceitos. Por exemplo, afirmar que o Brasil fica na Europa ou citar dados estatisticos inventados. No ENEM, isso prejudica a Competencia 3."
+        },
+        {
+          "q": "Como evitar incoerencia na redacao do ENEM",
+          "a": "Para evitar incoerencia, planeje o texto antes de escrever (esquema com tese e argumentos), releia para verificar se cada paragrafo avanca, cheque fatos e dados antes de cita-los, e garanta que cada argumento reforce a tese apresentada na introducao."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O principio da coerencia que proibe afirmar e negar a mesma coisa no texto e o de",
+          "options": [
+            "Progressao",
+            "Continuidade",
+            "Nao-contradicao",
+            "Relacao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Afirmar no texto que 'o Brasil e o menor pais da America do Sul' e um exemplo de",
+          "options": [
+            "Incoerencia interna",
+            "Incoerencia externa",
+            "Falta de coesao",
+            "Fuga ao tema"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A coerencia textual no ENEM e avaliada principalmente em qual competencia",
+          "options": [
+            "Competencia 1",
+            "Competencia 2",
+            "Competencia 3",
+            "Competencia 5"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Um texto que repete a mesma ideia com palavras diferentes em paragrafos seguidos viola o principio de",
+          "options": [
+            "Nao-contradicao",
+            "Progressao",
+            "Continuidade",
+            "Relacao"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Parágrafo: Estrutura",
+      "slug": "paragrafo-estrutura",
+      "desc": "Aprenda a estrutura ideal do paragrafo - topico frasal, desenvolvimento e conclusao parcial - para construir textos organizados e pontuar alto no ENEM.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "O paragrafo e a unidade basica de organizacao textual. Cada paragrafo deve conter apenas uma ideia central. A estrutura ideal segue tres partes - topico frasal (frase-chave que apresenta a ideia central, geralmente a primeira frase), desenvolvimento (exemplos, dados, explicacoes e citacoes que sustentam o topico) e conclusao parcial (fechamento que faz a transicao para o proximo paragrafo). O tamanho ideal e de 5 a 8 linhas. Paragrafos muito curtos (1-2 linhas) parecem incompletos; muito longos (15+ linhas) cansam o leitor e prejudicam a organizacao.",
+      "body": "<h2>O que e o Paragrafo</h2><p>O par&aacute;grafo &eacute; a unidade b&aacute;sica de organiza&ccedil;&atilde;o de um texto. Assim como tijolos constroem uma parede, par&aacute;grafos constroem uma reda&ccedil;&atilde;o. Cada um deve tratar de uma &uacute;nica ideia central e contribuir para a progress&atilde;o do texto como um todo. No ENEM, a boa organiza&ccedil;&atilde;o em par&aacute;grafos &eacute; avaliada nas Compet&ecirc;ncias 3 e 4.</p><h2>Estrutura do Par&aacute;grafo-Padr&atilde;o</h2><table><tr><th>Parte</th><th>Fun&ccedil;&atilde;o</th><th>Exemplo</th></tr><tr><td>T&oacute;pico Frasal</td><td>Apresentar a ideia central do par&aacute;grafo</td><td>\"A educa&ccedil;&atilde;o digital &eacute; fundamental para combater fake news.\"</td></tr><tr><td>Desenvolvimento</td><td>Sustentar a ideia com argumentos, dados e exemplos</td><td>\"Segundo o IBGE, 70% dos jovens n&atilde;o verificam fontes...\"</td></tr><tr><td>Conclus&atilde;o Parcial</td><td>Fechar o par&aacute;grafo e fazer a transi&ccedil;&atilde;o</td><td>\"Dessa forma, investir em letramento digital &eacute; urgente.\"</td></tr></table><h2>O T&oacute;pico Frasal</h2><p>O t&oacute;pico frasal &eacute; a frase mais importante do par&aacute;grafo. Geralmente aparece no in&iacute;cio e funciona como uma \"promessa\" ao leitor sobre o que ser&aacute; discutido. Um bom t&oacute;pico frasal &eacute; claro, direto e assertivo. Evite come&ccedil;ar par&aacute;grafos com cita&ccedil;&otilde;es ou dados soltos - primeiro apresente sua ideia, depois sustente com evid&ecirc;ncias.</p><h2>Desenvolvimento do Par&aacute;grafo</h2><p>Ap&oacute;s o t&oacute;pico frasal, o desenvolvimento traz as evid&ecirc;ncias que sustentam a ideia central. Voc&ecirc; pode usar diferentes estrat&eacute;gias para desenvolver seu par&aacute;grafo.</p><ul><li><strong>Exemplifica&ccedil;&atilde;o</strong> - trazer casos concretos que ilustrem a ideia</li><li><strong>Dados estat&iacute;sticos</strong> - n&uacute;meros de fontes confi&aacute;veis (IBGE, IPEA, OMS)</li><li><strong>Cita&ccedil;&atilde;o de autoridade</strong> - refer&ecirc;ncia a especialistas, fil&oacute;sofos, soci&oacute;logos</li><li><strong>Compara&ccedil;&atilde;o</strong> - contrastar situa&ccedil;&otilde;es ou pa&iacute;ses para refor&ccedil;ar o argumento</li><li><strong>Causa e consequ&ecirc;ncia</strong> - mostrar rela&ccedil;&otilde;es l&oacute;gicas entre fatos</li></ul><h2>Tamanho Ideal e Erros Comuns</h2><p>O par&aacute;grafo ideal na reda&ccedil;&atilde;o do ENEM tem entre <strong>5 e 8 linhas</strong>. Par&aacute;grafos muito curtos (1-2 linhas) demonstram ideias pouco desenvolvidas. Par&aacute;grafos muito longos (15+ linhas) dificultam a leitura e sugerem falta de organiza&ccedil;&atilde;o.</p><h2>Dicas Pr&aacute;ticas para o ENEM</h2><ul><li>Cada par&aacute;grafo de desenvolvimento deve sustentar um aspecto diferente da tese</li><li>Use a regra \"1 par&aacute;grafo = 1 ideia\" para manter a clareza</li><li>A conclus&atilde;o parcial &eacute; o momento de conectar seu argumento de volta &agrave; tese</li><li>Leia seu par&aacute;grafo isoladamente - ele deve fazer sentido mesmo fora do contexto do texto completo</li></ul>",
+      "faq": [
+        {
+          "q": "O que e o topico frasal e qual sua importancia",
+          "a": "O topico frasal e a frase-chave que apresenta a ideia central do paragrafo, geralmente a primeira frase. Ele funciona como uma promessa ao leitor sobre o que sera discutido e deve ser claro, direto e assertivo. Sem ele, o paragrafo perde foco e direcao."
+        },
+        {
+          "q": "Qual o tamanho ideal de um paragrafo na redacao do ENEM",
+          "a": "O paragrafo ideal tem entre 5 e 8 linhas. Paragrafos muito curtos (1-2 linhas) demonstram ideias pouco desenvolvidas, enquanto muito longos (15+ linhas) dificultam a leitura e sugerem falta de organizacao textual."
+        },
+        {
+          "q": "Quais estrategias posso usar para desenvolver um paragrafo",
+          "a": "Voce pode usar exemplificacao (casos concretos), dados estatisticos (IBGE, IPEA), citacao de autoridade (filosofos, sociologos), comparacao (contrastar situacoes) e causa-consequencia (mostrar relacoes logicas entre fatos)."
+        },
+        {
+          "q": "O que e a conclusao parcial do paragrafo",
+          "a": "A conclusao parcial e o fechamento do paragrafo, onde voce conecta o argumento de volta a tese e faz a transicao para o proximo paragrafo. Ela garante a progressao logica do texto e demonstra dominio da organizacao textual."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A frase-chave que apresenta a ideia central do paragrafo e chamada de",
+          "options": [
+            "Conclusao parcial",
+            "Desenvolvimento",
+            "Topico frasal",
+            "Transicao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual o tamanho ideal de um paragrafo na redacao do ENEM",
+          "options": [
+            "1 a 2 linhas",
+            "3 a 4 linhas",
+            "5 a 8 linhas",
+            "15 a 20 linhas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A regra fundamental de organizacao paragrafal e",
+          "options": [
+            "1 paragrafo = 3 ideias",
+            "1 paragrafo = 1 ideia",
+            "Quanto maior, melhor",
+            "Nao ha regra definida"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual parte do paragrafo faz a transicao para o paragrafo seguinte",
+          "options": [
+            "Topico frasal",
+            "Desenvolvimento",
+            "Citacao",
+            "Conclusao parcial"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Argumentação: Tipos de Argumento",
+      "slug": "argumentacao-tipos-de-argumento",
+      "desc": "Conheca os principais tipos de argumento - autoridade, exemplificacao, dados, causa-consequencia, comparacao e contra-argumento - para fortalecer sua redacao no ENEM.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Dominar os tipos de argumento e essencial para a Competencia 3 do ENEM. Argumento de autoridade cita especialistas ou instituicoes (Segundo o IBGE...). Argumento por exemplificacao traz casos concretos que ilustram a tese. Argumento por dados/estatisticas usa numeros para comprovar. Argumento por causa-consequencia mostra que um evento gera determinado resultado. Argumento por comparacao/analogia contrasta realidades diferentes. Argumento historico usa fatos do passado para sustentar. Contra-argumento antecipa e refuta a posicao contraria. E fundamental distinguir fato (verificavel) de opiniao (juizo de valor).",
+      "body": "<h2>A Import&acirc;ncia da Argumenta&ccedil;&atilde;o</h2><p>A argumenta&ccedil;&atilde;o &eacute; a espinha dorsal da disserta&ccedil;&atilde;o-argumentativa cobrada no ENEM. Sem argumentos s&oacute;lidos, a tese perde credibilidade e o texto se torna uma mera opini&atilde;o sem fundamento. Conhecer os diferentes tipos de argumento permite ao estudante variar suas estrat&eacute;gias e construir textos mais convincentes e bem avaliados.</p><h2>Tipos de Argumento</h2><table><tr><th>Tipo</th><th>Defini&ccedil;&atilde;o</th><th>Exemplo</th></tr><tr><td>Autoridade</td><td>Citar especialista ou institui&ccedil;&atilde;o reconhecida</td><td>\"Segundo a OMS, a depress&atilde;o afeta 300 milh&otilde;es de pessoas\"</td></tr><tr><td>Exemplifica&ccedil;&atilde;o</td><td>Trazer caso concreto que ilustra a tese</td><td>\"No Jap&atilde;o, a educa&ccedil;&atilde;o emocional faz parte do curr&iacute;culo\"</td></tr><tr><td>Dados/Estat&iacute;sticas</td><td>Usar n&uacute;meros para comprovar</td><td>\"70% dos jovens brasileiros j&aacute; sofreram cyberbullying\"</td></tr><tr><td>Causa-Consequ&ecirc;ncia</td><td>Mostrar que um evento gera resultado</td><td>\"A falta de saneamento causa doen&ccedil;as e &oacute;bitos\"</td></tr><tr><td>Compara&ccedil;&atilde;o/Analogia</td><td>Contrastar realidades diferentes</td><td>\"Enquanto a Finl&acirc;ndia investe 7% do PIB em educa&ccedil;&atilde;o, o Brasil investe apenas 5%\"</td></tr><tr><td>Hist&oacute;rico</td><td>Fato do passado que sustenta o argumento</td><td>\"Desde a aboli&ccedil;&atilde;o da escravatura, sem pol&iacute;ticas de inclus&atilde;o...\"</td></tr><tr><td>Contra-argumento</td><td>Antecipar e refutar a posi&ccedil;&atilde;o contr&aacute;ria</td><td>\"Embora alguns defendam que..., na verdade...\"</td></tr></table><h2>Fato vs. Opini&atilde;o</h2><p>&Eacute; fundamental distinguir <strong>fato</strong> (dado verific&aacute;vel, comprova&ccedil;&atilde;o emp&iacute;rica) de <strong>opini&atilde;o</strong> (ju&iacute;zo de valor, posi&ccedil;&atilde;o pessoal). Na reda&ccedil;&atilde;o do ENEM, seus argumentos devem ser baseados em fatos, n&atilde;o em achismos. Use dados, refer&ecirc;ncias e exemplos concretos para sustentar sua tese.</p><h2>Como Usar o Contra-Argumento</h2><p>O contra-argumento &eacute; uma das estrat&eacute;gias mais sofisticadas de argumenta&ccedil;&atilde;o. Ao antecipar o que um opositor diria e refutar esse ponto, voc&ecirc; demonstra maturidade intelectual e fortalece sua pr&oacute;pria tese. Use express&otilde;es como \"Embora alguns defendam que...\", \"Apesar de se argumentar que...\" seguidas de \"na verdade...\", \"os dados mostram que...\".</p><h2>Dicas para o ENEM</h2><ul><li>Use pelo menos dois tipos diferentes de argumento nos par&aacute;grafos de desenvolvimento</li><li>O argumento de autoridade &eacute; poderoso, mas deve ser acompanhado de an&aacute;lise pessoal</li><li>Nunca invente dados estat&iacute;sticos - se n&atilde;o lembrar o n&uacute;mero exato, use \"pesquisas indicam que...\"</li><li>O contra-argumento pode ser o diferencial para notas acima de 900 na reda&ccedil;&atilde;o</li></ul>",
+      "faq": [
+        {
+          "q": "Quais sao os principais tipos de argumento para a redacao do ENEM",
+          "a": "Os principais tipos sao argumento de autoridade (citar especialistas), exemplificacao (casos concretos), dados/estatisticas (numeros), causa-consequencia (relacao entre eventos), comparacao/analogia (contrastar realidades), historico (fatos do passado) e contra-argumento (antecipar e refutar a posicao contraria)."
+        },
+        {
+          "q": "Qual a diferenca entre fato e opiniao na argumentacao",
+          "a": "Fato e um dado verificavel e comprovavel empiricamente (ex. dados do IBGE). Opiniao e um juizo de valor, uma posicao pessoal sem comprovacao objetiva. Na redacao do ENEM, argumentos devem ser baseados em fatos, nao em achismos."
+        },
+        {
+          "q": "O que e contra-argumento e como usar na redacao",
+          "a": "Contra-argumento e a estrategia de antecipar o que um opositor diria e refutar esse ponto. Use expressoes como 'Embora alguns defendam que...', seguida de 'na verdade, os dados mostram que...'. Demonstra maturidade intelectual e fortalece a tese."
+        },
+        {
+          "q": "Posso inventar dados estatisticos na redacao do ENEM",
+          "a": "Nunca invente dados estatisticos, pois isso configura incoerencia externa e pode prejudicar sua nota. Se nao lembrar o numero exato, use expressoes como 'pesquisas indicam que...' ou 'dados apontam que...' para manter a credibilidade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Citar 'Segundo a OMS, a depressao afeta 300 milhoes de pessoas' e um exemplo de argumento",
+          "options": [
+            "Por exemplificacao",
+            "De autoridade",
+            "Por comparacao",
+            "Historico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A estrategia de antecipar e refutar a posicao contraria chama-se",
+          "options": [
+            "Argumento historico",
+            "Argumento de autoridade",
+            "Contra-argumento",
+            "Argumento por dados"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual a diferenca fundamental entre fato e opiniao",
+          "options": [
+            "Fato e verificavel, opiniao e juizo de valor",
+            "Fato e pessoal, opiniao e coletiva",
+            "Nao ha diferenca pratica",
+            "Fato e subjetivo, opiniao e objetiva"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Ao comparar o investimento em educacao do Brasil com o da Finlandia, usa-se argumento por",
+          "options": [
+            "Autoridade",
+            "Exemplificacao",
+            "Causa-consequencia",
+            "Comparacao/Analogia"
+          ],
+          "answer": 3
+        }
+      ]
+    }
+  ]
+}

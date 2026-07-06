@@ -282,7 +282,8 @@
           if (fillEl) fillEl.style.width = pct + '%';
 
           var textEl = document.getElementById('navbar-xp-text');
-          if (textEl) textEl.textContent = xpInLevel + '/' + xpNeeded;
+          var displayXP = Math.min(xpInLevel, xpNeeded);
+          if (textEl) textEl.textContent = displayXP + '/' + xpNeeded;
 
           // Tier badge
           var tierEl = document.getElementById('navbar-tier-badge');
@@ -363,6 +364,16 @@
         menuToggle.classList.toggle('active');
         if (navbarNav) navbarNav.classList.toggle('open');
         if (navbarActions) navbarActions.classList.toggle('open');
+      });
+    }
+    // Dark mode toggle (re-register since inject() replaced the original button)
+    var darkToggle = document.getElementById('dark-toggle');
+    if (darkToggle) {
+      darkToggle.addEventListener('click', function() {
+        var current = document.documentElement.getAttribute('data-theme');
+        var next = current === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', next);
+        localStorage.setItem('beholder_theme', next);
       });
     }
   }

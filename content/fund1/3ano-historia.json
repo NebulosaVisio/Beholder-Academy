@@ -1,0 +1,946 @@
+{
+  "subject": "História",
+  "slug": "3ano-historia",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--historia)",
+  "icon": "shield",
+  "articles": [
+    {
+      "title": "Imperialismo e Neocolonialismo (Séc. XIX)",
+      "slug": "imperialismo-e-neocolonialismo-sec-xix",
+      "desc": "Imperialismo (séc. XIX): partilha da África e Ásia por europeus. Conferência de Berlim (1884). Darwinismo social. Consequências: exploração, fronteiras artificiais, tensões→1ª Guerra.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Imperialismo/Neocolonialismo (séc. XIX): potências europeias colonizam África e Ásia. Causas: mercados, matéria-prima, 2ª Rev. Industrial, superioridade racial (darwinismo social). Conferência de Berlim (1884-85): partilha da África sem consultar africanos. Consequências: exploração, fronteiras artificiais (conflitos até hoje), rivalidades europeias → 1ª Guerra Mundial.",
+      "body": "<h2>Introdução</h2><p>O <strong>Imperialismo</strong> (séc. XIX) foi a dominação econômica, política e cultural da África e Ásia pelas potências europeias industrializadas.</p><h2>Causas</h2><ul><li>2ª Revolução Industrial → necessidade de matéria-prima e mercados</li><li>Darwinismo social: \"raças superiores\" devem \"civilizar\" as inferiores</li><li>Rivalidades entre potências europeias (prestígio nacional)</li></ul><h2>Conferência de Berlim (1884-85)</h2><p>Potências europeias <strong>dividiram a África</strong> como pizza — sem consultar nenhum africano. Fronteiras artificiais separaram etnias e juntaram rivais → conflitos até hoje.</p><h2>Consequências</h2><ul><li>Exploração de recursos e trabalho</li><li>Destruição de culturas e estruturas políticas locais</li><li>Rivalidades entre potências → <strong>1ª Guerra Mundial</strong></li></ul><h2>Resumo</h2><ul><li>✅ Conferência de Berlim = partilha da África</li><li>⚠️ ENEM: relação imperialismo → 1ª Guerra + fronteiras artificiais → conflitos atuais</li></ul><h2>Curiosidade</h2><p>O <strong>Congo Belga</strong> (propriedade pessoal do rei Leopoldo II) foi palco de um dos maiores genocídios da história: estima-se que <strong>10 milhões de congoleses</strong> morreram sob exploração brutal da borracha.</p>",
+      "faq": [
+        {
+          "q": "Diferença entre colonialismo e imperialismo?",
+          "a": "Colonialismo (séc. XVI-XVIII): colônias de exploração nas Américas. Imperialismo/Neocolonialismo (séc. XIX): dominação da África e Ásia por potências industrializadas."
+        },
+        {
+          "q": "O que era darwinismo social?",
+          "a": "Aplicação distorcida da teoria de Darwin à sociedade: povos 'superiores' teriam direito de dominar os 'inferiores'. Justificativa pseudocientífica para o racismo e o imperialismo."
+        },
+        {
+          "q": "A África foi consultada na Conferência de Berlim?",
+          "a": "Não! Nenhum representante africano participou. 14 potências europeias dividiram o continente em fronteiras retas que ignoraram etnias, culturas e reinos existentes."
+        },
+        {
+          "q": "Como o imperialismo levou à 1ª Guerra?",
+          "a": "As rivalidades por colônias (França×Alemanha no Marrocos, Rússia×Áustria nos Bálcãs) criaram tensões → alianças militares → corrida armamentista → explosão em 1914."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Conferência de Berlim (1884) dividiu:",
+          "options": [
+            "Europa",
+            "Américas",
+            "África",
+            "Ásia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Darwinismo social justificava:",
+          "options": [
+            "Igualdade",
+            "Dominação racial",
+            "Democracia",
+            "Pacifismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O imperialismo foi impulsionado pela:",
+          "options": [
+            "1ª Rev. Industrial",
+            "2ª Rev. Industrial",
+            "Rev. Francesa",
+            "Rev. Russa"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "As fronteiras africanas atuais foram:",
+          "options": [
+            "Naturais",
+            "Decididas pelos europeus",
+            "Tribais",
+            "Democráticas"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Primeira Guerra Mundial (1914-1918)",
+      "slug": "primeira-guerra-mundial-1914-1918",
+      "desc": "1ª Guerra Mundial (1914-18): Tríplice Aliança × Tríplice Entente. Trincheiras, gás, tanque. Tratado de Versalhes. 17 milhões de mortos.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "Causas (MAIN): Militarismo, Alianças, Imperialismo, Nacionalismo. Estopim: assassinato do Arquiduque Franz Ferdinand (1914, Sarajevo). Tríplice Aliança: Alemanha, Áustria-Hungria, Itália→Império Otomano. Tríplice Entente: França, Inglaterra, Rússia (depois EUA). Guerra de trincheiras: estagnação, gás mostarda, tanques. 1917: entrada dos EUA + saída da Rússia (revolução). Tratado de Versalhes (1919): Alemanha humilhada → semente do nazismo.",
+      "body": "<h2>Introdução</h2><p>A <strong>1ª Guerra Mundial</strong> (1914-1918) foi o primeiro conflito global da história. Matou <strong>17 milhões de pessoas</strong> e redesenhou o mapa da Europa.</p><h2>Causas (MAIN)</h2><ul><li><strong>M</strong>ilitarismo: corrida armamentista</li><li><strong>A</strong>lianças: sistemas de alianças automáticas</li><li><strong>I</strong>mperialismo: rivalidades coloniais</li><li><strong>N</strong>acionalismo: tensões étnicas (Bálcãs)</li></ul><h2>Estopim</h2><p>Assassinato do <strong>Arquiduque Franz Ferdinand</strong> (Áustria) em Sarajevo (28/6/1914) por nacionalista sérvio.</p><h2>As Alianças</h2><table><thead><tr><th>Tríplice Aliança</th><th>Tríplice Entente</th></tr></thead><tbody><tr><td>Alemanha</td><td>França</td></tr><tr><td>Áustria-Hungria</td><td>Inglaterra</td></tr><tr><td>Imp. Otomano</td><td>Rússia (depois EUA)</td></tr></tbody></table><h2>Características</h2><ul><li><strong>Trincheiras:</strong> guerra estática, lama, doenças</li><li>Novas armas: gás mostarda, tanques, aviões, metralhadoras</li></ul><h2>Tratado de Versalhes (1919)</h2><p>Alemanha culpada, reparações de guerra, perda de territórios → humilhação → <strong>semente do nazismo</strong></p><h2>Resumo</h2><ul><li>✅ MAIN = causas. Trincheiras = característica. Versalhes = consequência.</li><li>⚠️ ENEM: Versalhes → nazismo → 2ª Guerra</li></ul><h2>Curiosidade</h2><p>Na <strong>Trégua de Natal de 1914</strong>, soldados alemães e ingleses saíram das trincheiras, trocaram presentes e jogaram <strong>futebol</strong> na terra de ninguém!</p>",
+      "faq": [
+        {
+          "q": "O que foi a guerra de trincheiras?",
+          "a": "Sistema de valas escavadas no solo. Soldados viviam em condições horríveis (lama, ratos, doenças). Frentes quase não avançavam — milhares morriam por metros."
+        },
+        {
+          "q": "Por que os EUA entraram?",
+          "a": "Em 1917, após afundamento de navios por submarinos alemães (Lusitânia) e o Telegrama Zimmermann (Alemanha propondo aliança com México contra EUA)."
+        },
+        {
+          "q": "O que mudou após Versalhes?",
+          "a": "Fim de 4 impérios (Austro-Húngaro, Otomano, Russo, Alemão). Novos países (Polônia, Tchecoslováquia). Liga das Nações criada. Alemanha humilhada → nazismo."
+        },
+        {
+          "q": "Qual a ligação com a 2ª Guerra?",
+          "a": "Versalhes humilhou a Alemanha (culpa, reparações, perda territorial). A crise econômica e o ressentimento permitiram a ascensão de Hitler → 2ª Guerra."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O estopim da 1ª Guerra foi:",
+          "options": [
+            "Invasão da Polônia",
+            "Assassinato de Franz Ferdinand",
+            "Pearl Harbor",
+            "Revolução Russa"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Trincheiras eram:",
+          "options": [
+            "Navios",
+            "Valas no solo",
+            "Aviões",
+            "Submarinos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Tratado de Versalhes puniu:",
+          "options": [
+            "França",
+            "Rússia",
+            "Alemanha",
+            "Inglaterra"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A guerra durou:",
+          "options": [
+            "2 anos",
+            "4 anos",
+            "6 anos",
+            "10 anos"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Revolução Russa (1917)",
+      "slug": "revolucao-russa-1917",
+      "desc": "Revolução Russa (1917): Fev (queda do czar) e Out (bolcheviques, Lênin). URSS, socialismo, Guerra Civil. Stálin: industrialização forçada, gulags.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Fevereiro 1917: queda do czar Nicolau II. Outubro 1917: bolcheviques (Lênin) tomam poder. 'Paz, Terra, Pão'. NEP (Nova Política Econômica): capitalismo controlado. URSS fundada (1922). Stálin (1924-53): industrialização forçada, coletivização agrícola, gulags (campos de trabalho forçado), culto à personalidade. Importância: 1ª revolução socialista, inspirou movimentos no mundo.",
+      "body": "<h2>Introdução</h2><p>A <strong>Revolução Russa (1917)</strong> derrubou o czarismo e criou o primeiro Estado socialista do mundo — a <strong>URSS</strong>.</p><h2>Fevereiro de 1917</h2><ul><li>Queda do <strong>czar Nicolau II</strong></li><li>Causas: miséria, fome, 1ª Guerra (derrotas), autocracia</li><li>Governo provisório (Kerensky)</li></ul><h2>Outubro de 1917 (Bolchevique)</h2><ul><li><strong>Lênin</strong> e os bolcheviques tomam o poder</li><li>Lema: <strong>\"Paz, Terra, Pão\"</strong></li><li>Saída da 1ª Guerra (Tratado de Brest-Litovsk)</li></ul><h2>URSS e Stálin</h2><ul><li><strong>URSS fundada em 1922</strong></li><li><strong>Stálin (1924-53):</strong> industrialização forçada, coletivização agrícola</li><li><strong>Gulags:</strong> campos de trabalho forçado (milhões de mortos)</li><li>Culto à personalidade, totalitarismo</li></ul><h2>Resumo</h2><ul><li>✅ 1917: fim do czar → 1º Estado socialista</li><li>⚠️ ENEM: idealismo × totalitarismo (Lênin × Stálin)</li></ul><h2>Curiosidade</h2><p>A \"Revolução de Outubro\" aconteceu em <strong>novembro</strong> pelo calendário atual! A Rússia usava o calendário juliano, 13 dias atrasado em relação ao gregoriano.</p>",
+      "faq": [
+        {
+          "q": "Por que duas revoluções em 1917?",
+          "a": "Fevereiro: derrubou o czar, mas o governo provisório manteve a guerra. Outubro: bolcheviques tomaram o poder prometendo paz, terra e pão."
+        },
+        {
+          "q": "Quem eram os bolcheviques?",
+          "a": "Facção radical do Partido Social-Democrata Russo, liderada por Lênin. Defendiam revolução imediata e ditadura do proletariado. Mencheviques queriam mudança gradual."
+        },
+        {
+          "q": "O que foram os gulags?",
+          "a": "Campos de trabalho forçado da URSS de Stálin. Milhões de prisioneiros políticos, dissidentes e 'inimigos do Estado' morreram de fome, frio e exaustão."
+        },
+        {
+          "q": "A URSS durou quanto tempo?",
+          "a": "De 1922 a 1991 (69 anos). Dissolveu-se em 15 repúblicas independentes (Rússia, Ucrânia, etc.)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Revolução de Outubro foi liderada por:",
+          "options": [
+            "Czar Nicolau",
+            "Kerensky",
+            "Lênin",
+            "Stálin"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O lema era:",
+          "options": [
+            "Liberdade, igualdade, fraternidade",
+            "Paz, terra, pão",
+            "Ordem e progresso",
+            "Proletários, uni-vos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gulags foram criados por:",
+          "options": [
+            "Lênin",
+            "Trotsky",
+            "Stálin",
+            "Gorbachev"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A URSS foi fundada em:",
+          "options": [
+            "1917",
+            "1922",
+            "1945",
+            "1991"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Período Entreguerras e Totalitarismos",
+      "slug": "periodo-entreguerras-e-totalitarismos",
+      "desc": "Entreguerras (1918-39): Crise de 1929 (Crash, New Deal). Totalitarismos: fascismo (Mussolini, Itália), nazismo (Hitler, Alemanha). Propaganda, perseguição, expansionismo.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "Crise de 1929: Crash da Bolsa de NY → depressão global → desemprego. New Deal (Roosevelt): intervenção estatal. Fascismo (Itália, Mussolini, 1922): nacionalismo extremo, partido único, corporativismo. Nazismo (Alemanha, Hitler, 1933): racismo (arianismo), antissemitismo, Lebensraum (espaço vital), Leis de Nuremberg. Características totalitárias: partido único, líder carismático, propaganda, censura, violência.",
+      "body": "<h2>Introdução</h2><p>O <strong>período entreguerras</strong> (1918-39) viu crises econômicas e ascensão de regimes totalitários que levaram à <strong>2ª Guerra Mundial</strong>.</p><h2>Crise de 1929</h2><ul><li><strong>Crash da Bolsa de NY</strong> (24/10/1929, \"Quinta-feira Negra\")</li><li>Superprodução + especulação → colapso</li><li>Depressão global: desemprego, fome, falências</li><li><strong>New Deal (Roosevelt):</strong> intervenção estatal na economia (obras públicas, regulação)</li></ul><h2>Fascismo (Itália)</h2><ul><li><strong>Mussolini</strong> (1922-43): Marcha sobre Roma</li><li>Nacionalismo extremo, corporativismo, partido único</li></ul><h2>Nazismo (Alemanha)</h2><ul><li><strong>Hitler</strong> (1933-45): chanceler</li><li>Arianismo (\"raça superior\"), antissemitismo</li><li>Leis de Nuremberg (1935): perseguição aos judeus</li><li><strong>Lebensraum:</strong> expansão territorial (\"espaço vital\")</li></ul><h2>Características Totalitárias</h2><ul><li>Partido único, líder carismático, propaganda massiva, censura, polícia secreta, culto ao Estado</li></ul><h2>Resumo</h2><ul><li>✅ Crise de 29 → desespero → totalitarismo</li><li>⚠️ ENEM: como crises econômicas alimentam extremismo político</li></ul><h2>Curiosidade</h2><p>A propaganda nazista usava <strong>cinema, rádio e cartazes</strong> de forma tão sofisticada que o ministro Goebbels é estudado em cursos de marketing até hoje — como exemplo do que <strong>nunca</strong> devemos fazer.</p>",
+      "faq": [
+        {
+          "q": "O que causou a Crise de 1929?",
+          "a": "Superprodução (fábricas e fazendas produziam mais do que se consumia) + especulação desenfreada na bolsa. Quando a bolha estourou, bancos quebraram e o desemprego disparou."
+        },
+        {
+          "q": "O que era o New Deal?",
+          "a": "Programa de Roosevelt para combater a crise: obras públicas (empregos), regulação bancária, previdência social. Primeira grande intervenção estatal na economia capitalista."
+        },
+        {
+          "q": "Diferença entre fascismo e nazismo?",
+          "a": "Ambos são totalitários, mas o nazismo é mais radical: inclui racismo biológico (arianismo), antissemitismo genocida e Lebensraum. Fascismo italiano era mais corporativista e nacionalista."
+        },
+        {
+          "q": "Como Hitler chegou ao poder?",
+          "a": "Legalmente! Nomeado chanceler em 1933 por Hindenburg. Depois incendiou o Reichstag, culpou comunistas, suspendeu direitos e se tornou ditador. A crise de 29 + Versalhes criaram o terreno."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O Crash de 1929 foi na bolsa de:",
+          "options": [
+            "Londres",
+            "Paris",
+            "Nova York",
+            "Berlim"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Mussolini liderou:",
+          "options": [
+            "Nazismo",
+            "Fascismo",
+            "Comunismo",
+            "Anarquismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "As Leis de Nuremberg perseguiam:",
+          "options": [
+            "Comunistas",
+            "Judeus",
+            "Ciganos",
+            "Todos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O New Deal foi de:",
+          "options": [
+            "Hitler",
+            "Mussolini",
+            "Roosevelt",
+            "Churchill"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Segunda Guerra Mundial (1939-1945)",
+      "slug": "segunda-guerra-mundial-1939-1945",
+      "desc": "2ª Guerra Mundial (1939-45): Eixo (Alemanha, Itália, Japão) × Aliados (EUA, URSS, UK). Holocausto, D-Day, bombas atômicas. ONU. 70 milhões de mortos.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "Causas: expansionismo nazista (Anschluss, invasão da Polônia 1/9/1939), fracasso da Liga das Nações, apaziguamento. Eixo: Alemanha, Itália, Japão. Aliados: EUA, URSS, UK, França Livre. Holocausto: 6 milhões de judeus assassinados (campos de extermínio: Auschwitz). Viradas: Stalingrado (1943), D-Day/Normandia (6/6/1944). Hiroshima e Nagasaki (agosto 1945). ONU fundada. Início da Guerra Fria.",
+      "body": "<h2>Introdução</h2><p>A <strong>2ª Guerra Mundial</strong> (1939-45) foi o maior conflito da história: <strong>70 milhões de mortos</strong>, Holocausto, bombas atômicas e reconfiguração do mundo.</p><h2>Causas</h2><ul><li>Expansionismo nazista (Anschluss→Áustria, Sudetos→Tchecoslováquia)</li><li>Política de apaziguamento (Conferência de Munique, 1938)</li><li>Invasão da Polônia (1/9/1939): início da guerra</li></ul><h2>Alianças</h2><table><thead><tr><th>Eixo</th><th>Aliados</th></tr></thead><tbody><tr><td>Alemanha</td><td>EUA</td></tr><tr><td>Itália</td><td>URSS</td></tr><tr><td>Japão</td><td>UK/França</td></tr></tbody></table><h2>Holocausto</h2><p><strong>6 milhões de judeus</strong> assassinados em campos de extermínio (Auschwitz, Treblinka, Sobibor). Também ciganos, homossexuais, deficientes, dissidentes.</p><h2>Viradas</h2><ul><li><strong>Stalingrado (1942-43):</strong> URSS derrota Alemanha → início do avanço soviético</li><li><strong>D-Day (6/6/1944):</strong> Desembarque na Normandia → liberação da França</li><li><strong>Hiroshima e Nagasaki (agosto 1945):</strong> bombas atômicas → rendição do Japão</li></ul><h2>Resumo</h2><ul><li>✅ Holocausto: maior genocídio da história</li><li>✅ D-Day e Stalingrado: viradas da guerra</li><li>⚠️ ENEM: causas (apaziguamento), Holocausto, consequências (ONU, Guerra Fria)</li></ul><h2>Curiosidade</h2><p>O <strong>Dia D</strong> (6/6/1944) foi a maior operação militar anfíbia da história: 156.000 soldados aliados desembarcaram em 5 praias da Normandia em um único dia!</p>",
+      "faq": [
+        {
+          "q": "O que foi o Holocausto?",
+          "a": "Genocídio de 6 milhões de judeus (e milhões de outros grupos) pelos nazistas. Campos de extermínio usavam câmaras de gás. É o maior crime contra a humanidade documentado."
+        },
+        {
+          "q": "Por que os EUA entraram na guerra?",
+          "a": "Após o ataque japonês a Pearl Harbor (7/12/1941). Antes disso, os EUA eram 'neutros' mas apoiavam os Aliados com armas e suprimentos (Lend-Lease Act)."
+        },
+        {
+          "q": "As bombas atômicas eram necessárias?",
+          "a": "Debate histórico. EUA: evitou invasão terrestre do Japão (milhões de baixas). Críticos: Japão já estava quase derrotado; foi demonstração de poder para a URSS (início da Guerra Fria)."
+        },
+        {
+          "q": "O que foi criado após a guerra?",
+          "a": "ONU (1945), Declaração Universal dos Direitos Humanos (1948), Plano Marshall (reconstrução europeia), início da Guerra Fria (EUA×URSS)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A 2ª Guerra começou com a invasão da:",
+          "options": [
+            "França",
+            "URSS",
+            "Polônia",
+            "Inglaterra"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Holocausto matou ~:",
+          "options": [
+            "1 milhão",
+            "6 milhões",
+            "20 milhões",
+            "70 milhões"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O D-Day foi em:",
+          "options": [
+            "Pearl Harbor",
+            "Stalingrado",
+            "Normandia",
+            "Berlim"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A guerra terminou com:",
+          "options": [
+            "Queda de Berlim",
+            "Bombas atômicas",
+            "Ambos",
+            "Invasão dos EUA"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Guerra Fria (1947-1991)",
+      "slug": "guerra-fria-1947-1991",
+      "desc": "Guerra Fria (1947-91): EUA (capitalismo) × URSS (socialismo). Bipolaridade, corrida armamentista/espacial, Muro de Berlim, crises (Cuba, Coreia, Vietnã). Fim: queda do Muro (1989).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "Bipolaridade: EUA (OTAN, capitalismo) × URSS (Pacto de Varsóvia, socialismo). Características: corrida armamentista nuclear, espacial (Sputnik, Apollo 11), propaganda. Crises: Coreia (1950-53), Cuba (1962, mísseis), Vietnã (1955-75). Muro de Berlim (1961-89). Fim: Gorbachev (glasnost/perestroika), queda do Muro (9/11/1989), dissolução da URSS (1991).",
+      "body": "<h2>Introdução</h2><p>A <strong>Guerra Fria</strong> (1947-91) foi a rivalidade global entre <strong>EUA</strong> (capitalismo) e <strong>URSS</strong> (socialismo) — sem conflito direto entre ambos, mas com guerras por procuração.</p><h2>Bipolaridade</h2><table><thead><tr><th>EUA</th><th>URSS</th></tr></thead><tbody><tr><td>Capitalismo</td><td>Socialismo</td></tr><tr><td>OTAN</td><td>Pacto de Varsóvia</td></tr><tr><td>Plano Marshall</td><td>COMECON</td></tr><tr><td>Democracia liberal</td><td>Partido único</td></tr></tbody></table><h2>Crises</h2><ul><li><strong>Guerra da Coreia (1950-53):</strong> Norte (URSS) × Sul (EUA)</li><li><strong>Crise dos Mísseis de Cuba (1962):</strong> mundo à beira da guerra nuclear</li><li><strong>Guerra do Vietnã (1955-75):</strong> derrota dos EUA</li><li><strong>Muro de Berlim (1961-89):</strong> símbolo da divisão</li></ul><h2>Corridas</h2><ul><li><strong>Armamentista:</strong> bombas H, ogivas, MAD (destruição mútua assegurada)</li><li><strong>Espacial:</strong> Sputnik (1957), Gagarin (1961), Apollo 11 (1969)</li></ul><h2>Fim</h2><p><strong>Gorbachev:</strong> glasnost (transparência) + perestroika (reestruturação) → queda do Muro (9/11/1989) → dissolução da URSS (1991)</p><h2>Resumo</h2><ul><li>✅ EUA×URSS: bipolaridade sem guerra direta</li><li>⚠️ ENEM: guerras por procuração, corridas, impacto na América Latina</li></ul><h2>Curiosidade</h2><p>Na <strong>Crise dos Mísseis de Cuba</strong> (1962), o mundo ficou a <strong>13 dias</strong> de uma guerra nuclear. Um oficial soviético, <strong>Vasili Arkhipov</strong>, vetou o lançamento de um torpedo nuclear de um submarino — e salvou o mundo!</p>",
+      "faq": [
+        {
+          "q": "Por que 'fria'?",
+          "a": "Porque EUA e URSS nunca se enfrentaram diretamente em combate. A guerra era ideológica, econômica e por procuração (Coreia, Vietnã, Angola)."
+        },
+        {
+          "q": "O que foi o Muro de Berlim?",
+          "a": "Muro construído em 1961 dividindo Berlim Ocidental (capitalista) e Oriental (socialista). Símbolo da Guerra Fria. Caiu em 9/11/1989. Alemanha reunificada em 1990."
+        },
+        {
+          "q": "O que era MAD?",
+          "a": "Mutual Assured Destruction (destruição mútua assegurada): se um lado lançasse bombas, o outro retaliaria → ambos destruídos. Paradoxalmente, isso evitou guerra nuclear."
+        },
+        {
+          "q": "A URSS acabou como?",
+          "a": "Gorbachev tentou reformas (glasnost/perestroika), mas descontentamento e nacionalismo nas repúblicas levaram à dissolução pacífica em 25/12/1991."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Guerra Fria durou de:",
+          "options": [
+            "1939-45",
+            "1947-91",
+            "1914-18",
+            "1950-75"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Muro de Berlim caiu em:",
+          "options": [
+            "1961",
+            "1989",
+            "1991",
+            "2001"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Crise dos Mísseis foi em:",
+          "options": [
+            "Coreia",
+            "Vietnã",
+            "Cuba",
+            "Berlim"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Apollo 11 levou homem à Lua em:",
+          "options": [
+            "1957",
+            "1961",
+            "1969",
+            "1972"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Descolonização da África e Ásia",
+      "slug": "descolonizacao-da-africa-e-asia",
+      "desc": "Descolonização (1945-75): independência de países africanos e asiáticos. Índia (Gandhi), guerras na Argélia e Indochina. Apartheid na África do Sul. Consequências.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Pós-2ª Guerra: enfraquecimento europeu + ONU (autodeterminação) + movimentos nacionalistas. Índia (1947): Gandhi, não-violência, partição Índia/Paquistão. Argélia (1962): guerra contra França. Indochina (1954): Vietnã, Laos, Camboja. África: anos 1960 (ano da África). Apartheid (África do Sul, 1948-94): segregação racial, Mandela. Consequências: neocolonialismo econômico, conflitos étnicos, subdesenvolvimento.",
+      "body": "<h2>Introdução</h2><p>A <strong>descolonização</strong> (1945-75) foi o processo de independência de países africanos e asiáticos dominados por potências europeias.</p><h2>Causas</h2><ul><li>Enfraquecimento europeu pós-2ª Guerra</li><li>ONU: princípio de autodeterminação dos povos</li><li>Movimentos nacionalistas locais</li><li>Guerra Fria: EUA e URSS apoiavam independências (por interesse)</li></ul><h2>Casos Importantes</h2><table><thead><tr><th>País/Região</th><th>Independência</th><th>Destaque</th></tr></thead><tbody><tr><td>Índia</td><td>1947</td><td>Gandhi, não-violência, partição</td></tr><tr><td>Argélia</td><td>1962</td><td>Guerra sangrenta contra França</td></tr><tr><td>Congo</td><td>1960</td><td>Lumumba assassinado</td></tr></tbody></table><h2>Apartheid (África do Sul, 1948-1994)</h2><ul><li>Segregação racial institucionalizada</li><li><strong>Nelson Mandela:</strong> 27 anos preso → 1º presidente negro (1994)</li></ul><h2>Resumo</h2><ul><li>✅ Gandhi: não-violência. Mandela: anti-apartheid.</li><li>⚠️ ENEM: neocolonialismo econômico persiste após independência</li></ul><h2>Curiosidade</h2><p>Gandhi liderou a <strong>Marcha do Sal</strong> (1930): caminhou 388km para protestar contra o monopólio britânico do sal. Um ato simples que mobilizou milhões!</p>",
+      "faq": [
+        {
+          "q": "O que foi o apartheid?",
+          "a": "Sistema de segregação racial na África do Sul (1948-94): brancos e negros separados em transporte, educação, moradia. Negros não votavam. Mandela lutou contra e foi preso 27 anos."
+        },
+        {
+          "q": "Gandhi era pacifista?",
+          "a": "Sim. Praticava a 'desobediência civil não-violenta': greves, boicotes, marchas pacíficas. Inspirou Martin Luther King e Mandela."
+        },
+        {
+          "q": "A descolonização resolveu os problemas?",
+          "a": "Parcialmente. Os países ficaram independentes, mas muitos enfrentam neocolonialismo econômico (dependência de ex-metrópoles), conflitos étnicos (fronteiras artificiais) e subdesenvolvimento."
+        },
+        {
+          "q": "O que é neocolonialismo?",
+          "a": "Dominação econômica e cultural sobre países formalmente independentes. Ex-metrópoles e multinacionais controlam recursos, comércio e dívida."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Gandhi usava:",
+          "options": [
+            "Violência armada",
+            "Não-violência",
+            "Guerrilha",
+            "Terrorismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O apartheid terminou em:",
+          "options": [
+            "1960",
+            "1975",
+            "1989",
+            "1994"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Mandela ficou preso:",
+          "options": [
+            "5 anos",
+            "10 anos",
+            "18 anos",
+            "27 anos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "1960 é chamado 'ano da':",
+          "options": [
+            "América",
+            "Europa",
+            "África",
+            "Ásia"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Brasil: República Velha (1889-1930)",
+      "slug": "brasil-republica-velha-1889-1930",
+      "desc": "República Velha (1889-1930): República da Espada, política do café com leite, coronelismo, voto de cabresto, Canudos, Cangaço, Tenentismo. Revolução de 1930.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "República da Espada (1889-94): Deodoro e Floriano. Constituição de 1891: federalismo, presidencialismo. República Oligárquica (1894-1930): política do café com leite (SP+MG), coronelismo, voto de cabresto, curral eleitoral. Movimentos: Canudos (1896-97, Antônio Conselheiro), Cangaço (Lampião), Tenentismo (1922-24, jovens militares). Revolução de 1930: Getúlio Vargas assume, fim da República Velha.",
+      "body": "<h2>Introdução</h2><p>A <strong>República Velha</strong> (1889-1930) foi dominada por oligarquias rurais. Também chamada de <strong>Primeira República</strong>.</p><h2>República da Espada (1889-94)</h2><ul><li><strong>Deodoro da Fonseca</strong> e <strong>Floriano Peixoto</strong>: militares</li><li>Constituição de 1891: federalismo, presidencialismo, Estado laico</li></ul><h2>República Oligárquica (1894-1930)</h2><ul><li><strong>Política do café com leite:</strong> São Paulo (café) e Minas Gerais (leite) se revezavam na presidência</li><li><strong>Coronelismo:</strong> poder local dos coronéis (fazendeiros)</li><li><strong>Voto de cabresto:</strong> eleitores controlados pelos coronéis</li></ul><h2>Movimentos Sociais</h2><ul><li><strong>Canudos (1896-97):</strong> comunidade religiosa no sertão (Antônio Conselheiro), massacrada pelo exército</li><li><strong>Cangaço:</strong> banditismo social (Lampião, Maria Bonita)</li><li><strong>Tenentismo (1922-24):</strong> jovens militares contra oligarquias (Coluna Prestes)</li></ul><h2>Revolução de 1930</h2><p>Washington Luís rompe o café com leite → oposição apoia <strong>Getúlio Vargas</strong> → golpe → fim da República Velha</p><h2>Resumo</h2><ul><li>✅ Café com leite + coronelismo = oligarquia</li><li>⚠️ ENEM: Canudos, cangaço, exclusão social</li></ul><h2>Curiosidade</h2><p><strong>Canudos</strong> resistiu a <strong>4 expedições militares</strong> antes de ser destruída. O exército usou canhões contra camponeses. Euclides da Cunha registrou tudo em <em>Os Sertões</em>.</p>",
+      "faq": [
+        {
+          "q": "O que era café com leite?",
+          "a": "Alternância na presidência entre políticos de São Paulo (café) e Minas Gerais (leite/gado). Dominaram de 1894 a 1930. Quando SP rompeu o acordo, veio a Revolução de 1930."
+        },
+        {
+          "q": "O que era voto de cabresto?",
+          "a": "Coronéis controlavam o voto dos eleitores rurais (analfabetos, dependentes). O voto não era secreto, facilitando a coerção."
+        },
+        {
+          "q": "Canudos era uma ameaça real?",
+          "a": "Não ao regime. Era uma comunidade religiosa de camponeses pobres liderada por Antônio Conselheiro. A República a destruiu por medo de 'monarquismo' e para afirmar seu poder."
+        },
+        {
+          "q": "O que foi o Tenentismo?",
+          "a": "Movimento de jovens oficiais militares contra as oligarquias (1920s). Revolta do Forte de Copacabana (1922), Coluna Prestes (1924-27). Influenciaram Vargas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Café com leite envolvia:",
+          "options": [
+            "RJ e BA",
+            "SP e MG",
+            "RS e PE",
+            "PR e SC"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Canudos foi liderado por:",
+          "options": [
+            "Lampião",
+            "Getúlio",
+            "Antônio Conselheiro",
+            "Luís Prestes"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Voto de cabresto significava:",
+          "options": [
+            "Voto secreto",
+            "Voto controlado",
+            "Voto feminino",
+            "Voto obrigatório"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A República Velha terminou com:",
+          "options": [
+            "Golpe de 1964",
+            "Revolução de 1930",
+            "Constituição de 1988",
+            "Lei Áurea"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Brasil: Era Vargas (1930-1945)",
+      "slug": "brasil-era-vargas-1930-1945",
+      "desc": "Era Vargas (1930-45): Governo Provisório, Constitucional (1934), Estado Novo (1937-45). CLT, voto feminino, industrialização, DIP, populismo.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "Governo Provisório (1930-34): centralizou poder, interventores. Constitucional (1934-37): Constituição progressista (voto feminino, CLT). Estado Novo (1937-45): ditadura, inspiração fascista, DIP (censura/propaganda), CLT (1943, leis trabalhistas), industrialização (CSN, Vale do Rio Doce). Populismo: 'pai dos pobres'. Deposição em 1945 (generais). Retorno em 1951-54 (suicídio).",
+      "body": "<h2>Introdução</h2><p><strong>Getúlio Vargas</strong> dominou a política brasileira por 15 anos (1930-45), alternando entre reformas progressistas e autoritarismo.</p><h2>Fases</h2><table><thead><tr><th>Fase</th><th>Período</th><th>Destaques</th></tr></thead><tbody><tr><td>Governo Provisório</td><td>1930-34</td><td>Interventores, centralização</td></tr><tr><td>Constitucional</td><td>1934-37</td><td>Constituição, voto feminino</td></tr><tr><td>Estado Novo</td><td>1937-45</td><td>Ditadura, CLT, industrialização</td></tr></tbody></table><h2>Estado Novo (1937-45)</h2><ul><li>Golpe com pretexto do \"Plano Cohen\" (forjado)</li><li><strong>DIP:</strong> propaganda e censura (inspiração fascista)</li><li><strong>CLT (1943):</strong> consolidação das leis trabalhistas (salário mínimo, férias, jornada de 8h)</li><li><strong>Industrialização:</strong> CSN (siderurgia), Vale do Rio Doce (mineração)</li></ul><h2>Populismo</h2><p>\"Pai dos pobres\" — concedia direitos trabalhistas em troca de apoio popular. Controlava sindicatos.</p><h2>Resumo</h2><ul><li>✅ CLT = maior legado. Estado Novo = ditadura com modernização.</li><li>⚠️ ENEM: populismo (concessão de direitos × controle social)</li></ul><h2>Curiosidade</h2><p>Vargas voltou ao poder em 1951 pelo voto popular. Pressionado por crise, suicidou-se em 1954 deixando uma <strong>carta-testamento:</strong> <em>\"Saio da vida para entrar na história\"</em>.</p>",
+      "faq": [
+        {
+          "q": "O que era populismo?",
+          "a": "Estilo político que busca apoio popular direto, concedendo benefícios (CLT) em troca de lealdade. Vargas controlava sindicatos e usava rádio para falar diretamente ao povo."
+        },
+        {
+          "q": "O que foi a CLT?",
+          "a": "Consolidação das Leis do Trabalho (1943): salário mínimo, jornada de 8h, férias, 13º, carteira de trabalho. Base dos direitos trabalhistas brasileiros até hoje."
+        },
+        {
+          "q": "O Estado Novo era fascista?",
+          "a": "Teve inspiração fascista: DIP (propaganda), partido único, censura, nacionalismo. Mas não era cópia: não tinha racismo biológico nem expansionismo militar."
+        },
+        {
+          "q": "Como Vargas morreu?",
+          "a": "Suicidou-se com um tiro em 24/8/1954. Deixou carta-testamento acusando forças 'internacionais' e 'nacionais'. 'Saio da vida para entrar na história.'"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A CLT é de:",
+          "options": [
+            "1930",
+            "1934",
+            "1943",
+            "1954"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Vargas é chamado de:",
+          "options": [
+            "Pai da pátria",
+            "Pai dos pobres",
+            "Rei do Brasil",
+            "O pacificador"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Estado Novo foi:",
+          "options": [
+            "Democracia",
+            "Ditadura",
+            "Monarquia",
+            "Anarquia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Vargas suicidou-se em:",
+          "options": [
+            "1945",
+            "1950",
+            "1954",
+            "1964"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Brasil: Democracia Populista (1945-1964)",
+      "slug": "brasil-democracia-populista-1945-1964",
+      "desc": "Democracia populista (1945-64): Dutra, Vargas (volta e suicídio), JK (50 anos em 5, Brasília), Jânio (renúncia), Jango (reformas de base). Golpe de 1964.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Dutra (1946-51): Constituição de 1946, alinhamento EUA. Vargas (1951-54): retorno pelo voto, Petrobras, suicídio. JK (1956-61): Plano de Metas, Brasília, '50 anos em 5', dívida. Jânio Quadros (1961): renúncia misteriosa. Jango (1961-64): reformas de base (agrária, urbana), acusado de comunismo → golpe militar (31/3/1964).",
+      "body": "<h2>Introdução</h2><p>O período 1945-1964 combinou <strong>democracia</strong> com <strong>populismo</strong>, industrialização acelerada e tensões da Guerra Fria no Brasil.</p><h2>Governos</h2><table><thead><tr><th>Presidente</th><th>Período</th><th>Destaque</th></tr></thead><tbody><tr><td>Dutra</td><td>1946-51</td><td>Constituição de 1946, alinhamento EUA</td></tr><tr><td>Vargas</td><td>1951-54</td><td>Petrobras (\"O petróleo é nosso!\"), suicídio</td></tr><tr><td>JK</td><td>1956-61</td><td>Brasília, Plano de Metas, '50 anos em 5'</td></tr><tr><td>Jânio</td><td>1961</td><td>Renúncia após 7 meses</td></tr><tr><td>Jango</td><td>1961-64</td><td>Reformas de base → golpe</td></tr></tbody></table><h2>JK e Brasília</h2><p>Construiu Brasília em <strong>3,5 anos</strong>. Trouxe indústrias (automóveis). Mas gerou inflação e dívida externa.</p><h2>Golpe de 1964</h2><p>Jango propôs reformas de base (agrária, tributária, educacional). Setores conservadores + militares + apoio dos EUA → <strong>golpe em 31/3/1964</strong>.</p><h2>Resumo</h2><ul><li>✅ JK: desenvolvimentismo. Vargas: nacionalismo econômico.</li><li>⚠️ ENEM: contexto do golpe de 64 (Guerra Fria + reformas de base)</li></ul><h2>Curiosidade</h2><p>Brasília foi construída no meio do nada em apenas <strong>3,5 anos</strong>! Os trabalhadores (\"candangos\") vieram de todo o Brasil, especialmente do Nordeste.</p>",
+      "faq": [
+        {
+          "q": "Por que Vargas criou a Petrobras?",
+          "a": "Campanha 'O petróleo é nosso!': monopólio estatal da exploração de petróleo. Simbolizava nacionalismo econômico contra empresas estrangeiras."
+        },
+        {
+          "q": "Por que Jânio renunciou?",
+          "a": "Mistério histórico. Alguns acham que queria um 'golpe branco' (voltar com mais poder, como De Gaulle). Mas o Congresso aceitou a renúncia e ele não voltou."
+        },
+        {
+          "q": "O que eram reformas de base?",
+          "a": "Reformas estruturais propostas por Jango: agrária (redistribuição de terras), tributária, educacional, urbana. Conservadores viram como ameaça comunista."
+        },
+        {
+          "q": "O golpe de 64 foi apoiado pelos EUA?",
+          "a": "Sim. EUA temiam que o Brasil se tornasse 'outra Cuba'. A operação Brother Sam preparou navios para intervir se necessário."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Brasília foi construída por:",
+          "options": [
+            "Vargas",
+            "JK",
+            "Jango",
+            "Dutra"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Petrobras foi criada por:",
+          "options": [
+            "JK",
+            "Jango",
+            "Vargas",
+            "Dutra"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O golpe de 1964 derrubou:",
+          "options": [
+            "JK",
+            "Jânio",
+            "Jango",
+            "Vargas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'50 anos em 5' é de:",
+          "options": [
+            "Vargas",
+            "JK",
+            "Jango",
+            "Lula"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Brasil: Ditadura Militar (1964-1985)",
+      "slug": "brasil-ditadura-militar-1964-1985",
+      "desc": "Ditadura militar (1964-85): AI-5 (1968), censura, tortura, milagre econômico, dívida externa. Abertura lenta (Geisel, Figueiredo). Diretas Já. Anistia.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "Golpe (31/3/1964): Castelo Branco. AI-5 (1968): plenos poderes ao presidente, censura total, tortura institucionalizada. 'Milagre econômico' (1969-73): crescimento + dívida + desigualdade. Presidentes: Castelo Branco, Costa e Silva, Médici ('anos de chumbo'), Geisel ('abertura lenta'), Figueiredo (anistia). Diretas Já (1984): maior manifestação popular, fracassou. Tancredo eleito indiretamente (1985), morre→Sarney governa.",
+      "body": "<h2>Introdução</h2><p>A <strong>Ditadura Militar</strong> (1964-1985) suprimiu liberdades, praticou tortura e censura, mas também promoveu crescimento econômico com endividamento.</p><h2>Atos Institucionais</h2><ul><li><strong>AI-1 (1964):</strong> cassou mandatos, suspendeu direitos</li><li><strong>AI-5 (1968):</strong> fechou Congresso, censurou imprensa, tortura institucional</li></ul><h2>Fases</h2><table><thead><tr><th>Fase</th><th>Período</th><th>Presidente</th></tr></thead><tbody><tr><td>Linha dura</td><td>1964-69</td><td>Castelo Branco, Costa e Silva</td></tr><tr><td>Anos de chumbo</td><td>1969-74</td><td>Médici (mais repressivo)</td></tr><tr><td>Abertura</td><td>1974-85</td><td>Geisel e Figueiredo</td></tr></tbody></table><h2>Milagre Econômico (1969-73)</h2><ul><li>Crescimento de 10-14% ao ano</li><li>Obras: Transamazônica, Itaipu, Ponte Rio-Niterói</li><li>Custo: dívida externa gigantesca + desigualdade</li></ul><h2>Abertura e Redemocratização</h2><ul><li>Geisel: abertura \"lenta, gradual e segura\"</li><li>Lei da Anistia (1979): perdoou crimes políticos (ambos os lados)</li><li><strong>Diretas Já (1984):</strong> milhões nas ruas pedindo eleição direta</li><li>Tancredo eleito indiretamente (1985), morre antes de assumir → Sarney</li></ul><h2>Resumo</h2><ul><li>✅ AI-5: pior momento. Milagre: crescimento + dívida.</li><li>⚠️ ENEM: repressão, censura, tortura, Diretas Já</li></ul><h2>Curiosidade</h2><p>A campanha <strong>Diretas Já</strong> (1984) reuniu mais de <strong>1 milhão de pessoas</strong> em São Paulo — uma das maiores manifestações da história do Brasil. Mesmo assim, a emenda foi rejeitada no Congresso.</p>",
+      "faq": [
+        {
+          "q": "O que foi o AI-5?",
+          "a": "Ato Institucional nº 5 (13/12/1968): deu poderes absolutos ao presidente. Fechou Congresso, censurou imprensa, suspendeu habeas corpus, institucionalizou a tortura."
+        },
+        {
+          "q": "O milagre econômico era real?",
+          "a": "O crescimento era real (10-14%/ano), mas à custa de dívida externa enorme e aumento da desigualdade. 'O bolo cresceu, mas poucos comeram.' (frase atribuída a Delfim Netto)."
+        },
+        {
+          "q": "O que foi a Lei da Anistia?",
+          "a": "Lei de 1979 que perdoou crimes políticos de ambos os lados (opositores E torturadores). Criticada porque impediu a punição de militares que praticaram tortura."
+        },
+        {
+          "q": "Por que Diretas Já fracassou?",
+          "a": "A emenda Dante de Oliveira (eleição direta para presidente) foi rejeitada no Congresso. Faltaram 22 votos. Tancredo foi eleito indiretamente pelo Colégio Eleitoral."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O AI-5 foi em:",
+          "options": [
+            "1964",
+            "1968",
+            "1974",
+            "1979"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Diretas Já foi em:",
+          "options": [
+            "1979",
+            "1984",
+            "1988",
+            "1989"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O milagre econômico gerou:",
+          "options": [
+            "Igualdade",
+            "Crescimento + dívida",
+            "Democracia",
+            "Reforma agrária"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A ditadura durou:",
+          "options": [
+            "10 anos",
+            "15 anos",
+            "21 anos",
+            "30 anos"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Brasil: Redemocratização (1988-Atual)",
+      "slug": "brasil-redemocratizacao-1988-atual",
+      "desc": "Redemocratização: Constituição de 1988 ('Cidadã'). Collor (impeachment, 1992), FHC (Plano Real, 1994), Lula (Bolsa Família), Dilma (impeachment, 2016). Democracia brasileira.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Constituição de 1988: 'Cidadã', direitos sociais, SUS, educação, voto aos 16 anos. Collor (1990-92): abertura econômica, confisco de poupanças, impeachment. FHC (1995-2002): Plano Real (estabilidade), privatizações. Lula (2003-10): Bolsa Família, redução da pobreza, escândalos (Mensalão). Dilma (2011-16): crise econômica, impeachment. Desafios: desigualdade, corrupção, polarização.",
+      "body": "<h2>Introdução</h2><p>A <strong>redemocratização</strong> brasileira consolidou-se com a <strong>Constituição de 1988</strong> e as eleições diretas de 1989 — as primeiras em 29 anos.</p><h2>Constituição de 1988</h2><ul><li>Chamada de <strong>\"Cidadã\"</strong> por Ulysses Guimarães</li><li>SUS, direitos trabalhistas, educação, meio ambiente</li><li>Voto aos 16 anos (facultativo)</li><li>Cláusulas pétreas: direitos fundamentais não podem ser abolidos</li></ul><h2>Presidentes</h2><table><thead><tr><th>Presidente</th><th>Período</th><th>Destaque</th></tr></thead><tbody><tr><td>Collor</td><td>1990-92</td><td>Confisco de poupanças, impeachment</td></tr><tr><td>FHC</td><td>1995-02</td><td>Plano Real, privatizações</td></tr><tr><td>Lula</td><td>2003-10</td><td>Bolsa Família, inclusão social</td></tr><tr><td>Dilma</td><td>2011-16</td><td>Crise econômica, impeachment</td></tr></tbody></table><h2>Plano Real (1994)</h2><p>Fim da hiperinflação (~5.000%/ano → estabilidade). Criação do Real. Fernando Henrique Cardoso.</p><h2>Resumo</h2><ul><li>✅ Constituição de 1988 = base da democracia atual</li><li>✅ Plano Real = estabilidade econômica</li><li>⚠️ ENEM: desigualdade, inclusão social, desafios da democracia</li></ul><h2>Curiosidade</h2><p>Antes do Real, o Brasil teve <strong>9 moedas diferentes</strong> em 50 anos: Cruzeiro, Cruzeiro Novo, Cruzado, Cruzado Novo, Cruzeiro (de novo!), Cruzeiro Real... até o Real estabilizar tudo!</p>",
+      "faq": [
+        {
+          "q": "Por que a Constituição é chamada 'Cidadã'?",
+          "a": "Porque garantiu amplos direitos sociais (SUS, educação, previdência, direitos trabalhistas). Ulysses Guimarães a batizou assim na promulgação."
+        },
+        {
+          "q": "O que foi o Plano Real?",
+          "a": "Plano econômico de 1994 que criou o Real e acabou com a hiperinflação (~5.000%/ano). Usou URV (indexador), controle fiscal e âncora cambial."
+        },
+        {
+          "q": "O que é impeachment?",
+          "a": "Processo de destituição do presidente por crime de responsabilidade. Collor (1992) e Dilma (2016) sofreram impeachment. O processo é conduzido pelo Congresso."
+        },
+        {
+          "q": "O que foi o Bolsa Família?",
+          "a": "Programa de transferência de renda de Lula (2003): famílias pobres recebem valor mensal condicionado a manter filhos na escola e vacinados. Reduziu extrema pobreza."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Constituição 'Cidadã' é de:",
+          "options": [
+            "1946",
+            "1967",
+            "1988",
+            "2003"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Plano Real é de:",
+          "options": [
+            "1988",
+            "1990",
+            "1994",
+            "2003"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Collor sofreu:",
+          "options": [
+            "Reeleição",
+            "Impeachment",
+            "Golpe",
+            "Renúncia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O SUS foi criado pela Constituição de:",
+          "options": [
+            "1946",
+            "1967",
+            "1988",
+            "2003"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Nova Ordem Mundial e Globalização",
+      "slug": "nova-ordem-mundial-e-globalizacao",
+      "desc": "Nova Ordem Mundial: fim da bipolaridade, unipolaridade (EUA), multipolaridade. Globalização, blocos econômicos (UE, Mercosul). 11 de setembro, terrorismo, desafios do séc. XXI.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Pós-Guerra Fria: unipolaridade (EUA hegemônico) → multipolaridade (UE, China, Rússia). Globalização: integração econômica, cultural e tecnológica. Blocos: UE, NAFTA, Mercosul, BRICS. 11/9/2001: terrorismo (Al-Qaeda, bin Laden) → 'Guerra ao Terror'. Desafios do séc. XXI: mudança climática, migração, desigualdade global, pandemia, tecnologia, fake news.",
+      "body": "<h2>Introdução</h2><p>Após a queda da URSS (1991), o mundo entrou em uma <strong>nova ordem</strong>: da bipolaridade para a <strong>globalização</strong> e novos desafios.</p><h2>Nova Ordem Mundial</h2><ul><li><strong>Unipolaridade (1991-2000s):</strong> EUA como superpotência única</li><li><strong>Multipolaridade:</strong> ascensão de China, UE, Rússia, BRICS</li></ul><h2>Globalização</h2><ul><li>Integração econômica, cultural e tecnológica</li><li><strong>Blocos econômicos:</strong> UE, Mercosul, NAFTA</li><li>Internet: acelerador da globalização</li><li>Críticas: desigualdade entre países, perda de identidade cultural, exploração</li></ul><h2>11 de Setembro (2001)</h2><ul><li>Ataques da Al-Qaeda (bin Laden) nos EUA</li><li><strong>\"Guerra ao Terror\":</strong> Afeganistão (2001), Iraque (2003)</li></ul><h2>Desafios do Séc. XXI</h2><ul><li>Mudanças climáticas, migração, desigualdade</li><li>Pandemias (COVID-19), fake news, polarização</li><li>Inteligência artificial, automação</li></ul><h2>Resumo</h2><ul><li>✅ Globalização: integração + desigualdade</li><li>⚠️ ENEM: blocos econômicos, migração, meio ambiente</li></ul><h2>Curiosidade</h2><p>Em 2020, a <strong>pandemia de COVID-19</strong> mostrou como o mundo globalizado é vulnerável: um vírus surgido na China afetou todos os países em semanas!</p>",
+      "faq": [
+        {
+          "q": "O que é globalização?",
+          "a": "Processo de integração econômica, cultural e tecnológica entre países. Facilitada por internet, transportes e blocos econômicos. Tem benefícios (comércio, tecnologia) e críticas (desigualdade, exploração)."
+        },
+        {
+          "q": "O que mudou após o 11 de setembro?",
+          "a": "EUA declararam 'Guerra ao Terror', invadiram Afeganistão (2001) e Iraque (2003). Segurança aeroportuária mudou drasticamente. Islamofobia aumentou."
+        },
+        {
+          "q": "O que é o Mercosul?",
+          "a": "Bloco econômico da América do Sul (1991): Brasil, Argentina, Paraguai, Uruguai. Objetiva livre circulação de bens e serviços entre os membros."
+        },
+        {
+          "q": "O mundo é unipolar ou multipolar?",
+          "a": "Debate atual. Após 1991 foi unipolar (EUA). Hoje tende à multipolaridade: China crescente, UE integrada, Rússia assertiva, BRICS. EUA ainda líderes, mas não hegemônicos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A URSS acabou em:",
+          "options": [
+            "1989",
+            "1991",
+            "2001",
+            "2008"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Mercosul foi criado em:",
+          "options": [
+            "1985",
+            "1991",
+            "1994",
+            "2003"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "11/9/2001 foi ataque da:",
+          "options": [
+            "URSS",
+            "Al-Qaeda",
+            "Hamas",
+            "IRA"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "BRICS inclui:",
+          "options": [
+            "Brasil, Rússia, Índia, China",
+            "EUA, UK, França",
+            "Japão, Coreia, China",
+            "Alemanha, Itália, Espanha"
+          ],
+          "answer": 0
+        }
+      ]
+    }
+  ]
+}

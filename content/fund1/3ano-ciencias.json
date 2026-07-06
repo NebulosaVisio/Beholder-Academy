@@ -1,0 +1,69 @@
+{
+  "subject": "Ciências",
+  "slug": "3ano-ciencias",
+  "level": "Fundamental 1",
+  "grade": "3º Ano",
+  "color": "var(--ciencias)",
+  "articles": [
+    {
+      "title": "Animais Vertebrados e Invertebrados",
+      "slug": "vertebrados-invertebrados",
+      "desc": "Os que têm ossos e os que não têm.",
+      "category": "Vida e Evolução",
+      "difficulty": "Nível 3",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Vertebrados: possuem coluna vertebral e ossos (cachorro, peixe, pássaro, humanos). Invertebrados: não possuem ossos/coluna (insetos, minhocas, águas-vivas).",
+      "body": "<p>A natureza é cheia de animais diferentes, mas podemos dividi-los em dois grandes grupos: os que têm ossos e os que não têm.</p><p>Os <strong>Vertebrados</strong> são animais que possuem uma coluna vertebral (um esqueleto por dentro do corpo) que os ajuda a se sustentar. Nós, humanos, somos vertebrados! Peixes, sapos, cobras, aves e cachorros também são.</p><p>Já os <strong>Invertebrados</strong> não têm ossos nem coluna vertebral. Alguns têm o corpo mole, como a minhoca e a água-viva, e outros têm uma 'casca' dura por fora, como as formigas, aranhas e caranguejos. A maioria dos animais do nosso planeta são invertebrados!</p>",
+      "faq": [
+        {"q":"A aranha é um vertebrado?","a":"Não! Aranhas, formigas e besouros são invertebrados."},
+        {"q":"Tubarão tem osso?","a":"O tubarão é um vertebrado, mas seu esqueleto é feito de cartilagem (o mesmo material da sua orelha), não de osso duro!"}
+      ]
+    },
+    {
+      "title": "Luz e Som",
+      "slug": "luz-e-som",
+      "desc": "Como enxergamos e escutamos o mundo.",
+      "category": "Matéria e Energia",
+      "difficulty": "Nível 3",
+      "reading_time": "4",
+      "xp": "75",
+      "essential": "Luz: energia que nos faz enxergar. Fontes naturais (Sol) e artificiais (lâmpada). Som: vibrações que viajam pelo ar e entram no nosso ouvido.",
+      "body": "<p>Sem a <strong>Luz</strong>, o mundo seria completamente escuro. A luz viaja em linha reta muito rápido. Temos fontes naturais de luz (como o Sol e o fogo) e fontes artificiais (como a tela do seu celular e a lâmpada).</p><p>Quando a luz bate em um objeto e não consegue atravessá-lo, ela cria uma <strong>sombra</strong> do outro lado.</p><p>E o <strong>Som</strong>? O som é feito de vibrações. Quando você bate palmas, o ar começa a tremer de um jeito invisível. Essas 'ondas' viajam pelo ar até chegarem nas suas orelhas, onde o seu cérebro entende que é um barulho. Tanto a luz quanto o som são formas de energia!</p>",
+      "faq": [
+        {"q":"A luz passa pelo vidro?","a":"Sim! Dizemos que o vidro é um material transparente. Se não passa, é opaco."},
+        {"q":"O som funciona no espaço (fora da Terra)?","a":"Não! No espaço não tem ar. Como o som precisa do ar para vibrar e viajar, o espaço é completamente silencioso."}
+      ]
+    },
+    {
+      "title": "O que é o Solo?",
+      "slug": "o-que-e-solo",
+      "desc": "O chão que pisamos e onde plantamos.",
+      "category": "Terra e Universo",
+      "difficulty": "Nível 3",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "Solo é a camada de cima da Terra. É feito de pedacinhos de rocha, água, ar e restos de plantas e animais (matéria orgânica).",
+      "body": "<p>O chão onde construímos nossas casas e plantamos nossa comida se chama <strong>solo</strong> (ou terra). Ele parece simples, mas demora milhares de anos para se formar!</p><p>O solo é feito de pedacinhos de rochas que foram quebrando com a chuva e o vento ao longo de muito tempo. Ele também mistura ar, água e <strong>matéria orgânica</strong> (restinhos de folhas mortas, insetos e cocô de animais), que funciona como um super adubo.</p><p>Existem solos mais arenosos (parecidos com areia de praia, deixam a água passar rápido) e solos mais argilosos (como o barro, que segura mais a água). Um bom solo para plantar precisa ter de tudo um pouco!</p>",
+      "faq": [
+        {"q":"Por que as minhocas são boas para o solo?","a":"Elas comem folhas mortas e seu cocô aduba a terra. Além disso, os túneis que elas cavam deixam o ar e a água entrarem!"},
+        {"q":"Dá para plantar em qualquer solo?","a":"Não, na areia pura da praia a água seca muito rápido e não tem nutrientes suficientes para a maioria das plantas crescer."}
+      ]
+    },
+    {
+      "title": "O Planeta Terra",
+      "slug": "planeta-terra",
+      "desc": "Nossa casa no espaço sideral.",
+      "category": "Terra e Universo",
+      "difficulty": "Nível 3",
+      "reading_time": "3",
+      "xp": "50",
+      "essential": "A Terra tem formato de esfera. É o único planeta conhecido com água líquida e vida. Gira em torno de si mesma e do Sol.",
+      "body": "<p>Nós moramos em um pálido ponto azul no espaço: o <strong>Planeta Terra</strong>. Ele tem o formato de uma esfera, mas não é uma bola perfeita (é um pouco 'achatado' em cima e embaixo).</p><p>A Terra é muito especial. Até onde sabemos, é o único planeta do Universo inteiro que tem vida! Isso só é possível porque temos muito oxigênio para respirar e <strong>água líquida</strong> nos oceanos.</p><p>Nosso planeta nunca está parado. Ele gira como um peão no espaço (o que cria o Dia e a Noite) e também viaja dando uma volta enorme ao redor da estrela que nos aquece: o <strong>Sol</strong>.</p>",
+      "faq": [
+        {"q":"A Terra é maior que o Sol?","a":"O Sol é muito, muito maior que a Terra! Ele cabe mais de 1 milhão de Terras dentro dele."},
+        {"q":"A Terra é toda coberta por terra firme?","a":"Não! A maior parte do planeta (quase 70%) é coberta pela água dos oceanos e mares."}
+      ]
+    }
+  ]
+}

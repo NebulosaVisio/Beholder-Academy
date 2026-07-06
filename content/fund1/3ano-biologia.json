@@ -1,0 +1,874 @@
+{
+  "subject": "Biologia",
+  "slug": "3ano-biologia",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--biologia)",
+  "icon": "dna",
+  "articles": [
+    {
+      "title": "Ecologia: Conceitos Fundamentais",
+      "slug": "ecologia-conceitos-fundamentais",
+      "desc": "Ecologia: população, comunidade, ecossistema, biosfera. Nicho ecológico vs habitat. Cadeia e teia alimentar. Produtores, consumidores, decompositores. Pirâmides ecológicas.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Níveis: organismo→população→comunidade→ecossistema→biosfera. Habitat: onde vive. Nicho: 'profissão' (como vive, o que come, quando). Cadeia alimentar: produtor→consumidor1º→2º→3º→decompositor. Teia: várias cadeias interligadas. Pirâmides: número, biomassa, energia (sempre direta). Regra dos 10%: só ~10% da energia passa de um nível ao próximo.",
+      "body": "<h2>Introdução</h2><p>A <strong>Ecologia</strong> estuda as relações entre os seres vivos e o ambiente. É fundamental para entender impactos ambientais.</p><h2>Níveis de Organização</h2><p><strong>Organismo → População → Comunidade → Ecossistema → Biosfera</strong></p><h2>Habitat × Nicho</h2><ul><li><strong>Habitat:</strong> 'endereço' (onde vive)</li><li><strong>Nicho ecológico:</strong> 'profissão' (o que come, quando ativa, como reproduz)</li></ul><h2>Cadeia Alimentar</h2><p><strong>Produtor → Consumidor 1º → 2º → 3º → Decompositor</strong></p><ul><li><strong>Produtores:</strong> autótrofos (plantas, algas)</li><li><strong>Consumidores:</strong> heterótrofos (herbívoros, carnívoros, onívoros)</li><li><strong>Decompositores:</strong> fungos e bactérias (reciclam matéria)</li></ul><h2>Pirâmides Ecológicas</h2><ul><li><strong>Energia:</strong> sempre direta (↓ a cada nível, regra dos 10%)</li><li><strong>Biomassa:</strong> geralmente direta (pode ser invertida em ambientes aquáticos)</li><li><strong>Número:</strong> pode ser invertida (ex: 1 árvore sustenta muitos insetos)</li></ul><h2>Resumo</h2><ul><li>✅ Pirâmide de energia = sempre direta (10%)</li><li>⚠️ ENEM: nicho, teias alimentares, bioacumulação</li></ul><h2>Curiosidade</h2><p>Pela <strong>regra dos 10%</strong>, para produzir 1kg de boi são necessários ~10kg de capim. Para 1kg de onça, ~100kg de capim. Por isso predadores de topo são raros!</p>",
+      "faq": [
+        {
+          "q": "Nicho é o mesmo que habitat?",
+          "a": "Não! Habitat = onde vive ('endereço'). Nicho = como vive ('profissão'): alimentação, horário, reprodução, interações. Duas espécies podem ter mesmo habitat mas nichos diferentes."
+        },
+        {
+          "q": "Por que pirâmide de energia nunca inverte?",
+          "a": "Porque energia é perdida como calor (2ª lei da termodinâmica) a cada nível. Só ~10% passa adiante. É impossível um nível ter mais energia que o anterior."
+        },
+        {
+          "q": "O que é bioacumulação?",
+          "a": "Substâncias tóxicas (mercúrio, DDT) acumulam-se nos organismos e concentram-se nos níveis superiores da cadeia. Predadores de topo são mais afetados."
+        },
+        {
+          "q": "Decompositores são importantes?",
+          "a": "Essenciais! Reciclam matéria orgânica, devolvendo nutrientes ao solo. Sem eles, cadáveres e restos acumulariam e os nutrientes ficariam 'presos'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Pirâmide de energia é:",
+          "options": [
+            "Sempre invertida",
+            "Sempre direta",
+            "Variável",
+            "Circular"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Nicho ecológico é:",
+          "options": [
+            "Onde vive",
+            "Como vive",
+            "O que come apenas",
+            "Seu predador"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Regra dos 10%: cada nível recebe:",
+          "options": [
+            "50%",
+            "25%",
+            "10%",
+            "1%"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Decompositores são:",
+          "options": [
+            "Plantas",
+            "Fungos e bactérias",
+            "Animais",
+            "Vírus"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Fluxo de Energia e Ciclos Biogeoquímicos",
+      "slug": "fluxo-de-energia-e-ciclos-biogeoquimicos",
+      "desc": "Fluxo de energia: unidirecional (sol→produtores→consumidores→calor). Ciclos biogeoquímicos: carbono, nitrogênio, água, oxigênio, fósforo. Efeito estufa e aquecimento global.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Energia: unidirecional (sol→produtores→consumidores→calor). Matéria: cíclica (reciclada). Ciclo do carbono: fotossíntese fixa CO₂, respiração/decomposição libera. Combustíveis fósseis → efeito estufa. Ciclo do nitrogênio: N₂→amônia (fixação por bactérias)→nitritos→nitratos→absorção. Ciclo da água: evaporação→condensação→precipitação. Efeito estufa: natural (bom), mas intensificado → aquecimento global.",
+      "body": "<h2>Introdução</h2><p>A <strong>energia flui</strong> (unidirecional) e a <strong>matéria cicla</strong> nos ecossistemas.</p><h2>Fluxo de Energia</h2><p>Sol → Produtores → Consumidores → Calor (perdido). Unidirecional, não reciclável.</p><h2>Ciclos Biogeoquímicos</h2><table><thead><tr><th>Ciclo</th><th>Processos-chave</th></tr></thead><tbody><tr><td>Carbono</td><td>Fotossíntese (fixa), respiração (libera), combustão</td></tr><tr><td>Nitrogênio</td><td>Fixação (bactérias), nitrificação, desnitrificação</td></tr><tr><td>Água</td><td>Evaporação, condensação, precipitação</td></tr><tr><td>Fósforo</td><td>Rochas→solo→seres vivos→decomposição (sem fase gasosa)</td></tr></tbody></table><h2>Efeito Estufa e Aquecimento</h2><ul><li>Efeito estufa natural: CO₂, CH₄, vapor d'água retêm calor → bom (sem ele, Terra seria -18°C)</li><li>Problema: intensificação por combustíveis fósseis → aquecimento global</li></ul><h2>Resumo</h2><ul><li>✅ Energia: unidirecional. Matéria: cíclica.</li><li>⚠️ ENEM: carbono (combustíveis), nitrogênio (bactérias fixadoras)</li></ul><h2>Curiosidade</h2><p>Sem o efeito estufa natural, a temperatura média da Terra seria <strong>-18°C</strong> em vez de 15°C. O problema não é o efeito estufa em si, mas seu <strong>intensificação</strong>!</p>",
+      "faq": [
+        {
+          "q": "Energia é reciclada?",
+          "a": "Não! Energia flui unidirecionalmente: sol→produtores→consumidores→calor (dissipado). Não volta. Por isso ecossistemas precisam do sol constantemente."
+        },
+        {
+          "q": "Quem fixa nitrogênio?",
+          "a": "Bactérias fixadoras (Rhizobium em leguminosas, cianobactérias). Transformam N₂ atmosférico em amônia (NH₃), que as plantas podem usar."
+        },
+        {
+          "q": "Fósforo tem fase gasosa?",
+          "a": "Não! É o único ciclo sem fase gasosa significativa. Vai de rochas→solo→seres vivos→decomposição→solo. Por isso o fósforo é nutriente limitante."
+        },
+        {
+          "q": "Aquecimento global é natural?",
+          "a": "O efeito estufa é natural. Mas o AQUECIMENTO ATUAL é intensificado por ação humana (queima de combustíveis fósseis, desmatamento). CO₂ atmosférico subiu ~50% desde a Rev. Industrial."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Energia nos ecossistemas é:",
+          "options": [
+            "Cíclica",
+            "Unidirecional",
+            "Reciclada",
+            "Estática"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fixação de N₂ é feita por:",
+          "options": [
+            "Plantas",
+            "Bactérias",
+            "Fungos",
+            "Animais"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fósforo NÃO tem fase:",
+          "options": [
+            "Sólida",
+            "Líquida",
+            "Gasosa",
+            "Biológica"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "CO₂ é fixado pela:",
+          "options": [
+            "Respiração",
+            "Fotossíntese",
+            "Combustão",
+            "Decomposição"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Relações Ecológicas",
+      "slug": "relacoes-ecologicas",
+      "desc": "Relações ecológicas: harmônicas (mutualismo, comensalismo, protocooperação, colônia) e desarmônicas (predação, parasitismo, competição, amensalismo). Intra e interespecíficas.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Intraespecíficas: colônia (+/+), sociedade (+/+), competição intraesp. (-/-), canibalismo (+/-). Interespecíficas harmônicas: mutualismo (+/+ obrigatório: líquen=alga+fungo), protocooperação (+/+ facultativo: crocodilo+pássaro-palito), comensalismo (+/0: rêmora+tubarão). Interesp. desarmônicas: predação (+/-), parasitismo (+/-), competição interesp. (-/-), amensalismo (-/0: eucalipto inibe outras).",
+      "body": "<h2>Introdução</h2><p>As <strong>relações ecológicas</strong> descrevem como os seres vivos interagem entre si: para benefício, prejuízo ou neutro.</p><h2>Relações Interespecíficas</h2><table><thead><tr><th>Relação</th><th>Tipo</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>Mutualismo</strong> (+/+)</td><td>Harmônica obrigatória</td><td>Líquen (alga+fungo)</td></tr><tr><td><strong>Protocooperação</strong> (+/+)</td><td>Harmônica facultativa</td><td>Pássaro-palito + crocodilo</td></tr><tr><td><strong>Comensalismo</strong> (+/0)</td><td>Harmônica</td><td>Rêmora + tubarão</td></tr><tr><td><strong>Predação</strong> (+/−)</td><td>Desarmônica</td><td>Leão + zebra</td></tr><tr><td><strong>Parasitismo</strong> (+/−)</td><td>Desarmônica</td><td>Lombriga + humano</td></tr><tr><td><strong>Competição</strong> (−/−)</td><td>Desarmônica</td><td>2 espécies pelo mesmo recurso</td></tr><tr><td><strong>Amensalismo</strong> (−/0)</td><td>Desarmônica</td><td>Eucalipto inibe ervas</td></tr></tbody></table><h2>Intraespecíficas</h2><ul><li><strong>Colônia (+/+):</strong> caravela-portuguesa</li><li><strong>Sociedade (+/+):</strong> abelhas, formigas</li><li><strong>Competição (−/−):</strong> machos disputando fêmea</li></ul><h2>Resumo</h2><ul><li>✅ Mutualismo=obrigatório, Protocooperação=facultativo</li><li>⚠️ ENEM: classificar relações como +/+, +/0, +/−, −/−, −/0</li></ul><h2>Curiosidade</h2><p>A <strong>rêmora</strong> (peixe-ventosa) gruda no tubarão para pegar restos de comida. O tubarão não ganha nem perde nada → <strong>comensalismo</strong> (+/0)!</p>",
+      "faq": [
+        {
+          "q": "Mutualismo e protocooperação: qual a diferença?",
+          "a": "Mutualismo: obrigatório (um não sobrevive sem o outro, ex: líquen). Protocooperação: facultativo (ambos se beneficiam, mas vivem bem separados, ex: pássaro-palito)."
+        },
+        {
+          "q": "Competição interespecífica: o que acontece?",
+          "a": "Duas espécies disputam o mesmo recurso. Princípio de Gause: duas espécies com mesmo nicho não coexistem → uma é excluída (exclusão competitiva)."
+        },
+        {
+          "q": "Parasitismo mata o hospedeiro?",
+          "a": "Geralmente não (diferente da predação). Parasita 'eficiente' mantém o hospedeiro vivo para continuar se beneficiando. Matar = perder a casa."
+        },
+        {
+          "q": "O que é amensalismo?",
+          "a": "Uma espécie prejudica outra sem ser afetada (−/0). Exemplo: eucalipto libera substâncias que impedem crescimento de outras plantas ao redor (alelopatia)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Líquen é exemplo de:",
+          "options": [
+            "Predação",
+            "Mutualismo",
+            "Comensalismo",
+            "Parasitismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Rêmora+tubarão:",
+          "options": [
+            "Mutualismo",
+            "Parasitismo",
+            "Comensalismo",
+            "Predação"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Competição é:",
+          "options": [
+            "+/+",
+            "−/−",
+            "+/−",
+            "−/0"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Amensalismo:",
+          "options": [
+            "+/+",
+            "+/0",
+            "−/0",
+            "−/−"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Sucessão Ecológica",
+      "slug": "sucessao-ecologica",
+      "desc": "Sucessão ecológica: colonização de ambiente. Primária (rocha nua) e secundária (área degradada). Espécies pioneiras → intermediárias → clímax. Biodiversidade aumenta.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Sucessão ecológica: mudança gradual da comunidade ao longo do tempo. Primária: ambiente sem vida anterior (rocha nua, lava). Secundária: ambiente com solo/sementes (área desmatada, abandonada). Sequência: pioneiras (líquens, musgos) → herbáceas → arbustos → árvores (clímax). Clímax: comunidade estável, máxima biodiversidade. Biodiversidade, biomassa e complexidade aumentam ao longo da sucessão.",
+      "body": "<h2>Introdução</h2><p><strong>Sucessão ecológica</strong> é o processo gradual de mudança na composição de espécies de uma comunidade ao longo do tempo.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Início</th><th>Exemplo</th></tr></thead><tbody><tr><td>Primária</td><td>Sem vida anterior</td><td>Rocha nua, ilha vulcânica</td></tr><tr><td>Secundária</td><td>Com solo/sementes</td><td>Área desmatada, campo abandonado</td></tr></tbody></table><h2>Etapas</h2><ul><li><strong>Pioneiras:</strong> líquens, musgos, gramíneas (toleram condições adversas)</li><li><strong>Intermediárias:</strong> arbustos, árvores pequenas</li><li><strong>Clímax:</strong> comunidade estável, máxima biodiversidade e biomassa</li></ul><h2>Tendências</h2><ul><li>↑ Biodiversidade, biomassa, complexidade</li><li>↓ Produtividade líquida (comunidade clímax: produção≈consumo)</li></ul><h2>Resumo</h2><ul><li>✅ Primária=sem solo, Secundária=com solo</li><li>⚠️ ENEM: diferença 1ª vs 2ª, conceito de clímax</li></ul><h2>Curiosidade</h2><p>A ilha de <strong>Surtsey</strong> (Islândia), formada por erupção vulcânica em 1963, é um laboratório natural de sucessão primária: cientistas acompanham a colonização há 60 anos!</p>",
+      "faq": [
+        {
+          "q": "Clímax muda?",
+          "a": "Clímax é relativamente estável, mas não imutável. Perturbações (fogo, tempestade) podem reiniciar a sucessão. O conceito moderno vê clímax como dinâmico."
+        },
+        {
+          "q": "Por que sucessão secundária é mais rápida?",
+          "a": "Porque já existe solo, banco de sementes, microrganismos e nutrientes. Na primária, tudo começa do zero (rocha→solo→vida)."
+        },
+        {
+          "q": "O que são espécies pioneiras?",
+          "a": "As primeiras a colonizar um ambiente: líquens (em rocha), musgos, gramíneas. Toleram sol forte, pouca água, solo pobre. Preparam o terreno para as próximas."
+        },
+        {
+          "q": "Produtividade cai no clímax?",
+          "a": "Produtividade LÍQUIDA (PB−Respiração) diminui porque a respiração da comunidade aumenta. A produtividade bruta pode ser alta, mas quase tudo é consumido."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Sucessão primária começa em:",
+          "options": [
+            "Solo fértil",
+            "Rocha nua",
+            "Floresta",
+            "Lago"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "No clímax, biodiversidade é:",
+          "options": [
+            "Mínima",
+            "Intermediária",
+            "Máxima",
+            "Zero"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Espécies pioneiras são:",
+          "options": [
+            "Árvores grandes",
+            "Líquens e musgos",
+            "Mamíferos",
+            "Peixes"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sucessão secundária é:",
+          "options": [
+            "Mais lenta",
+            "Mais rápida",
+            "Igual",
+            "Impossível"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Biomas Brasileiros e Mundiais",
+      "slug": "biomas-brasileiros-e-mundiais",
+      "desc": "Biomas brasileiros: Amazônia, Cerrado, Mata Atlântica, Caatinga, Pampa, Pantanal. Mundiais: tundra, taiga, floresta temperada, tropical, savana, deserto.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "Biomas brasileiros: Amazônia (maior floresta tropical, biodiversidade), Cerrado (savana brasileira, hotspot), Mata Atlântica (~7% restante, hotspot), Caatinga (semiárido, endêmica), Pampa (campos sulinos), Pantanal (maior planície alagável). Mundiais: tundra (frio extremo, permafrost), taiga (coníferas, maior bioma terrestre), floresta temperada (4 estações), tropical (biodiversidade máxima), savana, deserto.",
+      "body": "<h2>Introdução</h2><p><strong>Biomas</strong> são grandes ecossistemas terrestres com vegetação e clima característicos.</p><h2>Biomas Brasileiros</h2><table><thead><tr><th>Bioma</th><th>Área (%)</th><th>Destaque</th></tr></thead><tbody><tr><td><strong>Amazônia</strong></td><td>49%</td><td>Maior floresta tropical, 'pulmão'</td></tr><tr><td><strong>Cerrado</strong></td><td>24%</td><td>Savana, hotspot, berço das águas</td></tr><tr><td><strong>Mata Atlântica</strong></td><td>13%</td><td>~7% restante, hotspot de biodiversidade</td></tr><tr><td><strong>Caatinga</strong></td><td>10%</td><td>Semiárido, endêmica, plantas xerófitas</td></tr><tr><td><strong>Pampa</strong></td><td>2%</td><td>Campos sulinos, pecuária</td></tr><tr><td><strong>Pantanal</strong></td><td>2%</td><td>Maior planície alagável do mundo</td></tr></tbody></table><h2>Biomas Mundiais</h2><ul><li><strong>Tundra:</strong> frio extremo, permafrost, musgos e líquens</li><li><strong>Taiga:</strong> coníferas, maior bioma terrestre, inverno longo</li><li><strong>Floresta temperada:</strong> 4 estações, folhas caducifólias</li><li><strong>Deserto:</strong> < 250mm chuva/ano, grandes variações térmicas</li></ul><h2>Resumo</h2><ul><li>✅ Cerrado e Mata Atlântica = hotspots (alta biodiversidade + ameaçados)</li><li>⚠️ ENEM: desmatamento, biomas ameaçados, cerrado como 'berço das águas'</li></ul><h2>Curiosidade</h2><p>O <strong>Cerrado</strong> é chamado de 'berço das águas' porque abriga nascentes de 8 das 12 grandes bacias hidrográficas brasileiras (Amazônica, Tocantins, São Francisco, Paraná...)!</p>",
+      "faq": [
+        {
+          "q": "Amazônia é o pulmão do mundo?",
+          "a": "Mito popular. A Amazônia consome quase todo O₂ que produz (fotossíntese≈respiração). O principal produtor de O₂ são as algas marinhas. Mas a Amazônia é crucial para o ciclo da água e biodiversidade."
+        },
+        {
+          "q": "O que é hotspot?",
+          "a": "Área com alta biodiversidade que perdeu >70% da vegetação original. Brasil tem 2: Cerrado e Mata Atlântica. São prioridade para conservação."
+        },
+        {
+          "q": "Caatinga só tem seca?",
+          "a": "Não! Na estação chuvosa, a caatinga 'floresce'. Plantas xerófitas (cactos, mandacarus) armazenam água. É o único bioma exclusivamente brasileiro."
+        },
+        {
+          "q": "Pantanal é bioma ou ecossistema?",
+          "a": "É oficialmente bioma pelo IBGE. É a maior planície alagável do mundo (~150.000 km²), com cheia (inundação) e seca sazonais. Rica fauna: tuiuiú, onça-pintada, jacaré."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Maior bioma brasileiro:",
+          "options": [
+            "Cerrado",
+            "Amazônia",
+            "Mata Atlântica",
+            "Pantanal"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Hotspots brasileiros:",
+          "options": [
+            "Amazônia e Pantanal",
+            "Cerrado e Mata Atlântica",
+            "Caatinga e Pampa",
+            "Todos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Bioma exclusivamente brasileiro:",
+          "options": [
+            "Amazônia",
+            "Cerrado",
+            "Caatinga",
+            "Pantanal"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Maior bioma terrestre do mundo:",
+          "options": [
+            "Tundra",
+            "Taiga",
+            "Deserto",
+            "Floresta tropical"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Poluição e Impactos Ambientais",
+      "slug": "poluicao-e-impactos-ambientais",
+      "desc": "Impactos ambientais: desmatamento, poluição (ar, água, solo), efeito estufa, camada de ozônio, chuva ácida, eutrofização, lixo. Desenvolvimento sustentável.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Poluição do ar: CO₂ (estufa), CFC (ozônio), SO₂/NOₓ (chuva ácida), material particulado. Poluição da água: esgoto, eutrofização (excesso nutrientes→algas→morte), metais pesados, agrotóxicos. Solo: lixo, agrotóxicos, erosão. Camada de ozônio: CFC destrói O₃ → raios UV → câncer de pele. Desenvolvimento sustentável: atender necessidades presentes sem comprometer futuras gerações (Brundtland, 1987).",
+      "body": "<h2>Introdução</h2><p>A ação humana causa <strong>impactos ambientais</strong> que ameaçam ecossistemas e a saúde. Entender é o 1º passo para agir.</p><h2>Tipos de Poluição</h2><table><thead><tr><th>Tipo</th><th>Causas</th><th>Efeitos</th></tr></thead><tbody><tr><td>Ar</td><td>Combustíveis, indústria</td><td>Efeito estufa, chuva ácida, smog</td></tr><tr><td>Água</td><td>Esgoto, agrotóxicos</td><td>Eutrofização, contaminação</td></tr><tr><td>Solo</td><td>Lixo, agrotóxicos</td><td>Erosão, contaminação</td></tr></tbody></table><h2>Problemas Globais</h2><ul><li><strong>Efeito estufa intensificado:</strong> CO₂ + CH₄ → aquecimento global</li><li><strong>Camada de ozônio:</strong> CFC destrói O₃ → mais UV → câncer</li><li><strong>Chuva ácida:</strong> SO₂ + NOₓ + H₂O → ácidos → corrosão</li><li><strong>Eutrofização:</strong> excesso de nutrientes em água → algas → morte de peixes</li></ul><h2>Desenvolvimento Sustentável</h2><p>Atender necessidades presentes sem comprometer gerações futuras (ONU, 1987).</p><h2>Resumo</h2><ul><li>✅ Efeito estufa: CO₂. Ozônio: CFC. Chuva ácida: SO₂.</li><li>⚠️ ENEM: eutrofização, aquecimento global, sustentabilidade</li></ul><h2>Curiosidade</h2><p>O <strong>Protocolo de Montreal</strong> (1987) baniu CFCs e é considerado o acordo ambiental mais bem-sucedido da história: a camada de ozônio está se <strong>recuperando</strong>!</p>",
+      "faq": [
+        {
+          "q": "O que é eutrofização?",
+          "a": "Excesso de nutrientes (P, N) em lagos/rios → proliferação de algas → algas morrem → bactérias decompõem → consomem O₂ → peixes morrem. Causada por esgoto e fertilizantes."
+        },
+        {
+          "q": "CFC e ozônio?",
+          "a": "CFCs (clorofluorcarbonetos, usados em spray/geladeira) sobem até a estratosfera e destroem moléculas de O₃ (ozônio). Sem O₃, raios UV atingem a Terra → câncer de pele."
+        },
+        {
+          "q": "Efeito estufa é ruim?",
+          "a": "O NATURAL é bom (sem ele, Terra seria -18°C). O problema é o INTENSIFICADO por ação humana (queima de combustíveis fósseis, desmatamento) → aquecimento global."
+        },
+        {
+          "q": "O que é desenvolvimento sustentável?",
+          "a": "Usar recursos naturais de forma que as futuras gerações também possam usá-los. Equilibrar economia, sociedade e meio ambiente. Definido pela ONU (Relatório Brundtland, 1987)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Eutrofização é causada por excesso de:",
+          "options": [
+            "O₂",
+            "CO₂",
+            "Nutrientes (P/N)",
+            "Sal"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "CFC destrói:",
+          "options": [
+            "CO₂",
+            "O₃ (ozônio)",
+            "H₂O",
+            "N₂"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Chuva ácida vem de:",
+          "options": [
+            "CO₂ + H₂O",
+            "SO₂ + NOₓ",
+            "CFC + UV",
+            "O₃ + CH₄"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Protocolo de Montreal baniu:",
+          "options": [
+            "CO₂",
+            "CFCs",
+            "Plásticos",
+            "Agrotóxicos"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Biotecnologia: DNA Recombinante",
+      "slug": "biotecnologia-dna-recombinante",
+      "desc": "DNA recombinante: enzimas de restrição, ligase, vetores (plasmídeo). Transgênicos (OGM): bactéria produzindo insulina, soja transgênica. Terapia gênica.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "DNA recombinante: combinar DNA de diferentes organismos. Enzimas de restrição: cortam DNA em locais específicos. DNA ligase: une fragmentos. Vetor (plasmídeo bacteriano): transporta gene de interesse. Transgênicos: organismos com gene de outra espécie (ex: bactéria com gene humano da insulina, soja Bt). Terapia gênica: inserir gene funcional para tratar doença genética.",
+      "body": "<h2>Introdução</h2><p>A <strong>tecnologia do DNA recombinante</strong> permite combinar DNA de diferentes espécies, criando organismos geneticamente modificados.</p><h2>Ferramentas</h2><ul><li><strong>Enzimas de restrição:</strong> \"tesouras moleculares\" que cortam DNA em sequências específicas</li><li><strong>DNA ligase:</strong> \"cola\" que une fragmentos de DNA</li><li><strong>Vetores (plasmídeos):</strong> transportam gene de interesse para dentro da célula</li></ul><h2>Aplicações</h2><table><thead><tr><th>Aplicação</th><th>Exemplo</th></tr></thead><tbody><tr><td>Produção de proteínas</td><td>Insulina humana por bactérias</td></tr><tr><td>Transgênicos agrícolas</td><td>Soja Bt (resistente a pragas)</td></tr><tr><td>Terapia gênica</td><td>Tratar doenças genéticas</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Cortar (restrição) + colar (ligase) + transportar (vetor)</li><li>⚠️ ENEM: OGMs, ética, benefícios e riscos</li></ul><h2>Curiosidade</h2><p>Antes do DNA recombinante, a insulina era extraída de <strong>pâncreas de porcos e bois</strong>. Hoje, bactérias geneticamente modificadas produzem insulina humana pura!</p>",
+      "faq": [
+        {
+          "q": "O que é um transgênico?",
+          "a": "Organismo que recebeu gene de OUTRA espécie por engenharia genética. Ex: milho com gene de bactéria Bt que produz proteína inseticida."
+        },
+        {
+          "q": "Transgênico faz mal?",
+          "a": "Não há evidência científica de risco à saúde. Organizações como OMS e NAS consideram seguros. O debate é mais sobre impacto ambiental e socioeconômico."
+        },
+        {
+          "q": "O que é terapia gênica?",
+          "a": "Inserir um gene funcional em células de paciente com doença genética. Ainda experimental para muitas doenças, mas já aprovada para algumas (ex: ADA-SCID)."
+        },
+        {
+          "q": "Como bactéria produz insulina humana?",
+          "a": "Gene humano da insulina é cortado (enzima de restrição), inserido em plasmídeo bacteriano (vetor) e introduzido em E. coli. A bactéria transcreve e traduz o gene → produz insulina."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Enzimas de restrição:",
+          "options": [
+            "Unem DNA",
+            "Cortam DNA",
+            "Copiam DNA",
+            "Traduzem DNA"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Plasmídeo é usado como:",
+          "options": [
+            "Enzima",
+            "Vetor",
+            "Anticorpo",
+            "Hormônio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Insulina recombinante vem de:",
+          "options": [
+            "Porcos",
+            "Humanos",
+            "Bactérias modificadas",
+            "Plantas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "OGM significa:",
+          "options": [
+            "Organismo Geneticamente Modificado",
+            "Ordem Genética Molecular",
+            "Original Genoma Mutado",
+            "Órgão Grande Modificado"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Biotecnologia: PCR, Eletroforese e Sequenciamento",
+      "slug": "biotecnologia-pcr-eletroforese-e-sequenciamento",
+      "desc": "PCR: amplificação de DNA (Taq polimerase, primers). Eletroforese: separação por tamanho. Sequenciamento de DNA. Teste de paternidade. DNA fingerprinting.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "PCR (Reação em Cadeia da Polimerase): amplifica DNA milhões de vezes. Componentes: DNA molde, primers, Taq polimerase (termoestável), dNTPs. Etapas: desnaturação (95°C)→anelamento (55°C)→extensão (72°C). Eletroforese: separa fragmentos de DNA por tamanho em gel (menores migram mais). Sequenciamento: determinar ordem das bases (A, T, C, G). Aplicações: teste de paternidade, forense, diagnóstico.",
+      "body": "<h2>Introdução</h2><p><strong>PCR</strong>, <strong>eletroforese</strong> e <strong>sequenciamento</strong> são técnicas fundamentais da biologia molecular moderna.</p><h2>PCR (Reação em Cadeia da Polimerase)</h2><ul><li>Amplifica um trecho específico de DNA milhões de vezes</li><li><strong>Etapas (30 ciclos):</strong> Desnaturação (95°C) → Anelamento (55°C) → Extensão (72°C)</li><li><strong>Taq polimerase:</strong> enzima termoestável (de bactéria de fontes termais)</li></ul><h2>Eletroforese em Gel</h2><ul><li>Fragmentos de DNA migram em gel elétrico</li><li>Menores migram mais rápido → separação por tamanho</li></ul><h2>Aplicações</h2><table><thead><tr><th>Aplicação</th><th>Técnica</th></tr></thead><tbody><tr><td>Teste de paternidade</td><td>PCR + eletroforese (STR)</td></tr><tr><td>Investigação criminal</td><td>DNA fingerprinting</td></tr><tr><td>Diagnóstico genético</td><td>PCR + sequenciamento</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ PCR: copia DNA. Eletroforese: separa. Sequenciamento: lê.</li><li>⚠️ ENEM: aplicações da PCR (forense, diagnóstico)</li></ul><h2>Curiosidade</h2><p>A <strong>Taq polimerase</strong> vem da bactéria <em>Thermus aquaticus</em>, que vive em fontes termais a 70°C! Por resistir ao calor, funciona perfeitamente nos ciclos de PCR.</p>",
+      "faq": [
+        {
+          "q": "Como funciona o teste de paternidade?",
+          "a": "PCR amplifica regiões STR (repetições). Eletroforese compara os padrões: a criança deve ter metade do padrão do pai e metade da mãe. Precisão: 99,99%."
+        },
+        {
+          "q": "PCR precisa de muita amostra?",
+          "a": "Não! Um fio de cabelo, gota de sangue ou vestígio é suficiente. A PCR amplifica exponencialmente: 1 molécula → bilhões em poucas horas."
+        },
+        {
+          "q": "DNA fingerprinting é impressão digital?",
+          "a": "Não literal. É o padrão único de fragmentos de DNA de cada pessoa (exceto gêmeos idênticos). Usado em forense como 'impressão digital genética'."
+        },
+        {
+          "q": "O Projeto Genoma Humano usou sequenciamento?",
+          "a": "Sim! Sequenciou os 3,2 bilhões de pares de bases do DNA humano (2003). Custou ~3 bilhões de dólares. Hoje, um genoma custa menos de 1.000 dólares!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "PCR amplifica:",
+          "options": [
+            "Proteínas",
+            "RNA",
+            "DNA",
+            "Aminoácidos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Na eletroforese, fragmentos menores:",
+          "options": [
+            "Ficam parados",
+            "Migram mais",
+            "Migram menos",
+            "Desaparecem"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Taq polimerase vem de:",
+          "options": [
+            "Humanos",
+            "Bactéria termal",
+            "Fungo",
+            "Vírus"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Teste de paternidade usa:",
+          "options": [
+            "Tipo sanguíneo apenas",
+            "PCR + eletroforese",
+            "Microscópio",
+            "Raio X"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Biotecnologia: Clonagem e Células-Tronco",
+      "slug": "biotecnologia-clonagem-e-celulas-tronco",
+      "desc": "Clonagem: reprodutiva (Dolly, 1996) e terapêutica. Células-tronco: embrionárias (totipotentes) e adultas (multipotentes). Ética: debates sobre embriões e clonagem humana.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Clonagem reprodutiva: cópia genética (Dolly, 1996: núcleo de célula mamária → óvulo enucleado). Clonagem terapêutica: criar tecidos/órgãos para transplante (sem gerar indivíduo). Células-tronco: indiferenciadas → podem virar qualquer tecido. Embrionárias (totipotentes): de embriões. Adultas (multipotentes): medula óssea, cordão umbilical. iPSC: células adultas reprogramadas (Yamanaka, Nobel 2012). Ética: uso de embriões, clonagem humana proibida.",
+      "body": "<h2>Introdução</h2><p><strong>Clonagem</strong> e <strong>células-tronco</strong> são fronteiras da biotecnologia com enormes promessas — e grandes debates éticos.</p><h2>Clonagem</h2><table><thead><tr><th>Tipo</th><th>Objetivo</th><th>Status</th></tr></thead><tbody><tr><td>Reprodutiva</td><td>Criar indivíduo geneticamente idêntico</td><td>Dolly (1996), proibida em humanos</td></tr><tr><td>Terapêutica</td><td>Produzir tecidos para transplante</td><td>Em pesquisa</td></tr></tbody></table><h2>Células-Tronco</h2><ul><li><strong>Embrionárias (totipotentes):</strong> podem virar qualquer tecido → mais versáteis, debate ético (uso de embriões)</li><li><strong>Adultas (multipotentes):</strong> medula óssea, cordão umbilical → menos versáteis, sem debate ético</li><li><strong>iPSC:</strong> células adultas reprogramadas para agir como embrionárias (Yamanaka, Nobel 2012)</li></ul><h2>Questões Éticas</h2><ul><li>Embrião é vida? Clonagem humana? Eugenia?</li></ul><h2>Resumo</h2><ul><li>✅ Dolly: 1ª clonagem de mamífero. iPSC: revolução ética.</li><li>⚠️ ENEM: diferença clone reprodutivo vs terapêutico, tipos de células-tronco</li></ul><h2>Curiosidade</h2><p>A ovelha <strong>Dolly</strong> foi clonada a partir de uma célula da glândula mamária. Os cientistas a batizaram em homenagem à cantora <strong>Dolly Parton</strong>!</p>",
+      "faq": [
+        {
+          "q": "Dolly era 100% clone?",
+          "a": "Geneticamente nuclear sim (DNA do núcleo = da célula doadora). Mas o DNA mitocondrial veio do óvulo receptor. Então não era 100% idêntica."
+        },
+        {
+          "q": "iPSC resolve a questão ética?",
+          "a": "Em grande parte, sim. Células adultas reprogramadas dispensam embriões. Yamanaka ganhou Nobel 2012 por isso. Mas a tecnologia ainda está sendo aperfeiçoada."
+        },
+        {
+          "q": "Clonagem humana é legal?",
+          "a": "Clonagem reprodutiva humana é proibida em quase todos os países. Clonagem terapêutica (para pesquisa, sem gerar indivíduo) é permitida em alguns, com regulação."
+        },
+        {
+          "q": "Células-tronco curam?",
+          "a": "Já tratam leucemia (transplante de medula). Em pesquisa: Parkinson, diabetes, lesões medulares. Promissoras, mas a maioria das terapias ainda é experimental."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Dolly foi clonada em:",
+          "options": [
+            "1990",
+            "1996",
+            "2003",
+            "2012"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Células-tronco embrionárias são:",
+          "options": [
+            "Unipotentes",
+            "Multipotentes",
+            "Totipotentes",
+            "Inativas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "iPSC foi criada por:",
+          "options": [
+            "Watson",
+            "Dolly",
+            "Yamanaka",
+            "Venter"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Clonagem terapêutica visa:",
+          "options": [
+            "Criar pessoas",
+            "Produzir tecidos",
+            "Clonar animais",
+            "Eugenia"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Genética de Populações Humanas",
+      "slug": "genetica-de-populacoes-humanas",
+      "desc": "Genética de populações humanas: variação genética, polimorfismos, adaptações (lactase, melanina). Doenças genéticas: fibrose cística, anemia falciforme, fenilcetonúria. Aconselhamento genético.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Variação humana: polimorfismos (SNPs), adaptações locais (persistência de lactase em europeus, melanina alta em africanos = proteção UV). Doenças genéticas: anemia falciforme (HbS, vantagem heterozigoto contra malária), fibrose cística (CFTR), fenilcetonúria (PKU, teste do pezinho). Herança autossômica dominante/recessiva, ligada ao X. Aconselhamento genético: avaliação de risco. CRISPR: edição gênica precisa.",
+      "body": "<h2>Introdução</h2><p>A <strong>genética de populações humanas</strong> estuda a diversidade genética e como ela se relaciona com adaptação e doenças.</p><h2>Adaptações Populacionais</h2><ul><li><strong>Melanina:</strong> mais em populações tropicais (proteção UV). Menos em regiões frias (otimiza vitamina D).</li><li><strong>Persistência de lactase:</strong> populações pastoras europeias e africanas → digerem leite na idade adulta</li></ul><h2>Doenças Genéticas</h2><table><thead><tr><th>Doença</th><th>Herança</th><th>Detecção</th></tr></thead><tbody><tr><td>Anemia falciforme</td><td>Autossômica recessiva</td><td>Eletroforese de hemoglobina</td></tr><tr><td>Fibrose cística</td><td>Autossômica recessiva</td><td>Teste genético</td></tr><tr><td>Fenilcetonúria</td><td>Autossômica recessiva</td><td>Teste do pezinho</td></tr></tbody></table><h2>CRISPR</h2><p>Ferramenta de edição gênica precisa (\"tesoura genética\"). Potencial para curar doenças genéticas. Debate ético: bebês editados?</p><h2>Resumo</h2><ul><li>✅ Anemia falciforme: vantagem heterozigoto contra malária</li><li>⚠️ ENEM: teste do pezinho, aconselhamento genético</li></ul><h2>Curiosidade</h2><p>Portadores de anemia falciforme (heterozigotos HbAS) são <strong>resistentes à malária</strong>! Por isso o alelo HbS é mais comum em regiões de malária (África). É seleção natural em ação!</p>",
+      "faq": [
+        {
+          "q": "O que é vantagem do heterozigoto?",
+          "a": "Quando o heterozigoto tem mais fitness que ambos homozigotos. Na anemia falciforme: AA=suscetível à malária, SS=anemia grave, AS=protegido de malária sem anemia grave."
+        },
+        {
+          "q": "Teste do pezinho detecta o quê?",
+          "a": "Fenilcetonúria (PKU), hipotireoidismo, anemia falciforme, fibrose cística e outras doenças metabólicas. É obrigatório no Brasil (Lei 8.069/1990)."
+        },
+        {
+          "q": "CRISPR pode editar embriões?",
+          "a": "Tecnicamente sim. Em 2018, He Jiankui editou embriões humanos na China (bebês CRISPR). Foi condenado pela comunidade científica e preso. A prática é proibida na maioria dos países."
+        },
+        {
+          "q": "Todo mundo é geneticamente igual?",
+          "a": "99,9% do DNA é idêntico entre qualquer dois humanos. Os 0,1% de diferença (SNPs, STRs) explicam variações de cor, altura, predisposições a doenças."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Teste do pezinho detecta:",
+          "options": [
+            "Tipo sanguíneo",
+            "Fenilcetonúria",
+            "Daltonismo",
+            "Hemofilia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Anemia falciforme: heterozigotos são:",
+          "options": [
+            "Doentes graves",
+            "Protegidos da malária",
+            "Normais",
+            "Hemofílicos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "CRISPR é:",
+          "options": [
+            "Microscópio",
+            "Edição gênica",
+            "Clonagem",
+            "Vacina"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Humanos compartilham ~% do DNA:",
+          "options": [
+            "50%",
+            "75%",
+            "90%",
+            "99,9%"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Imunologia",
+      "slug": "imunologia",
+      "desc": "Imunologia: imunidade inata (barreiras, fagocitose) e adaptativa (linfócitos B=anticorpos, T=celular). Vacinas, soros. Tipos de imunidade: ativa/passiva, natural/artificial.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Imunidade inata: barreiras (pele, mucosa), fagocitose (macrófagos, neutrófilos), inflamação, febre. Imunidade adaptativa: linfócitos B (produzem anticorpos=humoral), linfócitos T (citotóxicos=celular, helper=coordenam). Memória imunológica: resposta mais rápida na 2ª exposição. Vacina: antígeno atenuado/inativo → imunidade ativa artificial. Soro: anticorpos prontos → imunidade passiva artificial.",
+      "body": "<h2>Introdução</h2><p>O <strong>sistema imunológico</strong> defende o corpo contra patógenos (vírus, bactérias, fungos, parasitas).</p><h2>Imunidade Inata</h2><ul><li><strong>Barreiras:</strong> pele, mucosas, ácido gástrico, lágrimas (lisozima)</li><li><strong>Células:</strong> macrófagos, neutrófilos (fagocitose)</li><li><strong>Inflamação:</strong> vermelhidão, calor, inchaço, dor → atrai células de defesa</li></ul><h2>Imunidade Adaptativa</h2><table><thead><tr><th>Tipo</th><th>Célula</th><th>Mecanismo</th></tr></thead><tbody><tr><td>Humoral</td><td>Linfócitos B</td><td>Produzem anticorpos</td></tr><tr><td>Celular</td><td>Linfócitos T (citotóxicos)</td><td>Destroem células infectadas</td></tr></tbody></table><h2>Vacina × Soro</h2><table><thead><tr><th>Característica</th><th>Vacina</th><th>Soro</th></tr></thead><tbody><tr><td>Contém</td><td>Antígeno atenuado</td><td>Anticorpos prontos</td></tr><tr><td>Imunidade</td><td>Ativa artificial</td><td>Passiva artificial</td></tr><tr><td>Duração</td><td>Longa (memória)</td><td>Curta (sem memória)</td></tr><tr><td>Uso</td><td>Prevenção</td><td>Tratamento urgente</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Vacina=prevenção (ativa). Soro=tratamento (passiva).</li><li>⚠️ ENEM: vacina × soro, tipos de imunidade</li></ul><h2>Curiosidade</h2><p>O leite materno fornece <strong>anticorpos prontos</strong> (IgA) ao bebê — é <strong>imunidade passiva natural</strong>! Por isso a amamentação é tão importante nos primeiros meses.</p>",
+      "faq": [
+        {
+          "q": "Vacina cura doença?",
+          "a": "Não! Vacina PREVINE. Estimula o sistema imune a criar memória (anticorpos). Quando o patógeno real aparecer, a resposta é rápida e eficaz. Soro trata (anticorpos prontos)."
+        },
+        {
+          "q": "O que são anticorpos?",
+          "a": "Proteínas (imunoglobulinas) produzidas por linfócitos B que se ligam especificamente a antígenos (substâncias do invasor), neutralizando-os ou marcando para destruição."
+        },
+        {
+          "q": "Febre é ruim?",
+          "a": "Febre moderada é DEFESA: aumenta metabolismo, ativa células imunes, dificulta multiplicação de patógenos. Febre muito alta (>39°C) pode ser perigosa."
+        },
+        {
+          "q": "Leite materno dá imunidade?",
+          "a": "Sim! Imunidade passiva natural: mãe transfere anticorpos (IgA) pelo leite. Também transfere anticorpos pela placenta (IgG) durante a gestação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Vacina contém:",
+          "options": [
+            "Anticorpos",
+            "Antígeno atenuado",
+            "Antibiótico",
+            "Soro"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Linfócitos B produzem:",
+          "options": [
+            "Enzimas",
+            "Anticorpos",
+            "Hormônios",
+            "Hemácias"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Soro antiofídico é imunidade:",
+          "options": [
+            "Ativa natural",
+            "Ativa artificial",
+            "Passiva natural",
+            "Passiva artificial"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Amamentação dá imunidade:",
+          "options": [
+            "Ativa natural",
+            "Ativa artificial",
+            "Passiva natural",
+            "Passiva artificial"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Saúde Pública e Epidemiologia",
+      "slug": "saude-publica-e-epidemiologia",
+      "desc": "Saúde pública: SUS, epidemiologia, endemia, epidemia, pandemia. Doenças: dengue, malária, tuberculose, hanseníase. Saneamento básico. Vigilância epidemiológica.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "SUS (1988): universalidade, integralidade, equidade. Epidemiologia: estudo da distribuição de doenças em populações. Endemia: constante na região. Epidemia: surto acima do normal. Pandemia: epidemia global. Saneamento básico: água tratada, esgoto, coleta de lixo → reduz doenças. DSTs: HIV/AIDS, sífilis, HPV. Vacinação: calendário nacional. Vigilância sanitária: ANVISA.",
+      "body": "<h2>Introdução</h2><p><strong>Saúde pública</strong> é a ciência de prevenir doenças e promover saúde em nível populacional.</p><h2>SUS (Sistema Único de Saúde)</h2><ul><li>Criado pela Constituição de 1988</li><li><strong>Princípios:</strong> universalidade (para todos), integralidade (prevenção+tratamento), equidade (mais a quem mais precisa)</li></ul><h2>Epidemiologia</h2><table><thead><tr><th>Conceito</th><th>Definição</th><th>Exemplo</th></tr></thead><tbody><tr><td>Endemia</td><td>Constante na região</td><td>Malária na Amazônia</td></tr><tr><td>Epidemia</td><td>Surto acima do normal</td><td>Dengue em verão</td></tr><tr><td>Pandemia</td><td>Epidemia global</td><td>COVID-19</td></tr></tbody></table><h2>Saneamento Básico</h2><ul><li>Água tratada + esgoto + coleta de lixo → reduz verminoses, cólera, leptospirose</li><li>~35 milhões de brasileiros não têm água tratada</li></ul><h2>Resumo</h2><ul><li>✅ SUS: universal, integral, equânime</li><li>✅ Saneamento = principal medida de saúde pública</li><li>⚠️ ENEM: endemia/epidemia/pandemia, SUS, saneamento</li></ul><h2>Curiosidade</h2><p>O <strong>saneamento básico</strong> salvou mais vidas na história que qualquer medicamento ou vacina! A simples <strong>água tratada</strong> reduziu mortalidade infantil em até 50% em muitas regiões.</p>",
+      "faq": [
+        {
+          "q": "SUS atende todos?",
+          "a": "Sim, pelo princípio da universalidade. Qualquer pessoa (brasileira ou não) tem direito ao atendimento. Gratuito no ponto de uso, financiado por impostos."
+        },
+        {
+          "q": "Endemia vs epidemia?",
+          "a": "Endemia: doença constante/esperada numa região (malária na Amazônia). Epidemia: número de casos acima do esperado (surto de dengue). Pandemia: epidemia global (COVID-19)."
+        },
+        {
+          "q": "Saneamento previne quais doenças?",
+          "a": "Verminoses (Ascaris, Schistosoma), doenças bacterianas (cólera, leptospirose), hepatite A, diarreia. São chamadas 'doenças de veiculação hídrica'."
+        },
+        {
+          "q": "O que é vigilância epidemiológica?",
+          "a": "Monitoramento contínuo de doenças em uma população: coleta dados, detecta surtos, investiga causas e recomenda medidas. No Brasil: SVS/MS e ANVISA."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "SUS foi criado pela Constituição de:",
+          "options": [
+            "1964",
+            "1988",
+            "2003",
+            "2010"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pandemia é:",
+          "options": [
+            "Doença local",
+            "Surto regional",
+            "Epidemia global",
+            "Endemia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Principal medida de saúde pública:",
+          "options": [
+            "Vacinas",
+            "Saneamento básico",
+            "Antibióticos",
+            "Exercício"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Dengue é transmitida por:",
+          "options": [
+            "Água",
+            "Aedes aegypti",
+            "Contato",
+            "Alimento"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

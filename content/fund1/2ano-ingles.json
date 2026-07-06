@@ -1,0 +1,586 @@
+{
+  "subject": "Inglês",
+  "slug": "2ano-ingles",
+  "level": "Fundamental 1",
+  "grade": "2º ano",
+  "color": "var(--ingles)",
+  "icon": "globe-alt",
+  "articles": [
+    {
+      "title": "Perfect Tenses: Past and Future",
+      "slug": "perfect-tenses-past-and-future",
+      "desc": "Past Perfect: had + past participle. Future Perfect: will have + past participle. Acoes anteriores a outros marcos temporais.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Past Perfect: had + pp. Acao ANTES de outra no passado. 'When I arrived, she had already left.' (Ela saiu antes, eu cheguei depois). Future Perfect: will have + pp. Acao completa ANTES de um momento futuro. 'By 2030, I will have graduated.' Marcadores: before, after, when, by, already, never.",
+      "body": "<h2>Introducao</h2><p>Os <strong>perfect tenses</strong> avancados marcam acoes anteriores a marcos temporais.</p><h2>Past Perfect</h2><ul><li>Had + past participle</li><li>'When I arrived, she <strong>had left</strong>.'</li><li>Acao ANTES de outra no passado</li></ul><h2>Future Perfect</h2><ul><li>Will have + past participle</li><li>'By 2030, I <strong>will have graduated</strong>.'</li><li>Acao completa ANTES de ponto futuro</li></ul><h2>Resumo</h2><ul><li>Past Perfect: antes no passado. Future Perfect: completo no futuro.</li><li>ENEM: Past Perfect em narrativas</li></ul><h2>Curiosidade</h2><p>O Past Perfect e chamado de '<strong>passado do passado</strong>' - um flashback temporal!</p>",
+      "faq": [
+        {
+          "q": "Past Perfect vs Simple Past?",
+          "a": "Simple Past: acao no passado. Past Perfect: acao ANTES de outra no passado. 'She left' vs 'She had left (before I arrived)'."
+        },
+        {
+          "q": "Future Perfect e usado?",
+          "a": "Menos comum no dia a dia, mas aparece em textos formais. 'By next year, the project will have been completed.'"
+        },
+        {
+          "q": "By + tempo?",
+          "a": "Marcador do Future Perfect. 'By December, by 2030, by the time you arrive.' Indica 'ate quando' a acao estara completa."
+        },
+        {
+          "q": "Past Perfect na narrativa?",
+          "a": "Usado para flashbacks. 'He was sad because his dog had died.' (Cachorro morreu ANTES de ele ficar triste)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "When I arrived, she ___",
+          "options": [
+            "left",
+            "has left",
+            "had left",
+            "leaves"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "By 2030, I ___ graduated",
+          "options": [
+            "will",
+            "will have",
+            "had",
+            "have"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Past Perfect usa",
+          "options": [
+            "have + pp",
+            "has + pp",
+            "had + pp",
+            "will have + pp"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Past Perfect e o passado do",
+          "options": [
+            "Presente",
+            "Futuro",
+            "Passado",
+            "Condicional"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Perfect Continuous Tenses",
+      "slug": "perfect-continuous-tenses",
+      "desc": "Present Perfect Continuous: have been + ing. Past Perfect Continuous: had been + ing. Duracao e continuidade.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Present Perfect Continuous: have/has been + -ing. Enfase na DURACAO. 'I have been studying for 3 hours' (e continuo). Past Perfect Continuous: had been + -ing. Duracao ANTES de outro evento passado. 'She had been working for 5 hours when she stopped.' Diferenca: Perfect simples=resultado. Perfect Continuous=processo/duracao.",
+      "body": "<h2>Introducao</h2><p>Os <strong>Perfect Continuous</strong> enfatizam a DURACAO de uma acao.</p><h2>Formacao</h2><table><thead><tr><th>Tempo</th><th>Estrutura</th><th>Exemplo</th></tr></thead><tbody><tr><td>Present P.C.</td><td>have/has been + -ing</td><td>I have been studying</td></tr><tr><td>Past P.C.</td><td>had been + -ing</td><td>I had been studying</td></tr></tbody></table><h2>Perfect vs Perfect Continuous</h2><ul><li>Perfect: foco no RESULTADO (I have read 3 books)</li><li>Perfect Continuous: foco na DURACAO (I have been reading all day)</li></ul><h2>Resumo</h2><ul><li>Been + -ing = duracao/processo</li><li>ENEM: menos frequente, mas aparece</li></ul><h2>Curiosidade</h2><p>Se alguem esta suado e ofegante, voce diz: 'You <strong>have been running</strong>!' - a evidencia esta no resultado da duracao!</p>",
+      "faq": [
+        {
+          "q": "Quando usar Perfect Continuous?",
+          "a": "Quando quer enfatizar QUANTO TEMPO. 'I have been waiting for 2 hours!' (estou irritado com a espera). O simple diria 'I have waited' (mais neutro)."
+        },
+        {
+          "q": "Verbos que nao usam continuous?",
+          "a": "Stative verbs: know, like, love, believe, own, want. NAO usam -ing. 'I have known her for years' (nao 'I have been knowing')."
+        },
+        {
+          "q": "Past Perfect Continuous vs Past Perfect?",
+          "a": "Past P.C.: duracao antes de outro passado. 'She was tired because she had been running.' Past Perfect: resultado. 'She had run 10km.'"
+        },
+        {
+          "q": "E importante para ENEM?",
+          "a": "Menos que Simple/Continuous/Perfect simples. Mas aparece em textos. Entender a ideia de duracao+continuidade e o principal."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "I ___ for 3 hours (Present Perfect Continuous)",
+          "options": [
+            "study",
+            "have studied",
+            "have been studying",
+            "studied"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "She had been ___ when it rained",
+          "options": [
+            "walk",
+            "walked",
+            "walking",
+            "walks"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Perfect Continuous enfatiza",
+          "options": [
+            "Resultado",
+            "Duracao",
+            "Frequencia",
+            "Possibilidade"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Stative verbs usam continuous?",
+          "options": [
+            "Sim",
+            "Nao",
+            "As vezes",
+            "Sempre"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Phrasal Verbs (Top 50)",
+      "slug": "phrasal-verbs-top-50",
+      "desc": "Top 50 phrasal verbs em ingles: give up, look for, find out, turn off, pick up, break down, come up with e mais. Significados e exemplos.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Phrasal verbs: verbo + particula (preposicao/adverbio) com significado novo. Give up=desistir. Look for=procurar. Find out=descobrir. Turn on/off=ligar/desligar. Pick up=pegar/buscar. Break down=quebrar. Come up with=inventar. Put off=adiar. Get along=dar-se bem. Go on=continuar. Separaveis (turn it off) vs inseparaveis (look after her).",
+      "body": "<h2>Introducao</h2><p><strong>Phrasal verbs</strong> sao essenciais para entender ingles real.</p><h2>Top Phrasal Verbs</h2><table><thead><tr><th>Phrasal Verb</th><th>Significado</th></tr></thead><tbody><tr><td>give up</td><td>desistir</td></tr><tr><td>look for</td><td>procurar</td></tr><tr><td>find out</td><td>descobrir</td></tr><tr><td>turn on/off</td><td>ligar/desligar</td></tr><tr><td>pick up</td><td>pegar, buscar</td></tr><tr><td>break down</td><td>quebrar, colapsar</td></tr><tr><td>come up with</td><td>inventar, criar</td></tr><tr><td>put off</td><td>adiar</td></tr><tr><td>get along</td><td>dar-se bem</td></tr><tr><td>look after</td><td>cuidar de</td></tr></tbody></table><h2>Resumo</h2><ul><li>Phrasal verbs mudam completamente o sentido do verbo</li><li>ENEM: phrasal verbs em contexto de leitura</li></ul><h2>Curiosidade</h2><p>Existem mais de <strong>5.000 phrasal verbs</strong> em ingles! Mas dominar os top 50 cobre a maioria das situacoes.</p>",
+      "faq": [
+        {
+          "q": "Por que sao dificeis?",
+          "a": "O significado NAO e a soma das partes. 'Give up' nao e 'dar acima' - e DESISTIR. Precisa aprender como vocabulario."
+        },
+        {
+          "q": "Separaveis vs inseparaveis?",
+          "a": "Separaveis: pronome vai no meio. 'Turn IT off' (nao 'Turn off it'). Inseparaveis: nunca separa. 'Look after HER' (nao 'Look her after')."
+        },
+        {
+          "q": "Como decorar?",
+          "a": "NAO decore listas! Aprenda em CONTEXTO. Leia, assista series, ouça musicas. Anote quando encontrar um novo. Pratica e melhor que lista."
+        },
+        {
+          "q": "Caem no ENEM?",
+          "a": "Sim! Em textos. Voce precisa INFERIR o significado pelo contexto. Nao precisa saber todos, mas os mais comuns ajudam."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Give up significa",
+          "options": [
+            "Dar",
+            "Subir",
+            "Desistir",
+            "Presentear"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Find out significa",
+          "options": [
+            "Achar fora",
+            "Descobrir",
+            "Perder",
+            "Sair"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Look after significa",
+          "options": [
+            "Olhar depois",
+            "Cuidar de",
+            "Procurar",
+            "Ignorar"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Put off significa",
+          "options": [
+            "Colocar fora",
+            "Apagar",
+            "Adiar",
+            "Vestir"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Collocations and Idiomatic Expressions",
+      "slug": "collocations-and-idiomatic-expressions",
+      "desc": "Collocations: make a decision, take a break, do homework. Expressoes idiomaticas: break a leg, piece of cake, it's raining cats and dogs.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Collocations: combinacoes naturais de palavras. Make: make a decision, make a mistake, make money. Do: do homework, do the dishes, do a favor. Take: take a break, take a shower, take notes. Have: have fun, have lunch. Expressoes idiomaticas: break a leg (boa sorte), piece of cake (facil), hit the books (estudar), under the weather (doente).",
+      "body": "<h2>Introducao</h2><p><strong>Collocations</strong> sao combinacoes naturais que nativos usam automaticamente.</p><h2>Make vs Do</h2><table><thead><tr><th>MAKE</th><th>DO</th></tr></thead><tbody><tr><td>make a decision</td><td>do homework</td></tr><tr><td>make a mistake</td><td>do the dishes</td></tr><tr><td>make money</td><td>do a favor</td></tr><tr><td>make progress</td><td>do exercise</td></tr></tbody></table><h2>Idioms</h2><ul><li><strong>Break a leg:</strong> boa sorte!</li><li><strong>Piece of cake:</strong> muito facil</li><li><strong>Under the weather:</strong> doente</li></ul><h2>Resumo</h2><ul><li>Collocations sao combinacoes fixas. Idioms nao sao literais.</li><li>ENEM: idioms em musicas e textos</li></ul><h2>Curiosidade</h2><p>'<strong>It's raining cats and dogs</strong>' = chovendo muito! Ninguem sabe a origem exata dessa expressao.</p>",
+      "faq": [
+        {
+          "q": "Make vs do?",
+          "a": "Regra geral: MAKE = criar algo novo (make a cake). DO = atividade/tarefa (do homework). Mas ha excecoes - precisa praticar."
+        },
+        {
+          "q": "Idioms caem no ENEM?",
+          "a": "Sim! Em letras de musica e textos informais. 'Break a leg', 'piece of cake', 'out of the blue' podem aparecer. O contexto ajuda a inferir."
+        },
+        {
+          "q": "Como aprender collocations?",
+          "a": "Leia MUITO em ingles. Anote combinacoes que encontrar. Use dicionarios de collocations. Nao traduza palavra por palavra."
+        },
+        {
+          "q": "Strong vs heavy?",
+          "a": "Collocations: strong coffee (nao powerful coffee), heavy rain (nao strong rain). Sao combinacoes fixas que nativos 'sentem' como naturais."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Make a ___",
+          "options": [
+            "homework",
+            "dishes",
+            "decision",
+            "favor"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Piece of cake significa",
+          "options": [
+            "Pedaco de bolo",
+            "Muito facil",
+            "Delicioso",
+            "Doce"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Do the ___",
+          "options": [
+            "mistake",
+            "money",
+            "decision",
+            "dishes"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Under the weather =",
+          "options": [
+            "Ao ar livre",
+            "Chovendo",
+            "Doente",
+            "Com frio"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Linking Words and Discourse Markers",
+      "slug": "linking-words-and-discourse-markers",
+      "desc": "Linking words: however, moreover, although, therefore, despite, in addition, on the other hand. Coesao textual em ingles.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Adicao: moreover, furthermore, in addition, also, besides. Contraste: however, nevertheless, although, despite, on the other hand, yet. Causa: because, since, due to, as. Consequencia: therefore, consequently, thus, as a result. Exemplo: for example, such as, for instance. Conclusao: in conclusion, to sum up, overall.",
+      "body": "<h2>Introducao</h2><p>Os <strong>linking words</strong> conectam ideias e dao coesao ao texto.</p><h2>Funcoes</h2><table><thead><tr><th>Funcao</th><th>Linking Words</th></tr></thead><tbody><tr><td>Adicao</td><td>moreover, furthermore, in addition</td></tr><tr><td>Contraste</td><td>however, although, despite</td></tr><tr><td>Causa</td><td>because, since, due to</td></tr><tr><td>Consequencia</td><td>therefore, consequently, thus</td></tr><tr><td>Exemplo</td><td>for example, such as</td></tr><tr><td>Conclusao</td><td>in conclusion, to sum up</td></tr></tbody></table><h2>Resumo</h2><ul><li>Linking words dao coesao e logica ao texto</li><li>ENEM: interpretar funcao do conector</li></ul><h2>Curiosidade</h2><p>'<strong>However</strong>' e o linking word mais usado em textos academicos em ingles!</p>",
+      "faq": [
+        {
+          "q": "However vs but?",
+          "a": "Mesmo sentido, nivel diferente. But: informal, conecta na mesma frase. However: formal, comeca nova frase. 'I studied. However, I failed.'"
+        },
+        {
+          "q": "Although vs despite?",
+          "a": "Although + oracao (Although it rained, we went). Despite + substantivo (Despite the rain, we went). Mesmo sentido, estrutura diferente."
+        },
+        {
+          "q": "Therefore vs so?",
+          "a": "Therefore: formal (Therefore, we conclude...). So: informal (So, what now?). Mesmo sentido de consequencia."
+        },
+        {
+          "q": "Linking words caem no ENEM?",
+          "a": "SIM! Muito! Entender o que 'however', 'moreover', 'despite' significam ajuda enormemente na interpretacao de textos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "However indica",
+          "options": [
+            "Adicao",
+            "Contraste",
+            "Causa",
+            "Exemplo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Moreover indica",
+          "options": [
+            "Contraste",
+            "Adicao",
+            "Conclusao",
+            "Causa"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Therefore indica",
+          "options": [
+            "Adicao",
+            "Exemplo",
+            "Consequencia",
+            "Contraste"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Despite + ___",
+          "options": [
+            "Verbo",
+            "Oracao",
+            "Substantivo",
+            "Adverbio"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "False Friends (Falsos Cognatos)",
+      "slug": "false-friends-falsos-cognatos",
+      "desc": "Falsos cognatos: actually=na verdade, pretend=fingir, sensible=sensato, push=empurrar, library=biblioteca. Lista e exercicios.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Falsos cognatos: palavras que PARECEM significar algo em portugues mas NAO. Actually=na verdade (nao 'atualmente'). Pretend=fingir (nao 'pretender'). Sensible=sensato (nao 'sensivel'). Push=empurrar (nao 'puxar'). Library=biblioteca (nao 'livraria'). Fabric=tecido (nao 'fabrica'). Resume=retomar (nao 'resumir'). Eventually=finalmente (nao 'eventualmente'). Attend=comparecer (nao 'atender'). Parents=pais (nao 'parentes').",
+      "body": "<h2>Introducao</h2><p><strong>Falsos cognatos</strong> sao armadilhas classicas para brasileiros!</p><h2>Lista</h2><table><thead><tr><th>Ingles</th><th>Parece</th><th>Significa</th></tr></thead><tbody><tr><td>actually</td><td>atualmente</td><td>na verdade</td></tr><tr><td>pretend</td><td>pretender</td><td>fingir</td></tr><tr><td>sensible</td><td>sensivel</td><td>sensato</td></tr><tr><td>push</td><td>puxar</td><td>empurrar</td></tr><tr><td>library</td><td>livraria</td><td>biblioteca</td></tr><tr><td>fabric</td><td>fabrica</td><td>tecido</td></tr><tr><td>attend</td><td>atender</td><td>comparecer</td></tr><tr><td>parents</td><td>parentes</td><td>pais</td></tr></tbody></table><h2>Resumo</h2><ul><li>Aparencia engana! Contexto e rei.</li><li>ENEM: falsos cognatos sao armadilha classica</li></ul><h2>Curiosidade</h2><p>A porta que diz '<strong>PUSH</strong>' = empurre! Nao puxe! Quantos brasileiros ja erraram essa?</p>",
+      "faq": [
+        {
+          "q": "Como evitar erros?",
+          "a": "Memorize a lista dos mais comuns. No ENEM, se uma palavra PARECE facil demais, desconfie - pode ser falso cognato."
+        },
+        {
+          "q": "Cognato verdadeiro vs falso?",
+          "a": "Verdadeiro: information=informacao (CORRETO). Falso: pretend PARECE 'pretender' mas significa FINGIR. O contexto revela."
+        },
+        {
+          "q": "Currently vs actually?",
+          "a": "Currently=atualmente ('I currently work here'). Actually=na verdade ('Actually, I disagree'). Confusao classica!"
+        },
+        {
+          "q": "Sensitive vs sensible?",
+          "a": "Sensitive=sensivel ('She is very sensitive'). Sensible=sensato ('That's a sensible decision'). Dois falsos cognatos num so par!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Actually' significa",
+          "options": [
+            "Atualmente",
+            "Na verdade",
+            "De fato",
+            "Possivelmente"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Library' e",
+          "options": [
+            "Livraria",
+            "Biblioteca",
+            "Laboratorio",
+            "Escritorio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Pretend' significa",
+          "options": [
+            "Pretender",
+            "Fingir",
+            "Prever",
+            "Proteger"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Push' e",
+          "options": [
+            "Puxar",
+            "Empurrar",
+            "Pressionar",
+            "Pausar"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Word Formation: Prefixes and Suffixes",
+      "slug": "word-formation-prefixes-and-suffixes",
+      "desc": "Formacao de palavras: prefixos (un-, re-, dis-, pre-, mis-) e sufixos (-tion, -ness, -ful, -less, -able, -ly). Estrategia para ENEM.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Prefixos mudam SIGNIFICADO: un- (nao: unhappy), re- (de novo: rewrite), dis- (oposto: disagree), pre- (antes: preview), mis- (errado: misunderstand), over- (demais: overwork). Sufixos mudam CLASSE: -tion (substantivo: education), -ness (substantivo: happiness), -ful (adjetivo: beautiful), -less (sem: homeless), -able (capaz: readable), -ly (adverbio: quickly), -ment (substantivo: movement).",
+      "body": "<h2>Introducao</h2><p>Entender <strong>prefixos e sufixos</strong> ajuda a deduzir o significado de palavras desconhecidas.</p><h2>Prefixos</h2><table><thead><tr><th>Prefixo</th><th>Significado</th><th>Exemplo</th></tr></thead><tbody><tr><td>un-</td><td>nao</td><td>unhappy</td></tr><tr><td>re-</td><td>de novo</td><td>rewrite</td></tr><tr><td>dis-</td><td>oposto</td><td>disagree</td></tr><tr><td>pre-</td><td>antes</td><td>preview</td></tr><tr><td>mis-</td><td>errado</td><td>misunderstand</td></tr></tbody></table><h2>Sufixos</h2><table><thead><tr><th>Sufixo</th><th>Classe</th><th>Exemplo</th></tr></thead><tbody><tr><td>-tion</td><td>Substantivo</td><td>education</td></tr><tr><td>-ful</td><td>Adjetivo</td><td>beautiful</td></tr><tr><td>-less</td><td>Adjetivo (sem)</td><td>homeless</td></tr><tr><td>-ly</td><td>Adverbio</td><td>quickly</td></tr></tbody></table><h2>Resumo</h2><ul><li>Prefixo = significado. Sufixo = classe.</li><li>ENEM: estrategia poderosa para inferir vocabulario</li></ul><h2>Curiosidade</h2><p>Conhecer <strong>20 prefixos e 20 sufixos</strong> te permite decifrar milhares de palavras em ingles!</p>",
+      "faq": [
+        {
+          "q": "Estrategia para ENEM?",
+          "a": "Encontrou palavra desconhecida? Quebre em partes: un+happi+ness = nao+feliz+estado = infelicidade. Prefixo+raiz+sufixo."
+        },
+        {
+          "q": "-ful vs -less?",
+          "a": "-ful = COM. -less = SEM. Careful (cuidadoso) vs careless (descuidado). Beautiful (cheio de beleza) vs homeless (sem lar)."
+        },
+        {
+          "q": "Overwork vs rework?",
+          "a": "Over- = demais (overwork = trabalhar demais). Re- = de novo (rework = refazer o trabalho). Prefixo muda tudo!"
+        },
+        {
+          "q": "Todos os adverbios terminam em -ly?",
+          "a": "Maioria sim (quickly, slowly, carefully). Excecoes: fast, hard, well. 'He runs fast' (nao 'fastly')."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Un- significa",
+          "options": [
+            "De novo",
+            "Nao",
+            "Antes",
+            "Demais"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "-less indica",
+          "options": [
+            "Com",
+            "Sem",
+            "Muito",
+            "Pouco"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Rewrite' significa",
+          "options": [
+            "Escrever mal",
+            "Escrever antes",
+            "Reescrever",
+            "Nao escrever"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "-tion forma",
+          "options": [
+            "Verbo",
+            "Adverbio",
+            "Substantivo",
+            "Adjetivo"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Writing: Emails, Letters, and Essays",
+      "slug": "writing-emails-letters-and-essays",
+      "desc": "Escrita em ingles: emails (Dear/Hi, Best regards), cartas formais e informais, essays (introduction, body, conclusion).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Emails formais: Dear Mr./Ms., I am writing to..., Best regards. Informais: Hi/Hey, See you, Love. Cartas: mesma logica de formalidade. Essays: introduction (thesis statement), body paragraphs (topic sentence + examples), conclusion (restate thesis). Linking words para coesao. Tone: formal vs informal. Register: academic, business, casual.",
+      "body": "<h2>Introducao</h2><p><strong>Escrever em ingles</strong> segue formatos e convencoes especificas.</p><h2>Emails</h2><table><thead><tr><th>Formal</th><th>Informal</th></tr></thead><tbody><tr><td>Dear Mr. Smith,</td><td>Hi John,</td></tr><tr><td>I am writing to inform...</td><td>Just wanted to say...</td></tr><tr><td>Best regards,</td><td>See you! / Love,</td></tr></tbody></table><h2>Essays</h2><ul><li><strong>Introduction:</strong> contexto + thesis statement</li><li><strong>Body:</strong> 2-3 paragrafos com argumentos</li><li><strong>Conclusion:</strong> retoma e fecha</li></ul><h2>Resumo</h2><ul><li>Emails, cartas, essays tem formato proprio</li><li>ENEM: genero textual em ingles</li></ul><h2>Curiosidade</h2><p>Em ingles formal, '<strong>Dear</strong>' nao significa 'querido' - e o equivalente a 'Prezado/a'!</p>",
+      "faq": [
+        {
+          "q": "Dear e querido?",
+          "a": "Em cartas formais, NAO. 'Dear Mr. Smith' = Prezado Sr. Smith. So e 'querido' em cartas pessoais (Dear Mom = Querida mae)."
+        },
+        {
+          "q": "Best regards vs Sincerely?",
+          "a": "Best regards: semi-formal, mais comum. Sincerely: muito formal. Cheers: informal britanico. Love: so para familia/amigos intimos."
+        },
+        {
+          "q": "Essay no ENEM?",
+          "a": "ENEM nao pede redacao em ingles, mas pede LEITURA de essays, emails, cartas. Reconhecer a estrutura ajuda na interpretacao."
+        },
+        {
+          "q": "Thesis statement?",
+          "a": "Frase principal do essay: o que voce vai defender. Fica no final da introducao. Todo o texto gira em torno dela."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Email formal comeca com",
+          "options": [
+            "Hey!",
+            "Hi!",
+            "Dear Mr./Ms.",
+            "What's up"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Thesis statement fica na",
+          "options": [
+            "Conclusao",
+            "Introducao",
+            "Body",
+            "Titulo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Best regards e",
+          "options": [
+            "Muito informal",
+            "Semi-formal",
+            "Muito formal",
+            "Gíria"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Essay tem quantas partes",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

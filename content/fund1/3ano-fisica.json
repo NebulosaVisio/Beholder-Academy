@@ -1,0 +1,874 @@
+{
+  "subject": "Física",
+  "slug": "3ano-fisica",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--fisica)",
+  "icon": "zap",
+  "articles": [
+    {
+      "title": "Eletrostática: Cargas e Forças",
+      "slug": "eletrostatica-cargas-e-forcas",
+      "desc": "Eletrostática: cargas elétricas (próton +, elétron −), Lei de Coulomb (F=kq₁q₂/d²). Eletrização: atrito, contato, indução. Campo elétrico.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Cargas: próton (+), elétron (−). Cargas iguais: repelem. Diferentes: atraem. Lei de Coulomb: F=k·|q₁|·|q₂|/d² (k=9×10⁹). Eletrização: atrito (ambos carregam), contato (divide carga), indução (sem contato). Campo elétrico: E=F/q=kQ/d². Linhas de campo: saem do + e entram no −. Condutor: elétrons livres. Isolante: elétrons presos.",
+      "body": "<h2>Introdução</h2><p>A <strong>Eletrostática</strong> estuda cargas elétricas em repouso e as forças entre elas.</p><h2>Cargas Elétricas</h2><ul><li><strong>Próton:</strong> + (núcleo). <strong>Elétron:</strong> − (eletrosfera)</li><li>Cargas iguais: repulsão. Diferentes: atração</li><li>Carga elementar: e=1,6×10⁻¹⁹ C</li></ul><h2>Lei de Coulomb</h2><p><strong>F = k · |q₁| · |q₂| / d²</strong> (k=9×10⁹ N·m²/C²)</p><h2>Eletrização</h2><table><thead><tr><th>Tipo</th><th>Como</th><th>Resultado</th></tr></thead><tbody><tr><td>Atrito</td><td>Esfregar dois materiais</td><td>Cargas opostas</td></tr><tr><td>Contato</td><td>Encostar</td><td>Mesma carga</td></tr><tr><td>Indução</td><td>Aproximar sem tocar</td><td>Carga oposta ao indutor</td></tr></tbody></table><h2>Campo Elétrico</h2><p><strong>E = F/q = kQ/d²</strong> (N/C ou V/m)</p><h2>Resumo</h2><ul><li>✅ F=kq₁q₂/d² (Coulomb ≈ Newton da eletricidade)</li><li>⚠️ ENEM: eletrização por indução, campo elétrico</li></ul><h2>Curiosidade</h2><p>O <strong>raio</strong> é uma descarga eletrostática gigante! A diferença de potencial entre nuvem e solo pode chegar a <strong>300 milhões de volts</strong>!</p>",
+      "faq": [
+        {
+          "q": "Coulomb parece com Newton?",
+          "a": "Sim! F=kq₁q₂/d² (Coulomb) é análoga a F=GMm/d² (Newton). Ambas dependem do inverso do quadrado da distância. Mas a elétrica pode ser repulsiva!"
+        },
+        {
+          "q": "Por que o cabelo levanta com balão?",
+          "a": "Atrito: balão roubou elétrons do cabelo → cabelo fica +, balão fica −. Cargas opostas atraem → cabelo se levanta em direção ao balão."
+        },
+        {
+          "q": "Indução funciona como?",
+          "a": "Aproxime objeto carregado → cargas do outro se redistribuem (opostas se aproximam). Aterre temporariamente → fixe as cargas. Resultado: carga oposta sem contato."
+        },
+        {
+          "q": "O que é condutor vs isolante?",
+          "a": "Condutor: elétrons livres para se mover (metais). Isolante: elétrons presos (plástico, borracha). Semicondutor: intermediário (silício)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "F = k·q₁·q₂/?²:",
+          "options": [
+            "t",
+            "v",
+            "d",
+            "m"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "k = ?×10⁹:",
+          "options": [
+            "1",
+            "3",
+            "6",
+            "9"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Eletrização por indução: cargas ficam:",
+          "options": [
+            "Iguais",
+            "Opostas",
+            "Neutras",
+            "Sem carga"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cargas iguais:",
+          "options": [
+            "Atraem",
+            "Repelem",
+            "Anulam",
+            "Não interagem"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Potencial Elétrico e Trabalho",
+      "slug": "potencial-eletrico-e-trabalho",
+      "desc": "Potencial elétrico (V=kQ/d), diferença de potencial (ddp), trabalho da força elétrica (τ=qU). Energia potencial elétrica. Equipotenciais.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Potencial elétrico: V=kQ/d (Volt). Escalar (pode ser + ou −). ddp (U): U=V_A−V_B. Trabalho: τ=q·U=q·(V_A−V_B). Energia potencial: Ep=k·q₁·q₂/d. Superfícies equipotenciais: mesma tensão, perpendiculares às linhas de campo. Carga + move-se do maior → menor potencial (espontâneo).",
+      "body": "<h2>Introdução</h2><p>O <strong>potencial elétrico</strong> mede a \"energia por unidade de carga\" em um ponto do campo.</p><h2>Potencial</h2><p><strong>V = kQ/d</strong> (Volt, V)</p><ul><li>Carga +: potencial positivo</li><li>Carga −: potencial negativo</li></ul><h2>Diferença de Potencial (ddp)</h2><p><strong>U = V_A − V_B</strong></p><h2>Trabalho</h2><p><strong>τ = q · U = q · (V_A − V_B)</strong></p><h2>Superfícies Equipotenciais</h2><ul><li>Pontos de mesmo potencial</li><li>Perpendiculares às linhas de campo</li></ul><h2>Resumo</h2><ul><li>✅ V=kQ/d; τ=qU</li><li>⚠️ ENEM: ddp, trabalho elétrico</li></ul><h2>Curiosidade</h2><p>A <strong>voltagem de uma tomada</strong> (127V ou 220V) é a diferença de potencial entre os fios. Quanto maior a ddp, mais \"empurrão\" os elétrons recebem!</p>",
+      "faq": [
+        {
+          "q": "Volt é unidade de quê?",
+          "a": "Potencial elétrico (ou ddp). 1V=1J/C. A tomada de 127V fornece 127 joules de energia para cada coulomb de carga que passa."
+        },
+        {
+          "q": "Potencial é vetor?",
+          "a": "NÃO! Potencial é escalar. Pode ser positivo ou negativo (depende da carga). Campo elétrico é vetor, potencial é escalar."
+        },
+        {
+          "q": "Equipotencial e campo são perpendiculares?",
+          "a": "Sim! Linhas de campo são perpendiculares às superfícies equipotenciais. Se não fossem, haveria componente de campo ao longo da equipotencial → contradição."
+        },
+        {
+          "q": "Trabalho em equipotencial?",
+          "a": "Zero! Se V_A=V_B → U=0 → τ=q·0=0. Mover carga ao longo de uma equipotencial não requer trabalho da força elétrica."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "V = kQ/?:",
+          "options": [
+            "d²",
+            "d",
+            "m",
+            "t"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "τ = q · ?:",
+          "options": [
+            "E",
+            "V",
+            "U",
+            "F"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Potencial é:",
+          "options": [
+            "Vetor",
+            "Escalar",
+            "Tensor",
+            "Nulo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Superfícies equipotenciais são ⊥ a:",
+          "options": [
+            "Potencial",
+            "Linhas de campo",
+            "Corrente",
+            "Gravidade"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Corrente Elétrica",
+      "slug": "corrente-eletrica",
+      "desc": "Corrente elétrica: fluxo de cargas (i=ΔQ/Δt, Ampère). Sentido convencional vs real. Efeitos: térmico (Joule), magnético, químico. Geradores e receptores.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Corrente: i=ΔQ/Δt (Ampère, A). Sentido convencional: do + para o − (externo). Sentido real: do − para o + (elétrons). CC (contínua): pilha. CA (alternada): tomada (60Hz). Efeitos: térmico (Joule: chuveiro), magnético (eletroímã), químico (eletrólise). Gerador: transforma outra energia em elétrica (U=ε−r·i). Receptor: transforma elétrica em outra (U=ε'+r'·i).",
+      "body": "<h2>Introdução</h2><p><strong>Corrente elétrica</strong> é o fluxo ordenado de cargas elétricas (elétrons em metais).</p><h2>Definição</h2><p><strong>i = ΔQ/Δt</strong> (Ampère, A)</p><ul><li>Sentido convencional: + → − (externo ao gerador)</li><li>Sentido real: − → + (elétrons)</li></ul><h2>Tipos</h2><ul><li><strong>CC (contínua):</strong> sentido constante (pilha, bateria)</li><li><strong>CA (alternada):</strong> sentido alterna (tomada, 60Hz no Brasil)</li></ul><h2>Efeitos</h2><table><thead><tr><th>Efeito</th><th>Aplicação</th></tr></thead><tbody><tr><td>Térmico (Joule)</td><td>Chuveiro, ferro de passar</td></tr><tr><td>Magnético</td><td>Eletroímã, motor</td></tr><tr><td>Químico</td><td>Eletrólise, galvanoplastia</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ i=ΔQ/Δt (Ampère)</li><li>⚠️ ENEM: CC vs CA, efeito Joule</li></ul><h2>Curiosidade</h2><p>Os elétrons na corrente movem-se muito <strong>devagar</strong> (~1mm/s)! O que é rápido é o <strong>campo elétrico</strong> que os empurra (~velocidade da luz). É como dominós: a onda é rápida, mas cada peça move pouco.</p>",
+      "faq": [
+        {
+          "q": "CC ou CA em casa?",
+          "a": "CA (alternada) na tomada (127V/220V, 60Hz no Brasil). Pilhas e baterias fornecem CC (contínua). Computadores usam fonte que converte CA→CC."
+        },
+        {
+          "q": "Por que chuveiro esquenta?",
+          "a": "Efeito Joule: corrente passa pelo resistor (resistência alta) → energia elétrica vira calor → esquenta a água. Q=R·i²·t."
+        },
+        {
+          "q": "Choque mata pela corrente ou tensão?",
+          "a": "Pela corrente! Tensão alta facilita corrente alta, mas é a corrente passando pelo corpo (especialmente coração) que é perigosa. ~30mA pelo coração pode ser fatal."
+        },
+        {
+          "q": "O que é Ampère?",
+          "a": "Unidade de corrente: 1A = 1 Coulomb por segundo. Mede o fluxo de carga. Uma lâmpada comum usa ~0,5A."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "i = ΔQ/?:",
+          "options": [
+            "Δt",
+            "ΔV",
+            "ΔR",
+            "ΔP"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Tomada brasileira é:",
+          "options": [
+            "CC",
+            "CA",
+            "Ambas",
+            "Nenhuma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Efeito Joule: elétrica →:",
+          "options": [
+            "Mecânica",
+            "Calor",
+            "Luz",
+            "Química"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sentido convencional: ? → ?:",
+          "options": [
+            "− → +",
+            "+ → −",
+            "Neutro",
+            "Aleatório"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Resistência e Lei de Ohm",
+      "slug": "resistencia-e-lei-de-ohm",
+      "desc": "Resistência elétrica: R=U/i (Ohm, Ω). 1ª Lei de Ohm (R=constante). 2ª Lei: R=ρL/A. Resistividade. Resistor ôhmico. Código de cores.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "1ª Lei de Ohm: R=U/i (Ω). Ôhmico: R constante (gráfico U×i é reta). 2ª Lei de Ohm: R=ρ·L/A (ρ=resistividade do material, L=comprimento, A=área da seção). Maior L → maior R. Maior A → menor R. Supercondutores: R=0 (baixíssimas temperaturas). Reostato: resistor variável.",
+      "body": "<h2>Introdução</h2><p>A <strong>resistência</strong> (R) mede a oposição ao fluxo de corrente em um condutor.</p><h2>1ª Lei de Ohm</h2><p><strong>R = U/i</strong> (Ohm, Ω)</p><ul><li>Resistor ôhmico: R constante (gráfico U×i = reta passando pela origem)</li></ul><h2>2ª Lei de Ohm</h2><p><strong>R = ρ · L / A</strong></p><ul><li>ρ = resistividade (material)</li><li>L = comprimento (↑L → ↑R)</li><li>A = área da seção (↑A → ↓R)</li></ul><h2>Fatores</h2><table><thead><tr><th>Fator</th><th>↑ Aumenta R</th><th>↓ Diminui R</th></tr></thead><tbody><tr><td>Comprimento</td><td>Fio mais longo</td><td>Fio mais curto</td></tr><tr><td>Área</td><td>Fio mais fino</td><td>Fio mais grosso</td></tr><tr><td>Material</td><td>Alta ρ</td><td>Baixa ρ (cobre)</td></tr><tr><td>Temperatura</td><td>↑T (metais)</td><td>↓T</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ R=U/i; R=ρL/A</li><li>⚠️ ENEM: 2ª Lei de Ohm (fio longo e fino → maior R)</li></ul><h2>Curiosidade</h2><p><strong>Supercondutores</strong> têm R=0! Corrente flui para sempre sem perda. Mas precisam de temperaturas extremas (próximas de 0K). Trens Maglev usam supercondutores para levitação!</p>",
+      "faq": [
+        {
+          "q": "R=U/i: se U dobra, i?",
+          "a": "Em resistor ôhmico (R constante), se U dobra, i dobra. São diretamente proporcionais. É a essência da 1ª Lei de Ohm."
+        },
+        {
+          "q": "Fio grosso tem mais ou menos R?",
+          "a": "Menos R! R=ρL/A: maior A → menor R. Fio grosso permite mais passagem de corrente. É como cano largo: mais água flui."
+        },
+        {
+          "q": "O que é supercondutividade?",
+          "a": "R=0 em materiais a temperaturas muito baixas. Corrente flui sem perda de energia. Aplicações: MRI, aceleradores de partículas, trens Maglev."
+        },
+        {
+          "q": "Resistor ôhmico vs não-ôhmico?",
+          "a": "Ôhmico: R constante (lâmpada de resistor, fio metálico em T constante). Não-ôhmico: R varia (lâmpada incandescente, diodo). Gráfico U×i curvo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "R = U/?:",
+          "options": [
+            "Q",
+            "t",
+            "i",
+            "P"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "R = ρ·L/?:",
+          "options": [
+            "t",
+            "A",
+            "m",
+            "d"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fio longo e fino tem R:",
+          "options": [
+            "Baixa",
+            "Alta",
+            "Zero",
+            "Infinita"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Supercondutores: R=:",
+          "options": [
+            "∞",
+            "1",
+            "0",
+            "Variável"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Potência Elétrica e Energia",
+      "slug": "potencia-eletrica-e-energia",
+      "desc": "Potência elétrica: P=U·i=R·i²=U²/R (Watt). Energia consumida: E=P·t (Joule ou kWh). Efeito Joule (dissipação térmica). Conta de luz.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Potência: P=U·i=R·i²=U²/R (Watt). Energia: E=P·t (Joule). kWh: 1kWh=3,6×10⁶J (unidade da conta de luz). Efeito Joule: Q=R·i²·t (calor dissipado). Chuveiro elétrico: maior consumo residencial (~5500W). Economia: P×horas×dias×preço/kWh. Lâmpada LED: ~10W vs incandescente ~60W para mesma luminosidade.",
+      "body": "<h2>Introdução</h2><p><strong>Potência elétrica</strong> é a taxa de consumo/geração de energia elétrica.</p><h2>Fórmulas</h2><ul><li><strong>P = U · i</strong></li><li><strong>P = R · i²</strong></li><li><strong>P = U² / R</strong></li></ul><h2>Energia e kWh</h2><ul><li><strong>E = P · t</strong> (Joule)</li><li>1 kWh = 1000W × 1h = 3,6×10⁶ J</li><li>Conta de luz: consumo em kWh × tarifa</li></ul><h2>Economia</h2><table><thead><tr><th>Aparelho</th><th>Potência</th></tr></thead><tbody><tr><td>Chuveiro</td><td>~5500W</td></tr><tr><td>Ar-condicionado</td><td>~1400W</td></tr><tr><td>Geladeira</td><td>~150W</td></tr><tr><td>LED</td><td>~10W</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ P=Ui; E=Pt; conta de luz em kWh</li><li>⚠️ ENEM: cálculo de consumo, comparação de lâmpadas</li></ul><h2>Curiosidade</h2><p>O <strong>chuveiro elétrico</strong> consome ~5500W, mais que todos os outros aparelhos da casa juntos! Um banho de 15 min gasta ~1,4 kWh — equivalente a uma TV ligada por 14 horas!</p>",
+      "faq": [
+        {
+          "q": "kWh é potência ou energia?",
+          "a": "ENERGIA! kW=potência, h=tempo. kWh=kW×h=energia. Conta de luz cobra pela ENERGIA consumida (kWh), não pela potência."
+        },
+        {
+          "q": "127V ou 220V: qual gasta mais?",
+          "a": "A mesma energia! P=U²/R. Se projetado para 220V, a resistência é maior → mesma potência. A vantagem de 220V é corrente menor (i=P/U) → fios mais finos."
+        },
+        {
+          "q": "LED economiza por quê?",
+          "a": "LED converte mais energia em luz (e menos em calor) que incandescente. 10W de LED ≈ 60W de incandescente em luminosidade. Economia de ~80%."
+        },
+        {
+          "q": "Chuveiro gasta tanto por quê?",
+          "a": "Porque precisa aquecer água (c alto = 4186 J/kg·K) em tempo curto. Requer muita potência. Reduzir tempo de banho é a melhor forma de economizar."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "P = U · ?:",
+          "options": [
+            "R",
+            "t",
+            "i",
+            "Q"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "kWh é unidade de:",
+          "options": [
+            "Potência",
+            "Energia",
+            "Corrente",
+            "Tensão"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Chuveiro consome ~:",
+          "options": [
+            "100W",
+            "500W",
+            "1500W",
+            "5500W"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "LED economiza ~?% vs incandescente:",
+          "options": [
+            "10%",
+            "30%",
+            "50%",
+            "80%"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Circuitos Elétricos",
+      "slug": "circuitos-eletricos",
+      "desc": "Circuitos: série e paralelo. Leis de Kirchhoff. Resistores em série (R_eq=R₁+R₂) e paralelo (1/R_eq=1/R₁+1/R₂). Amperímetro e voltímetro.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Série: mesma corrente, tensão se divide. R_eq=R₁+R₂+... Paralelo: mesma tensão, corrente se divide. 1/R_eq=1/R₁+1/R₂+... Kirchhoff: 1ª Lei (nó): Σi_entra=Σi_sai. 2ª Lei (malha): ΣU=0. Amperímetro: em série (R≈0). Voltímetro: em paralelo (R≈∞). Curto-circuito: R≈0 → i altíssima → superaquecimento.",
+      "body": "<h2>Introdução</h2><p><strong>Circuitos</strong> são caminhos fechados por onde a corrente elétrica circula.</p><h2>Série vs Paralelo</h2><table><thead><tr><th>Característica</th><th>Série</th><th>Paralelo</th></tr></thead><tbody><tr><td>Corrente</td><td>Mesma em todos</td><td>Se divide</td></tr><tr><td>Tensão</td><td>Se divide</td><td>Mesma em todos</td></tr><tr><td>R_eq</td><td>R₁+R₂+...</td><td>1/R₁+1/R₂+...</td></tr><tr><td>Se 1 queima</td><td>Todos param</td><td>Outros funcionam</td></tr></tbody></table><h2>Leis de Kirchhoff</h2><ul><li><strong>1ª (Nós):</strong> corrente que entra = corrente que sai</li><li><strong>2ª (Malhas):</strong> soma das tensões em malha fechada = 0</li></ul><h2>Instrumentos</h2><ul><li>Amperímetro: em SÉRIE (R interna≈0)</li><li>Voltímetro: em PARALELO (R interna≈∞)</li></ul><h2>Resumo</h2><ul><li>✅ Série: i igual, U divide. Paralelo: U igual, i divide.</li><li>⚠️ ENEM: calcular R_eq, corrente e tensão em circuitos mistos</li></ul><h2>Curiosidade</h2><p>Luzes de Natal antigas eram em <strong>série</strong>: se uma queimava, todas apagavam! Modernas são em <strong>paralelo</strong>: uma queima e as outras continuam.</p>",
+      "faq": [
+        {
+          "q": "Série ou paralelo em casa?",
+          "a": "Paralelo! Cada tomada recebe a mesma tensão (127V ou 220V). Se fosse série, a tensão se dividiria e cada aparelho receberia menos."
+        },
+        {
+          "q": "O que é curto-circuito?",
+          "a": "Quando corrente encontra caminho de R≈0 (fios se tocam). i=U/R → R≈0 → i→∞ → superaquecimento → incêndio. Disjuntor/fusível protege."
+        },
+        {
+          "q": "Amperímetro em paralelo queima?",
+          "a": "Sim! Amperímetro tem R≈0. Em paralelo, toda corrente passaria por ele (curto). Sempre em SÉRIE. Voltímetro em série bloquearia a corrente (R≈∞)."
+        },
+        {
+          "q": "2 resistores de 10Ω em paralelo dão:",
+          "a": "1/R_eq=1/10+1/10=2/10 → R_eq=5Ω. Paralelo SEMPRE diminui R_eq. Em geral: R_eq=R₁·R₂/(R₁+R₂) para 2 resistores."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Em série, corrente é:",
+          "options": [
+            "Dividida",
+            "A mesma",
+            "Zero",
+            "Dobro"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "R_eq em paralelo: 1/R_eq = ?:",
+          "options": [
+            "R₁+R₂",
+            "R₁·R₂",
+            "1/R₁+1/R₂",
+            "R₁-R₂"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Amperímetro vai em:",
+          "options": [
+            "Paralelo",
+            "Série",
+            "Qualquer",
+            "Nenhum"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Curto-circuito: R≈? → i≈?:",
+          "options": [
+            "∞, 0",
+            "0, ∞",
+            "1, 1",
+            "10, 10"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Magnetismo",
+      "slug": "magnetismo",
+      "desc": "Magnetismo: ímãs, polos (N/S), campo magnético (B). Bússola. Magnetismo terrestre. Inseparabilidade dos polos. Materiais ferromagnéticos.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Ímãs: polos Norte (N) e Sul (S). Iguais repelem, diferentes atraem. Inseparáveis: quebrar ímã → 2 ímãs menores (monopolos não existem). Campo magnético (B): linhas saem do N, entram no S. Terra: gigante ímã (polo N geográfico≈polo S magnético). Bússola: agulha magnética aponta para o N geográfico. Materiais ferromagnéticos: ferro, cobalto, níquel.",
+      "body": "<h2>Introdução</h2><p>O <strong>magnetismo</strong> estuda as propriedades dos ímãs e campos magnéticos.</p><h2>Ímãs</h2><ul><li>2 polos: <strong>Norte (N)</strong> e <strong>Sul (S)</strong></li><li>Iguais repelem, diferentes atraem (como cargas!)</li><li>Inseparáveis: impossível ter monopolo magnético</li></ul><h2>Campo Magnético</h2><ul><li>Linhas de campo: saem de N → entram em S</li><li>Campo intenso: linhas próximas</li></ul><h2>Magnetismo Terrestre</h2><ul><li>Terra = grande ímã</li><li>Polo N geográfico ≈ polo S magnético (por isso bússola N aponta para lá)</li></ul><h2>Resumo</h2><ul><li>✅ Polos inseparáveis. Linhas: N→S (externo)</li><li>⚠️ ENEM: bússola, campo magnético terrestre</li></ul><h2>Curiosidade</h2><p>A <strong>aurora boreal</strong> acontece porque partículas carregadas do Sol são guiadas pelo campo magnético da Terra para os polos, colidindo com a atmosfera e emitindo luz!</p>",
+      "faq": [
+        {
+          "q": "Monopolo magnético existe?",
+          "a": "Nunca foi encontrado! Sempre que quebramos um ímã, surgem 2 ímãs menores com N e S. A busca por monopolos é uma das grandes questões da Física."
+        },
+        {
+          "q": "Bússola aponta para o norte por quê?",
+          "a": "A agulha (imã) tem polo N que é atraído pelo polo S magnético da Terra, que fica perto do polo N geográfico. 'Opostos se atraem!'"
+        },
+        {
+          "q": "Todo metal é magnético?",
+          "a": "Não! Só ferromagnéticos: ferro, cobalto, níquel. Alumínio, cobre, ouro não são atraídos por ímãs comuns."
+        },
+        {
+          "q": "O campo da Terra muda?",
+          "a": "Sim! Os polos magnéticos migram (~40km/ano). E inversões já ocorreram (~780.000 anos atrás). Registrado em rochas vulcânicas no fundo do oceano."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Linhas de campo saem do polo:",
+          "options": [
+            "Sul",
+            "Norte",
+            "Ambos",
+            "Nenhum"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Monopolo magnético:",
+          "options": [
+            "Existe",
+            "Não existe",
+            "É raro",
+            "Só em laboratório"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Aurora boreal é causada por:",
+          "options": [
+            "Lua",
+            "Campo magnético + partículas solares",
+            "Raios",
+            "Vulcões"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Material ferromagnético:",
+          "options": [
+            "Cobre",
+            "Alumínio",
+            "Ferro",
+            "Ouro"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Eletromagnetismo",
+      "slug": "eletromagnetismo",
+      "desc": "Eletromagnetismo: corrente gera campo magnético. Oersted. Regra da mão direita. Solenoide (eletroímã). Força sobre fio (F=BiL). Força de Lorentz (F=qvBsinθ).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Oersted (1820): corrente gera campo magnético. Regra da mão direita: polegar=corrente, dedos curvos=campo. Solenoide/eletroímã: bobina com corrente → campo uniforme dentro. Força magnética sobre fio com corrente: F=B·i·L·sinθ. Força de Lorentz: F=q·v·B·sinθ (perpendicular a v e B → movimento circular). Motor elétrico: corrente + campo → rotação.",
+      "body": "<h2>Introdução</h2><p><strong>Eletricidade e magnetismo</strong> estão ligados: corrente elétrica gera campo magnético (Oersted, 1820).</p><h2>Oersted</h2><p>Corrente em fio desvia bússola → <strong>corrente gera campo magnético</strong>.</p><h2>Regra da Mão Direita</h2><ul><li>Polegar: sentido da corrente</li><li>Dedos curvos: sentido do campo</li></ul><h2>Eletroímã (Solenoide)</h2><ul><li>Bobina com corrente → campo uniforme dentro</li><li>Pode ser ligado/desligado (diferente de ímã permanente)</li></ul><h2>Forças Magnéticas</h2><table><thead><tr><th>Sobre</th><th>Fórmula</th></tr></thead><tbody><tr><td>Fio com corrente</td><td>F = B·i·L·sinθ</td></tr><tr><td>Carga em movimento</td><td>F = q·v·B·sinθ (Lorentz)</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Corrente→campo. F=BiLsinθ. Motor=corrente+campo.</li><li>⚠️ ENEM: Lorentz, eletroímã, motor elétrico</li></ul><h2>Curiosidade</h2><p>O <strong>motor elétrico</strong> usa o eletromagnetismo: corrente em uma bobina dentro de um campo magnético → força → rotação. Presente em ventiladores, geladeiras, carros elétricos!</p>",
+      "faq": [
+        {
+          "q": "Motor elétrico funciona como?",
+          "a": "Corrente em bobina + campo magnético de ímã → força (F=BiL) → torque → rotação. Inverter corrente a cada meia volta mantém a rotação contínua."
+        },
+        {
+          "q": "Eletroímã vs ímã permanente?",
+          "a": "Eletroímã: pode ser ligado/desligado, intensidade ajustável. Permanente: sempre ativo, não ajustável. Eletroímãs são usados em ferros-velhos, MRI, fechaduras."
+        },
+        {
+          "q": "Força de Lorentz faz o quê?",
+          "a": "Desvia cargas em movimento: F⊥v (perpendicular à velocidade) → trajetória circular. Usada em aceleradores de partículas e monitores CRT antigos."
+        },
+        {
+          "q": "Se θ=0°, F=?",
+          "a": "F=qvBsin(0°)=0! Se a carga se move paralela ao campo, não sente força. Só sente se tiver componente perpendicular ao campo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Oersted: corrente gera:",
+          "options": [
+            "Calor",
+            "Campo magnético",
+            "Luz",
+            "Som"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "F = q·v·B·sinθ é a força de:",
+          "options": [
+            "Coulomb",
+            "Newton",
+            "Lorentz",
+            "Gauss"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Eletroímã pode ser:",
+          "options": [
+            "Só ligado",
+            "Ligado e desligado",
+            "Só desligado",
+            "Permanente"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Motor elétrico usa:",
+          "options": [
+            "Corrente + campo magnético",
+            "Gravidade",
+            "Pressão",
+            "Calor"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Indução Eletromagnética",
+      "slug": "inducao-eletromagnetica",
+      "desc": "Indução: Lei de Faraday (ε=-ΔΦ/Δt), Lei de Lenz (sentido se opõe à variação). Gerador elétrico. Transformador. Corrente alternada.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Faraday (1831): variação de fluxo magnético gera fem (ε=-ΔΦ/Δt). Fluxo: Φ=B·A·cosθ. Lenz: corrente induzida se opõe à variação do fluxo que a gerou. Gerador: movimento mecânico → variação de fluxo → corrente (inverso do motor). Transformador: V₁/V₂=N₁/N₂ (muda tensão em CA). Elevador: mais espiras no secundário. Abaixador: menos espiras.",
+      "body": "<h2>Introdução</h2><p><strong>Indução eletromagnética</strong>: variação de campo magnético gera corrente elétrica (Faraday, 1831).</p><h2>Lei de Faraday</h2><p><strong>ε = -ΔΦ/Δt</strong> (fem induzida)</p><ul><li>Φ = B·A·cosθ (fluxo magnético, Weber)</li><li>Variação de Φ → fem → corrente induzida</li></ul><h2>Lei de Lenz</h2><p>Corrente induzida se <strong>opõe</strong> à variação do fluxo que a causou (conservação de energia).</p><h2>Aplicações</h2><table><thead><tr><th>Dispositivo</th><th>Função</th></tr></thead><tbody><tr><td>Gerador</td><td>Mecânica → Elétrica</td></tr><tr><td>Transformador</td><td>V₁/V₂ = N₁/N₂</td></tr></tbody></table><h2>Transformador</h2><p><strong>V₁/V₂ = N₁/N₂</strong> (tensão proporcional às espiras)</p><h2>Resumo</h2><ul><li>✅ ε=-ΔΦ/Δt; V₁/V₂=N₁/N₂</li><li>⚠️ ENEM: Lenz (sentido), transformador, gerador</li></ul><h2>Curiosidade</h2><p>A <strong>transmissão de energia</strong> usa alta tensão (~500.000V) para reduzir perdas (P=R·i²: alta V → baixa i → menos perda). Transformadores sobem e descem a tensão!</p>",
+      "faq": [
+        {
+          "q": "Motor vs gerador?",
+          "a": "São o inverso! Motor: eletricidade→movimento. Gerador: movimento→eletricidade. Ambos usam eletromagnetismo. Um dínamo de bicicleta é um gerador."
+        },
+        {
+          "q": "Transformador funciona com CC?",
+          "a": "NÃO! Só com CA. Transformador precisa de variação de fluxo (ΔΦ). CC tem fluxo constante → ΔΦ=0 → sem indução."
+        },
+        {
+          "q": "Lenz se opõe como?",
+          "a": "Se fluxo aumenta, corrente induzida cria campo que se opõe (tenta diminuir). Se diminui, tenta manter. É como 'inércia magnética'."
+        },
+        {
+          "q": "Transmissão em alta tensão por quê?",
+          "a": "P_perda=R·i². Se V↑, i↓ (para mesma potência: P=V·i). Menos corrente → menos perda por efeito Joule nos fios."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "ε = -ΔΦ/?:",
+          "options": [
+            "ΔQ",
+            "Δi",
+            "Δt",
+            "ΔR"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Transformador funciona com:",
+          "options": [
+            "CC",
+            "CA",
+            "Ambas",
+            "Nenhuma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Lenz: corrente induzida:",
+          "options": [
+            "Favorece variação",
+            "Se opõe à variação",
+            "É constante",
+            "Não existe"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gerador converte:",
+          "options": [
+            "Elétrica→mecânica",
+            "Mecânica→elétrica",
+            "Calor→luz",
+            "Química→elétrica"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Ondas Eletromagnéticas",
+      "slug": "ondas-eletromagneticas",
+      "desc": "Ondas eletromagnéticas: Maxwell. Espectro: rádio, micro-ondas, infravermelho, visível, UV, raios X, gama. Velocidade=c=3×10⁸ m/s no vácuo.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Maxwell: campos elétrico e magnético oscilantes perpendiculares se propagam como onda (sem meio). v=c=3×10⁸ m/s no vácuo. Espectro: rádio→micro-ondas→IV→visível→UV→raios X→gama. f crescente, λ decrescente. Visível: vermelho (700nm) a violeta (400nm). Aplicações: rádio (comunicação), IV (controle remoto), UV (bronzeamento), raios X (medicina), gama (radioterapia).",
+      "body": "<h2>Introdução</h2><p><strong>Ondas eletromagnéticas (EM)</strong> são campos E e B oscilantes perpendiculares que se propagam no vácuo a <strong>c=3×10⁸ m/s</strong>.</p><h2>Espectro Eletromagnético</h2><table><thead><tr><th>Tipo</th><th>λ</th><th>Aplicação</th></tr></thead><tbody><tr><td>Rádio</td><td>km→m</td><td>Comunicação, TV</td></tr><tr><td>Micro-ondas</td><td>cm</td><td>Forno, celular, Wi-Fi</td></tr><tr><td>Infravermelho</td><td>μm</td><td>Controle remoto, câmera térmica</td></tr><tr><td>Visível</td><td>400-700nm</td><td>Olhos humanos</td></tr><tr><td>Ultravioleta</td><td>nm</td><td>Bronzeamento, esterilização</td></tr><tr><td>Raios X</td><td>Å</td><td>Radiografia</td></tr><tr><td>Gama (γ)</td><td>pm</td><td>Radioterapia</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ c=λ·f=3×10⁸ m/s. Todas EM viajam a c no vácuo.</li><li>⚠️ ENEM: espectro, aplicações de cada faixa</li></ul><h2>Curiosidade</h2><p>O <strong>forno micro-ondas</strong> emite ondas de ~12cm que fazem as moléculas de água vibrar → fricção → calor. Por isso alimentos secos não esquentam bem no micro-ondas!</p>",
+      "faq": [
+        {
+          "q": "Todas EM viajam a c?",
+          "a": "No vácuo, sim! Todas a 3×10⁸ m/s. Em meios materiais, velocidade diminui (n=c/v). A frequência não muda, o λ sim."
+        },
+        {
+          "q": "Luz visível é que faixa?",
+          "a": "400nm (violeta) a 700nm (vermelho). É uma faixa estreitíssima do espectro total! Nossos olhos evoluíram para detectar essa faixa porque o Sol emite mais nela."
+        },
+        {
+          "q": "Raios X e gama: diferença?",
+          "a": "Principalmente a origem. Raios X: emitidos por desaceleração de elétrons (transição eletrônica). Gama: emitidos pelo núcleo atômico (decaimento radioativo). Energias podem se sobrepor."
+        },
+        {
+          "q": "Wi-Fi é que tipo de onda?",
+          "a": "Micro-ondas (2,4GHz ou 5GHz). Mesma faixa do forno micro-ondas, mas potência muito menor. Não esquenta comida porque a potência é insuficiente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "c = ?×10⁸ m/s:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Raios X são usados em:",
+          "options": [
+            "Cozinha",
+            "Radiografia",
+            "Rádio",
+            "TV"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Luz visível: λ ~:",
+          "options": [
+            "1mm",
+            "400-700nm",
+            "1cm",
+            "1μm"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Micro-ondas aquecem por vibração de:",
+          "options": [
+            "Gordura",
+            "Proteína",
+            "Água",
+            "Sal"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Física Moderna: Relatividade",
+      "slug": "fisica-moderna-relatividade",
+      "desc": "Relatividade: Einstein (1905). Especial: c é constante, dilatação temporal, contração espacial, E=mc². Geral: gravidade=curvatura do espaço-tempo.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Relatividade Especial (1905): velocidade da luz (c) é constante para todos os observadores. Consequências: dilatação temporal (tempo passa mais devagar para quem se move rápido), contração de Lorentz (comprimentos encolhem na direção do movimento). E=mc² (massa=energia). Relatividade Geral (1915): gravidade = curvatura do espaço-tempo causada por massa. Buracos negros, ondas gravitacionais.",
+      "body": "<h2>Introdução</h2><p><strong>Einstein</strong> revolucionou a Física com a Relatividade: espaço e tempo são relativos, c é absoluto.</p><h2>Relatividade Especial (1905)</h2><ul><li><strong>c é constante</strong> para todos os observadores (~3×10⁸ m/s)</li><li><strong>Dilatação temporal:</strong> tempo passa mais devagar para quem viaja rápido</li><li><strong>Contração de Lorentz:</strong> objetos encolhem na direção do movimento</li><li><strong>E=mc²:</strong> massa e energia são equivalentes</li></ul><h2>Relatividade Geral (1915)</h2><ul><li><strong>Gravidade = curvatura do espaço-tempo</strong> causada por massa</li><li>Buracos negros: curvatura extrema, nem luz escapa</li><li>Ondas gravitacionais: detectadas em 2015 (LIGO)</li></ul><h2>Resumo</h2><ul><li>✅ E=mc² (a equação mais famosa da Física!)</li><li>⚠️ ENEM: E=mc², dilatação temporal, GPS</li></ul><h2>Curiosidade</h2><p>O <strong>GPS</strong> usa correções relativísticas! Sem elas, a posição erraria ~10km/dia. Os relógios nos satélites adiantam ~38μs/dia devido à relatividade (geral+especial).</p>",
+      "faq": [
+        {
+          "q": "E=mc² na prática?",
+          "a": "Bombas atômicas e usinas nucleares: uma pequena massa se converte em ENORME energia (c² é gigantesco). Fusão no Sol: 4H→He, a massa 'perdida' vira energia (luz e calor)."
+        },
+        {
+          "q": "Nada viaja mais rápido que a luz?",
+          "a": "Nenhuma informação ou matéria pode viajar a v>c. À medida que v→c, a energia necessária→∞. É um limite fundamental da natureza."
+        },
+        {
+          "q": "Dilatação temporal é real?",
+          "a": "Sim! Medida experimentalmente: relógios atômicos em aviões ficam atrasados em relação a relógios em terra. Partículas em aceleradores vivem mais tempo que o esperado."
+        },
+        {
+          "q": "Buraco negro: o que é?",
+          "a": "Objeto com gravidade tão forte que nem a luz escapa. Forma-se quando estrelas massivas colapsam. O horizonte de eventos é o 'ponto sem retorno'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "E = m · ?²:",
+          "options": [
+            "v",
+            "a",
+            "c",
+            "g"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "c é constante para:",
+          "options": [
+            "Alguns observadores",
+            "Todos os observadores",
+            "Nenhum",
+            "Só em repouso"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gravidade na Geral é:",
+          "options": [
+            "Força",
+            "Curvatura do espaço-tempo",
+            "Partícula",
+            "Onda"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "GPS precisa de correção:",
+          "options": [
+            "Quântica",
+            "Relativística",
+            "Newtoniana",
+            "Nenhuma"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Física Moderna: Quântica",
+      "slug": "fisica-moderna-quantica",
+      "desc": "Física Quântica: dualidade onda-partícula, efeito fotoelétrico (Einstein), quantização de Planck (E=hf). Princípio da incerteza (Heisenberg). Átomo de Bohr.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Planck (1900): energia é quantizada, E=hf (h=6,63×10⁻³⁴ J·s). Einstein (1905): efeito fotoelétrico → luz é partícula (fóton). Dualidade onda-partícula: luz é onda E partícula. De Broglie: matéria também tem comportamento ondulatório (λ=h/mv). Heisenberg: impossível medir posição e momento simultaneamente com precisão total. Bohr: elétrons em órbitas quantizadas, emitem/absorvem fótons ao mudar de nível.",
+      "body": "<h2>Introdução</h2><p>A <strong>Física Quântica</strong> descreve o mundo subatômico, onde as regras clássicas não funcionam.</p><h2>Quantização</h2><ul><li><strong>Planck (1900):</strong> energia vem em \"pacotes\" (quanta). E=h·f</li><li>h = 6,63×10⁻³⁴ J·s (constante de Planck)</li></ul><h2>Efeito Fotoelétrico (Einstein, 1905)</h2><ul><li>Luz incidindo em metal → arranca elétrons</li><li>Depende da FREQUÊNCIA (não intensidade) → luz é partícula (fóton)</li></ul><h2>Dualidade Onda-Partícula</h2><ul><li>Luz: onda E partícula (complementaridade)</li><li>De Broglie: matéria também tem λ=h/mv</li></ul><h2>Princípio da Incerteza (Heisenberg)</h2><p>Δx·Δp ≥ h/4π (impossível saber posição e momento com precisão total simultaneamente)</p><h2>Resumo</h2><ul><li>✅ E=hf (Planck). Fóton=partícula de luz.</li><li>⚠️ ENEM: efeito fotoelétrico, E=hf</li></ul><h2>Curiosidade</h2><p>Einstein ganhou o <strong>Nobel</strong> não pela Relatividade, mas pelo <strong>efeito fotoelétrico</strong>! Ele mostrou que luz é partícula (fóton), desafiando a visão ondulatória clássica.</p>",
+      "faq": [
+        {
+          "q": "Luz é onda ou partícula?",
+          "a": "AMBAS! Dualidade onda-partícula. Em experimentos de interferência: comportamento ondulatório. No efeito fotoelétrico: comportamento de partícula. Depende do experimento."
+        },
+        {
+          "q": "Efeito fotoelétrico: por que f importa mais que intensidade?",
+          "a": "Cada fóton tem E=hf. Se f<f₀ (frequência de corte), o fóton não tem energia suficiente para arrancar elétron, NÃO importa quantos fótons incidam (intensidade)."
+        },
+        {
+          "q": "Heisenberg: não podemos medir nada?",
+          "a": "Podemos! Mas há um LIMITE de precisão simultânea de posição e momento. Para objetos grandes (bolas, carros), o efeito é desprezível. Só importa em escala subatômica."
+        },
+        {
+          "q": "Schrodinger e o gato?",
+          "a": "Experimento mental: gato numa caixa está 'vivo E morto' ao mesmo tempo (superposição quântica) até abrir a caixa (medição). Mostra o absurdo da superposição em escala macroscópica."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "E = h · ?:",
+          "options": [
+            "v",
+            "λ",
+            "f",
+            "m"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Efeito fotoelétrico provou que luz é:",
+          "options": [
+            "Onda",
+            "Partícula",
+            "Som",
+            "Calor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Heisenberg: não podemos saber ao mesmo tempo:",
+          "options": [
+            "Massa e carga",
+            "Posição e momento",
+            "Temperatura e pressão",
+            "Cor e forma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Nobel de Einstein foi por:",
+          "options": [
+            "Relatividade",
+            "E=mc²",
+            "Efeito fotoelétrico",
+            "Buracos negros"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "subject": "Literatura",
+  "slug": "2ano-literatura",
+  "level": "Fundamental 1",
+  "grade": "2º ano",
+  "color": "var(--literatura)",
+  "icon": "book-open",
+  "articles": [
+    {
+      "title": "Romantismo: Características",
+      "slug": "romantismo-caracteristicas",
+      "desc": "Romantismo: subjetividade, sentimentalismo, liberdade criadora, nacionalismo, idealizacao, escapismo. Sec. XIX. Contexto historico.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Romantismo (sec. XIX): subjetividade, emocao > razao. Liberdade criadora (contra regras classicas). Nacionalismo: valorizar a patria. Idealizacao: do amor, da mulher, do heroi. Escapismo: fuga pela morte, sonho, passado. Eu > coletivo. Contexto: Independencia do Brasil (1822), liberalismo, burguesia. Em prosa: romance urbano, regional, indianista. 3 geracoes na poesia.",
+      "body": "<h2>Introducao</h2><p>O <strong>Romantismo</strong> revolucionou a literatura com emocao, liberdade e nacionalismo.</p><h2>Caracteristicas</h2><table><thead><tr><th>Aspecto</th><th>Romantico</th><th>Classico</th></tr></thead><tbody><tr><td>Foco</td><td>Emocao, subjetividade</td><td>Razao, equilibrio</td></tr><tr><td>Forma</td><td>Livre</td><td>Regras rigidas</td></tr><tr><td>Tema</td><td>Eu, nacao, amor</td><td>Universais, mitologia</td></tr><tr><td>Natureza</td><td>Selvagem, grandiosa</td><td>Bucolica, equilibrada</td></tr></tbody></table><h2>Resumo</h2><ul><li>Emocao, nacionalismo, liberdade</li><li>ENEM: Romantismo e muito cobrado</li></ul><h2>Curiosidade</h2><p>O Romantismo brasileiro comecou com '<strong>Suspiros Poeticos e Saudades</strong>' de Goncalves de Magalhaes (1836)!</p>",
+      "faq": [
+        {
+          "q": "Romantismo = romance?",
+          "a": "NAO so! Romantismo e um MOVIMENTO artistico amplo (poesia, prosa, teatro, musica, pintura). Romance e um genero literario que floresceu nele."
+        },
+        {
+          "q": "Idealizacao?",
+          "a": "Mulher e anjo. Amor e absoluto. Indio e nobre. Patria e perfeita. Romantismo EMBELEZA a realidade. Realismo fara o oposto depois."
+        },
+        {
+          "q": "Nacionalismo?",
+          "a": "Pos-Independencia (1822), Brasil precisava de identidade. Romantismo criou simbolos nacionais: indio como heroi, natureza tropical, lingua brasileira."
+        },
+        {
+          "q": "3 geracoes?",
+          "a": "1a: nacionalista/indianista. 2a: ultrarromantica (mal do seculo, morte). 3a: condoreirista (poesia social, abolicionismo). Cada uma com tom diferente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Romantismo prioriza",
+          "options": [
+            "Razao",
+            "Emocao",
+            "Ciencia",
+            "Forma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Independencia do Brasil",
+          "options": [
+            "1808",
+            "1822",
+            "1836",
+            "1850"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Romantismo tem quantas geracoes",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Idealizacao romantica embeleza",
+          "options": [
+            "A ciencia",
+            "A realidade",
+            "A razao",
+            "A logica"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Romantismo — 1ª Geração: Nacionalista/Indianista",
+      "slug": "romantismo-1-geracao-nacionalista-indianista",
+      "desc": "1a geracao romantica: nacionalismo, indianismo. Goncalves Dias (I-Juca-Pirama, Cancao do Exilio). Indio como heroi nacional.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "1a geracao (nacionalista/indianista): Goncalves Dias. Indianismo: indio idealizado como heroi nobre. Cancao do Exilio: 'Minha terra tem palmeiras onde canta o sabia...' Poema mais famoso da literatura brasileira. I-Juca-Pirama: indio tupi que vai morrer com honra. Saudade da patria, natureza tropical, identidade nacional.",
+      "body": "<h2>Introducao</h2><p>A <strong>1a geracao romantica</strong> criou a identidade literaria brasileira.</p><h2>Goncalves Dias</h2><ul><li><strong>Cancao do Exilio:</strong> 'Minha terra tem palmeiras...'</li><li><strong>I-Juca-Pirama:</strong> guerreiro tupi condenado a morrer</li></ul><h2>Indianismo</h2><p>O indio e idealizado como heroi nobre, corajoso, puro - o 'bom selvagem' brasileiro.</p><h2>Resumo</h2><ul><li>Nacionalismo + indianismo</li><li>ENEM: Cancao do Exilio, I-Juca-Pirama</li></ul><h2>Curiosidade</h2><p>A Cancao do Exilio e tao famosa que foi <strong>parodiada</strong> por dezenas de poetas: Oswald, Casimiro, Murilo Mendes, ate na MPB!</p>",
+      "faq": [
+        {
+          "q": "Indio idealizado?",
+          "a": "Sim! Goncalves Dias retrata indios como nobres, corajosos, honrados. Na realidade, indigenas eram perseguidos e dizimados. Idealizacao romantica."
+        },
+        {
+          "q": "Cancao do Exilio?",
+          "a": "Escrita em Portugal, expressa saudade do Brasil. 'Minha terra tem palmeiras onde canta o sabia'. Virou simbolo de amor a patria."
+        },
+        {
+          "q": "I-Juca-Pirama?",
+          "a": "Significa 'o que deve morrer' em tupi. Guerreiro capturado chora (pelo pai velho), e chamado de covarde, depois prova sua bravura. Final heroico."
+        },
+        {
+          "q": "Bom selvagem?",
+          "a": "Conceito de Rousseau aplicado ao indio brasileiro. O 'natural' e bom; a 'civilizacao' corrompe. Romanticos usaram essa ideia."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Minha terra tem palmeiras' e de",
+          "options": [
+            "Alvares de Azevedo",
+            "Goncalves Dias",
+            "Castro Alves",
+            "Casimiro"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "1a geracao e",
+          "options": [
+            "Ultrarromantica",
+            "Nacionalista",
+            "Condoreirista",
+            "Realista"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "I-Juca-Pirama significa",
+          "options": [
+            "O heroi",
+            "O guerreiro",
+            "O que deve morrer",
+            "O indio"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Indianismo idealiza o",
+          "options": [
+            "Negro",
+            "Indio",
+            "Europeu",
+            "Bandeirante"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Romantismo — 2ª Geração: Ultrarromântica/Mal do Século",
+      "slug": "romantismo-2-geracao-ultrarromantica-mal-do-seculo",
+      "desc": "2a geracao romantica: mal do seculo, morte, tedio, desilusao. Alvares de Azevedo (Noite na Taverna, Lira dos Vinte Anos). Casimiro de Abreu.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "2a geracao (ultrarromantica/mal do seculo): Alvares de Azevedo, Casimiro de Abreu, Junqueira Freire, Fagundes Varela. Temas: morte, tedio (spleen), melancolia, amor impossivel, fuga pela morte. Alvares de Azevedo: Lira dos Vinte Anos (binomia: face angelica e face satanica), Noite na Taverna (contos macabros). Casimiro de Abreu: 'Meus Oito Anos' (nostalgia da infancia). Muitos morreram jovens (tuberculose).",
+      "body": "<h2>Introducao</h2><p>A <strong>2a geracao</strong> e a mais sombria: morte, tedio e amor impossivel.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Obra</th><th>Tema</th></tr></thead><tbody><tr><td>Alvares de Azevedo</td><td>Lira dos Vinte Anos</td><td>Binomia (anjo/demonio)</td></tr><tr><td>Casimiro de Abreu</td><td>Meus Oito Anos</td><td>Nostalgia da infancia</td></tr></tbody></table><h2>Caracteristicas</h2><ul><li>Morte como fuga</li><li>Tedio existencial (spleen)</li><li>Amor impossivel, virgem idealizada</li></ul><h2>Resumo</h2><ul><li>Mal do seculo = melancolia, morte</li><li>ENEM: Alvares de Azevedo, tedio</li></ul><h2>Curiosidade</h2><p>Alvares de Azevedo morreu aos <strong>20 anos</strong>! A morte jovem era quase 'esperada' para poetas do mal do seculo.</p>",
+      "faq": [
+        {
+          "q": "Mal do seculo?",
+          "a": "Tedio profundo, desilusao, vontade de morrer. Os poetas eram jovens atormentados. Muitos morreram de tuberculose antes dos 30."
+        },
+        {
+          "q": "Binomia de Alvares?",
+          "a": "Lira dos Vinte Anos tem DUAS faces: uma angelica (amor puro, virgem idealizada) e uma satanica (ironia, humor negro, macabro). Genio."
+        },
+        {
+          "q": "Noite na Taverna?",
+          "a": "Contos goticos/macabros de Alvares de Azevedo. Personagens contam historias de amor, morte, necrofilia. Influencia de Byron e Poe."
+        },
+        {
+          "q": "Casimiro era tao triste?",
+          "a": "'Meus Oito Anos' e nostalgico mas NAO sombrio. Casimiro era mais suave que Alvares. Saudade da infancia, nao desejo de morte."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "2a geracao e chamada",
+          "options": [
+            "Nacionalista",
+            "Ultrarromantica",
+            "Condoreirista",
+            "Parnasiana"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Alvares de Azevedo morreu aos",
+          "options": [
+            "15",
+            "20",
+            "30",
+            "50"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mal do seculo e",
+          "options": [
+            "Alegria",
+            "Melancolia/tedio",
+            "Nacionalismo",
+            "Satira"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Noite na Taverna e",
+          "options": [
+            "Poesia",
+            "Contos goticos",
+            "Romance",
+            "Cronica"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Romantismo — 3ª Geração: Condoreirista/Social",
+      "slug": "romantismo-3-geracao-condoreirista-social",
+      "desc": "3a geracao romantica: poesia social, abolicionismo. Castro Alves (O Navio Negreiro, Vozes d'Africa). Condoreirismo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "3a geracao (condoreirista/social): Castro Alves (poeta dos escravos). O Navio Negreiro: denuncia o trafico negreiro. Vozes d'Africa: Africa clama por justica. Condor: ave que voa alto = poesia que olha do alto para os problemas sociais. Abolicionismo, liberdade, critica social. Castro Alves morreu aos 24 anos (1871).",
+      "body": "<h2>Introducao</h2><p>A <strong>3a geracao</strong> usa a poesia como arma contra a escravidao.</p><h2>Castro Alves</h2><ul><li><strong>O Navio Negreiro:</strong> 'Deus! O Deus! Onde estas que nao respondes?'</li><li><strong>Vozes d'Africa:</strong> Africa pede liberdade</li><li>Poeta dos escravos, orador apaixonado</li></ul><h2>Resumo</h2><ul><li>Poesia social + abolicionismo</li><li>ENEM: Castro Alves, O Navio Negreiro</li></ul><h2>Curiosidade</h2><p>Castro Alves declamava seus poemas em <strong>publico</strong> e arrancava aplausos e lagrimas! Era um poeta-performer.</p>",
+      "faq": [
+        {
+          "q": "Condoreirismo?",
+          "a": "Do condor (ave andina): voa alto, visao ampla. Poesia que olha de cima para os problemas sociais. Grandiloquente, inflamada, engajada."
+        },
+        {
+          "q": "Castro Alves era abolicionista?",
+          "a": "Sim! Usou poesia como arma contra a escravidao. Declamava em teatros. Morreu em 1871, 17 anos ANTES da abolição (1888)."
+        },
+        {
+          "q": "Navio Negreiro e longo?",
+          "a": "Sim! 6 partes. Começa descrevendo um navio bonito e vai revelando o horror dentro dele: escravos acorrentados. Impacto devastador."
+        },
+        {
+          "q": "3a geracao e a melhor?",
+          "a": "Debate! E a mais engajada socialmente. Literariamente, cada geracao tem seus meritos. Castro Alves e unanimidade como grande poeta."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Poeta dos escravos",
+          "options": [
+            "Goncalves Dias",
+            "Alvares de Azevedo",
+            "Castro Alves",
+            "Casimiro"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Navio Negreiro denuncia",
+          "options": [
+            "Tedio",
+            "Trafico negreiro",
+            "Amor",
+            "Natureza"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Condor e",
+          "options": [
+            "Peixe",
+            "Ave",
+            "Flor",
+            "Arvore"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "3a geracao e",
+          "options": [
+            "Nacionalista",
+            "Ultrarromantica",
+            "Condoreirista",
+            "Parnasiana"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Romantismo em Prosa: José de Alencar",
+      "slug": "romantismo-em-prosa-jose-de-alencar",
+      "desc": "Prosa romantica: Jose de Alencar. Romance indianista (Iracema, O Guarani), urbano (Lucíola, Senhora) e regionalista (O Sertanejo).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Jose de Alencar (1829-1877): maior prosador romantico. Projeto de identidade nacional pela literatura. Romance indianista: Iracema (anagrama de America), O Guarani (Peri e Ceci). Romance urbano: Lucíola (cortesa redimida), Senhora (casamento por vinganca). Romance regionalista: O Sertanejo, O Gaúcho. Idealizacao da mulher, do indio, da natureza.",
+      "body": "<h2>Introducao</h2><p><strong>Jose de Alencar</strong> e o maior romancista do Romantismo brasileiro.</p><h2>Obras</h2><table><thead><tr><th>Tipo</th><th>Obra</th><th>Tema</th></tr></thead><tbody><tr><td>Indianista</td><td>Iracema, O Guarani</td><td>Indio + natureza</td></tr><tr><td>Urbano</td><td>Lucíola, Senhora</td><td>Sociedade carioca</td></tr><tr><td>Regionalista</td><td>O Sertanejo</td><td>Interior do Brasil</td></tr></tbody></table><h2>Resumo</h2><ul><li>Alencar mapeou o Brasil pela literatura</li><li>ENEM: Iracema, Senhora, idealizacao</li></ul><h2>Curiosidade</h2><p><strong>Iracema</strong> e anagrama de AMERICA! Alencar criou o mito de origem do Brasil: uniao do indio com o europeu.</p>",
+      "faq": [
+        {
+          "q": "Iracema?",
+          "a": "India tabajara que se apaixona pelo portugues Martim. Tem um filho (Moacir = 'filho da dor'). Iracema morre. Alegoria da colonizacao."
+        },
+        {
+          "q": "Senhora?",
+          "a": "Aurelia e rica e compra Seixas como marido (vinganca por ele te-la abandonado quando era pobre). Critica ao casamento por interesse. Muito moderno!"
+        },
+        {
+          "q": "Alencar e realista?",
+          "a": "NAO! Idealiza mulheres, indios, natureza. Machado de Assis fara o oposto (Realismo). Alencar embeleza; Machado desmascara."
+        },
+        {
+          "q": "Lucíola?",
+          "a": "Cortesa carioca (prostituta de luxo) que se redime pelo amor. Tema ousado para a epoca. Critica a hipocrisia da sociedade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Iracema e romance",
+          "options": [
+            "Urbano",
+            "Indianista",
+            "Regionalista",
+            "Realista"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Senhora trata de",
+          "options": [
+            "Indios",
+            "Casamento por vinganca",
+            "Escravidao",
+            "Natureza"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Iracema e anagrama de",
+          "options": [
+            "Africa",
+            "America",
+            "Amazonia",
+            "Alencar"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Alencar era",
+          "options": [
+            "Realista",
+            "Naturalista",
+            "Romantico",
+            "Modernista"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Realismo: Machado de Assis",
+      "slug": "realismo-machado-de-assis",
+      "desc": "Realismo: Machado de Assis. Memorias Postumas, Dom Casmurro, Quincas Borba. Ironia, metalinguagem, narrador nao confiavel.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Realismo (a partir de 1881): objetividade, critica social, anti-idealizacao. Machado de Assis (1839-1908): maior escritor brasileiro. 2a fase (realista): Memorias Postumas de Bras Cubas (1881 - marco), Dom Casmurro (Capitu traiu?), Quincas Borba. Ironia fina, metalinguagem, narrador nao confiavel, pessimismo, critica a sociedade carioca. Narrador-defunto (Bras Cubas conta da sepultura).",
+      "body": "<h2>Introducao</h2><p><strong>Machado de Assis</strong> e o maior nome da literatura brasileira.</p><h2>Obras Realistas</h2><table><thead><tr><th>Obra</th><th>Destaque</th></tr></thead><tbody><tr><td>Memorias Postumas (1881)</td><td>Narrador-defunto, marco do Realismo</td></tr><tr><td>Dom Casmurro</td><td>Capitu traiu ou nao? Narrador duvidoso</td></tr><tr><td>Quincas Borba</td><td>'Ao vencedor, as batatas' (Humanitismo)</td></tr></tbody></table><h2>Estilo</h2><ul><li>Ironia fina e cortante</li><li>Metalinguagem (conversa com o leitor)</li><li>Narrador nao confiavel</li></ul><h2>Resumo</h2><ul><li>Machado = ironia + narrador duvidoso</li><li>ENEM: Machado e o MAIS cobrado!</li></ul><h2>Curiosidade</h2><p>Machado era <strong>negro</strong>, pobre, epileptico e gago - e se tornou o maior escritor da lingua portuguesa!</p>",
+      "faq": [
+        {
+          "q": "Capitu traiu?",
+          "a": "Machado nunca responde! Bentinho (narrador) ACUSA, mas e ciumento e nao confiavel. O leitor decide. Genialidade: ambiguidade proposital."
+        },
+        {
+          "q": "Narrador-defunto?",
+          "a": "Bras Cubas conta sua historia ja morto. Vantagem: pode dizer TUDO sem medo. Ironia total. 'Ao leitor: nao achei nenhum filho, nao transmiti a nenhuma criatura o legado da nossa miseria.'"
+        },
+        {
+          "q": "Machado era realista puro?",
+          "a": "Nao! Vai alem do Realismo. Usa metalinguagem, digressoes, humor negro. Antecipou o modernismo em 50 anos. Inclassificavel, genio absoluto."
+        },
+        {
+          "q": "1a vs 2a fase?",
+          "a": "1a fase (romantica): Ressurreicao, Helena. 2a fase (realista): Memorias Postumas, Dom Casmurro. A 2a e obra-prima."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Marco do Realismo brasileiro",
+          "options": [
+            "Dom Casmurro",
+            "Memorias Postumas",
+            "O Cortico",
+            "Iracema"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Capitu e personagem de",
+          "options": [
+            "Memorias Postumas",
+            "Dom Casmurro",
+            "Quincas Borba",
+            "Helena"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Machado usa",
+          "options": [
+            "Idealizacao",
+            "Ironia",
+            "Indianismo",
+            "Bucolismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Bras Cubas narra de onde",
+          "options": [
+            "Da cadeia",
+            "Da sepultura",
+            "Do exilio",
+            "Do futuro"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Naturalismo: Aluísio Azevedo",
+      "slug": "naturalismo-aluisio-azevedo",
+      "desc": "Naturalismo: determinismo, zoomorfismo, temas polemicos. Aluisio Azevedo (O Cortico). Influencia de Zola.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Naturalismo: radicalizacao do Realismo. Determinismo: raca, meio e momento determinam o comportamento. Zoomorfismo: humanos descritos como animais. Temas: miseria, sexualidade, doenca, violencia. Aluisio Azevedo: O Cortico (1890) - moradores de um cortico no Rio como organismos vivos. Joao Romao (explorador), Bertoleza (escrava explorada), Rita Baiana (sensualidade). Influencia de Emile Zola.",
+      "body": "<h2>Introducao</h2><p>O <strong>Naturalismo</strong> mostra o ser humano como produto do meio, raca e momento.</p><h2>Naturalismo vs Realismo</h2><table><thead><tr><th>Realismo</th><th>Naturalismo</th></tr></thead><tbody><tr><td>Critica social</td><td>Determinismo biologico</td></tr><tr><td>Classe media/alta</td><td>Classes baixas, miseria</td></tr><tr><td>Ironia</td><td>Crueza, zoomorfismo</td></tr><tr><td>Machado</td><td>Aluisio Azevedo</td></tr></tbody></table><h2>O Cortico</h2><p>O CORTICO e o protagonista: organismo vivo que determina a vida dos moradores.</p><h2>Resumo</h2><ul><li>Determinismo + zoomorfismo</li><li>ENEM: O Cortico, determinismo</li></ul><h2>Curiosidade</h2><p>No Cortico, <strong>Bertoleza</strong> se mata quando descobre que Joao Romao vai devolvê-la ao antigo dono como escrava. Cena brutal.</p>",
+      "faq": [
+        {
+          "q": "Zoomorfismo?",
+          "a": "Descrever humanos como ANIMAIS. No Cortico, moradores sao comparados a formigas, vermes, bichos. Determinismo: o meio os animaliza."
+        },
+        {
+          "q": "Determinismo?",
+          "a": "Taine: raca + meio + momento = comportamento. Livre-arbitrio e ilusao. Somos produtos do ambiente. Naturalismo aplica isso a literatura."
+        },
+        {
+          "q": "Cortico como personagem?",
+          "a": "Sim! O cortico cresce, se agita, se acalma. E quase um organismo vivo. As pessoas sao celulas dele."
+        },
+        {
+          "q": "Naturalismo e preconceituoso?",
+          "a": "Debate! Usa conceitos racistas do seculo XIX (determinismo racial). Leitura atual critica esse aspecto. Historicamente importante, eticamente questionavel."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O Cortico e de",
+          "options": [
+            "Machado",
+            "Aluisio Azevedo",
+            "Jose de Alencar",
+            "Lima Barreto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Determinismo usa",
+          "options": [
+            "Livre-arbitrio",
+            "Raca, meio, momento",
+            "Fe",
+            "Emocao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Zoomorfismo descreve humanos como",
+          "options": [
+            "Deuses",
+            "Animais",
+            "Plantas",
+            "Maquinas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Naturalismo e mais extremo que",
+          "options": [
+            "Romantismo",
+            "Barroco",
+            "Realismo",
+            "Arcadismo"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Parnasianismo e Simbolismo",
+      "slug": "parnasianismo-e-simbolismo",
+      "desc": "Parnasianismo: forma perfeita, impassibilidade (Olavo Bilac). Simbolismo: subjetividade, musicalidade, espiritualidade (Cruz e Sousa).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Parnasianismo: 'arte pela arte'. Forma perfeita: soneto, rima rica, metrificacao rigorosa. Impassibilidade: nao expressar emocoes. Olavo Bilac: 'Via Lactea'. Alberto de Oliveira. Raimundo Correia. Simbolismo: reacao ao cientificismo. Subjetividade, musicalidade, sinestesia, espiritualidade. Cruz e Sousa: 'poeta negro' maldito. Alphonsus de Guimaraens: misticismo e morte.",
+      "body": "<h2>Introducao</h2><p><strong>Parnasianismo</strong> e <strong>Simbolismo</strong> sao contemporaneos mas opostos.</p><h2>Comparacao</h2><table><thead><tr><th>Aspecto</th><th>Parnasianismo</th><th>Simbolismo</th></tr></thead><tbody><tr><td>Foco</td><td>FORMA perfeita</td><td>CONTEUDO subjetivo</td></tr><tr><td>Emocao</td><td>Impassibilidade</td><td>Expressao intensa</td></tr><tr><td>Linguagem</td><td>Precisa, objetiva</td><td>Musical, sugestiva</td></tr><tr><td>Autor</td><td>Olavo Bilac</td><td>Cruz e Sousa</td></tr></tbody></table><h2>Resumo</h2><ul><li>Parnaso=forma. Simbolismo=alma.</li><li>ENEM: Bilac vs Cruz e Sousa</li></ul><h2>Curiosidade</h2><p><strong>Cruz e Sousa</strong>, negro em pleno pos-abolicao, sofreu racismo brutal e morreu tuberculoso na miseria. Genio incompreendido.</p>",
+      "faq": [
+        {
+          "q": "Arte pela arte?",
+          "a": "Parnasianismo: poesia nao precisa de funcao social. A beleza da FORMA e suficiente. Contrario do engajamento de Castro Alves."
+        },
+        {
+          "q": "Impassibilidade?",
+          "a": "Parnasiano nao expressa emocoes pessoais no poema. Descreve com frieza e precisao. O poeta e artesao da palavra, nao confidente."
+        },
+        {
+          "q": "Sinestesia?",
+          "a": "Misturar sentidos: 'som azul', 'perfume doce', 'musica vermelha'. Recurso central do Simbolismo. Sugere em vez de dizer."
+        },
+        {
+          "q": "Cruz e Sousa foi reconhecido?",
+          "a": "Pouco em vida. Sofreu racismo. Hoje e considerado genio. Seus poemas (Antifona, Siderações) sao obras-primas da lingua portuguesa."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Arte pela arte' e do",
+          "options": [
+            "Romantismo",
+            "Parnasianismo",
+            "Simbolismo",
+            "Modernismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cruz e Sousa e",
+          "options": [
+            "Parnasiano",
+            "Simbolista",
+            "Romantico",
+            "Realista"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Olavo Bilac valorizava",
+          "options": [
+            "Emocao",
+            "Forma perfeita",
+            "Liberdade",
+            "Caos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sinestesia mistura",
+          "options": [
+            "Tempos",
+            "Sentidos",
+            "Generos",
+            "Linguas"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Pré-Modernismo (1902-1922)",
+      "slug": "pre-modernismo-1902-1922",
+      "desc": "Pre-Modernismo: Euclides da Cunha (Os Sertoes), Lima Barreto (Triste Fim de Policarpo Quaresma), Monteiro Lobato, Augusto dos Anjos.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Pre-Modernismo (1902-1922): transicao, nao escola formal. Euclides da Cunha: Os Sertoes (1902) - Guerra de Canudos. 'A Terra, O Homem, A Luta'. Lima Barreto: denuncia social, racismo. Triste Fim de Policarpo Quaresma. Monteiro Lobato: Urupês (Jeca Tatu), regionalismo critico. Augusto dos Anjos: poesia cientifica/pessimista, 'Versos Intimos'. Caracteristicas: regionalismo, denuncia social, Brasil real.",
+      "body": "<h2>Introducao</h2><p>O <strong>Pre-Modernismo</strong> mostrou o Brasil REAL, nao o idealizado.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Obra</th><th>Tema</th></tr></thead><tbody><tr><td>Euclides da Cunha</td><td>Os Sertoes</td><td>Canudos, sertao</td></tr><tr><td>Lima Barreto</td><td>Policarpo Quaresma</td><td>Nacionalismo ingenuo</td></tr><tr><td>Monteiro Lobato</td><td>Urupês</td><td>Jeca Tatu, interior</td></tr><tr><td>Augusto dos Anjos</td><td>Eu</td><td>Pessimismo cientifico</td></tr></tbody></table><h2>Resumo</h2><ul><li>Brasil real: sertao, miseria, racismo</li><li>ENEM: Os Sertoes, Lima Barreto</li></ul><h2>Curiosidade</h2><p>Euclides da Cunha chamou Canudos de '<strong>crime</strong>' do governo contra sertanejos miseraveis. Era jornalista enviado para cobrir a guerra!</p>",
+      "faq": [
+        {
+          "q": "Os Sertoes e literatura?",
+          "a": "Transita entre literatura, historia e sociologia. Linguagem poetica + dados cientificos + relato historico. Obra unica e inclassificavel."
+        },
+        {
+          "q": "Jeca Tatu?",
+          "a": "Lobato criou o caipira preguicoso (estereotipo). Depois se arrependeu: reconheceu que o Jeca era doente e abandonado pelo Estado, nao preguicoso."
+        },
+        {
+          "q": "Lima Barreto sofreu racismo?",
+          "a": "Sim! Negro, pobre, alcoolatra, internado em hospicio. Sua literatura denuncia o racismo e a hipocrisia da elite carioca. Genio marginalizado."
+        },
+        {
+          "q": "Augusto dos Anjos e estranho?",
+          "a": "Sim! Mistura poesia com termos cientificos (vermes, celulas, putrefacao). 'Eu sou um cadaver adiado' - pessimismo radical. Unico."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Os Sertoes trata de",
+          "options": [
+            "Escravidao",
+            "Guerra de Canudos",
+            "Inconfidencia",
+            "Independencia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Jeca Tatu e de",
+          "options": [
+            "Euclides",
+            "Lima Barreto",
+            "Lobato",
+            "Augusto dos Anjos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Lima Barreto denunciava",
+          "options": [
+            "Natureza",
+            "Racismo e hipocrisia",
+            "Indianismo",
+            "Amor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pre-Modernismo - periodo",
+          "options": [
+            "1880-1900",
+            "1902-1922",
+            "1922-1945",
+            "1945-1960"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

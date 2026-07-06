@@ -1,0 +1,586 @@
+{
+  "subject": "Sociologia",
+  "slug": "1ano-sociologia",
+  "level": "Fundamental 1",
+  "grade": "1º ano",
+  "color": "var(--sociologia)",
+  "icon": "users",
+  "articles": [
+    {
+      "title": "O que é Sociologia? Senso Comum vs. Ciência",
+      "slug": "o-que-e-sociologia-senso-comum-vs-ciencia",
+      "desc": "Sociologia como ciencia. Senso comum vs conhecimento cientifico. Imaginacao sociologica. Desnaturalizacao e estranhamento.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Sociologia: ciencia que estuda a sociedade, relacoes sociais, instituicoes. Senso comum: conhecimento do dia a dia, sem metodo. Ciencia: metodo rigoroso, testavel. Imaginacao sociologica (Mills): ver o individual como social. Desnaturalizacao: questionar o que parece 'natural'. Estranhamento: olhar o familiar como se fosse novo.",
+      "body": "<h2>Introducao</h2><p>A <strong>Sociologia</strong> e a ciencia que estuda a sociedade e as relacoes sociais.</p><h2>Senso Comum vs Ciencia</h2><table><thead><tr><th>Senso Comum</th><th>Ciencia</th></tr></thead><tbody><tr><td>Espontaneo</td><td>Metodo rigoroso</td></tr><tr><td>Opiniao</td><td>Evidencias</td></tr><tr><td>Aceita o obvio</td><td>Questiona o obvio</td></tr></tbody></table><h2>Atitude Sociologica</h2><ul><li><strong>Desnaturalizar:</strong> o que parece natural foi construido socialmente</li><li><strong>Estranhar:</strong> olhar o cotidiano com olhos novos</li></ul><h2>Resumo</h2><ul><li>Sociologia questiona o que parece natural</li><li>ENEM: desnaturalizacao, senso comum vs ciencia</li></ul><h2>Curiosidade</h2><p>Mills dizia: se muitos estao desempregados, nao e preguica individual - e um <strong>problema social</strong>!</p>",
+      "faq": [
+        {
+          "q": "Senso comum e errado?",
+          "a": "Nao necessariamente, mas e limitado. Pode conter verdades, mas sem metodo nao e confiavel. Sociologia testa o que o senso comum assume."
+        },
+        {
+          "q": "Imaginacao sociologica?",
+          "a": "Mills: capacidade de conectar biografia individual com historia social. Seu desemprego nao e so seu - reflete estruturas da sociedade."
+        },
+        {
+          "q": "Desnaturalizar o que?",
+          "a": "Genero, familia, escola, trabalho. 'Mulher cuida da casa' parece natural, mas e construcao social e historica."
+        },
+        {
+          "q": "Sociologia e opiniao?",
+          "a": "Nao! Usa metodos cientificos: pesquisa, dados, teoria. Nao e achismo. Mas como estuda sociedade, gera debates politicos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Imaginacao sociologica e de",
+          "options": [
+            "Durkheim",
+            "Weber",
+            "Marx",
+            "Mills"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Desnaturalizar significa",
+          "options": [
+            "Destruir",
+            "Questionar o natural",
+            "Aceitar",
+            "Ignorar"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sociologia estuda",
+          "options": [
+            "Individuo isolado",
+            "Sociedade",
+            "Natureza",
+            "Economia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Senso comum usa",
+          "options": [
+            "Metodo cientifico",
+            "Opiniao espontanea",
+            "Pesquisa",
+            "Experimentacao"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Contexto de Surgimento",
+      "slug": "contexto-de-surgimento",
+      "desc": "Surgimento da sociologia: Revolucao Francesa, Revolucao Industrial. Comte e positivismo. Nascimento da ciencia social no seculo XIX.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Contexto: Revolucao Industrial (urbanizacao, miseria, nova classe operaria) e Revolucao Francesa (ideais de igualdade, cidadania). Modernidade: transformacoes profundas que exigiam nova ciencia. Auguste Comte (1798-1857): fundou o positivismo, criou o termo 'sociologia'. 3 estados: teologico, metafisico, positivo (cientifico). Saint-Simon: precursor. Sociologia nasce para entender a NOVA sociedade industrial.",
+      "body": "<h2>Introducao</h2><p>A <strong>sociologia</strong> nasceu no seculo XIX para entender as transformacoes da modernidade.</p><h2>Contexto</h2><table><thead><tr><th>Evento</th><th>Impacto</th></tr></thead><tbody><tr><td>Rev. Industrial</td><td>Urbanizacao, classe operaria, miseria</td></tr><tr><td>Rev. Francesa</td><td>Igualdade, cidadania, democracia</td></tr></tbody></table><h2>Auguste Comte</h2><ul><li>Criou o termo 'sociologia'</li><li>Positivismo: sociedade estudada como ciencia natural</li><li>3 estados: teologico, metafisico, positivo</li></ul><h2>Resumo</h2><ul><li>Sociologia nasce das revolucoes</li><li>ENEM: Comte, positivismo, contexto historico</li></ul><h2>Curiosidade</h2><p>O lema da bandeira do Brasil - '<strong>Ordem e Progresso</strong>' - vem do positivismo de Comte!</p>",
+      "faq": [
+        {
+          "q": "Positivismo?",
+          "a": "Comte: aplicar metodo cientifico a sociedade. So vale o que e observavel e mensuravel. Influenciou a bandeira do Brasil ('Ordem e Progresso')."
+        },
+        {
+          "q": "Por que seculo XIX?",
+          "a": "Revolucoes Industrial e Francesa criaram caos social: urbanizacao, pobreza, conflitos. Precisavam de ciencia para entender e organizar a nova sociedade."
+        },
+        {
+          "q": "Comte e o unico fundador?",
+          "a": "E considerado o 'pai', mas Durkheim, Weber e Marx sao os fundadores efetivos da sociologia como ciencia. Comte deu o nome e a visao inicial."
+        },
+        {
+          "q": "3 estados de Comte?",
+          "a": "Teologico (explicacao divina), metafisico (explicacao abstrata), positivo (explicacao cientifica). Humanidade progride do 1o ao 3o."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quem criou o termo sociologia",
+          "options": [
+            "Durkheim",
+            "Marx",
+            "Weber",
+            "Comte"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "'Ordem e Progresso' vem de",
+          "options": [
+            "Marx",
+            "Liberalismo",
+            "Positivismo",
+            "Iluminismo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Sociologia nasceu no seculo",
+          "options": [
+            "XVII",
+            "XVIII",
+            "XIX",
+            "XX"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "3o estado de Comte",
+          "options": [
+            "Teologico",
+            "Metafisico",
+            "Positivo",
+            "Critico"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Durkheim: Fato Social e Solidariedade",
+      "slug": "durkheim-fato-social-e-solidariedade",
+      "desc": "Durkheim: fato social (coercao, exterioridade, generalidade). Solidariedade mecanica vs organica. Anomia. Suicidio como fato social.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Durkheim (1858-1917): pai da sociologia cientifica. Fato social: maneira de agir, pensar e sentir exterior ao individuo, coercitiva e geral. 3 caracteristicas: coercitividade, exterioridade, generalidade. Solidariedade mecanica (sociedade simples, semelhanca) vs organica (sociedade complexa, interdependencia/divisao do trabalho). Anomia: ausencia de normas sociais (causa desvios). Suicidio: mesmo ato individual tem causas sociais.",
+      "body": "<h2>Introducao</h2><p><strong>Durkheim</strong> fundou a sociologia como ciencia com metodo proprio.</p><h2>Fato Social</h2><ul><li><strong>Coercitivo:</strong> nos obriga (leis, costumes)</li><li><strong>Exterior:</strong> existe antes de nos</li><li><strong>Geral:</strong> vale para toda a sociedade</li></ul><h2>Solidariedade</h2><table><thead><tr><th>Mecanica</th><th>Organica</th></tr></thead><tbody><tr><td>Sociedade simples</td><td>Sociedade complexa</td></tr><tr><td>Semelhanca</td><td>Interdependencia</td></tr><tr><td>Consciencia coletiva forte</td><td>Divisao do trabalho</td></tr></tbody></table><h2>Resumo</h2><ul><li>Fato social: coercitivo, exterior, geral</li><li>ENEM: Durkheim e dos MAIS cobrados!</li></ul><h2>Curiosidade</h2><p>Durkheim provou que ate o <strong>suicidio</strong> tem causas sociais - nao e so decisao individual!</p>",
+      "faq": [
+        {
+          "q": "Fato social - exemplo?",
+          "a": "Lingua, religiao, lei, moda, saudacao. Voce nao escolheu falar portugues - nasceu numa sociedade que fala. E exterior, coercitivo e geral."
+        },
+        {
+          "q": "Anomia?",
+          "a": "Ausencia ou enfraquecimento das normas sociais. Gera desorientacao, desvio, ate suicidio. Comum em periodos de crise ou mudanca rapida."
+        },
+        {
+          "q": "Solidariedade organica?",
+          "a": "Nas sociedades modernas, somos interdependentes pela divisao do trabalho. Padeiro depende do agricultor, que depende do mecanico. Como orgaos de um corpo."
+        },
+        {
+          "q": "Durkheim era conservador?",
+          "a": "Debate! Ele valorizava a coesao social e a ordem, o que parece conservador. Mas tambem defendia educacao publica e laicidade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Fato social e",
+          "options": [
+            "Individual",
+            "Coercitivo, exterior, geral",
+            "Opcional",
+            "Biologico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Solidariedade organica e da sociedade",
+          "options": [
+            "Simples",
+            "Primitiva",
+            "Complexa moderna",
+            "Rural"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Anomia e",
+          "options": [
+            "Muitas normas",
+            "Ausencia de normas",
+            "Lei justa",
+            "Costume"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Durkheim estudou o suicidio como",
+          "options": [
+            "Fato biologico",
+            "Fato individual",
+            "Fato social",
+            "Doenca"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Marx: Classes Sociais e Exploração",
+      "slug": "marx-classes-sociais-e-exploracao",
+      "desc": "Marx na sociologia: classes sociais, luta de classes, alienacao, ideologia, infraestrutura e superestrutura. Materialismo historico.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Marx (1818-1883): sociedade dividida em classes pelo controle dos meios de producao. Burguesia (donos) vs proletariado (trabalhadores). Luta de classes e motor da historia. Alienacao: trabalhador separado do produto e de si. Ideologia: ideias da classe dominante se apresentam como universais. Infraestrutura (economia) determina superestrutura (politica, cultura, direito). Mais-valia: lucro do trabalho nao pago.",
+      "body": "<h2>Introducao</h2><p><strong>Marx</strong> via a sociedade como arena de luta entre classes sociais.</p><h2>Conceitos</h2><table><thead><tr><th>Conceito</th><th>Significado</th></tr></thead><tbody><tr><td>Classes sociais</td><td>Definidas pela relacao com os meios de producao</td></tr><tr><td>Luta de classes</td><td>Conflito burguesia vs proletariado</td></tr><tr><td>Ideologia</td><td>Ideias dominantes como 'naturais'</td></tr><tr><td>Alienacao</td><td>Trabalhador separado do produto</td></tr></tbody></table><h2>Resumo</h2><ul><li>Economia determina a sociedade</li><li>ENEM: Marx e o mais cobrado em sociologia!</li></ul><h2>Curiosidade</h2><p>'A historia de todas as sociedades e a historia da <strong>luta de classes</strong>' - frase de abertura do Manifesto Comunista!</p>",
+      "faq": [
+        {
+          "q": "Ideologia - exemplo?",
+          "a": "'Se voce trabalhar duro, ficara rico.' Para Marx, essa ideia esconde a exploracao estrutural. Nem todo esforco e recompensado igualmente pelo sistema."
+        },
+        {
+          "q": "Classe social e renda?",
+          "a": "Para Marx, NAO e so renda. E a RELACAO com os meios de producao: quem e DONO (burgues) e quem VENDE trabalho (proletario)."
+        },
+        {
+          "q": "Marx esta ultrapassado?",
+          "a": "Debate! Desigualdade persiste e cresce. Conceitos como alienacao e ideologia seguem atuais. Mas previsoes de revolucao proletaria nao se confirmaram como ele imaginava."
+        },
+        {
+          "q": "Proletariado hoje?",
+          "a": "Expandido: inclui trabalhadores de app, precarios, informais. A 'uberizacao' e nova forma de exploracao que Marx nao previu mas seus conceitos ajudam a entender."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Para Marx, classes se definem por",
+          "options": [
+            "Renda",
+            "Meios de producao",
+            "Educacao",
+            "Nascimento"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ideologia para Marx e",
+          "options": [
+            "Ciencia",
+            "Ideias da classe dominante",
+            "Religiao",
+            "Filosofia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Luta de classes opoe",
+          "options": [
+            "Senhores e escravos",
+            "Burguesia e proletariado",
+            "Ricos e pobres",
+            "Governo e povo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mais-valia e",
+          "options": [
+            "Salario justo",
+            "Lucro do trabalho nao pago",
+            "Imposto",
+            "Investimento"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Weber: Ação Social e Burocracia",
+      "slug": "weber-acao-social-e-burocracia",
+      "desc": "Weber: acao social (racional, afetiva, tradicional). Tipos ideais. Burocracia. Etica protestante e capitalismo. Desencantamento do mundo.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Weber (1864-1920): sociologia compreensiva (verstehen - compreender o sentido da acao). Acao social: comportamento orientado pelo outro. 4 tipos: racional com relacao a fins, racional com relacao a valores, afetiva, tradicional. Tipo ideal: modelo teorico para comparacao. Burocracia: organizacao racional (hierarquia, regras, impessoalidade). Etica protestante e espirito do capitalismo. Desencantamento do mundo: razao substitui magia.",
+      "body": "<h2>Introducao</h2><p><strong>Weber</strong> buscava COMPREENDER o sentido das acoes sociais (verstehen).</p><h2>Acao Social - 4 Tipos</h2><table><thead><tr><th>Tipo</th><th>Exemplo</th></tr></thead><tbody><tr><td>Racional (fins)</td><td>Estudar para passar no vestibular</td></tr><tr><td>Racional (valores)</td><td>Doar sangue por convicao</td></tr><tr><td>Afetiva</td><td>Gritar de raiva</td></tr><tr><td>Tradicional</td><td>Rezar antes de dormir (habito)</td></tr></tbody></table><h2>Burocracia</h2><p>Organizacao racional com hierarquia, regras e impessoalidade. Eficiente mas pode virar 'jaula de ferro'.</p><h2>Resumo</h2><ul><li>Compreender o sentido da acao social</li><li>ENEM: acoes sociais, burocracia, desencantamento</li></ul><h2>Curiosidade</h2><p>Weber mostrou que o <strong>protestantismo</strong> ajudou a criar o capitalismo - trabalho duro como vocacao divina!</p>",
+      "faq": [
+        {
+          "q": "Verstehen?",
+          "a": "Compreender o SENTIDO que o ator da a sua acao. Sociologia nao so explica de fora (Durkheim), mas compreende de dentro (Weber)."
+        },
+        {
+          "q": "Tipo ideal?",
+          "a": "Modelo TEORICO puro para comparar com a realidade. Nenhuma burocracia REAL e igual ao tipo ideal. E ferramenta de analise."
+        },
+        {
+          "q": "Jaula de ferro?",
+          "a": "Weber: burocracia e racional mas aprisiona. Regras, formularios, hierarquia sufocam a liberdade. Modernidade = jaula de ferro da racionalidade."
+        },
+        {
+          "q": "Protestantes e capitalismo?",
+          "a": "Weber: etica calvinista (trabalho duro, poupanca, vocacao) criou mentalidade favoravel ao capitalismo. Nao e unica causa, mas contribuiu."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Verstehen significa",
+          "options": [
+            "Explicar",
+            "Compreender",
+            "Medir",
+            "Prever"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Acao tradicional - exemplo",
+          "options": [
+            "Estudar para prova",
+            "Gritar de raiva",
+            "Rezar por habito",
+            "Doar por convicao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Burocracia e",
+          "options": [
+            "Caos",
+            "Organizacao racional",
+            "Democracia",
+            "Anarquia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Desencantamento e substituicao de magia por",
+          "options": [
+            "Fe",
+            "Razao",
+            "Mito",
+            "Tradicao"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Cultura: Conceito e Diversidade",
+      "slug": "cultura-conceito-e-diversidade",
+      "desc": "Cultura: conceito sociologico (tudo que e aprendido). Diversidade cultural. Etnocentrismo vs relativismo cultural. Cultura material e imaterial.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Cultura: tudo que e produzido e aprendido socialmente (nao biologico). Material (objetos, tecnologia) e imaterial (valores, crencas, normas). Etnocentrismo: julgar outra cultura pela SUA (erro). Relativismo cultural: compreender cada cultura em seu contexto. Diversidade: multiplas culturas coexistem. Aculturacao: contato entre culturas. Hibridismo cultural.",
+      "body": "<h2>Introducao</h2><p><strong>Cultura</strong> na sociologia e tudo que o ser humano produz e aprende em sociedade.</p><h2>Tipos</h2><table><thead><tr><th>Material</th><th>Imaterial</th></tr></thead><tbody><tr><td>Ferramentas, roupas, comida</td><td>Valores, crencas, normas</td></tr></tbody></table><h2>Olhares</h2><ul><li><strong>Etnocentrismo:</strong> minha cultura e superior</li><li><strong>Relativismo:</strong> cada cultura no seu contexto</li></ul><h2>Resumo</h2><ul><li>Cultura e aprendida, nao inata</li><li>ENEM: etnocentrismo vs relativismo</li></ul><h2>Curiosidade</h2><p>Comer insetos e <strong>normal</strong> em muitas culturas asiaticas, mas causa nojo no Ocidente. Etnocentrismo puro!</p>",
+      "faq": [
+        {
+          "q": "Cultura e so arte?",
+          "a": "Nao! Na sociologia, cultura e TUDO que e aprendido: lingua, culinaria, gestos, leis, religiao, moda. Muito mais amplo que 'alta cultura'."
+        },
+        {
+          "q": "Relativismo aceita tudo?",
+          "a": "Debate! Relativismo cultural radical pode justificar praticas opressoras. A maioria dos sociologos defende compreender sem necessariamente aprovar."
+        },
+        {
+          "q": "Aculturacao?",
+          "a": "Quando culturas se encontram e se modificam mutuamente. Ex: culinaria brasileira mistura indigena, portuguesa, africana."
+        },
+        {
+          "q": "Cultura popular vs erudita?",
+          "a": "Erudita: museus, opera, literatura classica. Popular: funk, samba, cordel. Hierarquizar e preconceito - ambas sao legitimas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Etnocentrismo e",
+          "options": [
+            "Respeitar outra cultura",
+            "Julgar pela sua cultura",
+            "Ignorar cultura",
+            "Misturar culturas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cultura imaterial inclui",
+          "options": [
+            "Comida",
+            "Ferramenta",
+            "Valores e crencas",
+            "Roupas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Relativismo cultural defende",
+          "options": [
+            "Superioridade",
+            "Compreensao no contexto",
+            "Igualdade total",
+            "Isolamento"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cultura e",
+          "options": [
+            "Inata",
+            "Biologica",
+            "Aprendida",
+            "Genetica"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Socialização: Como nos Tornamos Sociais",
+      "slug": "socializacao-como-nos-tornamos-sociais",
+      "desc": "Socializacao: primaria (familia) e secundaria (escola, trabalho). Papeis sociais. Habitus (Bourdieu). Controle social. Desvio.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Socializacao: processo de aprender normas, valores e papeis sociais. Primaria: familia (primeira infancia). Secundaria: escola, igreja, trabalho, midia. Agentes: familia, escola, midia, religiao, grupo de pares. Papeis sociais: comportamentos esperados (pai, professor, aluno). Habitus (Bourdieu): disposicoes internalizadas pela socializacao de classe. Controle social: mecanismos que mantem a ordem (formal: leis; informal: olhar de reprovacao).",
+      "body": "<h2>Introducao</h2><p>A <strong>socializacao</strong> e o processo pelo qual nos tornamos membros da sociedade.</p><h2>Tipos</h2><table><thead><tr><th>Primaria</th><th>Secundaria</th></tr></thead><tbody><tr><td>Familia</td><td>Escola, trabalho, midia</td></tr><tr><td>Primeira infancia</td><td>Ao longo da vida</td></tr><tr><td>Lingua, valores basicos</td><td>Papeis profissionais, civicos</td></tr></tbody></table><h2>Habitus (Bourdieu)</h2><p>Conjunto de disposicoes que adquirimos pela classe social: gosto, postura, fala. Reproduz desigualdade.</p><h2>Resumo</h2><ul><li>Socializacao nos faz sociais</li><li>ENEM: agentes de socializacao, Bourdieu, habitus</li></ul><h2>Curiosidade</h2><p>Criancas 'selvagens' (criadas por animais) mostram que sem socializacao, <strong>nao desenvolvemos</strong> linguagem nem comportamento humano!</p>",
+      "faq": [
+        {
+          "q": "Habitus?",
+          "a": "Bourdieu: jeito de andar, falar, comer que voce APRENDE na sua classe social. Parece natural mas e social. Quem tem habitus de elite leva vantagem."
+        },
+        {
+          "q": "Midia socializa?",
+          "a": "Sim! TV, redes sociais, YouTube ensinam valores, normas, modelos de comportamento. Para o bem e para o mal. Agente poderoso."
+        },
+        {
+          "q": "Papel social?",
+          "a": "Comportamento esperado de alguem em determinada posicao. Professor deve ensinar, medico deve cuidar. Conflito de papeis: quando expectativas colidem."
+        },
+        {
+          "q": "Controle social e opressao?",
+          "a": "Nem sempre. Leis contra assassinato sao controle social necessario. Mas pode ser opressivo quando reprime diversidade (ex: homofobia como controle)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Socializacao primaria ocorre na",
+          "options": [
+            "Escola",
+            "Familia",
+            "Trabalho",
+            "Igreja"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Habitus e de",
+          "options": [
+            "Durkheim",
+            "Weber",
+            "Bourdieu",
+            "Foucault"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Controle social formal e",
+          "options": [
+            "Olhar de reprovacao",
+            "Fofoca",
+            "Leis e policia",
+            "Religiao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Socializacao nos torna",
+          "options": [
+            "Biologicos",
+            "Animais",
+            "Sociais",
+            "Racionais"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Indústria Cultural e Cultura de Massa",
+      "slug": "industria-cultural-e-cultura-de-massa",
+      "desc": "Industria cultural (Adorno/Horkheimer). Cultura de massa. Midia e alienacao. Resistencia cultural. Contracultura.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Industria cultural (Adorno/Horkheimer): producao padronizada de cultura para consumo de massa. Alienacao: entretenimento substitui reflexao. Cultura de massa: produzida para grandes publicos (TV, musica pop, redes sociais). Padronizacao: tudo parece diferente mas e igual. Fetichismo da mercadoria cultural. Contracultura: movimentos de resistencia (hippie, punk, hip-hop). Benjamin: reproducao tecnica muda a arte.",
+      "body": "<h2>Introducao</h2><p>A <strong>industria cultural</strong> transforma cultura em mercadoria padronizada.</p><h2>Industria Cultural</h2><ul><li>Cultura produzida em MASSA para lucro</li><li>Padronizacao: parece diverso mas e repetitivo</li><li>Alienacao: entretenimento no lugar de reflexao</li></ul><h2>Resistencia</h2><ul><li>Contracultura: hippie, punk, hip-hop</li><li>Cultura popular: funk, rap, grafite como expressao autonoma</li></ul><h2>Resumo</h2><ul><li>Adorno: cultura vira mercadoria</li><li>ENEM: industria cultural, cultura de massa</li></ul><h2>Curiosidade</h2><p>Para Adorno, ate a musica <strong>jazz</strong> era produto da industria cultural! Ele so aprovava musica erudita de vanguarda.</p>",
+      "faq": [
+        {
+          "q": "Netflix e industria cultural?",
+          "a": "Pela teoria de Adorno, sim: producao padronizada de entretenimento para consumo massivo, orientada pelo lucro. Debate: mas ha conteudos criticos tambem."
+        },
+        {
+          "q": "Toda cultura de massa e ruim?",
+          "a": "Debate! Adorno era pessimista. Outros pensadores (Stuart Hall, Benjamin) veem possibilidades de resistencia DENTRO da cultura de massa."
+        },
+        {
+          "q": "Hip-hop e contracultura?",
+          "a": "Nasceu como contracultura (periferia, protesto, identidade negra). Mas ao ser absorvido pela industria, parte perde o carater contestador."
+        },
+        {
+          "q": "Redes sociais mudaram algo?",
+          "a": "Democratizaram producao de conteudo (qualquer um publica), mas algoritmos criam bolhas e padronizacao. Industria cultural 2.0."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Industria cultural e de",
+          "options": [
+            "Marx",
+            "Adorno",
+            "Foucault",
+            "Weber"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cultura de massa e",
+          "options": [
+            "Artesanal",
+            "Para elites",
+            "Produzida em massa",
+            "Regional"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Contracultura e",
+          "options": [
+            "Aceitar tudo",
+            "Resistencia cultural",
+            "Consumo",
+            "Tradicao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Adorno criticava a cultura como",
+          "options": [
+            "Libertacao",
+            "Mercadoria",
+            "Ciencia",
+            "Religiao"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

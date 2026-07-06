@@ -1,0 +1,514 @@
+{
+  "subject": "Literatura",
+  "slug": "1ano-literatura",
+  "level": "Fundamental 1",
+  "grade": "1º ano",
+  "color": "var(--literatura)",
+  "icon": "book-open",
+  "articles": [
+    {
+      "title": "O que é Literatura? Texto Literário vs. Não-Literário",
+      "slug": "o-que-e-literatura-texto-literario-vs-nao-literario",
+      "desc": "Literatura: conceito. Texto literario vs nao literario. Funcao poetica. Generos literarios: lirico, epico/narrativo, dramatico.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Texto literario: funcao poetica (foco na linguagem), plurissignificacao, ficcao, subjetividade. Texto nao literario: funcao referencial (informar), objetividade. Generos: lirico (poesia, emocoes, eu lirico), epico/narrativo (contar historias, narrador), dramatico (teatro, dialogos). Figuras de linguagem: metafora, metonimia, antitese, hiperbole, ironia.",
+      "body": "<h2>Introducao</h2><p>A <strong>Literatura</strong> e a arte da palavra: usa a linguagem de forma criativa e expressiva.</p><h2>Literario vs Nao Literario</h2><table><thead><tr><th>Literario</th><th>Nao Literario</th></tr></thead><tbody><tr><td>Funcao poetica</td><td>Funcao referencial</td></tr><tr><td>Plurissignificacao</td><td>Sentido unico</td></tr><tr><td>Subjetivo, ficional</td><td>Objetivo, informativo</td></tr></tbody></table><h2>Generos</h2><ul><li><strong>Lirico:</strong> poesia, emocoes, eu lirico</li><li><strong>Epico/Narrativo:</strong> historias, narrador</li><li><strong>Dramatico:</strong> teatro, dialogos</li></ul><h2>Resumo</h2><ul><li>Literatura = arte da palavra</li><li>ENEM: distinguir literario de nao literario</li></ul><h2>Curiosidade</h2><p>O '<strong>eu lirico</strong>' NAO e o autor! E uma voz criada pelo poeta para expressar sentimentos que podem ou nao ser dele.</p>",
+      "faq": [
+        {
+          "q": "Eu lirico = autor?",
+          "a": "NAO! Eu lirico e uma voz ficcional criada pelo poeta. Machado pode criar um eu lirico feminino, por exemplo. Nao confunda com biografia."
+        },
+        {
+          "q": "Funcao poetica?",
+          "a": "Jakobson: quando a mensagem chama atencao para si mesma, para a FORMA da linguagem. Rima, ritmo, metafora, jogo de palavras."
+        },
+        {
+          "q": "So poesia e literatura?",
+          "a": "Nao! Romances, contos, cronicas, pecas de teatro, novelas - todos sao literatura. Poesia e apenas o genero lirico."
+        },
+        {
+          "q": "Figuras de linguagem?",
+          "a": "Metafora (comparacao implicita), metonimia (parte pelo todo), antitese (oposicao), ironia (diz o contrario), hiperbole (exagero)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Funcao poetica foca na",
+          "options": [
+            "Informacao",
+            "Linguagem",
+            "Emocao",
+            "Logica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Eu lirico e",
+          "options": [
+            "O autor",
+            "Voz ficcional do poema",
+            "O leitor",
+            "O critico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Genero dramatico e",
+          "options": [
+            "Poesia",
+            "Romance",
+            "Teatro",
+            "Cronica"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Texto literario tem",
+          "options": [
+            "Sentido unico",
+            "Plurissignificacao",
+            "Objetividade",
+            "Formulas"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Trovadorismo (Séc. XII-XIV)",
+      "slug": "trovadorismo-sec-xii-xiv",
+      "desc": "Trovadorismo: cantigas de amor (eu lirico masculino), cantigas de amigo (eu lirico feminino), cantigas de escarnio e maldizer. Sec. XII-XIV.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Trovadorismo (sec. XII-XIV): primeira escola literaria em lingua portuguesa. Cantigas de amor: eu lirico MASCULINO, coita (sofrimento), vassalagem amorosa, senhor (dama). Cantigas de amigo: eu lirico FEMININO, saudade do amado, natureza. Cantigas de escarnio: critica INDIRETA. Cantigas de maldizer: critica DIRETA (nomeia a pessoa). Contexto: feudalismo, Cruzadas, trovadores nas cortes.",
+      "body": "<h2>Introducao</h2><p>O <strong>Trovadorismo</strong> e a primeira manifestacao literaria em lingua portuguesa.</p><h2>Cantigas</h2><table><thead><tr><th>Tipo</th><th>Eu Lirico</th><th>Tema</th></tr></thead><tbody><tr><td>De amor</td><td>Masculino</td><td>Sofrimento por amor nao correspondido</td></tr><tr><td>De amigo</td><td>Feminino</td><td>Saudade do amado</td></tr><tr><td>De escarnio</td><td>Variavel</td><td>Critica indireta</td></tr><tr><td>De maldizer</td><td>Variavel</td><td>Critica direta, com nomes</td></tr></tbody></table><h2>Resumo</h2><ul><li>Amor=masculino. Amigo=feminino.</li><li>ENEM: distinguir cantigas, coita</li></ul><h2>Curiosidade</h2><p>Na cantiga de amor, o homem trata a mulher como '<strong>senhor</strong>' (no masculino mesmo!) - vassalagem amorosa do feudalismo!</p>",
+      "faq": [
+        {
+          "q": "Coita?",
+          "a": "Sofrimento amoroso do trovador. Ama uma dama inalcancavel. E a versao medieval do 'sofrimento de amor'."
+        },
+        {
+          "q": "Amor vs amigo?",
+          "a": "AMOR: eu lirico homem sofre pela dama. AMIGO: eu lirico mulher sente saudade do amado. A perspectiva muda."
+        },
+        {
+          "q": "Escarnio vs maldizer?",
+          "a": "Escarnio: critica com ironia, sem nomear. Maldizer: critica direta, nomeia a pessoa, linguagem crua."
+        },
+        {
+          "q": "Trovadores eram famosos?",
+          "a": "Sim! Na corte medieval, trovadores eram artistas respeitados. D. Dinis, rei de Portugal, era trovador!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cantiga de amigo - eu lirico",
+          "options": [
+            "Masculino",
+            "Feminino",
+            "Narrador",
+            "Animal"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Coita e",
+          "options": [
+            "Alegria",
+            "Sofrimento amoroso",
+            "Critica",
+            "Viagem"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cantiga de maldizer critica",
+          "options": [
+            "Indiretamente",
+            "Diretamente",
+            "Sem critica",
+            "Com amor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Trovadorismo - seculos",
+          "options": [
+            "X-XI",
+            "XII-XIV",
+            "XV-XVI",
+            "XVII-XVIII"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Humanismo (Séc. XV)",
+      "slug": "humanismo-sec-xv",
+      "desc": "Humanismo: Gil Vicente (teatro), Fernao Lopes (cronica historica). Transicao Idade Media-Renascimento. Auto da Barca do Inferno.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Humanismo (sec. XV): transicao medieval-renascentista. Gil Vicente: pai do teatro portugues. Auto da Barca do Inferno (1517): julgamento apos a morte, critica social. Personagens-tipo (Onzeneiro, Frade, Alcoviteira). Fernao Lopes: cronista-mor, pai da historiografia portuguesa. Cronica de D. Joao I. Poesia palaciana: substituiu cantigas, forma mais rebuscada.",
+      "body": "<h2>Introducao</h2><p>O <strong>Humanismo</strong> marca a transicao da Idade Media para o Renascimento.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Obra</th><th>Genero</th></tr></thead><tbody><tr><td>Gil Vicente</td><td>Auto da Barca do Inferno</td><td>Teatro</td></tr><tr><td>Fernao Lopes</td><td>Cronica de D. Joao I</td><td>Cronica historica</td></tr></tbody></table><h2>Auto da Barca</h2><ul><li>Personagens mortos chegam a barca (Ceu ou Inferno)</li><li>Critica social: frade corrupto, agiota, alcoviteira</li></ul><h2>Resumo</h2><ul><li>Gil Vicente = teatro. Fernao Lopes = cronica.</li><li>ENEM: Auto da Barca, personagens-tipo</li></ul><h2>Curiosidade</h2><p>Na Barca do Inferno, o unico que vai pro Ceu facilmente e o <strong>Parvo</strong> (tolo) - os 'importantes' vao pro Inferno!</p>",
+      "faq": [
+        {
+          "q": "Personagens-tipo?",
+          "a": "Nao sao individuos, sao TIPOS sociais: o agiota (Onzeneiro), o frade corrupto, a alcoviteira. Representam grupos, nao pessoas."
+        },
+        {
+          "q": "Por que o Parvo se salva?",
+          "a": "O Parvo (Joane) e simples, inocente, bobo. Gil Vicente critica: os 'espertos' (ricos, clero) pecam. O simples, livre de ambicao, se salva."
+        },
+        {
+          "q": "Fernao Lopes e importante?",
+          "a": "Sim! Primeiro grande cronista portugues. Registrou historia com vivacidade, usando documentos e relatos. Pai da historiografia portuguesa."
+        },
+        {
+          "q": "Humanismo e Renascimento?",
+          "a": "Humanismo e a TRANSICAO. O ser humano comeca a ganhar importancia, mas ainda num contexto medieval. O Renascimento pleno vem no Classicismo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Auto da Barca e de",
+          "options": [
+            "Camoes",
+            "Fernao Lopes",
+            "Gil Vicente",
+            "Bocage"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Quem vai pro Ceu na Barca",
+          "options": [
+            "Frade",
+            "Onzeneiro",
+            "Parvo",
+            "Fidalgo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Humanismo - seculo",
+          "options": [
+            "XIV",
+            "XV",
+            "XVI",
+            "XVII"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fernao Lopes escreveu",
+          "options": [
+            "Teatro",
+            "Poesia",
+            "Cronicas",
+            "Romance"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Classicismo (Séc. XVI)",
+      "slug": "classicismo-sec-xvi",
+      "desc": "Classicismo: Camoes, Os Lusiadas (epopeia). Soneto. Medida nova (decassilabo). Renascimento em Portugal. Seculo XVI.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Classicismo (sec. XVI): Renascimento portugues. Imitacao dos classicos gregos/romanos. Camoes (1524-1580): maior poeta da lingua portuguesa. Os Lusiadas: epopeia sobre as navegacoes portuguesas. Estrutura: 10 cantos, oitava rima, decassilabo. Heroi: Vasco da Gama (e o povo portugues). Sonetos liricos de Camoes. Medida nova: decassilabo (10 silabas). Razao, equilibrio, harmonia.",
+      "body": "<h2>Introducao</h2><p>O <strong>Classicismo</strong> e o Renascimento em Portugal, dominado pelo genio de Camoes.</p><h2>Camoes</h2><ul><li><strong>Os Lusiadas:</strong> epopeia sobre as Grandes Navegacoes</li><li><strong>Sonetos:</strong> poesia lirica sublime</li></ul><h2>Os Lusiadas</h2><table><thead><tr><th>Aspecto</th><th>Detalhe</th></tr></thead><tbody><tr><td>Genero</td><td>Epopeia</td></tr><tr><td>Estrutura</td><td>10 cantos, oitava rima</td></tr><tr><td>Metro</td><td>Decassilabo</td></tr><tr><td>Heroi</td><td>Vasco da Gama / povo portugues</td></tr></tbody></table><h2>Resumo</h2><ul><li>Camoes = Lusiadas + sonetos</li><li>ENEM: Camoes e presenca certa</li></ul><h2>Curiosidade</h2><p>Camoes perdeu um <strong>olho</strong> em batalha e viveu na pobreza, mas escreveu a maior obra da lingua portuguesa!</p>",
+      "faq": [
+        {
+          "q": "'Amor e fogo que arde sem se ver'?",
+          "a": "Soneto mais famoso de Camoes. Define amor por paradoxos (antiteses). Amor e fogo E ferida, e dor E contentamento. Classico absoluto."
+        },
+        {
+          "q": "Decassilabo?",
+          "a": "Verso com 10 silabas poeticas. Padrao do Classicismo (medida nova). Substituiu a redondilha (7 silabas) medieval."
+        },
+        {
+          "q": "Os Lusiadas sao dificeis?",
+          "a": "Sim, linguagem arcaica. Mas a historia e epica: deuses do Olimpo, tempestades, batalhas, Ilha dos Amores. Aventura de verdade!"
+        },
+        {
+          "q": "Camoes vs Shakespeare?",
+          "a": "Contemporaneos! Camoes morreu em 1580, Shakespeare nasceu em 1564. Ambos sao pilares de suas linguas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Os Lusiadas sao",
+          "options": [
+            "Romance",
+            "Soneto",
+            "Epopeia",
+            "Cronica"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Decassilabo tem ? silabas",
+          "options": [
+            "7",
+            "8",
+            "10",
+            "12"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Heroi dos Lusiadas",
+          "options": [
+            "Camoes",
+            "Vasco da Gama",
+            "D. Sebastiao",
+            "Afonso Henriques"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Classicismo - seculo",
+          "options": [
+            "XIV",
+            "XV",
+            "XVI",
+            "XVII"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Quinhentismo Brasileiro (Séc. XVI)",
+      "slug": "quinhentismo-brasileiro-sec-xvi",
+      "desc": "Quinhentismo: literatura informativa (Carta de Caminha) e jesuítica (Anchieta). Sec. XVI. Primeira literatura no Brasil.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Quinhentismo (sec. XVI): primeira manifestacao literaria no Brasil. Literatura informativa: Carta de Pero Vaz de Caminha (1500) - relato do 'descobrimento'. Descricao da terra e dos indigenas. Literatura jesuítica: Padre Jose de Anchieta - catequese dos indigenas, poesia religiosa, teatro didatico. 'Certidao de nascimento do Brasil': Carta de Caminha.",
+      "body": "<h2>Introducao</h2><p>O <strong>Quinhentismo</strong> marca o inicio da literatura no Brasil colonizado.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Autor</th><th>Objetivo</th></tr></thead><tbody><tr><td>Informativa</td><td>Caminha</td><td>Relatar a terra ao rei</td></tr><tr><td>Jesuitica</td><td>Anchieta</td><td>Catequizar indigenas</td></tr></tbody></table><h2>Resumo</h2><ul><li>Caminha: informar. Anchieta: catequizar.</li><li>ENEM: Carta de Caminha, olhar europeu sobre indigenas</li></ul><h2>Curiosidade</h2><p>A Carta de Caminha ficou <strong>perdida por 300 anos</strong> em arquivos portugueses ate ser redescoberta!</p>",
+      "faq": [
+        {
+          "q": "Caminha e literaria?",
+          "a": "Debate! E mais documento historico que literatura. Mas tem trechos descritivos ricos ('pardos, nus, sem coisa alguma que lhes cobrisse...'). Transita entre os dois."
+        },
+        {
+          "q": "Anchieta escreveu em que linguas?",
+          "a": "Portugues, espanhol, latim e TUPI! Traduziu oracoes cristãs para tupi para catequizar. Primeiro 'tradutor' do Brasil."
+        },
+        {
+          "q": "Olhar europeu?",
+          "a": "Caminha descreve indigenas com OLHAR europeu: 'inocentes', 'sem vergonha' (nus). Etnocentrismo. O ENEM adora questionar esse olhar."
+        },
+        {
+          "q": "Quinhentismo e escola literaria?",
+          "a": "Mais uma manifestacao inicial do que uma escola estruturada. Nao ha 'estilo' definido - sao relatos e catequese."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Carta de Caminha e de",
+          "options": [
+            "1492",
+            "1500",
+            "1549",
+            "1580"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Anchieta fazia",
+          "options": [
+            "Poesia de amor",
+            "Catequese",
+            "Romance",
+            "Jornalismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Carta relata para",
+          "options": [
+            "O Papa",
+            "O rei de Portugal",
+            "Os indigenas",
+            "O povo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Quinhentismo - seculo",
+          "options": [
+            "XV",
+            "XVI",
+            "XVII",
+            "XVIII"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Barroco (Séc. XVII)",
+      "slug": "barroco-sec-xvii",
+      "desc": "Barroco: dualismo (fe vs razao, ceu vs terra). Gregorio de Matos (Boca do Inferno). Padre Vieira (sermoes). Sec. XVII.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Barroco (sec. XVII): conflito entre fe e razao, ceu e terra, carne e espirito. Figuras: antitese, paradoxo, hiperbole, metafora. Gregorio de Matos (Boca do Inferno): poesia lirica, satirica e religiosa. Padre Antonio Vieira: Sermao da Sexagesima (arte de pregar), Sermao do Bom Ladrao. Cultismo: forma rebuscada (Gongora). Conceptismo: jogo de ideias/raciocinio (Quevedo).",
+      "body": "<h2>Introducao</h2><p>O <strong>Barroco</strong> expressa o conflito entre o humano e o divino.</p><h2>Autores</h2><table><thead><tr><th>Autor</th><th>Genero</th><th>Destaque</th></tr></thead><tbody><tr><td>Gregorio de Matos</td><td>Poesia</td><td>Boca do Inferno (satirica)</td></tr><tr><td>Padre Vieira</td><td>Prosa (sermoes)</td><td>Sermao da Sexagesima</td></tr></tbody></table><h2>Estilos</h2><ul><li><strong>Cultismo:</strong> forma rebuscada, linguagem ornamentada</li><li><strong>Conceptismo:</strong> jogo de ideias e raciocinio</li></ul><h2>Resumo</h2><ul><li>Dualismo, antitese, paradoxo</li><li>ENEM: Gregorio de Matos, Vieira</li></ul><h2>Curiosidade</h2><p>Gregorio de Matos era tao <strong>satirico</strong> que ganhou o apelido 'Boca do Inferno' e foi EXILADO de Salvador!</p>",
+      "faq": [
+        {
+          "q": "Cultismo vs conceptismo?",
+          "a": "Cultismo: FORMA rebuscada (metaforas, hiperboles). Conceptismo: CONTEUDO rebuscado (logica, argumentacao). Gregorio=cultismo. Vieira=conceptismo."
+        },
+        {
+          "q": "Boca do Inferno?",
+          "a": "Apelido de Gregorio de Matos. Satirizava politicos, clero, sociedade baiana sem piedade. Linguagem crua e direta."
+        },
+        {
+          "q": "Sermao da Sexagesima?",
+          "a": "Vieira ensina COMO pregar bem: sem vaidade, com clareza, focado no ouvinte. Metalinguistico: um sermao sobre sermoes."
+        },
+        {
+          "q": "Barroco e feio?",
+          "a": "Nao! E INTENSO. Arte grandiosa, emotiva, dramatica. Igrejas barrocas brasileiras (Aleijadinho) sao patrimonio mundial."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Boca do Inferno e apelido de",
+          "options": [
+            "Vieira",
+            "Camoes",
+            "Gregorio de Matos",
+            "Anchieta"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Cultismo foca na",
+          "options": [
+            "Forma",
+            "Ideia",
+            "Razao",
+            "Fe"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Barroco - seculo",
+          "options": [
+            "XV",
+            "XVI",
+            "XVII",
+            "XVIII"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Sermao da Sexagesima e de",
+          "options": [
+            "Gregorio",
+            "Vieira",
+            "Camoes",
+            "Anchieta"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Arcadismo (Séc. XVIII)",
+      "slug": "arcadismo-sec-xviii",
+      "desc": "Arcadismo: bucolismo, pastoralismo, carpe diem, locus amoenus. Claudio Manuel da Costa, Tomas Antonio Gonzaga (Marilia de Dirceu). Sec. XVIII.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Arcadismo (sec. XVIII): reacao ao exagero barroco. Simplicidade, natureza, equilibrio. Pseudonimos pastorais (Dirceu, Marilia). Locus amoenus: lugar agradavel (campo idealizado). Carpe diem: aproveitar o dia. Fugere urbem: fugir da cidade. Aurea mediocritas: vida simples e equilibrada. Tomas Antonio Gonzaga: Marilia de Dirceu. Claudio Manuel da Costa: sonetos. Inconfidencia Mineira: Gonzaga e Claudio foram presos.",
+      "body": "<h2>Introducao</h2><p>O <strong>Arcadismo</strong> busca simplicidade e natureza apos os excessos do Barroco.</p><h2>Principios</h2><table><thead><tr><th>Principio</th><th>Significado</th></tr></thead><tbody><tr><td>Locus amoenus</td><td>Lugar agradavel (campo)</td></tr><tr><td>Carpe diem</td><td>Aproveitar o presente</td></tr><tr><td>Fugere urbem</td><td>Fugir da cidade</td></tr><tr><td>Aurea mediocritas</td><td>Vida simples e equilibrada</td></tr></tbody></table><h2>Autores</h2><ul><li><strong>Gonzaga:</strong> Marilia de Dirceu (amor + Inconfidencia)</li><li><strong>Claudio Manuel:</strong> sonetos bucolicos</li></ul><h2>Resumo</h2><ul><li>Natureza, simplicidade, pastores</li><li>ENEM: Marilia de Dirceu, locus amoenus</li></ul><h2>Curiosidade</h2><p>Gonzaga foi preso por participar da <strong>Inconfidencia Mineira</strong> e exilado em Mocambique - separado para sempre de sua Marilia!</p>",
+      "faq": [
+        {
+          "q": "Pseudonimos pastorais?",
+          "a": "Poetas se disfarçavam de pastores: Gonzaga=Dirceu, sua amada=Marilia. Convencao literaria. Na vida real eram advogados e politicos!"
+        },
+        {
+          "q": "Inconfidencia e literatura?",
+          "a": "Gonzaga, Claudio Manuel e outros arcades participaram da Inconfidencia Mineira (1789). Literatura e politica juntas."
+        },
+        {
+          "q": "Carpe diem?",
+          "a": "Horacio (romano): 'aproveite o dia'. No Arcadismo: viva o presente, ame agora, antes que a juventude passe."
+        },
+        {
+          "q": "Arcadismo e Neoclassicismo?",
+          "a": "Sao a mesma coisa! Arcadismo (no Brasil) = Neoclassicismo (na Europa). Ambos voltam aos classicos com razao e equilibrio."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Marilia de Dirceu e de",
+          "options": [
+            "Claudio Manuel",
+            "Gonzaga",
+            "Gregorio",
+            "Camoes"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Locus amoenus e",
+          "options": [
+            "Lugar terrivel",
+            "Lugar agradavel",
+            "Cidade",
+            "Deserto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Carpe diem significa",
+          "options": [
+            "Tenha medo",
+            "Fuja da cidade",
+            "Aproveite o dia",
+            "Vida simples"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Arcadismo - seculo",
+          "options": [
+            "XVI",
+            "XVII",
+            "XVIII",
+            "XIX"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "subject": "Filosofia",
+  "slug": "3ano-filosofia",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--filosofia)",
+  "icon": "lightbulb",
+  "articles": [
+    {
+      "title": "Marx: Materialismo Histórico e Dialético",
+      "slug": "marx-materialismo-historico-e-dialetico",
+      "desc": "Marx: materialismo historico e dialetico. Luta de classes. Mais-valia. Alienacao. Infraestrutura e superestrutura. Capital.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Marx (1818-1883): inverteu Hegel - materialismo dialetico. Materialismo historico: historia movida pela luta de classes (economia e base). Infraestrutura (economia) determina superestrutura (politica, cultura, religiao). Mais-valia: lucro extraido do trabalho excedente. Alienacao: trabalhador nao se reconhece no produto. Classes: burguesia (donos dos meios) vs proletariado (vendem trabalho). Revolucao proletaria aboliria propriedade privada.",
+      "body": "<h2>Introducao</h2><p><strong>Marx</strong> revolucionou o pensamento com uma critica radical ao capitalismo.</p><h2>Conceitos</h2><table><thead><tr><th>Conceito</th><th>Significado</th></tr></thead><tbody><tr><td>Materialismo historico</td><td>Historia movida pela economia/classes</td></tr><tr><td>Luta de classes</td><td>Burguesia vs proletariado</td></tr><tr><td>Mais-valia</td><td>Lucro do trabalho nao pago</td></tr><tr><td>Alienacao</td><td>Trabalhador separado do produto</td></tr></tbody></table><h2>Infra e Superestrutura</h2><ul><li><strong>Infraestrutura:</strong> relacoes economicas (base)</li><li><strong>Superestrutura:</strong> politica, direito, cultura (reflexo)</li></ul><h2>Resumo</h2><ul><li>Economia determina politica e cultura</li><li>ENEM: Marx e DOS MAIS cobrados!</li></ul><h2>Curiosidade</h2><p>Marx viveu na <strong>pobreza</strong> em Londres enquanto escrevia O Capital - sustentado por Engels!</p>",
+      "faq": [
+        {
+          "q": "Mais-valia?",
+          "a": "Trabalhador produz valor X mas recebe salario Y (Y<X). A diferenca (X-Y) e a mais-valia: lucro do capitalista. Fonte da exploracao para Marx."
+        },
+        {
+          "q": "Alienacao?",
+          "a": "4 formas: do produto (nao e dono), do processo (nao controla), de si mesmo (trabalho desumaniza), dos outros (competicao). Trabalhador vira maquina."
+        },
+        {
+          "q": "Marx acertou?",
+          "a": "Debate! Acertou na analise da desigualdade e exploracao. Errou na previsao de revolucao nos paises industrializados. Legado: imenso na sociologia, economia, politica."
+        },
+        {
+          "q": "Comunismo deu certo?",
+          "a": "Regimes que se disseram comunistas (URSS, Cuba, China) nao seguiram Marx literalmente. Marx previa sociedade SEM Estado - URSS teve Estado totalitario."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Mais-valia e",
+          "options": [
+            "Salario justo",
+            "Lucro do trabalho nao pago",
+            "Imposto",
+            "Dividendo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Infraestrutura para Marx e",
+          "options": [
+            "Politica",
+            "Cultura",
+            "Economia",
+            "Religiao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Luta de classes opoe",
+          "options": [
+            "Senhores e escravos",
+            "Burguesia e proletariado",
+            "Nobres e clero",
+            "Ricos e pobres"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Marx inverteu a dialetica de",
+          "options": [
+            "Kant",
+            "Hume",
+            "Hegel",
+            "Descartes"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Nietzsche: Morte de Deus e Vontade de Potência",
+      "slug": "nietzsche-morte-de-deus-e-vontade-de-potencia",
+      "desc": "Nietzsche: morte de Deus, super-homem, vontade de potencia, eterno retorno. Critica a moral crista. Apolíneo vs dionisiaco.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Nietzsche (1844-1900): 'Deus esta morto' = valores tradicionais perderam sentido. Niilismo: ausencia de valores. Ubermensch (super-homem): cria seus proprios valores apos a morte de Deus. Vontade de potencia: impulso vital de superacao. Eterno retorno: viva como se tudo se repetisse eternamente. Moral de senhores vs moral de escravos. Apolíneo (razao, ordem) vs dionisiaco (emocao, caos).",
+      "body": "<h2>Introducao</h2><p><strong>Nietzsche</strong> e o filosofo do martelo: destruiu certezas para reconstruir valores.</p><h2>Conceitos</h2><table><thead><tr><th>Conceito</th><th>Significado</th></tr></thead><tbody><tr><td>Morte de Deus</td><td>Valores tradicionais ruiram</td></tr><tr><td>Super-homem</td><td>Quem cria seus proprios valores</td></tr><tr><td>Vontade de potencia</td><td>Impulso vital de superacao</td></tr><tr><td>Eterno retorno</td><td>Viva como se tudo se repetisse</td></tr></tbody></table><h2>Moral</h2><ul><li><strong>Senhores:</strong> afirmam a vida, criam valores</li><li><strong>Escravos:</strong> ressentimento, moral do rebanho</li></ul><h2>Resumo</h2><ul><li>'Deus morreu' = crise de valores</li><li>ENEM: morte de Deus, super-homem, niilismo</li></ul><h2>Curiosidade</h2><p>Nietzsche ficou <strong>louco</strong> aos 44 anos e passou os ultimos 11 anos de vida em colapso mental. Sua irma distorceu suas obras.</p>",
+      "faq": [
+        {
+          "q": "'Deus morreu' = ateismo?",
+          "a": "Nao exatamente. E um diagnostico cultural: os valores cristãos/tradicionais perderam a forca que tinham. A sociedade moderna nao tem mais fundamento solido."
+        },
+        {
+          "q": "Super-homem = heroi?",
+          "a": "Nao! Ubermensch e quem SUPERA o humano atual (preso a moral de rebanho) e cria valores proprios. Nao e forca fisica - e forca de espirito."
+        },
+        {
+          "q": "Nietzsche era nazista?",
+          "a": "NAO! Sua irma Elisabeth editou suas obras para agradar os nazistas. Nietzsche desprezava antissemitismo e nacionalismo. Foi distorcido postumamente."
+        },
+        {
+          "q": "Eterno retorno - para que?",
+          "a": "Teste existencial: se tudo se repetisse infinitamente, voce aprovaria sua vida? Se sim, esta vivendo bem. E um criterio para viver com intensidade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Deus esta morto' e de",
+          "options": [
+            "Marx",
+            "Freud",
+            "Nietzsche",
+            "Sartre"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Ubermensch significa",
+          "options": [
+            "Heroi",
+            "Super-homem",
+            "Deus",
+            "Sabio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Eterno retorno e teste de",
+          "options": [
+            "Fe",
+            "Logica",
+            "Como voce vive",
+            "Memoria"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Nietzsche criticou a moral",
+          "options": [
+            "Grega",
+            "Crista",
+            "Cientifica",
+            "Politica"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Existencialismo: Sartre e Beauvoir",
+      "slug": "existencialismo-sartre-e-beauvoir",
+      "desc": "Existencialismo: existencia precede essencia. Sartre (liberdade, ma-fe, angustia), Beauvoir (feminismo existencialista), Camus (absurdo).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Existencialismo: existencia precede a essencia (nao ha natureza humana predefinida). Sartre (1905-1980): somos 'condenados a ser livres'. Ma-fe: negar a propria liberdade. Angustia da escolha. Engajamento politico. Beauvoir (1908-1986): 'Nao se nasce mulher, torna-se mulher'. O Segundo Sexo: feminismo existencialista. Camus (1913-1960): o absurdo (vida sem sentido inerente), O Mito de Sisifo, revolta.",
+      "body": "<h2>Introducao</h2><p>O <strong>existencialismo</strong> coloca a liberdade radical e a responsabilidade no centro da existencia.</p><h2>Pensadores</h2><table><thead><tr><th>Filosofo</th><th>Ideia Central</th></tr></thead><tbody><tr><td>Sartre</td><td>Existencia precede essencia, liberdade radical</td></tr><tr><td>Beauvoir</td><td>'Nao se nasce mulher, torna-se'</td></tr><tr><td>Camus</td><td>O absurdo, revolta</td></tr></tbody></table><h2>Sartre</h2><ul><li>Somos 'condenados a ser livres'</li><li>Ma-fe: fingir que nao temos escolha</li><li>Angustia: peso da responsabilidade total</li></ul><h2>Resumo</h2><ul><li>Liberdade = responsabilidade total</li><li>ENEM: Sartre e Beauvoir sao muito cobrados</li></ul><h2>Curiosidade</h2><p>Sartre <strong>recusou o Nobel de Literatura</strong> (1964) - disse que nao queria ser 'institucionalizado'!</p>",
+      "faq": [
+        {
+          "q": "'Existencia precede essencia'?",
+          "a": "Primeiro existimos, depois nos definimos. Nao ha 'natureza humana' predefinida. Voce e o que faz de si mesmo. Responsabilidade total."
+        },
+        {
+          "q": "Ma-fe?",
+          "a": "Negar a propria liberdade. 'Nao tenho escolha', 'e meu destino', 'fui obrigado'. Para Sartre, SEMPRE temos escolha (mesmo em situacoes extremas)."
+        },
+        {
+          "q": "Beauvoir e feminismo?",
+          "a": "'Nao se nasce mulher, torna-se': genero e construcao social, nao biologica. O Segundo Sexo (1949) e marco fundador do feminismo contemporaneo."
+        },
+        {
+          "q": "Camus e existencialista?",
+          "a": "Ele rejeitava o rotulo! Preferia 'filosofia do absurdo'. O absurdo: vida nao tem sentido inerente, mas devemos viver mesmo assim (revolta)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Existencia precede essencia' e de",
+          "options": [
+            "Camus",
+            "Beauvoir",
+            "Sartre",
+            "Heidegger"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Beauvoir escreveu",
+          "options": [
+            "O Capital",
+            "O Segundo Sexo",
+            "Ser e Tempo",
+            "A Republica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ma-fe e",
+          "options": [
+            "Mentir",
+            "Negar a propria liberdade",
+            "Ser ateu",
+            "Ter medo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Camus escreveu",
+          "options": [
+            "O Principe",
+            "O Mito de Sisifo",
+            "Critica da Razao",
+            "Ser e Nada"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Fenomenologia: Husserl e Heidegger",
+      "slug": "fenomenologia-husserl-e-heidegger",
+      "desc": "Fenomenologia: Husserl (intencionalidade, volta as coisas mesmas), Heidegger (Dasein, ser-no-mundo, ser-para-a-morte). Existencia e temporalidade.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Husserl (1859-1938): fenomenologia = estudo dos fenomenos como aparecem a consciencia. Intencionalidade: consciencia e sempre consciencia DE algo. Reducao fenomenologica (epoche): suspender pressupostos. Heidegger (1889-1976): Ser e Tempo. Dasein: ser-ai, existencia humana. Ser-no-mundo: sempre ja inseridos num contexto. Ser-para-a-morte: finitude da como sentido. Angustia revela a existencia autentica.",
+      "body": "<h2>Introducao</h2><p>A <strong>fenomenologia</strong> estuda como os fenomenos aparecem a nossa consciencia.</p><h2>Husserl</h2><ul><li><strong>Intencionalidade:</strong> consciencia e SEMPRE consciencia de algo</li><li><strong>Epoche:</strong> suspender pressupostos para ver o fenomeno como ele e</li><li>'Voltar as coisas mesmas!'</li></ul><h2>Heidegger</h2><ul><li><strong>Dasein:</strong> o ser humano como 'ser-ai' (existencia)</li><li><strong>Ser-no-mundo:</strong> nao estamos separados do mundo</li><li><strong>Ser-para-a-morte:</strong> finitude da sentido a vida</li></ul><h2>Resumo</h2><ul><li>Husserl: consciencia intencional. Heidegger: existencia e temporalidade.</li><li>ENEM: intencionalidade, Dasein, ser-para-a-morte</li></ul><h2>Curiosidade</h2><p>Heidegger foi aluno de Husserl, mas depois o <strong>superou</strong> e os dois se desentenderam - tragicamente, durante o nazismo.</p>",
+      "faq": [
+        {
+          "q": "Intencionalidade?",
+          "a": "Consciencia nao e uma 'caixa'. E sempre DIRECIONADA a algo: penso EM algo, desejo algo, vejo algo. Nao existe consciencia vazia."
+        },
+        {
+          "q": "Dasein?",
+          "a": "Literalmente 'ser-ai'. O ser humano e o unico ente que se pergunta sobre o SENTIDO do ser. Somos existencia que questiona a si mesma."
+        },
+        {
+          "q": "Ser-para-a-morte?",
+          "a": "Saber que vamos morrer (finitude) e o que da urgencia e autenticidade a vida. Quem ignora a morte vive na inautenticidade."
+        },
+        {
+          "q": "Heidegger e o nazismo?",
+          "a": "Heidegger aderiu ao nazismo (1933) como reitor. Debate enorme: sua filosofia e contaminada? Maioria separa a obra (valiosa) da pessoa (questionavel)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Intencionalidade e conceito de",
+          "options": [
+            "Heidegger",
+            "Sartre",
+            "Husserl",
+            "Camus"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Dasein significa",
+          "options": [
+            "Ser-ai",
+            "Ser-em-si",
+            "Ser-para-si",
+            "Ser absoluto"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Ser e Tempo foi escrito por",
+          "options": [
+            "Husserl",
+            "Heidegger",
+            "Sartre",
+            "Merleau-Ponty"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Epoche e",
+          "options": [
+            "Afirmacao",
+            "Suspensao de pressupostos",
+            "Negacao",
+            "Duvida total"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Escola de Frankfurt: Teoria Crítica",
+      "slug": "escola-de-frankfurt-teoria-critica",
+      "desc": "Escola de Frankfurt: teoria critica. Adorno e Horkheimer (industria cultural), Marcuse (homem unidimensional), Habermas (acao comunicativa).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Escola de Frankfurt (1923+): teoria critica da sociedade. Adorno e Horkheimer: industria cultural (cultura vira mercadoria, massa alienada). Dialetica do Esclarecimento. Marcuse: homem unidimensional (capitalismo cria falsas necessidades). Habermas: acao comunicativa (dialogo racional como base da democracia). Walter Benjamin: arte na era da reprodutibilidade tecnica (aura). Influencia marxista + freudiana.",
+      "body": "<h2>Introducao</h2><p>A <strong>Escola de Frankfurt</strong> critica a sociedade capitalista e a cultura de massa.</p><h2>Pensadores</h2><table><thead><tr><th>Filosofo</th><th>Conceito</th></tr></thead><tbody><tr><td>Adorno/Horkheimer</td><td>Industria cultural</td></tr><tr><td>Marcuse</td><td>Homem unidimensional</td></tr><tr><td>Benjamin</td><td>Aura da obra de arte</td></tr><tr><td>Habermas</td><td>Acao comunicativa</td></tr></tbody></table><h2>Industria Cultural</h2><p>Cultura produzida em massa para lucro: musica, cinema, TV padronizados. Aliena em vez de libertar.</p><h2>Resumo</h2><ul><li>Cultura de massa aliena. Dialogo racional liberta.</li><li>ENEM: industria cultural, Adorno, Habermas</li></ul><h2>Curiosidade</h2><p>Benjamin disse que a <strong>fotografia</strong> e o cinema destruiram a 'aura' da arte - a unicidade e autenticidade da obra original.</p>",
+      "faq": [
+        {
+          "q": "Industria cultural - exemplo?",
+          "a": "Hit musical criado por algoritmo, filme de super-heroi feito so para lucrar, noticia sensacionalista para clicks. Cultura padronizada para consumo, nao para reflexao."
+        },
+        {
+          "q": "Homem unidimensional?",
+          "a": "Marcuse: capitalismo cria falsas necessidades (consumismo) que nos fazem aceitar o sistema. Perdemos a capacidade critica. So pensamos em UMA dimensao: consumir."
+        },
+        {
+          "q": "Acao comunicativa?",
+          "a": "Habermas: democracia real exige dialogo racional entre iguais. Argumentos valem mais que poder. Esfera publica: espaco de debate livre."
+        },
+        {
+          "q": "Aura de Benjamin?",
+          "a": "A 'aura' e a unicidade e autenticidade da obra original. Reproduzir (foto, copia) destrói a aura mas democratiza o acesso. Ambivalente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Industria cultural e de",
+          "options": [
+            "Marx",
+            "Adorno",
+            "Foucault",
+            "Sartre"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Homem unidimensional e de",
+          "options": [
+            "Adorno",
+            "Marcuse",
+            "Habermas",
+            "Benjamin"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Acao comunicativa e de",
+          "options": [
+            "Adorno",
+            "Marcuse",
+            "Habermas",
+            "Benjamin"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Aura da obra de arte e de",
+          "options": [
+            "Adorno",
+            "Marcuse",
+            "Habermas",
+            "Benjamin"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Filosofia da Linguagem",
+      "slug": "filosofia-da-linguagem",
+      "desc": "Filosofia da linguagem: Wittgenstein (jogos de linguagem), Saussure (significante/significado), Austin (atos de fala), Derrida (desconstrucao).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Wittgenstein: 1o fase (Tractatus: limites da linguagem = limites do mundo) e 2o fase (Investigacoes: jogos de linguagem, significado = uso). Saussure: signo = significante + significado, arbitrariedade. Austin: atos de fala (constatativos vs performativos: 'eu te batizo'). Derrida: desconstrucao, diferanca, nenhum texto tem significado fixo. Virada linguistica: linguagem nao e instrumento neutro, constitui a realidade.",
+      "body": "<h2>Introducao</h2><p>A <strong>filosofia da linguagem</strong> investiga como palavras criam significado e realidade.</p><h2>Pensadores</h2><table><thead><tr><th>Filosofo</th><th>Conceito</th></tr></thead><tbody><tr><td>Wittgenstein</td><td>Jogos de linguagem</td></tr><tr><td>Saussure</td><td>Significante/significado</td></tr><tr><td>Austin</td><td>Atos de fala</td></tr><tr><td>Derrida</td><td>Desconstrucao</td></tr></tbody></table><h2>Wittgenstein</h2><ul><li>1a fase: 'Os limites da minha linguagem sao os limites do meu mundo'</li><li>2a fase: significado = USO na pratica (jogos de linguagem)</li></ul><h2>Resumo</h2><ul><li>Linguagem nao e neutra: constroi realidade</li><li>ENEM: jogos de linguagem, atos de fala</li></ul><h2>Curiosidade</h2><p>Wittgenstein mudou COMPLETAMENTE de ideia entre sua 1a e 2a fases - algo raro na filosofia!</p>",
+      "faq": [
+        {
+          "q": "Jogos de linguagem?",
+          "a": "Wittgenstein: linguagem funciona como jogos com regras. Palavras tem significados diferentes em contextos diferentes. 'Banco' (assento vs financeiro)."
+        },
+        {
+          "q": "Atos de fala?",
+          "a": "Austin: algumas frases NAO descrevem - FAZEM coisas. 'Eu te declaro casados' = muda a realidade. Performativos vs constatativos."
+        },
+        {
+          "q": "Desconstrucao?",
+          "a": "Derrida: todo texto tem contradicoes internas. Nenhum significado e fixo. Leitura critica que mostra o que o texto tenta esconder."
+        },
+        {
+          "q": "Virada linguistica?",
+          "a": "Sec. XX: filosofia percebe que linguagem nao e ferramenta neutra. Linguagem CONSTITUI nosso pensamento e realidade. Impossivel pensar sem linguagem."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Jogos de linguagem e de",
+          "options": [
+            "Saussure",
+            "Wittgenstein",
+            "Austin",
+            "Derrida"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Eu te batizo' e um ato",
+          "options": [
+            "Constatativo",
+            "Performativo",
+            "Logico",
+            "Retorico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Desconstrucao e de",
+          "options": [
+            "Foucault",
+            "Deleuze",
+            "Derrida",
+            "Habermas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Significante/significado e de",
+          "options": [
+            "Wittgenstein",
+            "Austin",
+            "Saussure",
+            "Chomsky"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Ética Contemporânea",
+      "slug": "etica-contemporanea",
+      "desc": "Etica contemporanea: utilitarismo (Mill, Singer), etica do dever (Kant), etica das virtudes (MacIntyre), etica do cuidado, etica aplicada.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Utilitarismo (Mill, Singer): acao certa e a que produz maior bem para o maior numero. Singer: etica animal. Deontologia (Kant): dever, imperativo categorico. Etica das virtudes (MacIntyre): retorno a Aristoteles, carater. Etica do cuidado (Gilligan): relacoes e responsabilidade. Etica aplicada: bioetica, etica ambiental, etica profissional, etica da IA.",
+      "body": "<h2>Introducao</h2><p>A <strong>etica contemporanea</strong> debate qual a acao moralmente correta em diferentes abordagens.</p><h2>Correntes</h2><table><thead><tr><th>Corrente</th><th>Criterio</th><th>Pensador</th></tr></thead><tbody><tr><td>Utilitarismo</td><td>Maior bem para o maior numero</td><td>Mill, Singer</td></tr><tr><td>Deontologia</td><td>Dever, regras universais</td><td>Kant</td></tr><tr><td>Virtudes</td><td>Carater, meio-termo</td><td>MacIntyre</td></tr><tr><td>Cuidado</td><td>Relacoes, responsabilidade</td><td>Gilligan</td></tr></tbody></table><h2>Etica Aplicada</h2><ul><li>Bioetica, etica ambiental, etica da IA, etica animal</li></ul><h2>Resumo</h2><ul><li>Consequencias vs dever vs carater</li><li>ENEM: utilitarismo vs deontologia</li></ul><h2>Curiosidade</h2><p>Peter Singer defende que animais tem <strong>direitos morais</strong> e que comer carne e eticamente questionavel!</p>",
+      "faq": [
+        {
+          "q": "Utilitarismo - exemplo?",
+          "a": "Dilema do bonde: desviar mata 1 para salvar 5. Utilitarista: sim, maior bem. Kantiano: nao, nao use uma pessoa como meio."
+        },
+        {
+          "q": "Etica do cuidado?",
+          "a": "Gilligan: etica feminina baseada em relacoes, empatia e responsabilidade pelo outro. Critica a etica masculina abstrata (justica, regras)."
+        },
+        {
+          "q": "Etica da IA?",
+          "a": "Quem e responsavel por decisoes de IA? Vies algoritmico, privacidade, desemprego tecnologico, armas autonomas. Debate urgente e sem resposta."
+        },
+        {
+          "q": "Etica animal?",
+          "a": "Singer: capacidade de sofrer (senciencia) e o criterio moral, nao a especie. Especismo (discriminar por especie) e tao errado quanto racismo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Utilitarismo busca",
+          "options": [
+            "Dever",
+            "Maior bem para mais pessoas",
+            "Virtude",
+            "Cuidado"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Etica animal e de",
+          "options": [
+            "Kant",
+            "Rawls",
+            "Singer",
+            "Habermas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Deontologia se baseia em",
+          "options": [
+            "Consequencias",
+            "Dever/regras",
+            "Sentimentos",
+            "Tradicao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Etica das virtudes retoma",
+          "options": [
+            "Platao",
+            "Aristoteles",
+            "Epicuro",
+            "Socrates"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Filosofia da Ciência",
+      "slug": "filosofia-da-ciencia",
+      "desc": "Filosofia da ciencia: Popper (falseabilidade), Kuhn (paradigmas, revolucoes cientificas), Feyerabend (anarquismo epistemologico), Lakatos.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Popper (1902-1994): falseabilidade - ciencia e o que PODE ser refutado. Teorias nao sao provadas, sobrevivem a testes. Kuhn (1922-1996): paradigmas e revolucoes cientificas. Ciencia normal vs crise vs revolucao. Incomensurabilidade. Feyerabend: 'contra o metodo' - nao ha metodo cientifico unico. Lakatos: programas de pesquisa (nucleo duro + cinturao protetor).",
+      "body": "<h2>Introducao</h2><p>A <strong>filosofia da ciencia</strong> questiona como funciona e o que valida o conhecimento cientifico.</p><h2>Pensadores</h2><table><thead><tr><th>Filosofo</th><th>Ideia Central</th></tr></thead><tbody><tr><td>Popper</td><td>Falseabilidade</td></tr><tr><td>Kuhn</td><td>Paradigmas e revolucoes</td></tr><tr><td>Feyerabend</td><td>Contra o metodo</td></tr><tr><td>Lakatos</td><td>Programas de pesquisa</td></tr></tbody></table><h2>Popper</h2><p>Teoria cientifica e a que pode ser REFUTADA. Se nao pode ser testada e refutada, nao e ciencia (ex: astrologia).</p><h2>Resumo</h2><ul><li>Falseabilidade vs paradigmas</li><li>ENEM: Popper e Kuhn sao os mais cobrados</li></ul><h2>Curiosidade</h2><p>Kuhn disse que cientistas nao mudam de ideia - os velhos <strong>morrem</strong> e a nova geracao adota o novo paradigma!</p>",
+      "faq": [
+        {
+          "q": "Falseabilidade?",
+          "a": "Popper: ciencia nao prova verdades, propoe hipoteses que podem ser refutadas. Se milhoes de cisnes sao brancos, basta 1 negro para refutar. Ciencia e provisoria."
+        },
+        {
+          "q": "Paradigma?",
+          "a": "Kuhn: conjunto de teorias e praticas aceitas pela comunidade cientifica. Paradigma newtoniano → crise → paradigma einsteiniano. Revolucao cientifica."
+        },
+        {
+          "q": "Astrologia e ciencia?",
+          "a": "Para Popper, NAO - nao e falsificavel (sempre acha desculpas). Para Kuhn, nao tem paradigma compartilhado. Ambos excluem astrologia da ciencia."
+        },
+        {
+          "q": "Feyerabend era contra a ciencia?",
+          "a": "Nao! Era contra a ARROGANCIA da ciencia. Dizia que nao ha metodo unico: ciencia avanca por caminhos imprevistos. 'Tudo vale' como metodo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Falseabilidade e de",
+          "options": [
+            "Kuhn",
+            "Popper",
+            "Lakatos",
+            "Feyerabend"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Paradigma e conceito de",
+          "options": [
+            "Popper",
+            "Kuhn",
+            "Lakatos",
+            "Bacon"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Contra o metodo' e de",
+          "options": [
+            "Popper",
+            "Kuhn",
+            "Feyerabend",
+            "Lakatos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Para Popper, ciencia deve ser",
+          "options": [
+            "Provada",
+            "Refutavel",
+            "Eterna",
+            "Divina"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Filosofia Brasileira e Latino-Americana",
+      "slug": "filosofia-brasileira-e-latino-americana",
+      "desc": "Filosofia brasileira e latino-americana: Paulo Freire (pedagogia do oprimido), Marilena Chaui, Enrique Dussel, filosofia da libertacao.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Paulo Freire (1921-1997): Pedagogia do Oprimido, educacao como pratica da liberdade, 'educacao bancaria' vs 'educacao problematizadora'. Marilena Chaui: ideologia, democracia, contra o autoritarismo. Enrique Dussel: filosofia da libertacao (pensar a partir da periferia). Leopoldo Zea: identidade latino-americana. Filosofia da libertacao: critica ao eurocentrismo, pensar desde os excluidos.",
+      "body": "<h2>Introducao</h2><p>A <strong>filosofia latino-americana</strong> pensa a partir da periferia global e dos oprimidos.</p><h2>Pensadores</h2><table><thead><tr><th>Filosofo</th><th>Contribuicao</th></tr></thead><tbody><tr><td>Paulo Freire</td><td>Pedagogia do Oprimido</td></tr><tr><td>Marilena Chaui</td><td>Ideologia, democracia</td></tr><tr><td>Enrique Dussel</td><td>Filosofia da libertacao</td></tr></tbody></table><h2>Paulo Freire</h2><ul><li><strong>Educacao bancaria:</strong> professor deposita conteudo (ruim)</li><li><strong>Educacao problematizadora:</strong> dialogo e reflexao critica (bom)</li></ul><h2>Resumo</h2><ul><li>Freire: educacao liberta</li><li>ENEM: Paulo Freire e MUITO cobrado!</li></ul><h2>Curiosidade</h2><p>Paulo Freire e o <strong>3o autor mais citado</strong> do mundo em ciencias humanas. Patrono da educacao brasileira!</p>",
+      "faq": [
+        {
+          "q": "Educacao bancaria?",
+          "a": "Freire: professor 'deposita' conteudo no aluno passivo (como num banco). Aluno nao pensa, so memoriza. Modelo opressor que reproduz desigualdade."
+        },
+        {
+          "q": "Filosofia da libertacao?",
+          "a": "Dussel: filosofia europeia ignora a periferia. Precisamos pensar desde os oprimidos, excluidos, colonizados. Critica ao eurocentrismo."
+        },
+        {
+          "q": "Marilena Chaui?",
+          "a": "Filosofa brasileira que estuda ideologia (ideias que mascaram a realidade), democracia, cultura brasileira. Grande divulgadora de filosofia."
+        },
+        {
+          "q": "Existe filosofia brasileira?",
+          "a": "Sim! Nao e apenas copiar europeus. Freire, Chaui, Mangabeira Unger criam pensamento original a partir da realidade latino-americana."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Pedagogia do Oprimido e de",
+          "options": [
+            "Chaui",
+            "Dussel",
+            "Freire",
+            "Zea"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Educacao bancaria e",
+          "options": [
+            "Boa",
+            "Opressora",
+            "Libertadora",
+            "Cientifica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Filosofia da libertacao e de",
+          "options": [
+            "Freire",
+            "Chaui",
+            "Dussel",
+            "Marx"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Freire e patrono da",
+          "options": [
+            "Ciencia BR",
+            "Educacao BR",
+            "Filosofia BR",
+            "Sociologia BR"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Bioética e Dilemas Contemporâneos",
+      "slug": "bioetica-e-dilemas-contemporaneos",
+      "desc": "Bioetica: eutanasia, aborto, transgenicos, clonagem, pesquisa com embrioes. Principios: autonomia, beneficencia, nao-maleficencia, justica.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Bioetica: etica aplicada a vida e saude. 4 principios (Beauchamp e Childress): autonomia (respeitar decisao do paciente), beneficencia (fazer o bem), nao-maleficencia (nao causar dano), justica (distribuicao justa). Dilemas: eutanasia (morte assistida), aborto, transgenicos, clonagem, pesquisa com celulas-tronco, edição genetica (CRISPR), privacidade genetica, IA na saude.",
+      "body": "<h2>Introducao</h2><p>A <strong>bioetica</strong> aplica principios eticos a dilemas da medicina e biotecnologia.</p><h2>4 Principios</h2><table><thead><tr><th>Principio</th><th>Significado</th></tr></thead><tbody><tr><td>Autonomia</td><td>Respeitar a decisao do paciente</td></tr><tr><td>Beneficencia</td><td>Fazer o bem</td></tr><tr><td>Nao-maleficencia</td><td>Nao causar dano</td></tr><tr><td>Justica</td><td>Distribuicao justa dos recursos</td></tr></tbody></table><h2>Dilemas</h2><ul><li>Eutanasia: direito de morrer com dignidade?</li><li>CRISPR: editar genes de embrioes?</li><li>Transgenicos: seguros para consumo?</li></ul><h2>Resumo</h2><ul><li>4 principios bioéticos guiam decisoes</li><li>ENEM: autonomia, eutanasia, dilemas</li></ul><h2>Curiosidade</h2><p>Em 2018, um cientista chines usou <strong>CRISPR</strong> para editar genes de bebes gemeas. A comunidade cientifica condenou massivamente!</p>",
+      "faq": [
+        {
+          "q": "Eutanasia - e a favor?",
+          "a": "Debate! Favoraveis: dignidade, autonomia, fim do sofrimento. Contrarios: vida sagrada, risco de abuso, cuidados paliativos como alternativa. Poucos paises permitem."
+        },
+        {
+          "q": "CRISPR - o que e?",
+          "a": "Ferramenta de edicao genetica: corta e modifica DNA com precisao. Pode curar doencas geneticas, mas tambem criar 'bebes projetados'. Dilema etico enorme."
+        },
+        {
+          "q": "Autonomia do paciente?",
+          "a": "Paciente tem direito de decidir sobre seu tratamento (aceitar ou recusar). Consentimento informado e obrigatorio. Excecao: emergencias em que paciente nao pode decidir."
+        },
+        {
+          "q": "Bioetica e so medicina?",
+          "a": "Nao! Abrange meio ambiente (etica ambiental), alimentacao (transgenicos), tecnologia (IA na saude), pesquisa (celulas-tronco), direitos dos animais."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "4 principios da bioetica incluem",
+          "options": [
+            "Fe",
+            "Autonomia",
+            "Tradicao",
+            "Obediencia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "CRISPR edita",
+          "options": [
+            "Proteinas",
+            "DNA",
+            "Celulas",
+            "Orgaos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Nao-maleficencia significa",
+          "options": [
+            "Fazer o bem",
+            "Nao causar dano",
+            "Ser justo",
+            "Respeitar decisoes"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Eutanasia e debatida na",
+          "options": [
+            "Logica",
+            "Estetica",
+            "Bioetica",
+            "Metafisica"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

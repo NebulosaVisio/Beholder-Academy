@@ -2,80 +2,1089 @@
   "subject": "História",
   "slug": "2ano-historia",
   "level": "Fundamental 1",
-  "grade": "2º Ano",
+  "grade": "2º ano",
   "color": "var(--historia)",
+  "icon": "shield",
   "articles": [
     {
-      "title": "Passado e Presente",
-      "slug": "passado-e-presente",
-      "desc": "Como as coisas mudaram ao longo do tempo.",
-      "category": "Tempo",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "O mundo muda com o tempo. Antigamente não existia TV, celular ou internet. Fotos e objetos antigos contam a história.",
-      "body": "<p>Seus <strong>avós</strong> viveram sem celular, sem internet, sem videogame. Brincavam na rua, ouviam rádio e escreviam cartas. Transportes mudaram de cavalos para carros; comunicação de cartas para WhatsApp.</p><p>Olhar fotos antigas e conversar com avós é como viajar no tempo! A <strong>História</strong> estuda essas mudanças para entendermos como chegamos até aqui.</p>",
-      "faq": [{"q":"O que é fonte histórica?","a":"Qualquer registro do passado: fotos, cartas, objetos, documentos."}]
+      "title": "Renascimento Cultural (Séc. XIV-XVI)",
+      "slug": "renascimento-cultural-sec-xiv-xvi",
+      "desc": "Renascimento (séc. XIV-XVI): antropocentrismo, racionalismo, classicismo greco-romano. Mecenas. Leonardo da Vinci, Michelangelo, Rafael. Imprensa de Gutenberg.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Renascimento: movimento cultural (Itália, séc. XIV-XVI). Valores: antropocentrismo (homem no centro), racionalismo, individualismo, classicismo (Grécia/Roma), humanismo. Artistas: Leonardo da Vinci (Mona Lisa), Michelangelo (Davi, Capela Sistina), Rafael (Escola de Atenas). Mecenas: patrocinadores (Médici). Gutenberg: imprensa de tipos móveis (~1450) → democratização do conhecimento.",
+      "body": "<h2>Introdução</h2><p>O <strong>Renascimento</strong> foi o movimento cultural que marcou a transição da Idade Média para a Moderna. Nasceu na <strong>Itália</strong> (Florença, Roma, Veneza) nos sécs. XIV-XVI.</p><h2>Valores Renascentistas</h2><table><thead><tr><th>Medieval</th><th>Renascentista</th></tr></thead><tbody><tr><td>Teocentrismo</td><td><strong>Antropocentrismo</strong></td></tr><tr><td>Fé</td><td><strong>Razão</strong></td></tr><tr><td>Coletivismo</td><td><strong>Individualismo</strong></td></tr><tr><td>Arte religiosa</td><td><strong>Classicismo</strong> (Grécia/Roma)</td></tr></tbody></table><h2>Grandes Artistas</h2><ul><li><strong>Leonardo da Vinci:</strong> Mona Lisa, Última Ceia, anatomia, engenharia</li><li><strong>Michelangelo:</strong> Davi, teto da Capela Sistina, Pietà</li><li><strong>Rafael:</strong> Escola de Atenas, Madonas</li></ul><h2>Mecenato</h2><p>Ricos patrocinavam artistas. Família <strong>Médici</strong> de Florença: maiores mecenas.</p><h2>Imprensa de Gutenberg (~1450)</h2><p>Tipos móveis → livros baratos → difusão do conhecimento → Reforma, Ciência.</p><h2>Resumo</h2><ul><li>✅ Teocentrismo → Antropocentrismo</li><li>✅ Da Vinci, Michelangelo, Rafael = tríade renascentista</li><li>⚠️ ENEM: Renascimento ≠ ruptura total com a Igreja (muitos artistas fizeram arte religiosa)</li></ul><h2>Curiosidade</h2><p>Leonardo da Vinci escrevia <strong>ao contrário</strong> (espelhado)! Só se lê seus cadernos com um espelho. Alguns acham que era para proteger segredos; outros, porque era canhoto.</p>",
+      "faq": [
+        {
+          "q": "Por que o Renascimento nasceu na Itália?",
+          "a": "Itália tinha: cidades ricas (comércio), burguesia mecenas (Médici), herança clássica (ruínas romanas), universidades e posição estratégica no Mediterrâneo."
+        },
+        {
+          "q": "Antropocentrismo nega Deus?",
+          "a": "Não necessariamente. Coloca o HOMEM no centro das preocupações, mas muitos renascentistas eram religiosos. A arte religiosa continuou, mas com perspectiva humana."
+        },
+        {
+          "q": "Qual a importância de Gutenberg?",
+          "a": "A imprensa de tipos móveis (~1450) barateou livros, democratizou o conhecimento e possibilitou a Reforma Protestante e a Revolução Científica."
+        },
+        {
+          "q": "O que era humanismo?",
+          "a": "Corrente intelectual que valorizava o estudo das humanidades (literatura, história, filosofia, retórica) e da Antiguidade clássica. Erasmo de Rotterdam foi o maior humanista."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O Renascimento valorizava:",
+          "options": [
+            "Teocentrismo",
+            "Antropocentrismo",
+            "Feudalismo",
+            "Nomadismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Mona Lisa é de:",
+          "options": [
+            "Michelangelo",
+            "Rafael",
+            "Leonardo da Vinci",
+            "Botticelli"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A imprensa de Gutenberg é de ~:",
+          "options": [
+            "1200",
+            "1350",
+            "1450",
+            "1550"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Os Médici eram de:",
+          "options": [
+            "Roma",
+            "Veneza",
+            "Florença",
+            "Milão"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "As Profissões",
-      "slug": "profissoes",
-      "desc": "O que as pessoas fazem para trabalhar.",
-      "category": "Comunidade",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Professor ensina, médico cuida da saúde, agricultor planta, bombeiro salva vidas. Toda profissão é importante e digna.",
-      "body": "<p>Cada profissional contribui para a comunidade: <strong>professor</strong> ensina, <strong>médico</strong> cuida da saúde, <strong>agricultor</strong> planta alimentos, <strong>bombeiro</strong> salva vidas.</p><p>Não existe profissão melhor ou pior — todas são <strong>importantes e dignas</strong>. Profissões novas surgem (youtuber, programador) e antigas desaparecem (telegrafista, acendedor de lampião).</p>",
-      "faq": [{"q":"Que profissões novas existem?","a":"Youtuber, desenvolvedor de apps, cientista de dados, influenciador digital."}]
+      "title": "Reforma Protestante e Contrarreforma",
+      "slug": "reforma-protestante-e-contrarreforma",
+      "desc": "Reforma Protestante: Lutero (95 teses, 1517), Calvino (predestinação), Henrique VIII (anglicanismo). Contrarreforma: Concílio de Trento, Jesuítas, Inquisição.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Reforma (1517): Lutero critica indulgências (95 teses). Princípios: sola fide (só a fé), sola scriptura (só a Bíblia). Calvino: predestinação, trabalho como virtude. Henrique VIII: anglicanismo (rompeu com Papa por divórcio). Contrarreforma: Concílio de Trento (1545-1563), Companhia de Jesus (jesuítas, Inácio de Loyola), Inquisição, Index (livros proibidos).",
+      "body": "<h2>Introdução</h2><p>A <strong>Reforma Protestante</strong> (1517) quebrou a unidade cristã europeia. Em resposta, a <strong>Contrarreforma</strong> renovou a Igreja Católica.</p><h2>Causas</h2><ul><li>Venda de <strong>indulgências</strong> (perdão dos pecados por dinheiro)</li><li>Luxo e corrupção do clero</li><li>Desejo de reis por autonomia religiosa</li><li>Imprensa: difundiu as críticas</li></ul><h2>Reformadores</h2><table><thead><tr><th>Reformador</th><th>Ideias</th></tr></thead><tbody><tr><td><strong>Lutero (1517)</strong></td><td>95 teses, sola fide, sola scriptura</td></tr><tr><td><strong>Calvino</strong></td><td>Predestinação, trabalho = virtude</td></tr><tr><td><strong>Henrique VIII</strong></td><td>Anglicanismo (rei = chefe da Igreja)</td></tr></tbody></table><h2>Contrarreforma</h2><ul><li><strong>Concílio de Trento (1545-63):</strong> reafirmou dogmas, reformou abusos</li><li><strong>Jesuítas:</strong> Companhia de Jesus (Inácio de Loyola), missionários, educação</li><li><strong>Inquisição:</strong> tribunal contra protestantes e hereges</li><li><strong>Index:</strong> lista de livros proibidos</li></ul><h2>Resumo</h2><ul><li>✅ Lutero: só fé + só Bíblia. Calvino: predestinação. Henrique VIII: anglicanismo.</li><li>⚠️ ENEM: relação entre calvinismo e ética do trabalho capitalista (Weber)</li></ul><h2>Curiosidade</h2><p>Henrique VIII criou o anglicanismo porque o Papa negou seu divórcio de Catarina de Aragão. Ele teve <strong>6 esposas</strong> — divorciou-se de 2, decapitou 2, uma morreu no parto e uma sobreviveu!</p>",
+      "faq": [
+        {
+          "q": "O que eram indulgências?",
+          "a": "Documentos da Igreja que prometiam perdão dos pecados (ou redução do purgatório) em troca de dinheiro. Lutero denunciou a prática nas 95 teses."
+        },
+        {
+          "q": "O que é predestinação?",
+          "a": "Doutrina de Calvino: Deus já escolheu quem será salvo. O sucesso material seria sinal de eleição divina. Max Weber ligou isso à ética capitalista."
+        },
+        {
+          "q": "O que foi o Concílio de Trento?",
+          "a": "Reunião da Igreja Católica (1545-1563) para responder à Reforma. Reafirmou dogmas (transubstanciação, 7 sacramentos) e reformou abusos do clero."
+        },
+        {
+          "q": "Quem eram os jesuítas?",
+          "a": "Companhia de Jesus, fundada por Inácio de Loyola (1540). Ordem missionária e educadora. Catequizaram indígenas no Brasil e fundaram colégios no mundo todo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "As 95 teses são de:",
+          "options": [
+            "Calvino",
+            "Henrique VIII",
+            "Lutero",
+            "Zwínglio"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Sola fide significa:",
+          "options": [
+            "Só a Igreja",
+            "Só a fé",
+            "Só a Bíblia",
+            "Só o Papa"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Os jesuítas foram fundados por:",
+          "options": [
+            "Lutero",
+            "Calvino",
+            "Inácio de Loyola",
+            "Francisco de Assis"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Henrique VIII criou:",
+          "options": [
+            "Luteranismo",
+            "Calvinismo",
+            "Anglicanismo",
+            "Presbiterianismo"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Povos Indígenas do Brasil",
-      "slug": "povos-indigenas",
-      "desc": "Os primeiros habitantes do Brasil.",
-      "category": "Brasil",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Indígenas são os primeiros habitantes do Brasil. Mais de 300 povos, 900 mil pessoas. Palavras como jacaré, mandioca, pipoca vieram de línguas indígenas.",
-      "body": "<p>Antes dos portugueses (1500), milhões de <strong>indígenas</strong> habitavam o Brasil. Têm culturas riquíssimas: línguas próprias, danças, pinturas corporais e relação profunda com a natureza.</p><p>Hoje existem 300+ povos indígenas (~900 mil pessoas). Muitas palavras vieram de línguas indígenas: jacaré, mandioca, pipoca, caju, Paraná, Curitiba.</p>",
-      "faq": [{"q":"Indígenas ainda existem?","a":"Sim! São mais de 900 mil pessoas em 300+ povos diferentes."}]
+      "title": "Absolutismo Monárquico",
+      "slug": "absolutismo-monarquico",
+      "desc": "Absolutismo: poder centralizado no rei. Teóricos: Maquiavel, Hobbes, Bossuet. Luís XIV ('Estado sou eu'). Mercantilismo: metalismo, balança comercial, colônias.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Absolutismo (séc. XVI-XVIII): poder total do rei, sem limites. Teóricos: Maquiavel (O Príncipe, fins justificam meios), Hobbes (Leviatã, contrato social autoritário), Bossuet (direito divino). Luís XIV (França): 'L'État, c'est moi'. Mercantilismo: metalismo (ouro/prata), balança comercial favorável, protecionismo, colônias como fonte de riqueza.",
+      "body": "<h2>Introdução</h2><p>O <strong>Absolutismo</strong> foi o sistema político da Idade Moderna (séc. XVI-XVIII) em que o <strong>rei concentrava todo o poder</strong>.</p><h2>Teóricos</h2><table><thead><tr><th>Pensador</th><th>Obra/Ideia</th></tr></thead><tbody><tr><td>Maquiavel</td><td>O Príncipe — 'os fins justificam os meios'</td></tr><tr><td>Hobbes</td><td>Leviatã — contrato social, Estado forte para evitar caos</td></tr><tr><td>Bossuet</td><td>Direito divino dos reis</td></tr></tbody></table><h2>Luís XIV (1643-1715)</h2><p>Rei-Sol da França. <strong>\"L'État, c'est moi\"</strong> (O Estado sou eu). Palácio de Versalhes. Maior exemplo de absolutismo.</p><h2>Mercantilismo</h2><ul><li><strong>Metalismo:</strong> riqueza = acúmulo de ouro e prata</li><li><strong>Balança comercial favorável:</strong> exportar mais que importar</li><li><strong>Protecionismo:</strong> taxar importações</li><li><strong>Colônias:</strong> fonte de matéria-prima e mercado consumidor</li></ul><h2>Resumo</h2><ul><li>✅ Rei = poder absoluto. Mercantilismo = prática econômica.</li><li>⚠️ ENEM: relação absolutismo-mercantilismo-colonialismo</li></ul><h2>Curiosidade</h2><p>Versalhes consumia 10% do orçamento francês. Tinha 700 quartos, 2.000 janelas e um canal de 1,5 km. Luís XIV se considerava o centro do universo — por isso <strong>Rei-Sol</strong>!</p>",
+      "faq": [
+        {
+          "q": "O que é direito divino?",
+          "a": "Teoria de que o poder do rei vem de Deus. Desobedecer ao rei = desobedecer a Deus. Justificava o absolutismo."
+        },
+        {
+          "q": "Qual a diferença entre Hobbes e Maquiavel?",
+          "a": "Hobbes: Estado forte é necessário para evitar o caos (homo homini lupus). Maquiavel: o governante deve ser pragmático (fins justificam meios). Ambos defendem poder centralizado."
+        },
+        {
+          "q": "O que era mercantilismo?",
+          "a": "Política econômica do absolutismo: acumular metais (ouro), manter balança comercial favorável, proteger indústria nacional, explorar colônias."
+        },
+        {
+          "q": "Por que Luís XIV é chamado Rei-Sol?",
+          "a": "Porque se via como o centro do Estado, assim como o Sol é o centro do sistema solar. Usava o sol como símbolo pessoal."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Os fins justificam os meios' é de:",
+          "options": [
+            "Hobbes",
+            "Bossuet",
+            "Maquiavel",
+            "Locke"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Metalismo valorizava:",
+          "options": [
+            "Comércio",
+            "Ouro e prata",
+            "Democracia",
+            "Ciência"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Luís XIV era rei da:",
+          "options": [
+            "Inglaterra",
+            "Espanha",
+            "França",
+            "Portugal"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Leviatã é obra de:",
+          "options": [
+            "Maquiavel",
+            "Hobbes",
+            "Locke",
+            "Montesquieu"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "A Cultura Africana no Brasil",
-      "slug": "cultura-africana",
-      "desc": "A herança dos povos africanos na cultura brasileira.",
-      "category": "Cultura",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Africanos trouxeram: samba, capoeira, feijoada, candomblé, berimbau. Palavras: samba, moleque, quitanda. Escravidão abolida em 1888 (Lei Áurea).",
-      "body": "<p>Milhões de africanos foram trazidos ao Brasil escravizados (séculos XVI-XIX). Trouxeram cultura riquíssima: <strong>samba, capoeira, maracatu, candomblé, feijoada, acarajé</strong>.</p><p>Palavras de origem africana: samba, batuque, moleque, quitanda, dendê. A escravidão acabou em 1888 com a Lei Áurea. A cultura brasileira é profundamente marcada pela herança africana.</p>",
-      "faq": [{"q":"Quando acabou a escravidão?","a":"13 de maio de 1888, com a Lei Áurea."}]
+      "title": "Grandes Navegações (Séc. XV-XVI)",
+      "slug": "grandes-navegacoes-sec-xv-xvi",
+      "desc": "Grandes Navegações (séc. XV-XVI): Portugal e Espanha pioneiros. Bartolomeu Dias, Vasco da Gama, Colombo, Cabral, Fernão de Magalhães. Expansão marítima e colonial.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Contexto: busca por especiarias, rota para as Índias. Portugal pioneiro: posição geográfica, Escola de Sagres, Estado centralizado. Bartolomeu Dias (1488): Cabo da Boa Esperança. Vasco da Gama (1498): Índia. Colombo (1492): América (achando ser Índia). Cabral (1500): Brasil. Magalhães (1519-22): circunavegação. Tratado de Tordesilhas (1494): dividiu o mundo entre Portugal e Espanha.",
+      "body": "<h2>Introdução</h2><p>As <strong>Grandes Navegações</strong> (séc. XV-XVI) expandiram o mundo conhecido. Portugal e Espanha lideraram a busca por <strong>rotas marítimas para as Índias</strong>.</p><h2>Por que navegar?</h2><ul><li>Especiarias (pimenta, canela, cravo) valiam ouro</li><li>Rota terrestre bloqueada pelos turcos (1453)</li><li>Mercantilismo: busca por ouro e novos mercados</li></ul><h2>Cronologia</h2><table><thead><tr><th>Ano</th><th>Navegador</th><th>Feito</th></tr></thead><tbody><tr><td>1488</td><td>Bartolomeu Dias</td><td>Cabo da Boa Esperança</td></tr><tr><td>1492</td><td>Colombo</td><td>América (achou ser Índia)</td></tr><tr><td>1494</td><td>—</td><td>Tratado de Tordesilhas</td></tr><tr><td>1498</td><td>Vasco da Gama</td><td>Índia (rota marítima)</td></tr><tr><td>1500</td><td>Cabral</td><td>Brasil</td></tr><tr><td>1519-22</td><td>Magalhães/Elcano</td><td>Circunavegação</td></tr></tbody></table><h2>Tratado de Tordesilhas (1494)</h2><p>Dividiu o mundo entre Portugal (leste) e Espanha (oeste). Linha a 370 léguas de Cabo Verde.</p><h2>Resumo</h2><ul><li>✅ Portugal pioneiro. Especiarias = motivação.</li><li>⚠️ ENEM: consequências (colonização, escravidão, globalização)</li></ul><h2>Curiosidade</h2><p>Colombo morreu acreditando ter chegado à <strong>Ásia</strong>. O nome \"América\" vem de <strong>Américo Vespúcio</strong>, que percebeu que era um continente novo!</p>",
+      "faq": [
+        {
+          "q": "Por que Portugal foi pioneiro?",
+          "a": "Posição geográfica (Atlântico), Estado centralizado cedo (1143), Escola de Sagres (navegação), burguesia comercial interessada e apoio da Coroa."
+        },
+        {
+          "q": "O que é o Tratado de Tordesilhas?",
+          "a": "Acordo entre Portugal e Espanha (1494) que dividiu o mundo em duas metades. Linha imaginária a 370 léguas de Cabo Verde. Brasil ficou na parte portuguesa."
+        },
+        {
+          "q": "Colombo sabia que era América?",
+          "a": "Não! Morreu achando que tinha chegado à Ásia. Américo Vespúcio percebeu que era um continente novo, e o cartógrafo Waldseemüller o nomeou 'América' em sua homenagem."
+        },
+        {
+          "q": "O que era a Escola de Sagres?",
+          "a": "Centro de estudos náuticos atribuído a Henrique, o Navegador. Reunia cartógrafos, astrônomos e navegadores. Alguns historiadores questionam se era uma 'escola' formal."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cabral chegou ao Brasil em:",
+          "options": [
+            "1488",
+            "1492",
+            "1498",
+            "1500"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "O Tratado de Tordesilhas dividiu:",
+          "options": [
+            "Europa",
+            "O mundo entre PT e ES",
+            "Ásia",
+            "África"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Colombo achou que chegou:",
+          "options": [
+            "À África",
+            "À América",
+            "À Índia",
+            "À Oceania"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A circunavegação foi de:",
+          "options": [
+            "Colombo",
+            "Cabral",
+            "Magalhães",
+            "Vasco da Gama"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Festas e Tradições Brasileiras",
-      "slug": "festas-tradicoes",
-      "desc": "Carnaval, Festa Junina, Natal e outras celebrações.",
-      "category": "Cultura",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Carnaval (africana+europeia), Festa Junina (europeia), Natal (cristã), Bumba-meu-boi (popular). Cada região tem suas tradições.",
-      "body": "<p><strong>Carnaval</strong>: desfiles e música. <strong>Festa Junina</strong>: quadrilha, fogueira, paçoca. <strong>Natal</strong>: árvore, presentes, ceia. Cada região tem festas próprias: Bumba-meu-boi no Nordeste, Círio de Nazaré no Pará.</p><p>Essa diversidade vem das culturas que formaram o Brasil: indígena, africana e europeia.</p>",
-      "faq": [{"q":"De onde veio o Carnaval?","a":"De festas europeias misturadas com ritmos e danças africanas no Brasil."}]
+      "title": "Colonização da América",
+      "slug": "colonizacao-da-america",
+      "desc": "Colonização da América: espanhola (encomienda, vice-reinos), inglesa (13 colônias), portuguesa (Brasil). Exploração x povoamento. Genocídio indígena.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Colonização espanhola: conquista de Astecas (Cortés) e Incas (Pizarro), encomienda (trabalho forçado indígena), vice-reinos, mineração (prata de Potosí). Colonização inglesa: 13 colônias (Norte: povoamento; Sul: plantation). Colonização portuguesa: ciclos econômicos (pau-brasil, açúcar, ouro). Consequência: genocídio indígena (doenças, guerra, trabalho forçado).",
+      "body": "<h2>Introdução</h2><p>A <strong>colonização da América</strong> (séc. XVI-XVIII) foi o processo de ocupação europeia das Américas, com exploração econômica, genocídio indígena e formação de novas sociedades.</p><h2>Colonização Espanhola</h2><ul><li><strong>Cortés (1519-21):</strong> conquistou os Astecas (México)</li><li><strong>Pizarro (1532):</strong> conquistou os Incas (Peru)</li><li><strong>Encomienda:</strong> trabalho forçado indígena</li><li><strong>Mineração:</strong> prata de Potosí (Bolívia) financiou a Espanha</li></ul><h2>Colonização Inglesa</h2><ul><li><strong>13 colônias</strong> na América do Norte</li><li><strong>Norte:</strong> povoamento, auto-governo, pequena propriedade</li><li><strong>Sul:</strong> plantation (tabaco, algodão), escravidão</li></ul><h2>Colonização Portuguesa</h2><ul><li>Ciclos: pau-brasil → açúcar → ouro</li><li>Capitanias hereditárias → Governo-Geral</li></ul><h2>Genocídio Indígena</h2><p>Estima-se que <strong>90% da população indígena</strong> morreu nos primeiros 100 anos (doenças, guerra, trabalho forçado).</p><h2>Resumo</h2><ul><li>✅ Espanha: conquista militar + mineração. Inglaterra: povoamento + plantation. Portugal: ciclos econômicos.</li><li>⚠️ ENEM: diferenças entre modelos coloniais e impacto indígena</li></ul><h2>Curiosidade</h2><p>A prata de <strong>Potosí</strong> (Bolívia) foi tão abundante que financiou o Império Espanhol por 200 anos. Mas a exploração matou milhões de indígenas nas minas!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre colônia de exploração e povoamento?",
+          "a": "Exploração (PT, ES): extrair riquezas para a metrópole. Povoamento (Norte dos EUA): colonos buscavam nova vida, produção para consumo próprio, auto-governo."
+        },
+        {
+          "q": "O que era encomienda?",
+          "a": "Sistema espanhol: colonos recebiam terras e indígenas para 'catequizar' em troca de trabalho forçado. Na prática, era exploração brutal."
+        },
+        {
+          "q": "Como morreram tantos indígenas?",
+          "a": "Principalmente por doenças europeias (varíola, gripe, sarampo) para as quais não tinham imunidade. Também por guerra, trabalho forçado e fome."
+        },
+        {
+          "q": "O que era plantation?",
+          "a": "Sistema agrícola colonial: latifúndio + monocultura + mão de obra escravizada + exportação. Usado no Brasil (açúcar) e no Sul dos EUA (algodão, tabaco)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cortés conquistou os:",
+          "options": [
+            "Incas",
+            "Astecas",
+            "Maias",
+            "Tupinambás"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "As 13 colônias eram:",
+          "options": [
+            "Espanholas",
+            "Portuguesas",
+            "Inglesas",
+            "Francesas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Potosí era rica em:",
+          "options": [
+            "Ouro",
+            "Prata",
+            "Diamantes",
+            "Pau-brasil"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "~90% dos indígenas morreram por:",
+          "options": [
+            "Guerras",
+            "Doenças europeias",
+            "Fome",
+            "Sacrifícios"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Meios de Comunicação",
-      "slug": "meios-comunicacao",
-      "desc": "Do correio ao WhatsApp.",
-      "category": "Tecnologia",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Evolução: cartas → telégrafo → telefone → rádio → TV → internet → celular → redes sociais. Cada invenção tornou a comunicação mais rápida.",
-      "body": "<p>Antigamente: <strong>cartas</strong> (dias), <strong>telégrafo</strong> (mensagens curtas), <strong>telefone fixo</strong>. Depois: <strong>rádio</strong>, <strong>TV</strong>, <strong>jornais</strong>.</p><p>Hoje: <strong>internet, celular, redes sociais, videochamadas</strong>. Uma mensagem que levava meses por carta chega em segundos por WhatsApp!</p>",
-      "faq": [{"q":"Quando surgiu a internet?","a":"Anos 1990 para o público geral."}]
+      "title": "Brasil Colônia: Administração e Economia",
+      "slug": "brasil-colonia-administracao-e-economia",
+      "desc": "Brasil Colônia: capitanias hereditárias, Governo-Geral (1548), Câmaras Municipais. Economia: pau-brasil, açúcar (engenho, plantation), pecuária, drogas do sertão.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Capitanias hereditárias (1534): lotes de terra a donatários. Maioria fracassou (exceção: Pernambuco e São Vicente). Governo-Geral (1548): Tomé de Sousa, centralização. Salvador = capital. Economia: pau-brasil (escambo com indígenas), açúcar (plantation + engenho + escravos africanos = principal atividade colonial séc. XVI-XVII), pecuária (sertão, interiorização), drogas do sertão (Amazônia).",
+      "body": "<h2>Introdução</h2><p>O <strong>Brasil Colônia</strong> (1500-1822) foi administrado por Portugal para <strong>explorar riquezas</strong>. A economia passou por ciclos: pau-brasil, açúcar, ouro.</p><h2>Administração</h2><h3>Capitanias Hereditárias (1534)</h3><ul><li>15 faixas de terra dadas a <strong>donatários</strong></li><li>Maioria fracassou (falta de recursos, ataques indígenas)</li><li>Sucesso: Pernambuco (Duarte Coelho) e São Vicente</li></ul><h3>Governo-Geral (1548)</h3><ul><li><strong>Tomé de Sousa:</strong> 1º governador-geral</li><li>Capital: <strong>Salvador</strong> (até 1763, depois Rio de Janeiro)</li><li>Objetivos: centralizar administração, defender o litoral, catequizar</li></ul><h2>Economia Colonial</h2><table><thead><tr><th>Ciclo</th><th>Período</th><th>Características</th></tr></thead><tbody><tr><td>Pau-brasil</td><td>Séc. XVI</td><td>Escambo com indígenas, extrativismo</td></tr><tr><td>Açúcar</td><td>Séc. XVI-XVII</td><td>Plantation + engenho + escravos africanos</td></tr><tr><td>Pecuária</td><td>Séc. XVII+</td><td>Interiorização, sertão nordestino</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Capitanias → Governo-Geral = centralização</li><li>✅ Açúcar = principal economia colonial</li><li>⚠️ ENEM: Pacto Colonial (metrópole controla comércio)</li></ul><h2>Curiosidade</h2><p>O nome <strong>'Brasil'</strong> vem do pau-brasil, árvore que produzia tinta vermelha como <strong>brasa</strong>. Portugal quase chamou a terra de 'Vera Cruz' ou 'Santa Cruz'!</p>",
+      "faq": [
+        {
+          "q": "Por que as capitanias fracassaram?",
+          "a": "Falta de recursos dos donatários, distância de Portugal, ataques indígenas e falta de colonos. Só Pernambuco (açúcar) e São Vicente tiveram sucesso."
+        },
+        {
+          "q": "O que era o Pacto Colonial?",
+          "a": "Acordo pelo qual a colônia só podia comerciar com a metrópole (Portugal). Era proibido manufaturar, ter portos livres ou comerciar com outros países."
+        },
+        {
+          "q": "Como funcionava um engenho?",
+          "a": "Unidade de produção de açúcar: casa-grande (senhor), senzala (escravos), capela, moenda e canavial. Era uma 'fábrica' rural."
+        },
+        {
+          "q": "Quando a capital mudou para o Rio?",
+          "a": "Em 1763, por causa do ciclo do ouro em Minas Gerais. O Rio de Janeiro ficava mais perto da região mineradora que Salvador."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O 1º governador-geral foi:",
+          "options": [
+            "Pedro Cabral",
+            "Duarte Coelho",
+            "Tomé de Sousa",
+            "Mem de Sá"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A primeira capital foi:",
+          "options": [
+            "Rio de Janeiro",
+            "São Paulo",
+            "Salvador",
+            "Recife"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Pacto Colonial proibia:",
+          "options": [
+            "Agricultura",
+            "Comércio com outros países",
+            "Religião",
+            "Educação"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O nome 'Brasil' vem do:",
+          "options": [
+            "Rio",
+            "Pau-brasil",
+            "Monte",
+            "Tribo"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Brasil Colônia: Escravidão e Resistência",
+      "slug": "brasil-colonia-escravidao-e-resistencia",
+      "desc": "Escravidão no Brasil: tráfico negreiro, senzala, quilombos (Palmares, Zumbi). Resistência: revoltas, capoeira, religiões afro-brasileiras. Abolição gradual até Lei Áurea (1888).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Escravidão: ~4,8 milhões de africanos trazidos ao Brasil (maior tráfico das Américas). Tráfico negreiro: comércio triangular (Europa→África→América). Trabalho: engenhos, minas, doméstico. Resistência: quilombos (Palmares, Zumbi, ~1694), revoltas (Malês, 1835), capoeira, candomblé. Abolição gradual: Lei Eusébio de Queirós (1850, fim do tráfico), Ventre Livre (1871), Sexagenários (1885), Lei Áurea (1888).",
+      "body": "<h2>Introdução</h2><p>A <strong>escravidão africana</strong> no Brasil durou <strong>mais de 300 anos</strong> (1538-1888). O Brasil foi o último país das Américas a abolir a escravidão e recebeu o <strong>maior contingente de africanos escravizados</strong> do mundo.</p><h2>Tráfico Negreiro</h2><ul><li>~4,8 milhões de africanos trazidos (de ~12,5 milhões no total para as Américas)</li><li>Comércio triangular: manufaturas europeias → escravos da África → açúcar/ouro da América</li><li>Condições desumanas: navios negreiros, alta mortalidade</li></ul><h2>Resistência</h2><ul><li><strong>Quilombos:</strong> comunidades de escravos fugidos. Palmares (Alagoas): maior quilombo, ~30.000 pessoas, liderado por <strong>Zumbi</strong> (morto em 1695)</li><li><strong>Revoltas:</strong> Revolta dos Malês (Salvador, 1835)</li><li><strong>Cultura:</strong> capoeira, samba, candomblé, culinária afro-brasileira</li></ul><h2>Abolição Gradual</h2><table><thead><tr><th>Lei</th><th>Ano</th><th>Efeito</th></tr></thead><tbody><tr><td>Eusébio de Queirós</td><td>1850</td><td>Fim do tráfico</td></tr><tr><td>Ventre Livre</td><td>1871</td><td>Filhos de escravas nascem livres</td></tr><tr><td>Sexagenários</td><td>1885</td><td>Livres aos 60 anos</td></tr><tr><td><strong>Lei Áurea</strong></td><td><strong>1888</strong></td><td>Abolição total</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Brasil = maior receptor de escravos + último a abolir</li><li>⚠️ ENEM: resistência negra + legado cultural + racismo estrutural</li></ul><h2>Curiosidade</h2><p>O <strong>20 de novembro</strong> (morte de Zumbi) é o Dia da Consciência Negra no Brasil — e não o 13 de maio (Lei Áurea), pois a abolição não garantiu inclusão social.</p>",
+      "faq": [
+        {
+          "q": "Por que o Brasil foi o último a abolir?",
+          "a": "Economia dependente da escravidão (café, açúcar), elite agrária resistente, e abolição gradual para proteger interesses dos senhores."
+        },
+        {
+          "q": "O que era um quilombo?",
+          "a": "Comunidade formada por escravos fugidos. Palmares (Alagoas) foi o maior, com ~30.000 pessoas e governo próprio. Resistiu por quase 100 anos."
+        },
+        {
+          "q": "A Lei Áurea resolveu o racismo?",
+          "a": "Não. Não houve integração social, reforma agrária ou indenização. Ex-escravos ficaram à margem: sem terra, educação ou emprego. O racismo estrutural persiste."
+        },
+        {
+          "q": "O que é 20 de novembro?",
+          "a": "Dia da Consciência Negra, homenageando Zumbi dos Palmares (morto em 1695). Celebra a resistência negra, não a 'concessão' da Lei Áurea."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Lei Áurea é de:",
+          "options": [
+            "1822",
+            "1850",
+            "1871",
+            "1888"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Zumbi liderou:",
+          "options": [
+            "Revolta dos Malês",
+            "Quilombo dos Palmares",
+            "Inconfidência",
+            "Canudos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Brasil recebeu ~:",
+          "options": [
+            "1 milhão",
+            "2,5 milhões",
+            "4,8 milhões",
+            "10 milhões"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A Lei Eusébio de Queirós proibiu:",
+          "options": [
+            "Escravidão",
+            "Tráfico negreiro",
+            "Quilombos",
+            "Capoeira"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Brasil Colônia: Mineração (Séc. XVIII)",
+      "slug": "brasil-colonia-mineracao-sec-xviii",
+      "desc": "Ciclo do ouro (séc. XVIII): Minas Gerais, derrama, quinto, Inconfidência Mineira (Tiradentes, 1789). Urbanização, arte barroca (Aleijadinho), transferência da capital para o Rio.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Ouro em Minas Gerais (séc. XVIII): Vila Rica (Ouro Preto), Diamantina, Sabará. Quinto: 20% do ouro para Portugal. Derrama: cobrança forçada de impostos atrasados. Inconfidência Mineira (1789): Tiradentes (enforcado), elite mineira, influência do Iluminismo e Independência dos EUA. Arte barroca: Aleijadinho (esculturas), Ataíde (pinturas). Capital: Rio de Janeiro (1763).",
+      "body": "<h2>Introdução</h2><p>O <strong>ciclo do ouro</strong> (séc. XVIII) transformou o Brasil: urbanização, interiorização, arte barroca e os primeiros movimentos de independência.</p><h2>A Mineração</h2><ul><li>Ouro em <strong>Minas Gerais:</strong> Vila Rica (Ouro Preto), Diamantina, Sabará</li><li><strong>Quinto:</strong> 20% de todo ouro ia para Portugal</li><li><strong>Derrama:</strong> cobrança forçada quando o quinto não era atingido</li><li>Capital transferida para <strong>Rio de Janeiro</strong> (1763)</li></ul><h2>Inconfidência Mineira (1789)</h2><ul><li><strong>Causa:</strong> derrama + Iluminismo + exemplo dos EUA</li><li><strong>Líderes:</strong> elite mineira (poetas, militares, padres)</li><li><strong>Tiradentes</strong> (Joaquim José da Silva Xavier): único enforcado e esquartejado</li><li><strong>Resultado:</strong> fracassou (delação), mas inspirou o ideal republicano</li></ul><h2>Arte Barroca Mineira</h2><ul><li><strong>Aleijadinho:</strong> esculturas dos 12 profetas (Congonhas)</li><li><strong>Mestre Ataíde:</strong> pintura de tetos de igrejas</li></ul><h2>Resumo</h2><ul><li>✅ Quinto + derrama = exploração. Inconfidência = resistência.</li><li>⚠️ ENEM: Tiradentes como símbolo republicano</li></ul><h2>Curiosidade</h2><p>Tiradentes é o único feriado nacional que homenageia uma pessoa. Seu apelido vem de sua profissão secundária: era <strong>dentista</strong> (tirava dentes)!</p>",
+      "faq": [
+        {
+          "q": "O que era o quinto?",
+          "a": "Imposto de 20% sobre todo ouro extraído, enviado para Portugal. Era cobrado nas Casas de Fundição, onde o ouro era derretido em barras e taxado."
+        },
+        {
+          "q": "O que era a derrama?",
+          "a": "Cobrança forçada quando a cota mínima de ouro (100 arrobas/ano) não era atingida. Todos pagavam, mesmo quem não minerava. Foi o estopim da Inconfidência."
+        },
+        {
+          "q": "A Inconfidência teve sucesso?",
+          "a": "Não. Foi delatada por Joaquim Silvério dos Reis. Tiradentes foi o único executado (1792). Mas tornou-se símbolo da luta por liberdade."
+        },
+        {
+          "q": "Quem foi Aleijadinho?",
+          "a": "Antônio Francisco Lisboa, maior artista colonial brasileiro. Esculpiu os 12 profetas de Congonhas apesar de doença que deformou suas mãos — trabalhava com cinzel amarrado aos punhos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O quinto era:",
+          "options": [
+            "5%",
+            "10%",
+            "20%",
+            "50%"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Tiradentes foi:",
+          "options": [
+            "Enforcado",
+            "Exilado",
+            "Preso",
+            "Absolvido"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Aleijadinho criou:",
+          "options": [
+            "Pinturas de teto",
+            "12 profetas de Congonhas",
+            "Mapa do Brasil",
+            "Hino Nacional"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A capital mudou para o Rio em:",
+          "options": [
+            "1500",
+            "1700",
+            "1763",
+            "1822"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Iluminismo (Séc. XVIII)",
+      "slug": "iluminismo-sec-xviii",
+      "desc": "Iluminismo (séc. XVIII): razão, liberdade, igualdade. Pensadores: Locke, Montesquieu, Voltaire, Rousseau. Despotismo esclarecido. Enciclopédia. Base das revoluções.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Iluminismo: 'Século das Luzes' (XVIII). Razão acima de tudo. Locke: direitos naturais (vida, liberdade, propriedade). Montesquieu: separação dos 3 poderes (Executivo, Legislativo, Judiciário). Voltaire: liberdade de expressão, crítica à Igreja. Rousseau: contrato social, soberania popular. Enciclopédia (Diderot/D'Alembert). Despotismo esclarecido: reis reformadores (Marquês de Pombal em Portugal).",
+      "body": "<h2>Introdução</h2><p>O <strong>Iluminismo</strong> (séc. XVIII) foi o movimento intelectual que colocou a <strong>razão</strong> no centro de tudo. Também chamado de <strong>Século das Luzes</strong>.</p><h2>Pensadores</h2><table><thead><tr><th>Pensador</th><th>Ideia Principal</th></tr></thead><tbody><tr><td><strong>Locke</strong></td><td>Direitos naturais (vida, liberdade, propriedade)</td></tr><tr><td><strong>Montesquieu</strong></td><td>Separação dos 3 poderes</td></tr><tr><td><strong>Voltaire</strong></td><td>Liberdade de expressão, crítica à Igreja</td></tr><tr><td><strong>Rousseau</strong></td><td>Contrato social, soberania popular</td></tr><tr><td><strong>Adam Smith</strong></td><td>Liberalismo econômico, 'mão invisível'</td></tr></tbody></table><h2>Enciclopédia</h2><p><strong>Diderot e D'Alembert:</strong> compilaram todo o conhecimento em 35 volumes. Símbolo do Iluminismo.</p><h2>Despotismo Esclarecido</h2><p>Reis que adotaram reformas iluministas sem abrir mão do poder: Marquês de Pombal (Portugal), Catarina II (Rússia), Frederico II (Prússia).</p><h2>Resumo</h2><ul><li>✅ Locke: direitos naturais. Montesquieu: 3 poderes. Rousseau: soberania popular.</li><li>⚠️ ENEM: Iluminismo = base das revoluções (EUA, França, independências)</li></ul><h2>Curiosidade</h2><p>Voltaire disse: <strong>\"Posso não concordar com o que dizes, mas defenderei até a morte teu direito de dizê-lo.\"</strong> Esta frase resume o espírito iluminista de liberdade de expressão!</p>",
+      "faq": [
+        {
+          "q": "Qual a relação entre Iluminismo e as revoluções?",
+          "a": "O Iluminismo forneceu as ideias (liberdade, igualdade, separação de poderes) que inspiraram a Independência dos EUA (1776), a Revolução Francesa (1789) e as independências na América Latina."
+        },
+        {
+          "q": "O que são os 3 poderes?",
+          "a": "Montesquieu propôs dividir o governo em Executivo (governa), Legislativo (faz leis) e Judiciário (julga). Evita tirania. Base de democracias modernas."
+        },
+        {
+          "q": "O que é contrato social?",
+          "a": "Ideia de Rousseau: o governo nasce de um acordo entre os cidadãos. O povo cede parte da liberdade ao Estado em troca de proteção. Se o Estado falha, o povo pode derrubá-lo."
+        },
+        {
+          "q": "O que era Despotismo Esclarecido?",
+          "a": "Reis absolutistas que adotaram reformas iluministas (educação, economia), mas sem abrir mão do poder. 'Tudo para o povo, nada pelo povo'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Montesquieu propôs:",
+          "options": [
+            "Direitos naturais",
+            "3 poderes",
+            "Contrato social",
+            "Liberalismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Contrato social' é de:",
+          "options": [
+            "Locke",
+            "Voltaire",
+            "Rousseau",
+            "Montesquieu"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A Enciclopédia foi de:",
+          "options": [
+            "Voltaire",
+            "Rousseau",
+            "Diderot e D'Alembert",
+            "Locke"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Direitos naturais (vida, liberdade, propriedade) são de:",
+          "options": [
+            "Hobbes",
+            "Locke",
+            "Maquiavel",
+            "Montesquieu"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Revolução Inglesa (Séc. XVII)",
+      "slug": "revolucao-inglesa-sec-xvii",
+      "desc": "Revolução Inglesa (séc. XVII): Guerra Civil (1642), Cromwell (República puritana), Revolução Gloriosa (1688), Bill of Rights. Monarquia parlamentar.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Revolução Puritana (1642-49): Parlamento × rei Carlos I → guerra civil → Carlos I decapitado. Cromwell (1649-58): República puritana + Atos de Navegação. Restauração (1660): Carlos II. Revolução Gloriosa (1688): Guilherme de Orange, sem violência. Bill of Rights (1689): Parlamento acima do rei → monarquia parlamentar. Importância: 1ª revolução burguesa, modelo para EUA e França.",
+      "body": "<h2>Introdução</h2><p>As <strong>Revoluções Inglesas</strong> do séc. XVII foram as primeiras revoluções burguesas, limitando o poder real e criando a <strong>monarquia parlamentar</strong>.</p><h2>Revolução Puritana (1642-1649)</h2><ul><li><strong>Carlos I × Parlamento:</strong> guerra civil</li><li>Cavaleiros (rei) × Cabeças Redondas (Parlamento, Cromwell)</li><li><strong>1649:</strong> Carlos I decapitado → República</li></ul><h2>República de Cromwell (1649-1658)</h2><ul><li>Ditadura puritana</li><li><strong>Atos de Navegação:</strong> mercadorias para a Inglaterra só em navios ingleses</li></ul><h2>Revolução Gloriosa (1688)</h2><ul><li>Parlamento depõe Jaime II e convida <strong>Guilherme de Orange</strong></li><li><strong>Sem violência</strong> → 'Gloriosa'</li><li><strong>Bill of Rights (1689):</strong> Parlamento acima do rei</li></ul><h2>Resumo</h2><ul><li>✅ 1ª revolução burguesa da história</li><li>✅ Bill of Rights = Parlamento > Rei</li><li>⚠️ ENEM: influência nas revoluções americanas e francesas</li></ul><h2>Curiosidade</h2><p>A Inglaterra foi o único país europeu a <strong>decapitar seu rei</strong> (Carlos I, 1649). Isso chocou toda a Europa e mostrou que o absolutismo tinha limites!</p>",
+      "faq": [
+        {
+          "q": "Por que 'Gloriosa'?",
+          "a": "Porque não houve violência. O Parlamento depôs Jaime II e colocou Guilherme de Orange pacificamente. Diferente da Revolução Puritana (guerra civil)."
+        },
+        {
+          "q": "O que era o Bill of Rights?",
+          "a": "Declaração de Direitos de 1689: garantia liberdade de expressão, proibia impostos sem aprovação do Parlamento, e estabelecia o Parlamento acima do rei."
+        },
+        {
+          "q": "Qual a importância da Revolução Inglesa?",
+          "a": "Foi a 1ª revolução burguesa, limitou o absolutismo, criou a monarquia parlamentar e influenciou diretamente as revoluções americana e francesa."
+        },
+        {
+          "q": "O que eram os Atos de Navegação?",
+          "a": "Leis de Cromwell (1651): todo comércio com a Inglaterra deveria usar navios ingleses. Fortaleceu a marinha inglesa e prejudicou a Holanda."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Carlos I foi:",
+          "options": [
+            "Exilado",
+            "Decapitado",
+            "Absolvido",
+            "Abdicou"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Revolução Gloriosa foi em:",
+          "options": [
+            "1642",
+            "1649",
+            "1688",
+            "1776"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Bill of Rights estabeleceu:",
+          "options": [
+            "Absolutismo",
+            "Parlamento acima do rei",
+            "República",
+            "Teocracia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Os Atos de Navegação foram de:",
+          "options": [
+            "Carlos I",
+            "Cromwell",
+            "Guilherme",
+            "Jaime II"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Independência dos EUA (1776)",
+      "slug": "independencia-dos-eua-1776",
+      "desc": "Independência dos EUA (1776): 13 colônias, Tea Act, Declaração de Independência (Jefferson), guerra, Constituição (1787). Influência iluminista.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "13 colônias inglesas. Causas: impostos sem representação (Stamp Act, Tea Act), Iluminismo. Boston Tea Party (1773). Declaração de Independência (4/7/1776, Jefferson): 'todos os homens são criados iguais'. Guerra (1776-83): apoio da França, vitória em Yorktown. Constituição (1787): república federativa, 3 poderes, Bill of Rights (10 emendas). Limites: escravidão mantida, mulheres e negros excluídos.",
+      "body": "<h2>Introdução</h2><p>A <strong>Independência dos EUA (1776)</strong> foi a primeira revolução colonial vitoriosa e o primeiro grande teste das ideias iluministas.</p><h2>Causas</h2><ul><li>Impostos sem representação (\"No taxation without representation\")</li><li>Stamp Act, Townshend Acts, Tea Act</li><li><strong>Boston Tea Party (1773):</strong> colonos jogaram chá inglês no mar em protesto</li><li>Influência iluminista (Locke: direitos naturais)</li></ul><h2>Declaração de Independência (4/7/1776)</h2><p>Escrita por <strong>Thomas Jefferson</strong>: \"Todos os homens são criados iguais, dotados de direitos inalienáveis — vida, liberdade e busca da felicidade.\"</p><h2>Guerra e Constituição</h2><ul><li>Guerra (1776-83): apoio da França, vitória em Yorktown</li><li><strong>Constituição (1787):</strong> república federativa, 3 poderes (Montesquieu)</li><li>Bill of Rights: 10 primeiras emendas (liberdades individuais)</li></ul><h2>Resumo</h2><ul><li>✅ 1ª revolução colonial vitoriosa</li><li>✅ Iluminismo na prática: 3 poderes, direitos naturais</li><li>⚠️ Limites: escravidão mantida, mulheres e negros excluídos</li></ul><h2>Curiosidade</h2><p>O 4 de julho é o feriado mais importante dos EUA. Mas a maioria dos delegados assinou a Declaração em <strong>2 de agosto</strong>, não em 4 de julho!</p>",
+      "faq": [
+        {
+          "q": "O que foi a Boston Tea Party?",
+          "a": "Em 1773, colonos disfarçados de indígenas jogaram 342 caixas de chá inglês no porto de Boston, protestando contra impostos. Foi o estopim da revolução."
+        },
+        {
+          "q": "A independência dos EUA era para todos?",
+          "a": "Não! 'Todos os homens são criados iguais' excluía escravos, mulheres e indígenas. A escravidão só acabou com a Guerra Civil (1865)."
+        },
+        {
+          "q": "Quem ajudou os EUA na guerra?",
+          "a": "A França (rival da Inglaterra) forneceu tropas, armas e dinheiro. Lafayette foi herói nos dois países. A Espanha e a Holanda também ajudaram."
+        },
+        {
+          "q": "A Constituição dos EUA ainda vigora?",
+          "a": "Sim! É a Constituição escrita mais antiga em vigor (1787). Já recebeu 27 emendas, mas o texto original permanece."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Declaração de Independência é de:",
+          "options": [
+            "1773",
+            "1776",
+            "1787",
+            "1789"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'No taxation without representation' protestava contra:",
+          "options": [
+            "Escravidão",
+            "Impostos sem representação",
+            "Religião",
+            "Monopólio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Jefferson se inspirou em:",
+          "options": [
+            "Maquiavel",
+            "Locke",
+            "Hobbes",
+            "Bossuet"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Constituição dos EUA é de:",
+          "options": [
+            "1776",
+            "1783",
+            "1787",
+            "1791"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Revolução Francesa (1789)",
+      "slug": "revolucao-francesa-1789",
+      "desc": "Revolução Francesa (1789): queda da Bastilha, Declaração dos Direitos, Assembleia Nacional. Fases: Constituinte, Girondinos, Terror (Robespierre), Diretório.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Causas: crise financeira, desigualdade (3 Estados), Iluminismo. 14/7/1789: Queda da Bastilha. Declaração dos Direitos do Homem e do Cidadão: 'liberdade, igualdade, fraternidade'. Fases: Assembleia Constituinte (1789-91), Convenção/Terror (1792-94, Robespierre, guilhotina), Diretório (1795-99). Consequências: fim do Antigo Regime, ascensão burguesa, influência mundial.",
+      "body": "<h2>Introdução</h2><p>A <strong>Revolução Francesa (1789)</strong> é o evento mais importante da história moderna. Derrubou o <strong>Antigo Regime</strong> (absolutismo + feudalismo) e difundiu os ideais de <strong>liberdade, igualdade e fraternidade</strong>.</p><h2>Causas</h2><ul><li>Crise financeira (dívidas, seca, fome)</li><li>Desigualdade: 3 Estados (Clero, Nobreza = privilegiados; 3º Estado = 97% da população)</li><li>Iluminismo: ideias de liberdade e igualdade</li></ul><h2>Fases</h2><table><thead><tr><th>Fase</th><th>Período</th><th>Evento</th></tr></thead><tbody><tr><td>Assembleia Constituinte</td><td>1789-91</td><td>Queda da Bastilha (14/7), Declaração dos Direitos, Constituição</td></tr><tr><td>Convenção/Terror</td><td>1792-94</td><td>República, guilhotina, Robespierre</td></tr><tr><td>Diretório</td><td>1795-99</td><td>Moderação, instabilidade → Napoleão</td></tr></tbody></table><h2>Declaração dos Direitos</h2><p><strong>\"Os homens nascem e permanecem livres e iguais em direitos.\"</strong></p><h2>Resumo</h2><ul><li>✅ 14/7/1789 = Queda da Bastilha = símbolo da revolução</li><li>✅ Liberdade, igualdade, fraternidade</li><li>⚠️ ENEM: causas sociais + ideais iluministas + Terror como radicalização</li></ul><h2>Curiosidade</h2><p>A <strong>guilhotina</strong> foi proposta pelo Dr. Guillotin como método \"humanitário\" de execução. Durante o Terror (~1793-94), mais de 16.000 pessoas foram guilhotinadas — incluindo o próprio <strong>Robespierre</strong>!</p>",
+      "faq": [
+        {
+          "q": "O que era o Antigo Regime?",
+          "a": "Sistema político-social da França pré-revolucionária: absolutismo + sociedade de 3 Estados (Clero, Nobreza, 3º Estado). Privilegiados não pagavam impostos."
+        },
+        {
+          "q": "O que foi o Terror?",
+          "a": "Período radical (1793-94) liderado por Robespierre: guilhotina em massa, perseguição a 'inimigos da revolução'. Robespierre acabou guilhotinado também."
+        },
+        {
+          "q": "Por que 14 de julho?",
+          "a": "Queda da Bastilha (prisão-fortaleza, símbolo do absolutismo). É o feriado nacional da França, como nosso 7 de setembro."
+        },
+        {
+          "q": "A revolução beneficiou todos?",
+          "a": "Principalmente a burguesia, que ascendeu ao poder. Trabalhadores e mulheres foram marginalizados. Olympe de Gouges escreveu a Declaração dos Direitos da Mulher e foi guilhotinada."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Queda da Bastilha:",
+          "options": [
+            "4/7/1776",
+            "14/7/1789",
+            "26/8/1789",
+            "1792"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O lema da Revolução:",
+          "options": [
+            "Ordem e progresso",
+            "Liberdade, igualdade, fraternidade",
+            "Deus, pátria, família",
+            "Pão, terra, paz"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Terror foi liderado por:",
+          "options": [
+            "Luís XVI",
+            "Napoleão",
+            "Robespierre",
+            "Danton"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O 3º Estado representava:",
+          "options": [
+            "Clero",
+            "Nobreza",
+            "~97% da população",
+            "Militares"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Era Napoleônica (1799-1815)",
+      "slug": "era-napoleonica-1799-1815",
+      "desc": "Era Napoleônica: golpe do 18 Brumário, Código Civil, expansão militar, Bloqueio Continental. Queda: Rússia (1812) e Waterloo (1815). Congresso de Viena.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Napoleão: golpe 18 Brumário (1799) → Cônsul → Imperador (1804). Código Civil: igualdade perante a lei, propriedade, laicismo (influenciou o mundo). Bloqueio Continental: proibição de comércio com Inglaterra → fuga da família real portuguesa para o Brasil (1808). Campanhas: vitórias na Europa, derrota na Rússia (1812, inverno). Waterloo (1815): derrota final. Congresso de Viena (1815): restauração do absolutismo.",
+      "body": "<h2>Introdução</h2><p><strong>Napoleão Bonaparte</strong> dominou a Europa por 15 anos, difundindo ideais revolucionários e o <strong>Código Civil</strong> — mas também buscando poder imperial.</p><h2>Ascensão</h2><ul><li><strong>18 Brumário (1799):</strong> golpe contra o Diretório</li><li>Cônsul → Imperador (1804, autocoroação)</li></ul><h2>Realizações</h2><ul><li><strong>Código Civil (1804):</strong> igualdade perante a lei, propriedade privada, laicismo</li><li><strong>Bloqueio Continental:</strong> proibição de comércio europeu com a Inglaterra</li></ul><h2>Consequência para o Brasil</h2><p>Portugal aliado da Inglaterra → Napoleão invade Portugal → <strong>família real foge para o Brasil (1808)</strong></p><h2>Queda</h2><ul><li><strong>Campanha da Rússia (1812):</strong> Grande Armée destruída pelo inverno</li><li><strong>Waterloo (1815):</strong> derrota final, exílio em Santa Helena</li><li><strong>Congresso de Viena (1815):</strong> potências europeias restauram o absolutismo</li></ul><h2>Resumo</h2><ul><li>✅ Código Civil = legado duradouro</li><li>✅ Bloqueio Continental → fuga para o Brasil → independência</li><li>⚠️ ENEM: Napoleão espalhou ideais revolucionários na Europa</li></ul><h2>Curiosidade</h2><p>Napoleão levou 600.000 soldados à Rússia em 1812. Voltaram menos de <strong>30.000</strong>. O inverno russo é o general mais temido da história!</p>",
+      "faq": [
+        {
+          "q": "O que é o Código Civil napoleônico?",
+          "a": "Conjunto de leis que garantia igualdade perante a lei, propriedade privada e separação Estado-Igreja. Base do direito civil em grande parte do mundo (incluindo Brasil)."
+        },
+        {
+          "q": "Como Napoleão afetou o Brasil?",
+          "a": "Bloqueou o comércio com a Inglaterra → invadiu Portugal → família real fugiu para o Brasil (1808) → abertura dos portos → processo de independência acelerado."
+        },
+        {
+          "q": "O que foi o Congresso de Viena?",
+          "a": "Reunião das potências europeias (1815) após Napoleão. Tentaram restaurar o absolutismo e as fronteiras pré-napoleônicas. Princípios: legitimidade e equilíbrio de poder."
+        },
+        {
+          "q": "Napoleão morreu como?",
+          "a": "Exilado na ilha de Santa Helena (1821). Causa oficial: câncer no estômago. Teorias conspiratórias sugerem envenenamento por arsênico."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O golpe do 18 Brumário foi em:",
+          "options": [
+            "1789",
+            "1795",
+            "1799",
+            "1804"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Código Civil garantia:",
+          "options": [
+            "Absolutismo",
+            "Igualdade perante a lei",
+            "Feudalismo",
+            "Teocracia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Napoleão fracassou na:",
+          "options": [
+            "Espanha",
+            "Rússia",
+            "Inglaterra",
+            "Itália"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A família real portuguesa fugiu em:",
+          "options": [
+            "1789",
+            "1808",
+            "1815",
+            "1822"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Revolução Industrial (Séc. XVIII-XIX)",
+      "slug": "revolucao-industrial-sec-xviii-xix",
+      "desc": "Revolução Industrial (séc. XVIII-XIX): máquina a vapor, fábricas, urbanização. 1ª (têxtil, carvão), 2ª (aço, petróleo, eletricidade). Proletariado, ludismo, cartismo, socialismo.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "1ª Rev. Industrial (1760-1840, Inglaterra): máquina a vapor (Watt), indústria têxtil, carvão, ferrovias. Cercamentos → êxodo rural → proletariado urbano. 2ª Rev. Industrial (1870-1914): aço, petróleo, eletricidade, motor a combustão. Consequências: urbanização, proletariado, péssimas condições → ludismo (quebra de máquinas), cartismo (direitos políticos), socialismo (Marx/Engels). Liberalismo econômico: Adam Smith, livre mercado.",
+      "body": "<h2>Introdução</h2><p>A <strong>Revolução Industrial</strong> transformou o mundo: de agrário e artesanal para industrial e urbano. Começou na <strong>Inglaterra</strong> (séc. XVIII).</p><h2>1ª Revolução Industrial (1760-1840)</h2><ul><li><strong>Máquina a vapor</strong> (James Watt, 1769)</li><li>Indústria têxtil (algodão) + mineração (carvão)</li><li>Ferrovias: conectaram fábricas a mercados</li><li>Cercamentos: camponeses expulsos → operários urbanos</li></ul><h2>2ª Revolução Industrial (1870-1914)</h2><ul><li>Aço, petróleo, eletricidade</li><li>Motor a combustão → automóvel</li><li>Telefone, lâmpada elétrica</li></ul><h2>Consequências Sociais</h2><ul><li><strong>Proletariado:</strong> jornadas de 16h, trabalho infantil, salários míseros</li><li><strong>Ludismo:</strong> operários quebravam máquinas</li><li><strong>Cartismo:</strong> movimento por direitos políticos (voto)</li><li><strong>Socialismo:</strong> Marx e Engels (Manifesto Comunista, 1848)</li></ul><h2>Resumo</h2><ul><li>✅ 1ª: vapor, têxtil, carvão. 2ª: aço, petróleo, eletricidade.</li><li>⚠️ ENEM: condições dos operários, movimentos sociais, urbanização</li></ul><h2>Curiosidade</h2><p>Na 1ª Revolução Industrial, crianças de <strong>5 anos</strong> trabalhavam 14 horas por dia em minas de carvão. As primeiras leis trabalhistas surgiram para protegê-las!</p>",
+      "faq": [
+        {
+          "q": "Por que na Inglaterra?",
+          "a": "Matéria-prima (carvão, ferro), capital acumulado (comércio), mão de obra (cercamentos), mercado consumidor (colônias), sistema político estável (Parlamento)."
+        },
+        {
+          "q": "O que era ludismo?",
+          "a": "Movimento de operários que quebravam máquinas (início séc. XIX). Acreditavam que as máquinas 'roubavam' seus empregos. Nome vem de Ned Ludd, líder (possivelmente fictício)."
+        },
+        {
+          "q": "O que Marx propunha?",
+          "a": "Fim da propriedade privada dos meios de produção, revolução proletária, ditadura do proletariado, socialismo/comunismo. Analisou o capitalismo como sistema de exploração."
+        },
+        {
+          "q": "Diferença entre 1ª e 2ª Revolução?",
+          "a": "1ª (1760-1840): vapor, têxtil, carvão, ferrovias. 2ª (1870-1914): aço, petróleo, eletricidade, motor a combustão, indústria química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A máquina a vapor é associada a:",
+          "options": [
+            "Edison",
+            "Watt",
+            "Ford",
+            "Tesla"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ludismo era:",
+          "options": [
+            "Movimento sindical",
+            "Quebra de máquinas",
+            "Partido político",
+            "Filosofia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A 2ª Rev. Industrial usou:",
+          "options": [
+            "Vapor e carvão",
+            "Aço e petróleo",
+            "Madeira e água",
+            "Vento e solar"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O Manifesto Comunista é de:",
+          "options": [
+            "1776",
+            "1789",
+            "1848",
+            "1917"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Independência do Brasil (1822) e Império",
+      "slug": "independencia-do-brasil-1822-e-imperio",
+      "desc": "Independência do Brasil (1822): D. Pedro I, Grito do Ipiranga. Império: 1º Reinado (1822-31), Regências (1831-40), 2º Reinado (Pedro II, 1840-89). Abolição e República.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 8,
+      "xp": 150,
+      "essential": "Contexto: fuga da corte (1808), abertura dos portos, elevação a Reino Unido (1815). Independência (7/9/1822): D. Pedro I no Ipiranga. 1º Reinado (1822-31): Constituição outorgada (1824, poder moderador), Confederação do Equador (1824), abdicação. Regências (1831-40): revoltas (Cabanagem, Farroupilha, Balaiada, Sabinada). 2º Reinado (1840-89): Pedro II, café, imigração, Guerra do Paraguai (1864-70), abolição (1888), República (15/11/1889).",
+      "body": "<h2>Introdução</h2><p>A <strong>Independência do Brasil</strong> (7/9/1822) e o período imperial (1822-1889) moldaram as instituições brasileiras.</p><h2>Contexto</h2><ul><li><strong>1808:</strong> família real foge para o Brasil (Napoleão)</li><li><strong>Abertura dos portos:</strong> fim do monopólio colonial</li><li><strong>1815:</strong> Brasil elevado a Reino Unido</li><li><strong>1821:</strong> D. João VI volta a Portugal, Pedro fica</li></ul><h2>Independência (7/9/1822)</h2><p><strong>\"Independência ou Morte!\"</strong> — D. Pedro I às margens do Ipiranga.</p><h2>Império</h2><table><thead><tr><th>Período</th><th>Governo</th><th>Destaques</th></tr></thead><tbody><tr><td>1º Reinado (1822-31)</td><td>Pedro I</td><td>Const. 1824 (poder moderador), Confederação do Equador</td></tr><tr><td>Regências (1831-40)</td><td>Regentes</td><td>Revoltas: Cabanagem, Farroupilha, Balaiada</td></tr><tr><td>2º Reinado (1840-89)</td><td>Pedro II</td><td>Café, imigração, Guerra do Paraguai, abolição</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ 1822: independência 'pelo alto' (sem revolução popular)</li><li>✅ Pedro II: estabilidade + café + abolição</li><li>⚠️ ENEM: poder moderador, revoltas regenciais, processo de abolição</li></ul><h2>Curiosidade</h2><p>A Constituição de 1824 tinha <strong>4 poderes:</strong> Executivo, Legislativo, Judiciário e <strong>Moderador</strong> (exclusivo do imperador). Era o poder de dissolver a Câmara e anular decisões!</p>",
+      "faq": [
+        {
+          "q": "A independência foi popular?",
+          "a": "Não. Foi feita 'pelo alto': o próprio filho do rei português declarou a independência. Não houve revolução popular como nos EUA ou França."
+        },
+        {
+          "q": "O que era o poder moderador?",
+          "a": "4º poder exclusivo do imperador na Constituição de 1824. Permitia dissolver a Câmara, nomear senadores, anular decisões dos outros poderes. Concentrava poder no imperador."
+        },
+        {
+          "q": "O que foram as revoltas regenciais?",
+          "a": "Revoltas durante as Regências (1831-40): Cabanagem (Pará), Farroupilha (RS), Balaiada (MA), Sabinada (BA), Malês (BA). Causas variadas: miséria, federalismo, abolicionismo."
+        },
+        {
+          "q": "Por que o Império acabou?",
+          "a": "Crise militar (exército insatisfeito pós-Guerra do Paraguai), questão religiosa (atritos com a Igreja), questão abolicionista (elite agrária contra Pedro II), e questão republicana."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A Independência do Brasil é de:",
+          "options": [
+            "1808",
+            "1815",
+            "1822",
+            "1889"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O poder moderador era de:",
+          "options": [
+            "Parlamento",
+            "Imperador",
+            "Igreja",
+            "Povo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A Farroupilha foi no:",
+          "options": [
+            "Pará",
+            "Maranhão",
+            "Rio Grande do Sul",
+            "Bahia"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A República foi proclamada em:",
+          "options": [
+            "7/9/1822",
+            "13/5/1888",
+            "15/11/1889",
+            "7/9/1889"
+          ],
+          "answer": 2
+        }
+      ]
     }
   ]
 }

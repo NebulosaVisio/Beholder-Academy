@@ -2,128 +2,873 @@
   "subject": "Matemática",
   "slug": "1ano-matematica",
   "level": "Fundamental 1",
-  "grade": "1º Ano",
+  "grade": "1º ano",
   "color": "var(--matematica)",
+  "icon": "calculator",
   "articles": [
     {
-      "title": "Números de 0 a 10",
-      "slug": "numeros-0-a-10",
-      "desc": "Conhecendo os primeiros números e aprendendo a contar.",
-      "category": "Números",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "0 = nada/vazio. 1-9 = algarismos. 10 = primeiro número com dois algarismos. Contar = associar quantidade a número.",
-      "body": "<p>Os números estão em todo lugar: na idade que você tem, nos dedos da mão, na placa do ônibus. Vamos conhecer os primeiros: <strong>0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10</strong>.</p><p>O <strong>zero (0)</strong> representa o vazio — quando não tem nada. Os números de 1 a 9 são chamados <strong>algarismos</strong> e são os 'tijolos' de todos os outros números. O <strong>10</strong> é especial porque é o primeiro número formado por dois algarismos: 1 e 0.</p><p>Para contar, aponte cada objeto e fale o número: 1 lápis, 2 lápis, 3 lápis. O último número que você falar é a <strong>quantidade total</strong>. Use os dedos das mãos para praticar — você tem exatamente 10!</p>",
-      "faq": [{"q":"O zero é um número?","a":"Sim! O zero representa ausência de quantidade."},{"q":"Por que o 10 tem dois números?","a":"Porque usamos os algarismos de 0 a 9 e depois combinamos para formar números maiores."},{"q":"Como contar objetos?","a":"Aponte cada um e diga o número em ordem. O último é o total."}]
+      "title": "Conjuntos",
+      "slug": "conjuntos",
+      "desc": "Teoria dos conjuntos: pertinência (∈), inclusão (⊂), operações (união ∪, interseção ∩, diferença −, complementar). Diagramas de Venn. Fórmula n(A∪B) = n(A)+n(B)−n(A∩B).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Pertinência (∈): elemento → conjunto. Inclusão (⊂): conjunto → conjunto. União A∪B: todos. Interseção A∩B: comuns. Diferença A−B: só em A. Complementar Aᶜ: fora de A. Fórmula ENEM: n(A∪B) = n(A)+n(B)−n(A∩B). Conjunto vazio ∅ é subconjunto de qualquer conjunto.",
+      "body": "<h2>Introdução</h2><p>A <strong>Teoria dos Conjuntos</strong> é a base da matemática moderna. Um <strong>conjunto</strong> é uma coleção de elementos bem definidos, representado por letras maiúsculas (A, B, C). Este tema é fundamental para funções, probabilidade e análise combinatória.</p><h2>Representação</h2><ul><li><strong>Extensão:</strong> A = {1, 2, 3, 4, 5}</li><li><strong>Compreensão:</strong> A = {x ∈ ℕ | x ≤ 5}</li><li><strong>Diagrama de Venn:</strong> círculos representando conjuntos</li></ul><h2>Relações</h2><table><thead><tr><th>Relação</th><th>Símbolo</th><th>Entre</th><th>Exemplo</th></tr></thead><tbody><tr><td>Pertinência</td><td>∈ / ∉</td><td>Elemento → Conjunto</td><td>2 ∈ {1,2,3}</td></tr><tr><td>Inclusão</td><td>⊂ / ⊄</td><td>Conjunto → Conjunto</td><td>{1,2} ⊂ {1,2,3}</td></tr></tbody></table><h2>Operações</h2><table><thead><tr><th>Operação</th><th>Símbolo</th><th>Resultado (A={1,2,3}, B={2,3,4})</th></tr></thead><tbody><tr><td>União</td><td>A ∪ B</td><td>{1, 2, 3, 4}</td></tr><tr><td>Interseção</td><td>A ∩ B</td><td>{2, 3}</td></tr><tr><td>Diferença</td><td>A − B</td><td>{1}</td></tr><tr><td>Complementar</td><td>Aᶜ</td><td>Tudo fora de A no universo</td></tr></tbody></table><h2>Fórmula da União (ENEM!)</h2><p><strong>n(A ∪ B) = n(A) + n(B) − n(A ∩ B)</strong></p><p><em>Ex:</em> 20 gostam de futebol, 15 de vôlei, 8 de ambos → n(F∪V) = 20+15−8 = <strong>27</strong></p><p>Para 3 conjuntos: n(A∪B∪C) = n(A)+n(B)+n(C)−n(A∩B)−n(A∩C)−n(B∩C)+n(A∩B∩C)</p><h2>Resumo</h2><ul><li>✅ Pertinência (∈) = elemento/conjunto. Inclusão (⊂) = conjunto/conjunto.</li><li>✅ ∅ é subconjunto de qualquer conjunto.</li><li>⚠️ ENEM: \"pelo menos um\" = união; \"ambos\" = interseção.</li></ul><h2>Curiosidade</h2><p>Georg Cantor, criador da teoria dos conjuntos, provou que existem <strong>infinitos de tamanhos diferentes</strong> — o infinito dos reais é \"maior\" que o dos naturais!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre pertinência e inclusão?",
+          "a": "Pertinência (∈) é entre ELEMENTO e conjunto: 2 ∈ {1,2,3}. Inclusão (⊂) é entre CONJUNTO e conjunto: {1,2} ⊂ {1,2,3}. Nunca use ⊂ para elementos nem ∈ para conjuntos."
+        },
+        {
+          "q": "Conjunto vazio é subconjunto de todo conjunto?",
+          "a": "Sim! ∅ ⊂ A para qualquer A. Isso é um axioma da teoria dos conjuntos. Cuidado: {∅} NÃO é vazio — contém um elemento."
+        },
+        {
+          "q": "Como resolver problemas com Venn no ENEM?",
+          "a": "Use n(A∪B) = n(A)+n(B)−n(A∩B). 'Pelo menos um' = união. 'Ambos' = interseção. 'Somente A' = A−B. Preencha o diagrama de dentro para fora."
+        },
+        {
+          "q": "Diferença e complementar são a mesma coisa?",
+          "a": "Não! Diferença A−B remove de A os elementos de B. Complementar Aᶜ remove de A os elementos do universo U. São iguais apenas se B = U."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Se A={1,2,3} e B={2,3,4}, então A∩B é:",
+          "options": [
+            "{1,2,3,4}",
+            "{2,3}",
+            "{1}",
+            "{4}"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A relação '2 ∈ {1,2,3}' é de:",
+          "options": [
+            "Inclusão",
+            "Pertinência",
+            "União",
+            "Igualdade"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "20 gostam de futebol, 15 de vôlei, 8 de ambos. Pelo menos um?",
+          "options": [
+            "43",
+            "35",
+            "27",
+            "23"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "∅ é subconjunto de:",
+          "options": [
+            "Nenhum",
+            "Só do universo",
+            "Qualquer conjunto",
+            "Só de si"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Números de 11 a 20",
-      "slug": "numeros-11-a-20",
-      "desc": "Continuando a contagem depois do 10.",
-      "category": "Números",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "11-19: dez + unidades (onze, doze... dezenove). 20 = duas dezenas. Padrão: a dezena fica na frente, a unidade atrás.",
-      "body": "<p>Depois do 10, continuamos contando: <strong>11, 12, 13, 14, 15, 16, 17, 18, 19, 20</strong>. Esses números são formados por 1 dezena mais unidades extras.</p><p>O 11 é 'dez e um' (onze), o 12 é 'dez e dois' (doze), e assim por diante. Os nomes de 11 a 15 são especiais (onze, doze, treze, quatorze, quinze), mas de 16 a 19 seguem o padrão: dez+seis, dez+sete, dez+oito, dez+nove.</p><p>O <strong>20</strong> são duas dezenas completas — como dois grupos de 10. Se você juntar os dedos de duas pessoas, tem 20 dedos!</p>",
-      "faq": [{"q":"O que é uma dezena?","a":"Um grupo de 10 unidades."},{"q":"Por que 11 se chama 'onze'?","a":"Os nomes de 11 a 15 vêm do latim e são especiais. A partir do 16 seguem padrão."}]
+      "title": "Conjuntos Numéricos",
+      "slug": "conjuntos-numericos",
+      "desc": "Conjuntos numéricos: naturais (ℕ), inteiros (ℤ), racionais (ℚ), irracionais (𝕀) e reais (ℝ). Relação ℕ⊂ℤ⊂ℚ⊂ℝ. Identificação e classificação de números.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "ℕ = {0,1,2,...}. ℤ = {...,−2,−1,0,1,2,...}. ℚ = frações a/b (b≠0), decimais exatos e periódicos. 𝕀 = decimais infinitos NÃO periódicos (π, √2). ℝ = ℚ ∪ 𝕀 (toda a reta). Inclusão: ℕ⊂ℤ⊂ℚ⊂ℝ. ℕ* = sem zero. √4=2 é natural! 0,999...=1 é racional!",
+      "body": "<h2>Introdução</h2><p>Os <strong>conjuntos numéricos</strong> organizam todos os tipos de números, cada família ampliando a anterior. Essencial para todo o Ensino Médio.</p><h2>Os 5 Conjuntos</h2><table><thead><tr><th>Conjunto</th><th>Símbolo</th><th>Elementos</th><th>Exemplo</th></tr></thead><tbody><tr><td>Naturais</td><td>ℕ</td><td>{0,1,2,3,...}</td><td>Contagem</td></tr><tr><td>Inteiros</td><td>ℤ</td><td>{...,-2,-1,0,1,2,...}</td><td>Temperatura -3°C</td></tr><tr><td>Racionais</td><td>ℚ</td><td>a/b, b≠0</td><td>1/2=0,5 | 1/3=0,333...</td></tr><tr><td>Irracionais</td><td>𝕀</td><td>Decimais ∞ não periódicos</td><td>π, √2, √3, e</td></tr><tr><td>Reais</td><td>ℝ</td><td>ℚ ∪ 𝕀</td><td>Toda a reta numérica</td></tr></tbody></table><h2>Inclusão</h2><p><strong>ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ</strong> — cada conjunto contém o anterior.</p><h2>Como Identificar?</h2><ul><li>Inteiro ≥ 0 → ℕ</li><li>Inteiro negativo → ℤ</li><li>Fração ou decimal exato/periódico → ℚ</li><li>Decimal infinito não periódico → 𝕀</li></ul><h2>Notações</h2><ul><li>ℕ* = sem zero | ℤ₊ = não-negativos | ℚ* = sem zero</li></ul><h2>Resumo</h2><ul><li>✅ ℕ⊂ℤ⊂ℚ⊂ℝ</li><li>✅ Racional = vira fração. Irracional = decimal ∞ não periódico.</li><li>⚠️ √4=2 é natural! 0,999...=1 é racional!</li></ul><h2>Curiosidade</h2><p>Hipaso de Metaponto, discípulo de Pitágoras, descobriu que √2 é irracional. A lenda diz que os pitagóricos o jogaram ao mar por revelar esse segredo!</p>",
+      "faq": [
+        {
+          "q": "Todo natural é inteiro?",
+          "a": "Sim! ℕ⊂ℤ. Todo natural é inteiro, mas nem todo inteiro é natural (negativos são inteiros mas não naturais)."
+        },
+        {
+          "q": "Como saber se é racional ou irracional?",
+          "a": "Se pode virar fração a/b (b≠0), é racional. Decimais exatos (0,5) e periódicos (0,333...) são racionais. Decimais infinitos NÃO periódicos (π, √2) são irracionais."
+        },
+        {
+          "q": "√4 é irracional?",
+          "a": "Não! √4=2, que é natural. Nem toda raiz é irracional — √4, √9, √16 são inteiros. Só quando o resultado é decimal infinito não periódico (√2, √3, √5)."
+        },
+        {
+          "q": "O que significa ℕ*?",
+          "a": "O asterisco (*) remove o zero: ℕ*={1,2,3,...}. ℤ*=inteiros sem zero. O subscrito + (ℤ₊) significa não-negativos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Inclusão correta:",
+          "options": [
+            "ℝ⊂ℚ⊂ℤ⊂ℕ",
+            "ℕ⊂ℤ⊂ℚ⊂ℝ",
+            "ℤ⊂ℕ⊂ℚ⊂ℝ",
+            "ℕ⊂ℚ⊂ℤ⊂ℝ"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "√2 pertence a:",
+          "options": [
+            "ℕ",
+            "ℤ",
+            "ℚ",
+            "𝕀"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "0,333... é:",
+          "options": [
+            "Irracional",
+            "Natural",
+            "Racional",
+            "Complexo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "ℕ* exclui:",
+          "options": [
+            "1",
+            "0",
+            "Negativos",
+            "Frações"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Adição (Soma)",
-      "slug": "adicao",
-      "desc": "Juntando quantidades: o mais (+) que aumenta.",
-      "category": "Operações",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Adição = juntar. Símbolo: +. Resultado: soma ou total. 3 + 2 = 5. Use os dedos ou desenhos para contar.",
-      "body": "<p><strong>Adição</strong> é a operação de <strong>juntar</strong> quantidades. Se você tem 3 balas e ganha mais 2, quantas tem agora? Juntou tudo: 3 + 2 = <strong>5 balas</strong>.</p><p>O símbolo da adição é o <strong>mais (+)</strong> e o resultado se chama <strong>soma</strong> ou <strong>total</strong>. Para calcular, use os dedos: levante 3 de um lado, 2 do outro, e conte todos: 1, 2, 3, 4, 5!</p><p>A adição aparece o tempo todo no dia a dia: quantos pontos você fez no jogo, quantos brinquedos tem ao todo, quantas figurinhas juntou. Sempre que juntar, é adição!</p>",
-      "faq": [{"q":"O que é adição?","a":"Operação de juntar quantidades. Símbolo: +."},{"q":"Posso somar na ordem que quiser?","a":"Sim! 3+2 dá o mesmo que 2+3. Isso se chama propriedade comutativa."},{"q":"Como somar sem dedos?","a":"Desenhe bolinhas, use palitos ou conte mentalmente a partir do número maior."}]
+      "title": "Função: Definição e Gráfico",
+      "slug": "funcao-definicao-e-grafico",
+      "desc": "Função: relação onde cada x tem exatamente um y. Domínio, contradomínio e imagem. Gráfico cartesiano. Teste da reta vertical. Pré-requisito para todas as funções do EM.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Função f:A→B: cada x∈A tem exatamente UM y∈B. Domínio(D)=valores de x. Contradomínio(CD)=valores possíveis de y. Imagem(Im)=valores efetivos de y (Im⊆CD). Teste da reta vertical: se corta em 2+ pontos, NÃO é função. Circunferência NÃO é função.",
+      "body": "<h2>Introdução</h2><p>O conceito de <strong>função</strong> é o mais importante do Ensino Médio. Uma função associa cada elemento do domínio a <strong>exatamente um</strong> do contradomínio.</p><h2>Definição</h2><p>f:A→B: cada x∈A tem <strong>exatamente uma</strong> imagem y∈B.</p><p>f(x) = 2x+1 → f(3) = 2·3+1 = 7</p><h2>Domínio, Contradomínio e Imagem</h2><table><thead><tr><th>Conceito</th><th>Definição</th><th>f(x)=x²</th></tr></thead><tbody><tr><td>Domínio (D)</td><td>Valores de x</td><td>ℝ</td></tr><tr><td>Contradomínio (CD)</td><td>Onde y pode estar</td><td>ℝ</td></tr><tr><td>Imagem (Im)</td><td>Valores efetivos de y</td><td>[0,+∞)</td></tr></tbody></table><p>💡 Im ⊆ CD sempre!</p><h2>Teste da Reta Vertical</h2><ul><li>Trace retas verticais no gráfico</li><li>Se toda reta corta em ≤ 1 ponto → é função ✅</li><li>Se alguma corta em 2+ pontos → NÃO é função ❌</li></ul><h2>Resumo</h2><ul><li>✅ Cada x → exatamente um y</li><li>✅ Im ⊆ CD</li><li>⚠️ Circunferência NÃO é função (um x pode ter dois y)</li></ul><h2>Curiosidade</h2><p>A notação f(x) foi criada por Leonhard Euler no séc. XVIII — o mesmo que descobriu e^(iπ)+1=0, considerada a equação mais bela da matemática!</p>",
+      "faq": [
+        {
+          "q": "Diferença entre contradomínio e imagem?",
+          "a": "Contradomínio é onde y PODE estar (definido com a função). Imagem são valores efetivamente atingidos. f(x)=x²: CD=ℝ, Im=[0,+∞). Imagem ⊆ Contradomínio sempre."
+        },
+        {
+          "q": "Como saber se gráfico é função?",
+          "a": "Teste da reta vertical: trace retas verticais. Se toda reta corta em no máximo 1 ponto, é função. Se alguma corta em 2+, NÃO é função."
+        },
+        {
+          "q": "Circunferência é função?",
+          "a": "Não! x²+y²=r² tem dois y para muitos x (acima e abaixo). Não passa no teste da reta vertical."
+        },
+        {
+          "q": "O que é f(x)?",
+          "a": "Notação para 'valor da função f quando a entrada é x'. f(x)=2x+1 → f(3)=7. Criada por Euler no séc. XVIII."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cada x numa função tem:",
+          "options": [
+            "Nenhuma imagem",
+            "Exatamente uma",
+            "Duas imagens",
+            "Infinitas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A imagem é sempre:",
+          "options": [
+            "Igual ao domínio",
+            "Igual ao CD",
+            "Subconjunto do CD",
+            "Maior que CD"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O teste da reta vertical verifica se:",
+          "options": [
+            "Gráfico é reto",
+            "Gráfico é função",
+            "Domínio é ℝ",
+            "Imagem é positiva"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Circunferência NÃO é função porque:",
+          "options": [
+            "Não tem gráfico",
+            "Um x pode ter dois y",
+            "Y são iguais",
+            "Domínio vazio"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Subtração",
-      "slug": "subtracao",
-      "desc": "Tirando quantidades: o menos (−) que diminui.",
-      "category": "Operações",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Subtração = tirar. Símbolo: −. Resultado: diferença ou resto. 5 − 2 = 3. Sempre tire do maior.",
-      "body": "<p><strong>Subtração</strong> é o contrário da adição — é <strong>tirar</strong>. Se você tem 5 balas e come 2, quantas sobram? Tirou: 5 − 2 = <strong>3 balas</strong>.</p><p>O símbolo é o <strong>menos (−)</strong> e o resultado se chama <strong>diferença</strong> ou <strong>resto</strong>. Para calcular, levante 5 dedos e abaixe 2: quantos ficaram de pé? Três!</p><p>A subtração responde perguntas como: 'Quantos faltam?', 'Quantos sobraram?', 'Qual a diferença?'. Sempre que tirar algo, é subtração.</p>",
-      "faq": [{"q":"O que é subtração?","a":"Tirar uma quantidade de outra. Símbolo: −."},{"q":"Posso trocar a ordem?","a":"Não! 5−2=3, mas 2−5 dá número negativo (que você vai aprender depois)."},{"q":"Subtração e adição são opostas?","a":"Sim! 5−2=3 é o inverso de 3+2=5."}]
+      "title": "Função Afim (1º Grau)",
+      "slug": "funcao-afim-1-grau",
+      "desc": "Função afim (1º grau): f(x)=ax+b. Gráfico: reta. Coeficiente angular (a): inclinação. Coeficiente linear (b): corta eixo y. Raiz: x=−b/a. Aplicações: táxi, celular, MRU.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "f(x)=ax+b (a≠0). Gráfico: reta. a>0 → crescente ↗. a<0 → decrescente ↘. Raiz: x=−b/a. Coef. angular a = Δy/Δx = tan(α). Coef. linear b = corte no eixo y. Domínio: ℝ. Imagem: ℝ.",
+      "body": "<h2>Introdução</h2><p>A <strong>função afim</strong> (1º grau) tem gráfico sempre em <strong>reta</strong>. Modela variação constante: táxi, celular, velocidade uniforme.</p><h2>Forma Geral</h2><p><strong>f(x) = ax + b</strong> (a≠0)</p><table><thead><tr><th>Componente</th><th>Nome</th><th>Significado</th></tr></thead><tbody><tr><td>a</td><td>Coef. angular</td><td>Inclinação (taxa de variação)</td></tr><tr><td>b</td><td>Coef. linear</td><td>Corte no eixo y</td></tr></tbody></table><h2>Comportamento</h2><ul><li><strong>a > 0:</strong> crescente ↗</li><li><strong>a < 0:</strong> decrescente ↘</li></ul><h2>Raiz</h2><p>ax+b=0 → <strong>x = −b/a</strong></p><p>Ex: f(x)=2x−6 → x=6/2=<strong>3</strong></p><h2>Gráfico</h2><ol><li>Marque (0,b) no eixo y</li><li>Calcule raiz x=−b/a no eixo x</li><li>Ligue com reta</li></ol><h2>Aplicações ENEM</h2><ul><li>Táxi: f(x)=3,50x+5 (R bandeirada + R,50/km)</li><li>Celular: f(x)=0,50x+30 (fixo + minuto)</li></ul><h2>Resumo</h2><ul><li>✅ f(x)=ax+b → reta</li><li>✅ a>0 crescente, a<0 decrescente</li><li>✅ Raiz: x=−b/a</li><li>⚠️ ENEM adora táxi e celular!</li></ul><h2>Curiosidade</h2><p>O coeficiente angular é a=tan(α), onde α é o ângulo com o eixo x. Reta a 45° tem a=1. Retas verticais teriam tangente infinita — por isso não são funções!</p>",
+      "faq": [
+        {
+          "q": "O que é coeficiente angular?",
+          "a": "É o 'a' em f(x)=ax+b. Representa a inclinação da reta. a>0 → crescente; a<0 → decrescente. Numericamente, a=Δy/Δx."
+        },
+        {
+          "q": "Como achar a raiz?",
+          "a": "Faça f(x)=0: ax+b=0 → x=−b/a. É o ponto onde a reta cruza o eixo x. Ex: f(x)=3x−9 → x=3."
+        },
+        {
+          "q": "Função constante é afim?",
+          "a": "Não exatamente. Constante f(x)=b tem a=0, mas afim exige a≠0. Constante tem gráfico horizontal."
+        },
+        {
+          "q": "Como resolver problemas de táxi no ENEM?",
+          "a": "Identifique custo fixo (=b) e variável (=a). Monte f(x)=ax+b. Táxi: R bandeirada + R,50/km → f(x)=3,50x+5."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Em f(x)=2x−6, a raiz é:",
+          "options": [
+            "x=−6",
+            "x=3",
+            "x=2",
+            "x=6"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Se a>0, a reta é:",
+          "options": [
+            "Horizontal",
+            "Vertical",
+            "Crescente",
+            "Decrescente"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O coef. linear indica onde corta:",
+          "options": [
+            "Eixo x",
+            "Eixo y",
+            "Origem",
+            "Gráfico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "f(x)=3,50x+5 modela táxi. O '5' é:",
+          "options": [
+            "Custo/km",
+            "Bandeirada (fixo)",
+            "Distância",
+            "Velocidade"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Formas Geométricas",
-      "slug": "formas-geometricas",
-      "desc": "Círculo, quadrado, triângulo e retângulo.",
-      "category": "Geometria",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Círculo: redondo, sem lados. Quadrado: 4 lados iguais. Retângulo: 2 lados curtos e 2 longos. Triângulo: 3 lados.",
-      "body": "<p>As <strong>formas geométricas</strong> estão em todo lugar! A roda do carro é um <strong>círculo</strong>, a janela pode ser um <strong>quadrado</strong>, a porta é um <strong>retângulo</strong> e o telhado parece um <strong>triângulo</strong>.</p><p>O <strong>círculo</strong> é redondo e não tem lados nem cantos. O <strong>quadrado</strong> tem 4 lados todos iguais e 4 cantinhos. O <strong>retângulo</strong> é parecido com o quadrado mas tem 2 lados mais curtos e 2 mais longos.</p><p>O <strong>triângulo</strong> tem 3 lados e 3 cantos — é a forma com menos lados que existe (sem contar o círculo). Olhe ao seu redor: quantas formas geométricas você consegue encontrar?</p>",
-      "faq": [{"q":"Quadrado é retângulo?","a":"Sim! Todo quadrado é um retângulo especial onde todos os lados são iguais."},{"q":"Quantos lados tem o círculo?","a":"Nenhum! O círculo é uma linha curva fechada."},{"q":"Onde vejo triângulos?","a":"Em telhados, fatias de pizza, sinais de trânsito, cabides."}]
+      "title": "Função Quadrática (2º Grau)",
+      "slug": "funcao-quadratica-2-grau",
+      "desc": "Função quadrática (2º grau): f(x)=ax²+bx+c. Gráfico: parábola. Vértice V(−b/2a, −Δ/4a). Discriminante Δ=b²−4ac. Raízes por Bhaskara. Concavidade: a>0 ∪, a<0 ∩.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "f(x)=ax²+bx+c (a≠0). Gráfico: parábola. a>0 → concavidade para cima (∪), ponto mínimo. a<0 → concavidade para baixo (∩), ponto máximo. Δ=b²−4ac: Δ>0 duas raízes, Δ=0 uma raiz, Δ<0 nenhuma real. Bhaskara: x=(−b±√Δ)/2a. Vértice: V(−b/2a, −Δ/4a). Soma raízes: −b/a. Produto: c/a.",
+      "body": "<h2>Introdução</h2><p>A <strong>função quadrática</strong> (2º grau) aparece em problemas de otimização (lucro máximo, área máxima), lançamento de projéteis e receita/custo. Seu gráfico é uma <strong>parábola</strong>.</p><h2>Forma Geral</h2><p><strong>f(x) = ax² + bx + c</strong> (a ≠ 0)</p><h2>Concavidade</h2><table><thead><tr><th>a</th><th>Concavidade</th><th>Ponto</th></tr></thead><tbody><tr><td>a > 0</td><td>Para cima (∪)</td><td>Mínimo no vértice</td></tr><tr><td>a < 0</td><td>Para baixo (∩)</td><td>Máximo no vértice</td></tr></tbody></table><h2>Raízes (Zeros)</h2><p><strong>Δ = b² − 4ac</strong> (discriminante)</p><table><thead><tr><th>Δ</th><th>Nº de raízes</th><th>Gráfico</th></tr></thead><tbody><tr><td>Δ > 0</td><td>2 raízes reais distintas</td><td>Parábola corta eixo x em 2 pontos</td></tr><tr><td>Δ = 0</td><td>1 raiz real (dupla)</td><td>Tangencia o eixo x</td></tr><tr><td>Δ < 0</td><td>0 raízes reais</td><td>Não toca o eixo x</td></tr></tbody></table><p><strong>Fórmula de Bhaskara:</strong> x = (−b ± √Δ) / 2a</p><h2>Vértice</h2><p><strong>V(xᵥ, yᵥ)</strong> onde xᵥ = −b/2a e yᵥ = −Δ/4a</p><p>O vértice é o ponto de máximo (a<0) ou mínimo (a>0).</p><h2>Resumo</h2><ul><li>✅ f(x)=ax²+bx+c → parábola</li><li>✅ a>0 → mínimo. a<0 → máximo.</li><li>✅ Bhaskara: x=(−b±√Δ)/2a</li><li>⚠️ ENEM adora: \"lucro máximo\" ou \"área máxima\" → use o vértice!</li></ul><h2>Curiosidade</h2><p>Bhaskara II (séc. XII, Índia) sistematizou a fórmula, mas os babilônios já resolviam equações de 2º grau há 4.000 anos! A fórmula que chamamos de \"Bhaskara\" na verdade tem origens muito mais antigas.</p>",
+      "faq": [
+        {
+          "q": "Quando a parábola não toca o eixo x?",
+          "a": "Quando Δ<0 (discriminante negativo). Não há raízes reais. Se a>0, a parábola inteira fica acima do eixo x; se a<0, inteira abaixo."
+        },
+        {
+          "q": "Como achar o valor máximo/mínimo?",
+          "a": "Calcule yᵥ=−Δ/4a. Se a>0, é o valor MÍNIMO. Se a<0, é o MÁXIMO. No ENEM: 'lucro máximo', 'área máxima' → calcule yᵥ."
+        },
+        {
+          "q": "Soma e produto das raízes?",
+          "a": "Soma = −b/a. Produto = c/a. Útil para montar equações: x²−Sx+P=0 onde S=soma e P=produto."
+        },
+        {
+          "q": "Qual a relação com lançamento de projéteis?",
+          "a": "A trajetória é uma parábola f(x)=ax²+bx+c com a<0. A altura máxima é o yᵥ e o alcance máximo é a raiz positiva."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Se a>0, a parábola tem:",
+          "options": [
+            "Ponto máximo",
+            "Ponto mínimo",
+            "Nenhum extremo",
+            "Dois máximos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Se Δ<0, a equação tem:",
+          "options": [
+            "2 raízes",
+            "1 raiz",
+            "0 raízes reais",
+            "Infinitas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O vértice está em:",
+          "options": [
+            "(−b/a, c/a)",
+            "(−b/2a, −Δ/4a)",
+            "(b/2a, Δ/4a)",
+            "(a, b)"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Bhaskara: x =",
+          "options": [
+            "−b/2a",
+            "(−b±√Δ)/2a",
+            "b²−4ac",
+            "−Δ/4a"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Maior, Menor e Igual",
-      "slug": "maior-menor-igual",
-      "desc": "Comparando números: quem é maior e quem é menor.",
-      "category": "Números",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Maior (>): boca aberta para o maior. Menor (<): boca aberta para o maior. Igual (=): mesma quantidade. 5 > 3, 2 < 7, 4 = 4.",
-      "body": "<p>Quando comparamos dois números, um pode ser <strong>maior</strong>, <strong>menor</strong> ou <strong>igual</strong> ao outro. 5 é maior que 3, 2 é menor que 7, e 4 é igual a 4.</p><p>Os símbolos são: <strong>></strong> (maior que), <strong><</strong> (menor que) e <strong>=</strong> (igual). Dica para lembrar: o símbolo > ou < é como a boca de um jacaré — ela sempre abre para o número <strong>maior</strong>! 🐊 5 > 3 → a boca abre para o 5.</p><p>Comparar é útil no dia a dia: quem tem mais figurinhas? Qual time fez mais gols? Quem é mais alto? Sempre que comparar quantidades, use maior, menor ou igual!</p>",
-      "faq": [{"q":"Como lembrar > e <?","a":"A boquinha do jacaré sempre abre para o número maior!"},{"q":"E quando são iguais?","a":"Usamos = (igual). Exemplo: 4 = 4."}]
+      "title": "Função Exponencial",
+      "slug": "funcao-exponencial",
+      "desc": "Função exponencial f(x)=aˣ (a>0, a≠1). Crescimento (a>1) e decrescimento (0<a<1). Gráfico nunca toca eixo x. Aplicações: juros compostos, crescimento populacional, radioatividade.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "f(x)=aˣ (a>0, a≠1). Se a>1 → crescente (crescimento). Se 0<a<1 → decrescente (decaimento). Gráfico: passa por (0,1), nunca toca eixo x (assíntota y=0). Domínio: ℝ. Imagem: (0,+∞). Propriedades: aᵐ·aⁿ=aᵐ⁺ⁿ, aᵐ/aⁿ=aᵐ⁻ⁿ, (aᵐ)ⁿ=aᵐⁿ. Juros compostos: M=C(1+i)ᵗ.",
+      "body": "<h2>Introdução</h2><p>A <strong>função exponencial</strong> modela fenômenos de crescimento e decaimento: populações, juros compostos, radioatividade e epidemias.</p><h2>Forma</h2><p><strong>f(x) = aˣ</strong> (a > 0, a ≠ 1)</p><h2>Comportamento</h2><table><thead><tr><th>Base a</th><th>Tipo</th><th>Exemplo</th></tr></thead><tbody><tr><td>a > 1</td><td>Crescente (explosivo)</td><td>2ˣ: 1,2,4,8,16,32...</td></tr><tr><td>0 < a < 1</td><td>Decrescente (decai)</td><td>(1/2)ˣ: 1, 0.5, 0.25...</td></tr></tbody></table><h2>Gráfico</h2><ul><li>Passa por <strong>(0, 1)</strong> sempre (a⁰=1)</li><li>Nunca toca o eixo x (assíntota horizontal y=0)</li><li>Imagem: (0, +∞) — sempre positivo</li></ul><h2>Propriedades</h2><ul><li>aᵐ · aⁿ = aᵐ⁺ⁿ</li><li>aᵐ / aⁿ = aᵐ⁻ⁿ</li><li>(aᵐ)ⁿ = aᵐⁿ</li><li>a⁰ = 1 | a¹ = a</li></ul><h2>Equações Exponenciais</h2><p>Iguale as bases: 2ˣ = 8 → 2ˣ = 2³ → <strong>x = 3</strong></p><h2>Resumo</h2><ul><li>✅ f(x)=aˣ passa por (0,1), nunca toca eixo x</li><li>✅ a>1 → cresce. 0<a<1 → decresce.</li><li>⚠️ Juros compostos M=C(1+i)ᵗ é exponencial!</li></ul><h2>Curiosidade</h2><p>O número <strong>e ≈ 2,71828</strong> (base do logaritmo natural) aparece em juros compostos, crescimento populacional e até na espiral de conchas! É chamado de \"número de Euler\".</p>",
+      "faq": [
+        {
+          "q": "Por que o gráfico nunca toca o eixo x?",
+          "a": "Porque aˣ>0 para todo x real. Nenhuma potência de base positiva dá zero ou negativo. O eixo x é uma assíntota horizontal."
+        },
+        {
+          "q": "Como resolver equações exponenciais?",
+          "a": "Iguale as bases: 2ˣ=8 → 2ˣ=2³ → x=3. Se não der, use logaritmos: 3ˣ=15 → x=log₃(15)."
+        },
+        {
+          "q": "Qual a relação com juros compostos?",
+          "a": "M=C(1+i)ᵗ é uma função exponencial. O montante cresce exponencialmente com o tempo — por isso juros compostos rendem mais que simples a longo prazo."
+        },
+        {
+          "q": "O que é o número e?",
+          "a": "e≈2,71828... é uma constante matemática, base do logaritmo natural. Aparece em crescimento contínuo, probabilidade e cálculo. f(x)=eˣ é a única função igual à sua própria derivada!"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "f(x)=2ˣ sempre passa por:",
+          "options": [
+            "(0,0)",
+            "(0,1)",
+            "(1,0)",
+            "(1,1)"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Se 0<a<1, a função é:",
+          "options": [
+            "Crescente",
+            "Constante",
+            "Decrescente",
+            "Indefinida"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "2ˣ=32. Logo x=",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A imagem de f(x)=aˣ é:",
+          "options": [
+            "ℝ",
+            "(0,+∞)",
+            "[0,+∞)",
+            "(-∞,0)"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Números Pares e Ímpares",
-      "slug": "pares-e-impares",
-      "desc": "Dividindo os números em dois grupos.",
-      "category": "Números",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Pares: terminam em 0, 2, 4, 6, 8. Podem ser divididos em 2 grupos iguais. Ímpares: terminam em 1, 3, 5, 7, 9. Sempre sobra 1.",
-      "body": "<p>Os números podem ser <strong>pares</strong> ou <strong>ímpares</strong>. Pares são os que conseguimos dividir em dois grupos iguais sem sobrar nada: 2, 4, 6, 8, 10...</p><p>Os <strong>ímpares</strong> são os que sempre sobra um quando tentamos dividir em dois: 1, 3, 5, 7, 9... Pegue 5 balas e tente dividir em 2 montes iguais — um monte fica com 2 e o outro com 3. Sobrou!</p><p>Dica rápida: olhe o último algarismo. Se termina em <strong>0, 2, 4, 6 ou 8</strong> → par. Se termina em <strong>1, 3, 5, 7 ou 9</strong> → ímpar. Funciona para qualquer número!</p>",
-      "faq": [{"q":"O zero é par ou ímpar?","a":"O zero é par! Ele pode ser dividido em 2 grupos iguais de 0."},{"q":"Como saber se um número grande é par?","a":"Olhe só o último dígito. 246 termina em 6, então é par."}]
+      "title": "Função Logarítmica",
+      "slug": "funcao-logaritmica",
+      "desc": "Logaritmo: log_a(b)=x ⟺ aˣ=b. Propriedades: log do produto, quociente, potência. Mudança de base. Logaritmo natural (ln) e decimal (log). Inversa da exponencial.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "log_a(b)=x ⟺ aˣ=b (a>0, a≠1, b>0). Propriedades: log(A·B)=logA+logB. log(A/B)=logA−logB. log(Aⁿ)=n·logA. Mudança: log_a(b)=log_c(b)/log_c(a). Consequências: log_a(1)=0, log_a(a)=1. log é a inversa da exponencial. ln=log_e (natural). log=log₁₀ (decimal).",
+      "body": "<h2>Introdução</h2><p>O <strong>logaritmo</strong> responde: \"a que expoente devo elevar a base para obter o número?\" É a <strong>inversa da exponencial</strong> e aparece em escalas (pH, Richter, decibéis).</p><h2>Definição</h2><p><strong>log_a(b) = x ⟺ aˣ = b</strong></p><p>Condições: a > 0, a ≠ 1, b > 0</p><p>Ex: log₂(8) = 3, pois 2³ = 8</p><h2>Propriedades</h2><table><thead><tr><th>Propriedade</th><th>Fórmula</th><th>Exemplo</th></tr></thead><tbody><tr><td>Produto</td><td>log(A·B) = logA + logB</td><td>log(2·5) = log2+log5</td></tr><tr><td>Quociente</td><td>log(A/B) = logA − logB</td><td>log(10/2) = log10−log2</td></tr><tr><td>Potência</td><td>log(Aⁿ) = n·logA</td><td>log(2³) = 3·log2</td></tr></tbody></table><h2>Consequências</h2><ul><li>log_a(1) = 0 (pois a⁰=1)</li><li>log_a(a) = 1 (pois a¹=a)</li><li>a^(log_a(b)) = b</li></ul><h2>Mudança de Base</h2><p><strong>log_a(b) = log_c(b) / log_c(a)</strong></p><h2>Tipos Especiais</h2><ul><li><strong>log</strong> = log₁₀ (decimal/comum)</li><li><strong>ln</strong> = log_e (natural, base e≈2,718)</li></ul><h2>Resumo</h2><ul><li>✅ log_a(b)=x ⟺ aˣ=b</li><li>✅ Produto→soma, quociente→subtração, potência→multiplica</li><li>⚠️ log_a(1)=0 e log_a(a)=1 sempre!</li></ul><h2>Curiosidade</h2><p>A escala <strong>Richter</strong> (terremotos) é logarítmica: cada ponto a mais significa 10x mais energia. Um terremoto de magnitude 7 é <strong>1000x mais forte</strong> que um de magnitude 4!</p>",
+      "faq": [
+        {
+          "q": "O que é logaritmo em palavras simples?",
+          "a": "Logaritmo responde: 'a que expoente devo elevar a base para obter o número?' log₂(8)=3 porque 2³=8. É a operação inversa da exponenciação."
+        },
+        {
+          "q": "Quando o logaritmo é 0?",
+          "a": "log_a(1)=0 para qualquer base a, porque a⁰=1 sempre. Ou seja, o logaritmo de 1 em qualquer base é zero."
+        },
+        {
+          "q": "Como usar mudança de base?",
+          "a": "log_a(b) = log_c(b)/log_c(a). Na prática, use log₁₀ na calculadora: log₂(8) = log(8)/log(2) = 0,903/0,301 = 3."
+        },
+        {
+          "q": "Qual a diferença entre log e ln?",
+          "a": "log = log₁₀ (base 10, logaritmo decimal). ln = log_e (base e≈2,718, logaritmo natural). ln é mais usado em cálculo e ciências; log em engenharia e escalas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "log₂(8) = ?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "8"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "log_a(1) = ?",
+          "options": [
+            "a",
+            "1",
+            "0",
+            "−1"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "log(A·B) = ?",
+          "options": [
+            "logA · logB",
+            "logA + logB",
+            "logA − logB",
+            "logA / logB"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A escala Richter é:",
+          "options": [
+            "Linear",
+            "Quadrática",
+            "Logarítmica",
+            "Exponencial"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Adição com Dezenas",
-      "slug": "adicao-com-dezenas",
-      "desc": "Somando números maiores que 10.",
-      "category": "Operações",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Para somar com dezenas, some primeiro as unidades, depois as dezenas. 12 + 5 = 17. Se as unidades passam de 9, 'vai 1' para a dezena.",
-      "body": "<p>Agora que sabemos somar números pequenos, vamos avançar para somas com <strong>dezenas</strong>. O segredo é somar cada parte separadamente.</p><p>Em <strong>12 + 5</strong>: o 12 tem 1 dezena e 2 unidades. Some as unidades: 2 + 5 = 7. A dezena continua sendo 1. Resultado: <strong>17</strong>.</p><p>E quando as unidades passam de 9? Em <strong>8 + 5</strong>: 8 + 5 = 13, que é 1 dezena e 3 unidades. Escrevemos 3 na unidade e 'vai 1' para a dezena. Com prática, isso fica automático!</p>",
-      "faq": [{"q":"O que significa 'vai 1'?","a":"Quando a soma das unidades passa de 9, o excesso vira dezena."},{"q":"Como somar 15 + 8?","a":"Unidades: 5+8=13 → escreve 3, vai 1. Dezenas: 1+1=2. Resultado: 23."}]
+      "title": "Trigonometria no Triângulo Retângulo",
+      "slug": "trigonometria-no-triangulo-retangulo",
+      "desc": "Trigonometria no triângulo retângulo: sen=CO/HIP, cos=CA/HIP, tan=CO/CA. Ângulos notáveis: 30°, 45°, 60°. Teorema de Pitágoras. Relações fundamentais.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "No triângulo retângulo: sen(α)=cateto oposto/hipotenusa. cos(α)=cateto adjacente/hipotenusa. tan(α)=cateto oposto/cateto adjacente. Ângulos notáveis: sen30°=1/2, cos30°=√3/2, tan30°=√3/3. sen45°=cos45°=√2/2. sen60°=√3/2, cos60°=1/2, tan60°=√3. Relação: sen²+cos²=1. Pitágoras: a²=b²+c².",
+      "body": "<h2>Introdução</h2><p>A <strong>trigonometria no triângulo retângulo</strong> relaciona ângulos e lados. É base para toda trigonometria do ciclo e aparece muito em Física (vetores, rampas).</p><h2>Razões Trigonométricas</h2><table><thead><tr><th>Razão</th><th>Fórmula</th><th>Mnemônico</th></tr></thead><tbody><tr><td><strong>Seno</strong></td><td>CO/HIP</td><td><strong>S</strong>eno = <strong>C</strong>ateto <strong>O</strong>posto / <strong>H</strong>ipotenusa</td></tr><tr><td><strong>Cosseno</strong></td><td>CA/HIP</td><td><strong>C</strong>osseno = <strong>C</strong>ateto <strong>A</strong>djacente / <strong>H</strong>ipotenusa</td></tr><tr><td><strong>Tangente</strong></td><td>CO/CA</td><td><strong>T</strong>angente = <strong>O</strong>posto / <strong>A</strong>djacente</td></tr></tbody></table><h2>Ângulos Notáveis</h2><table><thead><tr><th>Ângulo</th><th>sen</th><th>cos</th><th>tan</th></tr></thead><tbody><tr><td>30°</td><td>1/2</td><td>√3/2</td><td>√3/3</td></tr><tr><td>45°</td><td>√2/2</td><td>√2/2</td><td>1</td></tr><tr><td>60°</td><td>√3/2</td><td>1/2</td><td>√3</td></tr></tbody></table><h2>Relação Fundamental</h2><p><strong>sen²(α) + cos²(α) = 1</strong></p><h2>Teorema de Pitágoras</h2><p><strong>hipotenusa² = cateto₁² + cateto₂²</strong></p><h2>Resumo</h2><ul><li>✅ SOH-CAH-TOA: Sen=O/H, Cos=A/H, Tan=O/A</li><li>✅ Decore: sen30°=1/2, sen45°=√2/2, sen60°=√3/2</li><li>⚠️ A tabela é inversa: o seno cresce (1/2, √2/2, √3/2) e o cosseno decresce!</li></ul><h2>Curiosidade</h2><p>A trigonometria nasceu na astronomia: astrônomos gregos como Hiparco (190-120 a.C.) calculavam distâncias de estrelas usando triângulos. A palavra \"trigonometria\" significa \"medida de triângulos\" (do grego <em>trigonon</em> + <em>metron</em>).</p>",
+      "faq": [
+        {
+          "q": "Como decorar a tabela de ângulos notáveis?",
+          "a": "Macete: seno cresce (1/2, √2/2, √3/2) e cosseno decresce (√3/2, √2/2, 1/2). Ou memorize que sen e cos de 30° e 60° são trocados. tan45°=1 é o mais fácil."
+        },
+        {
+          "q": "O que é hipotenusa?",
+          "a": "É o maior lado do triângulo retângulo, oposto ao ângulo de 90°. Os outros dois lados são os catetos (oposto e adjacente ao ângulo estudado)."
+        },
+        {
+          "q": "Qual a relação entre sen, cos e tan?",
+          "a": "tan(α) = sen(α)/cos(α). Além disso, sen²(α)+cos²(α)=1 (relação fundamental). Com essas duas, você pode deduzir qualquer valor."
+        },
+        {
+          "q": "Trigonometria aparece na Física?",
+          "a": "Muito! Decomposição de vetores (Fx=F·cosα, Fy=F·senα), plano inclinado, lançamento oblíquo. É indispensável para Mecânica."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "sen(30°) = ?",
+          "options": [
+            "√3/2",
+            "1/2",
+            "√2/2",
+            "1"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "cos(α) = ?",
+          "options": [
+            "CO/HIP",
+            "CA/HIP",
+            "CO/CA",
+            "HIP/CA"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A relação fundamental é:",
+          "options": [
+            "sen²+cos²=1",
+            "sen+cos=1",
+            "tan²+1=sec²",
+            "sen/cos=tan"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Qual ângulo tem sen = cos?",
+          "options": [
+            "30°",
+            "45°",
+            "60°",
+            "90°"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Medidas: Comprimento",
-      "slug": "medidas-comprimento",
-      "desc": "Medindo tamanhos: grande, pequeno, alto, baixo.",
-      "category": "Medidas",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Comprimento = tamanho de algo. Podemos medir com palmos, passos ou régua. Régua usa centímetros (cm). 1 metro = 100 cm.",
-      "body": "<p><strong>Medir</strong> é descobrir o tamanho das coisas. Podemos comparar: este lápis é <strong>maior</strong> que aquele, esta mesa é <strong>mais alta</strong> que a cadeira, esta corda é <strong>mais comprida</strong>.</p><p>Para medir sem régua, usamos o corpo: <strong>palmos</strong> (largura da mão aberta), <strong>pés</strong> ou <strong>passos</strong>. A mesa tem '5 palmos' de comprimento! Mas cada pessoa tem mãos diferentes, então inventaram medidas padrão.</p><p>A <strong>régua</strong> usa <strong>centímetros (cm)</strong>. O lápis tem 15 cm, o caderno tem 30 cm. E para coisas grandes usamos o <strong>metro (m)</strong>: 1 metro = 100 centímetros. A sala de aula tem uns 8 metros!</p>",
-      "faq": [{"q":"O que é centímetro?","a":"Unidade de medida pequena. Sua unha tem cerca de 1 cm."},{"q":"E o metro?","a":"1 metro = 100 centímetros. Mais ou menos a distância do chão até a cintura de um adulto."}]
+      "title": "Trigonometria no Ciclo",
+      "slug": "trigonometria-no-ciclo",
+      "desc": "Ciclo trigonométrico: seno e cosseno na circunferência unitária. Radianos (π=180°). Funções periódicas. Gráficos de sen(x), cos(x), tan(x). Período, amplitude.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Ciclo trigonométrico: circunferência de raio 1. Seno = eixo y. Cosseno = eixo x. Radianos: π rad = 180°. Período: sen e cos = 2π, tan = π. sen(x): máx=1, mín=−1. Imagem de sen e cos: [−1,1]. Quadrantes: 1º(+,+), 2º(−,+), 3º(−,−), 4º(+,−) para (cos,sen).",
+      "body": "<h2>Introdução</h2><p>O <strong>ciclo trigonométrico</strong> estende a trigonometria para qualquer ângulo (não só os do triângulo retângulo). Usamos a <strong>circunferência unitária</strong> (raio = 1).</p><h2>Radianos</h2><table><thead><tr><th>Graus</th><th>Radianos</th></tr></thead><tbody><tr><td>0°</td><td>0</td></tr><tr><td>30°</td><td>π/6</td></tr><tr><td>45°</td><td>π/4</td></tr><tr><td>60°</td><td>π/3</td></tr><tr><td>90°</td><td>π/2</td></tr><tr><td>180°</td><td>π</td></tr><tr><td>360°</td><td>2π</td></tr></tbody></table><p>Conversão: <strong>rad = graus × π/180</strong></p><h2>Seno e Cosseno no Ciclo</h2><ul><li><strong>Cosseno:</strong> projeção no eixo x</li><li><strong>Seno:</strong> projeção no eixo y</li><li>Ponto P(cos α, sen α) na circunferência</li></ul><h2>Sinais por Quadrante</h2><table><thead><tr><th>Quadrante</th><th>sen</th><th>cos</th><th>tan</th></tr></thead><tbody><tr><td>1º (0°-90°)</td><td>+</td><td>+</td><td>+</td></tr><tr><td>2º (90°-180°)</td><td>+</td><td>−</td><td>−</td></tr><tr><td>3º (180°-270°)</td><td>−</td><td>−</td><td>+</td></tr><tr><td>4º (270°-360°)</td><td>−</td><td>+</td><td>−</td></tr></tbody></table><h2>Funções Periódicas</h2><ul><li>Período de sen(x) e cos(x) = <strong>2π</strong></li><li>Período de tan(x) = <strong>π</strong></li><li>Imagem de sen e cos: <strong>[−1, 1]</strong></li></ul><h2>Resumo</h2><ul><li>✅ cos=eixo x, sen=eixo y no ciclo</li><li>✅ π rad = 180°</li><li>⚠️ Macete dos sinais: \"Todos São Tolos Compulsivos\" (1º Tudo+, 2º Sen+, 3º Tan+, 4º Cos+)</li></ul><h2>Curiosidade</h2><p>O radiano é adimensional! Foi adotado como unidade padrão porque simplifica fórmulas do cálculo. A constante 2π aparece tanto que o matemático Michael Hartl propôs usar τ (tau) = 2π como constante fundamental.</p>",
+      "faq": [
+        {
+          "q": "O que é radiano?",
+          "a": "É uma unidade de medida angular baseada no raio da circunferência. π rad = 180°. Um arco de comprimento igual ao raio equivale a 1 radiano (≈57,3°)."
+        },
+        {
+          "q": "Como memorizar os sinais por quadrante?",
+          "a": "Macete: 'Todos São Tolos Compulsivos'. 1º: Todos positivos. 2º: só Seno positivo. 3º: só Tangente positiva. 4º: só Cosseno positivo."
+        },
+        {
+          "q": "Qual o período de sen(2x)?",
+          "a": "Para f(x)=sen(kx), o período é 2π/k. Logo, sen(2x) tem período 2π/2=π. Quanto maior k, menor o período (a função 'oscila mais rápido')."
+        },
+        {
+          "q": "Seno pode ser maior que 1?",
+          "a": "Não! A imagem de sen(x) e cos(x) é [−1,1]. No ciclo unitário, o raio é 1, então as projeções nunca excedem 1."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "π radianos equivale a:",
+          "options": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "No ciclo, cosseno é a projeção no:",
+          "options": [
+            "Eixo y",
+            "Eixo x",
+            "Raio",
+            "Tangente"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "No 2º quadrante, seno é:",
+          "options": [
+            "Positivo",
+            "Negativo",
+            "Zero",
+            "Indefinido"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "O período de tan(x) é:",
+          "options": [
+            "2π",
+            "π",
+            "π/2",
+            "4π"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Calendário e Tempo",
-      "slug": "calendario-e-tempo",
-      "desc": "Dias da semana, meses do ano e horas.",
-      "category": "Medidas",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "7 dias na semana. 12 meses no ano. 1 dia = 24 horas. 1 hora = 60 minutos. Ontem, hoje, amanhã.",
-      "body": "<p>O <strong>tempo</strong> organiza nossas vidas. A semana tem <strong>7 dias</strong>: domingo, segunda, terça, quarta, quinta, sexta e sábado. Na escola, você frequenta de segunda a sexta.</p><p>O ano tem <strong>12 meses</strong>: janeiro, fevereiro, março, abril, maio, junho, julho, agosto, setembro, outubro, novembro, dezembro. Seu aniversário cai em um desses meses!</p><p>Cada dia tem <strong>24 horas</strong> e cada hora tem <strong>60 minutos</strong>. Usamos o relógio para saber as horas. Pela manhã vamos à escola, à tarde brincamos, à noite dormimos. Ontem é o dia que passou, hoje é agora, amanhã é o que vem.</p>",
-      "faq": [{"q":"Quantos dias tem um mês?","a":"A maioria tem 30 ou 31 dias. Fevereiro tem 28 (ou 29 em ano bissexto)."},{"q":"Quantos dias tem um ano?","a":"365 dias (ou 366 em anos bissextos, a cada 4 anos)."},{"q":"O que é ano bissexto?","a":"Ano em que fevereiro tem 29 dias em vez de 28. Acontece a cada 4 anos."}]
+      "title": "Progressão Aritmética (PA)",
+      "slug": "progressao-aritmetica-pa",
+      "desc": "PA: sequência com razão constante. Termo geral aₙ=a₁+(n−1)r. Soma Sₙ=n(a₁+aₙ)/2. Classificação: crescente (r>0), decrescente (r<0), constante (r=0).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "PA: diferença constante entre termos consecutivos (razão r). Termo geral: aₙ = a₁ + (n−1)·r. Soma: Sₙ = n·(a₁+aₙ)/2. r>0 → crescente. r<0 → decrescente. r=0 → constante. Propriedade: qualquer termo é a média aritmética dos vizinhos (aₙ = (aₙ₋₁+aₙ₊₁)/2).",
+      "body": "<h2>Introdução</h2><p>A <strong>Progressão Aritmética (PA)</strong> é uma sequência numérica onde a <strong>diferença entre termos consecutivos</strong> é sempre constante. Essa constante é chamada <strong>razão (r)</strong>.</p><h2>Razão</h2><p><strong>r = aₙ₊₁ − aₙ</strong></p><p>Ex: (2, 5, 8, 11, ...) → r = 5−2 = <strong>3</strong></p><h2>Termo Geral</h2><p><strong>aₙ = a₁ + (n−1)·r</strong></p><p>Ex: a₁=2, r=3 → a₁₀ = 2 + 9·3 = 2 + 27 = <strong>29</strong></p><h2>Soma dos Termos</h2><p><strong>Sₙ = n·(a₁ + aₙ)/2</strong></p><p>Ex: Soma de 1 a 100: S₁₀₀ = 100·(1+100)/2 = 100·50.5 = <strong>5050</strong></p><h2>Classificação</h2><table><thead><tr><th>Razão</th><th>Tipo</th><th>Exemplo</th></tr></thead><tbody><tr><td>r > 0</td><td>Crescente</td><td>(2, 5, 8, 11...)</td></tr><tr><td>r < 0</td><td>Decrescente</td><td>(10, 7, 4, 1...)</td></tr><tr><td>r = 0</td><td>Constante</td><td>(5, 5, 5, 5...)</td></tr></tbody></table><h2>Propriedade do Termo Médio</h2><p>Todo termo é a <strong>média aritmética</strong> dos seus vizinhos: aₙ = (aₙ₋₁ + aₙ₊₁)/2</p><h2>Resumo</h2><ul><li>✅ aₙ = a₁ + (n−1)·r</li><li>✅ Sₙ = n·(a₁+aₙ)/2</li><li>⚠️ Gauss somou 1 a 100 em segundos usando essa fórmula!</li></ul><h2>Curiosidade</h2><p>Conta a lenda que <strong>Carl Friedrich Gauss</strong>, aos 7 anos, calculou a soma de 1 a 100 mentalmente. Enquanto seus colegas somavam um a um, Gauss percebeu: 1+100=101, 2+99=101, ..., 50+51=101 → 50×101 = <strong>5050</strong>!</p>",
+      "faq": [
+        {
+          "q": "Como encontrar a razão de uma PA?",
+          "a": "Subtraia qualquer termo pelo anterior: r = aₙ₊₁ − aₙ. Em (3,7,11,15,...), r = 7−3 = 4. Se a diferença não for constante, NÃO é PA."
+        },
+        {
+          "q": "Como calcular o 50º termo?",
+          "a": "Use aₙ = a₁ + (n−1)·r. Ex: a₁=3, r=4, n=50 → a₅₀ = 3 + 49·4 = 3 + 196 = 199."
+        },
+        {
+          "q": "Como somar todos os termos?",
+          "a": "Sₙ = n·(a₁+aₙ)/2. Você precisa saber o primeiro, o último e a quantidade de termos. Se não sabe o último, calcule com o termo geral primeiro."
+        },
+        {
+          "q": "PA tem relação com função afim?",
+          "a": "Sim! Uma PA pode ser vista como uma função afim f(n)=a₁+(n−1)·r aplicada a n∈ℕ. O gráfico são pontos sobre uma reta."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Em (2,5,8,11,...), a razão é:",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "8"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "aₙ = a₁ + (n−1)·r. Se a₁=3, r=4, a₁₀=?",
+          "options": [
+            "39",
+            "43",
+            "40",
+            "36"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Soma de 1 a 100:",
+          "options": [
+            "100",
+            "1000",
+            "5050",
+            "10100"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "PA com r<0 é:",
+          "options": [
+            "Crescente",
+            "Constante",
+            "Decrescente",
+            "Inexistente"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Progressão Geométrica (PG)",
+      "slug": "progressao-geometrica-pg",
+      "desc": "PG: sequência com razão multiplicativa constante. Termo geral aₙ=a₁·qⁿ⁻¹. Soma finita Sₙ=a₁(qⁿ−1)/(q−1). PG infinita convergente: S=a₁/(1−q) quando |q|<1.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "PG: razão multiplicativa constante (q = aₙ₊₁/aₙ). Termo geral: aₙ = a₁·qⁿ⁻¹. Soma finita: Sₙ = a₁·(qⁿ−1)/(q−1). PG infinita convergente (|q|<1): S∞ = a₁/(1−q). q>1 → crescente. 0<q<1 → decrescente convergente. q<0 → alternante.",
+      "body": "<h2>Introdução</h2><p>A <strong>Progressão Geométrica (PG)</strong> é uma sequência onde cada termo é obtido <strong>multiplicando</strong> o anterior por uma constante chamada <strong>razão (q)</strong>.</p><h2>Razão</h2><p><strong>q = aₙ₊₁ / aₙ</strong></p><p>Ex: (2, 6, 18, 54, ...) → q = 6/2 = <strong>3</strong></p><h2>Termo Geral</h2><p><strong>aₙ = a₁ · qⁿ⁻¹</strong></p><p>Ex: a₁=2, q=3 → a₅ = 2·3⁴ = 2·81 = <strong>162</strong></p><h2>Soma Finita</h2><p><strong>Sₙ = a₁·(qⁿ − 1)/(q − 1)</strong> (para q ≠ 1)</p><h2>PG Infinita Convergente</h2><p>Se <strong>|q| < 1</strong>, a PG converge:</p><p><strong>S∞ = a₁/(1 − q)</strong></p><p>Ex: (1, 1/2, 1/4, 1/8, ...) → S∞ = 1/(1−1/2) = <strong>2</strong></p><h2>Classificação</h2><table><thead><tr><th>Razão q</th><th>Tipo</th></tr></thead><tbody><tr><td>q > 1</td><td>Crescente</td></tr><tr><td>0 < q < 1</td><td>Decrescente convergente</td></tr><tr><td>q < 0</td><td>Alternante (sinais alternados)</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ aₙ = a₁·qⁿ⁻¹</li><li>✅ Sₙ = a₁(qⁿ−1)/(q−1)</li><li>✅ PG infinita (|q|<1): S∞ = a₁/(1−q)</li><li>⚠️ PG é multiplicativa! PA é aditiva!</li></ul><h2>Curiosidade</h2><p>A lenda do inventor do xadrez: ele pediu 1 grão de trigo na 1ª casa, 2 na 2ª, 4 na 3ª... É uma PG com a₁=1, q=2. O total nas 64 casas seria 2⁶⁴−1 = mais de <strong>18 quintilhões</strong> de grãos — mais trigo do que o planeta inteiro produz!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre PA e PG?",
+          "a": "PA: diferença constante (soma/subtrai). PG: razão constante (multiplica/divide). PA tem crescimento linear; PG tem crescimento exponencial."
+        },
+        {
+          "q": "O que é PG infinita convergente?",
+          "a": "É uma PG com |q|<1, onde os termos diminuem e a soma se aproxima de um valor finito: S∞ = a₁/(1−q). Ex: 1+1/2+1/4+... = 2."
+        },
+        {
+          "q": "PG com q negativo?",
+          "a": "Os sinais alternam: (2, −6, 18, −54, ...) com q=−3. É uma PG alternante."
+        },
+        {
+          "q": "PG aparece onde no cotidiano?",
+          "a": "Juros compostos (M=C·(1+i)ᵗ), crescimento bacteriano, decaimento radioativo e até a escala musical (frequências formam PG com q=2^(1/12))."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Em (2,6,18,54,...), q=",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "6"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "aₙ = a₁·qⁿ⁻¹. Se a₁=2,q=3,a₅=?",
+          "options": [
+            "54",
+            "81",
+            "162",
+            "243"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "PG infinita com |q|<1 converge para:",
+          "options": [
+            "a₁·q",
+            "a₁/(1−q)",
+            "a₁·(q−1)",
+            "∞"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "PA é aditiva, PG é:",
+          "options": [
+            "Subtrativa",
+            "Multiplicativa",
+            "Divisiva",
+            "Constante"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Matemática Financeira",
+      "slug": "matematica-financeira",
+      "desc": "Matemática financeira: juros simples (J=Cit) e compostos (M=C(1+i)ᵗ). Porcentagem, acréscimo, desconto. Lucro e prejuízo. Aplicações práticas para o ENEM.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Juros simples: J = C·i·t. Montante: M = C+J = C(1+it). Juros compostos: M = C·(1+i)ᵗ. Juros: J = M−C. Porcentagem: x% = x/100. Acréscimo de p%: V·(1+p/100). Desconto de p%: V·(1−p/100). Descontos sucessivos: multiplique os fatores. Lucro = Venda−Custo.",
+      "body": "<h2>Introdução</h2><p>A <strong>Matemática Financeira</strong> é o tema mais prático do ENEM. Envolve porcentagem, juros, descontos e investimentos — conhecimentos essenciais para a vida adulta.</p><h2>Porcentagem</h2><p>x% = x/100. Ex: 25% de 200 = 0,25 × 200 = <strong>50</strong></p><ul><li><strong>Acréscimo de p%:</strong> V × (1 + p/100)</li><li><strong>Desconto de p%:</strong> V × (1 − p/100)</li></ul><h2>Juros Simples</h2><p>Juros sobre o capital <strong>inicial</strong> apenas:</p><p><strong>J = C · i · t</strong> | <strong>M = C(1 + i·t)</strong></p><p>Ex: R a 5%/mês por 3 meses → J = 1000·0,05·3 = R</p><h2>Juros Compostos</h2><p>Juros sobre juros (\"bola de neve\"):</p><p><strong>M = C · (1 + i)ᵗ</strong></p><p>Ex: R a 5%/mês por 3 meses → M = 1000·(1,05)³ = R,63</p><h2>Comparação</h2><table><thead><tr><th>Tipo</th><th>Fórmula</th><th>M após 3 meses (C=1000, i=5%)</th></tr></thead><tbody><tr><td>Simples</td><td>M=C(1+it)</td><td>R.150,00</td></tr><tr><td>Compostos</td><td>M=C(1+i)ᵗ</td><td>R.157,63</td></tr></tbody></table><h2>Descontos Sucessivos</h2><p>30% + 20% ≠ 50%!</p><p>R − 30% = R − 20% = <strong>R</strong> (= 0,7 × 0,8 × 100 = 0,56 × 100)</p><h2>Resumo</h2><ul><li>✅ Simples: J=Cit (linear)</li><li>✅ Compostos: M=C(1+i)ᵗ (exponencial)</li><li>⚠️ Descontos NÃO se somam! Multiplique os fatores.</li></ul><h2>Curiosidade</h2><p>Einstein teria dito que \"os juros compostos são a oitava maravilha do mundo\". Verdade ou não, o efeito é impressionante: R.000 investidos a 10%/ano viram R.594 em 10 anos e R.449 em 30 anos!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre juros simples e compostos?",
+          "a": "Simples: juros sempre sobre o capital inicial (crescimento linear). Compostos: juros sobre juros (crescimento exponencial). A longo prazo, compostos rendem MUITO mais."
+        },
+        {
+          "q": "Por que 30%+20% não é 50%?",
+          "a": "Porque o segundo desconto incide sobre o valor JÁ descontado. R−30%=R, R−20%=R. O desconto total é 44%, não 50%. Multiplique os fatores: 0,7×0,8=0,56."
+        },
+        {
+          "q": "Como calcular porcentagem rápido?",
+          "a": "10% = divida por 10. 5% = metade de 10%. 1% = divida por 100. 25% = divida por 4. 20% = divida por 5. Combine: 15% = 10% + 5%."
+        },
+        {
+          "q": "Juros compostos aparecem no ENEM?",
+          "a": "Sim! O ENEM adora problemas com M=C(1+i)ᵗ, geralmente envolvendo investimentos, financiamentos ou empréstimos. Fique atento a problemas que dão (1+i)ᵗ tabelado."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "R a 5%/mês por 3 meses (juros simples). J=?",
+          "options": [
+            "R",
+            "R",
+            "R",
+            "R,63"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "M=C(1+i)ᵗ é fórmula de juros:",
+          "options": [
+            "Simples",
+            "Compostos",
+            "Mistos",
+            "Nominais"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "30%+20% de desconto = ?% total",
+          "options": [
+            "50%",
+            "44%",
+            "48%",
+            "40%"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "25% de 200 é:",
+          "options": [
+            "25",
+            "40",
+            "50",
+            "75"
+          ],
+          "answer": 2
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,874 @@
+{
+  "subject": "Matemática",
+  "slug": "3ano-matematica",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--matematica)",
+  "icon": "calculator",
+  "articles": [
+    {
+      "title": "Princípio Fundamental da Contagem",
+      "slug": "principio-fundamental-da-contagem",
+      "desc": "PFC: se uma decisão tem m opções e outra tem n opções, o total de combinações é m×n. Base de toda análise combinatória. Árvore de possibilidades.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "PFC: multiplique as possibilidades de cada etapa. Se etapa 1 tem m opções e etapa 2 tem n opções → total = m×n. Para k etapas: n₁×n₂×...×nₖ. Não confundir com soma (OU = soma, E = multiplicação).",
+      "body": "<h2>Introdução</h2><p>O <strong>Princípio Fundamental da Contagem (PFC)</strong> é a base de toda análise combinatória: se um evento pode ocorrer de m formas e outro de n formas, os dois juntos ocorrem de <strong>m×n</strong> formas.</p><h2>Regra</h2><p>Se há k etapas com n₁, n₂, ..., nₖ possibilidades:<br><strong>Total = n₁ × n₂ × ... × nₖ</strong></p><h2>Exemplos</h2><ul><li>3 camisas × 4 calças = <strong>12 combinações</strong></li><li>Placa de carro: 26×26×26×10×10×10×10 = <strong>175.760.000</strong></li></ul><h2>E × OU</h2><table><thead><tr><th>Conectivo</th><th>Operação</th><th>Exemplo</th></tr></thead><tbody><tr><td><strong>E</strong> (simultâneo)</td><td>Multiplicação</td><td>camisa E calça: 3×4=12</td></tr><tr><td><strong>OU</strong> (alternativa)</td><td>Soma</td><td>calça OU saia: 4+3=7</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ E = multiplicar. OU = somar.</li><li>⚠️ ENEM adora: senhas, placas, roupas!</li></ul><h2>Curiosidade</h2><p>O novo padrão de placas Mercosul (3 letras + 4 números) gera 175.760.000 combinações — suficiente para toda a frota da América do Sul!</p>",
+      "faq": [
+        {
+          "q": "Quando multiplicar e quando somar?",
+          "a": "Multiplique quando os eventos acontecem JUNTOS (E): camisa E calça. Some quando são ALTERNATIVOS (OU): ir de ônibus OU metrô."
+        },
+        {
+          "q": "PFC funciona com restrições?",
+          "a": "Sim! Calcule primeiro as etapas restritas. Ex: senha de 4 dígitos que não começa com 0: 9×10×10×10 = 9000."
+        },
+        {
+          "q": "Árvore de possibilidades?",
+          "a": "Diagrama que ramifica cada escolha. Útil para visualizar, mas impraticável com muitas opções. Use PFC para calcular."
+        },
+        {
+          "q": "PFC vale com repetição?",
+          "a": "Sim! Se pode repetir dígitos: 10×10×10=1000 senhas de 3 dígitos. Se NÃO pode: 10×9×8=720."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "3 camisas × 4 calças =",
+          "options": [
+            "7",
+            "12",
+            "16",
+            "24"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'E' corresponde a:",
+          "options": [
+            "Soma",
+            "Multiplicação",
+            "Divisão",
+            "Subtração"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Senha de 3 dígitos sem repetir:",
+          "options": [
+            "1000",
+            "720",
+            "100",
+            "27"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'OU' corresponde a:",
+          "options": [
+            "Multiplicação",
+            "Soma",
+            "Potência",
+            "Fatorial"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Fatorial e Arranjo",
+      "slug": "fatorial-e-arranjo",
+      "desc": "Fatorial: n!=n×(n−1)×...×1. Arranjo: A(n,p)=n!/(n−p)! — ordem importa, sem repetição. Aplicações: pódios, senhas sem repetição, ranking.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Fatorial: n! = n×(n−1)×...×2×1. 0!=1, 1!=1. Arranjo A(n,p) = n!/(n−p)! — escolher p de n onde ORDEM IMPORTA. Ex: pódio de 3 entre 10 atletas = 10!/(10−3)! = 10×9×8 = 720.",
+      "body": "<h2>Introdução</h2><p><strong>Fatorial</strong> e <strong>Arranjo</strong> são ferramentas de contagem para quando a <strong>ordem importa</strong>.</p><h2>Fatorial</h2><p><strong>n! = n × (n−1) × (n−2) × ... × 2 × 1</strong></p><table><thead><tr><th>n</th><th>n!</th></tr></thead><tbody><tr><td>0</td><td>1</td></tr><tr><td>1</td><td>1</td></tr><tr><td>3</td><td>6</td></tr><tr><td>5</td><td>120</td></tr><tr><td>10</td><td>3.628.800</td></tr></tbody></table><h2>Arranjo</h2><p><strong>A(n,p) = n!/(n−p)!</strong></p><p>Escolher p elementos de n onde <strong>a ordem importa</strong>.</p><p>Ex: Pódio (ouro, prata, bronze) de 10 atletas: A(10,3) = 10×9×8 = <strong>720</strong></p><h2>Quando Usar?</h2><ul><li>Arranjo: <strong>ordem importa</strong> (pódio, senha, ranking)</li><li>Combinação: ordem NÃO importa (veremos no próximo artigo)</li></ul><h2>Resumo</h2><ul><li>✅ n! = n×(n−1)×...×1. 0!=1.</li><li>✅ A(n,p) = n!/(n−p)! (ordem importa)</li><li>⚠️ Arranjo ≠ Combinação! Arranjo: ABC ≠ CBA.</li></ul><h2>Curiosidade</h2><p>13! = 6.227.020.800 — já é maior que a população mundial! Por isso, embaralhar um baralho de 52 cartas (52! ≈ 8×10⁶⁷) gera mais combinações que átomos no universo observável!</p>",
+      "faq": [
+        {
+          "q": "Por que 0!=1?",
+          "a": "É uma convenção matemática necessária para que as fórmulas funcionem. Se 0!≠1, várias identidades como C(n,0)=1 e C(n,n)=1 quebrariam."
+        },
+        {
+          "q": "Quando usar arranjo?",
+          "a": "Quando a ORDEM importa e NÃO há repetição. Pódio: 1º≠2º≠3º. Senha sem repetir dígitos. Se ordem não importa, use combinação."
+        },
+        {
+          "q": "Arranjo com repetição?",
+          "a": "Aí é PFC direto: n^p (p escolhas, cada uma com n opções). Senha de 4 dígitos com repetição: 10⁴=10000."
+        },
+        {
+          "q": "Como simplificar n!/(n−p)!?",
+          "a": "Cancele: 10!/(10-3)! = 10!/7! = 10×9×8 (os termos de 7! cancelam). Multiplique apenas os p primeiros fatores."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "5! = ?",
+          "options": [
+            "5",
+            "25",
+            "60",
+            "120"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "A(10,3) = ?",
+          "options": [
+            "30",
+            "120",
+            "720",
+            "1000"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "0! = ?",
+          "options": [
+            "0",
+            "1",
+            "Indefinido",
+            "−1"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Arranjo se usa quando:",
+          "options": [
+            "Ordem não importa",
+            "Ordem importa",
+            "Há repetição",
+            "São iguais"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Permutação",
+      "slug": "permutacao",
+      "desc": "Permutação: arranjar todos os n elementos. Pₙ=n!. Permutação com repetição: n!/(n₁!·n₂!·...·nₖ!). Anagramas. Permutação circular: (n−1)!.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Permutação simples: Pₙ = n! (todos os elementos em todas as posições). Permutação com repetição: Pₙⁿ¹·ⁿ² = n!/(n₁!·n₂!·...·nₖ!). Permutação circular: (n−1)! (mesa redonda). Anagramas: permutações das letras de uma palavra.",
+      "body": "<h2>Introdução</h2><p><strong>Permutação</strong> é um arranjo de TODOS os n elementos — apenas muda a ordem.</p><h2>Permutação Simples</h2><p><strong>Pₙ = n!</strong></p><p>Ex: De quantas formas 5 pessoas sentam em fila? P₅ = 5! = <strong>120</strong></p><h2>Permutação com Repetição</h2><p>Quando há elementos repetidos, dividimos:</p><p><strong>P = n! / (n₁! · n₂! · ... · nₖ!)</strong></p><p>Ex: Anagramas de BANANA: 6!/(3!·2!) = 720/(6·2) = <strong>60</strong></p><h2>Permutação Circular</h2><p>Disposição em círculo (mesa redonda):</p><p><strong>Pc = (n−1)!</strong></p><p>Ex: 5 pessoas em mesa redonda: (5−1)! = 4! = <strong>24</strong></p><h2>Resumo</h2><ul><li>✅ Simples: n!</li><li>✅ Com repetição: dividir pelos fatoriais das repetições</li><li>✅ Circular: (n−1)!</li><li>⚠️ BANANA: não esqueça de dividir pelo 3! dos A's e 2! dos N's!</li></ul><h2>Curiosidade</h2><p>A palavra ABRACADABRA tem 11!/5!·2!·1!·1!·1!·1! = 83.160 anagramas. As 5 letras A que se repetem reduzem drasticamente o total!</p>",
+      "faq": [
+        {
+          "q": "Permutação é um caso especial de arranjo?",
+          "a": "Sim! Permutação = arranjo onde p=n (usa todos os elementos). A(n,n)=n!=Pₙ."
+        },
+        {
+          "q": "Como calcular anagramas?",
+          "a": "Conte as letras (n) e as repetições. Anagramas = n!/(repetições!). CASA: 4!/(1!·1!·1!·1!)=24. ARARA: 5!/(3!·1!·1!)=20."
+        },
+        {
+          "q": "Por que circular é (n−1)!?",
+          "a": "Porque em círculo, fixamos uma pessoa como referência (não há 'primeiro lugar'). As demais permutam: (n−1)!."
+        },
+        {
+          "q": "Fila e mesa redonda dão resultados diferentes?",
+          "a": "Sim! 5 em fila: 5!=120. 5 em mesa redonda: 4!=24. O círculo tem n vezes menos arranjos (rotações equivalentes)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Anagramas de CASA (4 letras sem repetição):",
+          "options": [
+            "4",
+            "12",
+            "24",
+            "48"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Anagramas de BANANA:",
+          "options": [
+            "720",
+            "120",
+            "60",
+            "30"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "5 pessoas em mesa redonda:",
+          "options": [
+            "120",
+            "24",
+            "5",
+            "20"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Permutação circular: Pc =",
+          "options": [
+            "n!",
+            "(n−1)!",
+            "n!/2",
+            "n²"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Combinação",
+      "slug": "combinacao",
+      "desc": "Combinação: C(n,p)=n!/[p!(n−p)!]. Ordem NÃO importa. Comissões, equipes, subconjuntos. Triângulo de Pascal. Relação C(n,p)=C(n,n−p).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "C(n,p) = n!/[p!·(n−p)!]. Ordem NÃO importa: {A,B,C}={C,B,A}. C(n,p)=C(n,n−p). C(n,0)=C(n,n)=1. Triângulo de Pascal: cada número = soma dos dois acima. C(n,p) = A(n,p)/p!.",
+      "body": "<h2>Introdução</h2><p><strong>Combinação</strong> conta de quantas formas escolher p elementos de n quando a <strong>ordem NÃO importa</strong>.</p><h2>Fórmula</h2><p><strong>C(n,p) = n! / [p! · (n−p)!]</strong></p><p>Ex: Comissão de 3 entre 10 pessoas: C(10,3) = 10!/(3!·7!) = <strong>120</strong></p><h2>Arranjo vs Combinação</h2><table><thead><tr><th>Arranjo</th><th>Combinação</th></tr></thead><tbody><tr><td>Ordem importa</td><td>Ordem NÃO importa</td></tr><tr><td>A(n,p) = n!/(n−p)!</td><td>C(n,p) = n!/[p!(n−p)!]</td></tr><tr><td>Pódio, senha</td><td>Comissão, equipe</td></tr></tbody></table><p>Relação: <strong>C(n,p) = A(n,p)/p!</strong></p><h2>Propriedades</h2><ul><li>C(n,0) = C(n,n) = 1</li><li>C(n,p) = C(n, n−p) (simetria)</li><li>C(n,1) = n</li></ul><h2>Triângulo de Pascal</h2><p>Cada número é a soma dos dois acima. A linha n contém C(n,0), C(n,1), ..., C(n,n).</p><h2>Resumo</h2><ul><li>✅ C(n,p) = n!/[p!(n−p)!]</li><li>✅ Ordem NÃO importa</li><li>⚠️ Dica: 'escolher', 'comissão', 'equipe' → combinação!</li></ul><h2>Curiosidade</h2><p>A Mega-Sena pede 6 números de 60: C(60,6) = <strong>50.063.860</strong> combinações. Sua chance de acertar é de 1 em 50 milhões!</p>",
+      "faq": [
+        {
+          "q": "Quando usar combinação vs arranjo?",
+          "a": "Combinação: ordem NÃO importa (equipe, comissão, subconjunto). Arranjo: ordem IMPORTA (pódio, senha, ranking)."
+        },
+        {
+          "q": "C(n,p) = C(n,n−p)?",
+          "a": "Sim! Escolher p para incluir = escolher (n−p) para excluir. C(10,3) = C(10,7) = 120."
+        },
+        {
+          "q": "Como funciona o Triângulo de Pascal?",
+          "a": "Cada linha n tem os valores C(n,0) a C(n,n). Cada número = soma dos dois acima. É útil para binômio de Newton."
+        },
+        {
+          "q": "Chance da Mega-Sena?",
+          "a": "C(60,6) = 50.063.860 combinações. Probabilidade de acertar: 1/50.063.860 ≈ 0,000002%."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "C(10,3) = ?",
+          "options": [
+            "30",
+            "120",
+            "720",
+            "1000"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Combinação se usa quando:",
+          "options": [
+            "Ordem importa",
+            "Ordem não importa",
+            "Há repetição",
+            "Elementos são iguais"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "C(n,0) = ?",
+          "options": [
+            "0",
+            "1",
+            "n",
+            "n!"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "C(n,p) = A(n,p) / ?",
+          "options": [
+            "n!",
+            "(n−p)!",
+            "p!",
+            "1"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Binômio de Newton",
+      "slug": "binomio-de-newton",
+      "desc": "Binômio de Newton: (a+b)ⁿ expandido. Termo geral Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Triângulo de Pascal gera os coeficientes. Propriedades dos coeficientes binomiais.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "(a+b)ⁿ = Σ C(n,k)·aⁿ⁻ᵏ·bᵏ (k=0 a n). Termo geral: Tₖ₊₁ = C(n,k)·aⁿ⁻ᵏ·bᵏ. Triângulo de Pascal: coeficientes de cada linha. Soma dos coeficientes: substitua a=b=1 → 2ⁿ. Termo central: C(n,n/2) para n par.",
+      "body": "<h2>Introdução</h2><p>O <strong>Binômio de Newton</strong> permite expandir (a+b)ⁿ sem multiplicar n vezes.</p><h2>Fórmula</h2><p><strong>(a+b)ⁿ = Σ C(n,k)·aⁿ⁻ᵏ·bᵏ</strong> (k de 0 a n)</p><h2>Termo Geral</h2><p><strong>Tₖ₊₁ = C(n,k) · aⁿ⁻ᵏ · bᵏ</strong></p><p>Ex: 4º termo de (x+2)⁵: T₄ = C(5,3)·x²·2³ = 10·x²·8 = 80x²</p><h2>Triângulo de Pascal</h2><p>Linha n: C(n,0), C(n,1), ..., C(n,n)</p><p>Linha 4: 1, 4, 6, 4, 1 → (a+b)⁴ = a⁴+4a³b+6a²b²+4ab³+b⁴</p><h2>Propriedades</h2><ul><li>Soma dos coeficientes: <strong>2ⁿ</strong> (faça a=b=1)</li><li>C(n,k) = C(n,n−k) → simetria</li></ul><h2>Resumo</h2><ul><li>✅ Tₖ₊₁ = C(n,k)·aⁿ⁻ᵏ·bᵏ</li><li>✅ Soma dos coeficientes = 2ⁿ</li></ul><h2>Curiosidade</h2><p>O Triângulo de Pascal já era conhecido pelos chineses 300 anos antes de Pascal! Yang Hui o publicou em 1261. Na China, é chamado \"Triângulo de Yang Hui\".</p>",
+      "faq": [
+        {
+          "q": "Como achar um termo específico?",
+          "a": "Use Tₖ₊₁=C(n,k)·aⁿ⁻ᵏ·bᵏ. Para o 3º termo de (x+1)⁵: k=2, T₃=C(5,2)·x³·1²=10x³."
+        },
+        {
+          "q": "Soma dos coeficientes?",
+          "a": "Substitua a=b=1: (1+1)ⁿ=2ⁿ. Então a soma dos coeficientes de (a+b)ⁿ é sempre 2ⁿ."
+        },
+        {
+          "q": "Triângulo de Pascal serve para quê?",
+          "a": "Gera os coeficientes binomiais. Linha n tem n+1 números: C(n,0), C(n,1), ..., C(n,n). Cada = soma dos dois acima."
+        },
+        {
+          "q": "Funciona para (a−b)ⁿ?",
+          "a": "Sim! Trate como (a+(−b))ⁿ. Os termos com k ímpar terão sinal negativo."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Soma dos coeficientes de (a+b)⁵:",
+          "options": [
+            "5",
+            "16",
+            "32",
+            "64"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "T₃ de (x+1)⁴: k=?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "(a+b)² = a²+?+b²:",
+          "options": [
+            "ab",
+            "2ab",
+            "a²b²",
+            "a+b"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Triângulo de Pascal, linha 3:",
+          "options": [
+            "1,2,1",
+            "1,3,3,1",
+            "1,4,6,4,1",
+            "1,1"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Probabilidade",
+      "slug": "probabilidade",
+      "desc": "Probabilidade: P(A)=favoráveis/possíveis. Eventos independentes, mutuamente exclusivos. Probabilidade condicional P(A|B). Complementar P(Ā)=1−P(A). Espaço amostral.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "P(A) = n(A)/n(Ω) = favoráveis/possíveis. 0≤P(A)≤1. P(Ā) = 1−P(A) (complementar). Eventos independentes: P(A∩B) = P(A)·P(B). Eventos mutuamente exclusivos: P(A∪B) = P(A)+P(B). Condicional: P(A|B) = P(A∩B)/P(B). Pelo menos um = 1−P(nenhum).",
+      "body": "<h2>Introdução</h2><p><strong>Probabilidade</strong> mede a chance de um evento ocorrer. É um dos temas mais cobrados no ENEM, combinando raciocínio lógico com combinatória.</p><h2>Definição Clássica</h2><p><strong>P(A) = n(A) / n(Ω)</strong></p><p>= nº de resultados favoráveis / nº total de resultados possíveis</p><h2>Propriedades</h2><ul><li>0 ≤ P(A) ≤ 1</li><li>P(Ω) = 1 (certeza), P(∅) = 0 (impossível)</li><li>P(Ā) = 1 − P(A) (complementar)</li></ul><h2>Eventos</h2><table><thead><tr><th>Tipo</th><th>Propriedade</th></tr></thead><tbody><tr><td>Independentes</td><td>P(A∩B) = P(A)·P(B)</td></tr><tr><td>Mutuamente exclusivos</td><td>P(A∪B) = P(A)+P(B)</td></tr></tbody></table><h2>Probabilidade Condicional</h2><p><strong>P(A|B) = P(A∩B) / P(B)</strong></p><h2>Dica: \"Pelo Menos Um\"</h2><p>P(pelo menos 1) = <strong>1 − P(nenhum)</strong></p><h2>Resumo</h2><ul><li>✅ P = favoráveis/total</li><li>✅ Complementar: P(Ā) = 1−P(A)</li><li>⚠️ \"Pelo menos um\" = 1 − P(nenhum)</li></ul><h2>Curiosidade</h2><p>O \"Paradoxo do Aniversário\": em um grupo de 23 pessoas, a probabilidade de 2 fazerem aniversário no mesmo dia é maior que 50%! Com 50 pessoas, passa de 97%!</p>",
+      "faq": [
+        {
+          "q": "O que é espaço amostral?",
+          "a": "É o conjunto Ω de TODOS os resultados possíveis. Dado: Ω={1,2,3,4,5,6}, n(Ω)=6. Moeda: Ω={cara,coroa}, n(Ω)=2."
+        },
+        {
+          "q": "Quando eventos são independentes?",
+          "a": "Quando um não afeta o outro. Ex: dois lançamentos de dado. Teste: P(A∩B)=P(A)·P(B). Tirar carta com reposição: independente. Sem reposição: dependente."
+        },
+        {
+          "q": "Como resolver 'pelo menos um'?",
+          "a": "Use o complementar: P(≥1) = 1−P(0). Ex: probabilidade de pelo menos 1 cara em 3 moedas: 1−P(3 coroas)=1−(1/2)³=1−1/8=7/8."
+        },
+        {
+          "q": "O que é probabilidade condicional?",
+          "a": "P(A|B) = 'probabilidade de A DADO QUE B ocorreu'. Ex: P(rei|figura) = 4/12 = 1/3 (4 reis entre 12 figuras)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "P de tirar 6 num dado:",
+          "options": [
+            "1/2",
+            "1/3",
+            "1/6",
+            "1/12"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "P(Ā) = ?",
+          "options": [
+            "P(A)",
+            "1−P(A)",
+            "1+P(A)",
+            "P(A)²"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Pelo menos 1' = ?",
+          "options": [
+            "P(todos)",
+            "1−P(nenhum)",
+            "P(A)+P(B)",
+            "P(A)·P(B)"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Paradoxo do aniversário: 23 pessoas → P>50% de:",
+          "options": [
+            "Todos no mesmo dia",
+            "2 no mesmo dia",
+            "Nenhum igual",
+            "3 no mesmo dia"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Estatística: Medidas de Tendência Central",
+      "slug": "estatistica-medidas-de-tendencia-central",
+      "desc": "Estatística: média aritmética (soma/n), mediana (valor central), moda (mais frequente). Média ponderada. Interpretação de gráficos e tabelas no ENEM.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Média aritmética: x̄ = Σxᵢ/n. Média ponderada: Σ(xᵢ·wᵢ)/Σwᵢ. Mediana: valor central (n ímpar) ou média dos 2 centrais (n par) dos dados ORDENADOS. Moda: valor mais frequente (pode ser amodal, unimodal, bimodal). Média é sensível a outliers; mediana não.",
+      "body": "<h2>Introdução</h2><p>As <strong>medidas de tendência central</strong> resumem um conjunto de dados em um valor representativo. São essenciais para interpretar gráficos e tabelas no ENEM.</p><h2>Média Aritmética</h2><p><strong>x̄ = (x₁+x₂+...+xₙ)/n</strong></p><p>Ex: {2,4,6,8,10} → x̄ = 30/5 = <strong>6</strong></p><h2>Média Ponderada</h2><p><strong>x̄ₚ = Σ(xᵢ·wᵢ) / Σwᵢ</strong></p><p>Ex: Prova 1 (peso 3) = 7, Prova 2 (peso 2) = 9: x̄ = (7·3+9·2)/(3+2) = 39/5 = <strong>7,8</strong></p><h2>Mediana</h2><p>Valor central dos dados <strong>ORDENADOS</strong>:</p><ul><li>n ímpar: valor do meio</li><li>n par: média dos 2 do meio</li></ul><h2>Moda</h2><p>Valor <strong>mais frequente</strong>. Pode ser: amodal (sem moda), unimodal, bimodal ou multimodal.</p><h2>Resumo</h2><ul><li>✅ Média: soma/n (afetada por outliers)</li><li>✅ Mediana: resistente a outliers</li><li>⚠️ ENEM: interpretar gráficos + calcular medidas!</li></ul><h2>Curiosidade</h2><p>\"Se Bill Gates entrar numa sala com 30 pessoas, a média de renda vai para milhões, mas a mediana quase não muda.\" Isso mostra por que a mediana é melhor para descrever renda — é resistente a valores extremos!</p>",
+      "faq": [
+        {
+          "q": "Quando usar média vs mediana?",
+          "a": "Média: dados sem outliers, distribuição simétrica. Mediana: dados com outliers ou distribuição assimétrica (como renda). A mediana é mais 'robusta'."
+        },
+        {
+          "q": "E se tiver 2 modas?",
+          "a": "É bimodal (2 valores com mesma frequência máxima). Pode ter mais (multimodal) ou nenhuma (amodal)."
+        },
+        {
+          "q": "Como calcular mediana de dados em tabela?",
+          "a": "Some as frequências para achar n, encontre a posição (n+1)/2, acumule frequências até ultrapassar essa posição."
+        },
+        {
+          "q": "Média ponderada no ENEM?",
+          "a": "Sim! O ENEM usa média ponderada no SiSU (cada prova tem peso diferente por curso). A fórmula é Σ(nota·peso)/Σpesos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Média de {2,4,6,8,10}:",
+          "options": [
+            "4",
+            "6",
+            "8",
+            "10"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mediana de {1,3,5,7,9}:",
+          "options": [
+            "3",
+            "5",
+            "7",
+            "9"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Moda de {2,3,3,5,7}:",
+          "options": [
+            "2",
+            "3",
+            "5",
+            "Amodal"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Outliers afetam mais:",
+          "options": [
+            "Média",
+            "Mediana",
+            "Moda",
+            "Nenhuma"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Estatística: Medidas de Dispersão",
+      "slug": "estatistica-medidas-de-dispersao",
+      "desc": "Dispersão: variância (média dos desvios²), desvio padrão (√variância), amplitude (max−min). Medem a dispersão dos dados em torno da média.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Amplitude: máx − mín. Variância: σ² = Σ(xᵢ−x̄)²/n. Desvio padrão: σ = √σ² (mesma unidade dos dados). Coeficiente de variação: CV = σ/x̄ × 100%. Maior σ → dados mais dispersos. σ=0 → todos iguais à média.",
+      "body": "<h2>Introdução</h2><p>As <strong>medidas de dispersão</strong> medem o quanto os dados se afastam da média. Dois conjuntos podem ter mesma média mas dispersão diferente!</p><h2>Amplitude</h2><p><strong>A = máx − mín</strong></p><p>Simples, mas sensível a outliers.</p><h2>Variância</h2><p><strong>σ² = Σ(xᵢ − x̄)² / n</strong></p><ol><li>Calcule a média x̄</li><li>Subtraia x̄ de cada valor</li><li>Eleve ao quadrado</li><li>Tire a média dos quadrados</li></ol><h2>Desvio Padrão</h2><p><strong>σ = √σ²</strong></p><p>Tem a mesma <strong>unidade</strong> dos dados (diferente da variância, que é ao quadrado).</p><h2>Coeficiente de Variação</h2><p><strong>CV = (σ/x̄) × 100%</strong></p><p>Permite comparar dispersões de conjuntos com médias diferentes.</p><h2>Resumo</h2><ul><li>✅ σ grande → dados espalhados. σ pequeno → dados concentrados.</li><li>✅ σ = √variância (mesma unidade dos dados)</li><li>⚠️ ENEM pede interpretação, não cálculo pesado!</li></ul><h2>Curiosidade</h2><p>Na distribuição normal (sino), ~68% dos dados estão a 1σ da média, ~95% a 2σ e ~99,7% a 3σ. É a famosa \"regra 68-95-99,7\"!</p>",
+      "faq": [
+        {
+          "q": "Variância vs desvio padrão?",
+          "a": "Variância = média dos desvios ao quadrado. Desvio padrão = √variância. O desvio padrão tem a mesma unidade dos dados (cm, kg), por isso é mais intuitivo."
+        },
+        {
+          "q": "O que significa σ=0?",
+          "a": "Todos os valores são iguais à média. Dispersão zero = sem variação."
+        },
+        {
+          "q": "Para que serve o CV?",
+          "a": "Coeficiente de Variação (σ/x̄×100%) compara dispersão de conjuntos com médias diferentes. Ex: altura (cm) vs peso (kg)."
+        },
+        {
+          "q": "ENEM pede cálculo de variância?",
+          "a": "Raramente o cálculo completo. Mas pede interpretação: 'maior desvio padrão = mais dispersão'. Saiba identificar no gráfico."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Desvio padrão é:",
+          "options": [
+            "σ²",
+            "√σ²",
+            "σ³",
+            "1/σ"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Se σ=0, os dados são:",
+          "options": [
+            "Dispersos",
+            "Todos iguais",
+            "Negativos",
+            "Indefinidos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Amplitude = ?",
+          "options": [
+            "Média",
+            "Máx−Mín",
+            "σ²",
+            "CV"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na regra 68-95-99.7, ~95% estão a:",
+          "options": [
+            "1σ",
+            "2σ",
+            "3σ",
+            "0,5σ"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Sistemas Lineares",
+      "slug": "sistemas-lineares",
+      "desc": "Sistemas lineares: 2×2 e 3×3. Métodos de resolução: substituição, adição, escalonamento, Cramer. Classificação: SPI (determinado), SPI (indeterminado), SI (impossível).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "Sistema linear: conjunto de equações do 1º grau. 2×2: substituição ou adição. 3×3: escalonamento ou Cramer. Cramer: x=Dₓ/D, y=Dᵧ/D. Classificação: D≠0 → SPD (solução única). D=0 e Dₓ=Dᵧ=0 → SPI (infinitas). D=0 e algum Dᵢ≠0 → SI (impossível).",
+      "body": "<h2>Introdução</h2><p><strong>Sistemas lineares</strong> são conjuntos de equações do 1º grau a serem resolvidos simultaneamente. Aparecem em problemas de mistura, velocidade e geometria analítica.</p><h2>Métodos de Resolução</h2><h3>Substituição</h3><p>Isole uma variável numa equação e substitua na outra.</p><h3>Adição (Eliminação)</h3><p>Multiplique equações para cancelar uma variável ao somar.</p><h3>Cramer (2×2)</h3><p>x = Dₓ/D, y = Dᵧ/D (D = determinante da matriz dos coeficientes)</p><h3>Escalonamento (3×3)</h3><p>Transforme o sistema em triangular superior e resolva de baixo para cima.</p><h2>Classificação</h2><table><thead><tr><th>Tipo</th><th>Condição</th><th>Soluções</th></tr></thead><tbody><tr><td><strong>SPD</strong></td><td>D ≠ 0</td><td>Uma única</td></tr><tr><td><strong>SPI</strong></td><td>D=0, Dₓ=Dᵧ=0</td><td>Infinitas</td></tr><tr><td><strong>SI</strong></td><td>D=0, algum Dᵢ≠0</td><td>Nenhuma</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Cramer: x=Dₓ/D (substitua colunas)</li><li>✅ D≠0 → solução única</li><li>⚠️ ENEM: problemas contextualizados que viram sistemas!</li></ul><h2>Curiosidade</h2><p>Gabriel Cramer publicou sua regra em 1750, mas a técnica já era conhecida na China por Seki Takakazu (1683) e até antes!</p>",
+      "faq": [
+        {
+          "q": "Quando usar Cramer?",
+          "a": "Cramer é ideal para 2×2 e 3×3 com D≠0. Para sistemas maiores, escalonamento é mais eficiente."
+        },
+        {
+          "q": "O que é SPD?",
+          "a": "Sistema Possível e Determinado: tem exatamente UMA solução. Ocorre quando D≠0. As retas se cruzam em 1 ponto (2×2)."
+        },
+        {
+          "q": "Retas paralelas dão que tipo de sistema?",
+          "a": "SI (Impossível): sem solução. Retas paralelas nunca se cruzam. D=0 e algum Dᵢ≠0."
+        },
+        {
+          "q": "Como montar sistema a partir de problema?",
+          "a": "1) Identifique as incógnitas. 2) Traduza as condições em equações. 3) Resolva. Ex: 'soma=10, diferença=4' → x+y=10, x−y=4."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Se D≠0, o sistema é:",
+          "options": [
+            "Impossível",
+            "Indeterminado",
+            "Determinado",
+            "Homogêneo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "x+y=5, x−y=1. x=?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cramer: x = ?",
+          "options": [
+            "D/Dₓ",
+            "Dₓ/D",
+            "D·Dₓ",
+            "Dₓ−D"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Retas coincidentes → sistema:",
+          "options": [
+            "SPD",
+            "SPI",
+            "SI",
+            "Misto"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Números Complexos",
+      "slug": "numeros-complexos",
+      "desc": "Números complexos: z=a+bi (i²=−1). Plano de Argand-Gauss. Módulo |z|=√(a²+b²). Conjugado z̄=a−bi. Forma trigonométrica z=|z|(cosθ+i·senθ). Operações.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 8,
+      "xp": 200,
+      "essential": "z = a+bi (a=parte real, b=parte imaginária, i²=−1). Conjugado: z̄ = a−bi. Módulo: |z| = √(a²+b²). Plano de Argand-Gauss: eixo x=real, eixo y=imaginário. Forma trigonométrica: z = |z|·(cosθ+i·senθ). Multiplicação: multiplica módulos, soma argumentos.",
+      "body": "<h2>Introdução</h2><p>Os <strong>números complexos</strong> surgiram para resolver √(−1), impossível nos reais. Definimos <strong>i² = −1</strong> e abrimos um novo universo numérico.</p><h2>Forma Algébrica</h2><p><strong>z = a + bi</strong></p><ul><li><strong>a</strong> = parte real (Re(z))</li><li><strong>b</strong> = parte imaginária (Im(z))</li><li><strong>i² = −1</strong></li></ul><h2>Operações</h2><ul><li><strong>Soma:</strong> (a+bi)+(c+di) = (a+c)+(b+d)i</li><li><strong>Multiplicação:</strong> (a+bi)(c+di) = (ac−bd)+(ad+bc)i</li><li><strong>Conjugado:</strong> z̄ = a−bi</li><li><strong>z · z̄ = a²+b²</strong> (sempre real!)</li></ul><h2>Plano de Argand-Gauss</h2><p>Eixo x = parte real. Eixo y = parte imaginária. z=3+4i → ponto (3,4).</p><h2>Módulo</h2><p><strong>|z| = √(a²+b²)</strong> = distância do ponto à origem.</p><h2>Forma Trigonométrica</h2><p><strong>z = |z| · (cos θ + i · sen θ)</strong></p><p>Multiplicação: multiplica módulos, soma argumentos.</p><h2>Resumo</h2><ul><li>✅ z = a+bi, i²=−1</li><li>✅ |z| = √(a²+b²)</li><li>⚠️ Equações com Δ<0 têm raízes complexas!</li></ul><h2>Curiosidade</h2><p>Números complexos são usados em engenharia elétrica (corrente alternada), mecânica quântica e computação gráfica. A identidade de Euler <strong>e^(iπ)+1=0</strong> conecta os 5 números mais importantes: e, i, π, 1, 0!</p>",
+      "faq": [
+        {
+          "q": "Para que servem números complexos?",
+          "a": "Resolvem equações com Δ<0, modelam correntes alternadas (engenharia), descrevem partículas (quântica) e geram fractais (Mandelbrot)."
+        },
+        {
+          "q": "O que é i?",
+          "a": "i é a unidade imaginária: i²=−1. Não é um número real, mas permite resolver √(−1)=i. As potências cicham: i¹=i, i²=−1, i³=−i, i⁴=1, i⁵=i..."
+        },
+        {
+          "q": "O que é o conjugado?",
+          "a": "z̄ = a−bi (troca o sinal da parte imaginária). z·z̄ = a²+b² (sempre real positivo). Útil para dividir complexos."
+        },
+        {
+          "q": "Como dividir complexos?",
+          "a": "Multiplique numerador e denominador pelo conjugado do denominador: (a+bi)/(c+di) · (c−di)/(c−di)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "i² = ?",
+          "options": [
+            "1",
+            "−1",
+            "i",
+            "−i"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "|z| de z=3+4i:",
+          "options": [
+            "7",
+            "5",
+            "25",
+            "12"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Conjugado de 2+3i:",
+          "options": [
+            "2+3i",
+            "2−3i",
+            "−2+3i",
+            "−2−3i"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "i⁴ = ?",
+          "options": [
+            "i",
+            "−i",
+            "1",
+            "−1"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Polinômios",
+      "slug": "polinomios",
+      "desc": "Polinômios: P(x)=aₙxⁿ+...+a₁x+a₀. Grau, valor numérico, operações. Divisão por Briot-Ruffini. Dispositivo prático. Identidade de polinômios.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Polinômio de grau n: P(x) = aₙxⁿ+...+a₁x+a₀ (aₙ≠0). Valor numérico: substituir x. Soma/subtração: termos semelhantes. Multiplicação: distributiva. Divisão: algoritmo ou Briot-Ruffini (divisor x−a). Teorema do Resto: resto da divisão por (x−a) = P(a).",
+      "body": "<h2>Introdução</h2><p><strong>Polinômios</strong> são expressões algébricas com variáveis de expoentes inteiros não-negativos. São a base do cálculo e da álgebra.</p><h2>Definição</h2><p><strong>P(x) = aₙxⁿ + aₙ₋₁xⁿ⁻¹ + ... + a₁x + a₀</strong></p><ul><li><strong>Grau:</strong> maior expoente com coeficiente ≠ 0</li><li><strong>Valor numérico:</strong> P(k) = substituir x por k</li></ul><h2>Operações</h2><ul><li><strong>Soma:</strong> some coeficientes de termos semelhantes</li><li><strong>Multiplicação:</strong> distributiva (cada termo × cada termo)</li></ul><h2>Divisão: Briot-Ruffini</h2><p>Método prático para dividir P(x) por (x−a):</p><ol><li>Escreva os coeficientes de P(x)</li><li>Use a raiz a do divisor</li><li>Multiplique e some em cascata</li></ol><h2>Teorema do Resto</h2><p>O resto da divisão de P(x) por (x−a) é <strong>P(a)</strong>.</p><p>Se P(a)=0, então (x−a) é fator de P(x).</p><h2>Resumo</h2><ul><li>✅ Grau = maior expoente</li><li>✅ Briot-Ruffini para divisão por (x−a)</li><li>✅ Teorema do Resto: resto = P(a)</li></ul><h2>Curiosidade</h2><p>Polinômios de grau ≤ 4 têm fórmulas para raízes (1º: trivial, 2º: Bhaskara, 3º: Cardano, 4º: Ferrari). Galois provou que a partir do 5º grau, NÃO existe fórmula geral — e tinha apenas 20 anos!</p>",
+      "faq": [
+        {
+          "q": "O que é grau do polinômio?",
+          "a": "É o maior expoente da variável cujo coeficiente não é zero. P(x)=3x⁴+x²−1 tem grau 4."
+        },
+        {
+          "q": "Como usar Briot-Ruffini?",
+          "a": "Para dividir P(x) por (x−a): escreva os coeficientes, use 'a', multiplique e some em cascata. O último número é o resto."
+        },
+        {
+          "q": "Teorema do Resto?",
+          "a": "O resto da divisão de P(x) por (x−a) é P(a). Se P(2)=0, então (x−2) divide P(x) exatamente."
+        },
+        {
+          "q": "Polinômios idênticos?",
+          "a": "Dois polinômios são idênticos se todos os coeficientes correspondentes são iguais. Útil para resolver equações por comparação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Grau de 3x⁴+x²−1:",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Resto de P(x)÷(x−2) quando P(2)=5:",
+          "options": [
+            "0",
+            "2",
+            "5",
+            "−5"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Briot-Ruffini divide por:",
+          "options": [
+            "Qualquer polinômio",
+            "(x−a)",
+            "x²+a",
+            "ax+b"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Se P(3)=0, então (x−3) é:",
+          "options": [
+            "Resto",
+            "Fator de P(x)",
+            "Grau",
+            "Raiz de x"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Equações Polinomiais",
+      "slug": "equacoes-polinomiais",
+      "desc": "Equações polinomiais: Teorema Fundamental da Álgebra (grau n → n raízes). Relações de Girard. Raízes racionais. Decomposição em fatores lineares.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Teorema Fundamental: polinômio de grau n tem exatamente n raízes (contando multiplicidade e complexas). Relações de Girard: soma das raízes = −aₙ₋₁/aₙ. Produto das raízes = (−1)ⁿ·a₀/aₙ. Raízes racionais: candidatas são ±(divisores de a₀)/(divisores de aₙ). Raízes complexas vêm em pares conjugados.",
+      "body": "<h2>Introdução</h2><p><strong>Equações polinomiais</strong> são P(x)=0. O <strong>Teorema Fundamental da Álgebra</strong> garante que todo polinômio de grau n tem exatamente n raízes.</p><h2>Teorema Fundamental da Álgebra</h2><p>Polinômio de grau n tem <strong>exatamente n raízes</strong> (contando multiplicidade e complexas).</p><h2>Relações de Girard</h2><p>Para aₙxⁿ+...+a₁x+a₀ = 0 com raízes r₁, r₂, ..., rₙ:</p><ul><li><strong>Soma das raízes:</strong> r₁+r₂+...+rₙ = −aₙ₋₁/aₙ</li><li><strong>Produto das raízes:</strong> r₁·r₂·...·rₙ = (−1)ⁿ · a₀/aₙ</li></ul><h2>Raízes Racionais</h2><p>Candidatas: ±(divisores de a₀)/(divisores de aₙ)</p><p>Teste cada candidata com Briot-Ruffini.</p><h2>Raízes Complexas</h2><p>Se coeficientes são reais, raízes complexas vêm em <strong>pares conjugados</strong>: se a+bi é raiz, a−bi também é.</p><h2>Resumo</h2><ul><li>✅ Grau n → n raízes</li><li>✅ Girard: soma = −aₙ₋₁/aₙ, produto = (−1)ⁿ·a₀/aₙ</li><li>⚠️ Raízes complexas vêm em pares conjugados!</li></ul><h2>Curiosidade</h2><p>Évariste Galois, aos 20 anos (antes de morrer em duelo), provou que NÃO existe fórmula geral para equações de grau ≥ 5. Sua teoria dos grupos revolucionou a álgebra moderna!</p>",
+      "faq": [
+        {
+          "q": "Quantas raízes tem um polinômio de grau 5?",
+          "a": "Exatamente 5 raízes (contando multiplicidade e complexas). Pode ter 1, 3 ou 5 raízes reais (complexas vêm em pares)."
+        },
+        {
+          "q": "O que são Relações de Girard?",
+          "a": "Relacionam coeficientes com raízes: soma das raízes = −aₙ₋₁/aₙ, produto = (−1)ⁿ·a₀/aₙ. Para grau 2: soma=−b/a, produto=c/a."
+        },
+        {
+          "q": "Como encontrar raízes racionais?",
+          "a": "Teste candidatas ±p/q onde p divide a₀ e q divide aₙ. Use Briot-Ruffini para testar cada uma."
+        },
+        {
+          "q": "Por que raízes complexas vêm em pares?",
+          "a": "Se coeficientes são reais e a+bi é raiz, ao substituir e separar real/imaginário, a−bi também satisfaz. É uma consequência do conjugado."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Grau 3 → quantas raízes?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "Depende"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Soma das raízes de x²−5x+6=0:",
+          "options": [
+            "5",
+            "6",
+            "−5",
+            "−6"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Se 2+3i é raiz (coef. reais), também é raiz:",
+          "options": [
+            "2−3i",
+            "−2+3i",
+            "−2−3i",
+            "3+2i"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Produto das raízes de x²−5x+6=0:",
+          "options": [
+            "5",
+            "6",
+            "−5",
+            "−6"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

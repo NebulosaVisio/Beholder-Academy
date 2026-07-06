@@ -1,0 +1,586 @@
+{
+  "subject": "Inglês",
+  "slug": "1ano-ingles",
+  "level": "Fundamental 1",
+  "grade": "1º ano",
+  "color": "var(--ingles)",
+  "icon": "globe-alt",
+  "articles": [
+    {
+      "title": "Review: All Basic Tenses",
+      "slug": "review-all-basic-tenses",
+      "desc": "Revisao dos tempos verbais basicos em ingles: Simple Present, Simple Past, Simple Future, Present/Past Continuous.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Simple Present: rotinas (I study). Simple Past: acoes concluidas (I studied). Simple Future: will + verbo (I will study), going to (planos). Present Continuous: agora (I am studying). Past Continuous: acao em andamento no passado (I was studying). Auxiliares: do/does, did, will.",
+      "body": "<h2>Introducao</h2><p>Os <strong>tempos verbais basicos</strong> sao a fundacao do ingles.</p><h2>Tempos</h2><table><thead><tr><th>Tempo</th><th>Uso</th><th>Exemplo</th></tr></thead><tbody><tr><td>Simple Present</td><td>Rotinas, fatos</td><td>She studies every day</td></tr><tr><td>Simple Past</td><td>Acoes concluidas</td><td>She studied yesterday</td></tr><tr><td>Simple Future</td><td>Previsoes, decisoes</td><td>She will study tomorrow</td></tr><tr><td>Present Continuous</td><td>Agora</td><td>She is studying now</td></tr><tr><td>Past Continuous</td><td>Em andamento no passado</td><td>She was studying</td></tr></tbody></table><h2>Resumo</h2><ul><li>Present: rotina. Past: concluido. Future: will/going to.</li><li>ENEM: tempos verbais em contexto de leitura</li></ul><h2>Curiosidade</h2><p>O ingles tem <strong>12 tempos verbais</strong>, mas no dia a dia usamos cerca de 5-6 com frequencia!</p>",
+      "faq": [
+        {
+          "q": "Quando usar Simple Present?",
+          "a": "Rotinas (I wake up at 7), fatos (Water boils at 100C), horarios fixos (The train leaves at 9)."
+        },
+        {
+          "q": "Will vs going to?",
+          "a": "Will: decisoes espontaneas, previsoes. Going to: planos ja decididos. 'I will help you' (agora decidi) vs 'I'm going to travel' (ja planejei)."
+        },
+        {
+          "q": "Past Continuous vs Simple Past?",
+          "a": "Past Continuous: acao EM ANDAMENTO quando outra aconteceu. 'I was sleeping WHEN the phone rang.' Sleeping=cont, rang=simple."
+        },
+        {
+          "q": "Auxiliares?",
+          "a": "Do/does (present), did (past), will (future). Usados em perguntas e negativas. 'Do you study?' 'She doesn't work.' 'Did they go?'"
+        }
+      ],
+      "quiz": [
+        {
+          "question": "She ___ every day",
+          "options": [
+            "study",
+            "studies",
+            "studying",
+            "studied"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "I ___ when you called",
+          "options": [
+            "sleep",
+            "slept",
+            "was sleeping",
+            "am sleeping"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "They ___ tomorrow",
+          "options": [
+            "go",
+            "goes",
+            "went",
+            "will go"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "He ___ right now",
+          "options": [
+            "reads",
+            "is reading",
+            "read",
+            "will read"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Present Perfect: Experience and Result",
+      "slug": "present-perfect-experience-and-result",
+      "desc": "Present Perfect: have/has + past participle. Experiencias, resultados, acoes com relevancia no presente. Ever, never, already, yet, since, for.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Present Perfect: have/has + past participle. Usos: experiencias (I have visited Paris), resultado presente (She has lost her keys), acoes inacabadas (I have lived here since 2020). Marcadores: ever (ja, em perguntas), never (nunca), already (ja), yet (ainda nao), since (desde ponto), for (durante periodo). Diferenca: Simple Past = quando. Present Perfect = experiencia/resultado.",
+      "body": "<h2>Introducao</h2><p>O <strong>Present Perfect</strong> conecta passado ao presente.</p><h2>Formacao</h2><p><strong>have/has + past participle</strong> (3a coluna)</p><h2>Usos</h2><table><thead><tr><th>Uso</th><th>Exemplo</th></tr></thead><tbody><tr><td>Experiencia</td><td>I have visited Japan</td></tr><tr><td>Resultado</td><td>She has broken her arm</td></tr><tr><td>Desde/durante</td><td>I have lived here since 2020</td></tr></tbody></table><h2>Since vs For</h2><ul><li><strong>Since:</strong> ponto no tempo (since 2020, since Monday)</li><li><strong>For:</strong> periodo de tempo (for 3 years, for 2 hours)</li></ul><h2>Resumo</h2><ul><li>Have/has + participio. Passado com efeito no presente.</li><li>ENEM: interpretacao de textos com present perfect</li></ul><h2>Curiosidade</h2><p>Em portugues NAO temos Present Perfect exato! 'I have lived here for 5 years' = '<strong>Moro aqui ha 5 anos</strong>' (presente em PT!).</p>",
+      "faq": [
+        {
+          "q": "Present Perfect vs Simple Past?",
+          "a": "Simple Past: acao acabou, QUANDO importa (I visited Paris in 2019). Present Perfect: experiencia, QUANDO nao importa (I have visited Paris)."
+        },
+        {
+          "q": "Since vs for?",
+          "a": "Since: ponto (since January, since 2020). For: duracao (for 3 months, for 10 years). Since + data. For + periodo."
+        },
+        {
+          "q": "Ever e never?",
+          "a": "Ever: 'alguma vez' (Have you EVER been to London?). Never: 'nunca' (I have NEVER eaten sushi). Usados com experiencias."
+        },
+        {
+          "q": "Already vs yet?",
+          "a": "Already: 'ja' em afirmativas (I have already finished). Yet: 'ainda' em negativas/perguntas (I haven't finished yet / Have you finished yet?)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "I ___ to London twice",
+          "options": [
+            "went",
+            "have been",
+            "am going",
+            "go"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "She has lived here ___ 2019",
+          "options": [
+            "for",
+            "since",
+            "during",
+            "ago"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Have you ___ tried sushi",
+          "options": [
+            "already",
+            "yet",
+            "ever",
+            "never"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "I haven't finished ___",
+          "options": [
+            "already",
+            "ever",
+            "never",
+            "yet"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Modal Verbs: Ability, Permission, Obligation",
+      "slug": "modal-verbs-ability-permission-obligation",
+      "desc": "Modal verbs: can/could (habilidade), may/might (possibilidade), must/have to (obrigacao), should (conselho), would (hipotese).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Can: habilidade (I can swim), permissao informal (Can I go?). Could: habilidade passada, pedido educado. May: permissao formal, possibilidade (It may rain). Might: possibilidade menor. Must: obrigacao forte, deducao (She must be tired). Have to: obrigacao externa. Should: conselho (You should study). Would: hipotese, educacao (Would you like...?). Must not: proibicao. Don't have to: nao precisa.",
+      "body": "<h2>Introducao</h2><p>Os <strong>modal verbs</strong> modificam o sentido do verbo principal.</p><h2>Modais</h2><table><thead><tr><th>Modal</th><th>Uso</th><th>Exemplo</th></tr></thead><tbody><tr><td>Can</td><td>Habilidade/permissao</td><td>I can swim</td></tr><tr><td>Must</td><td>Obrigacao/deducao</td><td>You must study</td></tr><tr><td>Should</td><td>Conselho</td><td>You should rest</td></tr><tr><td>May/Might</td><td>Possibilidade</td><td>It may rain</td></tr><tr><td>Would</td><td>Hipotese/educacao</td><td>Would you like tea?</td></tr></tbody></table><h2>Must not vs Don't have to</h2><ul><li><strong>Must not:</strong> PROIBIDO (You must not cheat)</li><li><strong>Don't have to:</strong> nao precisa (You don't have to come)</li></ul><h2>Resumo</h2><ul><li>Modais nao conjugam (sem s, ed, ing)</li><li>ENEM: modais em textos, interpretacao</li></ul><h2>Curiosidade</h2><p>'<strong>Can</strong>' e '<strong>may</strong>' confundem brasileiros: can=informal, may=formal. Professor diz: 'You CAN go, but you MAY NOT.'</p>",
+      "faq": [
+        {
+          "q": "Must vs have to?",
+          "a": "Must: obrigacao interna ('Eu devo'). Have to: obrigacao externa ('Preciso porque a regra exige'). Na pratica, muito parecidos."
+        },
+        {
+          "q": "Should vs must?",
+          "a": "Should: conselho ('Voce deveria'). Must: obrigacao ('Voce deve'). Should e mais suave."
+        },
+        {
+          "q": "Might vs may?",
+          "a": "Ambos indicam possibilidade. May: mais provavel. Might: menos provavel. 'It may rain' (provavel) vs 'It might rain' (menos certo)."
+        },
+        {
+          "q": "Modais conjugam?",
+          "a": "NAO! Can, must, should, may nunca levam s, ed ou ing. Nao usam auxiliar (do/does). 'She can swim' (nao 'she cans')."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "You ___ not cheat (proibido)",
+          "options": [
+            "must",
+            "should",
+            "can",
+            "might"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Conselho = you ___",
+          "options": [
+            "must",
+            "can",
+            "should",
+            "will"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "You don't ___ to come (nao precisa)",
+          "options": [
+            "must",
+            "have",
+            "should",
+            "can"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Modais levam -s na 3a pessoa?",
+          "options": [
+            "Sim",
+            "Nao",
+            "As vezes",
+            "So can"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Passive Voice",
+      "slug": "passive-voice",
+      "desc": "Voz passiva em ingles: formacao (be + past participle). Usos: foco no objeto, agente desconhecido. Passiva em todos os tempos.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Voz ativa: sujeito faz acao (The cat ate the fish). Voz passiva: sujeito recebe acao (The fish was eaten by the cat). Formacao: be + past participle. By + agente (opcional). Usos: quando o OBJETO e mais importante, agente desconhecido, textos cientificos, jornalisticos. Tempos: is/are + pp (present), was/were + pp (past), will be + pp (future), has been + pp (present perfect).",
+      "body": "<h2>Introducao</h2><p>A <strong>voz passiva</strong> coloca o foco em quem RECEBE a acao.</p><h2>Formacao</h2><p><strong>Sujeito + be + past participle (+ by agente)</strong></p><h2>Exemplos</h2><table><thead><tr><th>Ativa</th><th>Passiva</th></tr></thead><tbody><tr><td>They build houses</td><td>Houses are built (by them)</td></tr><tr><td>She wrote a book</td><td>A book was written (by her)</td></tr><tr><td>They will fix it</td><td>It will be fixed</td></tr></tbody></table><h2>Resumo</h2><ul><li>Be + past participle. Foco no objeto.</li><li>ENEM: passiva em textos jornalisticos e cientificos</li></ul><h2>Curiosidade</h2><p>Textos cientificos usam MUITO passiva: 'The experiment <strong>was conducted</strong>...' - o foco e no experimento, nao em quem fez!</p>",
+      "faq": [
+        {
+          "q": "Quando usar passiva?",
+          "a": "Quando o agente e desconhecido (My car was stolen), quando o objeto importa mais (The Mona Lisa was painted by Da Vinci), textos formais."
+        },
+        {
+          "q": "By e obrigatorio?",
+          "a": "Nao! So use 'by + agente' se o agente for RELEVANTE. 'The window was broken' (nao importa por quem). 'America was discovered by Columbus' (importa)."
+        },
+        {
+          "q": "Passiva no Present Perfect?",
+          "a": "Has/have been + past participle. 'The email has been sent.' 'The books have been delivered.'"
+        },
+        {
+          "q": "Passiva e formal?",
+          "a": "Sim, tende a ser mais formal. Textos academicos, jornalisticos, cientificos preferem passiva. Conversas informais preferem ativa."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The cake ___ by my mom",
+          "options": [
+            "baked",
+            "was baked",
+            "bakes",
+            "is baking"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Passiva usa",
+          "options": [
+            "do + verbo",
+            "be + past participle",
+            "have + verbo",
+            "will + ing"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "My car ___ (roubar, passado)",
+          "options": [
+            "stole",
+            "was stolen",
+            "has stolen",
+            "steals"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Passiva e comum em textos",
+          "options": [
+            "Informais",
+            "Cientificos",
+            "Infantis",
+            "Orais"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Conditional Sentences (If Clauses)",
+      "slug": "conditional-sentences-if-clauses",
+      "desc": "Condicionais: Zero (fatos), First (possivel), Second (hipotetico), Third (impossivel/arrependimento). If-clauses.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Zero conditional: If + present, present (fatos: If you heat water, it boils). First: If + present, will + verbo (possivel: If it rains, I will stay home). Second: If + past, would + verbo (hipotetico: If I had money, I would travel). Third: If + past perfect, would have + pp (impossivel: If I had studied, I would have passed). Mixed conditionals existem mas sao raras no ENEM.",
+      "body": "<h2>Introducao</h2><p>As <strong>conditional sentences</strong> expressam condicao e consequencia.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Estrutura</th><th>Uso</th></tr></thead><tbody><tr><td>Zero</td><td>If + present, present</td><td>Fatos</td></tr><tr><td>First</td><td>If + present, will</td><td>Possivel</td></tr><tr><td>Second</td><td>If + past, would</td><td>Hipotetico</td></tr><tr><td>Third</td><td>If + past perfect, would have + pp</td><td>Impossivel</td></tr></tbody></table><h2>Resumo</h2><ul><li>Zero=fato. First=possivel. Second=hipotese. Third=impossivel.</li><li>ENEM: interpretar condicionais em textos</li></ul><h2>Curiosidade</h2><p>Na Second Conditional, usamos '<strong>were</strong>' para TODAS as pessoas: 'If I WERE you...' (nao 'If I was')!</p>",
+      "faq": [
+        {
+          "q": "If I were vs If I was?",
+          "a": "Formalmente: 'If I WERE' (subjuntivo). Informalmente: 'If I was' e aceito. No ENEM, espere 'were'."
+        },
+        {
+          "q": "First vs Second?",
+          "a": "First: possivel/provavel (If it rains...). Second: improvavel/hipotetico (If I won the lottery...). Diferenca de probabilidade."
+        },
+        {
+          "q": "Third conditional - para que?",
+          "a": "Falar de passado impossivel de mudar. Arrependimento: 'If I had studied harder, I would have passed.' Nao estudei, nao passei. Tarde demais."
+        },
+        {
+          "q": "Posso inverter?",
+          "a": "Sim! 'If it rains, I'll stay' = 'I'll stay if it rains'. Mesma coisa. Virgula quando if vem primeiro."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "If it rains, I ___ stay home",
+          "options": [
+            "would",
+            "will",
+            "had",
+            "were"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "If I ___ rich, I would travel",
+          "options": [
+            "am",
+            "was",
+            "were",
+            "will be"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Second conditional e",
+          "options": [
+            "Fato",
+            "Possivel",
+            "Hipotetico",
+            "Passado"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "If I had studied, I ___ passed",
+          "options": [
+            "will have",
+            "would have",
+            "had",
+            "would"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Relative Clauses",
+      "slug": "relative-clauses",
+      "desc": "Relative clauses: who (pessoas), which (coisas), that (ambos), where (lugar), whose (posse). Defining vs non-defining.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Relative clauses: oracoes que descrevem/identificam um substantivo. Who: pessoas. Which: coisas/animais. That: ambos (informal). Where: lugar. Whose: posse. Defining: essencial para o sentido (sem virgula). Non-defining: informacao extra (COM virgula). 'The man WHO called...' (defining). 'My mom, WHO is a doctor, ...' (non-defining).",
+      "body": "<h2>Introducao</h2><p>As <strong>relative clauses</strong> adicionam informacao sobre um substantivo.</p><h2>Pronomes</h2><table><thead><tr><th>Pronome</th><th>Uso</th><th>Exemplo</th></tr></thead><tbody><tr><td>who</td><td>Pessoas</td><td>The girl who studies</td></tr><tr><td>which</td><td>Coisas</td><td>The book which I read</td></tr><tr><td>that</td><td>Ambos</td><td>The dog that barks</td></tr><tr><td>where</td><td>Lugar</td><td>The city where I live</td></tr><tr><td>whose</td><td>Posse</td><td>The boy whose mom called</td></tr></tbody></table><h2>Resumo</h2><ul><li>Who=pessoa, which=coisa, that=ambos</li><li>ENEM: interpretar relative clauses em textos</li></ul><h2>Curiosidade</h2><p>No ingles informal, 'that' substitui 'who' e 'which' quase sempre! Na escrita formal, use o correto.</p>",
+      "faq": [
+        {
+          "q": "Defining vs non-defining?",
+          "a": "Defining: essencial. 'The man who called me is my boss.' (QUAL homem?). Non-defining: extra. 'My boss, who is tall, called me.' (ja sabemos quem e)."
+        },
+        {
+          "q": "Posso omitir o pronome?",
+          "a": "Sim, quando ele e OBJETO. 'The book (which) I read.' Nao quando e SUJEITO: 'The man who called' (nao pode tirar)."
+        },
+        {
+          "q": "Where vs which?",
+          "a": "Where = in which. 'The city where I live' = 'The city in which I live'. Where e mais simples."
+        },
+        {
+          "q": "Whose?",
+          "a": "Indica POSSE. 'The student whose grade was highest...' = 'O aluno cuja nota...' Funciona com pessoas e coisas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "The girl ___ studies hard",
+          "options": [
+            "which",
+            "who",
+            "where",
+            "whose"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "The book ___ I bought",
+          "options": [
+            "who",
+            "where",
+            "which",
+            "whose"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "The boy ___ mom is a doctor",
+          "options": [
+            "who",
+            "which",
+            "where",
+            "whose"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Non-defining clause usa",
+          "options": [
+            "Virgulas",
+            "Ponto",
+            "Sem pontuacao",
+            "Parenteses"
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "title": "Reported Speech (Indirect Speech)",
+      "slug": "reported-speech-indirect-speech",
+      "desc": "Reported speech: transformar fala direta em indireta. Mudancas de tempo verbal, pronomes, referencias de tempo/lugar.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Direct: 'I am happy,' she said. Reported: She said (that) she was happy. Mudancas: am/is→was, are→were, will→would, can→could, present→past. Pronomes mudam conforme o contexto. Tempo: today→that day, yesterday→the day before, tomorrow→the next day. Here→there. Reporting verbs: said, told, asked, explained.",
+      "body": "<h2>Introducao</h2><p>O <strong>reported speech</strong> transforma fala direta em indireta.</p><h2>Mudancas</h2><table><thead><tr><th>Direct</th><th>Reported</th></tr></thead><tbody><tr><td>am/is</td><td>was</td></tr><tr><td>are</td><td>were</td></tr><tr><td>will</td><td>would</td></tr><tr><td>can</td><td>could</td></tr><tr><td>today</td><td>that day</td></tr><tr><td>here</td><td>there</td></tr></tbody></table><h2>Exemplo</h2><ul><li>Direct: 'I will come tomorrow.'</li><li>Reported: He said he would come the next day.</li></ul><h2>Resumo</h2><ul><li>Verbos recuam 1 tempo. Pronomes mudam.</li><li>ENEM: interpretar reported speech em textos</li></ul><h2>Curiosidade</h2><p>Em ingles, o '<strong>that</strong>' do reported speech e OPCIONAL! 'She said (that) she was tired.'</p>",
+      "faq": [
+        {
+          "q": "Sempre mudo o tempo?",
+          "a": "Quando o reporting verb esta no passado (said, told), sim. Se esta no presente (says, tells), nao precisa mudar."
+        },
+        {
+          "q": "Said vs told?",
+          "a": "Said: sem complemento ('She said...'). Told: com complemento ('She told ME...'). Never: 'She said me' (ERRADO!)."
+        },
+        {
+          "q": "Perguntas no reported?",
+          "a": "Mudam para ordem afirmativa. 'Where do you live?' → He asked where I lived. Sem ponto de interrogacao!"
+        },
+        {
+          "q": "Imperativos?",
+          "a": "'Study hard!' → She told me TO STUDY hard. 'Don't go!' → He told me NOT TO GO. Usar to + infinitive."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'I am tired' → She said she ___ tired",
+          "options": [
+            "is",
+            "am",
+            "was",
+            "were"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'I will go' → He said he ___",
+          "options": [
+            "will go",
+            "would go",
+            "goes",
+            "went"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Today no reported vira",
+          "options": [
+            "Yesterday",
+            "That day",
+            "This day",
+            "Now"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "She told ___ to study",
+          "options": [
+            "said",
+            "that",
+            "me",
+            "she"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Reading Strategies: Genres and Comprehension",
+      "slug": "reading-strategies-genres-and-comprehension",
+      "desc": "Estrategias de leitura: skimming, scanning, inferencia. Generos textuais: artigo, email, anuncio, cartoon, poema, musica.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Skimming: leitura rapida para ideia geral. Scanning: buscar informacao especifica. Inferencia: deduzir significado pelo contexto. Cognatos: palavras parecidas com portugues (information=informacao). Falsos cognatos: actually=na verdade (nao 'atualmente'). Generos no ENEM: artigos, anuncios, emails, cartuns, letras de musica, poemas, noticias, tirinhas.",
+      "body": "<h2>Introducao</h2><p>A <strong>leitura estrategica</strong> e a chave para interpretar textos em ingles no ENEM.</p><h2>Estrategias</h2><table><thead><tr><th>Estrategia</th><th>O que faz</th></tr></thead><tbody><tr><td>Skimming</td><td>Leitura rapida, ideia geral</td></tr><tr><td>Scanning</td><td>Buscar dado especifico</td></tr><tr><td>Inferencia</td><td>Deduzir pelo contexto</td></tr><tr><td>Cognatos</td><td>Palavras parecidas com PT</td></tr></tbody></table><h2>Generos</h2><ul><li>Artigo, email, noticia, anuncio, cartoon, tirinha, poema, musica</li></ul><h2>Resumo</h2><ul><li>Nao precisa traduzir tudo! Use estrategias.</li><li>ENEM testa COMPREENSAO, nao traducao</li></ul><h2>Curiosidade</h2><p>Cerca de <strong>30%</strong> das palavras em ingles tem origem latina - por isso tantos cognatos com o portugues!</p>",
+      "faq": [
+        {
+          "q": "Preciso saber tudo?",
+          "a": "NAO! ENEM testa compreensao, nao traducao palavra por palavra. Use cognatos, contexto, imagens. Nao entre em panico com palavras desconhecidas."
+        },
+        {
+          "q": "Skimming vs scanning?",
+          "a": "Skimming: passar os olhos para ter IDEIA GERAL. Scanning: buscar INFO ESPECIFICA (numero, nome, data). Ambos sao leitura rapida."
+        },
+        {
+          "q": "Cognatos ajudam?",
+          "a": "MUITO! Information=informacao, important=importante, culture=cultura. ~30% das palavras em ingles sao cognatas. Mas cuidado com falsos cognatos!"
+        },
+        {
+          "q": "Falsos cognatos - exemplos?",
+          "a": "Actually=na verdade. Pretend=fingir. Push=empurrar. Resume=retomar. Library=biblioteca. Sensitive=sensivel."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Skimming busca",
+          "options": [
+            "Detalhes",
+            "Ideia geral",
+            "Traducao",
+            "Gramatica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Scanning busca",
+          "options": [
+            "Ideia geral",
+            "Info especifica",
+            "Resumo",
+            "Opiniao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Actually' em portugues e",
+          "options": [
+            "Atualmente",
+            "Na verdade",
+            "De fato",
+            "Realmente"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "ENEM testa",
+          "options": [
+            "Traducao",
+            "Gramatica pura",
+            "Compreensao",
+            "Redacao em ingles"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

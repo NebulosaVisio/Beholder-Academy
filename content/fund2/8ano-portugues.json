@@ -1,0 +1,1016 @@
+{
+  "subject": "Português",
+  "slug": "8ano-portugues",
+  "level": "Fundamental 2",
+  "grade": "8º ano",
+  "color": "var(--portugues)",
+  "icon": "book",
+  "articles": [
+    {
+      "title": "Período Simples e Composto",
+      "slug": "periodo-simples-e-composto",
+      "desc": "Período simples tem 1 oração (1 verbo). Período composto tem 2+ orações. Coordenação: orações independentes. Subordinação: oração dependente da principal.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Período simples = 1 oração (1 verbo conjugado). Período composto = 2+ orações. Coordenação: orações independentes ligadas por conjunção coordenativa (e, mas, ou, logo, pois). Subordinação: oração dependente (subordinada) + oração principal. Misto: coordenação + subordinação no mesmo período.",
+      "body": "<h2>Introdução</h2>\n<p>Todo texto é formado por <strong>períodos</strong> — frases que contêm pelo menos um verbo. O período pode ser <strong>simples</strong> (1 oração) ou <strong>composto</strong> (2 ou mais orações). Saber classificá-los é o primeiro passo para entender a análise de orações coordenadas e subordinadas.</p>\n\n<h2>Período Simples</h2>\n<p>Possui <strong>uma única oração</strong> (um verbo conjugado):</p>\n<ul>\n<li>\"O aluno <strong>estudou</strong>.\" (1 verbo = 1 oração = período simples)</li>\n<li>\"A chuva forte <strong>causou</strong> alagamentos na cidade.\" (1 verbo)</li>\n</ul>\n\n<h2>Período Composto</h2>\n<p>Possui <strong>duas ou mais orações</strong> (dois ou mais verbos conjugados):</p>\n<p>\"O aluno <strong>estudou</strong> e <strong>passou</strong>.\" (2 verbos = 2 orações = período composto)</p>\n\n<h3>Por Coordenação</h3>\n<p>As orações são <strong>independentes</strong> — cada uma tem sentido completo:</p>\n<p>\"<strong>Estudei</strong>, <strong>mas</strong> não <strong>passei</strong>.\" → \"Estudei\" e \"não passei\" funcionam sozinhas.</p>\n\n<h3>Por Subordinação</h3>\n<p>Uma oração <strong>depende</strong> da outra para ter sentido:</p>\n<p>\"<strong>Espero</strong> que você <strong>estude</strong>.\" → \"que você estude\" não funciona sozinha.</p>\n\n<h3>Misto</h3>\n<p>Combina coordenação e subordinação no mesmo período.</p>\n\n<h2>Como Contar Orações</h2>\n<p>Conte os <strong>verbos conjugados</strong> (e locuções verbais):</p>\n<table>\n<thead><tr><th>Período</th><th>Verbos</th><th>Orações</th><th>Tipo</th></tr></thead>\n<tbody>\n<tr><td>O aluno estudou.</td><td>1</td><td>1</td><td>Simples</td></tr>\n<tr><td>Estudei e passei.</td><td>2</td><td>2</td><td>Composto por coordenação</td></tr>\n<tr><td>Espero que estude.</td><td>2</td><td>2</td><td>Composto por subordinação</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Período simples</strong> = 1 oração = 1 verbo conjugado.</li>\n<li>✅ <strong>Período composto</strong> = 2+ orações = 2+ verbos conjugados.</li>\n<li>✅ <strong>Coordenação:</strong> orações independentes.</li>\n<li>✅ <strong>Subordinação:</strong> oração depende da principal.</li>\n<li>⚠️ <strong>Dica:</strong> Conte os verbos conjugados para saber quantas orações existem.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>Na redação do ENEM, usar <strong>períodos compostos</strong> com variação de coordenação e subordinação é visto como sinal de maturidade linguística. Textos com apenas períodos simples soam infantis e repetitivos. Variar é a chave!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre período simples e composto?",
+          "a": "Período simples tem 1 oração (1 verbo conjugado). Período composto tem 2 ou mais orações (2+ verbos). Exemplo: 'O aluno estudou' (simples) vs 'O aluno estudou e passou' (composto)."
+        },
+        {
+          "q": "O que é coordenação?",
+          "a": "É quando as orações do período composto são independentes — cada uma tem sentido completo sozinha. São ligadas por conjunções coordenativas (e, mas, ou, logo). Exemplo: 'Estudei, mas não passei'."
+        },
+        {
+          "q": "O que é subordinação?",
+          "a": "É quando uma oração depende da outra para ter sentido. A subordinada funciona como termo da principal. Exemplo: 'Espero que você estude' — 'que você estude' não funciona sozinha."
+        },
+        {
+          "q": "Como contar orações em um período?",
+          "a": "Conte os verbos conjugados (e locuções verbais como 'tenho estudado'). Cada verbo/locução = 1 oração. 'Estudei e passei' = 2 verbos = 2 orações = período composto."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'O aluno estudou muito.' Este período é:",
+          "options": [
+            "Composto por coordenação",
+            "Composto por subordinação",
+            "Simples",
+            "Misto"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Quantas orações há em 'Espero que você estude'?",
+          "options": [
+            "1",
+            "2",
+            "3",
+            "4"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na coordenação, as orações são:",
+          "options": [
+            "Dependentes",
+            "Independentes",
+            "Subordinadas",
+            "Relativas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Para contar orações, devemos contar:",
+          "options": [
+            "Substantivos",
+            "Vírgulas",
+            "Verbos conjugados",
+            "Preposições"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Orações Coordenadas",
+      "slug": "oracoes-coordenadas",
+      "desc": "Orações coordenadas são independentes no período composto. Sindéticas: ligadas por conjunção (aditiva, adversativa, alternativa, conclusiva, explicativa). Assindéticas: sem conjunção, separadas por vírgula.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Assindéticas: sem conjunção (Cheguei, vi, venci). Sindéticas: com conjunção. 5 tipos: Aditiva (e, nem) = soma. Adversativa (mas, porém, contudo) = oposição. Alternativa (ou, ora...ora) = alternância. Conclusiva (logo, portanto) = conclusão. Explicativa (pois antes do verbo, porque) = justificativa.",
+      "body": "<h2>Introdução</h2>\n<p>As <strong>orações coordenadas</strong> são orações <strong>independentes</strong> dentro de um período composto. Cada uma tem sentido completo sozinha. Podem ser <strong>assindéticas</strong> (sem conjunção) ou <strong>sindéticas</strong> (com conjunção).</p>\n\n<h2>Assindéticas</h2>\n<p>Ligadas apenas por <strong>vírgula</strong>, sem conjunção:</p>\n<p><em>\"Cheguei, vi, venci.\"</em> → 3 orações independentes, sem conjunção.</p>\n\n<h2>Sindéticas (5 tipos)</h2>\n<table>\n<thead><tr><th>Tipo</th><th>Ideia</th><th>Conjunções</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Aditiva</strong></td><td>Soma</td><td>e, nem, não só...mas também</td><td>Estudou <strong>e</strong> passou.</td></tr>\n<tr><td><strong>Adversativa</strong></td><td>Oposição</td><td>mas, porém, contudo, todavia</td><td>Estudou, <strong>mas</strong> não passou.</td></tr>\n<tr><td><strong>Alternativa</strong></td><td>Alternância</td><td>ou, ou...ou, ora...ora</td><td>Estude <strong>ou</strong> reprove.</td></tr>\n<tr><td><strong>Conclusiva</strong></td><td>Conclusão</td><td>logo, portanto, por isso</td><td>Estudou, <strong>logo</strong> passou.</td></tr>\n<tr><td><strong>Explicativa</strong></td><td>Justificativa</td><td>pois (antes), porque, que</td><td>Estude, <strong>pois</strong> a prova é amanhã.</td></tr>\n</tbody>\n</table>\n\n<h2>Diferença: Conclusiva vs Explicativa</h2>\n<p>Essa distinção é uma das mais cobradas em provas:</p>\n<ul>\n<li><strong>Conclusiva:</strong> a 2ª oração é CONSEQUÊNCIA da 1ª: \"Estudou muito, <strong>logo</strong> passou.\"</li>\n<li><strong>Explicativa:</strong> a 2ª oração JUSTIFICA a 1ª: \"Estude, <strong>pois</strong> a prova é amanhã.\"</li>\n</ul>\n<p>💡 <strong>Dica:</strong> Na explicativa, a 1ª oração geralmente tem verbo no imperativo (\"Estude\", \"Venha\", \"Faça\").</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Assindéticas:</strong> sem conjunção (Cheguei, vi, venci).</li>\n<li>✅ <strong>Sindéticas:</strong> 5 tipos com conjunção (aditiva, adversativa, alternativa, conclusiva, explicativa).</li>\n<li>✅ <strong>\"Pois\"</strong> antes do verbo = explicativa; após = conclusiva.</li>\n<li>⚠️ Conclusiva: 2ª é consequência. Explicativa: 2ª justifica.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A frase <strong>\"Vim, vi, venci\"</strong> (<em>Veni, vidi, vici</em>) é atribuída a Júlio César, general romano, após uma batalha rápida em 47 a.C. Ela é formada por 3 orações coordenadas assindéticas — sem nenhuma conjunção. É um dos exemplos mais famosos de coordenação na história!</p>",
+      "faq": [
+        {
+          "q": "O que é oração coordenada assindética?",
+          "a": "É uma oração coordenada ligada às demais apenas por vírgula, sem conjunção. Exemplo: 'Cheguei, vi, venci' — três orações independentes separadas por vírgula."
+        },
+        {
+          "q": "Qual a diferença entre conclusiva e explicativa?",
+          "a": "Na conclusiva, a 2ª oração é consequência da 1ª: 'Estudou, logo passou'. Na explicativa, a 2ª justifica a 1ª: 'Estude, pois a prova é amanhã'. Dica: na explicativa, a 1ª oração geralmente tem verbo no imperativo."
+        },
+        {
+          "q": "Quantos tipos de coordenadas sindéticas existem?",
+          "a": "5 tipos: aditiva (e, nem), adversativa (mas, porém), alternativa (ou), conclusiva (logo, portanto) e explicativa (pois antes do verbo, porque). Cada tipo indica uma relação de sentido diferente entre as orações."
+        },
+        {
+          "q": "As orações coordenadas são independentes?",
+          "a": "Sim! Essa é sua característica principal. Cada oração coordenada tem sentido completo sozinha. Diferente das subordinadas, que dependem da principal para fazer sentido."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Cheguei, vi, venci.' As orações são coordenadas:",
+          "options": [
+            "Sindéticas aditivas",
+            "Assindéticas",
+            "Sindéticas adversativas",
+            "Subordinadas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Estude, pois a prova é amanhã.' A 2ª oração é:",
+          "options": [
+            "Conclusiva",
+            "Adversativa",
+            "Explicativa",
+            "Alternativa"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'Estudou, mas não passou.' A conjunção 'mas' indica:",
+          "options": [
+            "Adição",
+            "Oposição",
+            "Conclusão",
+            "Alternância"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Segundo o artigo, na conclusiva a 2ª oração é:",
+          "options": [
+            "Justificativa da 1ª",
+            "Consequência da 1ª",
+            "Oposta à 1ª",
+            "Igual à 1ª"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Orações Subordinadas Substantivas",
+      "slug": "oracoes-subordinadas-substantivas",
+      "desc": "Orações subordinadas substantivas exercem função de substantivo na oração principal. 6 tipos: subjetiva, objetiva direta, objetiva indireta, completiva nominal, predicativa, apositiva.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Subordinada substantiva = oração com função de substantivo. 6 tipos: Subjetiva (É necessário QUE estude = sujeito). Objetiva direta (Espero QUE passe = OD). Objetiva indireta (Lembro-me DE QUE falou = OI). Completiva nominal (Tenho certeza DE QUE passará = CN). Predicativa (A verdade é QUE errei = predicativo). Apositiva (Quero uma coisa: QUE passe = aposto).",
+      "body": "<h2>Introdução</h2>\n<p>As <strong>orações subordinadas substantivas</strong> são orações que exercem a <strong>função de um substantivo</strong> dentro da oração principal. Ou seja, ocupam o lugar que seria de um nome — como sujeito, objeto, complemento, etc.</p>\n<p>Este conteúdo é estudado no 8º ano e é cobrado em análise de período composto no ENEM e vestibulares.</p>\n\n<h2>Os 6 Tipos</h2>\n<p>A classificação depende da <strong>função que a subordinada exerce</strong> na principal:</p>\n\n<h3>1. Subjetiva (= sujeito)</h3>\n<p>A oração funciona como <strong>sujeito</strong> da principal:</p>\n<p><em>\"É necessário <strong>que todos estudem</strong>.\"</em> → O que é necessário? = que todos estudem (sujeito)</p>\n\n<h3>2. Objetiva Direta (= OD)</h3>\n<p>Funciona como <strong>objeto direto</strong>:</p>\n<p><em>\"Espero <strong>que você passe</strong>.\"</em> → Espero o quê? = que você passe (OD)</p>\n\n<h3>3. Objetiva Indireta (= OI)</h3>\n<p>Funciona como <strong>objeto indireto</strong> (com preposição):</p>\n<p><em>\"Lembro-me <strong>de que ele falou</strong>.\"</em> → Lembro-me de quê? = de que ele falou (OI)</p>\n\n<h3>4. Completiva Nominal (= CN)</h3>\n<p>Completa o sentido de um <strong>nome</strong> (substantivo, adjetivo):</p>\n<p><em>\"Tenho certeza <strong>de que ele passará</strong>.\"</em> → Certeza de quê? = de que passará</p>\n\n<h3>5. Predicativa (= predicativo)</h3>\n<p>Funciona como <strong>predicativo do sujeito</strong>:</p>\n<p><em>\"A verdade é <strong>que eu errei</strong>.\"</em> → A verdade é o quê? = que eu errei</p>\n\n<h3>6. Apositiva (= aposto)</h3>\n<p>Funciona como <strong>aposto</strong> (geralmente após dois pontos):</p>\n<p><em>\"Só quero uma coisa: <strong>que você passe</strong>.\"</em></p>\n\n<h2>Quadro Resumo</h2>\n<table>\n<thead><tr><th>Tipo</th><th>Função</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td>Subjetiva</td><td>Sujeito</td><td>É necessário que estude.</td></tr>\n<tr><td>Obj. Direta</td><td>OD</td><td>Espero que passe.</td></tr>\n<tr><td>Obj. Indireta</td><td>OI</td><td>Lembro-me de que falou.</td></tr>\n<tr><td>Completiva Nominal</td><td>CN</td><td>Tenho certeza de que passará.</td></tr>\n<tr><td>Predicativa</td><td>Predicativo</td><td>A verdade é que errei.</td></tr>\n<tr><td>Apositiva</td><td>Aposto</td><td>Quero uma coisa: que passe.</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Substantivas exercem <strong>função de substantivo</strong>.</li>\n<li>✅ Introduzidas por <strong>\"que\"</strong> ou <strong>\"se\"</strong> (conjunções integrantes).</li>\n<li>✅ <strong>Dica:</strong> substitua a oração por \"ISSO\". Se funcionar, é substantiva.</li>\n<li>⚠️ \"É necessário ISSO\" = subjetiva. \"Espero ISSO\" = obj. direta.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>As conjunções integrantes \"que\" e \"se\" são as palavras que mais aparecem em provas de análise de período composto. Uma dica infalível: se a oração começa com \"que\" ou \"se\" e pode ser substituída por \"isso\", ela é subordinada substantiva. Se começa com \"que\" e modifica um substantivo, é adjetiva!</p>",
+      "faq": [
+        {
+          "q": "O que é oração subordinada substantiva?",
+          "a": "É uma oração que exerce função de substantivo na principal. Pode ser sujeito, OD, OI, complemento nominal, predicativo ou aposto. É introduzida pelas conjunções integrantes 'que' ou 'se'."
+        },
+        {
+          "q": "Como identificar uma subordinada substantiva?",
+          "a": "Substitua a oração por 'ISSO'. Se funcionar, é substantiva: 'Espero que passe' → 'Espero ISSO' (funciona = objetiva direta). 'É necessário que estude' → 'ISSO é necessário' (funciona = subjetiva)."
+        },
+        {
+          "q": "Qual a diferença entre objetiva direta e indireta?",
+          "a": "A objetiva direta funciona como OD (sem preposição): 'Espero que passe'. A objetiva indireta funciona como OI (com preposição): 'Lembro-me DE que falou'. A presença da preposição antes do 'que' determina."
+        },
+        {
+          "q": "O que são conjunções integrantes?",
+          "a": "São 'que' e 'se'. Introduzem orações subordinadas substantivas: 'Espero QUE passe' (certeza), 'Não sei SE ele vem' (dúvida). Diferem do pronome relativo 'que', que introduz subordinadas adjetivas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Espero que você passe.' A oração 'que você passe' é:",
+          "options": [
+            "Subjetiva",
+            "Objetiva direta",
+            "Predicativa",
+            "Apositiva"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A dica do artigo para identificar substantivas é substituir por:",
+          "options": [
+            "ELE",
+            "ISSO",
+            "LÁ",
+            "ASSIM"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'É necessário que todos estudem.' A subordinada é:",
+          "options": [
+            "Objetiva direta",
+            "Subjetiva",
+            "Completiva nominal",
+            "Predicativa"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "As conjunções integrantes são:",
+          "options": [
+            "e, mas, ou",
+            "que, se",
+            "quem, qual",
+            "onde, como"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Orações Subordinadas Adjetivas",
+      "slug": "oracoes-subordinadas-adjetivas",
+      "desc": "Subordinadas adjetivas funcionam como adjetivo, modificando um substantivo. Introduzidas por pronomes relativos (que, o qual, cujo). Restritivas: sem vírgula (restringem). Explicativas: com vírgula (explicam).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Subordinadas adjetivas = orações com função de adjetivo. Introduzidas por pronomes relativos (que, o qual, cujo, onde, quem). Restritivas: SEM vírgula, restringem o sentido (O aluno que estudou passou = apenas esse). Explicativas: COM vírgula, acrescentam informação (O aluno, que é dedicado, passou = todos sabem). A vírgula MUDA o sentido!",
+      "body": "<h2>Introdução</h2>\n<p>As <strong>orações subordinadas adjetivas</strong> funcionam como <strong>adjetivos</strong>, modificando um substantivo da oração principal. São introduzidas por <strong>pronomes relativos</strong> (que, o qual, cujo, onde, quem).</p>\n<p>A grande questão é: <strong>restritiva ou explicativa</strong>? A diferença — marcada pela vírgula — muda completamente o sentido.</p>\n\n<h2>Restritivas (sem vírgula)</h2>\n<p><strong>Restringem</strong> o sentido do substantivo, delimitando de qual ser falamos:</p>\n<p><em>\"Os alunos <strong>que estudaram</strong> passaram.\"</em> → Só os que estudaram passaram (os outros não).</p>\n\n<h2>Explicativas (com vírgula)</h2>\n<p><strong>Acrescentam</strong> informação acessória, sem restringir:</p>\n<p><em>\"Os alunos<strong>, que estudaram,</strong> passaram.\"</em> → Todos os alunos passaram. O fato de terem estudado é informação extra.</p>\n\n<h2>A Vírgula Muda Tudo!</h2>\n<table>\n<thead><tr><th>Frase</th><th>Tipo</th><th>Sentido</th></tr></thead>\n<tbody>\n<tr><td>Os alunos <strong>que estudaram</strong> passaram.</td><td>Restritiva</td><td>Só os que estudaram passaram.</td></tr>\n<tr><td>Os alunos<strong>, que estudaram,</strong> passaram.</td><td>Explicativa</td><td>Todos passaram (e todos estudaram).</td></tr>\n</tbody>\n</table>\n\n<h2>Pronomes Relativos</h2>\n<table>\n<thead><tr><th>Pronome</th><th>Substitui</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>que</strong></td><td>Coisas e pessoas</td><td>O livro <strong>que</strong> li...</td></tr>\n<tr><td><strong>o qual / a qual</strong></td><td>Coisas e pessoas (formal)</td><td>O livro <strong>o qual</strong> li...</td></tr>\n<tr><td><strong>cujo / cuja</strong></td><td>Posse (de quem)</td><td>O aluno <strong>cujo</strong> pai veio...</td></tr>\n<tr><td><strong>onde</strong></td><td>Lugar</td><td>A cidade <strong>onde</strong> moro...</td></tr>\n<tr><td><strong>quem</strong></td><td>Pessoa (com preposição)</td><td>O professor <strong>a quem</strong> me refiro...</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Restritiva</strong> = sem vírgula (restringe, delimita).</li>\n<li>✅ <strong>Explicativa</strong> = com vírgula (explica, acrescenta).</li>\n<li>✅ Introduzidas por <strong>pronomes relativos</strong> (que, o qual, cujo, onde, quem).</li>\n<li>⚠️ A <strong>vírgula</strong> muda completamente o sentido da frase!</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>O pronome relativo \"<strong>cujo</strong>\" está em extinção na fala brasileira — quase ninguém o usa no dia a dia. Na fala, dizemos \"O aluno que o pai dele veio\". Mas na escrita formal, \"cujo\" é obrigatório: \"O aluno <strong>cujo</strong> pai veio\". Em provas, saber usar \"cujo\" corretamente é um diferencial!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre restritiva e explicativa?",
+          "a": "Restritiva (sem vírgula) restringe o sentido: 'Os alunos que estudaram passaram' — só esses. Explicativa (com vírgula) acrescenta informação: 'Os alunos, que estudaram, passaram' — todos passaram. A vírgula muda o sentido!"
+        },
+        {
+          "q": "O que são pronomes relativos?",
+          "a": "São palavras que introduzem orações adjetivas e retomam um termo anterior: que, o qual/a qual, cujo/cuja, onde, quem. 'O livro que li' — 'que' retoma 'livro'. Sempre se referem a um antecedente."
+        },
+        {
+          "q": "Quando usar 'cujo'?",
+          "a": "'Cujo' indica posse e concorda com o termo posterior (não com o anterior): 'O aluno cujo pai veio' (o pai DO aluno). Nunca use artigo depois de 'cujo': 'cujo o pai' está errado."
+        },
+        {
+          "q": "A vírgula realmente muda o sentido das adjetivas?",
+          "a": "Sim, completamente! 'Os funcionários que são competentes merecem aumento' (restritiva: só os competentes). 'Os funcionários, que são competentes, merecem aumento' (explicativa: todos são competentes e merecem)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Os alunos que estudaram passaram.' Esta oração é:",
+          "options": [
+            "Coordenada",
+            "Subordinada adjetiva restritiva",
+            "Subordinada adjetiva explicativa",
+            "Subordinada substantiva"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A diferença entre restritiva e explicativa é marcada por:",
+          "options": [
+            "Conjunção",
+            "Verbo",
+            "Vírgula",
+            "Preposição"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'Cujo' indica:",
+          "options": [
+            "Lugar",
+            "Tempo",
+            "Posse",
+            "Causa"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Pronomes relativos introduzem orações:",
+          "options": [
+            "Coordenadas",
+            "Subordinadas substantivas",
+            "Subordinadas adjetivas",
+            "Principais"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Orações Subordinadas Adverbiais",
+      "slug": "oracoes-subordinadas-adverbiais",
+      "desc": "Subordinadas adverbiais funcionam como advérbio, expressando circunstância. 9 tipos: causal, condicional, temporal, concessiva, comparativa, conformativa, consecutiva, final, proporcional.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "9 tipos de subordinadas adverbiais: Causal (porque, visto que) = causa. Condicional (se, caso) = condição. Temporal (quando, enquanto) = tempo. Concessiva (embora, apesar de que) = contraste. Comparativa (como, mais que) = comparação. Conformativa (conforme, segundo) = conformidade. Consecutiva (tão...que, tanto...que) = consequência. Final (para que, a fim de que) = finalidade. Proporcional (à medida que, à proporção que).",
+      "body": "<h2>Introdução</h2>\n<p>As <strong>orações subordinadas adverbiais</strong> funcionam como <strong>advérbios</strong>, expressando <strong>circunstâncias</strong> em relação à oração principal: causa, condição, tempo, concessão, etc. São 9 tipos — e reconhecê-los é fundamental para análise de período composto.</p>\n\n<h2>Os 9 Tipos</h2>\n<table>\n<thead><tr><th>Tipo</th><th>Ideia</th><th>Conjunções</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Causal</strong></td><td>Causa</td><td>porque, visto que, já que, uma vez que</td><td>Faltou <strong>porque</strong> estava doente.</td></tr>\n<tr><td><strong>Condicional</strong></td><td>Condição</td><td>se, caso, desde que, contanto que</td><td><strong>Se</strong> estudar, passará.</td></tr>\n<tr><td><strong>Temporal</strong></td><td>Tempo</td><td>quando, enquanto, assim que, logo que</td><td><strong>Quando</strong> cheguei, ele saiu.</td></tr>\n<tr><td><strong>Concessiva</strong></td><td>Contraste</td><td>embora, apesar de que, ainda que, mesmo que</td><td><strong>Embora</strong> chovesse, saiu.</td></tr>\n<tr><td><strong>Comparativa</strong></td><td>Comparação</td><td>como, (mais/menos) que, tal qual</td><td>Estudou <strong>como</strong> nunca.</td></tr>\n<tr><td><strong>Conformativa</strong></td><td>Conformidade</td><td>conforme, segundo, como, consoante</td><td><strong>Conforme</strong> combinamos, ...</td></tr>\n<tr><td><strong>Consecutiva</strong></td><td>Consequência</td><td>tão...que, tanto...que, tal...que</td><td>Estudou <strong>tanto que</strong> passou.</td></tr>\n<tr><td><strong>Final</strong></td><td>Finalidade</td><td>para que, a fim de que</td><td>Estude <strong>para que</strong> passe.</td></tr>\n<tr><td><strong>Proporcional</strong></td><td>Proporção</td><td>à medida que, à proporção que</td><td><strong>À medida que</strong> estuda, aprende.</td></tr>\n</tbody>\n</table>\n\n<h2>Confusões Comuns</h2>\n<ul>\n<li><strong>Causal vs Explicativa (coordenada):</strong> causal = subordinada; explicativa = coordenada. Dica: a causal pode ser deslocada (\"Porque choveu, não saiu\"); a explicativa não.</li>\n<li><strong>Concessiva vs Adversativa:</strong> ambas expressam oposição, mas a concessiva é subordinada (\"embora\") e a adversativa é coordenada (\"mas\").</li>\n</ul>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>9 tipos:</strong> causal, condicional, temporal, concessiva, comparativa, conformativa, consecutiva, final, proporcional.</li>\n<li>✅ Identificar pela <strong>conjunção subordinativa</strong>.</li>\n<li>✅ <strong>Embora</strong> = concessiva. <strong>Se</strong> = condicional. <strong>Porque</strong> = causal.</li>\n<li>⚠️ Causal ≠ explicativa (coordenada). Concessiva ≠ adversativa (coordenada).</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A conjunção \"embora\" originalmente significava \"em boa hora\" — uma expressão de despedida (\"Vá embora!\"). Com o tempo, adquiriu o sentido concessivo de \"apesar de\". A língua portuguesa está cheia dessas transformações surpreendentes de significado ao longo dos séculos!</p>",
+      "faq": [
+        {
+          "q": "Quantos tipos de subordinadas adverbiais existem?",
+          "a": "9 tipos: causal, condicional, temporal, concessiva, comparativa, conformativa, consecutiva, final e proporcional. Cada tipo indica uma circunstância diferente em relação à oração principal."
+        },
+        {
+          "q": "Qual a diferença entre causal e explicativa?",
+          "a": "A causal é subordinada e pode ser deslocada: 'Porque choveu, não saiu'. A explicativa é coordenada e não pode: 'Não saia, porque vai chover' (justifica um conselho/ordem). Na causal, há relação de causa-consequência; na explicativa, de justificativa."
+        },
+        {
+          "q": "O que é oração concessiva?",
+          "a": "Expressa um fato contrário ao da principal, que não impede sua realização: 'Embora chovesse, saiu' (chuva não impediu). Conjunções: embora, apesar de que, ainda que, mesmo que. 'Embora' é a mais comum em provas."
+        },
+        {
+          "q": "Como diferenciar concessiva de adversativa?",
+          "a": "Ambas expressam oposição, mas a concessiva é subordinada (embora, ainda que) e a adversativa é coordenada (mas, porém). 'Embora chovesse, saiu' (concessiva). 'Choveu, mas saiu' (adversativa). O sentido é similar, mas a estrutura é diferente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Se estudar, passará.' A oração 'se estudar' é:",
+          "options": [
+            "Causal",
+            "Condicional",
+            "Temporal",
+            "Final"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Embora' introduz oração:",
+          "options": [
+            "Causal",
+            "Condicional",
+            "Concessiva",
+            "Conformativa"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Segundo o artigo, quantos tipos de adverbiais existem?",
+          "options": [
+            "5",
+            "7",
+            "9",
+            "11"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'Estudou tanto que passou.' A oração 'que passou' é:",
+          "options": [
+            "Final",
+            "Causal",
+            "Consecutiva",
+            "Comparativa"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Vozes Verbais",
+      "slug": "vozes-verbais",
+      "desc": "3 vozes verbais: ativa (sujeito pratica ação), passiva (sujeito sofre ação), reflexiva (sujeito pratica e sofre). Passiva analítica (ser + particípio) e sintética (verbo + SE).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Voz ativa: sujeito pratica a ação (O aluno leu o livro). Voz passiva: sujeito sofre a ação (O livro foi lido pelo aluno). Passiva analítica: ser/estar + particípio (foi lido). Passiva sintética: verbo + SE (Leu-se o livro). Voz reflexiva: sujeito pratica e sofre (Ele se cortou). Agente da passiva: quem pratica na passiva (pelo aluno).",
+      "body": "<h2>Introdução</h2>\n<p>As <strong>vozes verbais</strong> indicam a relação entre o sujeito e a ação do verbo. O sujeito <strong>pratica</strong> a ação? <strong>Sofre</strong> a ação? Ou ambos? Saber transformar frases entre as vozes é fundamental para interpretação e produção textual.</p>\n\n<h2>As 3 Vozes</h2>\n<table>\n<thead><tr><th>Voz</th><th>Sujeito</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Ativa</strong></td><td>Pratica a ação</td><td><strong>O aluno</strong> leu o livro.</td></tr>\n<tr><td><strong>Passiva</strong></td><td>Sofre a ação</td><td><strong>O livro</strong> foi lido pelo aluno.</td></tr>\n<tr><td><strong>Reflexiva</strong></td><td>Pratica e sofre</td><td><strong>Ele</strong> se cortou.</td></tr>\n</tbody>\n</table>\n\n<h2>Passiva Analítica vs Sintética</h2>\n<table>\n<thead><tr><th>Tipo</th><th>Formação</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Analítica</strong></td><td>ser/estar + particípio</td><td>O livro <strong>foi lido</strong> pelo aluno.</td></tr>\n<tr><td><strong>Sintética</strong></td><td>verbo + SE</td><td><strong>Leu-se</strong> o livro.</td></tr>\n</tbody>\n</table>\n\n<h2>Conversão Ativa → Passiva</h2>\n<ol>\n<li>O <strong>OD</strong> da ativa vira <strong>sujeito</strong> da passiva</li>\n<li>O <strong>verbo</strong> recebe o auxiliar \"ser\" + particípio</li>\n<li>O <strong>sujeito</strong> da ativa vira <strong>agente da passiva</strong> (com \"por/pelo\")</li>\n</ol>\n<p><strong>Ativa:</strong> O professor <strong>corrigiu</strong> as provas.</p>\n<p><strong>Passiva:</strong> As provas <strong>foram corrigidas</strong> pelo professor.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Ativa:</strong> sujeito pratica (O aluno leu).</li>\n<li>✅ <strong>Passiva:</strong> sujeito sofre (O livro foi lido).</li>\n<li>✅ <strong>Reflexiva:</strong> sujeito pratica e sofre (Ele se cortou).</li>\n<li>✅ Passiva analítica: ser + particípio. Sintética: verbo + SE.</li>\n<li>⚠️ Nem todo \"SE\" é passiva sintética. \"Precisa-<strong>se</strong>\" pode ser índice de indeterminação!</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>Em textos jornalísticos, a voz passiva é muito usada para <strong>ocultar o agente</strong>: \"Foram encontrados erros no sistema\" — quem encontrou? A passiva permite não dizer. Já em textos científicos, a passiva é preferida por soar mais impessoal: \"Os dados foram analisados\" em vez de \"Eu analisei os dados\".</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre voz ativa e passiva?",
+          "a": "Na ativa, o sujeito pratica a ação: 'O aluno leu o livro'. Na passiva, o sujeito sofre a ação: 'O livro foi lido pelo aluno'. O objeto da ativa vira sujeito da passiva."
+        },
+        {
+          "q": "O que é passiva sintética?",
+          "a": "É a passiva formada com verbo + pronome SE: 'Venderam-se casas' (= casas foram vendidas). O SE funciona como partícula apassivadora. Importante: o verbo concorda com o sujeito paciente."
+        },
+        {
+          "q": "Como transformar ativa em passiva?",
+          "a": "1) OD da ativa vira sujeito. 2) Verbo recebe 'ser' + particípio. 3) Sujeito da ativa vira agente da passiva (por/pelo). Ex: 'O aluno leu o livro' → 'O livro foi lido pelo aluno'."
+        },
+        {
+          "q": "O que é agente da passiva?",
+          "a": "É o termo que indica quem pratica a ação na voz passiva, introduzido por 'por/pelo': 'O livro foi lido PELO ALUNO'. Na ativa, esse termo seria o sujeito."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'O livro foi lido pelo aluno.' A voz é:",
+          "options": [
+            "Ativa",
+            "Passiva analítica",
+            "Passiva sintética",
+            "Reflexiva"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na conversão para passiva, o OD da ativa vira:",
+          "options": [
+            "Agente da passiva",
+            "Objeto indireto",
+            "Sujeito",
+            "Predicativo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'Ele se cortou.' A voz é:",
+          "options": [
+            "Ativa",
+            "Passiva",
+            "Reflexiva",
+            "Recíproca"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A passiva sintética é formada por:",
+          "options": [
+            "Ser + particípio",
+            "Verbo + SE",
+            "Ter + particípio",
+            "Estar + gerúndio"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Crase: Regras Completas",
+      "slug": "crase-regras-completas",
+      "desc": "Crase é a fusão da preposição 'a' com o artigo 'a'. Ocorre antes de palavras femininas. Dica: troque por 'ao' no masculino. Casos obrigatórios, facultativos e proibidos.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Crase (à) = preposição 'a' + artigo 'a'. Dica infalível: troque a palavra feminina pela masculina. Se aparecer 'ao', tem crase: 'Fui à escola' (fui ao colégio ✅). Obrigatória: locuções femininas (à noite, à direita, às vezes). Proibida: antes de masculino, verbo, pronomes pessoais, 'a' no singular + plural. Facultativa: antes de nomes próprios femininos e pronomes possessivos.",
+      "body": "<h2>Introdução</h2>\n<p>A <strong>crase</strong> é a fusão da preposição \"<strong>a</strong>\" com o artigo definido feminino \"<strong>a</strong>\": a + a = <strong>à</strong>. É indicada pelo <strong>acento grave</strong> (). Muitos estudantes têm medo da crase, mas ela segue regras claras — e há uma dica infalível.</p>\n\n<h2>A Dica do \"AO\"</h2>\n<p>Troque a palavra feminina por uma <strong>masculina</strong>. Se aparecer \"<strong>ao</strong>\", tem crase:</p>\n<ul>\n<li>\"Fui <strong>à</strong> escola.\" → \"Fui <strong>ao</strong> colégio.\" ✅ Tem crase!</li>\n<li>\"Fui <strong>a</strong> Salvador.\" → \"Fui <strong>a</strong> Recife.\" ✅ Sem crase!</li>\n</ul>\n\n<h2>Quando Usar (Obrigatório)</h2>\n<ul>\n<li>Antes de <strong>palavras femininas</strong> que admitem artigo: \"Fui <strong>à</strong> biblioteca.\"</li>\n<li><strong>Locuções femininas:</strong> à noite, à tarde, às vezes, à direita, à esquerda, à medida que, à toa</li>\n<li><strong>Indicação de horas:</strong> \"Saio <strong>às</strong> 8 horas.\"</li>\n<li><strong>\"À moda de\"</strong> (implícito): \"Bife <strong>à</strong> milanesa\" (= à moda milanesa)</li>\n</ul>\n\n<h2>Quando NÃO Usar (Proibido)</h2>\n<ul>\n<li>Antes de <strong>palavras masculinas:</strong> \"Andou a pé.\" \"Pagou a prazo.\"</li>\n<li>Antes de <strong>verbos:</strong> \"Começou a estudar.\"</li>\n<li>Antes de <strong>pronomes pessoais:</strong> \"Disse a ela.\"</li>\n<li><strong>\"A\" singular + substantivo plural:</strong> \"Fui a festas.\" (se fosse crase: \"Fui <strong>às</strong> festas\")</li>\n<li>Entre <strong>palavras repetidas:</strong> \"cara a cara\", \"frente a frente\"</li>\n</ul>\n\n<h2>Quando é Facultativo</h2>\n<ul>\n<li>Antes de <strong>nomes próprios femininos:</strong> \"Falei a/à Maria.\"</li>\n<li>Antes de <strong>pronomes possessivos:</strong> \"Refiro-me a/à minha mãe.\"</li>\n<li>Depois de <strong>\"até\":</strong> \"Fui até a/à escola.\"</li>\n</ul>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Crase = preposição \"a\" + artigo \"a\". <strong>Dica do \"ao\"</strong>: troque por masculino.</li>\n<li>✅ <strong>Obrigatória</strong> em locuções femininas (à noite, às vezes) e horas (às 8h).</li>\n<li>✅ <strong>Proibida</strong> antes de masculino, verbo, pronomes pessoais.</li>\n<li>✅ <strong>Facultativa</strong> antes de nomes próprios femininos e possessivos.</li>\n<li>⚠️ <strong>Pegadinha:</strong> \"A\" no singular + substantivo no plural = SEM crase (\"Fui a festas\").</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A palavra \"crase\" vem do grego <em>krasis</em>, que significa \"mistura\" ou \"fusão\". O acento grave () não é exclusivo da crase — no francês, ele aparece em palavras como <em>à</em>, <em>où</em> e <em>père</em>. No português, seu único uso prático é indicar a crase!</p>",
+      "faq": [
+        {
+          "q": "Como saber se tem crase?",
+          "a": "Use a dica do 'ao': troque a palavra feminina por uma masculina. Se aparecer 'ao', tem crase. 'Fui à escola' → 'Fui ao colégio' (tem 'ao' = crase ✅). 'Fui a Salvador' → 'Fui a Recife' (sem 'ao' = sem crase)."
+        },
+        {
+          "q": "Por que não tem crase antes de verbo?",
+          "a": "Porque verbos não admitem artigo. A crase exige preposição 'a' + artigo 'a'. Se não há artigo (caso dos verbos), não pode haver crase: 'Começou a estudar' (sem crase)."
+        },
+        {
+          "q": "Quais locuções femininas sempre levam crase?",
+          "a": "À noite, à tarde, às vezes, à direita, à esquerda, à medida que, à toa, à vontade, à moda de, às pressas, às claras, à risca. São expressões fixas que sempre exigem crase."
+        },
+        {
+          "q": "Crase antes de nomes próprios femininos é obrigatória?",
+          "a": "Não, é facultativa! 'Falei a Maria' e 'Falei à Maria' estão corretas. A crase depende de se o falante usa artigo antes do nome. No Sul do Brasil, o artigo é mais comum; no Nordeste, menos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A dica para saber se tem crase, segundo o artigo, é:",
+          "options": [
+            "Trocar por 'para'",
+            "Trocar a palavra por masculina e ver se aparece 'ao'",
+            "Verificar se é substantivo",
+            "Contar as sílabas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Crase antes de verbo é:",
+          "options": [
+            "Obrigatória",
+            "Facultativa",
+            "Proibida",
+            "Opcional"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'Saio ___ 8 horas.' Complete:",
+          "options": [
+            "a",
+            "à",
+            "as",
+            "às"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "'À noite', 'às vezes' e 'à direita' são exemplos de:",
+          "options": [
+            "Crase facultativa",
+            "Locuções femininas com crase obrigatória",
+            "Crase proibida",
+            "Expressões sem crase"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Figuras de Linguagem Avançadas",
+      "slug": "figuras-de-linguagem-avancadas",
+      "desc": "Figuras de linguagem criam efeitos expressivos. De palavra: metáfora, metonímia, catacrese. De pensamento: antítese, ironia, eufemismo, hipérbole. De sintaxe: elipse, zeugma, anáfora. De som: aliteração, assonância.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 9,
+      "xp": 100,
+      "essential": "Figuras de palavra: metáfora (comparação implícita), metonímia (parte pelo todo), catacrese (metáfora cristalizada: pé da mesa). Pensamento: antítese (oposição), ironia (contrário do que pensa), eufemismo (suavizar), hipérbole (exagero). Sintaxe: elipse (omissão), zeugma (omissão de termo já dito), anáfora (repetição no início), polissíndeto (repetição de 'e'). Som: aliteração (consoantes), assonância (vogais), onomatopeia (imita sons).",
+      "body": "<h2>Introdução</h2>\n<p>As <strong>figuras de linguagem</strong> são recursos expressivos que tornam a comunicação mais rica, criativa e impactante. São fundamentais para a interpretação de textos literários e para a produção textual. No ENEM, aparecem em questões de Linguagens com frequência.</p>\n\n<h2>Figuras de Palavra (Semânticas)</h2>\n<table>\n<thead><tr><th>Figura</th><th>Definição</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Metáfora</strong></td><td>Comparação implícita (sem \"como\")</td><td>\"A vida é um <strong>palco</strong>.\"</td></tr>\n<tr><td><strong>Comparação</strong></td><td>Comparação explícita (com \"como\")</td><td>\"A vida é <strong>como</strong> um palco.\"</td></tr>\n<tr><td><strong>Metonímia</strong></td><td>Substituição por relação lógica</td><td>\"Li <strong>Machado de Assis</strong>.\" (= obra dele)</td></tr>\n<tr><td><strong>Catacrese</strong></td><td>Metáfora cristalizada pelo uso</td><td>\"<strong>Pé</strong> da mesa\", \"<strong>asa</strong> do avião\"</td></tr>\n</tbody>\n</table>\n\n<h2>Figuras de Pensamento</h2>\n<table>\n<thead><tr><th>Figura</th><th>Definição</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Antítese</strong></td><td>Oposição de ideias</td><td>\"Amor e ódio, <strong>vida e morte</strong>.\"</td></tr>\n<tr><td><strong>Paradoxo</strong></td><td>Ideias contraditórias na mesma frase</td><td>\"Eu sou um <strong>vivo morto</strong>.\"</td></tr>\n<tr><td><strong>Ironia</strong></td><td>Diz o contrário do que pensa</td><td>\"Que <strong>lindo</strong> dia!\" (chovendo)</td></tr>\n<tr><td><strong>Eufemismo</strong></td><td>Suaviza uma ideia desagradável</td><td>\"Ele <strong>partiu desta vida</strong>.\" (morreu)</td></tr>\n<tr><td><strong>Hipérbole</strong></td><td>Exagero intencional</td><td>\"Estou <strong>morrendo</strong> de fome!\"</td></tr>\n</tbody>\n</table>\n\n<h2>Figuras de Sintaxe (Construção)</h2>\n<table>\n<thead><tr><th>Figura</th><th>Definição</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Elipse</strong></td><td>Omissão de termo subentendido</td><td>\"Na sala, apenas dois alunos.\" (omitiu \"havia\")</td></tr>\n<tr><td><strong>Zeugma</strong></td><td>Omissão de termo já mencionado</td><td>\"Eu li um livro; ela, uma revista.\" (omitiu \"leu\")</td></tr>\n<tr><td><strong>Anáfora</strong></td><td>Repetição no início de frases</td><td>\"<strong>É preciso</strong> estudar. <strong>É preciso</strong> insistir.\"</td></tr>\n<tr><td><strong>Polissíndeto</strong></td><td>Repetição de conjunção</td><td>\"<strong>E</strong> corre, <strong>e</strong> pula, <strong>e</strong> grita.\"</td></tr>\n</tbody>\n</table>\n\n<h2>Figuras de Som (Fônicas)</h2>\n<table>\n<thead><tr><th>Figura</th><th>Definição</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Aliteração</strong></td><td>Repetição de consoantes</td><td>\"O <strong>r</strong>ato <strong>r</strong>oeu a <strong>r</strong>oupa do <strong>r</strong>ei.\"</td></tr>\n<tr><td><strong>Assonância</strong></td><td>Repetição de vogais</td><td>\"S<strong>au</strong>dade, s<strong>au</strong>dade, s<strong>au</strong>dade.\"</td></tr>\n<tr><td><strong>Onomatopeia</strong></td><td>Imitação de sons</td><td>\"O relógio faz <strong>tic-tac</strong>.\"</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Metáfora</strong> = comparação sem \"como\". <strong>Comparação</strong> = com \"como\".</li>\n<li>✅ <strong>Metonímia</strong> = substituição por relação (parte/todo, autor/obra).</li>\n<li>✅ <strong>Ironia</strong> = diz o contrário. <strong>Eufemismo</strong> = suaviza. <strong>Hipérbole</strong> = exagera.</li>\n<li>✅ <strong>Aliteração</strong> = consoantes. <strong>Assonância</strong> = vogais.</li>\n<li>⚠️ <strong>Antítese</strong> ≠ <strong>Paradoxo:</strong> antítese = oposição; paradoxo = contradição na mesma ideia.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A <strong>catacrese</strong> é tão natural que nem percebemos: \"embarcar\" em um avião (originalmente, entrar em uma \"barca\"), \"pé\" da mesa, \"braço\" da cadeira. São metáforas que se cristalizaram pelo uso e viraram a forma padrão de nomear as coisas!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre metáfora e comparação?",
+          "a": "Na metáfora, a comparação é implícita, sem usar 'como': 'A vida é um palco'. Na comparação, é explícita, com 'como': 'A vida é como um palco'. Ambas comparam, mas a forma é diferente."
+        },
+        {
+          "q": "O que é metonímia?",
+          "a": "É a substituição de um termo por outro com relação lógica: autor pela obra ('Li Machado de Assis' = li a obra dele), parte pelo todo ('O Brasil venceu' = a seleção), continente pelo conteúdo ('Bebi um copo' = o líquido)."
+        },
+        {
+          "q": "Qual a diferença entre antítese e paradoxo?",
+          "a": "Antítese é a oposição de ideias em termos diferentes: 'amor e ódio', 'vida e morte'. Paradoxo é a contradição dentro da mesma ideia: 'Eu sou um vivo morto'. No paradoxo, as ideias opostas coexistem no mesmo ser."
+        },
+        {
+          "q": "O que é catacrese?",
+          "a": "É uma metáfora que se cristalizou pelo uso e virou a forma padrão: 'pé da mesa', 'asa do avião', 'embarcar no avião' (barca), 'dente de alho'. Ninguém mais percebe como metáfora — é o nome oficial."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'A vida é um palco.' Esta frase é exemplo de:",
+          "options": [
+            "Comparação",
+            "Metáfora",
+            "Metonímia",
+            "Ironia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Li Machado de Assis' é exemplo de:",
+          "options": [
+            "Metáfora",
+            "Hipérbole",
+            "Metonímia",
+            "Antítese"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'O rato roeu a roupa' é exemplo de:",
+          "options": [
+            "Assonância",
+            "Onomatopeia",
+            "Aliteração",
+            "Anáfora"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Segundo o artigo, antítese e paradoxo são:",
+          "options": [
+            "A mesma coisa",
+            "Diferentes: antítese=oposição, paradoxo=contradição na mesma ideia",
+            "Figuras de som",
+            "Figuras de sintaxe"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Artigo de Opinião",
+      "slug": "generos-artigo-de-opiniao",
+      "desc": "Artigo de opinião: texto argumentativo que defende uma tese sobre tema atual. Estrutura: tese + argumentos + conclusão. Tom opinativo com base em fatos. Diferente do editorial (institucional).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Artigo de opinião: texto argumentativo assinado que defende uma tese. Estrutura: introdução (contextualização + tese) → desenvolvimento (argumentos com dados, exemplos, citações) → conclusão (retomada da tese + proposta). Diferença do editorial: artigo é assinado (opinião pessoal), editorial é institucional (voz do jornal). Linguagem: formal, persuasiva, verbos no presente.",
+      "body": "<h2>Introdução</h2>\n<p>O <strong>artigo de opinião</strong> é um texto <strong>argumentativo</strong> em que o autor defende um ponto de vista sobre um <strong>tema atual</strong> e polêmico. É publicado em jornais, revistas e blogs, sempre <strong>assinado</strong> pelo autor.</p>\n\n<h2>Estrutura</h2>\n<table>\n<thead><tr><th>Parte</th><th>Função</th></tr></thead>\n<tbody>\n<tr><td><strong>Introdução</strong></td><td>Contextualiza o tema e apresenta a tese (opinião do autor)</td></tr>\n<tr><td><strong>Desenvolvimento</strong></td><td>Argumentos que sustentam a tese (dados, exemplos, citações, comparações)</td></tr>\n<tr><td><strong>Conclusão</strong></td><td>Retomada da tese e/ou proposta de ação</td></tr>\n</tbody>\n</table>\n\n<h2>Características</h2>\n<ul>\n<li><strong>Assinado:</strong> tem autor identificado (diferente do editorial)</li>\n<li><strong>Opinativo:</strong> defende uma posição clara</li>\n<li><strong>Argumentativo:</strong> usa provas (dados, exemplos, autoridades)</li>\n<li><strong>Tema atual:</strong> aborda questões do momento</li>\n<li><strong>Linguagem:</strong> formal, persuasiva, 1ª ou 3ª pessoa</li>\n</ul>\n\n<h2>Artigo de Opinião × Editorial</h2>\n<table>\n<thead><tr><th>Aspecto</th><th>Artigo de Opinião</th><th>Editorial</th></tr></thead>\n<tbody>\n<tr><td><strong>Autoria</strong></td><td>Assinado (pessoa)</td><td>Sem assinatura (voz do jornal)</td></tr>\n<tr><td><strong>Representa</strong></td><td>Opinião pessoal</td><td>Posição institucional</td></tr>\n<tr><td><strong>Tom</strong></td><td>Pessoal</td><td>Institucional</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Artigo de opinião = <strong>texto argumentativo assinado</strong>.</li>\n<li>✅ Estrutura: <strong>tese + argumentos + conclusão</strong>.</li>\n<li>✅ Diferente do editorial: artigo é pessoal, editorial é do jornal.</li>\n<li>⚠️ Na redação do ENEM, o formato é <strong>dissertativo-argumentativo</strong> — semelhante ao artigo de opinião, mas sem marcas pessoais (sem \"eu acho\").</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>Artigos de opinião existem desde o século XVIII, quando jornais como o <em>The Spectator</em> (Londres, 1711) publicavam ensaios opinativos. No Brasil, Machado de Assis, Rui Barbosa e Rachel de Queiroz foram grandes articulistas. Hoje, as colunas de opinião são as seções mais lidas dos jornais online!</p>",
+      "faq": [
+        {
+          "q": "O que é um artigo de opinião?",
+          "a": "É um texto argumentativo assinado que defende uma tese sobre um tema atual. Publicado em jornais, revistas e blogs, usa argumentos para convencer o leitor. Estrutura: introdução com tese, desenvolvimento com argumentos e conclusão."
+        },
+        {
+          "q": "Qual a diferença entre artigo de opinião e editorial?",
+          "a": "O artigo é assinado e representa a opinião pessoal do autor. O editorial não tem assinatura e representa a posição institucional do jornal ou revista. Ambos são argumentativos, mas a autoria é diferente."
+        },
+        {
+          "q": "Artigo de opinião é igual à redação do ENEM?",
+          "a": "São parecidos (argumentativos com tese + argumentos + conclusão), mas diferentes: no ENEM, o texto é dissertativo-argumentativo impessoal (sem 'eu acho'). O artigo de opinião permite marcas pessoais e 1ª pessoa."
+        },
+        {
+          "q": "Quais tipos de argumentos podem ser usados?",
+          "a": "Dados estatísticos, exemplos concretos, citações de autoridades, comparações, analogias, fatos históricos e argumentos de causa/consequência. Quanto mais variados os argumentos, mais convincente o texto."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O artigo de opinião é:",
+          "options": [
+            "Não assinado",
+            "Sempre institucional",
+            "Assinado pelo autor",
+            "Sem argumentos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A estrutura do artigo de opinião é:",
+          "options": [
+            "Narração + clímax + desfecho",
+            "Tese + argumentos + conclusão",
+            "Perguntas + respostas",
+            "Verso + estrofe + rima"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O editorial se diferencia do artigo porque:",
+          "options": [
+            "É mais longo",
+            "Não é assinado e representa a voz do jornal",
+            "Não tem argumentos",
+            "É sempre humorístico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na redação do ENEM, diferente do artigo de opinião:",
+          "options": [
+            "Usa-se 1ª pessoa livremente",
+            "Não se usa argumentos",
+            "Deve-se evitar marcas pessoais",
+            "Não tem conclusão"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Resenha e Resumo",
+      "slug": "generos-resenha-e-resumo",
+      "desc": "Resumo condensa informações mantendo as ideias essenciais. Resenha = resumo + opinião crítica do autor. Resenha acadêmica avalia obras (livros, filmes, artigos) com fundamentação.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Resumo: condensar informações essenciais de um texto/obra, em 3ª pessoa, sem opinião. Resenha: resumo + avaliação crítica fundamentada. Tipos: descritiva (sem opinião) e crítica (com avaliação). Estrutura da resenha: dados da obra + resumo + análise crítica + recomendação. Linguagem: formal, objetiva, 3ª pessoa.",
+      "body": "<h2>Introdução</h2>\n<p>O <strong>resumo</strong> e a <strong>resenha</strong> são gêneros essenciais na vida acadêmica. Ambos trabalham com a síntese de informações, mas a resenha vai além: inclui uma <strong>avaliação crítica</strong>.</p>\n\n<h2>Resumo</h2>\n<ul>\n<li><strong>Objetivo:</strong> condensar as informações essenciais de um texto</li>\n<li><strong>Linguagem:</strong> 3ª pessoa, objetiva, sem opinião pessoal</li>\n<li><strong>Tamanho:</strong> geralmente 10-30% do texto original</li>\n<li><strong>Regras:</strong> manter a ordem das ideias, não copiar frases, usar paráfrase</li>\n</ul>\n\n<h2>Resenha</h2>\n<p>A resenha é um <strong>resumo + avaliação crítica</strong> de uma obra (livro, filme, artigo).</p>\n<h3>Estrutura</h3>\n<ol>\n<li><strong>Dados da obra:</strong> título, autor, editora, ano</li>\n<li><strong>Resumo:</strong> síntese do conteúdo</li>\n<li><strong>Análise crítica:</strong> pontos fortes, fracos, contribuições</li>\n<li><strong>Recomendação:</strong> para quem é indicada a obra</li>\n</ol>\n<h3>Tipos</h3>\n<table>\n<thead><tr><th>Tipo</th><th>Característica</th></tr></thead>\n<tbody>\n<tr><td><strong>Descritiva</strong></td><td>Resume sem emitir opinião</td></tr>\n<tr><td><strong>Crítica</strong></td><td>Resume + avalia com argumentos</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo × Resenha</h2>\n<table>\n<thead><tr><th>Aspecto</th><th>Resumo</th><th>Resenha</th></tr></thead>\n<tbody>\n<tr><td><strong>Opinião</strong></td><td>Não</td><td>Sim (avaliação crítica)</td></tr>\n<tr><td><strong>Objetivo</strong></td><td>Condensar</td><td>Condensar + avaliar</td></tr>\n<tr><td><strong>Uso</strong></td><td>Estudo, pesquisa</td><td>Acadêmico, jornalístico</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Resumo</strong> = condensar sem opinar.</li>\n<li>✅ <strong>Resenha</strong> = resumo + avaliação crítica.</li>\n<li>✅ Resenha tem: dados da obra + resumo + análise + recomendação.</li>\n<li>⚠️ Resumo NÃO é cópia — use suas próprias palavras (paráfrase).</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A palavra \"resenha\" vem do latim <em>resignare</em>, que significava \"fazer uma lista\" ou \"inventariar\". Hoje, resenhas são publicadas em jornais, revistas e sites especializados. No YouTube, as \"resenhas\" de livros e filmes são um dos formatos mais populares — mostrando que o gênero se adaptou perfeitamente à era digital!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre resumo e resenha?",
+          "a": "O resumo condensa informações sem opinião pessoal. A resenha inclui resumo + avaliação crítica fundamentada. No resumo, você sintetiza; na resenha, você sintetiza E avalia."
+        },
+        {
+          "q": "O que é resenha crítica?",
+          "a": "É uma resenha que resume a obra e emite juízo de valor fundamentado: pontos fortes, fracos, comparação com outras obras, recomendação. Diferente da descritiva, que apenas descreve sem avaliar."
+        },
+        {
+          "q": "Resumo pode ter opinião pessoal?",
+          "a": "Não! O resumo deve ser objetivo, em 3ª pessoa, sem juízo de valor. Ele apenas condensa as informações essenciais do texto original, mantendo a ordem das ideias e usando paráfrase."
+        },
+        {
+          "q": "Qual a estrutura de uma resenha?",
+          "a": "1) Dados da obra (título, autor, editora). 2) Resumo do conteúdo. 3) Análise crítica (pontos fortes/fracos). 4) Recomendação (para quem é indicada). A resenha acadêmica pode incluir referências e fundamentação teórica."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A resenha se diferencia do resumo porque inclui:",
+          "options": [
+            "Mais páginas",
+            "Avaliação crítica",
+            "Ilustrações",
+            "Entrevistas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O resumo deve ser escrito em:",
+          "options": [
+            "1ª pessoa com opinião",
+            "3ª pessoa sem opinião",
+            "Versos",
+            "Diálogos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A estrutura da resenha inclui:",
+          "options": [
+            "Apenas resumo",
+            "Dados + resumo + análise + recomendação",
+            "Perguntas e respostas",
+            "Narração e clímax"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Resenha descritiva e crítica se diferenciam porque:",
+          "options": [
+            "Descritiva é mais longa",
+            "Crítica inclui avaliação com argumentos",
+            "Descritiva usa 1ª pessoa",
+            "São a mesma coisa"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Variação Linguística Aprofundada",
+      "slug": "variacao-linguistica-aprofundada",
+      "desc": "Variação linguística: diatópica (regional), diastrática (social), diafásica (formal/informal), diacrônica (temporal). Preconceito linguístico e norma culta vs norma popular.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "4 tipos de variação: Diatópica (regional): sotaque, vocabulário regional (macaxeira/aipim/mandioca). Diastrática (social): gírias, jargões profissionais, nível de escolaridade. Diafásica (formal/informal): registro muda conforme a situação. Diacrônica (temporal): mudanças ao longo do tempo (vossa mercê → você → cê). Preconceito linguístico: toda variação é legítima, não existe falar ''errado''. Norma culta = exigida em provas e textos formais.",
+      "body": "<h2>Introdução</h2>\n<p>A <strong>variação linguística</strong> é o fenômeno pelo qual uma língua apresenta <strong>formas diferentes</strong> de expressão conforme a região, a classe social, a situação e o tempo. Não existe \"português errado\" — existem variações. Mas em provas e textos formais, a <strong>norma culta</strong> é exigida.</p>\n\n<h2>Os 4 Tipos de Variação</h2>\n<table>\n<thead><tr><th>Tipo</th><th>Fator</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Diatópica</strong></td><td>Região</td><td>macaxeira (NE) = aipim (RJ) = mandioca (SP)</td></tr>\n<tr><td><strong>Diastrática</strong></td><td>Grupo social</td><td>gírias de jovens, jargão médico/jurídico</td></tr>\n<tr><td><strong>Diafásica</strong></td><td>Situação</td><td>formal (entrevista) vs informal (WhatsApp)</td></tr>\n<tr><td><strong>Diacrônica</strong></td><td>Tempo</td><td>vossa mercê → vosmecê → você → cê</td></tr>\n</tbody>\n</table>\n\n<h2>Norma Culta × Norma Popular</h2>\n<table>\n<thead><tr><th>Norma Culta</th><th>Norma Popular</th></tr></thead>\n<tbody>\n<tr><td>\"Nós fomos ao cinema.\"</td><td>\"A gente foi no cinema.\"</td></tr>\n<tr><td>\"Assistimos ao filme.\"</td><td>\"Assistimo o filme.\"</td></tr>\n<tr><td>Exigida em provas e textos formais</td><td>Usada no cotidiano, legítima</td></tr>\n</tbody>\n</table>\n\n<h2>Preconceito Linguístico</h2>\n<p>O <strong>preconceito linguístico</strong> é a discriminação contra falantes de variações não-padrão. Toda variação é <strong>legítima</strong> — o que existe são <strong>variedades</strong> mais ou menos adequadas a cada contexto. Não se fala \"errado\"; fala-se <strong>diferente</strong>.</p>\n<p>O linguista Marcos Bagno, no livro <em>Preconceito Linguístico</em>, mostra que julgar alguém pela fala é uma forma de exclusão social.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>4 tipos:</strong> diatópica (região), diastrática (social), diafásica (situação), diacrônica (tempo).</li>\n<li>✅ <strong>Norma culta</strong> é exigida em provas, mas <strong>toda variação é legítima</strong>.</li>\n<li>✅ <strong>Preconceito linguístico</strong> = discriminação pela fala.</li>\n<li>⚠️ No ENEM, questões de variação pedem <strong>adequação ao contexto</strong>, não \"certo/errado\".</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A palavra \"<strong>você</strong>\" é resultado de séculos de variação diacrônica: <em>Vossa Mercê</em> (séc. XV) → <em>vosmecê</em> → <em>você</em> → <em>cê</em> (fala informal). Cada etapa é uma simplificação natural da língua. Daqui a 100 anos, talvez \"cê\" seja a forma padrão!</p>",
+      "faq": [
+        {
+          "q": "Quais são os 4 tipos de variação linguística?",
+          "a": "Diatópica (regional: macaxeira/mandioca), diastrática (social: gírias, jargões), diafásica (situacional: formal/informal) e diacrônica (temporal: vossa mercê → você → cê)."
+        },
+        {
+          "q": "O que é preconceito linguístico?",
+          "a": "É a discriminação contra falantes de variações não-padrão. Julgar alguém por falar 'nóis vai' ou ter sotaque é preconceito linguístico. Toda variação é legítima — o que muda é a adequação ao contexto."
+        },
+        {
+          "q": "Norma culta é a única forma correta?",
+          "a": "Não! A norma culta é a variedade exigida em contextos formais (provas, documentos, discursos), mas não é 'mais correta' que as demais. 'A gente foi' e 'Nós fomos' são ambas legítimas — a adequação depende do contexto."
+        },
+        {
+          "q": "O ENEM cobra variação linguística?",
+          "a": "Sim, com frequência! As questões pedem que o aluno identifique tipos de variação, analise adequação ao contexto e reconheça preconceito linguístico. Nunca pedem 'certo/errado' — pedem 'adequado/inadequado ao contexto'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Macaxeira' no NE e 'mandioca' em SP é exemplo de variação:",
+          "options": [
+            "Diastrática",
+            "Diatópica",
+            "Diafásica",
+            "Diacrônica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A evolução 'vossa mercê → você → cê' é variação:",
+          "options": [
+            "Diatópica",
+            "Diastrática",
+            "Diafásica",
+            "Diacrônica"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Segundo o artigo, preconceito linguístico é:",
+          "options": [
+            "Falar errado",
+            "Discriminação contra variações não-padrão",
+            "Usar gírias",
+            "Falar a norma culta"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "No ENEM, questões de variação pedem:",
+          "options": [
+            "Certo e errado",
+            "Adequação ao contexto",
+            "Decorar regras",
+            "Traduzir dialetos"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Semântica: Polissemia, Homonímia, Paronímia",
+      "slug": "semantica-polissemia-homonimia-paronimia",
+      "desc": "Semântica estuda os significados das palavras. Polissemia: vários sentidos de uma palavra. Homonímia: palavras iguais com significados diferentes. Paronímia: palavras parecidas. Sinonímia e antonímia.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 8",
+      "grade": "8º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Polissemia: UMA palavra com vários sentidos (''manga'' de camisa e fruta). Homonímia: palavras iguais com significados sem relação. Homófonos: mesmo som, grafia diferente (sessão/seção/cessão). Homógrafos: mesma grafia, som diferente (colher verbo/substantivo). Parônimos: parecidos mas diferentes (comprimento/cumprimento, emigrar/imigrar, ratificar/retificar). Sinônimos: sentido próximo. Antônimos: sentido oposto.",
+      "body": "<h2>Introdução</h2>\n<p>A <strong>semântica</strong> estuda os <strong>significados das palavras</strong> e as relações entre eles. Entender polissemia, homonímia e paronímia é fundamental para <strong>interpretação textual</strong> e para evitar erros de vocabulário em redações.</p>\n\n<h2>Polissemia</h2>\n<p>Uma <strong>mesma palavra</strong> com <strong>vários significados relacionados</strong>:</p>\n<ul>\n<li><strong>\"Manga\":</strong> fruta / parte da camisa (mesma origem: forma alongada)</li>\n<li><strong>\"Cabo\":</strong> posto militar / acidente geográfico / alça de ferramenta</li>\n<li><strong>\"Ponto\":</strong> nota / lugar / costura / parada de ônibus</li>\n</ul>\n\n<h2>Homonímia</h2>\n<p>Palavras <strong>iguais na forma</strong> mas com <strong>significados sem relação</strong>:</p>\n<table>\n<thead><tr><th>Tipo</th><th>Definição</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Homófonos</strong></td><td>Mesmo som, grafia diferente</td><td>sessão (cinema) / seção (parte) / cessão (ceder)</td></tr>\n<tr><td><strong>Homógrafos</strong></td><td>Mesma grafia, som diferente</td><td>colher (verbo) / colher (substantivo)</td></tr>\n<tr><td><strong>Perfeitos</strong></td><td>Mesma grafia e som</td><td>manga (fruta) / manga (camisa)</td></tr>\n</tbody>\n</table>\n\n<h2>Paronímia</h2>\n<p>Palavras <strong>parecidas</strong> na grafia/som, mas com <strong>significados diferentes</strong>:</p>\n<table>\n<thead><tr><th>Parônimo</th><th>Significado</th></tr></thead>\n<tbody>\n<tr><td>comprimento / cumprimento</td><td>extensão / saudação</td></tr>\n<tr><td>emigrar / imigrar</td><td>sair do país / entrar no país</td></tr>\n<tr><td>ratificar / retificar</td><td>confirmar / corrigir</td></tr>\n<tr><td>tráfego / tráfico</td><td>trânsito / comércio ilegal</td></tr>\n<tr><td>descrição / discrição</td><td>ato de descrever / ser discreto</td></tr>\n<tr><td>infligir / infringir</td><td>aplicar (pena) / violar (lei)</td></tr>\n</tbody>\n</table>\n\n<h2>Sinonímia e Antonímia</h2>\n<ul>\n<li><strong>Sinônimos:</strong> palavras com sentido <strong>próximo</strong> (bonito/belo, casa/lar, feliz/contente)</li>\n<li><strong>Antônimos:</strong> palavras com sentido <strong>oposto</strong> (bonito/feio, grande/pequeno, amor/ódio)</li>\n</ul>\n<p>💡 Sinônimos <strong>perfeitos</strong> são raros — quase sempre há uma nuance de diferença.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Polissemia:</strong> vários sentidos de uma mesma palavra.</li>\n<li>✅ <strong>Homonímia:</strong> palavras iguais, sentidos sem relação.</li>\n<li>✅ <strong>Paronímia:</strong> palavras parecidas, sentidos diferentes.</li>\n<li>✅ Memorize: sessão/seção/cessão, comprimento/cumprimento, ratificar/retificar.</li>\n<li>⚠️ <strong>No ENEM:</strong> questões de semântica pedem o sentido da palavra <strong>no contexto</strong>.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A palavra \"<strong>manga</strong>\" é um dos exemplos mais famosos de homonímia/polissemia. Ela pode significar a <strong>fruta</strong> (do malaio <em>mangga</em>), a <strong>parte da camisa</strong> (do latim <em>manica</em>) e até uma <strong>armadilha para peixes</strong>! São origens etimológicas totalmente diferentes que coincidiram na mesma forma.</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre polissemia e homonímia?",
+          "a": "Na polissemia, uma mesma palavra tem vários sentidos RELACIONADOS (cabo: militar, geográfico, ferramenta — todos ligados a 'extremidade'). Na homonímia, os sentidos NÃO têm relação (manga fruta ≠ manga camisa — origens diferentes)."
+        },
+        {
+          "q": "O que são homófonos?",
+          "a": "São palavras com o mesmo som mas grafia diferente: sessão (reunião, cinema), seção (divisão, parte) e cessão (ato de ceder). Acertar a grafia é cobrado em provas de ortografia."
+        },
+        {
+          "q": "Qual a diferença entre 'ratificar' e 'retificar'?",
+          "a": "Ratificar = confirmar, validar: 'O juiz ratificou a sentença'. Retificar = corrigir: 'Preciso retificar minha declaração'. São parônimos — palavras parecidas com sentidos diferentes."
+        },
+        {
+          "q": "Sinônimos perfeitos existem?",
+          "a": "São muito raros. A maioria dos sinônimos tem nuances diferentes: 'casa' e 'lar' (lar tem valor afetivo), 'morrer' e 'falecer' (falecer é eufemismo). O contexto determina qual sinônimo é mais adequado."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Sessão' (cinema) e 'seção' (parte) são:",
+          "options": [
+            "Sinônimos",
+            "Antônimos",
+            "Homófonos",
+            "Parônimos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'Ratificar' significa:",
+          "options": [
+            "Corrigir",
+            "Confirmar",
+            "Negar",
+            "Repetir"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Polissemia é quando uma palavra tem:",
+          "options": [
+            "Um único sentido",
+            "Vários sentidos relacionados",
+            "Sentido oposto",
+            "Grafia errada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Emigrar' e 'imigrar' são:",
+          "options": [
+            "Sinônimos",
+            "Homônimos",
+            "Parônimos",
+            "Antônimos"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "slug": "complemento-nominal",
+      "title": "Complemento Nominal",
+      "desc": "Complemento nominal completa o sentido de um nome (substantivo, adjetivo, advérbio) com preposição. Diferença do adjunto adnominal: CN completa nomes abstratos, AA caracteriza concretos.",
+      "grade": "8º ano",
+      "topic": "Sintaxe",
+      "body": "<h2>Introdução</h2>\n<p>O <strong>complemento nominal</strong> (CN) é o termo que completa o sentido de um <strong>nome</strong> (substantivo, adjetivo ou advérbio) por meio de uma <strong>preposição</strong>. Sem ele, o nome fica incompleto.</p>\n\n<h2>O que é Complemento Nominal?</h2>\n<p>Assim como verbos transitivos precisam de complemento, alguns <strong>nomes</strong> também precisam:</p>\n<ul>\n<li>\"Tenho <strong>orgulho de você</strong>.\" → \"orgulho\" precisa de complemento: de quê?</li>\n<li>\"É <strong>útil à sociedade</strong>.\" → \"útil\" precisa de complemento: a quem?</li>\n<li>\"Agiu <strong>contrariamente ao regulamento</strong>.\" → advérbio + complemento</li>\n</ul>\n\n<h2>CN × Adjunto Adnominal</h2>\n<p>Esta é a distinção mais cobrada em provas:</p>\n<table>\n<thead><tr><th>Critério</th><th>Complemento Nominal</th><th>Adjunto Adnominal</th></tr></thead>\n<tbody>\n<tr><td><strong>Função</strong></td><td>Completa (obrigatório)</td><td>Caracteriza (acessório)</td></tr>\n<tr><td><strong>Nome</strong></td><td>Abstrato (sentimento, ação)</td><td>Concreto ou abstrato</td></tr>\n<tr><td><strong>Sentido</strong></td><td>Passivo (sofre a ação)</td><td>Ativo (pratica/caracteriza)</td></tr>\n<tr><td><strong>Exemplo</strong></td><td>A construção <strong>da ponte</strong> (ponte foi construída)</td><td>O portão <strong>de ferro</strong> (ferro caracteriza)</td></tr>\n</tbody>\n</table>\n<p>💡 <strong>Dica:</strong> Se o termo preposicionado tem <strong>sentido passivo</strong> (o nome \"sofre\" a ação), é CN. Se tem sentido <strong>ativo</strong> ou caracteriza materialmente, é AA.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>CN</strong> completa nome com preposição (orgulho <strong>de</strong> você).</li>\n<li>✅ CN liga-se a nomes <strong>abstratos</strong> com sentido <strong>passivo</strong>.</li>\n<li>✅ AA liga-se a nomes <strong>concretos</strong> ou com sentido <strong>ativo</strong>.</li>\n<li>⚠️ <strong>Dica passivo/ativo:</strong> \"construção da ponte\" (ponte foi construída = passivo = CN). \"Muro de pedra\" (pedra caracteriza = ativo = AA).</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A distinção entre CN e adjunto adnominal é considerada uma das mais difíceis da análise sintática. Muitos gramáticos discutem casos ambíguos! A dica do \"sentido passivo\" é a mais aceita em bancas de vestibulares e concursos.</p>",
+      "faq": [
+        {
+          "q": "O que é complemento nominal?",
+          "a": "É o termo que completa o sentido de um nome (substantivo, adjetivo ou advérbio) com preposição obrigatória. Exemplo: 'Tenho orgulho DE você' — 'de você' completa 'orgulho'."
+        },
+        {
+          "q": "Como diferenciar CN de adjunto adnominal?",
+          "a": "Teste o sentido passivo: se o nome abstrato 'sofre' a ação, é CN ('construção da ponte' = a ponte foi construída). Se o termo caracteriza ou tem sentido ativo, é adjunto ('muro de pedra' = pedra caracteriza)."
+        },
+        {
+          "q": "CN completa que tipos de nome?",
+          "a": "Substantivos abstratos (orgulho, construção, necessidade), adjetivos (útil, fiel, contrário) e advérbios (contrariamente, relativamente). Sempre com preposição obrigatória."
+        },
+        {
+          "q": "O CN é um termo essencial ou acessório?",
+          "a": "É um termo integrante — completa o sentido do nome, assim como o OD/OI completam o verbo. Sem o CN, o nome fica incompleto: 'Tenho orgulho...' de quê? Já o adjunto adnominal é acessório."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Em 'Tenho orgulho de você', 'de você' é:",
+          "options": [
+            "Adjunto adnominal",
+            "Complemento nominal",
+            "Objeto indireto",
+            "Predicativo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'A construção da ponte' — 'da ponte' é CN porque:",
+          "options": [
+            "Ponte é concreto",
+            "Ponte sofre a ação (sentido passivo)",
+            "Ponte pratica a ação",
+            "É acessório"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'O portão de ferro' — 'de ferro' é:",
+          "options": [
+            "Complemento nominal",
+            "Objeto direto",
+            "Adjunto adnominal",
+            "Agente da passiva"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O CN completa o sentido de:",
+          "options": [
+            "Verbos",
+            "Nomes (substantivos, adjetivos, advérbios)",
+            "Pronomes",
+            "Conjunções"
+          ],
+          "answer": 1
+        }
+      ],
+      "essential": "Complemento nominal: completa o sentido de um nome (subst., adj., adv.) com preposição obrigatória. Ex: Tenho orgulho DE você (orgulho de quê?). Diferença de adjunto adnominal: CN completa nome ABSTRATO com sentido passivo (a construção DA ponte = ponte foi construída). AA caracteriza com sentido ativo ou concreto (o portão DE ferro = ferro caracteriza). CN é obrigatório; AA é acessório.",
+      "reading_time": 7,
+      "difficulty": "Nível 8"
+    },
+    {
+      "slug": "tipos-de-discurso",
+      "title": "Tipos de Discurso",
+      "desc": "3 tipos de discurso: direto (fala do personagem com travessão/aspas), indireto (narrador reporta em 3ª pessoa), indireto livre (fusão dos dois). Transformações entre discursos.",
+      "grade": "8º ano",
+      "topic": "Análise Textual",
+      "body": "<h2>Introdução</h2>\n<p>Os <strong>tipos de discurso</strong> são as formas como as <strong>falas dos personagens</strong> são apresentadas em um texto narrativo. Existem três tipos: <strong>direto</strong>, <strong>indireto</strong> e <strong>indireto livre</strong>.</p>\n\n<h2>Discurso Direto</h2>\n<p>A fala do personagem é <strong>reproduzida literalmente</strong>, com marcação:</p>\n<p><em>Maria disse:<br>— Eu vou ao cinema hoje.</em></p>\n<p><strong>Marcas:</strong> travessão (—), aspas (\"), dois pontos, verbos dicendi (disse, afirmou, perguntou).</p>\n\n<h2>Discurso Indireto</h2>\n<p>O narrador <strong>reporta</strong> a fala em suas próprias palavras, em <strong>3ª pessoa</strong>:</p>\n<p><em>Maria disse <strong>que</strong> iria ao cinema naquele dia.</em></p>\n<p><strong>Marcas:</strong> sem travessão, conjunção \"que\" ou \"se\", verbos no pretérito, 3ª pessoa.</p>\n\n<h2>Discurso Indireto Livre</h2>\n<p><strong>Fusão</strong> dos dois: narração e fala se misturam sem marcas claras:</p>\n<p><em>Maria andava pela rua. Iria ao cinema, sim. Precisava se distrair.</em></p>\n<p>Não há travessão nem \"disse que\" — as vozes do narrador e do personagem se fundem.</p>\n\n<h2>Transformações (Direto → Indireto)</h2>\n<table>\n<thead><tr><th>Direto</th><th>Indireto</th></tr></thead>\n<tbody>\n<tr><td>1ª pessoa (eu, meu)</td><td>3ª pessoa (ele, seu/dele)</td></tr>\n<tr><td>Presente (vou)</td><td>Pretérito (iria)</td></tr>\n<tr><td>Este/esta</td><td>Aquele/aquela</td></tr>\n<tr><td>Aqui</td><td>Lá/ali</td></tr>\n<tr><td>Hoje</td><td>Naquele dia</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Direto:</strong> fala literal com travessão/aspas.</li>\n<li>✅ <strong>Indireto:</strong> narrador reporta com \"que\", 3ª pessoa.</li>\n<li>✅ <strong>Indireto livre:</strong> fusão narrador + personagem, sem marcas.</li>\n<li>⚠️ Na transformação: eu→ele, presente→pretérito, aqui→lá, hoje→naquele dia.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>O <strong>discurso indireto livre</strong> é considerado uma das técnicas narrativas mais sofisticadas. Foi popularizado pelo escritor francês <strong>Gustave Flaubert</strong> em <em>Madame Bovary</em> (1857). No Brasil, <strong>Graciliano Ramos</strong> é mestre no uso dessa técnica em <em>Vidas Secas</em>, onde os pensamentos de Fabiano e da cachorra Baleia se fundem com a narração.</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre discurso direto e indireto?",
+          "a": "No direto, a fala é reproduzida literalmente com travessão ou aspas: '— Eu vou ao cinema.' No indireto, o narrador reporta a fala em 3ª pessoa: 'Ela disse que iria ao cinema.' As marcas mudam: pessoa verbal, tempo, pronomes demonstrativos e advérbios."
+        },
+        {
+          "q": "O que é discurso indireto livre?",
+          "a": "É a fusão de narração e fala do personagem, sem marcas claras (sem travessão, sem 'disse que'). O pensamento do personagem se mistura com a voz do narrador. É uma técnica sofisticada usada por Flaubert, Graciliano Ramos e outros."
+        },
+        {
+          "q": "Como transformar discurso direto em indireto?",
+          "a": "Mude: 1ª pessoa → 3ª (eu → ele); presente → pretérito (vou → iria); este → aquele; aqui → lá; hoje → naquele dia. Retire travessão e aspas, acrescente 'que' ou 'se'."
+        },
+        {
+          "q": "Quais autores brasileiros usam discurso indireto livre?",
+          "a": "Graciliano Ramos é o mestre brasileiro — em 'Vidas Secas', os pensamentos de Fabiano e da cachorra Baleia se fundem com a narração. Machado de Assis e Clarice Lispector também usam a técnica com maestria."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O discurso direto se marca por:",
+          "options": [
+            "Conjunção 'que'",
+            "Travessão ou aspas + verbos dicendi",
+            "Fusão com narrador",
+            "Ausência de marcas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na transformação direto→indireto, 'eu' vira:",
+          "options": [
+            "Tu",
+            "Nós",
+            "Ele/Ela",
+            "Vós"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O discurso indireto livre se caracteriza por:",
+          "options": [
+            "Uso de travessão",
+            "Fusão de narração e fala sem marcas claras",
+            "Uso obrigatório de aspas",
+            "Verbos no imperativo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Segundo o artigo, qual autor brasileiro é mestre no indireto livre?",
+          "options": [
+            "Machado de Assis",
+            "José de Alencar",
+            "Graciliano Ramos",
+            "Carlos Drummond"
+          ],
+          "answer": 2
+        }
+      ],
+      "essential": "Discurso direto: fala do personagem reproduzida literalmente (travessão/aspas, verbos dicendi). Discurso indireto: narrador reporta a fala em 3ª pessoa (sem travessão, com 'que'). Discurso indireto livre: mistura dos dois — fala e narração se fundem sem marcas. Transformação D→I: 1ª→3ª pessoa, presente→pretérito, este→aquele, aqui→lá.",
+      "reading_time": 7,
+      "difficulty": "Nível 8"
+    }
+  ]
+}

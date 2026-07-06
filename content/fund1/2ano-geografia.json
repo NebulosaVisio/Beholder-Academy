@@ -2,80 +2,729 @@
   "subject": "Geografia",
   "slug": "2ano-geografia",
   "level": "Fundamental 1",
-  "grade": "2º Ano",
+  "grade": "2º ano",
   "color": "var(--geografia)",
+  "icon": "globe",
   "articles": [
     {
-      "title": "O Município",
-      "slug": "o-municipio",
-      "desc": "A cidade onde você mora e como ela é organizada.",
-      "category": "Organização",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Município = cidade + zona rural ao redor. Administrado pelo prefeito e vereadores. Tem bairros, ruas, praças, escolas, hospitais. Brasil tem 5.570 municípios.",
-      "body": "<p>O <strong>município</strong> é a unidade básica de organização do Brasil. Inclui a <strong>cidade</strong> (área urbana) e a <strong>zona rural</strong> ao redor. Quem governa é o <strong>prefeito</strong>, e as leis são feitas pelos <strong>vereadores</strong>.</p><p>Cada município tem serviços públicos: escolas, postos de saúde, praças, coleta de lixo, transporte. O dinheiro para isso vem dos <strong>impostos</strong> que os moradores pagam.</p><p>O Brasil tem <strong>5.570 municípios</strong>! O maior em área é Altamira (PA), quase do tamanho de Portugal. O maior em população é São Paulo (SP), com mais de 12 milhões de habitantes.</p>",
-      "faq": [{"q":"Município e cidade são a mesma coisa?","a":"Quase! Município inclui a cidade e a zona rural ao redor."},{"q":"Quem é o prefeito da minha cidade?","a":"Pesquise! Cada município elege seu prefeito a cada 4 anos."}]
+      "title": "Ordem Mundial e Geopolítica",
+      "slug": "ordem-mundial-e-geopolitica",
+      "desc": "Ordem mundial: bipolaridade (Guerra Fria), unipolaridade (pos-1991), multipolaridade atual. Geopolitica: ONU, OTAN, BRICS. Novos conflitos.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Bipolar (1945-1991): EUA vs URSS, Guerra Fria. Unipolar (1991-2001): EUA superpotencia. Multipolar (atual): EUA, UE, China, Russia. ONU: paz e cooperacao (Conselho de Seguranca: EUA, Russia, China, Franca, UK com veto). OTAN: alianca militar ocidental. BRICS: Brasil, Russia, India, China, Africa do Sul (economias emergentes). Conflitos: terrorismo, guerras hibridas, ciberataques.",
+      "body": "<h2>Introducao</h2><p>A <strong>ordem mundial</strong> reflete a distribuicao de poder entre nacoes.</p><h2>Evolucao</h2><table><thead><tr><th>Periodo</th><th>Ordem</th><th>Caracteristica</th></tr></thead><tbody><tr><td>1945-1991</td><td>Bipolar</td><td>EUA vs URSS (Guerra Fria)</td></tr><tr><td>1991-2001</td><td>Unipolar</td><td>EUA superpotencia</td></tr><tr><td>Pos-2001</td><td>Multipolar</td><td>EUA, UE, China, Russia</td></tr></tbody></table><h2>Organizacoes</h2><ul><li><strong>ONU:</strong> paz mundial, 193 paises</li><li><strong>OTAN:</strong> alianca militar ocidental</li><li><strong>BRICS:</strong> potencias emergentes</li></ul><h2>Resumo</h2><ul><li>Bipolar, Unipolar, Multipolar</li><li>ENEM: Guerra Fria, BRICS, ONU</li></ul><h2>Curiosidade</h2><p>Os 5 membros permanentes do Conselho de Seguranca da ONU tem poder de VETO - podem bloquear qualquer resolucao sozinhos.</p>",
+      "faq": [
+        {
+          "q": "O que foi a Guerra Fria?",
+          "a": "Disputa ideologica EUA (capitalismo) vs URSS (socialismo) de 1945-1991. Sem confronto direto entre ambos, mas guerras proxy (Coreia, Vietna)."
+        },
+        {
+          "q": "BRICS - para que serve?",
+          "a": "Grupo de economias emergentes para cooperacao economica e politica. Representa ~40% da populacao mundial e ~25% do PIB global."
+        },
+        {
+          "q": "ONU previne guerras?",
+          "a": "Tenta. Tem Capacetes Azuis, resolucoes e sancoes. Mas o poder de veto dos P5 limita sua acao quando grandes potencias discordam."
+        },
+        {
+          "q": "Multipolaridade e boa?",
+          "a": "Tem pros e contras. Mais equilibrio de poder, mas mais instabilidade. Nenhum pais controla sozinho, o que pode evitar ou dificultar resolucoes."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Guerra Fria - periodo",
+          "options": [
+            "1914-1945",
+            "1945-1991",
+            "1991-2020",
+            "2001-hoje"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "BRICS inclui",
+          "options": [
+            "EUA",
+            "Brasil",
+            "Japao",
+            "Alemanha"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Membros permanentes do CS-ONU",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "7"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Ordem mundial atual",
+          "options": [
+            "Bipolar",
+            "Unipolar",
+            "Multipolar",
+            "Apolar"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Os Estados do Brasil",
-      "slug": "estados-do-brasil",
-      "desc": "As 27 unidades federativas e suas capitais.",
-      "category": "Brasil",
-      "difficulty": "Básico",
-      "reading_time": "4",
-      "xp": "75",
-      "essential": "Brasil tem 26 estados + DF = 27 UFs. Divididos em 5 regiões: Norte, Nordeste, Centro-Oeste, Sudeste, Sul. Cada estado tem governador e capital.",
-      "body": "<p>O Brasil é dividido em <strong>26 estados</strong> e 1 <strong>Distrito Federal</strong> (onde fica Brasília, a capital). Cada estado tem um <strong>governador</strong> e uma <strong>capital</strong>.</p><p>Os estados são agrupados em <strong>5 regiões</strong>: <strong>Norte</strong> (Amazonas, Pará...), <strong>Nordeste</strong> (Bahia, Ceará...), <strong>Centro-Oeste</strong> (Goiás, Mato Grosso...), <strong>Sudeste</strong> (São Paulo, Rio...) e <strong>Sul</strong> (Paraná, Santa Catarina, Rio Grande do Sul).</p><p>O maior estado é o <strong>Amazonas</strong> (AM) e o menor é <strong>Sergipe</strong> (SE). O mais populoso é <strong>São Paulo</strong> (SP) com 46 milhões de pessoas!</p>",
-      "faq": [{"q":"Quantas regiões o Brasil tem?","a":"5: Norte, Nordeste, Centro-Oeste, Sudeste e Sul."},{"q":"Qual é a capital do Brasil?","a":"Brasília, no Distrito Federal, desde 1960."}]
+      "title": "Globalização: Economia, Cultura e Contradições",
+      "slug": "globalizacao-economia-cultura-e-contradicoes",
+      "desc": "Globalizacao: integracao economica, cultural e tecnologica. Multinacionais. Desigualdade. Redes e fluxos. Contradicoes e resistencias.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Globalizacao: integracao mundial pela economia, tecnologia e cultura. Fases: Grandes Navegacoes, Rev. Industrial, pos-Guerra Fria (acelerou). Multinacionais/transnacionais: producao global. Fluxos: mercadorias, capitais, informacao, pessoas. Contradicoes: desigualdade (Norte-Sul), exclusao digital, homogeneizacao cultural vs resistencia local. Meio tecnico-cientifico-informacional (Milton Santos).",
+      "body": "<h2>Introducao</h2><p>A <strong>globalizacao</strong> e o processo de integracao mundial pela economia, cultura e tecnologia.</p><h2>Caracteristicas</h2><ul><li>Multinacionais com producao global</li><li>Fluxos de capitais, informacao e pessoas</li><li>Internet e comunicacao instantanea</li></ul><h2>Contradicoes</h2><table><thead><tr><th>Aspecto</th><th>Positivo</th><th>Negativo</th></tr></thead><tbody><tr><td>Economia</td><td>Mercado amplo</td><td>Desigualdade Norte-Sul</td></tr><tr><td>Cultura</td><td>Acesso a informacao</td><td>Homogeneizacao</td></tr><tr><td>Tecnologia</td><td>Inovacao</td><td>Exclusao digital</td></tr></tbody></table><h2>Resumo</h2><ul><li>Globalizacao amplia mercados mas aprofunda desigualdades</li><li>ENEM: Milton Santos, exclusao, contradicoes</li></ul><h2>Curiosidade</h2><p>Milton Santos chamou de <strong>globalizacao perversa</strong> - beneficia poucos enquanto exclui a maioria.</p>",
+      "faq": [
+        {
+          "q": "Globalizacao beneficia todos?",
+          "a": "Nao. Paises ricos e multinacionais se beneficiam mais. Paises pobres podem ter empregos mas com salarios baixos e condicoes precarias."
+        },
+        {
+          "q": "Exclusao digital?",
+          "a": "Bilhoes de pessoas sem acesso a internet/tecnologia. Ficam fora dos beneficios da globalizacao. Norte vs Sul digital."
+        },
+        {
+          "q": "Quem foi Milton Santos?",
+          "a": "Geografo brasileiro, premio Vautrin Lud (Nobel da Geografia). Criou conceitos como meio tecnico-cientifico-informacional e globalizacao perversa."
+        },
+        {
+          "q": "Multinacional vs transnacional?",
+          "a": "Multinacional: sede num pais, filiais em outros. Transnacional: producao fragmentada globalmente. Na pratica, termos sao usados como sinonimos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Milton Santos era",
+          "options": [
+            "Economista",
+            "Geografo",
+            "Sociologo",
+            "Historiador"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Globalizacao acelerou apos",
+          "options": [
+            "1492",
+            "1914",
+            "1945",
+            "1991"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Exclusao digital afeta",
+          "options": [
+            "Paises ricos",
+            "Paises pobres",
+            "Todos igual",
+            "Ninguem"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Fluxo de capitais e",
+          "options": [
+            "Migracoes",
+            "Investimentos globais",
+            "Turismo",
+            "Comercio de alimentos"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Relevo: Montanhas, Planícies e Planaltos",
-      "slug": "relevo",
-      "desc": "As formas da superfície da Terra.",
-      "category": "Natureza",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "75",
-      "essential": "Relevo = formas da superfície. Montanha: alto e pontudo. Planalto: alto e plano. Planície: baixo e plano. Depressão: área rebaixada.",
-      "body": "<p>O <strong>relevo</strong> são as formas da superfície da Terra. Nem todo lugar é plano — existem montanhas, vales, planícies e planaltos.</p><p><strong>Montanhas</strong> são áreas muito altas e pontudas (Andes, Himalaia). <strong>Planaltos</strong> são áreas altas mas com topo relativamente plano (Planalto Central do Brasil). <strong>Planícies</strong> são áreas baixas e planas (Pantanal, Planície Amazônica).</p><p>O Brasil não tem montanhas muito altas (o pico mais alto, Neblina, tem 2.994m). A maior parte do país é formada por <strong>planaltos</strong> e <strong>planícies</strong>.</p>",
-      "faq": [{"q":"Qual a montanha mais alta do mundo?","a":"O Monte Everest, no Himalaia, com 8.849 metros."},{"q":"O Brasil tem vulcões?","a":"Não! O Brasil fica longe das bordas das placas tectônicas."}]
+      "title": "Blocos Econômicos e Comércio Internacional",
+      "slug": "blocos-economicos-e-comercio-internacional",
+      "desc": "Blocos economicos: UE (maior integracao), Mercosul, NAFTA/USMCA, ASEAN. Comercio internacional: OMC, balanca comercial, protecionismo vs livre comercio.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Niveis de integracao: zona de livre comercio, uniao aduaneira, mercado comum, uniao economica. UE: uniao economica com moeda unica (euro). Mercosul: uniao aduaneira (Brasil, Argentina, Uruguai, Paraguai). USMCA (ex-NAFTA): EUA, Mexico, Canada. OMC: regula comercio global. Balanca comercial: exportacoes-importacoes. Protecionismo: tarifas, subsidios. Livre comercio: reduzir barreiras.",
+      "body": "<h2>Introducao</h2><p><strong>Blocos economicos</strong> integram paises para facilitar comercio e cooperacao.</p><h2>Niveis de Integracao</h2><table><thead><tr><th>Nivel</th><th>O que integra</th><th>Exemplo</th></tr></thead><tbody><tr><td>Zona de livre comercio</td><td>Elimina tarifas internas</td><td>USMCA</td></tr><tr><td>Uniao aduaneira</td><td>+ tarifa externa comum</td><td>Mercosul</td></tr><tr><td>Mercado comum</td><td>+ livre circulacao</td><td>UE (pre-Maastricht)</td></tr><tr><td>Uniao economica</td><td>+ moeda unica</td><td>UE (euro)</td></tr></tbody></table><h2>Resumo</h2><ul><li>UE = mais integrado. Mercosul = uniao aduaneira.</li><li>ENEM: blocos, OMC, protecionismo</li></ul><h2>Curiosidade</h2><p>O <strong>euro</strong> e usado por 20 paises da UE. E a segunda moeda mais negociada do mundo, atras do dolar.</p>",
+      "faq": [
+        {
+          "q": "Mercosul funciona bem?",
+          "a": "Parcialmente. Tem avancos comerciais mas dificuldades politicas. A tarifa externa comum nao e plenamente aplicada."
+        },
+        {
+          "q": "OMC resolve disputas?",
+          "a": "Sim. Tem mecanismo de solucao de controversias comerciais entre paises. Mas decisoes podem demorar anos."
+        },
+        {
+          "q": "Brexit - por que?",
+          "a": "Reino Unido saiu da UE em 2020. Razoes: soberania, imigracaoo, regulacoes de Bruxelas. Referendum 52% a favor da saida."
+        },
+        {
+          "q": "Protecionismo e bom?",
+          "a": "Depende. Protege industria local e empregos, mas eleva precos ao consumidor e pode gerar retaliacao comercial."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "UE tem moeda",
+          "options": [
+            "Dolar",
+            "Euro",
+            "Libra",
+            "Yen"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mercosul e",
+          "options": [
+            "Zona livre comercio",
+            "Uniao aduaneira",
+            "Mercado comum",
+            "Uniao economica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "OMC regula",
+          "options": [
+            "Guerras",
+            "Comercio",
+            "Migracoes",
+            "Clima"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Brexit - pais que saiu",
+          "options": [
+            "Franca",
+            "Alemanha",
+            "Reino Unido",
+            "Italia"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Rios e Mares",
-      "slug": "rios-e-mares",
-      "desc": "A água doce e salgada que cobre o planeta.",
-      "category": "Hidrografia",
-      "difficulty": "Básico",
-      "reading_time": "3",
-      "xp": "50",
-      "essential": "Rios: água doce que corre para o mar. Mares/Oceanos: água salgada. Brasil tem o maior rio do mundo (Amazonas) e 7.400 km de litoral.",
-      "body": "<p><strong>Rios</strong> são cursos de água doce que nascem em nascentes (montanhas, serras) e correm até desaguar no mar ou em outro rio. Usamos rios para beber, irrigar, pescar e gerar energia (hidrelétricas).</p><p><strong>Mares e oceanos</strong> são enormes massas de água salgada que cobrem 70% da Terra. O Brasil é banhado pelo <strong>Oceano Atlântico</strong>, com 7.400 km de litoral.</p><p>O Brasil tem o <strong>Rio Amazonas</strong>, considerado o maior do mundo em volume de água. Outros rios importantes: São Francisco, Paraná, Tietê, Araguaia.</p>",
-      "faq": [{"q":"Podemos beber água do mar?","a":"Não! É salgada demais. Precisamos de água doce (rios, lagos, poços)."},{"q":"O que é nascente?","a":"O lugar onde o rio nasce, geralmente em montanhas ou serras."}]
+      "title": "Industrialização: Revoluções Industriais",
+      "slug": "industrializacao-revolucoes-industriais",
+      "desc": "Industrializacao: 1a Rev (vapor, textil), 2a Rev (eletricidade, petroleo), 3a Rev (informatica), 4a Rev (IA, IoT). Industrializacao tardia (Brasil). DIT.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "1a Rev Industrial (1760, Inglaterra): maquina a vapor, textil, carvao. 2a Rev (1870): eletricidade, petroleo, aco, fordismo/taylorismo. 3a Rev (1970): informatica, robotica, toyotismo. 4a Rev (Industria 4.0): IA, IoT, Big Data, impressao 3D. DIT (Divisao Internacional do Trabalho): paises desenvolvidos=tecnologia, subdesenvolvidos=materias-primas. Brasil: industrializacao tardia (1930-1950, Vargas: CSN, Petrobras).",
+      "body": "<h2>Introducao</h2><p>As <strong>Revolucoes Industriais</strong> transformaram producao, sociedade e espaco geografico.</p><h2>Revolucoes</h2><table><thead><tr><th>Fase</th><th>Epoca</th><th>Energia/Tecnologia</th></tr></thead><tbody><tr><td>1a</td><td>1760</td><td>Vapor, carvao, textil</td></tr><tr><td>2a</td><td>1870</td><td>Eletricidade, petroleo, aco</td></tr><tr><td>3a</td><td>1970</td><td>Informatica, robotica</td></tr><tr><td>4a</td><td>2010+</td><td>IA, IoT, Big Data</td></tr></tbody></table><h2>Brasil</h2><ul><li>Industrializacao tardia (1930-50, Era Vargas)</li><li>JK: Plano de Metas, industria automobilistica</li></ul><h2>Resumo</h2><ul><li>4 revolucoes. Brasil: tardia, dependente.</li><li>ENEM: DIT, fordismo vs toyotismo</li></ul><h2>Curiosidade</h2><p>O <strong>toyotismo</strong> japones revolucionou a producao: just-in-time, estoque zero, flexibilidade. Oposto do fordismo (producao em massa, estoque grande).</p>",
+      "faq": [
+        {
+          "q": "Fordismo vs toyotismo?",
+          "a": "Fordismo: producao em massa, linha de montagem, estoque grande, trabalhador especializado. Toyotismo: flexivel, just-in-time, estoque minimo, trabalhador multifuncional."
+        },
+        {
+          "q": "DIT - o que e?",
+          "a": "Divisao Internacional do Trabalho: paises ricos produzem tecnologia, paises pobres fornecem materias-primas e mao de obra barata."
+        },
+        {
+          "q": "Brasil se industrializou quando?",
+          "a": "Principalmente 1930-50 (Vargas: siderurgia, petroleo) e 1956-61 (JK: automoveis, Brasilia). Tardia comparada a Europa/EUA."
+        },
+        {
+          "q": "Industria 4.0?",
+          "a": "Automacao avancada com IA, IoT, impressao 3D, Big Data. Fbricas inteligentes. Risco de desemprego tecnologico."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "1a Rev Industrial - energia",
+          "options": [
+            "Eletricidade",
+            "Vapor/carvao",
+            "Petroleo",
+            "Nuclear"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Toyotismo - caracteristica",
+          "options": [
+            "Producao em massa",
+            "Just-in-time",
+            "Estoque grande",
+            "Linha rigida"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Brasil se industrializou na era",
+          "options": [
+            "Imperial",
+            "Republica Velha",
+            "Vargas",
+            "Atual"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Industria 4.0 usa",
+          "options": [
+            "Vapor",
+            "Eletricidade",
+            "IA e IoT",
+            "Fordismo"
+          ],
+          "answer": 2
+        }
+      ]
     },
     {
-      "title": "Clima e Tempo",
-      "slug": "clima-e-tempo",
-      "desc": "A diferença entre o tempo de hoje e o clima de uma região.",
-      "category": "Clima",
-      "difficulty": "Intermediário",
-      "reading_time": "3",
-      "xp": "75",
-      "essential": "Tempo = como está agora (chuvoso, ensolarado). Clima = padrão ao longo de anos (tropical, semiárido). Brasil: equatorial (Norte), tropical (Centro), subtropical (Sul).",
-      "body": "<p><strong>Tempo</strong> é como está agora: chovendo, ensolarado, nublado, ventando. Muda todo dia! <strong>Clima</strong> é o padrão do tempo ao longo de muitos anos em uma região.</p><p>O Brasil tem vários climas: <strong>Equatorial</strong> (Norte — quente e úmido o ano todo), <strong>Tropical</strong> (Centro — quente com estação seca e chuvosa), <strong>Semiárido</strong> (Nordeste interior — quente e seco), <strong>Subtropical</strong> (Sul — estações bem definidas, frio no inverno).</p><p>O clima influencia tudo: a vegetação, os animais, a agricultura e até como as pessoas vivem e se vestem!</p>",
-      "faq": [{"q":"Neve cai no Brasil?","a":"Raramente! Pode nevar no Sul (Serra Catarinense, Serra Gaúcha) em invernos rigorosos."},{"q":"Qual a diferença entre tempo e clima?","a":"Tempo é o momento (hoje está chovendo). Clima é o padrão (aqui chove muito no verão)."}]
+      "title": "Urbanização Mundial",
+      "slug": "urbanizacao-mundial",
+      "desc": "Urbanizacao: processo de crescimento das cidades. Desenvolvidos vs subdesenvolvidos. Megalopoles, megacidades. Problemas urbanos. Rede e hierarquia urbana.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Urbanizacao: aumento % populacao urbana. Desenvolvidos: urbanizacao antiga, planejada. Subdesenvolvidos: tardia, rapida, desordenada (favelizacao, macrocefalia). Megalopole: conurbacao de metropoles. Megacidade: +10 milhoes. Rede urbana: hierarquia de cidades (metropole, capital regional, centro sub-regional). Problemas: moradia, transporte, violencia, poluicao, segregacao.",
+      "body": "<h2>Introducao</h2><p>A <strong>urbanizacao</strong> e o crescimento da populacao que vive em cidades.</p><h2>Desenvolvidos vs Subdesenvolvidos</h2><table><thead><tr><th>Aspecto</th><th>Desenvolvidos</th><th>Subdesenvolvidos</th></tr></thead><tbody><tr><td>Inicio</td><td>Seculo XIX</td><td>Seculo XX</td></tr><tr><td>Ritmo</td><td>Gradual</td><td>Rapido</td></tr><tr><td>Planejamento</td><td>Melhor</td><td>Desordenado</td></tr><tr><td>Problemas</td><td>Menores</td><td>Favelas, caos urbano</td></tr></tbody></table><h2>Conceitos</h2><ul><li><strong>Megacidade:</strong> +10 milhoes de habitantes</li><li><strong>Metropole:</strong> grande centro com influencia regional</li><li><strong>Conurbacao:</strong> cidades que se fundem</li></ul><h2>Resumo</h2><ul><li>Urbanizacao dos subdesenvolvidos = tardia e desordenada</li><li>ENEM: megacidades, rede urbana, problemas</li></ul><h2>Curiosidade</h2><p><strong>Toquio</strong> e a maior area metropolitana do mundo, com ~37 milhoes de habitantes!</p>",
+      "faq": [
+        {
+          "q": "Macrocefalia urbana?",
+          "a": "Quando uma cidade concentra tudo: populacao, servicos, empregos. Ex: Sao Paulo no Brasil. Desequilibra a rede urbana."
+        },
+        {
+          "q": "Megalopole?",
+          "a": "Conurbacao de varias metropoles formando uma faixa urbana continua. Ex: Boston-Washington (BosWash) nos EUA, Toquio-Osaka."
+        },
+        {
+          "q": "Por que favelas?",
+          "a": "Urbanizacao rapida sem planejamento. Migrantes rurais sem renda para moradia formal ocupam areas irregulares (encostas, beira de rios)."
+        },
+        {
+          "q": "Exodo rural?",
+          "a": "Migracao campo-cidade. Causas: mecanizacao agricola, busca por emprego/educacao/saude nas cidades. Principal motor da urbanizacao."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Megacidade tem + de",
+          "options": [
+            "1 milhao",
+            "5 milhoes",
+            "10 milhoes",
+            "20 milhoes"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Urbanizacao de subdesenvolvidos",
+          "options": [
+            "Planejada",
+            "Gradual",
+            "Tardia e rapida",
+            "Antiga"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Maior area metropolitana",
+          "options": [
+            "Nova York",
+            "Sao Paulo",
+            "Toquio",
+            "Mumbai"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Macrocefalia urbana",
+          "options": [
+            "Muitas cidades iguais",
+            "1 cidade concentra tudo",
+            "Sem cidades",
+            "Cidades pequenas"
+          ],
+          "answer": 1
+        }
+      ]
     },
     {
-      "title": "Mapas e Legendas",
-      "slug": "mapas-e-legendas",
-      "desc": "Aprendendo a ler e entender mapas.",
-      "category": "Cartografia",
-      "difficulty": "Intermediário",
-      "reading_time": "3",
-      "xp": "75",
-      "essential": "Mapa = representação da Terra no papel. Legenda: explica os símbolos. Rosa dos ventos: Norte, Sul, Leste, Oeste. Escala: relação entre distância no mapa e real.",
-      "body": "<p>Um <strong>mapa</strong> é uma representação de um lugar desenhada no papel ou na tela. Para entender um mapa, precisamos conhecer seus elementos:</p><p><strong>Legenda:</strong> explica o que cada cor e símbolo significa (azul=água, verde=floresta). <strong>Rosa dos ventos:</strong> indica as direções (Norte, Sul, Leste, Oeste). <strong>Escala:</strong> mostra a proporção — quanto 1 cm no mapa equivale na realidade.</p><p>Existem muitos tipos de mapas: <strong>políticos</strong> (mostram países e estados), <strong>físicos</strong> (mostram relevo e rios) e <strong>temáticos</strong> (mostram dados específicos como clima ou população).</p>",
-      "faq": [{"q":"O que é GPS?","a":"Sistema de Posicionamento Global — usa satélites para mostrar sua localização exata no mapa."},{"q":"Quem faz mapas?","a":"Cartógrafos! É a ciência da cartografia."}]
+      "title": "Urbanização Brasileira",
+      "slug": "urbanizacao-brasileira",
+      "desc": "Urbanizacao brasileira: exodo rural pos-1950. Metropolizacao. Regioes metropolitanas. Problemas urbanos: favelizacao, transporte, violencia, segregacao.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Brasil: 85% urbano (2020). Urbanizacao acelerada pos-1950 (JK, industrializacao). Exodo rural: mecanizacao + emprego urbano. Problemas: favelizacao, deficit habitacional, transporte precario, violencia, segregacao socioespacial. Regioes metropolitanas: SP (maior), RJ, BH. Desmetropolizacao: crescimento de cidades medias. Estatuto da Cidade (2001): funcao social da propriedade.",
+      "body": "<h2>Introducao</h2><p>O <strong>Brasil</strong> se urbanizou rapidamente a partir de 1950, de forma desordenada.</p><h2>Numeros</h2><ul><li>1950: ~36% urbano → 2020: ~85% urbano</li><li>Maior regiao metropolitana: Sao Paulo (~22 milhoes)</li></ul><h2>Problemas</h2><table><thead><tr><th>Problema</th><th>Causa</th></tr></thead><tbody><tr><td>Favelizacao</td><td>Deficit habitacional, especulacao</td></tr><tr><td>Transporte</td><td>Priorizacao do carro, pouco metro/trem</td></tr><tr><td>Violencia</td><td>Desigualdade, segregacao</td></tr><tr><td>Enchentes</td><td>Impermeabilizacao, ocupacao irregular</td></tr></tbody></table><h2>Resumo</h2><ul><li>85% urbano, rapido e desordenado</li><li>ENEM: segregacao, transporte, favelas</li></ul><h2>Curiosidade</h2><p>Sao Paulo tem <strong>1,5 milhao de carros</strong> em congestionamento diario. O metro transportaria mais pessoas em menos espaco!</p>",
+      "faq": [
+        {
+          "q": "Desmetropolizacao?",
+          "a": "Crescimento de cidades medias (100-500 mil hab). Pessoas e empresas saem das metropoles buscando custo menor e qualidade de vida."
+        },
+        {
+          "q": "Deficit habitacional?",
+          "a": "~6 milhoes de familias sem moradia adequada no Brasil. Imoveis vazios superam o deficit, mas especulacao imobiliaria impede acesso."
+        },
+        {
+          "q": "Estatuto da Cidade?",
+          "a": "Lei 2001: funcao social da propriedade urbana. Instrumentos: IPTU progressivo, usucapiao, plano diretor obrigatorio para cidades +20 mil hab."
+        },
+        {
+          "q": "Por que enchentes urbanas?",
+          "a": "Impermeabilizacao (asfalto, concreto) impede infiltracao. Rios canalizados transbordam. Lixo entope bueiros. Ocupacao de varzeas."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Brasil - % urbano 2020",
+          "options": [
+            "50%",
+            "65%",
+            "75%",
+            "85%"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "Maior RM do Brasil",
+          "options": [
+            "Rio",
+            "Brasilia",
+            "Sao Paulo",
+            "Belo Horizonte"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Exodo rural acelerou",
+          "options": [
+            "1900",
+            "1930",
+            "1950",
+            "1980"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Estatuto da Cidade",
+          "options": [
+            "1988",
+            "1995",
+            "2001",
+            "2010"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "População Mundial: Teorias e Dinâmica",
+      "slug": "populacao-mundial-teorias-e-dinamica",
+      "desc": "Populacao: Malthus, neomalthusiana, reformista. Transicao demografica. Taxa natalidade, mortalidade, fecundidade. Piramide etaria. Envelhecimento.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Malthus (1798): populacao cresce geometricamente, alimento aritmeticamente (fome inevitavel). Neomalthusiana: controle de natalidade urgente. Reformista: desenvolvimento social reduz natalidade naturalmente. Transicao demografica: pre-transicional (alta natalidade/mortalidade), transicional (mortalidade cai), pos-transicional (ambas baixas). Piramide etaria: jovem (base larga), adulta (meio largo), envelhecida (topo largo). Brasil: bonus demografico (mais adultos produtivos).",
+      "body": "<h2>Introducao</h2><p>As <strong>teorias populacionais</strong> tentam explicar o crescimento demografico e seus impactos.</p><h2>Teorias</h2><table><thead><tr><th>Teoria</th><th>Ideia central</th></tr></thead><tbody><tr><td>Malthusiana</td><td>Fome inevitavel sem controle</td></tr><tr><td>Neomalthusiana</td><td>Controle de natalidade urgente</td></tr><tr><td>Reformista</td><td>Desenvolvimento social resolve</td></tr></tbody></table><h2>Transicao Demografica</h2><ol><li>Pre-transicional: alta natalidade + alta mortalidade</li><li>Transicional: mortalidade cai, natalidade alta</li><li>Pos-transicional: ambas baixas</li></ol><h2>Resumo</h2><ul><li>Reformista: mais aceita hoje</li><li>ENEM: transicao demografica, piramides</li></ul><h2>Curiosidade</h2><p>O <strong>Japao</strong> vende mais fraldas geriatricas do que infantis desde 2012! Envelhecimento extremo.</p>",
+      "faq": [
+        {
+          "q": "Malthus errou?",
+          "a": "Sim. Nao previu Revolucao Verde (tecnologia agricola). Producao de alimentos cresceu mais que a populacao. Mas o desperdicio e distribuicao desigual causam fome."
+        },
+        {
+          "q": "Bonus demografico?",
+          "a": "Periodo em que ha mais adultos em idade produtiva do que dependentes (criancas+idosos). Brasil esta nessa fase. Oportunidade de crescimento economico."
+        },
+        {
+          "q": "Envelhecimento e problema?",
+          "a": "Desafio: mais gastos com saude e previdencia, menos trabalhadores contribuindo. Japao, Alemanha, Italia enfrentam isso. Brasil se prepara."
+        },
+        {
+          "q": "Taxa de fecundidade do Brasil?",
+          "a": "~1,7 filhos por mulher (2023). Abaixo da reposicao (2,1). Populacao crescera menos e envelhecera mais."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Malthus - ano",
+          "options": [
+            "1698",
+            "1798",
+            "1898",
+            "1998"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Teoria reformista defende",
+          "options": [
+            "Controle forcado",
+            "Desenvolvimento social",
+            "Nada",
+            "Mais filhos"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Taxa de reposicao",
+          "options": [
+            "1,0",
+            "1,5",
+            "2,1",
+            "3,0"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Bonus demografico - mais",
+          "options": [
+            "Criancas",
+            "Idosos",
+            "Adultos produtivos",
+            "Imigrantes"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Migrações Internacionais e Refugiados",
+      "slug": "migracoes-internacionais-e-refugiados",
+      "desc": "Migracoes: tipos (voluntaria, forcada), causas (economica, conflitos, climatica). Refugiados: ACNUR. Xenofobia. Diaspora. Migracoes no Brasil.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Migracoes: voluntarias (trabalho, estudo) ou forcadas (refugiados, deslocados). Causas: economicas (maioria), conflitos (Syria, Venezuela), climaticas (novo tipo). Refugiados: protegidos pelo Direito Internacional (ACNUR/UNHCR). ~100 milhoes de deslocados forcados (2023). Xenofobia: preconceito contra estrangeiros. Brasil: recebe venezuelanos, haitianos, sirios. Emigracao brasileira: EUA, Europa, Japao.",
+      "body": "<h2>Introducao</h2><p>As <strong>migracoes internacionais</strong> movem milhoes de pessoas por motivos economicos, politicos e ambientais.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Motivacao</th><th>Exemplo</th></tr></thead><tbody><tr><td>Voluntaria</td><td>Trabalho, estudo</td><td>Brasileiros no Japao</td></tr><tr><td>Forcada</td><td>Conflitos, perseguicao</td><td>Sirios, venezuelanos</td></tr><tr><td>Climatica</td><td>Desastres, clima</td><td>Ilhas do Pacifico</td></tr></tbody></table><h2>Refugiados</h2><ul><li>~100 milhoes de deslocados forcados (2023)</li><li>ACNUR: agencia da ONU para refugiados</li></ul><h2>Resumo</h2><ul><li>Migracoes economicas sao maioria</li><li>ENEM: refugiados, xenofobia, migracoes Sul-Norte</li></ul><h2>Curiosidade</h2><p>A <strong>Syria</strong> tem a maior crise de refugiados do seculo XXI: ~6,8 milhoes fugiram do pais desde 2011.</p>",
+      "faq": [
+        {
+          "q": "Refugiado vs imigrante?",
+          "a": "Refugiado: foge de perseguicao/conflito (protecao internacional). Imigrante: muda voluntariamente (trabalho/estudo). Direitos diferentes."
+        },
+        {
+          "q": "Xenofobia cresce?",
+          "a": "Sim. Discursos anti-imigracao crescem na Europa e EUA. Extrema-direita politiza o tema. Mas imigrantes contribuem para economia e cultura."
+        },
+        {
+          "q": "Brasil recebe muitos refugiados?",
+          "a": "Relativamente. Venezuelanos (~400 mil), haitianos, sirios. Lei de Migracao (2017) e progressista. Operacao Acolhida para venezuelanos."
+        },
+        {
+          "q": "Diaspora?",
+          "a": "Comunidade de pessoas que vivem fora de seu pais de origem. Diaspora judia, africana, brasileira (dekasseguis no Japao, comunidade em Boston)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "ACNUR protege",
+          "options": [
+            "Criancas",
+            "Refugiados",
+            "Animais",
+            "Florestas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Maior crise de refugiados seculo XXI",
+          "options": [
+            "Colombia",
+            "Syria",
+            "Venezuela",
+            "Myanmar"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Xenofobia e preconceito contra",
+          "options": [
+            "Mulheres",
+            "Idosos",
+            "Estrangeiros",
+            "Deficientes"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Deslocados forcados no mundo ~",
+          "options": [
+            "10 milhoes",
+            "50 milhoes",
+            "100 milhoes",
+            "500 milhoes"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Matriz Energética Mundial e Brasileira",
+      "slug": "matriz-energetica-mundial-e-brasileira",
+      "desc": "Energia: matriz mundial (petroleoo, carvao, gas) vs brasileira (hidreletrica, biomassa, petroleo). Renovaveis vs nao-renovaveis. Solar, eolica, nuclear.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Matriz mundial: majoritariamente fossil (petroleo ~33%, carvao ~27%, gas ~24%). Renovaveis crescendo (solar, eolica). Matriz brasileira: mais limpa. Eletrica: ~65% hidreletrica. Energetica total: petroleo ~35%, biomassa (cana) ~18%, hidreletrica ~12%. Renovaveis: solar (NE), eolica (NE e Sul), biomassa (etanol). Nao-renovaveis: petroleo, carvao, gas, nuclear (Angra 1 e 2). Pre-sal: grande reserva offshore.",
+      "body": "<h2>Introducao</h2><p>A <strong>matriz energetica</strong> mostra de onde vem a energia que um pais consome.</p><h2>Mundo vs Brasil</h2><table><thead><tr><th>Fonte</th><th>Mundo</th><th>Brasil</th></tr></thead><tbody><tr><td>Petroleo</td><td>~33%</td><td>~35%</td></tr><tr><td>Carvao</td><td>~27%</td><td>~5%</td></tr><tr><td>Hidreletrica</td><td>~7%</td><td>~12%</td></tr><tr><td>Biomassa</td><td>~10%</td><td>~18%</td></tr><tr><td>Solar/eolica</td><td>Crescendo</td><td>Crescendo rapido</td></tr></tbody></table><h2>Brasil - Destaque</h2><ul><li>Matriz eletrica: ~65% hidreletrica (mais limpa que media mundial)</li><li>Etanol de cana: biocombustivel</li><li>Pre-sal: petroleo offshore de alta qualidade</li></ul><h2>Resumo</h2><ul><li>Brasil: matriz mais limpa que media mundial</li><li>ENEM: renovaveis vs nao-renovaveis, pre-sal</li></ul><h2>Curiosidade</h2><p>O <strong>Nordeste</strong> brasileiro e potencia em energia eolica e solar! A regiao tem ventos constantes e alta irradiacao solar.</p>",
+      "faq": [
+        {
+          "q": "Pre-sal e importante?",
+          "a": "Sim. Reservas gigantes de petroleo de alta qualidade abaixo da camada de sal no litoral. Fez do Brasil um dos maiores produtores."
+        },
+        {
+          "q": "Por que nao so renovavel?",
+          "a": "Renovaveis sao intermitentes (sol a noite, vento variavel). Precisam de backup (termica, bateria). Custo de armazenamento ainda alto."
+        },
+        {
+          "q": "Nuclear no Brasil?",
+          "a": "Angra 1 e Angra 2 (RJ). Angra 3 em construcao. Pouca participacao (~1% da matriz). Debate: seguranca, residuos radioativos."
+        },
+        {
+          "q": "Etanol e biomassa?",
+          "a": "Sim. Etanol de cana e biomassa. Brasil e lider mundial em etanol de cana. Matriz mais limpa que gasolina. Flex-fuel: carro roda ambos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Matriz eletrica BR - maior fonte",
+          "options": [
+            "Eolica",
+            "Solar",
+            "Hidreletrica",
+            "Nuclear"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Fonte mais usada no MUNDO",
+          "options": [
+            "Hidreletrica",
+            "Petroleo",
+            "Solar",
+            "Nuclear"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pre-sal esta",
+          "options": [
+            "No interior",
+            "No litoral (offshore)",
+            "No Rio Amazonas",
+            "No Pantanal"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Etanol brasileiro vem de",
+          "options": [
+            "Milho",
+            "Cana-de-acucar",
+            "Soja",
+            "Beterraba"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Agricultura Global e Brasileira",
+      "slug": "agricultura-global-e-brasileira",
+      "desc": "Agricultura: revolução verde, agronegócio vs agricultura familiar. Monocultura, latifúndio. Brasil: soja, café, cana. Questão agrária. MST.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Revolução Verde (1960-70): modernização agrícola (mecanização, agrotóxicos, sementes melhoradas). Agronegócio: produção em larga escala, exportação (soja, milho, carne). Agricultura familiar: 70% dos alimentos consumidos no Brasil, 77% dos estabelecimentos rurais. Brasil: 3o maior exportador agrícola. Questão agrária: concentração fundiária (latifúndio), reforma agrária, MST, INCRA. Transgênicos: debate saúde vs produtividade.",
+      "body": "<h2>Introdução</h2><p>A <strong>agricultura</strong> é base da economia brasileira e tema recorrente no ENEM.</p><h2>Modelos</h2><table><thead><tr><th>Aspecto</th><th>Agronegócio</th><th>Familiar</th></tr></thead><tbody><tr><td>Escala</td><td>Grande</td><td>Pequena/média</td></tr><tr><td>Produto</td><td>Exportação (soja, carne)</td><td>Alimentos do dia-a-dia</td></tr><tr><td>% Alimentos BR</td><td>~30%</td><td>~70%</td></tr><tr><td>Impacto ambiental</td><td>Alto (desmatamento)</td><td>Menor</td></tr></tbody></table><h2>Questão Agrária</h2><ul><li>Concentração fundiária histórica (latifúndio)</li><li>MST: movimento por reforma agrária</li><li>INCRA: instituto de colonização e reforma agrária</li></ul><h2>Resumo</h2><ul><li>Agronegócio=exportação. Familiar=mesa do brasileiro.</li><li>ENEM: Rev. Verde, concentração fundiária, MST</li></ul><h2>Curiosidade</h2><p>O <strong>Brasil</strong> é o maior produtor mundial de café, cana, soja e laranja!</p>",
+      "faq": [
+        {
+          "q": "Revolução Verde foi boa?",
+          "a": "Aumentou produtividade enormemente, mas com custos: agrotóxicos, poluição, dependência de insumos, concentração de terras, perda de biodiversidade."
+        },
+        {
+          "q": "MST - o que defende?",
+          "a": "Reforma agrária: redistribuição de terras improdutivas para famílias sem-terra. Polêmico: ocupações vs propriedade privada."
+        },
+        {
+          "q": "Transgênico é seguro?",
+          "a": "Segundo consenso científico, os transgênicos aprovados são seguros para consumo. Debate envolve impacto ambiental, dependência de empresas, rotulagem."
+        },
+        {
+          "q": "Agricultura familiar é importante?",
+          "a": "Muito! Produz 70% dos alimentos que vão à mesa dos brasileiros: arroz, feijão, mandioca, leite, hortaliças."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Agricultura familiar produz ~ % dos alimentos BR",
+          "options": [
+            "30%",
+            "50%",
+            "70%",
+            "90%"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Revolução Verde - década",
+          "options": [
+            "1940",
+            "1950",
+            "1960",
+            "1980"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "MST defende",
+          "options": [
+            "Agronegócio",
+            "Reforma agrária",
+            "Transgênicos",
+            "Latifúndio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Brasil é maior produtor mundial de",
+          "options": [
+            "Trigo",
+            "Arroz",
+            "Café",
+            "Milho"
+          ],
+          "answer": 2
+        }
+      ]
     }
   ]
 }

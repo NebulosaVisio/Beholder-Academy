@@ -8,10 +8,15 @@ const ResponsavelUI = (function() {
   let studentData = null;
 
   function init() {
-    studentData = RPGEngine.load();
+    try {
+      studentData = RPGEngine.load();
+    } catch(e) {
+      console.warn('RPG Engine load error in responsavel:', e);
+      studentData = RPGEngine.createDefaultData();
+    }
     renderStudents();
     renderDetail();
-    setupDelegation();
+    bindEvents();
   }
 
   function renderStudents() {
@@ -81,8 +86,6 @@ const ResponsavelUI = (function() {
     // Estimate study time (articles * 5 min avg)
     const studyMinutes = d.stats.artigosLidos * 5;
     const studyHours = Math.floor(studyMinutes / 60);
-    const now = new Date();
-    const daysInMonth = new Date(now.getFullYear(), now.getMonth() + 1, 0).getDate();
 
     el.innerHTML = `
       <div class="resp-stat-card"><div class="resp-stat-icon">📚</div><div class="resp-stat-value">${d.stats.artigosLidos}</div><div class="resp-stat-label">Artigos lidos</div></div>
@@ -110,12 +113,10 @@ const ResponsavelUI = (function() {
     const W = canvas.width, H = canvas.height;
     ctx.clearRect(0, 0, W, H);
 
-    // Simulate 30-day activity from data
     const days = 30;
     const barW = (W - 40) / days;
     const activities = [];
 
-    // Use actual activity data if available
     const now = Date.now();
     for (let i = 0; i < days; i++) {
       const dayStart = now - (days - 1 - i) * 86400000;
@@ -155,7 +156,6 @@ const ResponsavelUI = (function() {
     if (!el) return;
 
     const notifs = [];
-    // Generate notifications from activity
     (d.activity || []).slice(0, 8).forEach(a => {
       if (a.type === 'achievement') notifs.push({ icon: '🏅', text: `Conquista desbloqueada: ${a.name}`, time: a.time });
       if (a.type === 'xp' && a.levelUp) notifs.push({ icon: '🎉', text: `Subiu de nível em ${RPGEngine.SUBJECT_NAMES[a.subject] || a.subject}!`, time: a.time });
@@ -188,22 +188,38 @@ const ResponsavelUI = (function() {
     ).join('');
   }
 
+  // Color-code saldo based on purchasing power (product prices from catalog)
+  // Red: <1000 💎 (can't afford any gift card)
+  // Yellow: 1000-3000 💎 (small items only)
+  // Green: >3000 💎 (can afford meaningful rewards)
+  function colorSaldo(saldo) {
+    if (saldo >= 3000) return '#34D399';  // green
+    if (saldo >= 1000) return '#FBBF24';  // yellow
+    return '#EF4444';                      // red
+  }
+
   function updateMesada(d) {
-    const saldoEl = document.getElementById('mesada-saldo');
-    if (saldoEl) saldoEl.textContent = d.cristais.toLocaleString('pt-BR');
+    var saldoEl = document.getElementById('mesada-saldo');
+    if (saldoEl) {
+      saldoEl.textContent = d.cristais.toLocaleString('pt-BR');
+      saldoEl.style.color = colorSaldo(d.cristais);
+    }
   }
 
   function deposit(amount) {
-    studentData.cristais += amount;
+    var priceMap = { 450: 'R$ 5,90', 1000: 'R$ 11,90', 2200: 'R$ 22,90', 5000: 'R$ 44,90' };
+    var priceLabel = priceMap[amount] || ('💎 ' + amount.toLocaleString('pt-BR'));
+    var saldoAtual = studentData.cristais || 0;
+    var novoSaldo = saldoAtual + amount;
+
+    // Confirmation
+    var confirma = confirm('Confirmar depósito?\n\n' + priceLabel + ' → +💎 ' + amount.toLocaleString('pt-BR') + ' cristais\n\nSaldo atual: 💎 ' + saldoAtual.toLocaleString('pt-BR') + '\nNovo saldo: 💎 ' + novoSaldo.toLocaleString('pt-BR'));
+    if (!confirma) return;
+
+    studentData.cristais = novoSaldo;
     RPGEngine.save(studentData);
     updateMesada(studentData);
     renderNotifications(studentData);
-    // Visual feedback
-    const saldoEl = document.getElementById('mesada-saldo');
-    if (saldoEl) {
-      saldoEl.style.color = '#34D399';
-      setTimeout(() => { saldoEl.style.color = ''; }, 1000);
-    }
   }
 
   function timeAgo(ts) {
@@ -214,16 +230,16 @@ const ResponsavelUI = (function() {
     return Math.floor(diff / 86400) + 'd';
   }
 
+  // --- Event Delegation (inside module) ---
+  function bindEvents() {
+    document.addEventListener('click', function(e) {
+      var el = e.target.closest('[data-action]');
+      if (!el) return;
+      var action = el.getAttribute('data-action');
+      if (action === 'select-student') selectStudent();
+      if (action === 'deposit') deposit(parseInt(el.getAttribute('data-amount'), 10));
+    });
+  }
+
   return { init, selectStudent, deposit };
 })();
-
-// --- Event Delegation for Responsavel ---
-function setupDelegation() {
-  document.addEventListener('click', function(e) {
-    var el = e.target.closest('[data-action]');
-    if (!el) return;
-    var action = el.getAttribute('data-action');
-    if (action === 'select-student') ResponsavelUI.selectStudent();
-    if (action === 'deposit') ResponsavelUI.deposit(parseInt(el.getAttribute('data-amount'), 10));
-  });
-}

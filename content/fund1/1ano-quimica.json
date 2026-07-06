@@ -1,0 +1,874 @@
+{
+  "subject": "Química",
+  "slug": "1ano-quimica",
+  "level": "Fundamental 1",
+  "grade": "1º ano",
+  "color": "var(--quimica)",
+  "icon": "flask",
+  "articles": [
+    {
+      "title": "Matéria e Energia",
+      "slug": "materia-e-energia",
+      "desc": "Matéria: tudo que tem massa e ocupa espaço. Estados: sólido, líquido, gasoso, plasma. Mudanças de estado. Substâncias puras e misturas (homogêneas/heterogêneas).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Matéria: massa + volume. Estados: sólido (forma/volume definidos), líquido (forma variável, volume definido), gasoso (ambos variáveis). Mudanças: fusão, ebulição, sublimação, condensação, solidificação. Substância pura: simples (O₂) ou composta (H₂O). Mistura homogênea (1 fase): solução. Heterogênea (2+ fases). Separação: filtração, destilação, decantação, centrifugação.",
+      "body": "<h2>Introdução</h2><p><strong>Matéria</strong> é tudo que tem massa e ocupa espaço. Pode estar em diferentes estados físicos.</p><h2>Estados Físicos</h2><table><thead><tr><th>Estado</th><th>Forma</th><th>Volume</th></tr></thead><tbody><tr><td>Sólido</td><td>Definida</td><td>Definido</td></tr><tr><td>Líquido</td><td>Variável</td><td>Definido</td></tr><tr><td>Gasoso</td><td>Variável</td><td>Variável</td></tr></tbody></table><h2>Substâncias e Misturas</h2><ul><li><strong>Substância pura:</strong> simples (O₂, Fe) ou composta (H₂O, NaCl)</li><li><strong>Mistura homogênea:</strong> 1 fase (solução: água+sal)</li><li><strong>Mistura heterogênea:</strong> 2+ fases (água+óleo)</li></ul><h2>Separação de Misturas</h2><ul><li>Filtração, destilação, decantação, centrifugação, cromatografia</li></ul><h2>Resumo</h2><ul><li>✅ Homogênea=1 fase, Heterogênea=2+ fases</li><li>⚠️ ENEM: métodos de separação de misturas</li></ul><h2>Curiosidade</h2><p>O <strong>ar</strong> que respiramos é uma mistura homogênea: ~78% N₂, ~21% O₂, ~1% outros gases. Parece uniforme mesmo sendo mistura!</p>",
+      "faq": [
+        {
+          "q": "Água e sal é homogênea?",
+          "a": "Sim (se o sal estiver dissolvido)! A solução tem 1 fase. Se houver sal no fundo (não dissolvido), é heterogênea."
+        },
+        {
+          "q": "Plasma é um estado?",
+          "a": "Sim! Gás ionizado (elétrons livres). Existe em estrelas, raios, telas de plasma. É o estado mais abundante no universo (~99%)."
+        },
+        {
+          "q": "Destilação separa o quê?",
+          "a": "Misturas homogêneas líquidas com pontos de ebulição diferentes. Aquece → o mais volátil evapora primeiro → condensa e é coletado."
+        },
+        {
+          "q": "Substância simples vs composta?",
+          "a": "Simples: 1 elemento (O₂, Fe, Na). Composta: 2+ elementos (H₂O, CO₂, NaCl). Composta pode ser decomposta; simples não."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Mistura homogênea tem:",
+          "options": [
+            "0 fases",
+            "1 fase",
+            "2 fases",
+            "3 fases"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "H₂O é substância:",
+          "options": [
+            "Simples",
+            "Composta",
+            "Mistura",
+            "Elemento"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Destilação separa:",
+          "options": [
+            "Sólido+sólido",
+            "Líquidos miscíveis",
+            "Gases",
+            "Sólido+líquido"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Estado mais abundante no universo:",
+          "options": [
+            "Sólido",
+            "Líquido",
+            "Gasoso",
+            "Plasma"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Modelos Atômicos",
+      "slug": "modelos-atomicos",
+      "desc": "Modelos atômicos: Dalton (bola maciça), Thomson (pudim de passas), Rutherford (núcleo+eletrosfera), Bohr (órbitas quantizadas). Partículas: próton, nêutron, elétron.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Dalton (1808): átomo = esfera maciça indivisível. Thomson (1897): descobriu elétron, 'pudim de passas' (+/−). Rutherford (1911): experimento da lâmina de ouro → núcleo denso (+) + eletrosfera vazia (−). Bohr (1913): elétrons em órbitas quantizadas, emitem/absorvem energia ao mudar de nível. Partículas: próton (p⁺, núcleo), nêutron (n⁰, núcleo), elétron (e⁻, eletrosfera). Z=nº atômico=prótons. A=Z+N.",
+      "body": "<h2>Introdução</h2><p>Os <strong>modelos atômicos</strong> evoluíram ao longo da história, cada um corrigindo falhas do anterior.</p><h2>Evolução</h2><table><thead><tr><th>Modelo</th><th>Ano</th><th>Ideia</th></tr></thead><tbody><tr><td>Dalton</td><td>1808</td><td>Esfera maciça indivisível</td></tr><tr><td>Thomson</td><td>1897</td><td>'Pudim de passas' (e⁻ em massa +)</td></tr><tr><td>Rutherford</td><td>1911</td><td>Núcleo denso + eletrosfera vazia</td></tr><tr><td>Bohr</td><td>1913</td><td>Órbitas quantizadas</td></tr></tbody></table><h2>Partículas Subatômicas</h2><ul><li><strong>Próton (p⁺):</strong> carga +, no núcleo. Z=nº de prótons</li><li><strong>Nêutron (n⁰):</strong> carga 0, no núcleo. N=A−Z</li><li><strong>Elétron (e⁻):</strong> carga −, na eletrosfera</li></ul><h2>Resumo</h2><ul><li>✅ Dalton→Thomson→Rutherford→Bohr</li><li>⚠️ ENEM: experimento de Rutherford, modelo de Bohr</li></ul><h2>Curiosidade</h2><p>Rutherford disparou partículas alfa numa lâmina de ouro. A maioria atravessou (átomo é quase vazio!). Poucas ricochetearam → núcleo denso e positivo.</p>",
+      "faq": [
+        {
+          "q": "Por que Dalton errou?",
+          "a": "Dalton dizia que átomos eram indivisíveis. Thomson descobriu o elétron (1897) → átomo tem partes! Cada modelo se aprimorou com novas descobertas."
+        },
+        {
+          "q": "O que Rutherford mostrou?",
+          "a": "Que o átomo é quase vazio! 99,9% é eletrosfera (vazia). O núcleo é denso e positivo, mas ocupa fração ínfima do volume."
+        },
+        {
+          "q": "Bohr e as órbitas?",
+          "a": "Elétrons ocupam órbitas definidas (níveis de energia). Ao absorver energia, saltam para nível superior. Ao voltar, emitem luz (fóton). Explica espectros atômicos."
+        },
+        {
+          "q": "O que é número atômico?",
+          "a": "Z = número de prótons. Define o elemento. Todo átomo de Z=6 é carbono, Z=79 é ouro. Z não muda (se mudar, muda o elemento = transmutação)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Pudim de passas' é de:",
+          "options": [
+            "Dalton",
+            "Thomson",
+            "Rutherford",
+            "Bohr"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Prótons estão no:",
+          "options": [
+            "Eletrosfera",
+            "Núcleo",
+            "Ambos",
+            "Fora do átomo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Z é o número de:",
+          "options": [
+            "Nêutrons",
+            "Elétrons",
+            "Prótons",
+            "Massa"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Rutherford usou:",
+          "options": [
+            "Raios X",
+            "Partículas alfa",
+            "Luz",
+            "Ímãs"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Distribuição Eletrônica",
+      "slug": "distribuicao-eletronica",
+      "desc": "Distribuição eletrônica: diagrama de Linus Pauling. Camadas (K→Q), subníveis (s,p,d,f). Elétron de valência. Configuração de íons. Regra do octeto.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Distribuição por Pauling: 1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶... Camadas: K(1), L(2), M(3), N(4)... Subníveis: s(2e⁻), p(6e⁻), d(10e⁻), f(14e⁻). Elétrons de valência: última camada → determinam propriedades químicas. Íons: cátion (+, perdeu e⁻), ânion (−, ganhou e⁻). Ex: Na → 1s² 2s² 2p⁶ 3s¹ (11e⁻). Na⁺ → 1s² 2s² 2p⁶ (10e⁻).",
+      "body": "<h2>Introdução</h2><p>A <strong>distribuição eletrônica</strong> mostra como os elétrons se organizam nos níveis e subníveis de energia.</p><h2>Diagrama de Pauling</h2><p>1s² 2s² 2p⁶ 3s² 3p⁶ 4s² 3d¹⁰ 4p⁶ 5s² 4d¹⁰ 5p⁶ 6s² 4f¹⁴ 5d¹⁰ 6p⁶ 7s² 5f¹⁴ 6d¹⁰ 7p⁶</p><h2>Subníveis</h2><table><thead><tr><th>Subnível</th><th>Máx e⁻</th></tr></thead><tbody><tr><td>s</td><td>2</td></tr><tr><td>p</td><td>6</td></tr><tr><td>d</td><td>10</td></tr><tr><td>f</td><td>14</td></tr></tbody></table><h2>Elétrons de Valência</h2><p>Última camada → determinam ligações e propriedades químicas.</p><h2>Resumo</h2><ul><li>✅ Siga a diagonal de Pauling</li><li>⚠️ ENEM: distribuição, valência, formação de íons</li></ul><h2>Curiosidade</h2><p>O <strong>ouro</strong> (Au, Z=79) tem distribuição que termina em 5d¹⁰ 6s¹. Sua cor dourada vem de efeitos relativísticos nos elétrons internos!</p>",
+      "faq": [
+        {
+          "q": "Para que serve a distribuição?",
+          "a": "Para prever propriedades: valência (ligações), raio atômico, eletronegatividade, família na tabela periódica. Elétrons de valência determinam o comportamento químico."
+        },
+        {
+          "q": "Cátion ou ânion?",
+          "a": "Cátion: perdeu e⁻ (+). Ânion: ganhou e⁻ (−). Metais formam cátions (Na→Na⁺). Não-metais formam ânions (Cl→Cl⁻)."
+        },
+        {
+          "q": "Diagrama de Pauling é difícil?",
+          "a": "Não! Siga as diagonais: 1s→2s→2p→3s→3p→4s→3d→4p... A ordem de preenchimento segue a diagonal (menor energia primeiro)."
+        },
+        {
+          "q": "O que é regra do octeto?",
+          "a": "Átomos tendem a ter 8 elétrons na camada de valência (como gases nobres) para estabilidade. Exceções existem (BF₃, SF₆, metais de transição)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Subnível p comporta:",
+          "options": [
+            "2",
+            "6",
+            "10",
+            "14"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na⁺ perdeu:",
+          "options": [
+            "1 próton",
+            "1 elétron",
+            "1 nêutron",
+            "Nada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A distribuição de C (Z=6):",
+          "options": [
+            "1s² 2s² 2p²",
+            "1s² 2p⁴",
+            "2s² 2p⁴",
+            "1s⁶"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Elétrons de valência determinam:",
+          "options": [
+            "Massa",
+            "Propriedades químicas",
+            "Cor",
+            "Tamanho"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Tabela Periódica",
+      "slug": "tabela-periodica",
+      "desc": "Tabela periódica: períodos (linhas), famílias/grupos (colunas). Metais, não-metais, semimetais, gases nobres. Propriedades periódicas: raio, eletronegatividade, energia de ionização.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Tabela: 7 períodos (linhas=camadas), 18 grupos (colunas=e⁻ de valência similares). Famílias: 1A=alcalinos, 2A=alcalinoterrosos, 17(7A)=halogênios, 18(8A)=gases nobres. Metais: brilho, condutividade, maleabilidade. Propriedades periódicas: raio atômico ↑ para baixo e esquerda. Eletronegatividade ↑ para cima e direita (F é o mais eletronegativo). Energia de ionização ↑ para cima e direita.",
+      "body": "<h2>Introdução</h2><p>A <strong>Tabela Periódica</strong> organiza os 118 elementos por número atômico, revelando padrões (periodicidade).</p><h2>Organização</h2><ul><li><strong>Períodos (linhas):</strong> número de camadas eletrônicas</li><li><strong>Grupos/Famílias (colunas):</strong> mesma configuração de valência</li></ul><h2>Famílias Importantes</h2><table><thead><tr><th>Família</th><th>Grupo</th><th>Exemplos</th></tr></thead><tbody><tr><td>Alcalinos</td><td>1A</td><td>Li, Na, K</td></tr><tr><td>Alcalinoterrosos</td><td>2A</td><td>Mg, Ca, Ba</td></tr><tr><td>Halogênios</td><td>7A</td><td>F, Cl, Br, I</td></tr><tr><td>Gases Nobres</td><td>8A</td><td>He, Ne, Ar</td></tr></tbody></table><h2>Propriedades Periódicas</h2><ul><li><strong>Raio atômico:</strong> ↑ para baixo e esquerda</li><li><strong>Eletronegatividade:</strong> ↑ para cima e direita (F é o campeão)</li><li><strong>Energia de ionização:</strong> ↑ para cima e direita</li></ul><h2>Resumo</h2><ul><li>✅ Eletronegatividade: F>O>N>Cl (FONC!)</li><li>⚠️ ENEM: propriedades periódicas, famílias</li></ul><h2>Curiosidade</h2><p>Mendeleev (1869) organizou a tabela e <strong>previu elementos que ainda não existiam</strong>! Deixou lacunas e descreveu suas propriedades. Quando descobertos, batiam perfeitamente!</p>",
+      "faq": [
+        {
+          "q": "Eletronegatividade: F>O>N>Cl por quê?",
+          "a": "Depende de raio atômico e carga nuclear. F tem 7 elétrons de valência num raio pequeno → atrai elétrons com muita força. É o elemento mais eletronegativo."
+        },
+        {
+          "q": "Gases nobres reagem?",
+          "a": "Raramente. Têm camada de valência completa (octeto, exceto He=2). São muito estáveis. Mas compostos de Xe (xenônio) existem sob condições especiais."
+        },
+        {
+          "q": "Metais e não-metais: onde na tabela?",
+          "a": "Metais: esquerda e centro (~80% dos elementos). Não-metais: direita superior. Semimetais: linha diagonal entre eles (B, Si, Ge, As, Sb, Te)."
+        },
+        {
+          "q": "Mendeleev previu elementos?",
+          "a": "Sim! Previu o eka-alumínio (gálio), eka-boro (escândio) e eka-silício (germânio) com propriedades detalhadas. Todos foram descobertos depois e confirmaram suas previsões."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Elemento mais eletronegativo:",
+          "options": [
+            "O",
+            "N",
+            "F",
+            "Cl"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Alcalinos são o grupo:",
+          "options": [
+            "1A",
+            "2A",
+            "7A",
+            "8A"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Raio atômico aumenta para:",
+          "options": [
+            "Cima e direita",
+            "Baixo e esquerda",
+            "Cima e esquerda",
+            "Baixo e direita"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gases nobres têm camada:",
+          "options": [
+            "Incompleta",
+            "Completa",
+            "Sem elétrons",
+            "1 elétron"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Ligações Químicas",
+      "slug": "ligacoes-quimicas",
+      "desc": "Ligações: iônica (metal+não-metal, transferência e⁻), covalente (não-metal+não-metal, compartilhamento e⁻), metálica (mar de elétrons). Polaridade. Geometria molecular.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Iônica: metal doa e⁻ para não-metal → cátion+ânion → atração eletrostática. Covalente: não-metais compartilham e⁻. Polar: átomos diferentes (HCl). Apolar: átomos iguais (O₂). Metálica: cátions em 'mar de elétrons' (brilho, condutividade, maleabilidade). Geometria: linear (CO₂), angular (H₂O), piramidal (NH₃), tetraédrica (CH₄). Forças intermoleculares: dipolo-dipolo, London, pontes de H.",
+      "body": "<h2>Introdução</h2><p><strong>Ligações químicas</strong> unem átomos para formar substâncias mais estáveis.</p><h2>Tipos</h2><table><thead><tr><th>Ligação</th><th>Entre</th><th>Mecanismo</th></tr></thead><tbody><tr><td>Iônica</td><td>Metal + Não-metal</td><td>Transferência de e⁻</td></tr><tr><td>Covalente</td><td>Não-metal + Não-metal</td><td>Compartilhamento de e⁻</td></tr><tr><td>Metálica</td><td>Metal + Metal</td><td>Mar de elétrons</td></tr></tbody></table><h2>Geometria Molecular</h2><ul><li><strong>Linear:</strong> CO₂ (180°)</li><li><strong>Angular:</strong> H₂O (104,5°)</li><li><strong>Piramidal:</strong> NH₃</li><li><strong>Tetraédrica:</strong> CH₄ (109,5°)</li></ul><h2>Forças Intermoleculares</h2><p>London < Dipolo-dipolo < <strong>Pontes de H</strong> (N/O/F—H)</p><h2>Resumo</h2><ul><li>✅ Iônica=transfere, Covalente=compartilha, Metálica=mar de e⁻</li><li>⚠️ ENEM: geometria molecular, polaridade, forças intermoleculares</li></ul><h2>Curiosidade</h2><p>A água (H₂O) tem ponto de ebulição alto (100°C) para sua massa porque faz <strong>pontes de hidrogênio</strong>. Sem elas, evaporaria a -80°C e não existiria água líquida na Terra!</p>",
+      "faq": [
+        {
+          "q": "NaCl é iônico ou covalente?",
+          "a": "Iônico! Na (metal) transfere 1e⁻ para Cl (não-metal). Na⁺ + Cl⁻ → atração eletrostática. Forma cristal com alto ponto de fusão (801°C)."
+        },
+        {
+          "q": "Ponte de H é forte?",
+          "a": "É a mais forte das forças intermoleculares (mas mais fraca que ligações iônica/covalente). Ocorre quando H está ligado a F, O ou N (elementos muito eletronegativos)."
+        },
+        {
+          "q": "H₂O é polar por quê?",
+          "a": "Porque é angular (não linear): os dipolos O−H não se cancelam. Se fosse linear (como CO₂), seria apolar."
+        },
+        {
+          "q": "Metais conduzem por quê?",
+          "a": "Ligação metálica: elétrons livres (mar de elétrons) se movem facilmente → condutividade elétrica e térmica. Também explica brilho e maleabilidade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "NaCl tem ligação:",
+          "options": [
+            "Covalente",
+            "Iônica",
+            "Metálica",
+            "Van der Waals"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "H₂O tem geometria:",
+          "options": [
+            "Linear",
+            "Angular",
+            "Piramidal",
+            "Tetraédrica"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ponte de H: H ligado a:",
+          "options": [
+            "C, Si, Ge",
+            "F, O, N",
+            "Na, K, Ca",
+            "Ar, He, Ne"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ligação metálica: 'mar de':",
+          "options": [
+            "Prótons",
+            "Nêutrons",
+            "Elétrons",
+            "Íons"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Funções Inorgânicas: Ácidos e Bases",
+      "slug": "funcoes-inorganicas-acidos-e-bases",
+      "desc": "Ácidos: liberam H⁺ (Arrhenius), doam H⁺ (Brønsted). Bases: liberam OH⁻, recebem H⁺. pH: 0-14. Indicadores: tornassol, fenolftaleína.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Ácidos (Arrhenius): liberam H⁺ em água. Brønsted: doam H⁺. Fortes: HCl, H₂SO₄, HNO₃. Fracos: CH₃COOH (vinagre). Bases: liberam OH⁻ (Arrhenius) ou recebem H⁺ (Brønsted). Fortes: NaOH, KOH. Fracas: NH₃. pH: 0-7 (ácido), 7 (neutro), 7-14 (básico). Indicadores: tornassol (vermelho=ácido, azul=base), fenolftaleína (incolor→rosa em base).",
+      "body": "<h2>Introdução</h2><p><strong>Ácidos</strong> e <strong>bases</strong> são funções inorgânicas fundamentais em Química.</p><h2>Ácidos</h2><ul><li>Arrhenius: liberam H⁺ em água</li><li>Brønsted-Lowry: doam H⁺</li><li>Fortes: HCl, H₂SO₄, HNO₃</li><li>pH < 7</li></ul><h2>Bases</h2><ul><li>Arrhenius: liberam OH⁻ em água</li><li>Fortes: NaOH (soda cáustica), KOH</li><li>pH > 7</li></ul><h2>Escala de pH</h2><table><thead><tr><th>pH</th><th>Tipo</th><th>Exemplo</th></tr></thead><tbody><tr><td>0-2</td><td>Ácido forte</td><td>Suco gástrico (pH~2)</td></tr><tr><td>5-6</td><td>Ácido fraco</td><td>Café, chuva normal</td></tr><tr><td>7</td><td>Neutro</td><td>Água pura</td></tr><tr><td>8-9</td><td>Base fraca</td><td>Água do mar</td></tr><tr><td>12-14</td><td>Base forte</td><td>NaOH, água sanitária</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ pH<7=ácido, pH=7=neutro, pH>7=base</li><li>⚠️ ENEM: pH, ácidos/bases do cotidiano</li></ul><h2>Curiosidade</h2><p>O <strong>suco gástrico</strong> tem pH≈2 (ácido forte!). Mesmo assim, o estômago não se corrói graças a uma camada de muco protetor.</p>",
+      "faq": [
+        {
+          "q": "Vinagre é ácido forte?",
+          "a": "Não! É ácido acético (CH₃COOH), um ácido fraco (pH≈3). Ácidos fortes: HCl, H₂SO₄, HNO₃ (ionizam completamente)."
+        },
+        {
+          "q": "Antiácido é base?",
+          "a": "Sim! Leite de magnésia (Mg(OH)₂) e bicarbonato (NaHCO₃) são bases fracas. Neutralizam o HCl do estômago."
+        },
+        {
+          "q": "pH e pOH?",
+          "a": "pH+pOH=14. pH=-log[H⁺], pOH=-log[OH⁻]. Se pH=3 → pOH=11 → ácido."
+        },
+        {
+          "q": "Fenolftaleína fica rosa em quê?",
+          "a": "Em bases (pH>8). É incolor em ácido/neutro e rosa/magenta em base. Tornassol: vermelho em ácido, azul em base."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "pH do suco gástrico:",
+          "options": [
+            "2",
+            "7",
+            "10",
+            "14"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "NaOH é:",
+          "options": [
+            "Ácido forte",
+            "Base forte",
+            "Sal",
+            "Óxido"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "pH + pOH =:",
+          "options": [
+            "7",
+            "10",
+            "14",
+            "100"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Fenolftaleína fica rosa em:",
+          "options": [
+            "Ácido",
+            "Neutro",
+            "Base",
+            "Todos"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Funções Inorgânicas: Sais e Óxidos",
+      "slug": "funcoes-inorganicas-sais-e-oxidos",
+      "desc": "Sais: produto de ácido+base (NaCl, CaCO₃). Reação de neutralização. Óxidos: ácidos (CO₂, SO₃), básicos (Na₂O, CaO), anfóteros (Al₂O₃), neutros (CO).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Sais: cátion da base + ânion do ácido. NaCl (sal de cozinha), CaCO₃ (calcário), NaHCO₃ (bicarbonato). Neutralização: ácido+base→sal+água. Óxidos ácidos: reagem com água→ácido (CO₂+H₂O→H₂CO₃, chuva ácida). Óxidos básicos: reagem com água→base (CaO+H₂O→Ca(OH)₂). Anfóteros: Al₂O₃. Neutros: CO, NO. Peróxidos: H₂O₂ (água oxigenada).",
+      "body": "<h2>Introdução</h2><p><strong>Sais</strong> resultam da neutralização ácido+base. <strong>Óxidos</strong> são compostos binários com oxigênio.</p><h2>Sais</h2><ul><li><strong>Neutralização:</strong> ácido + base → sal + água</li><li>HCl + NaOH → NaCl + H₂O</li></ul><h2>Óxidos</h2><table><thead><tr><th>Tipo</th><th>Reage com</th><th>Exemplo</th></tr></thead><tbody><tr><td>Ácido</td><td>Água → ácido</td><td>CO₂, SO₃</td></tr><tr><td>Básico</td><td>Água → base</td><td>Na₂O, CaO</td></tr><tr><td>Anfótero</td><td>Ácido E base</td><td>Al₂O₃, ZnO</td></tr><tr><td>Neutro</td><td>Nenhum</td><td>CO, NO</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Neutralização: ácido+base→sal+água</li><li>⚠️ ENEM: CO₂ e efeito estufa/chuva ácida, óxidos</li></ul><h2>Curiosidade</h2><p>A <strong>chuva ácida</strong> acontece quando SO₂ e NO₂ (óxidos ácidos de indústrias e carros) reagem com água da chuva → H₂SO₄ e HNO₃ diluídos!</p>",
+      "faq": [
+        {
+          "q": "Sal é sempre NaCl?",
+          "a": "Não! NaCl é o sal de cozinha, mas existem milhares de sais: CaCO₃ (calcário), NaHCO₃ (bicarbonato), CaSO₄ (gesso), KNO₃ (salitre)."
+        },
+        {
+          "q": "CaO é cal viva?",
+          "a": "Sim! Óxido básico. CaO+H₂O→Ca(OH)₂ (cal hidratada/apagada). Reação exotérmica (libera calor). Usada em construção civil."
+        },
+        {
+          "q": "CO é perigoso?",
+          "a": "Muito! Monóxido de carbono (CO) é inodoro e incolor. Liga-se à hemoglobina 200× mais forte que O₂ → impede transporte de O₂ → asfixia."
+        },
+        {
+          "q": "H₂O₂ é óxido?",
+          "a": "É peróxido (−1 por O). Água oxigenada. Usado como antisséptico e descolorante. Se decompõe: 2H₂O₂→2H₂O+O₂."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Ácido+base→?:",
+          "options": [
+            "Óxido+água",
+            "Sal+água",
+            "Metal+gás",
+            "Nada"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "CO₂ é óxido:",
+          "options": [
+            "Básico",
+            "Ácido",
+            "Anfótero",
+            "Neutro"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Cal viva é:",
+          "options": [
+            "NaCl",
+            "CaO",
+            "Ca(OH)₂",
+            "CaCO₃"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Chuva ácida vem de:",
+          "options": [
+            "CO₂",
+            "SO₂ e NOₓ",
+            "H₂O",
+            "NaCl"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Reações Químicas: Tipos",
+      "slug": "reacoes-quimicas-tipos",
+      "desc": "Tipos de reações: síntese (A+B→AB), decomposição (AB→A+B), simples troca (AB+C→AC+B), dupla troca (AB+CD→AD+CB). Combustão. Fila de reatividade.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Síntese: A+B→AB (2H₂+O₂→2H₂O). Decomposição/Análise: AB→A+B (2H₂O→2H₂+O₂). Simples troca: AB+C→AC+B (Zn+HCl→ZnCl₂+H₂). Dupla troca: AB+CD→AD+CB (NaCl+AgNO₃→AgCl+NaNO₃). Combustão: C+O₂→CO₂; completa vs incompleta. Fila de reatividade metais: K>Na>Ca>Mg>Al>Zn>Fe>Ni>Sn>Pb>H>Cu>Ag>Pt>Au.",
+      "body": "<h2>Introdução</h2><p>As <strong>reações químicas</strong> se classificam por como os reagentes se transformam em produtos.</p><h2>Tipos</h2><table><thead><tr><th>Tipo</th><th>Esquema</th><th>Exemplo</th></tr></thead><tbody><tr><td>Síntese</td><td>A+B→AB</td><td>2H₂+O₂→2H₂O</td></tr><tr><td>Decomposição</td><td>AB→A+B</td><td>2H₂O→2H₂+O₂</td></tr><tr><td>Simples troca</td><td>AB+C→AC+B</td><td>Zn+2HCl→ZnCl₂+H₂</td></tr><tr><td>Dupla troca</td><td>AB+CD→AD+CB</td><td>NaCl+AgNO₃→AgCl↓+NaNO₃</td></tr></tbody></table><h2>Combustão</h2><ul><li><strong>Completa:</strong> CₓHᵧ+O₂→CO₂+H₂O</li><li><strong>Incompleta:</strong> → CO ou C (fuligem)</li></ul><h2>Resumo</h2><ul><li>✅ 4 tipos: síntese, decomposição, simples troca, dupla troca</li><li>⚠️ ENEM: reatividade de metais, combustão</li></ul><h2>Curiosidade</h2><p>O <strong>ouro (Au)</strong> é tão pouco reativo que está no fim da fila de reatividade. Por isso não enferruja e mantém o brilho por milênios!</p>",
+      "faq": [
+        {
+          "q": "Ferrugem é que tipo de reação?",
+          "a": "Síntese/oxidação: 4Fe+3O₂→2Fe₂O₃ (óxido de ferro). É uma reação lenta de oxidação com O₂ e água."
+        },
+        {
+          "q": "Simples troca sempre ocorre?",
+          "a": "Não! Só se o elemento livre for MAIS reativo que o na substância. Zn desloca H do ácido (Zn>H na fila), mas Cu não (Cu<H)."
+        },
+        {
+          "q": "Combustão incompleta é ruim?",
+          "a": "Sim! Produz CO (monóxido, tóxico) ou C (fuligem, poluente). Acontece quando há O₂ insuficiente. Motores bem regulados fazem combustão completa."
+        },
+        {
+          "q": "Dupla troca sempre acontece?",
+          "a": "Só se formar: precipitado (↓), gás (↑) ou substância menos ionizada (água). Se nenhum ocorrer, a reação não acontece."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A+B→AB é:",
+          "options": [
+            "Decomposição",
+            "Síntese",
+            "Simples troca",
+            "Dupla troca"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Combustão completa produz:",
+          "options": [
+            "CO+H₂O",
+            "CO₂+H₂O",
+            "C+H₂O",
+            "CO₂+H₂"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na fila de reatividade, Au é:",
+          "options": [
+            "Muito reativo",
+            "Pouco reativo",
+            "Médio",
+            "Não está na fila"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Zn+HCl é reação:",
+          "options": [
+            "Síntese",
+            "Decomposição",
+            "Simples troca",
+            "Dupla troca"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Balanceamento de Equações",
+      "slug": "balanceamento-de-equacoes",
+      "desc": "Balanceamento: conservação de massa (Lavoisier). Método tentativa. Reações de oxidação-redução (NOX). Agente oxidante e redutor.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Lavoisier: 'Nada se cria, nada se perde, tudo se transforma'. Balanceamento: igualar átomos nos dois lados. Método: tentativa (metais→não-metais→H→O). NOX: número de oxidação. Oxidação: perde e⁻ (NOX↑). Redução: ganha e⁻ (NOX↓). Agente oxidante: sofre redução (ganha e⁻). Agente redutor: sofre oxidação (perde e⁻).",
+      "body": "<h2>Introdução</h2><p><strong>Balancear</strong> equações garante que a massa se conserve: mesma quantidade de átomos nos reagentes e produtos.</p><h2>Lei de Lavoisier</h2><p>'Nada se cria, nada se perde, <strong>tudo se transforma</strong>'</p><h2>Método de Tentativa</h2><ul><li>Igualar: metais → não-metais → H → O</li><li>Usar coeficientes inteiros menores possíveis</li></ul><h2>Oxidação e Redução (Redox)</h2><table><thead><tr><th>Processo</th><th>Elétrons</th><th>NOX</th></tr></thead><tbody><tr><td>Oxidação</td><td>Perde e⁻</td><td>Aumenta</td></tr><tr><td>Redução</td><td>Ganha e⁻</td><td>Diminui</td></tr></tbody></table><h2>Resumo</h2><ul><li>✅ Oxidação=perde e⁻ (NOX↑). Redução=ganha e⁻ (NOX↓)</li><li>⚠️ ENEM: balanceamento, NOX, agentes oxidante/redutor</li></ul><h2>Curiosidade</h2><p>Lembre: \"<strong>Quem perde é o REDUTOR</strong>\" (parece contraditório!). O redutor perde e⁻ (se oxida) e reduz o outro. O oxidante ganha e⁻ (se reduz).</p>",
+      "faq": [
+        {
+          "q": "Redutor perde elétrons?",
+          "a": "Sim! Parece confuso mas: o REDUTOR sofre OXIDAÇÃO (perde e⁻, NOX↑). Ele REDUZ o outro (dá elétrons). O OXIDANTE sofre REDUÇÃO (ganha e⁻)."
+        },
+        {
+          "q": "NOX do O é sempre -2?",
+          "a": "Quase sempre -2. Exceções: peróxidos (H₂O₂: -1), OF₂ (+2). E no O₂ elementar: NOX=0."
+        },
+        {
+          "q": "Como saber se balanceou certo?",
+          "a": "Conte cada elemento nos dois lados. Se todos forem iguais, está balanceado. Verifique também cargas em reações iônicas."
+        },
+        {
+          "q": "Lavoisier tem outras leis?",
+          "a": "Lavoisier: conservação da massa. Proust: proporções definidas (composição fixa). Dalton: proporções múltiplas. São as leis ponderais da Química."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Oxidação: NOX:",
+          "options": [
+            "Diminui",
+            "Aumenta",
+            "Não muda",
+            "Zera"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Redutor:",
+          "options": [
+            "Ganha e⁻",
+            "Perde e⁻",
+            "Não participa",
+            "Ganha prótons"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Nada se perde' é de:",
+          "options": [
+            "Dalton",
+            "Proust",
+            "Lavoisier",
+            "Bohr"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "NOX do O em H₂O₂:",
+          "options": [
+            "-2",
+            "-1",
+            "0",
+            "+1"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Estequiometria",
+      "slug": "estequiometria",
+      "desc": "Estequiometria: cálculos com equações balanceadas. Mol (6,02×10²³). Massa molar. Relações massa-massa, massa-volume. Reagente limitante e em excesso.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Mol: 6,02×10²³ partículas (Avogadro). Massa molar: massa em g de 1 mol (H=1, C=12, O=16 g/mol). Volume molar (CNTP): 1 mol de gás=22,4L. Estequiometria: usar proporções da equação balanceada para calcular reagentes/produtos. Reagente limitante: acaba primeiro (determina o produto). Reagente em excesso: sobra. Pureza e rendimento: cálculos com impurezas.",
+      "body": "<h2>Introdução</h2><p>A <strong>estequiometria</strong> usa equações balanceadas para calcular quantidades de reagentes e produtos.</p><h2>Conceitos</h2><ul><li><strong>Mol:</strong> 6,02×10²³ partículas</li><li><strong>Massa molar:</strong> massa de 1 mol (g/mol). Ex: H₂O=18g/mol</li><li><strong>Volume molar (CNTP):</strong> 1 mol de gás=22,4L</li></ul><h2>Método</h2><ol><li>Escrever equação balanceada</li><li>Identificar grandezas (mol, massa, volume)</li><li>Montar regra de três usando proporções</li></ol><h2>Reagente Limitante</h2><ul><li>O que acaba primeiro → limita o produto formado</li><li>O outro está em excesso (sobra)</li></ul><h2>Resumo</h2><ul><li>✅ 1 mol=6,02×10²³; 1 mol gás(CNTP)=22,4L</li><li>⚠️ ENEM: regra de três estequiométrica, reagente limitante</li></ul><h2>Curiosidade</h2><p>Um <strong>mol de grãos de areia</strong> cobriria toda a superfície da Terra com uma camada de ~1 metro de altura! 6,02×10²³ é um número absurdamente grande.</p>",
+      "faq": [
+        {
+          "q": "O que é mol?",
+          "a": "Unidade de quantidade de matéria. 1 mol=6,02×10²³ partículas (Avogadro). Assim como 'dúzia'=12, 'mol'=6,02×10²³."
+        },
+        {
+          "q": "CNTP: o que é?",
+          "a": "Condições Normais de Temperatura e Pressão: 0°C (273K) e 1 atm. Nessas condições, 1 mol de qualquer gás ocupa 22,4L."
+        },
+        {
+          "q": "Como achar o reagente limitante?",
+          "a": "Divida a quantidade de cada reagente (em mol) pelo seu coeficiente na equação. O menor valor indica o reagente limitante."
+        },
+        {
+          "q": "Rendimento de 80% significa?",
+          "a": "Que só 80% do produto teórico foi realmente obtido. Multiplique o resultado ideal por 0,8. Rendimento<100% é comum na prática."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "1 mol =:",
+          "options": [
+            "6,02×10²²",
+            "6,02×10²³",
+            "6,02×10²⁴",
+            "6,02×10²⁰"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Massa molar da H₂O:",
+          "options": [
+            "2 g/mol",
+            "16 g/mol",
+            "18 g/mol",
+            "32 g/mol"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "1 mol de gás (CNTP):",
+          "options": [
+            "1L",
+            "11,2L",
+            "22,4L",
+            "44,8L"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Reagente limitante:",
+          "options": [
+            "Sobra",
+            "Acaba primeiro",
+            "Não reage",
+            "É o maior"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Gases",
+      "slug": "gases",
+      "desc": "Gases: equação geral (PV/T=const), lei de Boyle (PV=k), Charles (V/T=k), Gay-Lussac (P/T=k). Gás ideal (PV=nRT). Mistura de gases (Dalton).",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Transformações: isotérmica (T const, P₁V₁=P₂V₂), isobárica (P const, V₁/T₁=V₂/T₂), isocórica (V const, P₁/T₁=P₂/T₂). Equação geral: P₁V₁/T₁=P₂V₂/T₂. Gás ideal: PV=nRT (R=0,082 atm·L/mol·K). Dalton: P_total=P₁+P₂+... (pressões parciais). Avogadro: volumes iguais (mesma T,P) → mesmo nº de mols.",
+      "body": "<h2>Introdução</h2><p>Os <strong>gases</strong> obedecem leis que relacionam pressão, volume e temperatura.</p><h2>Leis</h2><table><thead><tr><th>Lei</th><th>Constante</th><th>Relação</th></tr></thead><tbody><tr><td>Boyle</td><td>T</td><td>P₁V₁=P₂V₂</td></tr><tr><td>Charles</td><td>P</td><td>V₁/T₁=V₂/T₂</td></tr><tr><td>Gay-Lussac</td><td>V</td><td>P₁/T₁=P₂/T₂</td></tr></tbody></table><h2>Equação dos Gases Ideais</h2><p><strong>PV = nRT</strong> (R=0,082 atm·L/mol·K)</p><h2>Lei de Dalton</h2><p>P_total = P₁ + P₂ + ... (pressões parciais)</p><h2>Resumo</h2><ul><li>✅ PV=nRT; P₁V₁/T₁=P₂V₂/T₂ (T em Kelvin!)</li><li>⚠️ ENEM: transformações gasosas, cálculos com PV=nRT</li></ul><h2>Curiosidade</h2><p>A <strong>panela de pressão</strong> funciona pela lei de Gay-Lussac: ao aquecer (T↑) em volume constante (fechada), a pressão aumenta → água ferve acima de 100°C → cozinha mais rápido!</p>",
+      "faq": [
+        {
+          "q": "T sempre em Kelvin?",
+          "a": "Sim! Nas leis dos gases, SEMPRE use Kelvin (K=°C+273). Se usar °C, os resultados serão errados."
+        },
+        {
+          "q": "Gás ideal existe?",
+          "a": "Não na realidade. É um modelo teórico onde partículas não têm volume e não interagem. Gases reais se aproximam do ideal em alta T e baixa P."
+        },
+        {
+          "q": "Boyle: P e V são?",
+          "a": "Inversamente proporcionais (a T constante). Se P dobra, V cai pela metade. Ex: seringa tampada → empurra → pressão aumenta, volume diminui."
+        },
+        {
+          "q": "Dalton: para que serve?",
+          "a": "Calcular pressão de cada gás numa mistura. Ex: ar: P_total=P_N₂+P_O₂+P_outros. Usado em mergulho (lei de Henry/Dalton → narcose do nitrogênio)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "PV=nRT, R=:",
+          "options": [
+            "0,082",
+            "0,82",
+            "8,2",
+            "82"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Boyle: P↑ → V:",
+          "options": [
+            "↑",
+            "↓",
+            "=",
+            "0"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "T nas leis dos gases em:",
+          "options": [
+            "°C",
+            "°F",
+            "K",
+            "°R"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Dalton: P_total = ?:",
+          "options": [
+            "P₁·P₂",
+            "P₁+P₂",
+            "P₁/P₂",
+            "P₁−P₂"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Soluções",
+      "slug": "solucoes",
+      "desc": "Soluções: soluto+solvente. Concentração (C=m/V), molaridade (M=n/V), título, ppm. Diluição (C₁V₁=C₂V₂). Solubilidade. Curvas de solubilidade.",
+      "category": "Antiguidade e Medieval",
+      "difficulty": "Nível 1",
+      "grade": "1º EM",
+      "reading_time": 7,
+      "xp": 100,
+      "essential": "Solução: mistura homogênea (soluto+solvente). Concentração comum: C=m_soluto/V_solução (g/L). Molaridade: M=n/V (mol/L). Título: τ=m_soluto/m_solução. Diluição: C₁V₁=C₂V₂. Solubilidade: máximo de soluto que dissolve (depende da T). Curvas de solubilidade: maioria dos sólidos: solubilidade↑ com T↑. Gases: solubilidade↑ com T↓ e P↑.",
+      "body": "<h2>Introdução</h2><p><strong>Soluções</strong> são misturas homogêneas. A concentração indica quanto soluto há no solvente.</p><h2>Tipos de Concentração</h2><table><thead><tr><th>Medida</th><th>Fórmula</th><th>Unidade</th></tr></thead><tbody><tr><td>Comum</td><td>C=m/V</td><td>g/L</td></tr><tr><td>Molaridade</td><td>M=n/V</td><td>mol/L</td></tr><tr><td>Título</td><td>τ=m_soluto/m_solução</td><td>adimensional</td></tr></tbody></table><h2>Diluição</h2><p><strong>C₁·V₁ = C₂·V₂</strong> (adicionar solvente, soluto não muda)</p><h2>Solubilidade</h2><ul><li>Sólidos: geralmente ↑ com T↑</li><li>Gases: ↑ com T↓ e P↑</li></ul><h2>Resumo</h2><ul><li>✅ C=m/V; M=n/V; C₁V₁=C₂V₂</li><li>⚠️ ENEM: molaridade, diluição, curvas de solubilidade</li></ul><h2>Curiosidade</h2><p>Refrigerante tem mais gás (CO₂) quando <strong>gelado</strong>! Ao esquentar, o gás escapa (solubilidade↓ com T↑). Por isso refrigerante quente \"perde o gás\".</p>",
+      "faq": [
+        {
+          "q": "Molaridade vs concentração?",
+          "a": "Concentração (C): massa/volume (g/L). Molaridade (M): mols/volume (mol/L). Relação: M=C/MM (MM=massa molar do soluto)."
+        },
+        {
+          "q": "Diluir muda o soluto?",
+          "a": "NÃO! Diluir = adicionar solvente. A quantidade de soluto NÃO muda. C₁V₁=C₂V₂ (a concentração cai, o volume sobe)."
+        },
+        {
+          "q": "Curva de solubilidade: para quê?",
+          "a": "Mostra quanto soluto dissolve em função da temperatura. Acima da curva: supersaturada. Na curva: saturada. Abaixo: insaturada."
+        },
+        {
+          "q": "ppm é concentração?",
+          "a": "Sim! Partes por milhão. 1ppm=1mg/L. Usado para concentrações muito baixas (poluentes, metais em água)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "M = n/?:",
+          "options": [
+            "m",
+            "V",
+            "T",
+            "P"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Diluição: C₁V₁ = ?:",
+          "options": [
+            "C₂V₂",
+            "C₂/V₂",
+            "C₁/V₁",
+            "m/V"
+          ],
+          "answer": 0
+        },
+        {
+          "question": "Gases dissolvem mais em T:",
+          "options": [
+            "Alta",
+            "Baixa",
+            "Não importa",
+            "Média"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "1 ppm = ? mg/L:",
+          "options": [
+            "0,1",
+            "1",
+            "10",
+            "100"
+          ],
+          "answer": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,586 @@
+{
+  "subject": "Filosofia",
+  "slug": "2ano-filosofia",
+  "level": "Fundamental 1",
+  "grade": "2º ano",
+  "color": "var(--filosofia)",
+  "icon": "lightbulb",
+  "articles": [
+    {
+      "title": "Renascimento: Humanismo e Maquiavel",
+      "slug": "renascimento-humanismo-e-maquiavel",
+      "desc": "Renascimento: humanismo, antropocentrismo. Maquiavel: O Principe, realismo politico, 'os fins justificam os meios'. Erasmo. Thomas More.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Renascimento (sec. XIV-XVI): retorno aos classicos gregos/romanos. Humanismo: ser humano no centro. Antropocentrismo vs teocentrismo medieval. Maquiavel (1469-1527): O Principe, politica como ela E (nao como deveria ser), 'verita effettuale'. Separou etica de politica. Erasmo de Rotterdam: humanista cristao. Thomas More: Utopia (sociedade ideal). Montaigne: ensaios, ceticismo moderno.",
+      "body": "<h2>Introducao</h2><p>O <strong>Renascimento</strong> trouxe o ser humano de volta ao centro do pensamento.</p><h2>Teocentrismo vs Antropocentrismo</h2><table><thead><tr><th>Medieval</th><th>Renascentista</th></tr></thead><tbody><tr><td>Deus no centro</td><td>Ser humano no centro</td></tr><tr><td>Fe sobre razao</td><td>Razao, ciencia, arte</td></tr><tr><td>Autoridade da Igreja</td><td>Pensamento critico</td></tr></tbody></table><h2>Maquiavel</h2><ul><li>O Principe: manual de poder politico</li><li>Verita effettuale: a verdade efetiva das coisas</li><li>Separou politica de moral religiosa</li></ul><h2>Resumo</h2><ul><li>Humanismo = homem no centro</li><li>ENEM: Maquiavel, antropocentrismo, humanismo</li></ul><h2>Curiosidade</h2><p>'<strong>Maquiavelico</strong>' virou sinonimo de ardiloso, mas Maquiavel era um analista realista da politica, nao um malvado!</p>",
+      "faq": [
+        {
+          "q": "'Os fins justificam os meios'?",
+          "a": "Maquiavel nunca disse exatamente isso! Ele defendia que o governante deve fazer o necessario para manter o Estado, mesmo que moralmente questionavel."
+        },
+        {
+          "q": "Utopia de Thomas More?",
+          "a": "Livro que descreve ilha com sociedade perfeita: sem propriedade privada, igualdade, trabalho coletivo. 'Utopia' = 'lugar nenhum' em grego."
+        },
+        {
+          "q": "Humanismo e ateismo?",
+          "a": "Nao necessariamente! Humanismo renascentista era majoritariamente cristao. Colocava o humano no centro mas nao negava Deus."
+        },
+        {
+          "q": "Maquiavel e importante por que?",
+          "a": "Fundou a ciencia politica moderna. Separou politica de moral/religiao. Analisou o poder como ele E, nao como deveria ser."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Maquiavel escreveu",
+          "options": [
+            "Republica",
+            "Utopia",
+            "O Principe",
+            "Ensaios"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Antropocentrismo = centro no",
+          "options": [
+            "Deus",
+            "Ser humano",
+            "Natureza",
+            "Estado"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Thomas More escreveu",
+          "options": [
+            "O Principe",
+            "Utopia",
+            "Ensaios",
+            "Levata"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Renascimento - seculos",
+          "options": [
+            "X-XII",
+            "XII-XIV",
+            "XIV-XVI",
+            "XVI-XVIII"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Racionalismo: Descartes",
+      "slug": "racionalismo-descartes",
+      "desc": "Racionalismo: razao como fonte do conhecimento. Descartes: duvida metodica, 'penso logo existo' (cogito), res cogitans vs res extensa.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Racionalismo: conhecimento vem da RAZAO (ideias inatas). Descartes (1596-1650): pai da filosofia moderna. Duvida metodica: duvidar de tudo ate encontrar certeza indubitavel. Cogito ergo sum: 'Penso, logo existo'. Res cogitans (mente/pensamento) vs res extensa (corpo/materia). Dualismo cartesiano. Spinoza: substancia unica (Deus=Natureza). Leibniz: monadas.",
+      "body": "<h2>Introducao</h2><p>O <strong>racionalismo</strong> defende que o conhecimento verdadeiro vem da razao, nao dos sentidos.</p><h2>Descartes</h2><ul><li><strong>Duvida metodica:</strong> duvidar de TUDO</li><li><strong>Cogito:</strong> 'Penso, logo existo' - unica certeza indubitavel</li><li><strong>Dualismo:</strong> mente (res cogitans) e corpo (res extensa) separados</li></ul><h2>Outros Racionalistas</h2><table><thead><tr><th>Filosofo</th><th>Ideia</th></tr></thead><tbody><tr><td>Spinoza</td><td>Deus = Natureza (substancia unica)</td></tr><tr><td>Leibniz</td><td>Monadas (unidades de forca)</td></tr></tbody></table><h2>Resumo</h2><ul><li>Razao > sentidos. Cogito = primeira certeza.</li><li>ENEM: duvida metodica, cogito, dualismo</li></ul><h2>Curiosidade</h2><p>Descartes teve a ideia do <strong>plano cartesiano</strong> (x,y) - a matematica homenageia o filosofo!</p>",
+      "faq": [
+        {
+          "q": "Por que duvidar de tudo?",
+          "a": "Para encontrar algo indubitavel. Se duvido de tudo, resta que EU estou duvidando - portanto, PENSO. Se penso, EXISTO. Ponto de partida seguro."
+        },
+        {
+          "q": "Dualismo cartesiano?",
+          "a": "Mente e corpo sao substancias DIFERENTES. Mente pensa, corpo ocupa espaco. Problema: como interagem? Descartes disse 'glandula pineal' (nao convenceu)."
+        },
+        {
+          "q": "Spinoza discordou?",
+          "a": "Sim! Spinoza rejeitou o dualismo. Para ele, existe UMA substancia (Deus/Natureza) com infinitos atributos. Mente e corpo sao aspectos da mesma coisa."
+        },
+        {
+          "q": "Racionalismo vs empirismo?",
+          "a": "Racionalismo: conhecimento vem da razao (ideias inatas). Empirismo: conhecimento vem da EXPERIENCIA (sentidos). Debate central da modernidade."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Cogito ergo sum significa",
+          "options": [
+            "Duvido de tudo",
+            "Penso logo existo",
+            "Deus existe",
+            "Sei que nada sei"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Descartes e pai da filosofia",
+          "options": [
+            "Antiga",
+            "Medieval",
+            "Moderna",
+            "Contemporanea"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Res cogitans e",
+          "options": [
+            "Corpo",
+            "Mente",
+            "Deus",
+            "Natureza"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Spinoza defendia",
+          "options": [
+            "Dualismo",
+            "Substancia unica",
+            "Atomos",
+            "Ideias"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Empirismo: Locke e Hume",
+      "slug": "empirismo-locke-e-hume",
+      "desc": "Empirismo: conhecimento vem da experiencia. Locke (tabula rasa), Hume (ceticismo, causalidade como habito), Berkeley (ser e ser percebido).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Empirismo: conhecimento vem dos SENTIDOS/experiencia. Locke (1632-1704): tabula rasa (mente nasce em branco). Ideias simples + complexas. Hume (1711-1776): causalidade e habito (nao ha garantia racional). Ceticismo empirista. Berkeley: esse est percipi (ser e ser percebido). Debate racionalismo vs empirismo resolvido por Kant.",
+      "body": "<h2>Introducao</h2><p>O <strong>empirismo</strong> defende que todo conhecimento vem da experiencia sensorial.</p><h2>Empiristas</h2><table><thead><tr><th>Filosofo</th><th>Ideia Central</th></tr></thead><tbody><tr><td>Locke</td><td>Tabula rasa (mente em branco)</td></tr><tr><td>Berkeley</td><td>Ser e ser percebido</td></tr><tr><td>Hume</td><td>Causalidade e habito</td></tr></tbody></table><h2>Hume e a Causalidade</h2><p>Nao vemos a CAUSA, so a sequencia. Sol nasce todo dia? Habito, nao certeza logica.</p><h2>Resumo</h2><ul><li>Experiencia > razao pura. Tabula rasa.</li><li>ENEM: Locke vs Descartes, Hume, tabula rasa</li></ul><h2>Curiosidade</h2><p>Hume disse que a <strong>causalidade e um habito</strong> - nao ha garantia racional de que o sol nascera amanha!</p>",
+      "faq": [
+        {
+          "q": "Tabula rasa?",
+          "a": "Locke: nascemos como 'pagina em branco'. Toda ideia vem da experiencia. Nao ha ideias inatas (contra Descartes)."
+        },
+        {
+          "q": "Hume negou a ciencia?",
+          "a": "Nao negou, mas mostrou seu limite. Ciencia se baseia em causalidade, que e habito (nao certeza logica). Despertou Kant do 'sono dogmatico'."
+        },
+        {
+          "q": "Berkeley e idealista?",
+          "a": "Sim! Idealismo subjetivo: so existem percepcoes. Materia nao existe independente da mente. 'Se ninguem ve a arvore, ela existe?'"
+        },
+        {
+          "q": "Empirismo influenciou o que?",
+          "a": "Ciencia moderna (metodo experimental), liberalismo politico (Locke), psicologia empirica, filosofia analitica."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Tabula rasa e de",
+          "options": [
+            "Descartes",
+            "Locke",
+            "Hume",
+            "Kant"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Hume diz que causalidade e",
+          "options": [
+            "Certeza",
+            "Habito",
+            "Razao",
+            "Divina"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Empirismo - conhecimento vem de",
+          "options": [
+            "Razao",
+            "Experiencia",
+            "Deus",
+            "Intuicao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Esse est percipi e de",
+          "options": [
+            "Locke",
+            "Hume",
+            "Berkeley",
+            "Descartes"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Contratualismo: Hobbes, Locke, Rousseau",
+      "slug": "contratualismo-hobbes-locke-rousseau",
+      "desc": "Contratualismo: estado de natureza e contrato social. Hobbes (Leviata, absolutismo), Locke (liberalismo, propriedade), Rousseau (vontade geral).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Contrato social: pessoas abrem mao de liberdade natural por seguranca/ordem. Hobbes (1588-1679): estado de natureza = guerra de todos contra todos. Leviata: Estado absoluto. Locke (1632-1704): direitos naturais (vida, liberdade, propriedade). Estado limitado. Pai do liberalismo. Rousseau (1712-1778): 'o homem nasce bom, a sociedade o corrompe'. Vontade geral. Soberania popular.",
+      "body": "<h2>Introducao</h2><p>Os <strong>contratualistas</strong> explicam a origem do Estado por um pacto entre individuos.</p><h2>Comparacao</h2><table><thead><tr><th>Aspecto</th><th>Hobbes</th><th>Locke</th><th>Rousseau</th></tr></thead><tbody><tr><td>Natureza humana</td><td>Mau/egoista</td><td>Livre/racional</td><td>Bom</td></tr><tr><td>Estado de natureza</td><td>Guerra</td><td>Liberdade com riscos</td><td>Felicidade natural</td></tr><tr><td>Tipo de Estado</td><td>Absolutismo</td><td>Liberal limitado</td><td>Soberania popular</td></tr><tr><td>Obra</td><td>Leviata</td><td>Dois Tratados</td><td>Contrato Social</td></tr></tbody></table><h2>Resumo</h2><ul><li>3 visoes do contrato social</li><li>ENEM: comparar os 3, liberalismo de Locke</li></ul><h2>Curiosidade</h2><p>Locke influenciou diretamente a <strong>Declaracao de Independencia dos EUA</strong> (1776) - 'vida, liberdade e busca da felicidade'!</p>",
+      "faq": [
+        {
+          "q": "Hobbes era a favor da ditadura?",
+          "a": "Do absolutismo, nao da ditadura. Para ele, sem Estado forte, haveria caos (guerra de todos). O Leviata protege. Contexto: Guerra Civil Inglesa."
+        },
+        {
+          "q": "Locke influenciou o que?",
+          "a": "Liberalismo, Revolucao Americana, Revolucao Francesa, Constituicoes modernas. Direitos naturais, separacao de poderes, governo limitado."
+        },
+        {
+          "q": "Rousseau era revolucionario?",
+          "a": "Influenciou a Revolucao Francesa! Vontade geral, soberania popular, igualdade. Mas ele nao viveu para ve-la (morreu em 1778)."
+        },
+        {
+          "q": "Contrato social existe de verdade?",
+          "a": "Nao e historico - e uma hipotese teorica para justificar o Estado. Ninguem 'assinou' um contrato. E uma metafora filosofica."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Guerra de todos contra todos' e de",
+          "options": [
+            "Locke",
+            "Rousseau",
+            "Hobbes",
+            "Maquiavel"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Pai do liberalismo",
+          "options": [
+            "Hobbes",
+            "Locke",
+            "Rousseau",
+            "Kant"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'O homem nasce bom' e de",
+          "options": [
+            "Hobbes",
+            "Locke",
+            "Rousseau",
+            "Voltaire"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Leviata foi escrito por",
+          "options": [
+            "Locke",
+            "Rousseau",
+            "Maquiavel",
+            "Hobbes"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Kant: Crítica da Razão",
+      "slug": "kant-critica-da-razao",
+      "desc": "Kant: criticismo, sintese racionalismo-empirismo. Imperativo categorico. Fenomeno vs noumeno. Autonomia moral. Revolucao copernicana.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Kant (1724-1804): sintetizou racionalismo e empirismo. Conhecimento: formas a priori (espaco, tempo, categorias) + dados da experiencia. Fenomeno (o que aparece) vs noumeno (coisa em si, inacessivel). Revolucao copernicana: sujeito constitui o objeto. Etica: imperativo categorico - 'aja de modo que sua acao possa ser lei universal'. Autonomia moral. Esclarecimento: coragem de usar a propria razao.",
+      "body": "<h2>Introducao</h2><p><strong>Kant</strong> e o filosofo que reconciliou racionalismo e empirismo numa sintese revolucionaria.</p><h2>Teoria do Conhecimento</h2><ul><li><strong>Fenomeno:</strong> o que aparece para nos (acessivel)</li><li><strong>Noumeno:</strong> a coisa em si (inacessivel)</li><li><strong>Formas a priori:</strong> espaco, tempo, categorias</li></ul><h2>Etica</h2><p><strong>Imperativo categorico:</strong> 'Aja apenas segundo a maxima pela qual possas querer que ela se torne lei universal.'</p><h2>Esclarecimento</h2><p>'Sapere aude!' - Ouse saber! Coragem de usar a propria razao.</p><h2>Resumo</h2><ul><li>Fenomeno vs noumeno. Imperativo categorico.</li><li>ENEM: Kant e o mais cobrado da filosofia moderna</li></ul><h2>Curiosidade</h2><p>Kant NUNCA saiu de <strong>Konigsberg</strong> (sua cidade natal) em toda a vida, mas revolucionou o pensamento mundial!</p>",
+      "faq": [
+        {
+          "q": "Imperativo categorico - exemplo?",
+          "a": "'Posso mentir?' Universalize: se todos mentissem, ninguem acreditaria em ninguem - mentira perde sentido. Logo, nao minta. Vale para todos, sem excecao."
+        },
+        {
+          "q": "Fenomeno vs noumeno?",
+          "a": "Fenomeno: realidade como a percebemos (filtrada por espaco/tempo/categorias). Noumeno: realidade em si mesma. Nunca acessamos o noumeno diretamente."
+        },
+        {
+          "q": "Revolucao copernicana?",
+          "a": "Assim como Copernico colocou o sol no centro, Kant colocou o SUJEITO no centro do conhecimento. Nao nos adaptamos aos objetos; os objetos se adaptam a nossa mente."
+        },
+        {
+          "q": "Autonomia moral?",
+          "a": "Agir moralmente por DEVER (razao), nao por medo, interesse ou sentimento. So a acao por dever tem valor moral. Autonomia = dar a si mesmo a lei moral."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Imperativo categorico e de",
+          "options": [
+            "Hegel",
+            "Marx",
+            "Kant",
+            "Hume"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Noumeno e",
+          "options": [
+            "O que aparece",
+            "A coisa em si",
+            "A experiencia",
+            "O conceito"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sapere aude significa",
+          "options": [
+            "Duvide",
+            "Ouse saber",
+            "Pense bem",
+            "Creia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Kant sintetizou",
+          "options": [
+            "Fe e razao",
+            "Racionalismo e empirismo",
+            "Mito e logos",
+            "Etica e politica"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Idealismo Alemão: Hegel",
+      "slug": "idealismo-alemao-hegel",
+      "desc": "Hegel: dialetica (tese-antitese-sintese), Espirito Absoluto, historia como progresso da liberdade. Idealismo alemao.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Hegel (1770-1831): idealismo absoluto. Dialetica: tese + antitese = sintese. Processo continuo de superacao (Aufhebung). Espirito Absoluto: razao que se desenvolve na historia. Historia e progresso da liberdade e da autoconsciencia do Espirito. Estado como realizacao etica. Influenciou Marx (inverteu a dialetica), existencialismo, teoria critica.",
+      "body": "<h2>Introducao</h2><p><strong>Hegel</strong> criou um sistema filosofico grandioso baseado na dialetica.</p><h2>Dialetica</h2><ul><li><strong>Tese:</strong> afirmacao inicial</li><li><strong>Antitese:</strong> negacao/contradicao</li><li><strong>Sintese:</strong> superacao que conserva ambas (Aufhebung)</li></ul><h2>Historia</h2><p>Para Hegel, a historia e o progresso da <strong>liberdade</strong> e da autoconsciencia do Espirito.</p><h2>Resumo</h2><ul><li>Dialetica: tese-antitese-sintese</li><li>ENEM: dialetica hegeliana, historia como progresso</li></ul><h2>Curiosidade</h2><p>Marx disse que pegou a dialetica de Hegel e a '<strong>colocou de pe</strong>' - inverteu do idealismo para o materialismo!</p>",
+      "faq": [
+        {
+          "q": "Dialetica - exemplo?",
+          "a": "Tese: senhorio. Antitese: escravidao. Sintese: reconhecimento mutuo (liberdade). Cada sintese vira nova tese, processo infinito de superacao."
+        },
+        {
+          "q": "Espirito Absoluto?",
+          "a": "Razao cosmica que se desenvolve na historia. Nao e 'fantasma' - e a totalidade da realidade se conhecendo a si mesma atraves da humanidade."
+        },
+        {
+          "q": "Hegel e conservador?",
+          "a": "Debate! Direita hegeliana: Estado prussiano e realizacao do Espirito. Esquerda hegeliana (Marx, Feuerbach): dialetica e revolucionaria."
+        },
+        {
+          "q": "Aufhebung?",
+          "a": "Palavra alema com 3 sentidos: negar, conservar, elevar. A sintese NEGA a tese, CONSERVA o que havia de valido e ELEVA a um nivel superior."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Dialetica de Hegel tem 3 momentos",
+          "options": [
+            "Mito-logos-razao",
+            "Tese-antitese-sintese",
+            "Fe-duvida-certeza",
+            "Ato-potencia-forma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Para Hegel, historia e progresso da",
+          "options": [
+            "Tecnologia",
+            "Liberdade",
+            "Economia",
+            "Religiao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Marx inverteu Hegel do",
+          "options": [
+            "Empirismo ao racionalismo",
+            "Idealismo ao materialismo",
+            "Ceticismo ao dogmatismo",
+            "Teismo ao ateismo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Aufhebung significa",
+          "options": [
+            "Destruicao",
+            "Superacao/conservacao",
+            "Repeticao",
+            "Negacao total"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Filosofia Política Moderna: Liberalismo e Socialismo",
+      "slug": "filosofia-politica-moderna-liberalismo-e-socialismo",
+      "desc": "Filosofia politica: liberalismo (Locke, Mill, Rawls), socialismo (Marx, Engels), anarquismo (Bakunin). Estado, justica, liberdade.",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Liberalismo: liberdade individual, propriedade, mercado. Locke, Adam Smith, Stuart Mill, Rawls (veu da ignorancia). Socialismo: igualdade, propriedade coletiva. Marx: luta de classes. Socialdemocracia: capitalismo com bem-estar social. Anarquismo: abolir o Estado (Bakunin, Proudhon). Debate: liberdade individual vs igualdade social. Estado minimo vs Estado de bem-estar vs sem Estado.",
+      "body": "<h2>Introducao</h2><p>A <strong>filosofia politica moderna</strong> debate o papel do Estado, liberdade e justica.</p><h2>Correntes</h2><table><thead><tr><th>Corrente</th><th>Principio</th><th>Pensadores</th></tr></thead><tbody><tr><td>Liberalismo</td><td>Liberdade individual</td><td>Locke, Mill, Rawls</td></tr><tr><td>Socialismo</td><td>Igualdade social</td><td>Marx, Engels</td></tr><tr><td>Anarquismo</td><td>Abolir o Estado</td><td>Bakunin, Proudhon</td></tr></tbody></table><h2>Rawls - Veu da Ignorancia</h2><p>Se voce nao soubesse sua posicao na sociedade, que regras escolheria? Tenderia a regras JUSTAS para todos.</p><h2>Resumo</h2><ul><li>Liberalismo vs socialismo = debate central</li><li>ENEM: liberdade vs igualdade, Rawls, Marx</li></ul><h2>Curiosidade</h2><p>O '<strong>veu da ignorancia</strong>' de Rawls e um dos experimentos mentais mais influentes da filosofia!</p>",
+      "faq": [
+        {
+          "q": "Liberalismo e de direita?",
+          "a": "Na filosofia, liberalismo e amplo: liberalismo classico (mercado livre) e liberal progressista (direitos civis). Nao se reduz a esquerda/direita."
+        },
+        {
+          "q": "Socialismo = comunismo?",
+          "a": "Nao exatamente. Socialismo: amplo, inclui socialdemocracia. Comunismo: vertente radical, abolicao da propriedade privada e do Estado (Marx)."
+        },
+        {
+          "q": "Rawls - veu da ignorancia?",
+          "a": "Experimento mental: se voce nao soubesse se seria rico/pobre, homem/mulher, negro/branco, escolheria regras que protegem os mais vulneraveis."
+        },
+        {
+          "q": "Anarquismo quer caos?",
+          "a": "Nao! Anarquismo e AUTO-organizacao sem Estado. Cooperacao voluntaria. 'Sem governo' nao e 'sem ordem'. Proudhon: 'propriedade e roubo'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Veu da ignorancia e de",
+          "options": [
+            "Marx",
+            "Locke",
+            "Rawls",
+            "Hobbes"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Anarquismo quer abolir",
+          "options": [
+            "A familia",
+            "O Estado",
+            "A religiao",
+            "A ciencia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Pai do liberalismo classico",
+          "options": [
+            "Marx",
+            "Locke",
+            "Rousseau",
+            "Hegel"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Socialismo prioriza",
+          "options": [
+            "Liberdade individual",
+            "Igualdade social",
+            "Propriedade privada",
+            "Mercado livre"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Estética: O Belo e a Arte",
+      "slug": "estetica-o-belo-e-a-arte",
+      "desc": "Estetica: o belo, a arte, o gosto. Platao (arte como copia), Aristoteles (catarse), Kant (juizo estetico), Hegel (arte como manifestacao do Espirito).",
+      "category": "Idade Moderna",
+      "difficulty": "Nível 2",
+      "grade": "2º EM",
+      "reading_time": 7,
+      "xp": 150,
+      "essential": "Estetica: ramo da filosofia sobre o belo e a arte. Platao: arte e copia da copia (mimese), inferior. Aristoteles: arte e imitacao criativa, catarse (purificacao das emocoes). Kant: belo e 'finalidade sem fim', juizo estetico desinteressado. Hegel: arte evolui (simbolica, classica, romantica). Arte contemporanea: Duchamp (ready-made), arte conceitual, o que e arte?",
+      "body": "<h2>Introducao</h2><p>A <strong>estetica</strong> estuda o belo, a arte e a experiencia sensivel.</p><h2>Visoes</h2><table><thead><tr><th>Filosofo</th><th>Visao da Arte</th></tr></thead><tbody><tr><td>Platao</td><td>Copia da copia (negativa)</td></tr><tr><td>Aristoteles</td><td>Imitacao criativa, catarse</td></tr><tr><td>Kant</td><td>Juizo desinteressado</td></tr><tr><td>Hegel</td><td>Manifestacao do Espirito</td></tr></tbody></table><h2>Arte Contemporanea</h2><p>Duchamp: urinol numa galeria e arte? O CONCEITO e a arte, nao o objeto.</p><h2>Resumo</h2><ul><li>O belo e objetivo ou subjetivo?</li><li>ENEM: catarse, juizo estetico, industria cultural</li></ul><h2>Curiosidade</h2><p>Duchamp colocou um <strong>urinol</strong> numa exposicao (1917) e mudou para sempre o conceito de arte!</p>",
+      "faq": [
+        {
+          "q": "Catarse?",
+          "a": "Aristoteles: arte (tragedia) purifica emocoes do espectador. Ao sentir medo e piedade pelo personagem, o publico se purifica."
+        },
+        {
+          "q": "Belo e subjetivo?",
+          "a": "Debate! Platao: objetivo (Ideia de Beleza). Kant: subjetivo mas universal (todos deveriam concordar). Pos-modernos: totalmente subjetivo."
+        },
+        {
+          "q": "O que e arte?",
+          "a": "Pergunta sem resposta definitiva. Pode ser mimese (imitacao), expressao, conceito, provocacao. Cada epoca redefine."
+        },
+        {
+          "q": "Industria cultural?",
+          "a": "Adorno e Horkheimer (Frankfurt): arte vira mercadoria na sociedade de consumo. Musica, cinema, TV padronizados para lucro, nao para reflexao."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Catarse e conceito de",
+          "options": [
+            "Platao",
+            "Aristoteles",
+            "Kant",
+            "Hegel"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Duchamp colocou um",
+          "options": [
+            "Quadro",
+            "Urinol",
+            "Estatua",
+            "Piano"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Para Platao, arte e",
+          "options": [
+            "Superior",
+            "Copia da copia",
+            "Divina",
+            "Perfeita"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Industria cultural e de",
+          "options": [
+            "Marx",
+            "Kant",
+            "Adorno",
+            "Foucault"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

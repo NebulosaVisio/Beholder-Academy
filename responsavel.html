@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -80,18 +80,15 @@
               <span class="mesada-label">Gasto este mês</span>
               <span class="mesada-value" id="mesada-gasto">💎 0</span>
             </div>
-            <div class="mesada-stat">
-              <span class="mesada-label">Limite mensal</span>
-              <span class="mesada-value" id="mesada-limite">💎 3.000</span>
-            </div>
           </div>
           <div class="mesada-actions">
             <div class="mesada-deposit">
               <label>Depositar:</label>
               <div class="deposit-buttons">
-                <button class="btn-deposit" data-action="deposit" data-amount="1000">R$ 10</button>
-                <button class="btn-deposit" data-action="deposit" data-amount="2000">R$ 20</button>
-                <button class="btn-deposit" data-action="deposit" data-amount="3000">R$ 30</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="450">R$ 5,90 — 450 💎</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="1000">R$ 11,90 — 1.000 💎</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="2200">R$ 22,90 — 2.200 💎</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="5000">R$ 44,90 — 5.000 💎</button>
               </div>
             </div>
           </div>
@@ -165,19 +162,24 @@
       try {
         var user = JSON.parse(userData);
         if (user.type !== 'responsavel') {
-          window.location.href = 'painel.html';
+          // Bug 1.2 fix: redirect to login (not painel) so user can switch profiles
+          alert('Você está logado como aluno. Faça login como responsável para acessar este painel.');
+          window.location.href = 'login.html';
           return;
         }
-        // Show parent name + child name
+        // Bug 1.3 fix: set greeting ONLY here, once. ResponsavelUI.init() no longer touches h1/p.
         var welcomeH1 = document.querySelector('.resp-welcome h1');
+        var welcomeP = document.querySelector('.resp-welcome p');
         if (welcomeH1 && user.name) {
           welcomeH1.textContent = '👋 Olá, ' + user.name + '!';
         }
-        var welcomeP = document.querySelector('.resp-welcome p');
         if (welcomeP && user.linkedTo) {
           welcomeP.textContent = 'Acompanhando o progresso de ' + user.linkedTo;
         }
-      } catch(e) {}
+      } catch(e) {
+        window.location.href = 'login.html';
+        return;
+      }
 
       // Dark mode handled by theme.js
       ResponsavelUI.init();

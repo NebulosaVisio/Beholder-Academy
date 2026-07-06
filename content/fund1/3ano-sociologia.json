@@ -1,0 +1,730 @@
+{
+  "subject": "Sociologia",
+  "slug": "3ano-sociologia",
+  "level": "Fundamental 1",
+  "grade": "3º ano",
+  "color": "var(--sociologia)",
+  "icon": "users",
+  "articles": [
+    {
+      "title": "Trabalho: Conceito e Transformações",
+      "slug": "trabalho-conceito-e-transformacoes",
+      "desc": "Trabalho: conceito sociologico. Marx (alienacao), Durkheim (divisao do trabalho), Weber (vocacao). Transformacoes historicas.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Trabalho: atividade humana que transforma natureza e sociedade. Marx: trabalho alienado no capitalismo (separado do produto). Durkheim: divisao do trabalho cria solidariedade organica. Weber: etica protestante (trabalho como vocacao/chamado divino). Transformacoes: artesanato → manufatura → fabrica → pos-industrial. Trabalho material vs imaterial (intelectual). Centralidade do trabalho na identidade.",
+      "body": "<h2>Introducao</h2><p>O <strong>trabalho</strong> e central para a vida social e para os tres classicos da sociologia.</p><h2>Visoes</h2><table><thead><tr><th>Sociologo</th><th>Visao do Trabalho</th></tr></thead><tbody><tr><td>Marx</td><td>Alienacao, exploracao</td></tr><tr><td>Durkheim</td><td>Divisao gera solidariedade</td></tr><tr><td>Weber</td><td>Vocacao, etica protestante</td></tr></tbody></table><h2>Transformacoes</h2><p>Artesanato → Manufatura → Fabrica → Pos-industrial (servicos, conhecimento)</p><h2>Resumo</h2><ul><li>3 visoes classicas do trabalho</li><li>ENEM: alienacao, divisao do trabalho</li></ul><h2>Curiosidade</h2><p>A palavra '<strong>trabalho</strong>' vem do latim 'tripalium' - um instrumento de tortura! Trabalho e sofrimento estiveram ligados historicamente.</p>",
+      "faq": [
+        {
+          "q": "Trabalho define quem somos?",
+          "a": "Para muitos sociologos, sim. Profissao e central na identidade. 'O que voce faz?' e a primeira pergunta social. Desemprego gera crise de identidade."
+        },
+        {
+          "q": "Trabalho imaterial?",
+          "a": "Trabalho intelectual, criativo, de servicos. Professor, programador, designer. Cresce na sociedade pos-industrial. Menos braco, mais cerebro."
+        },
+        {
+          "q": "Fim do trabalho?",
+          "a": "Debate! Automacao e IA eliminam empregos. Mas historicamente, novas tecnologias criaram novos empregos. O tipo de trabalho muda."
+        },
+        {
+          "q": "Alienacao no seculo XXI?",
+          "a": "Trabalhadores de app (Uber, iFood) nao controlam suas condicoes, nao definem precos. Alienacao atualizada: 'uberizacao'."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Para Marx, trabalho capitalista e",
+          "options": [
+            "Libertador",
+            "Alienado",
+            "Vocacao",
+            "Solidario"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Tripalium era",
+          "options": [
+            "Ferramenta",
+            "Instrumento de tortura",
+            "Danca",
+            "Alimento"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Divisao do trabalho gera (Durkheim)",
+          "options": [
+            "Alienacao",
+            "Anomia",
+            "Solidariedade organica",
+            "Conflito"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Trabalho imaterial e",
+          "options": [
+            "Fisico",
+            "Intelectual/criativo",
+            "Agricola",
+            "Inexistente"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Fordismo, Toyotismo e Uberização",
+      "slug": "fordismo-toyotismo-e-uberizacao",
+      "desc": "Modelos de producao: fordismo (massa, linha de montagem), toyotismo (flexivel, just-in-time), uberizacao (plataformas, precarizacao).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Fordismo (~1910): producao em massa, linha de montagem, trabalhador especializado, estoque grande, consumo de massa. Toyotismo (~1970): producao flexivel, just-in-time, estoque minimo, trabalhador multifuncional, qualidade total. Uberizacao (~2010): plataformas digitais, trabalhador como 'empreendedor', sem direitos trabalhistas, precarizacao, gig economy. Impactos sociais: do emprego formal ao trabalho precario.",
+      "body": "<h2>Introducao</h2><p>Os modelos de producao transformam o trabalho e a sociedade.</p><h2>Comparacao</h2><table><thead><tr><th>Aspecto</th><th>Fordismo</th><th>Toyotismo</th><th>Uberizacao</th></tr></thead><tbody><tr><td>Producao</td><td>Em massa</td><td>Flexivel</td><td>Sob demanda</td></tr><tr><td>Estoque</td><td>Grande</td><td>Minimo</td><td>Zero</td></tr><tr><td>Trabalhador</td><td>Especializado</td><td>Multifuncional</td><td>'Empreendedor'</td></tr><tr><td>Vinculo</td><td>CLT forte</td><td>CLT flexivel</td><td>Sem vinculo</td></tr></tbody></table><h2>Resumo</h2><ul><li>Do emprego fixo ao trabalho precario</li><li>ENEM: fordismo vs toyotismo, precarizacao</li></ul><h2>Curiosidade</h2><p>Henry Ford pagava bem para que seus operarios pudessem <strong>comprar os proprios carros</strong> que fabricavam!</p>",
+      "faq": [
+        {
+          "q": "Uberizacao e boa?",
+          "a": "Para empresas, sim (custos baixos). Para trabalhadores, debate: flexibilidade mas sem direitos (ferias, 13o, INSS). Precarizacao do trabalho."
+        },
+        {
+          "q": "Just-in-time?",
+          "a": "Toyotismo: produzir so o que ja foi vendido. Sem estoque. Reduz desperdicio mas exige eficiencia extrema e pressiona trabalhadores."
+        },
+        {
+          "q": "Gig economy?",
+          "a": "Economia de 'bicos': trabalhos temporarios, por demanda, via plataformas. Uber, iFood, Rappi. Sem vinculo empregaticio formal."
+        },
+        {
+          "q": "CLT esta ameacada?",
+          "a": "Reforma Trabalhista (2017) flexibilizou. Debate: modernizacao necessaria vs perda de direitos. Uberizacao pressiona modelo CLT."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Fordismo usa",
+          "options": [
+            "Just-in-time",
+            "Linha de montagem",
+            "Plataformas",
+            "Trabalho remoto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Toyotismo - estoque",
+          "options": [
+            "Enorme",
+            "Medio",
+            "Minimo",
+            "Nenhum"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Uberizacao gera",
+          "options": [
+            "Emprego fixo",
+            "Precarizacao",
+            "Direitos plenos",
+            "CLT"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Gig economy e economia de",
+          "options": [
+            "Grandes empresas",
+            "Bicos/plataformas",
+            "Estado",
+            "Cooperativas"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Desemprego, Informalidade e Precarização",
+      "slug": "desemprego-informalidade-e-precarizacao",
+      "desc": "Desemprego: estrutural, conjuntural, tecnologico. Informalidade no Brasil. Precarizacao. Reforma trabalhista. Futuro do trabalho.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Desemprego: estrutural (automacao elimina funcoes), conjuntural (crise economica), tecnologico (IA, robotica). Informalidade: ~40% no Brasil (sem carteira). Precarizacao: piora das condicoes de trabalho (baixos salarios, sem direitos). Reforma Trabalhista (2017): flexibilizou CLT. Futuro: automacao, IA, renda basica universal como solucao? Desalento: quem desistiu de procurar emprego.",
+      "body": "<h2>Introducao</h2><p><strong>Desemprego e informalidade</strong> sao problemas estruturais do capitalismo contemporaneo.</p><h2>Tipos de Desemprego</h2><table><thead><tr><th>Tipo</th><th>Causa</th></tr></thead><tbody><tr><td>Estrutural</td><td>Automacao, mudanca tecnologica</td></tr><tr><td>Conjuntural</td><td>Crise economica</td></tr><tr><td>Tecnologico</td><td>IA, robotica</td></tr></tbody></table><h2>Brasil</h2><ul><li>~40% trabalhadores informais</li><li>Reforma Trabalhista (2017)</li><li>Desalentados: ~5 milhoes</li></ul><h2>Resumo</h2><ul><li>Informalidade e regra, nao excecao</li><li>ENEM: precarizacao, informalidade, reforma</li></ul><h2>Curiosidade</h2><p>Um estudo estimou que <strong>47%</strong> dos empregos nos EUA podem ser automatizados nos proximos 20 anos!</p>",
+      "faq": [
+        {
+          "q": "Desalentado?",
+          "a": "Quem desistiu de procurar emprego por achar que nao vai encontrar. Nao entra na taxa de desemprego oficial, o que mascara o problema real."
+        },
+        {
+          "q": "Renda basica universal?",
+          "a": "Proposta: todos recebem renda minima do Estado, independente de trabalho. Testada em experiencias (Finlandia, Quenia). Debate: viabilidade fiscal."
+        },
+        {
+          "q": "IA vai acabar com empregos?",
+          "a": "Vai transformar. Empregos repetitivos serao automatizados. Empregos criativos, sociais, emocionais devem crescer. Transicao sera dolorosa."
+        },
+        {
+          "q": "Reforma Trabalhista ajudou?",
+          "a": "Debate! Defensores: modernizou. Criticos: precarizou (trabalho intermitente, terceirizacao irrestrita). Dados ambiguos."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Desemprego estrutural e causado por",
+          "options": [
+            "Crise",
+            "Automacao",
+            "Inflacao",
+            "Guerra"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Informais no Brasil ~",
+          "options": [
+            "10%",
+            "25%",
+            "40%",
+            "60%"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Desalentado e quem",
+          "options": [
+            "Tem emprego",
+            "Procura emprego",
+            "Desistiu de procurar",
+            "Esta estudando"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Reforma Trabalhista foi em",
+          "options": [
+            "2010",
+            "2014",
+            "2017",
+            "2020"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Religião: Sagrado, Profano e Diversidade",
+      "slug": "religiao-sagrado-profano-e-diversidade",
+      "desc": "Sociologia da religiao: Durkheim (sagrado/profano), Weber (desencantamento), Marx (opio do povo). Secularizacao. Fundamentalismo.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Durkheim: religiao e fato social. Sagrado (separado, respeitado) vs profano (cotidiano). Totemismo como forma elementar. Weber: desencantamento do mundo (razao substitui magia). Etica protestante e capitalismo. Marx: religiao como 'opio do povo' (aliena das condicoes reais). Secularizacao: perda de influencia da religiao na vida publica. Fundamentalismo: interpretacao literal e radical dos textos sagrados.",
+      "body": "<h2>Introducao</h2><p>A <strong>sociologia da religiao</strong> estuda a religiao como fenomeno SOCIAL, nao teologico.</p><h2>Visoes</h2><table><thead><tr><th>Sociologo</th><th>Visao</th></tr></thead><tbody><tr><td>Durkheim</td><td>Sagrado/profano, coesao social</td></tr><tr><td>Weber</td><td>Desencantamento, etica protestante</td></tr><tr><td>Marx</td><td>Opio do povo, alienacao</td></tr></tbody></table><h2>Tendencias</h2><ul><li>Secularizacao: menos religiao na vida publica</li><li>Fundamentalismo: radicalizacao religiosa</li></ul><h2>Resumo</h2><ul><li>Religiao como fato social</li><li>ENEM: Durkheim (sagrado/profano), Weber (desencantamento)</li></ul><h2>Curiosidade</h2><p>Quando Marx disse que religiao e '<strong>opio do povo</strong>', ele nao disse que e mentira - disse que alivia o sofrimento mas impede a revolta!</p>",
+      "faq": [
+        {
+          "q": "Sagrado vs profano?",
+          "a": "Durkheim: sagrado e o que a sociedade SEPARA e protege (altar, biblia, templo). Profano e o cotidiano. A divisao e SOCIAL, nao divina."
+        },
+        {
+          "q": "Desencantamento?",
+          "a": "Weber: modernidade substituiu explicacoes magicas/religiosas por racionais/cientificas. O mundo 'perdeu o encanto'. Ciencia no lugar de fe."
+        },
+        {
+          "q": "Secularizacao aconteceu?",
+          "a": "Parcialmente. Europa: sim, igrejas esvaziaram. Brasil e Americas: nao totalmente, religiao segue forte mas diversificou (pentecostais crescem)."
+        },
+        {
+          "q": "Fundamentalismo e terrorismo?",
+          "a": "Nao necessariamente! Fundamentalismo e interpretacao literal dos textos. Pode ser pacifico. Terrorismo religioso e uma vertente extrema e minoritaria."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Opio do povo' e de",
+          "options": [
+            "Durkheim",
+            "Weber",
+            "Marx",
+            "Comte"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Sagrado vs profano e de",
+          "options": [
+            "Marx",
+            "Weber",
+            "Durkheim",
+            "Foucault"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Desencantamento substitui magia por",
+          "options": [
+            "Mais magia",
+            "Razao",
+            "Fe",
+            "Mito"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Secularizacao e perda de influencia",
+          "options": [
+            "Politica",
+            "Economica",
+            "Religiosa",
+            "Militar"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Diversidade Religiosa no Brasil",
+      "slug": "diversidade-religiosa-no-brasil",
+      "desc": "Diversidade religiosa no Brasil: catolicismo, protestantismo, espiritismo, religioes afro-brasileiras, sem religiao. Intolerancia religiosa. Laicidade.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Brasil: maioria catolica (em queda), evangelicos crescem (~30%), espiritismo, religioes afro-brasileiras (candomble, umbanda - perseguidas), sem religiao cresce. Sincretismo: mistura de tradicoes. Laicidade: Estado separado da religiao (CF/1988). Intolerancia religiosa: ataques a terreiros afro-brasileiros. Bancada evangelica: influencia politica. Liberdade religiosa: direito constitucional.",
+      "body": "<h2>Introducao</h2><p>O <strong>Brasil</strong> e um pais de enorme diversidade religiosa, mas tambem de intolerancia.</p><h2>Religioes</h2><table><thead><tr><th>Religiao</th><th>% (aprox)</th></tr></thead><tbody><tr><td>Catolicismo</td><td>~50% (em queda)</td></tr><tr><td>Evangelicos</td><td>~30% (crescendo)</td></tr><tr><td>Sem religiao</td><td>~10% (crescendo)</td></tr><tr><td>Espiritismo</td><td>~2%</td></tr><tr><td>Afro-brasileiras</td><td>~0,5% (subnotificado)</td></tr></tbody></table><h2>Questoes</h2><ul><li>Intolerancia contra religioes afro-brasileiras</li><li>Laicidade do Estado</li><li>Sincretismo cultural</li></ul><h2>Resumo</h2><ul><li>Diverso mas com intolerancia</li><li>ENEM: laicidade, intolerancia, sincretismo</li></ul><h2>Curiosidade</h2><p>O <strong>sincretismo</strong> brasileiro uniu santos catolicos com orixas africanos: Iemanja=N.S. dos Navegantes, Ogum=Sao Jorge!</p>",
+      "faq": [
+        {
+          "q": "Laicidade?",
+          "a": "Estado laico: nao adota religiao oficial, garante liberdade para todas. Nao e ateismo estatal - e neutralidade. CF/1988 garante."
+        },
+        {
+          "q": "Religioes afro sao perseguidas?",
+          "a": "Sim. Terreiros de candomble e umbanda sofrem ataques fisicos, incendios, discriminacao. Racismo religioso: raiz na escravidao."
+        },
+        {
+          "q": "Evangelicos sao homogeneos?",
+          "a": "Nao! Pentecostais, neopentecostais, historicos (presbiterianos, luteranos). Diversidade interna enorme. Bancada evangelica nao representa todos."
+        },
+        {
+          "q": "Sincretismo?",
+          "a": "Mistura de tradicoes religiosas. No Brasil, africanos escravizados 'esconderam' orixas atras de santos catolicos para manter sua fe. Resultado: religiosidade unica."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Religiao que mais cresce no Brasil",
+          "options": [
+            "Catolicismo",
+            "Evangelicos",
+            "Espiritismo",
+            "Afro-brasileiras"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Estado laico significa",
+          "options": [
+            "Ateu",
+            "Catolico",
+            "Neutro religiosamente",
+            "Sem religiao"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Sincretismo e",
+          "options": [
+            "Separacao",
+            "Mistura de tradicoes",
+            "Proibicao",
+            "Intolerancia"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Intolerancia religiosa afeta mais",
+          "options": [
+            "Catolicos",
+            "Evangelicos",
+            "Afro-brasileiras",
+            "Espiritas"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Educação: Reprodução e Transformação",
+      "slug": "educacao-reproducao-e-transformacao",
+      "desc": "Sociologia da educacao: Bourdieu (reproducao), Freire (libertacao), Durkheim (socializacao). Educacao no Brasil: desigualdade, ENEM, cotas.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Durkheim: educacao e socializacao metodica (integrar o individuo na sociedade). Bourdieu: escola REPRODUZ desigualdade (capital cultural). Quem tem habitus da elite se sai melhor. Freire: educacao como pratica da LIBERDADE (nao bancaria). Educacao no Brasil: desigualdade (publica vs privada), analfabetismo funcional (~30%), ENEM como democratizacao, cotas, FUNDEB.",
+      "body": "<h2>Introducao</h2><p>A <strong>educacao</strong> pode reproduzir ou transformar as desigualdades sociais.</p><h2>Visoes</h2><table><thead><tr><th>Sociologo</th><th>Educacao e</th></tr></thead><tbody><tr><td>Durkheim</td><td>Socializacao (integrar)</td></tr><tr><td>Bourdieu</td><td>Reproducao (desigualdade)</td></tr><tr><td>Freire</td><td>Libertacao (transformar)</td></tr></tbody></table><h2>Brasil</h2><ul><li>Escola publica vs privada: abismo de qualidade</li><li>ENEM: democratizou acesso a universidade</li><li>Cotas: reparacao historica</li></ul><h2>Resumo</h2><ul><li>Escola reproduz OU transforma</li><li>ENEM ama: Bourdieu e Freire!</li></ul><h2>Curiosidade</h2><p>Bourdieu mostrou que a escola e <strong>neutra na aparencia</strong> mas favorece quem ja tem capital cultural (filhos da elite)!</p>",
+      "faq": [
+        {
+          "q": "Capital cultural?",
+          "a": "Bourdieu: conhecimentos, habitos, vocabulario que a familia transmite. Filho de professor chega a escola com vantagem sobre filho de pedreiro. Escola nao compensa."
+        },
+        {
+          "q": "Educacao bancaria?",
+          "a": "Freire: professor deposita conteudo em aluno passivo (como banco). Aluno nao pensa. Modelo opressor. Alternativa: educacao problematizadora (dialogo)."
+        },
+        {
+          "q": "ENEM democratizou?",
+          "a": "Parcialmente. Deu acesso a universidades por nota (nao so vestibular caro). Mas desigualdade na educacao basica limita o desempenho dos mais pobres."
+        },
+        {
+          "q": "Escola publica e ruim?",
+          "a": "Generalizacao injusta. Ha escolas publicas excelentes. Mas em media, faltam recursos, professores, infraestrutura. Investimento por aluno e menor."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Reproducao social e de",
+          "options": [
+            "Durkheim",
+            "Bourdieu",
+            "Freire",
+            "Weber"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Educacao como libertacao e de",
+          "options": [
+            "Durkheim",
+            "Bourdieu",
+            "Freire",
+            "Marx"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Capital cultural beneficia filhos de",
+          "options": [
+            "Todos igualmente",
+            "Classes altas",
+            "Classes baixas",
+            "Ninguem"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Educacao bancaria e (Freire)",
+          "options": [
+            "Boa",
+            "Opressora",
+            "Libertadora",
+            "Neutra"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Meio Ambiente: Sustentabilidade e Justiça Ambiental",
+      "slug": "meio-ambiente-sustentabilidade-e-justica-ambiental",
+      "desc": "Sociologia ambiental: justica ambiental, racismo ambiental, desenvolvimento sustentavel. Conflitos socioambientais. Movimentos verdes.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Justica ambiental: danos ambientais afetam desigualmente (pobres e negros sofrem mais). Racismo ambiental: comunidades negras e indigenas vivem perto de lixoes, fabricas poluentes. Desenvolvimento sustentavel: atender necessidades atuais sem comprometer futuras geracoes. Conflitos socioambientais: mineracao vs comunidades, desmatamento vs povos tradicionais. Chico Mendes: seringueiro assassinado por defender Amazonia.",
+      "body": "<h2>Introducao</h2><p>A crise ambiental e tambem uma crise <strong>social</strong>: quem sofre mais sao os mais vulneraveis.</p><h2>Conceitos</h2><table><thead><tr><th>Conceito</th><th>Significado</th></tr></thead><tbody><tr><td>Justica ambiental</td><td>Distribuicao justa dos riscos</td></tr><tr><td>Racismo ambiental</td><td>Minorias sofrem mais com poluicao</td></tr><tr><td>Sustentabilidade</td><td>Equilibrio presente e futuro</td></tr></tbody></table><h2>Conflitos</h2><ul><li>Mineracao vs comunidades (Mariana, Brumadinho)</li><li>Desmatamento vs indigenas</li></ul><h2>Resumo</h2><ul><li>Crise ambiental e social</li><li>ENEM: justica ambiental, racismo ambiental</li></ul><h2>Curiosidade</h2><p><strong>Chico Mendes</strong> foi assassinado em 1988 por defender a Amazonia. Virou simbolo mundial da luta ambiental!</p>",
+      "faq": [
+        {
+          "q": "Racismo ambiental?",
+          "a": "Lixoes, fabricas poluentes, enchentes afetam mais bairros negros e pobres. Nao e coincidencia: e resultado de desigualdade estrutural na distribuicao do espaco urbano."
+        },
+        {
+          "q": "Mariana e Brumadinho?",
+          "a": "Desastres com barragens de mineracao (2015 e 2019). Dezenas de mortos, rios destruidos, comunidades devastadas. Responsabilidade de grandes mineradoras."
+        },
+        {
+          "q": "Sustentabilidade e possivel?",
+          "a": "Debate! Exige mudanca profunda no modelo economico (consumo, producao, energia). Nao basta reciclar - precisa repensar o sistema todo."
+        },
+        {
+          "q": "Povos tradicionais e ambiente?",
+          "a": "Indigenas, quilombolas, ribeirinhos vivem em harmonia com o ambiente ha seculos. Sao os melhores guardioes das florestas. Demarcacao de terras = preservacao."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Racismo ambiental afeta",
+          "options": [
+            "Ricos",
+            "Pobres e minorias",
+            "Todos igual",
+            "Ninguem"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Chico Mendes defendia",
+          "options": [
+            "Mineracao",
+            "Amazonia",
+            "Agronegocio",
+            "Petroleo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Mariana (2015) foi desastre de",
+          "options": [
+            "Terremoto",
+            "Barragem de mineracao",
+            "Enchente",
+            "Seca"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sustentabilidade busca equilibrio entre",
+          "options": [
+            "Lucro e mais lucro",
+            "Presente e futuro",
+            "Norte e Sul",
+            "Ciencia e fe"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Globalização e Identidade Cultural",
+      "slug": "globalizacao-e-identidade-cultural",
+      "desc": "Globalizacao cultural: homogeneizacao vs hibridismo. Identidade na pos-modernidade. Stuart Hall. Bauman (modernidade liquida).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Globalizacao cultural: fluxos de cultura, informacao, pessoas. Homogeneizacao: McDonaldizacao, cultura americana domina. Hibridismo cultural: misturas criam algo novo. Stuart Hall: identidades sao multiplas e em transformacao (nao fixas). Bauman: modernidade liquida (tudo e instavel, relacoes frageis, inseguranca). Pos-modernidade: fim das grandes narrativas. Consumismo como identidade.",
+      "body": "<h2>Introducao</h2><p>A <strong>globalizacao</strong> transformou como construimos nossas identidades culturais.</p><h2>Debates</h2><table><thead><tr><th>Visao</th><th>Argumento</th></tr></thead><tbody><tr><td>Homogeneizacao</td><td>Cultura americana domina tudo</td></tr><tr><td>Hibridismo</td><td>Culturas se misturam, criam algo novo</td></tr><tr><td>Resistencia</td><td>Culturas locais reagem e se fortalecem</td></tr></tbody></table><h2>Identidade (Hall)</h2><p>Identidade nao e fixa: somos multiplos (brasileiro, negro, gamer, nordestino). Muda ao longo da vida.</p><h2>Resumo</h2><ul><li>Identidades multiplas e em movimento</li><li>ENEM: Hall, Bauman, globalizacao cultural</li></ul><h2>Curiosidade</h2><p>Bauman chamou nossa epoca de '<strong>modernidade liquida</strong>': tudo muda rapido, nada e solido, relacoes sao descartaveis!</p>",
+      "faq": [
+        {
+          "q": "Modernidade liquida?",
+          "a": "Bauman: tudo e instavel - empregos, relacoes, valores. Nada dura. Consumismo substitui pertencimento. Inseguranca e a marca da epoca."
+        },
+        {
+          "q": "Identidade e fixa?",
+          "a": "Hall: nao! Identidade e processo, nao essencia. Somos multiplos: genero, raca, classe, nacionalidade se cruzam e mudam. Pos-modernidade fragmentou identidades."
+        },
+        {
+          "q": "McDonaldizacao?",
+          "a": "Ritzer: princípios do fast food (eficiencia, previsibilidade, padronizacao) se espalham para toda a sociedade. Tudo vira 'McAlguma coisa'."
+        },
+        {
+          "q": "Hibridismo cultural?",
+          "a": "Canclini: culturas se misturam na globalizacao. K-pop mistura pop americano com estetica asiatica. Funk carioca mistura Miami bass com batida brasileira."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Modernidade liquida e de",
+          "options": [
+            "Hall",
+            "Bauman",
+            "Giddens",
+            "Foucault"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Identidade para Hall e",
+          "options": [
+            "Fixa",
+            "Multipla e em movimento",
+            "Biologica",
+            "Nacional"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Hibridismo cultural e",
+          "options": [
+            "Separacao",
+            "Mistura criativa",
+            "Copia",
+            "Destruicao"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "McDonaldizacao padroniza",
+          "options": [
+            "Comida",
+            "Toda a sociedade",
+            "So fast food",
+            "Roupas"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Tecnologia e Sociedade",
+      "slug": "tecnologia-e-sociedade",
+      "desc": "Tecnologia e sociedade: IA, redes sociais, vigilancia digital. Inclusao/exclusao digital. Algoritmos e vies. Privacidade.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "Tecnologia nao e neutra: reflete e reproduz desigualdades. Vigilancia digital: dados coletados por empresas e governos (Snowden, LGPD). Algoritmos: podem reproduzir vies racial e de genero. Inclusao vs exclusao digital: 33 milhoes sem internet no Brasil. IA: automacao, desemprego, etica. Sociedade de controle (Deleuze): vigilancia continua e difusa. Redes sociais: conexao vs polarizacao.",
+      "body": "<h2>Introducao</h2><p><strong>Tecnologia</strong> transforma a sociedade mas nao e neutra: carrega valores e desigualdades.</p><h2>Questoes</h2><table><thead><tr><th>Tema</th><th>Debate</th></tr></thead><tbody><tr><td>Vigilancia</td><td>Dados coletados sem consentimento</td></tr><tr><td>Algoritmos</td><td>Reproduzem vies racial e de genero</td></tr><tr><td>Exclusao digital</td><td>33 milhoes sem internet no BR</td></tr><tr><td>IA</td><td>Automacao e desemprego</td></tr></tbody></table><h2>Resumo</h2><ul><li>Tecnologia reproduz desigualdades</li><li>ENEM: exclusao digital, vigilancia, algoritmos</li></ul><h2>Curiosidade</h2><p>Estudos mostram que algoritmos de reconhecimento facial erram <strong>muito mais</strong> para pessoas negras do que brancas!</p>",
+      "faq": [
+        {
+          "q": "Algoritmo e vies?",
+          "a": "Algoritmos aprendem com dados. Se dados historicos sao racistas (policia mais em bairros negros), o algoritmo reproduz. Tecnologia nao e neutra."
+        },
+        {
+          "q": "LGPD?",
+          "a": "Lei Geral de Protecao de Dados (2020): regula como empresas coletam e usam dados pessoais no Brasil. Inspirada na GDPR europeia."
+        },
+        {
+          "q": "Sociedade de controle?",
+          "a": "Deleuze: apos a sociedade disciplinar (Foucault), veio a de controle. Vigilancia nao e mais fisica (prisao) mas digital (dados, GPS, cameras)."
+        },
+        {
+          "q": "Exclusao digital e grave?",
+          "a": "Sim! Sem internet, nao acessa educacao, emprego, servicos publicos. Pandemia mostrou: aulas online excluiram milhoes de alunos pobres."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "LGPD regula",
+          "options": [
+            "Trabalho",
+            "Dados pessoais",
+            "Educacao",
+            "Saude"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Exclusao digital no BR ~ milhoes",
+          "options": [
+            "5",
+            "15",
+            "33",
+            "50"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Algoritmos podem ter",
+          "options": [
+            "Emocoes",
+            "Vies",
+            "Consciencia",
+            "Alma"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Sociedade de controle e de",
+          "options": [
+            "Foucault",
+            "Deleuze",
+            "Marx",
+            "Weber"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Sociologia no ENEM",
+      "slug": "sociologia-no-enem",
+      "desc": "Como a sociologia cai no ENEM: temas mais cobrados, autores frequentes, dicas de interpretacao. Questoes comentadas.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 3",
+      "grade": "3º EM",
+      "reading_time": 7,
+      "xp": 200,
+      "essential": "ENEM cobra sociologia em Ciencias Humanas (45 questoes). Autores mais cobrados: Durkheim, Marx, Weber, Bourdieu, Foucault, Freire, Bauman. Temas frequentes: desigualdade, cultura, industria cultural, movimentos sociais, cidadania, trabalho, violencia, genero/raca. Dica: texto-base e fundamental - leia com atencao. Relacione texto com conceitos. Questoes pedem INTERPRETACAO, nao decoreba.",
+      "body": "<h2>Introducao</h2><p>A <strong>sociologia no ENEM</strong> exige interpretacao de textos e aplicacao de conceitos.</p><h2>Top Autores</h2><table><thead><tr><th>Autor</th><th>Conceitos-chave</th></tr></thead><tbody><tr><td>Durkheim</td><td>Fato social, solidariedade</td></tr><tr><td>Marx</td><td>Luta de classes, alienacao</td></tr><tr><td>Weber</td><td>Acao social, burocracia</td></tr><tr><td>Bourdieu</td><td>Capital cultural, habitus</td></tr><tr><td>Foucault</td><td>Poder, disciplina</td></tr><tr><td>Freire</td><td>Educacao bancaria</td></tr></tbody></table><h2>Dicas</h2><ul><li>Leia o texto-base com MUITA atencao</li><li>Identifique o CONCEITO por tras da questao</li><li>Nao e decoreba: e interpretacao</li></ul><h2>Resumo</h2><ul><li>Sociologia e interpretativa no ENEM</li><li>Domine os conceitos-chave dos classicos</li></ul><h2>Curiosidade</h2><p>Sociologia e Filosofia juntas representam cerca de <strong>15-20 questoes</strong> das 45 de Ciencias Humanas no ENEM!</p>",
+      "faq": [
+        {
+          "q": "Sociologia cai muito?",
+          "a": "~7-10 questoes por prova (de 45 em Humanas). Sempre com texto-base. Autores classicos + temas contemporaneos."
+        },
+        {
+          "q": "Preciso decorar datas?",
+          "a": "Nao! ENEM pede compreensao de CONCEITOS e interpretacao de textos. Datas sao secundarias. Entenda as ideias."
+        },
+        {
+          "q": "Como estudar?",
+          "a": "Domine os 3 classicos (Durkheim, Marx, Weber) + Bourdieu, Foucault, Freire. Leia textos e pratique questoes anteriores do ENEM."
+        },
+        {
+          "q": "Texto-base e tao importante?",
+          "a": "SIM! A resposta quase sempre esta no texto. Muitos erram por nao ler com atencao. O texto GUIA a resposta."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Autor mais cobrado no ENEM (sociologia)",
+          "options": [
+            "Comte",
+            "Bauman",
+            "Marx",
+            "Bourdieu"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "ENEM pede",
+          "options": [
+            "Decoreba",
+            "Interpretacao",
+            "Calculos",
+            "Datas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Ciencias Humanas tem ? questoes",
+          "options": [
+            "30",
+            "45",
+            "60",
+            "90"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Texto-base no ENEM e",
+          "options": [
+            "Irrelevante",
+            "Opcional",
+            "Fundamental",
+            "Decorativo"
+          ],
+          "answer": 2
+        }
+      ]
+    }
+  ]
+}

@@ -506,18 +506,32 @@
   // --- User Widget (Avatar + Level + Logout) ---
   function initUserWidget() {
     if (typeof RPGEngine === 'undefined') return;
-    var rpgData = RPGEngine.load();
-    var genLevel = RPGEngine.getGeneralLevel(rpgData);
-    var levelPill = document.getElementById('user-level-pill');
-    if (levelPill) levelPill.textContent = 'Nv ' + genLevel;
+    try {
+      var rpgData = RPGEngine.load();
+      var genLevel = RPGEngine.getGeneralLevel(rpgData);
+      var levelPill = document.getElementById('user-level-pill');
+      if (levelPill) levelPill.textContent = 'Nv ' + genLevel;
+    } catch(e) {
+      console.warn('initUserWidget error:', e);
+    }
 
-    // Logout button
+    // Logout is handled by navbar.js with proper base path detection.
+    // Legacy btn-logout support for pages that don't use navbar.js:
     var logoutBtn = document.getElementById('btn-logout');
-    if (logoutBtn) {
+    if (logoutBtn && !logoutBtn._logoutBound) {
+      logoutBtn._logoutBound = true;
       logoutBtn.addEventListener('click', function() {
         if (confirm('Deseja sair? Seu progresso está salvo localmente.')) {
           localStorage.removeItem('beholder_user');
-          window.location.href = 'login.html';
+          // Detect base path for correct redirect
+          var basePath = '';
+          var pathParts = window.location.pathname.split('/').filter(Boolean);
+          var fileName = pathParts[pathParts.length - 1] || '';
+          var rootFiles = ['index.html','login.html','painel.html','responsavel.html','sobre.html','roadmap.html','fontes.html','privacidade.html','termos.html'];
+          if (rootFiles.indexOf(fileName) === -1 && pathParts.length > 1) {
+            basePath = '../';
+          }
+          window.location.href = basePath + 'login.html';
         }
       });
     }

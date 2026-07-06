@@ -1,0 +1,1069 @@
+{
+  "subject": "Português",
+  "slug": "6ano-portugues",
+  "level": "Fundamental 2",
+  "grade": "6º ano",
+  "color": "var(--portugues)",
+  "icon": "book",
+  "articles": [
+    {
+      "title": "Fonema e Letra",
+      "slug": "fonema-e-letra",
+      "desc": "Fonema é a menor unidade sonora da língua (som); letra é sua representação gráfica (escrita). Dígrafo: 2 letras = 1 fonema (ch, lh, nh). Encontro consonantal: 2 consoantes com sons distintos (br, cl). Contagem de fonemas é tema frequente no ENEM.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Fonema é som, letra é símbolo. Dígrafo = 2 letras, 1 fonema (ch, lh, nh, rr, ss). Encontro consonantal = 2 consoantes, 2 fonemas (br, cl, tr). O 'x' pode valer 1 ou 2 fonemas.",
+      "body": "<h2>Introdução</h2>\n<p>Você já parou para pensar que nem sempre o número de letras de uma palavra corresponde ao número de sons que pronunciamos? A palavra <strong>\"chuva\"</strong>, por exemplo, tem 5 letras, mas apenas 4 sons — porque \"ch\" representa um único som. Entender essa diferença é o primeiro passo para dominar a Fonologia, área da Gramática que estuda os sons da língua portuguesa.</p>\n<p>Este tema é cobrado desde o 6º ano e aparece com frequência em provas de vestibulares como ENEM, FUVEST e UNESP, geralmente em questões que envolvem contagem de fonemas, identificação de dígrafos e encontros consonantais.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<h3>O que é Fonema?</h3>\n<p><strong>Fonema</strong> é a menor unidade sonora de uma língua capaz de distinguir significados. Ele é um som, não uma letra. Por exemplo, as palavras \"mala\" e \"bala\" se diferenciam apenas pelo primeiro fonema (/m/ e /b/), e essa troca muda completamente o sentido.</p>\n<p>Representamos os fonemas entre barras: /a/, /b/, /s/. Cada idioma possui seu próprio inventário de fonemas — o português brasileiro tem cerca de 33 fonemas (19 consoantes, 7 vogais e 7 semivogais).</p>\n\n<h3>O que é Letra?</h3>\n<p><strong>Letra</strong> (ou grafema) é a representação gráfica do fonema. É o símbolo escrito que usamos para registrar os sons. O alfabeto brasileiro possui <strong>26 letras</strong>, mas o número de fonemas que elas podem representar é muito maior, pois uma mesma letra pode ter sons diferentes (como o \"x\" em \"exame\", \"xícara\" e \"fixo\").</p>\n\n<h3>Diferença essencial</h3>\n<table>\n<thead><tr><th>Conceito</th><th>Natureza</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td>Fonema</td><td>Som (ouvimos)</td><td>/ʃ/ em \"chuva\"</td></tr>\n<tr><td>Letra</td><td>Símbolo (escrevemos)</td><td>\"ch\" em \"chuva\"</td></tr>\n</tbody>\n</table>\n\n<h2>Desenvolvimento: Classificação dos Fonemas</h2>\n<h3>Vogais</h3>\n<p>São fonemas produzidos sem obstrução da passagem de ar. Em português, as vogais são: <strong>a, e, i, o, u</strong> (com variações abertas e fechadas: /é/ e /ê/, /ó/ e /ô/). As vogais são o <strong>núcleo da sílaba</strong> — toda sílaba obrigatoriamente possui pelo menos uma vogal.</p>\n\n<h3>Consoantes</h3>\n<p>São fonemas produzidos com alguma obstrução (total ou parcial) da corrente de ar na boca. Exemplos: /b/, /d/, /f/, /g/, /k/, /l/, /m/, /n/, /p/, /r/, /s/, /t/, /v/, /z/.</p>\n\n<h3>Semivogais</h3>\n<p>São os fonemas /i/ e /u/ (às vezes representados por \"e\" e \"o\") quando aparecem ao lado de uma vogal na mesma sílaba, formando ditongos ou tritongos. Exemplo: em \"pai\" (p-a-i), o \"i\" funciona como semivogal.</p>\n\n<h2>Dígrafo e Encontro Consonantal</h2>\n<h3>Dígrafo</h3>\n<p>É a união de <strong>duas letras</strong> que representam <strong>um único fonema</strong>. Os principais dígrafos em português são:</p>\n<ul>\n<li><strong>Dígrafos consonantais:</strong> ch (chuva), lh (palha), nh (ninho), rr (carro), ss (passo), sc (nascer), sç (desço), xc (exceção), qu (quero), gu (guerra).</li>\n<li><strong>Dígrafos vocálicos:</strong> am/an (campo), em/en (sempre), im/in (lindo), om/on (onda), um/un (fundo) — representam vogais nasais.</li>\n</ul>\n\n<h3>Encontro Consonantal</h3>\n<p>É a sequência de <strong>duas ou mais consoantes</strong>, cada uma com seu próprio som. Exemplos: <strong>pr</strong>ato (dois fonemas), <strong>fl</strong>or (dois fonemas), <strong>tr</strong>em (dois fonemas). Diferente do dígrafo, aqui cada consoante mantém seu fonema individual.</p>\n\n<h2>Aplicações e Exemplos Práticos</h2>\n<h3>Como contar fonemas</h3>\n<p>Para contar fonemas, siga estes passos:</p>\n<ol>\n<li>Identifique os dígrafos (valem 1 fonema, não 2).</li>\n<li>Identifique letras que não têm som (como \"h\" inicial em \"hora\").</li>\n<li>Conte os sons restantes.</li>\n</ol>\n<p><strong>Exemplos:</strong></p>\n<table>\n<thead><tr><th>Palavra</th><th>Letras</th><th>Fonemas</th><th>Observação</th></tr></thead>\n<tbody>\n<tr><td>chuva</td><td>5</td><td>4</td><td>\"ch\" = dígrafo (1 fonema)</td></tr>\n<tr><td>guerra</td><td>6</td><td>4</td><td>\"gu\" = dígrafo, \"rr\" = dígrafo</td></tr>\n<tr><td>hora</td><td>4</td><td>3</td><td>\"h\" é mudo</td></tr>\n<tr><td>fixo</td><td>4</td><td>5</td><td>\"x\" = /ks/ (2 fonemas)</td></tr>\n<tr><td>campo</td><td>5</td><td>4</td><td>\"am\" = dígrafo vocálico (vogal nasal)</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Fonema ≠ Letra:</strong> fonema é som, letra é símbolo escrito.</li>\n<li>✅ <strong>Dígrafo:</strong> 2 letras = 1 fonema. Memorize: ch, lh, nh, rr, ss, qu, gu, sc, sç, xc.</li>\n<li>✅ <strong>Encontro consonantal:</strong> 2 consoantes = 2 fonemas (ex: br, cl, tr).</li>\n<li>✅ <strong>Atenção ao \"x\":</strong> pode valer 1 fonema (/ʃ/ em \"xícara\") ou 2 fonemas (/ks/ em \"fixo\").</li>\n<li>✅ <strong>\"H\" inicial:</strong> não é fonema, é apenas letra (hora = 3 fonemas).</li>\n<li>⚠️ <strong>Erro comum:</strong> confundir dígrafo com encontro consonantal. \"CH\" é dígrafo (1 som); \"CR\" é encontro (2 sons).</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>Você sabia que a palavra <strong>\"táxi\"</strong> tem 4 letras mas <strong>5 fonemas</strong>? Isso porque a letra \"x\" nessa palavra representa dois sons: /k/ + /s/. Já na palavra \"exame\", o \"x\" vale apenas /z/. O português é uma das línguas com maior variação entre grafia e pronúncia!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre fonema e letra?",
+          "a": "Fonema é o som da fala, a menor unidade sonora que distingue significado (ex: /b/ e /m/ diferenciam 'bala' de 'mala'). Letra é a representação gráfica (escrita) do fonema. Nem sempre há correspondência 1 para 1: 'chuva' tem 5 letras mas 4 fonemas."
+        },
+        {
+          "q": "O que é um dígrafo?",
+          "a": "Dígrafo é a união de duas letras que representam um único fonema. Os principais são: ch (chuva), lh (palha), nh (ninho), rr (carro), ss (passo), qu (quero), gu (guerra), sc (nascer). Existem também dígrafos vocálicos: am, an, em, en, im, in, om, on, um, un."
+        },
+        {
+          "q": "Como diferenciar dígrafo de encontro consonantal?",
+          "a": "No dígrafo, as duas letras produzem um só som (ex: 'ch' em chuva = 1 fonema). No encontro consonantal, cada consoante mantém seu som individual (ex: 'br' em braço = 2 fonemas). Dica: pronuncie devagar e conte os sons."
+        },
+        {
+          "q": "Fonema e letra cai no ENEM?",
+          "a": "Sim! Questões sobre fonologia aparecem no ENEM geralmente integradas à interpretação textual, pedindo análise de efeitos sonoros (aliteração, assonância) ou contagem de fonemas em questões de linguagens."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Quantos fonemas tem a palavra 'chuva'?",
+          "options": [
+            "3 fonemas",
+            "4 fonemas",
+            "5 fonemas",
+            "6 fonemas"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A sequência 'ch' em 'chave' é um exemplo de:",
+          "options": [
+            "Encontro consonantal",
+            "Dígrafo",
+            "Ditongo",
+            "Hiato"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A palavra 'fixo' tem 4 letras. Quantos fonemas ela possui?",
+          "options": [
+            "3 fonemas",
+            "4 fonemas",
+            "5 fonemas",
+            "6 fonemas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual alternativa contém apenas dígrafos?",
+          "options": [
+            "br, cl, tr",
+            "ch, lh, nh",
+            "pr, fl, cr",
+            "bl, gr, dr"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na palavra 'guerra', quantos dígrafos existem?",
+          "options": [
+            "Nenhum",
+            "Um (gu)",
+            "Dois (gu e rr)",
+            "Três"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Substantivo: Classificação Completa",
+      "slug": "substantivo-classificacao-completa",
+      "desc": "O substantivo nomeia seres, objetos, sentimentos e ideias. Classifica-se em: comum/próprio, concreto/abstrato, primitivo/derivado, simples/composto e coletivo. Flexiona em gênero, número e grau. Base da morfologia portuguesa.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 9,
+      "xp": 100,
+      "essential": "Substantivo dá nome a tudo. Classificações: comum/próprio, concreto/abstrato, primitivo/derivado, simples/composto, coletivo. Seres imaginários (fada, saci) são concretos. Flexiona em gênero, número e grau.",
+      "body": "<h2>Introdução</h2>\n<p>O <strong>substantivo</strong> é a classe de palavras que dá nome a tudo que existe ou que podemos imaginar: seres, objetos, sentimentos, lugares, ideias e fenômenos. É a classe mais numerosa do português e funciona como o <strong>núcleo do sujeito e dos complementos</strong> nas orações.</p>\n<p>Dominar a classificação dos substantivos é fundamental desde o 6º ano e permanece relevante até o Ensino Médio, aparecendo em questões de morfologia, interpretação textual e análise sintática no ENEM e vestibulares.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<p>O substantivo se classifica de acordo com diferentes critérios. Vamos analisar cada classificação:</p>\n\n<h3>1. Comum × Próprio</h3>\n<table>\n<thead><tr><th>Tipo</th><th>Definição</th><th>Exemplos</th></tr></thead>\n<tbody>\n<tr><td><strong>Comum</strong></td><td>Nomeia seres de forma genérica</td><td>cidade, rio, menino, escola</td></tr>\n<tr><td><strong>Próprio</strong></td><td>Nomeia um ser específico (inicial maiúscula)</td><td>São Paulo, Amazonas, João, Harvard</td></tr>\n</tbody>\n</table>\n\n<h3>2. Concreto × Abstrato</h3>\n<table>\n<thead><tr><th>Tipo</th><th>Definição</th><th>Exemplos</th></tr></thead>\n<tbody>\n<tr><td><strong>Concreto</strong></td><td>Nomeia seres com existência própria (real ou imaginária)</td><td>mesa, gato, fada, saci</td></tr>\n<tr><td><strong>Abstrato</strong></td><td>Nomeia ações, estados, qualidades ou sentimentos (dependem de outro ser)</td><td>amor, corrida, beleza, tristeza</td></tr>\n</tbody>\n</table>\n<p>💡 <strong>Dica:</strong> Seres mitológicos (fada, saci, unicórnio) são <strong>concretos</strong>, pois têm \"existência\" própria na imaginação. Já \"beleza\" é abstrato porque depende de algo ou alguém para existir.</p>\n\n<h3>3. Primitivo × Derivado</h3>\n<table>\n<thead><tr><th>Tipo</th><th>Definição</th><th>Exemplos</th></tr></thead>\n<tbody>\n<tr><td><strong>Primitivo</strong></td><td>Não se origina de outra palavra</td><td>pedra, ferro, terra, flor</td></tr>\n<tr><td><strong>Derivado</strong></td><td>Origina-se de outra palavra</td><td>pedreiro, ferreiro, terreno, florista</td></tr>\n</tbody>\n</table>\n\n<h3>4. Simples × Composto</h3>\n<table>\n<thead><tr><th>Tipo</th><th>Definição</th><th>Exemplos</th></tr></thead>\n<tbody>\n<tr><td><strong>Simples</strong></td><td>Possui apenas um radical</td><td>chuva, flor, sol, tempo</td></tr>\n<tr><td><strong>Composto</strong></td><td>Possui dois ou mais radicais</td><td>guarda-chuva, girassol, couve-flor</td></tr>\n</tbody>\n</table>\n\n<h3>5. Coletivo</h3>\n<p>O <strong>substantivo coletivo</strong> designa um <strong>conjunto de seres da mesma espécie</strong>, mesmo estando no singular:</p>\n<ul>\n<li><strong>Alcateia</strong> = conjunto de lobos</li>\n<li><strong>Cardume</strong> = conjunto de peixes</li>\n<li><strong>Rebanho</strong> = conjunto de ovelhas/gado</li>\n<li><strong>Acervo</strong> = conjunto de obras (livros, arte)</li>\n<li><strong>Constelação</strong> = conjunto de estrelas</li>\n<li><strong>Arquipélago</strong> = conjunto de ilhas</li>\n<li><strong>Esquadrilha</strong> = conjunto de aviões</li>\n<li><strong>Flora</strong> = conjunto de plantas de uma região</li>\n</ul>\n\n<h2>Flexão dos Substantivos</h2>\n<h3>Gênero (masculino/feminino)</h3>\n<p>Substantivos podem ser:</p>\n<ul>\n<li><strong>Biformes:</strong> têm formas diferentes para cada gênero (gato/gata, professor/professora).</li>\n<li><strong>Uniformes:</strong> uma única forma para ambos os gêneros, subdivididos em:\n  <ul>\n  <li><strong>Comum de dois gêneros:</strong> o artigo indica o gênero (o/a estudante, o/a artista).</li>\n  <li><strong>Sobrecomum:</strong> uma única forma e um único artigo (a criança, a vítima, o indivíduo).</li>\n  <li><strong>Epiceno:</strong> para animais, diferencia-se com macho/fêmea (a cobra macho, o jacaré fêmea).</li>\n  </ul>\n</li>\n</ul>\n\n<h3>Número (singular/plural)</h3>\n<p>A formação do plural depende da terminação da palavra. Regras gerais:</p>\n<ul>\n<li>Vogal/ditongo → acrescenta <strong>-s</strong>: casa → casas</li>\n<li>-R, -Z, -N → acrescenta <strong>-es</strong>: flor → flores, luz → luzes</li>\n<li>-AL, -EL, -OL, -UL → troca por <strong>-ais, -éis, -óis, -uis</strong>: animal → animais</li>\n<li>-ÃO → pode ser -ões, -ães ou -ãos: limão → limões, pão → pães, mão → mãos</li>\n</ul>\n\n<h3>Grau (aumentativo/diminutivo)</h3>\n<p>Pode ser <strong>analítico</strong> (com adjetivo: casa grande/pequena) ou <strong>sintético</strong> (com sufixo: casarão, casinha).</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Substantivo nomeia <strong>tudo</strong>: seres, objetos, sentimentos, ações, ideias.</li>\n<li>✅ Memorize as 5 classificações: comum/próprio, concreto/abstrato, primitivo/derivado, simples/composto, coletivo.</li>\n<li>✅ <strong>Fada e saci são concretos!</strong> (têm \"existência\" própria na imaginação).</li>\n<li>✅ Coletivos são campeões de cobrança em provas — memorize os principais.</li>\n<li>⚠️ <strong>Pegadinha:</strong> \"a criança\" pode ser menino ou menina — é substantivo sobrecomum, não comum de dois gêneros.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A palavra \"substantivo\" vem do latim <em>substantivus</em>, que significa \"que tem substância, que existe por si\". É por isso que essa classe de palavras nomeia tudo que tem \"substância\" — real ou imaginária — no universo da língua!</p>",
+      "faq": [
+        {
+          "q": "Por que fada e saci são substantivos concretos?",
+          "a": "Porque concreto não significa 'real'. Substantivos concretos nomeiam seres com existência própria — real ou imaginária. Fada e saci 'existem' como entidades na imaginação. Já 'beleza' é abstrato porque depende de alguém/algo para existir."
+        },
+        {
+          "q": "Qual a diferença entre comum de dois gêneros e sobrecomum?",
+          "a": "Comum de dois gêneros: muda o artigo (o/a estudante). Sobrecomum: tem um único artigo fixo, independente do sexo (a criança, a vítima, o indivíduo). Epiceno: para animais, usa macho/fêmea (a cobra macho)."
+        },
+        {
+          "q": "Quais coletivos mais caem em prova?",
+          "a": "Os mais cobrados são: alcateia (lobos), cardume (peixes), rebanho (ovelhas/gado), acervo (obras), constelação (estrelas), arquipélago (ilhas), flora (plantas), fauna (animais), esquadrilha (aviões)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "'Tristeza' é um substantivo:",
+          "options": [
+            "Concreto",
+            "Abstrato",
+            "Próprio",
+            "Coletivo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Guarda-chuva' é um substantivo:",
+          "options": [
+            "Simples e primitivo",
+            "Composto e derivado",
+            "Composto e primitivo",
+            "Simples e derivado"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Alcateia' é coletivo de:",
+          "options": [
+            "Peixes",
+            "Abelhas",
+            "Lobos",
+            "Estrelas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'A criança chegou.' O substantivo 'criança' é:",
+          "options": [
+            "Comum de dois gêneros",
+            "Sobrecomum",
+            "Epiceno",
+            "Biforme"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Artigo Definido e Indefinido",
+      "slug": "artigo-definido-e-indefinido",
+      "desc": "Artigos determinam substantivos: definidos (o, a, os, as) indicam algo específico; indefinidos (um, uma, uns, umas) indicam algo genérico. Substantivam palavras, distinguem gênero/sentido e se contraem com preposições (do, no, ao, à).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Definidos: o, a, os, as (específico). Indefinidos: um, uma, uns, umas (genérico). Artigos substantivam qualquer palavra. Contraem com preposições: do, no, ao, à (crase). Mudam sentido conforme presença/ausência.",
+      "body": "<h2>Introdução</h2>\n<p>Os <strong>artigos</strong> são palavras pequenas, mas poderosas: eles acompanham os substantivos, determinando se estamos falando de algo <strong>específico</strong> ou <strong>genérico</strong>. Quando dizemos \"o livro\", sabemos qual livro é (artigo definido). Quando dizemos \"um livro\", falamos de qualquer livro (artigo indefinido).</p>\n<p>Além dessa função básica, os artigos revelam o <strong>gênero</strong> (masculino/feminino) e o <strong>número</strong> (singular/plural) do substantivo. Esse conteúdo é fundamental desde o 6º ano e aparece em vestibulares, geralmente em questões de interpretação textual que envolvem efeitos de sentido.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<h3>Artigos Definidos</h3>\n<p>Os artigos definidos indicam que o substantivo se refere a algo <strong>específico, conhecido ou já mencionado</strong>:</p>\n<table>\n<thead><tr><th></th><th>Masculino</th><th>Feminino</th></tr></thead>\n<tbody>\n<tr><td><strong>Singular</strong></td><td>o</td><td>a</td></tr>\n<tr><td><strong>Plural</strong></td><td>os</td><td>as</td></tr>\n</tbody>\n</table>\n<p>Exemplos: \"Eu li <strong>o</strong> livro que você indicou.\" (um livro específico, que já sabemos qual é).</p>\n\n<h3>Artigos Indefinidos</h3>\n<p>Os artigos indefinidos indicam que o substantivo se refere a algo <strong>genérico, indeterminado ou mencionado pela primeira vez</strong>:</p>\n<table>\n<thead><tr><th></th><th>Masculino</th><th>Feminino</th></tr></thead>\n<tbody>\n<tr><td><strong>Singular</strong></td><td>um</td><td>uma</td></tr>\n<tr><td><strong>Plural</strong></td><td>uns</td><td>umas</td></tr>\n</tbody>\n</table>\n<p>Exemplos: \"Eu li <strong>um</strong> livro interessante.\" (qualquer livro, não sabemos qual).</p>\n\n<h2>Funções Importantes do Artigo</h2>\n<h3>1. Substantivação</h3>\n<p>O artigo tem o poder de transformar <strong>qualquer palavra em substantivo</strong>. Esse processo se chama <strong>substantivação</strong>:</p>\n<ul>\n<li>\"Estudar é importante.\" → \"<strong>O</strong> estudar é importante.\" (verbo → substantivo)</li>\n<li>\"Ela é bonita.\" → \"<strong>O</strong> bonito é subjetivo.\" (adjetivo → substantivo)</li>\n<li>\"Não aceito o seu <strong>não</strong>.\" (advérbio → substantivo)</li>\n</ul>\n<p>Essa função é muito cobrada em provas de análise morfológica!</p>\n\n<h3>2. Distinção de gênero</h3>\n<p>O artigo indica o gênero de substantivos uniformes (que têm uma só forma):</p>\n<ul>\n<li>\"<strong>O</strong> estudante / <strong>A</strong> estudante\" (comum de dois gêneros)</li>\n<li>\"<strong>O</strong> capital (dinheiro) / <strong>A</strong> capital (cidade)\" (significados diferentes por gênero)</li>\n<li>\"<strong>O</strong> caixa (o funcionário) / <strong>A</strong> caixa (o objeto)\" </li>\n</ul>\n\n<h3>3. Distinção de sentido</h3>\n<p>O uso ou a ausência do artigo muda significativamente o sentido da frase:</p>\n<ul>\n<li>\"Eu <strong>adoro café</strong>.\" (café em geral) × \"Eu adoro <strong>o café</strong>.\" (um café específico)</li>\n<li>\"<strong>Mulheres</strong> são fortes.\" (todas) × \"<strong>As mulheres</strong> da turma são fortes.\" (específicas)</li>\n<li>\"Fale com <strong>Maria</strong>.\" (formal, sem artigo) × \"Fale com <strong>a Maria</strong>.\" (informal, com artigo)</li>\n</ul>\n\n<h2>Contrações e Combinações</h2>\n<p>Os artigos se combinam com preposições, formando <strong>contrações</strong>:</p>\n<table>\n<thead><tr><th>Preposição</th><th>+ O(s)</th><th>+ A(s)</th><th>+ Um(a/s)</th></tr></thead>\n<tbody>\n<tr><td><strong>de</strong></td><td>do, dos</td><td>da, das</td><td>dum, duma</td></tr>\n<tr><td><strong>em</strong></td><td>no, nos</td><td>na, nas</td><td>num, numa</td></tr>\n<tr><td><strong>a</strong></td><td>ao, aos</td><td>à, às (crase)</td><td>—</td></tr>\n<tr><td><strong>por</strong></td><td>pelo, pelos</td><td>pela, pelas</td><td>—</td></tr>\n</tbody>\n</table>\n<p>💡 <strong>Atenção:</strong> A <strong>crase</strong> (à, às) é a fusão da preposição \"a\" com o artigo definido \"a\". Entender artigos é o primeiro passo para dominar a crase!</p>\n\n<h2>Quando NÃO usar artigo</h2>\n<p>Em alguns casos, o artigo é omitido ou proibido:</p>\n<ul>\n<li><strong>Antes de nomes de cidades</strong> (sem especificador): \"Moro em <strong>São Paulo</strong>.\" (Exceção: \"Moro <strong>no</strong> Rio de Janeiro\" — porque \"Rio\" é substantivo comum).</li>\n<li><strong>Antes de pronomes de tratamento:</strong> \"Falei com <strong>Vossa Excelência</strong>.\" (nunca \"a Vossa Excelência\").</li>\n<li><strong>Em expressões de sentido genérico amplo:</strong> \"Homem não chora.\" (generalização sem artigo).</li>\n</ul>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Definidos (o, a, os, as):</strong> algo específico, conhecido.</li>\n<li>✅ <strong>Indefinidos (um, uma, uns, umas):</strong> algo genérico, desconhecido.</li>\n<li>✅ Artigos <strong>substantivam</strong> qualquer palavra: \"O belo\", \"O caminhar\".</li>\n<li>✅ Artigos se contraem com preposições: do, no, ao, pelo, à (crase).</li>\n<li>✅ A presença ou ausência do artigo <strong>muda o sentido</strong> da frase.</li>\n<li>⚠️ <strong>Pegadinha:</strong> \"O capital\" (dinheiro) ≠ \"A capital\" (cidade).</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>Nem todas as línguas possuem artigos! O <strong>latim</strong>, do qual o português se originou, não tinha artigos. Os artigos definidos do português (o, a, os, as) evoluíram dos pronomes demonstrativos latinos <em>ille, illa</em>. Línguas como o japonês, o coreano e o russo também não possuem artigos — o contexto faz esse papel.</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre artigo definido e indefinido?",
+          "a": "O artigo definido (o, a, os, as) indica algo específico e conhecido: 'o livro que comprei'. O artigo indefinido (um, uma, uns, umas) indica algo genérico ou mencionado pela primeira vez: 'li um livro interessante'."
+        },
+        {
+          "q": "O que é substantivação?",
+          "a": "É quando o artigo transforma uma palavra de outra classe em substantivo. Exemplos: 'O belo é subjetivo' (adjetivo → substantivo), 'O caminhar faz bem' (verbo → substantivo), 'Não aceito o seu não' (advérbio → substantivo)."
+        },
+        {
+          "q": "Qual a relação entre artigo e crase?",
+          "a": "A crase (à, às) é a fusão da preposição 'a' com o artigo definido feminino 'a'. Sem artigo, não há crase. Por isso, entender quando o substantivo pede artigo é essencial para dominar a crase."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Na frase 'O belo é subjetivo', a palavra 'belo' funciona como:",
+          "options": [
+            "Adjetivo",
+            "Substantivo (substantivado pelo artigo)",
+            "Verbo",
+            "Advérbio"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual alternativa apresenta uma contração de preposição + artigo?",
+          "options": [
+            "Um, uma",
+            "Este, esta",
+            "Do, na, pelo",
+            "Ele, ela"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "'O capital' e 'A capital' significam a mesma coisa?",
+          "options": [
+            "Sim, são sinônimos",
+            "Não — 'o capital' é dinheiro, 'a capital' é cidade",
+            "Não — 'o capital' é cidade, 'a capital' é dinheiro",
+            "Depende do contexto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Antes de 'Vossa Excelência', usamos artigo?",
+          "options": [
+            "Sim, sempre 'a Vossa Excelência'",
+            "Não, pronomes de tratamento dispensam artigo",
+            "Somente artigo indefinido",
+            "Somente em textos formais"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Adjetivo: Grau e Locução",
+      "slug": "adjetivo-grau-e-locucao",
+      "desc": "O adjetivo qualifica o substantivo. Locução adjetiva = preposição + substantivo (de chuva = pluvial). Graus: comparativo (mais/tão/menos que) e superlativo (absoluto: belíssimo; relativo: o mais da turma). Formas irregulares: bom→melhor→ótimo.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 9,
+      "xp": 100,
+      "essential": "Adjetivo qualifica o substantivo. Locução adjetiva: preposição + substantivo = adjetivo (de lua = lunar). Comparativo: mais/tão/menos que. Superlativo: -íssimo ou 'o mais de'. Irregulares: bom→melhor→ótimo, mau→pior→péssimo.",
+      "body": "<h2>Introdução</h2>\n<p>O <strong>adjetivo</strong> é a classe de palavras que caracteriza, qualifica ou modifica o substantivo, atribuindo-lhe propriedades como qualidade, estado, aparência ou origem. Quando dizemos \"dia <strong>ensolarado</strong>\", \"menina <strong>inteligente</strong>\" ou \"problema <strong>grave</strong>\", estamos usando adjetivos para dar mais informações sobre os substantivos.</p>\n<p>Nesta lição, vamos aprofundar as classificações do adjetivo, seus <strong>graus</strong> (comparativo e superlativo) e as <strong>locuções adjetivas</strong> — conteúdos cobrados desde o 6º ano até o ENEM.</p>\n\n<h2>Classificação dos Adjetivos</h2>\n<h3>Adjetivo Simples × Composto</h3>\n<ul>\n<li><strong>Simples:</strong> formado por um só radical → bonito, azul, brasileiro</li>\n<li><strong>Composto:</strong> formado por dois ou mais radicais → azul-claro, luso-brasileiro, socioeconômico</li>\n</ul>\n\n<h3>Adjetivo Primitivo × Derivado</h3>\n<ul>\n<li><strong>Primitivo:</strong> não se origina de outra palavra → bom, feliz, triste</li>\n<li><strong>Derivado:</strong> origina-se de outra palavra → bondoso (de bom), tristonho (de triste), chuvoso (de chuva)</li>\n</ul>\n\n<h3>Adjetivo Pátrio (Gentílico)</h3>\n<p>Indica a <strong>origem ou nacionalidade</strong> de algo ou alguém:</p>\n<ul>\n<li>Brasil → <strong>brasileiro</strong></li>\n<li>Bahia → <strong>baiano</strong></li>\n<li>Rio de Janeiro → <strong>carioca</strong> (cidade) / <strong>fluminense</strong> (estado)</li>\n<li>Minas Gerais → <strong>mineiro</strong></li>\n<li>Portugal → <strong>português</strong> ou <strong>lusitano</strong></li>\n</ul>\n\n<h2>Locução Adjetiva</h2>\n<p>A <strong>locução adjetiva</strong> é uma expressão formada por <strong>preposição + substantivo</strong> que equivale a um adjetivo. Ela exerce a mesma função de um adjetivo simples:</p>\n<table>\n<thead><tr><th>Locução Adjetiva</th><th>Adjetivo Equivalente</th></tr></thead>\n<tbody>\n<tr><td>de pai</td><td>paterno</td></tr>\n<tr><td>de mãe</td><td>materno</td></tr>\n<tr><td>de chuva</td><td>pluvial</td></tr>\n<tr><td>de boca</td><td>bucal / oral</td></tr>\n<tr><td>de lua</td><td>lunar</td></tr>\n<tr><td>de sol</td><td>solar</td></tr>\n<tr><td>de prata</td><td>argênteo</td></tr>\n<tr><td>de ouro</td><td>áureo</td></tr>\n<tr><td>da cidade</td><td>urbano</td></tr>\n<tr><td>do campo</td><td>rural / campestre</td></tr>\n<tr><td>de rio</td><td>fluvial</td></tr>\n<tr><td>de mar</td><td>marítimo / marinho</td></tr>\n</tbody>\n</table>\n<p>💡 <strong>Importante:</strong> Nem toda locução \"preposição + substantivo\" é locução adjetiva. Ela só é locução adjetiva quando <strong>modifica um substantivo</strong>: \"Água <strong>de chuva</strong>\" (locução adjetiva) ≠ \"Ele veio <strong>de chuva</strong>\" (adjunto adverbial).</p>\n\n<h2>Graus do Adjetivo</h2>\n<h3>1. Grau Comparativo</h3>\n<p>Compara a qualidade entre dois seres:</p>\n<table>\n<thead><tr><th>Tipo</th><th>Estrutura</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Superioridade</strong></td><td>mais + adj. + (do) que</td><td>João é <strong>mais alto</strong> que Pedro.</td></tr>\n<tr><td><strong>Igualdade</strong></td><td>tão + adj. + quanto/como</td><td>Ana é <strong>tão inteligente quanto</strong> Maria.</td></tr>\n<tr><td><strong>Inferioridade</strong></td><td>menos + adj. + (do) que</td><td>Este é <strong>menos caro</strong> que aquele.</td></tr>\n</tbody>\n</table>\n\n<h3>2. Grau Superlativo</h3>\n<p>Eleva a qualidade ao grau máximo:</p>\n<table>\n<thead><tr><th>Tipo</th><th>Estrutura</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Relativo de superioridade</strong></td><td>o/a mais + adj. + de</td><td>Ela é <strong>a mais rápida</strong> da turma.</td></tr>\n<tr><td><strong>Relativo de inferioridade</strong></td><td>o/a menos + adj. + de</td><td>Ele é <strong>o menos atento</strong> do grupo.</td></tr>\n<tr><td><strong>Absoluto analítico</strong></td><td>muito/extremamente + adj.</td><td>A prova foi <strong>muito difícil</strong>.</td></tr>\n<tr><td><strong>Absoluto sintético</strong></td><td>adj. + sufixo (-íssimo, -érrimo)</td><td>A prova foi <strong>dificílima</strong>.</td></tr>\n</tbody>\n</table>\n\n<h3>Formas Especiais (Comparativos/Superlativos Irregulares)</h3>\n<table>\n<thead><tr><th>Adjetivo</th><th>Comparativo</th><th>Superlativo Abs. Sintético</th></tr></thead>\n<tbody>\n<tr><td>bom</td><td>melhor</td><td>ótimo</td></tr>\n<tr><td>mau</td><td>pior</td><td>péssimo</td></tr>\n<tr><td>grande</td><td>maior</td><td>máximo</td></tr>\n<tr><td>pequeno</td><td>menor</td><td>mínimo</td></tr>\n</tbody>\n</table>\n<p>⚠️ <strong>Cuidado:</strong> \"Mais bom\" e \"mais mau\" são aceitos em comparações de qualidades diferentes: \"Ele é <strong>mais bom</strong> do que inteligente.\" (compara duas qualidades do mesmo ser). Mas \"Ele é <strong>melhor</strong> que João\" (compara dois seres).</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Adjetivo</strong> qualifica o substantivo (bonito, inteligente, brasileiro).</li>\n<li>✅ <strong>Locução adjetiva</strong> = preposição + substantivo com função de adjetivo (de chuva = pluvial).</li>\n<li>✅ <strong>Grau comparativo:</strong> superioridade (mais...que), igualdade (tão...quanto), inferioridade (menos...que).</li>\n<li>✅ <strong>Grau superlativo:</strong> relativo (o mais/menos da turma) ou absoluto (muito bonito / belíssimo).</li>\n<li>✅ Memorize os <strong>irregulares:</strong> bom→melhor→ótimo, mau→pior→péssimo, grande→maior→máximo.</li>\n<li>⚠️ <strong>Pegadinha:</strong> \"Mais bom\" é aceito quando se comparam qualidades diferentes do MESMO ser.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>O superlativo \"paupérrimo\" (de pobre) vem do latim <em>pauperrimus</em>, e muitos brasileiros dizem \"pobríssimo\" — que também é aceito! Em concursos, porém, \"paupérrimo\" é considerado mais erudito. Outros superlativos elegantes: \"sapientíssimo\" (sábio), \"crudelíssimo\" (cruel) e \"amicíssimo\" (amigo).</p>",
+      "faq": [
+        {
+          "q": "O que é locução adjetiva?",
+          "a": "É uma expressão formada por preposição + substantivo que funciona como adjetivo: 'água de chuva' = 'água pluvial'. 'De pai' = paterno, 'de lua' = lunar, 'da cidade' = urbano."
+        },
+        {
+          "q": "Quando 'mais bom' é aceito no lugar de 'melhor'?",
+          "a": "Quando se comparam duas qualidades do MESMO ser: 'Ele é mais bom do que inteligente'. Mas para comparar DOIS seres, use 'melhor': 'Ele é melhor que João'."
+        },
+        {
+          "q": "Qual a diferença entre superlativo absoluto e relativo?",
+          "a": "Absoluto: a qualidade é intensificada sem comparação (muito bonito / belíssimo). Relativo: a qualidade é a maior/menor dentro de um grupo (o mais bonito DA turma, a menos cara DA loja)."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "A locução 'de chuva' equivale a qual adjetivo?",
+          "options": [
+            "Chuvoso",
+            "Pluvial",
+            "Aquático",
+            "Nublado"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O superlativo absoluto sintético de 'bom' é:",
+          "options": [
+            "Melhor",
+            "Ótimo",
+            "Boníssimo",
+            "O mais bom"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Ana é tão inteligente quanto Maria' está no grau:",
+          "options": [
+            "Comparativo de superioridade",
+            "Comparativo de igualdade",
+            "Superlativo relativo",
+            "Superlativo absoluto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual é o adjetivo pátrio de quem nasce no Rio de Janeiro (cidade)?",
+          "options": [
+            "Fluminense",
+            "Carioca",
+            "Riograndense",
+            "Paulistano"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Numeral",
+      "slug": "numeral",
+      "desc": "Numerais indicam quantidade (cardinal: três), ordem (ordinal: terceiro), multiplicação (dobro) ou fração (metade). 'Cem' x 'cento': cem sozinho, cento e... seguido. Ordinais eruditos: quadragésimo (40º), quinquagésimo (50º).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 9,
+      "xp": 100,
+      "essential": "4 tipos: cardinal (quantidade), ordinal (ordem), multiplicativo (dobro), fracionário (metade). Cem (sozinho) vs cento e (seguido). Em leis/datas: ordinal até 10°, cardinal do 11 em diante.",
+      "body": "<h2>Introdução</h2>\n<p>O <strong>numeral</strong> é a classe de palavras que indica <strong>quantidade, ordem, múltiplo ou fração</strong> dos seres. Quando dizemos \"três livros\", \"segundo capítulo\" ou \"dobro do preço\", estamos usando numerais. Apesar de parecer simples, essa classe tem várias subdivisões e particularidades que são cobradas em provas de gramática.</p>\n<p>Este conteúdo é introduzido no 6º ano e retorna em vestibulares, especialmente em questões que envolvem leitura de dados, tabelas e textos jurídicos (onde numerais ordinais são frequentes).</p>\n\n<h2>Classificação dos Numerais</h2>\n<h3>1. Cardinal</h3>\n<p>Indica a <strong>quantidade exata</strong> de seres: um, dois, três, dez, cem, mil.</p>\n<p>Exemplos: \"Há <strong>trezentos</strong> alunos na escola.\" / \"Comprei <strong>quatro</strong> cadernos.\"</p>\n\n<h3>2. Ordinal</h3>\n<p>Indica a <strong>posição</strong> ou <strong>ordem</strong> de um ser em uma sequência: primeiro, segundo, terceiro, décimo.</p>\n<p>Exemplos: \"Moro no <strong>décimo segundo</strong> andar.\" / \"Ela chegou em <strong>terceiro</strong> lugar.\"</p>\n<p>💡 <strong>Regra importante:</strong> O ordinal concorda em gênero e número com o substantivo: \"a <strong>primeira</strong> vez\", \"o <strong>segundo</strong> semestre\", \"as <strong>terceiras</strong> séries\".</p>\n\n<h3>3. Multiplicativo</h3>\n<p>Indica <strong>multiplicação</strong> da quantidade: dobro, triplo, quádruplo, quíntuplo.</p>\n<p>Exemplos: \"O preço subiu o <strong>dobro</strong>.\" / \"Preciso do <strong>triplo</strong> de ingredientes.\"</p>\n\n<h3>4. Fracionário</h3>\n<p>Indica <strong>fração</strong> ou <strong>divisão</strong>: meio (metade), terço, quarto, quinto, décimo.</p>\n<p>Exemplos: \"Comi <strong>metade</strong> da pizza.\" / \"Um <strong>terço</strong> dos votos.\"</p>\n\n<h3>Quadro comparativo</h3>\n<table>\n<thead><tr><th>Tipo</th><th>Função</th><th>Exemplos</th></tr></thead>\n<tbody>\n<tr><td>Cardinal</td><td>Quantidade</td><td>um, dois, cem, mil</td></tr>\n<tr><td>Ordinal</td><td>Ordem/posição</td><td>primeiro, segundo, centésimo</td></tr>\n<tr><td>Multiplicativo</td><td>Multiplicação</td><td>dobro, triplo, quádruplo</td></tr>\n<tr><td>Fracionário</td><td>Divisão/fração</td><td>metade, terço, quarto</td></tr>\n</tbody>\n</table>\n\n<h2>Numerais que mais geram dúvidas</h2>\n<h3>Leitura de numerais cardinais grandes</h3>\n<ul>\n<li>100 = <strong>cem</strong> (sozinho) ou <strong>cento</strong> (seguido de outro numeral): \"cem alunos\", \"cento e vinte alunos\".</li>\n<li>Os cardinais de <strong>200 a 900</strong> variam em gênero: <strong>duzentos/duzentas</strong>, trezentos/trezentas.</li>\n<li>Um <strong>milhão</strong>, um <strong>bilhão</strong> = substantivos, pedem preposição \"de\" antes do próximo substantivo: \"um milhão <strong>de</strong> reais\".</li>\n</ul>\n\n<h3>Ordinais que confundem</h3>\n<table>\n<thead><tr><th>Cardinal</th><th>Ordinal</th><th>⚠️ Erro comum</th></tr></thead>\n<tbody>\n<tr><td>11</td><td>décimo primeiro</td><td>\"onzésimo\" ❌</td></tr>\n<tr><td>40</td><td>quadragésimo</td><td>\"quarentésimo\" ❌</td></tr>\n<tr><td>50</td><td>quinquagésimo</td><td>\"cinquentésimo\" ❌</td></tr>\n<tr><td>60</td><td>sexagésimo</td><td>\"sessentésimo\" ❌</td></tr>\n<tr><td>70</td><td>septuagésimo</td><td>\"setentésimo\" ❌</td></tr>\n<tr><td>80</td><td>octogésimo</td><td>\"oitentésimo\" ❌</td></tr>\n<tr><td>90</td><td>nonagésimo</td><td>\"noventésimo\" ❌</td></tr>\n<tr><td>100</td><td>centésimo</td><td>—</td></tr>\n<tr><td>1000</td><td>milésimo</td><td>—</td></tr>\n</tbody>\n</table>\n\n<h3>Numeral × Artigo: \"um\" e \"uma\"</h3>\n<p>A palavra \"um\" pode ser <strong>numeral</strong> ou <strong>artigo indefinido</strong>. Como diferenciar?</p>\n<ul>\n<li><strong>Numeral:</strong> quando indica quantidade e pode ser substituído por outro número: \"Comprei <strong>um</strong> livro.\" (= 1 livro, não 2).</li>\n<li><strong>Artigo:</strong> quando indica indeterminação: \"Vi <strong>um</strong> gato na rua.\" (= um gato qualquer, não interessa a quantidade).</li>\n</ul>\n\n<h2>Emprego de Cardinal por Ordinal</h2>\n<p>Na linguagem formal, usa-se <strong>cardinal no lugar de ordinal</strong> em alguns casos:</p>\n<ul>\n<li><strong>Artigos de leis:</strong> \"Artigo <strong>quinto</strong> da Constituição\" (até o 10º, usa-se ordinal). \"Artigo <strong>treze</strong>\" (a partir do 11, usa-se cardinal).</li>\n<li><strong>Dias do mês:</strong> \"dia <strong>primeiro</strong>\" (ordinal só no 1º). \"Dia <strong>dois</strong>, dia <strong>quinze</strong>\" (cardinal nos demais).</li>\n<li><strong>Papas, reis, séculos:</strong> \"Luís <strong>XIV</strong> — décimo quarto\" (até o 10º: ordinal). \"Papa Bento <strong>XVI</strong> — dezesseis\" (a partir do 11: cardinal).</li>\n</ul>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>4 tipos:</strong> cardinal (quantidade), ordinal (ordem), multiplicativo (dobro), fracionário (metade).</li>\n<li>✅ <strong>\"Cem\" × \"cento\":</strong> cem (sozinho), cento e... (seguido de outro numeral).</li>\n<li>✅ <strong>Ordinais eruditos:</strong> quadragésimo (40º), quinquagésimo (50º), sexagésimo (60º).</li>\n<li>✅ <strong>Leis e datas:</strong> até o 10, use ordinal; a partir do 11, use cardinal.</li>\n<li>⚠️ <strong>\"Um\" pode ser numeral ou artigo</strong> — depende se enfatiza quantidade ou indeterminação.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A palavra <strong>\"googol\"</strong> (que inspirou o nome \"Google\") é o numeral para 10 elevado a 100 — um 1 seguido de 100 zeros! Em português, chamamos isso de <strong>\"dez duotrigintilhões\"</strong>. Já o maior número com nome próprio é o <strong>\"googolplex\"</strong>: 10 elevado a um googol. É um número tão grande que não caberia escrito em todo o universo observável!</p>",
+      "faq": [
+        {
+          "q": "Quando usar 'cem' e quando usar 'cento'?",
+          "a": "Use 'cem' quando é sozinho ou seguido de milhares/milhões: cem alunos, cem mil. Use 'cento' quando seguido de outro numeral de 1 a 99: cento e vinte, cento e um."
+        },
+        {
+          "q": "Como dizer os ordinais de 40, 50, 60 em português culto?",
+          "a": "40º = quadragésimo, 50º = quinquagésimo, 60º = sexagésimo, 70º = septuagésimo, 80º = octogésimo, 90º = nonagésimo. Formas como 'quarentésimo' são incorretas."
+        },
+        {
+          "q": "Quando usar cardinal no lugar de ordinal?",
+          "a": "Em leis, artigos e papas, a partir do 11: 'Artigo 13' (treze, não décimo terceiro). Até o 10, use ordinal: 'Artigo quinto'. Em datas, somente o dia 1 é ordinal: 'dia primeiro'. Os demais são cardinais."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O ordinal correto de 50 é:",
+          "options": [
+            "Cinquentésimo",
+            "Quinquagésimo",
+            "Quintagésimo",
+            "Pentésimo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Comprei um livro.' Nesta frase, 'um' é:",
+          "options": [
+            "Sempre artigo",
+            "Sempre numeral",
+            "Depende do contexto — pode ser artigo ou numeral",
+            "Pronome"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A leitura correta de 'Papa Bento XVI' é:",
+          "options": [
+            "Décimo sexto",
+            "Dezesseis",
+            "Dezessexto",
+            "Sexto"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Um terço dos alunos faltou.' O numeral 'terço' é:",
+          "options": [
+            "Cardinal",
+            "Ordinal",
+            "Multiplicativo",
+            "Fracionário"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Pronomes Pessoais, Possessivos e Demonstrativos",
+      "slug": "pronomes-pessoais-possessivos-e-demonstrativos",
+      "desc": "Pronomes pessoais substituem o substantivo nas 3 pessoas do discurso. Possessivos indicam posse. Demonstrativos situam no espaço, tempo e texto. Reto vs oblíquo, ambiguidade do 'seu', uso textual de este/esse.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Pessoais retos (eu, tu, ele/ela, nós, vós, eles) = sujeito. Oblíquos (me, te, se, o, a, lhe) = complemento. 'Para mim fazer' é ERRADO — correto: 'para eu fazer'. Possessivos: meu (1ª), teu (2ª), seu (3ª — pode gerar ambiguidade). Demonstrativos: este (perto/presente), esse (médio/passado recente), aquele (longe/passado remoto).",
+      "body": "<h2>Introdução</h2>\n<p>Os <strong>pronomes</strong> são palavras que substituem ou acompanham o substantivo, evitando repetições e tornando o texto mais fluido. Imagine ter que repetir o nome \"Maria\" 10 vezes em um parágrafo — os pronomes resolvem esse problema! Nesta lição, vamos estudar três tipos fundamentais: <strong>pessoais</strong>, <strong>possessivos</strong> e <strong>demonstrativos</strong>.</p>\n<p>Esse conteúdo é introduzido no 6º ano e permanece relevante até o Ensino Médio, aparecendo em questões de gramática, interpretação textual e redação no ENEM e vestibulares.</p>\n\n<h2>Pronomes Pessoais</h2>\n<p>Os pronomes pessoais indicam as <strong>pessoas do discurso</strong>:</p>\n<table>\n<thead><tr><th>Pessoa</th><th>Reto (sujeito)</th><th>Oblíquo átono</th><th>Oblíquo tônico</th></tr></thead>\n<tbody>\n<tr><td><strong>1ª sing.</strong></td><td>eu</td><td>me</td><td>mim, comigo</td></tr>\n<tr><td><strong>2ª sing.</strong></td><td>tu</td><td>te</td><td>ti, contigo</td></tr>\n<tr><td><strong>3ª sing.</strong></td><td>ele/ela</td><td>se, o, a, lhe</td><td>si, consigo, ele/ela</td></tr>\n<tr><td><strong>1ª pl.</strong></td><td>nós</td><td>nos</td><td>nós, conosco</td></tr>\n<tr><td><strong>2ª pl.</strong></td><td>vós</td><td>vos</td><td>vós, convosco</td></tr>\n<tr><td><strong>3ª pl.</strong></td><td>eles/elas</td><td>se, os, as, lhes</td><td>si, consigo, eles/elas</td></tr>\n</tbody>\n</table>\n<p><strong>Reto</strong> = funciona como sujeito: \"<strong>Eu</strong> estudo.\". <strong>Oblíquo</strong> = funciona como complemento: \"Dê-<strong>me</strong> o livro.\"</p>\n<p>⚠️ <strong>Erro clássico:</strong> \"Para <strong>mim</strong> fazer\" está ERRADO. O correto é \"Para <strong>eu</strong> fazer\" — porque o pronome é sujeito do verbo \"fazer\". Use \"mim\" apenas depois de preposição sem verbo: \"Dê isso para <strong>mim</strong>.\"</p>\n\n<h2>Pronomes Possessivos</h2>\n<p>Indicam <strong>posse</strong> ou <strong>pertencimento</strong>, concordando com a coisa possuída (não com o possuidor):</p>\n<table>\n<thead><tr><th>Pessoa</th><th>Singular</th><th>Plural</th></tr></thead>\n<tbody>\n<tr><td><strong>1ª</strong></td><td>meu, minha</td><td>meus, minhas</td></tr>\n<tr><td><strong>2ª</strong></td><td>teu, tua</td><td>teus, tuas</td></tr>\n<tr><td><strong>3ª</strong></td><td>seu, sua</td><td>seus, suas</td></tr>\n<tr><td><strong>1ª pl.</strong></td><td>nosso, nossa</td><td>nossos, nossas</td></tr>\n<tr><td><strong>2ª pl.</strong></td><td>vosso, vossa</td><td>vossos, vossas</td></tr>\n<tr><td><strong>3ª pl.</strong></td><td>seu, sua</td><td>seus, suas</td></tr>\n</tbody>\n</table>\n<p>💡 <strong>Cuidado com \"seu/sua\":</strong> Pode gerar <strong>ambiguidade</strong>. \"João disse que Pedro pegou <strong>seu</strong> livro\" — de quem é o livro? Para evitar: use \"dele/dela\": \"João disse que Pedro pegou o livro <strong>dele</strong>.\"</p>\n\n<h2>Pronomes Demonstrativos</h2>\n<p>Situam seres no <strong>espaço</strong>, <strong>tempo</strong> e <strong>texto</strong>:</p>\n<table>\n<thead><tr><th>Proximidade</th><th>Pronomes</th><th>Espaço</th><th>Tempo</th><th>Texto</th></tr></thead>\n<tbody>\n<tr><td><strong>Perto (1ª pessoa)</strong></td><td>este, esta, isto</td><td>Perto de quem fala</td><td>Presente</td><td>O que vai ser dito</td></tr>\n<tr><td><strong>Médio (2ª pessoa)</strong></td><td>esse, essa, isso</td><td>Perto de quem ouve</td><td>Passado recente</td><td>O que acabou de ser dito</td></tr>\n<tr><td><strong>Longe (3ª pessoa)</strong></td><td>aquele, aquela, aquilo</td><td>Longe de ambos</td><td>Passado remoto</td><td>O que foi dito muito antes</td></tr>\n</tbody>\n</table>\n<p><strong>Uso textual importante:</strong> Em redações, \"<strong>este</strong>\" introduz o que virá (catáfora) e \"<strong>esse</strong>\" retoma o que já foi dito (anáfora). Dominar essa diferença melhora a coesão textual.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Pessoais retos</strong> = sujeito (eu, tu, ele). <strong>Oblíquos</strong> = complemento (me, te, o, lhe).</li>\n<li>✅ \"Para <strong>eu</strong> fazer\" (sujeito) ≠ \"Para <strong>mim</strong>\" (sem verbo depois).</li>\n<li>✅ <strong>\"Seu/sua\"</strong> pode gerar ambiguidade → prefira \"dele/dela\" quando necessário.</li>\n<li>✅ <strong>Este</strong> = perto/presente/catáfora. <strong>Esse</strong> = médio/recente/anáfora. <strong>Aquele</strong> = longe/remoto.</li>\n<li>⚠️ <strong>Pegadinha:</strong> Na linguagem coloquial, \"esse\" e \"este\" se confundem, mas em provas formais a distinção é cobrada.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>No português falado do Brasil, a distinção entre \"este\" e \"esse\" praticamente desapareceu — quase todos usam \"esse\" para tudo. Mas na escrita formal e em provas, a diferença continua valendo! Já em Portugal, a distinção é mais preservada na fala cotidiana.</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre pronome reto e oblíquo?",
+          "a": "O pronome reto funciona como sujeito da oração (eu, tu, ele, nós, vós, eles). O oblíquo funciona como complemento — pode ser átono (me, te, se, o, a, lhe, nos, vos) ou tônico (mim, ti, si, ele, nós, vós). Exemplo: 'Eu vi' (reto = sujeito) vs 'Ele me viu' (oblíquo = complemento)."
+        },
+        {
+          "q": "Quando usar 'eu' e quando usar 'mim'?",
+          "a": "Use 'eu' quando for sujeito de um verbo: 'Para eu fazer', 'Para eu estudar'. Use 'mim' quando for complemento sem verbo depois: 'Dê isso para mim', 'Entre mim e ti'. Regra prática: se depois vem um verbo no infinitivo, use 'eu'."
+        },
+        {
+          "q": "Por que 'seu' pode gerar ambiguidade?",
+          "a": "Porque 'seu/sua' serve tanto para 2ª pessoa (teu) quanto para 3ª pessoa (dele). Em 'João disse que Maria pegou seu livro', não fica claro de quem é o livro. A solução é usar 'dele/dela': 'pegou o livro dele'."
+        },
+        {
+          "q": "Qual a diferença entre 'este' e 'esse'?",
+          "a": "'Este' refere-se ao que está perto de quem fala, ao tempo presente ou ao que será dito (catáfora). 'Esse' refere-se ao que está perto de quem ouve, ao passado recente ou ao que já foi dito (anáfora). Na redação do ENEM, usar corretamente melhora a coesão textual."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Na frase 'Para eu fazer o trabalho', por que usamos 'eu' e não 'mim'?",
+          "options": [
+            "Porque 'mim' não existe",
+            "Porque 'eu' é sujeito do verbo 'fazer'",
+            "Porque 'mim' é pronome possessivo",
+            "Porque a preposição exige 'eu'"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Segundo o artigo, qual pronome demonstrativo indica algo que VAI ser dito no texto?",
+          "options": [
+            "Esse (anáfora)",
+            "Aquele (distância)",
+            "Este (catáfora)",
+            "Isso (retomada)"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O artigo menciona que 'seu/sua' pode gerar ambiguidade. Qual a solução indicada?",
+          "options": [
+            "Usar 'teu/tua' sempre",
+            "Substituir por 'dele/dela'",
+            "Eliminar o possessivo",
+            "Usar 'nosso/nossa'"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Me, te, se, o, a, lhe' são exemplos de pronomes pessoais:",
+          "options": [
+            "Retos",
+            "Oblíquos átonos",
+            "Oblíquos tônicos",
+            "Demonstrativos"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Verbo: Modos Indicativo e Subjuntivo",
+      "slug": "verbo-modos-indicativo-e-subjuntivo",
+      "desc": "Verbos expressam ação, estado ou fenômeno. 3 modos: indicativo (certeza), subjuntivo (dúvida/desejo), imperativo (ordem). 6 tempos do indicativo, 3 do subjuntivo. 3 conjugações (-AR, -ER, -IR). Formas nominais: infinitivo, gerúndio, particípio.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Indicativo = certeza (6 tempos: presente, pret. perfeito/imperfeito/mais-que-perfeito, futuro presente/pretérito). Subjuntivo = dúvida (3 tempos). Imperativo = ordem. 3 conjugações: -AR (1ª), -ER (2ª), -IR (3ª). Formas nominais: infinitivo, gerúndio, particípio.",
+      "body": "<h2>Introdução</h2>\\n<p>Os <strong>verbos</strong> são a classe de palavras que expressam <strong>ação</strong> (correr, estudar), <strong>estado</strong> (ser, estar) ou <strong>fenômeno da natureza</strong> (chover, nevar). São a espinha dorsal de qualquer oração — sem verbo, não há oração. Nesta lição, vamos estudar os <strong>modos verbais</strong>, que indicam a atitude do falante diante do que diz.</p>\\n<p>Este conteúdo é introduzido no 6º ano e é fundamental para toda a trajetória escolar, aparecendo em questões de gramática, interpretação e redação no ENEM e vestibulares.</p>\\n\\n<h2>Os 3 Modos Verbais</h2>\\n<p>O <strong>modo verbal</strong> indica a postura do falante em relação ao fato expresso:</p>\\n<table>\\n<thead><tr><th>Modo</th><th>Atitude</th><th>Exemplo</th></tr></thead>\\n<tbody>\\n<tr><td><strong>Indicativo</strong></td><td>Certeza, fato concreto</td><td>\\\"Eu <strong>estudo</strong> todos os dias.\\\"</td></tr>\\n<tr><td><strong>Subjuntivo</strong></td><td>Dúvida, desejo, hipótese</td><td>\\\"Se eu <strong>estudasse</strong> mais...\\\"</td></tr>\\n<tr><td><strong>Imperativo</strong></td><td>Ordem, pedido, conselho</td><td>\\\"<strong>Estude</strong> agora!\\\"</td></tr>\\n</tbody>\\n</table>\\n\\n<h3>Tempos do Indicativo</h3>\\n<p>O modo indicativo possui <strong>6 tempos</strong>:</p>\\n<table>\\n<thead><tr><th>Tempo</th><th>Exemplo (verbo estudar)</th><th>Uso</th></tr></thead>\\n<tbody>\\n<tr><td><strong>Presente</strong></td><td>Eu estudo</td><td>Ação atual, hábito, verdade universal</td></tr>\\n<tr><td><strong>Pretérito Perfeito</strong></td><td>Eu estudei</td><td>Ação concluída no passado</td></tr>\\n<tr><td><strong>Pretérito Imperfeito</strong></td><td>Eu estudava</td><td>Ação habitual ou contínua no passado</td></tr>\\n<tr><td><strong>Pretérito Mais-que-perfeito</strong></td><td>Eu estudara</td><td>Ação anterior a outra no passado</td></tr>\\n<tr><td><strong>Futuro do Presente</strong></td><td>Eu estudarei</td><td>Ação que vai acontecer</td></tr>\\n<tr><td><strong>Futuro do Pretérito</strong></td><td>Eu estudaria</td><td>Ação condicional (se...então)</td></tr>\\n</tbody>\\n</table>\\n\\n<h3>Tempos do Subjuntivo</h3>\\n<p>O subjuntivo possui <strong>3 tempos</strong> e sempre expressa incerteza:</p>\\n<ul>\\n<li><strong>Presente:</strong> \\\"Espero que ele <strong>estude</strong>.\\\" (desejo)</li>\\n<li><strong>Pretérito Imperfeito:</strong> \\\"Se eu <strong>estudasse</strong>, passaria.\\\" (hipótese)</li>\\n<li><strong>Futuro:</strong> \\\"Quando ele <strong>estudar</strong>, aprenderá.\\\" (eventualidade)</li>\\n</ul>\\n\\n<h2>As 3 Conjugações</h2>\\n<p>Os verbos regulares seguem padrões de conjugação conforme a terminação do infinitivo:</p>\\n<ul>\\n<li><strong>1ª conjugação (-AR):</strong> amar, estudar, cantar</li>\\n<li><strong>2ª conjugação (-ER):</strong> vender, comer, escrever</li>\\n<li><strong>3ª conjugação (-IR):</strong> partir, sair, decidir</li>\\n</ul>\\n\\n<h2>Formas Nominais</h2>\\n<p>Além dos modos, os verbos possuem <strong>formas nominais</strong> — assim chamadas porque podem funcionar como nomes:</p>\\n<ul>\\n<li><strong>Infinitivo:</strong> estudar (funciona como substantivo: \\\"O <strong>estudar</strong> é importante\\\")</li>\\n<li><strong>Gerúndio:</strong> estudando (ação em andamento: \\\"Estou <strong>estudando</strong>\\\")</li>\\n<li><strong>Particípio:</strong> estudado (ação concluída: \\\"Tenho <strong>estudado</strong> muito\\\")</li>\\n</ul>\\n\\n<h2>Resumo e Dicas para a Prova</h2>\\n<ul>\\n<li>✅ <strong>Indicativo</strong> = certeza. <strong>Subjuntivo</strong> = dúvida/desejo. <strong>Imperativo</strong> = ordem.</li>\\n<li>✅ Indicativo tem <strong>6 tempos</strong>, subjuntivo tem <strong>3 tempos</strong>.</li>\\n<li>✅ As <strong>3 conjugações</strong>: -AR (1ª), -ER (2ª), -IR (3ª).</li>\\n<li>✅ Formas nominais: infinitivo, gerúndio, particípio.</li>\\n<li>⚠️ <strong>Pegadinha:</strong> \\\"Se eu <strong>fosse</strong>\\\" (subjuntivo) ≠ \\\"Eu <strong>fui</strong>\\\" (indicativo). O modo muda o sentido completamente.</li>\\n</ul>\\n\\n<h2>Curiosidade</h2>\\n<p>O português possui mais de <strong>50 formas verbais</strong> para cada verbo regular — contando todos os tempos, modos e pessoas. Já o inglês tem apenas cerca de 5 formas (go, goes, went, gone, going). Por isso, a conjugação verbal é um dos maiores desafios para estrangeiros que aprendem português!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre indicativo e subjuntivo?",
+          "a": "O indicativo expressa certeza e fatos concretos: 'Eu estudo'. O subjuntivo expressa dúvida, desejo ou hipótese: 'Se eu estudasse'. O modo indica a atitude do falante diante do fato."
+        },
+        {
+          "q": "Quantos tempos tem o indicativo?",
+          "a": "O indicativo possui 6 tempos: presente (estudo), pretérito perfeito (estudei), pretérito imperfeito (estudava), pretérito mais-que-perfeito (estudara), futuro do presente (estudarei) e futuro do pretérito (estudaria)."
+        },
+        {
+          "q": "O que são formas nominais do verbo?",
+          "a": "São formas que funcionam como nomes: infinitivo (estudar = substantivo), gerúndio (estudando = ação em curso) e particípio (estudado = ação concluída). Exemplo: 'O estudar é importante' — o infinitivo vira substantivo."
+        },
+        {
+          "q": "Quais são as 3 conjugações do português?",
+          "a": "1ª conjugação: verbos terminados em -AR (amar, cantar). 2ª conjugação: verbos em -ER (vender, comer). 3ª conjugação: verbos em -IR (partir, sair). Os verbos regulares seguem o padrão de sua conjugação."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "O modo que expressa certeza e fato concreto é o:",
+          "options": [
+            "Subjuntivo",
+            "Indicativo",
+            "Imperativo",
+            "Infinitivo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Na frase 'Se eu estudasse mais, passaria', o verbo 'estudasse' está no modo:",
+          "options": [
+            "Indicativo",
+            "Imperativo",
+            "Subjuntivo",
+            "Gerúndio"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Quantos tempos verbais possui o modo indicativo, segundo o artigo?",
+          "options": [
+            "3 tempos",
+            "4 tempos",
+            "5 tempos",
+            "6 tempos"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "O verbo 'partir' pertence a qual conjugação?",
+          "options": [
+            "1ª conjugação (-AR)",
+            "2ª conjugação (-ER)",
+            "3ª conjugação (-IR)",
+            "Nenhuma"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: Mito, Lenda e Fábula",
+      "slug": "generos-mito-lenda-e-fabula",
+      "desc": "Mito explica fenômenos sobrenaturais (deuses, criação). Lenda mistura fato real e fantasia popular. Fábula usa animais que falam para transmitir uma moral. Exemplos brasileiros: Curupira, Saci, Boto.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Mito = explicação sobrenatural com deuses (ex: mito de Prometeu, Tupã). Lenda = história com base real + fantasia (ex: Saci, Boto). Fábula = narrativa curta com animais e moral ao final (ex: A Cigarra e a Formiga, de Esopo/La Fontaine). Diferença-chave: mito explica a origem das coisas; lenda é relato popular; fábula ensina uma lição.",
+      "body": "<h2>Introdução</h2>\n<p>Desde os primórdios da humanidade, os seres humanos contam histórias para <strong>explicar o mundo</strong>, <strong>transmitir valores</strong> e <strong>entreter</strong>. Três dos gêneros narrativos mais antigos são o <strong>mito</strong>, a <strong>lenda</strong> e a <strong>fábula</strong>. Embora parecidos, cada um tem características, funções e estruturas próprias.</p>\n<p>Este conteúdo é estudado no 6º ano e aparece em provas de interpretação textual, onde é necessário identificar o gênero e suas marcas.</p>\n\n<h2>Mito</h2>\n<p>O <strong>mito</strong> é uma narrativa sagrada que busca <strong>explicar a origem</strong> do mundo, dos fenômenos naturais e da condição humana, geralmente envolvendo <strong>deuses e seres sobrenaturais</strong>.</p>\n<h3>Características</h3>\n<ul>\n<li>Personagens: deuses, semideuses, heróis</li>\n<li>Tempo: remoto, primordial (\"no início dos tempos\")</li>\n<li>Função: explicar a origem de algo (criação, fenômenos)</li>\n<li>Exemplos: mito de Prometeu (fogo), mito de Tupã (trovão), mito de Ícaro (ambição)</li>\n</ul>\n\n<h2>Lenda</h2>\n<p>A <strong>lenda</strong> é uma narrativa popular que mistura <strong>fatos reais com elementos fantásticos</strong>. É transmitida oralmente e se adapta conforme a região.</p>\n<h3>Características</h3>\n<ul>\n<li>Base em fato ou personagem real, mas com exageros e fantasia</li>\n<li>Transmissão oral, com variações regionais</li>\n<li>Exemplos brasileiros: Saci-Pererê, Curupira, Boto, Mula sem Cabeça, Negrinho do Pastoreio</li>\n</ul>\n\n<h2>Fábula</h2>\n<p>A <strong>fábula</strong> é uma narrativa curta, geralmente com <strong>animais que falam e agem como humanos</strong>, que termina com uma <strong>moral</strong> (lição de vida).</p>\n<h3>Características</h3>\n<ul>\n<li>Personagens: animais personificados</li>\n<li>Estrutura curta e direta</li>\n<li>Finaliza com uma moral explícita</li>\n<li>Grandes fabulistas: Esopo (Grécia), La Fontaine (França), Monteiro Lobato (Brasil)</li>\n<li>Exemplos: A Cigarra e a Formiga, A Lebre e a Tartaruga, O Lobo e o Cordeiro</li>\n</ul>\n\n<h2>Quadro Comparativo</h2>\n<table>\n<thead><tr><th>Aspecto</th><th>Mito</th><th>Lenda</th><th>Fábula</th></tr></thead>\n<tbody>\n<tr><td><strong>Personagens</strong></td><td>Deuses, heróis</td><td>Seres fantásticos</td><td>Animais falantes</td></tr>\n<tr><td><strong>Objetivo</strong></td><td>Explicar origens</td><td>Relatar tradições</td><td>Ensinar uma moral</td></tr>\n<tr><td><strong>Base</strong></td><td>Sagrada/religiosa</td><td>Popular/regional</td><td>Inventada</td></tr>\n<tr><td><strong>Exemplo</strong></td><td>Prometeu</td><td>Saci-Pererê</td><td>A Cigarra e a Formiga</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Mito</strong> = explica origens com deuses e seres sobrenaturais.</li>\n<li>✅ <strong>Lenda</strong> = fato real + fantasia, transmissão oral, variações regionais.</li>\n<li>✅ <strong>Fábula</strong> = animais falantes + moral ao final.</li>\n<li>✅ Fabulistas clássicos: <strong>Esopo</strong> (Grécia) e <strong>La Fontaine</strong> (França).</li>\n<li>⚠️ <strong>Pegadinha:</strong> Mito não é \"mentira\" — é uma narrativa cultural com função explicativa sagrada.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>O Brasil possui uma das mais ricas coleções de lendas do mundo! O <strong>folclore brasileiro</strong> reúne influências indígenas (Curupira, Boitatá), africanas (Saci-Pererê) e europeias (Lobisomem, Mula sem Cabeça). Monteiro Lobato foi um dos maiores divulgadores dessas histórias na literatura infantil.</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre mito e lenda?",
+          "a": "O mito é uma narrativa sagrada que explica a origem do mundo ou de fenômenos, com deuses e seres sobrenaturais. A lenda é uma história popular que mistura fatos reais com fantasia, transmitida oralmente. O mito tem caráter universal/religioso; a lenda é regional e popular."
+        },
+        {
+          "q": "O que caracteriza uma fábula?",
+          "a": "A fábula é uma narrativa curta com animais que falam e agem como humanos (personificação), que termina com uma moral — uma lição de vida. Os grandes fabulistas foram Esopo (Grécia antiga), La Fontaine (França) e Monteiro Lobato (Brasil)."
+        },
+        {
+          "q": "Quais são as lendas brasileiras mais conhecidas?",
+          "a": "As mais famosas são: Saci-Pererê (menino negro travesso de uma perna), Curupira (protetor das florestas com pés virados), Boto (transforma-se em homem bonito), Mula sem Cabeça, Boitatá (cobra de fogo) e Negrinho do Pastoreio."
+        },
+        {
+          "q": "Mito é a mesma coisa que mentira?",
+          "a": "Não! Na linguagem coloquial, 'mito' pode significar algo falso, mas na literatura e na antropologia, mito é uma narrativa cultural sagrada que explica origens e fenômenos. Tem função social e religiosa importante para os povos que o criaram."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Segundo o artigo, qual gênero usa animais que falam para transmitir uma moral?",
+          "options": [
+            "Mito",
+            "Lenda",
+            "Fábula",
+            "Crônica"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O Saci-Pererê é um exemplo de:",
+          "options": [
+            "Mito grego",
+            "Fábula brasileira",
+            "Lenda do folclore brasileiro",
+            "Texto teatral"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual fabulista grego é considerado o 'pai da fábula'?",
+          "options": [
+            "La Fontaine",
+            "Monteiro Lobato",
+            "Esopo",
+            "Homero"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O artigo afirma que o mito tem como objetivo principal:",
+          "options": [
+            "Entreter crianças",
+            "Explicar origens e fenômenos",
+            "Criticar a sociedade",
+            "Ensinar gramática"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "title": "Gêneros: HQ, Charge e Tirinha",
+      "slug": "generos-hq-charge-e-tirinha",
+      "desc": "HQ é narrativa em quadros com diálogos em balões. Charge faz crítica satírica da atualidade com humor. Tirinha conta uma história curta em 3-4 quadros. Todos combinam linguagem verbal e não-verbal.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "HQ = narrativa longa em quadros (personagens fixos, aventura). Charge = crítica de humor a fatos atuais (1 quadro geralmente). Tirinha = narrativa curta em 3-4 quadros com desfecho inesperado. Elementos: balões (fala, pensamento, grito), onomatopeias, metáforas visuais, linhas cinéticas. Linguagem verbal (texto) + não-verbal (imagem).",
+      "body": "<h2>Introdução</h2>\n<p>Histórias em quadrinhos, charges e tirinhas estão por toda parte: jornais, revistas, redes sociais e, claro, em <strong>provas e vestibulares</strong>. Esses gêneros combinam <strong>linguagem verbal</strong> (palavras) e <strong>não-verbal</strong> (imagens), exigindo do leitor a capacidade de interpretar ambas ao mesmo tempo.</p>\n<p>Saber diferenciá-los e interpretar seus recursos é essencial desde o 6º ano. No ENEM, charges e tirinhas aparecem com frequência nas questões de Linguagens.</p>\n\n<h2>História em Quadrinhos (HQ)</h2>\n<p>A <strong>HQ</strong> é uma narrativa sequencial contada através de <strong>quadros</strong> (vinhetas) que combinam texto e imagem. Possui personagens fixos, enredo desenvolvido e pode ter muitas páginas.</p>\n<ul>\n<li><strong>Elementos:</strong> quadros/vinhetas, balões de fala/pensamento, recordatórios (narrador), onomatopeias</li>\n<li><strong>Exemplos:</strong> Turma da Mônica (Mauricio de Sousa), Mafalda (Quino), Super-Homem, Manga japonês</li>\n</ul>\n\n<h2>Charge</h2>\n<p>A <strong>charge</strong> é um desenho de <strong>humor e crítica</strong> sobre um fato atual (político, social, econômico). Geralmente tem <strong>1 quadro</strong> e exige que o leitor conheça o contexto.</p>\n<ul>\n<li><strong>Características:</strong> satírica, opinativa, efêmera (perde sentido com o tempo)</li>\n<li><strong>Diferença do cartum:</strong> a charge critica fatos específicos; o cartum trata de temas universais (humor atemporal)</li>\n</ul>\n\n<h2>Tirinha</h2>\n<p>A <strong>tirinha</strong> (ou tira) é uma narrativa curta em <strong>3 a 4 quadros</strong>, geralmente com desfecho <strong>inesperado ou humorístico</strong>. Tem personagens fixos e é publicada em jornais ou redes sociais.</p>\n<ul>\n<li><strong>Exemplos:</strong> Garfield, Calvin e Haroldo, Armandinho, Hagar</li>\n</ul>\n\n<h2>Elementos Visuais</h2>\n<table>\n<thead><tr><th>Elemento</th><th>Função</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Balão de fala</strong></td><td>Indica diálogo</td><td>Contorno liso, rabicho apontando para quem fala</td></tr>\n<tr><td><strong>Balão de pensamento</strong></td><td>Indica pensamento</td><td>Contorno em nuvem, bolinhas ao invés de rabicho</td></tr>\n<tr><td><strong>Balão de grito</strong></td><td>Indica voz alta</td><td>Contorno espetado/irregular</td></tr>\n<tr><td><strong>Onomatopeia</strong></td><td>Representa sons</td><td>POW! CRASH! SPLASH!</td></tr>\n<tr><td><strong>Metáfora visual</strong></td><td>Expressa ideias</td><td>Estrelas (dor), lâmpada (ideia), corações (amor)</td></tr>\n<tr><td><strong>Linhas cinéticas</strong></td><td>Indicam movimento</td><td>Traços ao redor de personagem correndo</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>HQ</strong> = narrativa longa em quadros, com personagens fixos e enredo.</li>\n<li>✅ <strong>Charge</strong> = crítica humorística de fatos atuais (1 quadro, opinativa).</li>\n<li>✅ <strong>Tirinha</strong> = narrativa curta (3-4 quadros) com desfecho inesperado.</li>\n<li>✅ Todos usam <strong>linguagem verbal + não-verbal</strong> simultaneamente.</li>\n<li>⚠️ <strong>No ENEM:</strong> Ao interpretar charge, identifique primeiro o <strong>contexto</strong> (fato/notícia que ela critica).</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A <strong>Turma da Mônica</strong>, de Mauricio de Sousa, é uma das HQs mais vendidas do mundo, com mais de <strong>1 bilhão de exemplares</strong>! Já a personagem <strong>Mafalda</strong>, do argentino Quino, é considerada uma das tirinhas mais inteligentes da história — questionando política, sociedade e a condição humana desde os anos 1960.</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre charge e tirinha?",
+          "a": "A charge é um desenho de opinião que critica um fato atual específico (geralmente 1 quadro). A tirinha é uma narrativa curta em 3-4 quadros com personagens fixos e desfecho humorístico. A charge é efêmera (perde sentido com o tempo); a tirinha costuma ter humor atemporal."
+        },
+        {
+          "q": "O que são onomatopeias nos quadrinhos?",
+          "a": "São palavras que imitam sons: POW! (soco), CRASH! (batida), SPLASH! (água), TRRRIM! (telefone). Nos quadrinhos, aparecem em destaque visual, geralmente fora dos balões, com letras grandes e expressivas."
+        },
+        {
+          "q": "O que é linguagem verbal e não-verbal?",
+          "a": "Linguagem verbal usa palavras (falas nos balões, títulos, onomatopeias). Linguagem não-verbal usa imagens (expressões faciais, gestos, cenários, cores). HQs, charges e tirinhas combinam as duas, exigindo interpretação integrada."
+        },
+        {
+          "q": "Charge e cartum são a mesma coisa?",
+          "a": "Não. A charge critica fatos específicos e atuais (é efêmera). O cartum aborda temas universais e atemporais (humor que não depende de contexto). Exemplo: uma charge sobre uma eleição vs. um cartum sobre a preguiça."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Segundo o artigo, a charge se diferencia da tirinha porque:",
+          "options": [
+            "Tem mais quadros",
+            "Critica fatos atuais em geralmente 1 quadro",
+            "Usa apenas imagens",
+            "Não tem humor"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O balão de pensamento nos quadrinhos tem formato de:",
+          "options": [
+            "Retângulo com rabicho",
+            "Nuvem com bolinhas",
+            "Estrela espetada",
+            "Triângulo"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'POW!' e 'CRASH!' são exemplos de:",
+          "options": [
+            "Metáforas visuais",
+            "Linhas cinéticas",
+            "Onomatopeias",
+            "Balões de grito"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "A Turma da Mônica é um exemplo de:",
+          "options": [
+            "Charge",
+            "Cartum",
+            "Tirinha",
+            "HQ (História em Quadrinhos)"
+          ],
+          "answer": 3
+        }
+      ]
+    },
+    {
+      "title": "Interpretação de Texto: Implícito e Explícito",
+      "slug": "interpretacao-de-texto-implicito-e-explicito",
+      "desc": "Informação explícita está escrita no texto. Implícita exige inferência do leitor. Pressupostos são informações sugeridas por marcas linguísticas. Subentendidos dependem do contexto. Estratégias de leitura para provas.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Explícito = está escrito no texto (basta localizar). Implícito = não está escrito, mas pode ser inferido. Pressuposto = implícito marcado por palavras (''ainda'', ''já'', ''deixou de''). Subentendido = implícito que depende de contexto/intenção. No ENEM: ''depreende-se'' e ''infere-se'' = informação implícita.",
+      "body": "<h2>Introdução</h2>\n<p>Você já ouviu a expressão \"ler nas entrelinhas\"? Isso significa captar informações que <strong>não estão escritas diretamente</strong> no texto, mas podem ser <strong>inferidas</strong> pelo leitor. Saber diferenciar o que é <strong>explícito</strong> (dito claramente) do que é <strong>implícito</strong> (sugerido) é uma das habilidades mais cobradas em provas de interpretação textual.</p>\n<p>No ENEM e vestibulares, a maioria das questões de interpretação exige que o aluno vá <strong>além do literal</strong> — e é exatamente isso que vamos aprender aqui.</p>\n\n<h2>Informação Explícita</h2>\n<p>É a informação que está <strong>escrita diretamente no texto</strong>. Para encontrá-la, basta <strong>localizar</strong> o trecho.</p>\n<p><strong>Exemplo:</strong> \"O Brasil foi descoberto em 1500.\" → A data 1500 é informação explícita.</p>\n<p>Em provas, questões explícitas usam expressões como: \"Segundo o texto...\", \"De acordo com o autor...\", \"O texto afirma que...\".</p>\n\n<h2>Informação Implícita</h2>\n<p>É a informação que <strong>não está escrita</strong>, mas pode ser <strong>deduzida</strong> pelo leitor a partir de pistas no texto. Divide-se em dois tipos:</p>\n\n<h3>Pressuposto</h3>\n<p>É um implícito <strong>marcado por palavras</strong> específicas no texto. O leitor identifica a informação oculta através de marcas linguísticas:</p>\n<ul>\n<li>\"João <strong>parou de</strong> fumar.\" → Pressuposto: ele fumava antes.</li>\n<li>\"Maria <strong>ainda</strong> mora em SP.\" → Pressuposto: ela já morava em SP.</li>\n<li>\"Pedro <strong>conseguiu</strong> passar.\" → Pressuposto: era difícil passar.</li>\n<li>\"Ele <strong>voltou</strong> a estudar.\" → Pressuposto: ele tinha parado de estudar.</li>\n</ul>\n<p><strong>Marcadores de pressuposto:</strong> ainda, já, deixou de, parou de, voltou a, conseguiu, antes, depois.</p>\n\n<h3>Subentendido</h3>\n<p>É um implícito que depende do <strong>contexto</strong>, da <strong>intenção do falante</strong> e da <strong>interpretação do ouvinte</strong>:</p>\n<ul>\n<li>\"Está frio aqui, né?\" → Subentendido: feche a janela / ligue o aquecedor.</li>\n<li>\"Que horas são?\" (em uma reunião longa) → Subentendido: a reunião deveria terminar.</li>\n</ul>\n\n<h2>Estratégias de Leitura para Provas</h2>\n<ol>\n<li><strong>Leia o texto inteiro</strong> antes de responder</li>\n<li><strong>Identifique o tema central</strong> (sobre o que o texto fala)</li>\n<li><strong>Diferencie fato de opinião</strong> (fato = dado objetivo; opinião = ponto de vista)</li>\n<li><strong>Atenção aos comandos da questão:</strong></li>\n</ol>\n<table>\n<thead><tr><th>Comando</th><th>Tipo de informação</th></tr></thead>\n<tbody>\n<tr><td>\"Segundo o texto...\"</td><td>Explícita (localize no texto)</td></tr>\n<tr><td>\"Infere-se que...\"</td><td>Implícita (deduza do texto)</td></tr>\n<tr><td>\"Depreende-se...\"</td><td>Implícita (interprete)</td></tr>\n<tr><td>\"O autor sugere...\"</td><td>Implícita (intenção do autor)</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Explícito</strong> = está no texto. <strong>Implícito</strong> = está nas entrelinhas.</li>\n<li>✅ <strong>Pressuposto</strong> = marcado por palavras (ainda, já, parou de, conseguiu).</li>\n<li>✅ <strong>Subentendido</strong> = depende do contexto e da intenção.</li>\n<li>✅ No ENEM: \"infere-se\" e \"depreende-se\" = pedem informação implícita.</li>\n<li>⚠️ <strong>Erro comum:</strong> Confundir opinião pessoal com inferência. A inferência deve ter base no texto.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A habilidade de inferir informações implícitas é tão importante que os linguistas a chamam de <strong>competência pragmática</strong> — a capacidade de entender não apenas o que é dito, mas o que se <strong>quer dizer</strong>. No ENEM, cerca de 70% das questões de Linguagens exigem algum nível de inferência!</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre explícito e implícito?",
+          "a": "Explícito é o que está escrito diretamente no texto — basta localizar. Implícito é o que não está escrito, mas pode ser deduzido pelo leitor a partir de pistas textuais. Em provas, 'segundo o texto' pede informação explícita; 'infere-se' pede implícita."
+        },
+        {
+          "q": "O que é pressuposto?",
+          "a": "É uma informação implícita marcada por palavras específicas no texto. Em 'João parou de fumar', o pressuposto é que ele fumava antes. Marcadores comuns: ainda, já, deixou de, voltou a, conseguiu, antes, depois."
+        },
+        {
+          "q": "Qual a diferença entre pressuposto e subentendido?",
+          "a": "O pressuposto é marcado por palavras no texto (ainda, já, parou de) — qualquer leitor pode identificar. O subentendido depende do contexto e da intenção: 'Está frio aqui' pode subentender 'feche a janela', mas isso depende da situação."
+        },
+        {
+          "q": "Como identificar o que a questão pede: explícito ou implícito?",
+          "a": "Observe o comando: 'Segundo o texto' e 'O texto afirma' pedem informação explícita. 'Infere-se', 'Depreende-se' e 'O autor sugere' pedem informação implícita. No ENEM, a maioria das questões de Linguagens pede inferência."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Na frase 'Maria ainda mora em SP', qual é o pressuposto?",
+          "options": [
+            "Maria vai se mudar",
+            "Maria já morava em SP antes",
+            "Maria não gosta de SP",
+            "Maria acabou de chegar em SP"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Segundo o artigo, quando uma questão usa 'infere-se que...', ela pede informação:",
+          "options": [
+            "Explícita",
+            "Implícita",
+            "Literal",
+            "Gramatical"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual a diferença entre pressuposto e subentendido?",
+          "options": [
+            "São a mesma coisa",
+            "Pressuposto é marcado por palavras; subentendido depende do contexto",
+            "Pressuposto é opinião; subentendido é fato",
+            "Pressuposto é explícito; subentendido é implícito"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O artigo menciona que no ENEM, cerca de quantos % das questões de Linguagens exigem inferência?",
+          "options": [
+            "30%",
+            "50%",
+            "70%",
+            "90%"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Ortografia: Uso do Hífen",
+      "slug": "ortografia-uso-do-hifen",
+      "desc": "Regras do hífen pelo Novo Acordo Ortográfico (2009). Prefixos com/sem hífen. Vogais iguais separam, diferentes juntam. Sempre com hífen antes de H. Compostas com e sem hífen.",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Regra dos iguais: vogal + mesma vogal = hífen (micro-ondas, anti-inflamatório). Vogais diferentes = sem hífen (autoescola, infraestrutura). Sempre com hífen: ex-, vice-, pré-, pós-, recém- e antes de H (anti-higiênico). Compostas: guarda-chuva (com), girassol (sem).",
+      "body": "<h2>Introdução</h2>\n<p>O <strong>hífen</strong> é um dos sinais ortográficos que mais geram dúvidas em português. Com o <strong>Novo Acordo Ortográfico</strong> (vigente desde 2009), muitas regras mudaram — palavras que tinham hífen perderam, e vice-versa. Dominar essas regras é essencial para a escrita correta e para questões de ortografia em provas.</p>\n<p>Este conteúdo é cobrado desde o 6º ano e aparece com frequência no ENEM e vestibulares, especialmente em questões que pedem a grafia correta de palavras com prefixos.</p>\n\n<h2>Regra de Ouro: Iguais se Repelem</h2>\n<p>A regra mais importante do Novo Acordo é:</p>\n<ul>\n<li>Se o prefixo termina com <strong>vogal</strong> e o radical começa com a <strong>mesma vogal</strong> → <strong>USA hífen:</strong> micro-ondas, anti-inflamatório, contra-ataque</li>\n<li>Se são vogais <strong>diferentes</strong> → <strong>NÃO usa:</strong> autoescola, infraestrutura, semiaberto, antiaéreo</li>\n</ul>\n\n<h2>Sempre com Hífen</h2>\n<h3>Prefixos especiais</h3>\n<p>Alguns prefixos <strong>sempre</strong> exigem hífen, independente da letra seguinte:</p>\n<ul>\n<li><strong>ex-</strong> (anterior): ex-presidente, ex-aluno, ex-marido</li>\n<li><strong>vice-</strong>: vice-diretor, vice-prefeito</li>\n<li><strong>pré-/pós-/pró-</strong> (tônicos): pré-escola, pós-graduação, pró-reitor</li>\n<li><strong>recém-</strong>: recém-nascido, recém-chegado</li>\n<li><strong>sem-</strong>: sem-terra, sem-teto</li>\n<li><strong>além-/aquém-</strong>: além-mar, aquém-fronteira</li>\n</ul>\n\n<h3>Antes de H</h3>\n<p>Todo prefixo seguido de <strong>H</strong> recebe hífen:</p>\n<p>anti-higiênico, super-homem, sub-humano, pré-história, co-herdeiro</p>\n\n<h2>Nunca com Hífen</h2>\n<ul>\n<li>Prefixo termina em vogal + radical começa com <strong>R</strong> ou <strong>S</strong> → dobra a consoante: anti<strong>rr</strong>ugas, auto<strong>ss</strong>uficiente, contra<strong>ss</strong>enso</li>\n<li>Prefixo termina em vogal + radical começa com vogal diferente → junta: autoescola, infraestrutura</li>\n</ul>\n\n<h2>Palavras Compostas</h2>\n<table>\n<thead><tr><th>Com hífen</th><th>Sem hífen</th></tr></thead>\n<tbody>\n<tr><td>guarda-chuva</td><td>girassol</td></tr>\n<tr><td>segunda-feira</td><td>madressilva</td></tr>\n<tr><td>couve-flor</td><td>paraquedas</td></tr>\n<tr><td>bem-vindo</td><td>pontapé</td></tr>\n</tbody>\n</table>\n<p>Regra geral: compostas com <strong>elementos autônomos</strong> (que mantêm sentido individual) usam hífen. Compostas que <strong>perderam a noção de composição</strong> não usam.</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Vogais iguais</strong> = hífen (micro-ondas). <strong>Vogais diferentes</strong> = sem (autoescola).</li>\n<li>✅ <strong>Antes de H</strong> = sempre hífen (super-homem).</li>\n<li>✅ <strong>ex-, vice-, pré-, pós-, recém-</strong> = sempre hífen.</li>\n<li>✅ Vogal + R/S → dobra a consoante, sem hífen (antirrugas).</li>\n<li>⚠️ <strong>Cuidado:</strong> \"pré-escola\" (tônico, com hífen) ≠ \"prever\" (átono, sem hífen).</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>O Novo Acordo Ortográfico de 1990 (vigente no Brasil desde 2009) eliminou o hífen de cerca de <strong>10.000 palavras</strong>! Palavras como \"auto-escola\" (antes) viraram \"autoescola\" (agora), e \"anti-social\" virou \"antissocial\". Portugal, Angola e outros países lusófonos também adotaram as mesmas regras.</p>",
+      "faq": [
+        {
+          "q": "Qual a regra principal do hífen com prefixos?",
+          "a": "Se o prefixo termina com vogal e o radical começa com a MESMA vogal, usa hífen: micro-ondas, anti-inflamatório. Se as vogais são DIFERENTES, não usa: autoescola, infraestrutura. Antes de H, sempre usa: super-homem, anti-higiênico."
+        },
+        {
+          "q": "Quais prefixos sempre exigem hífen?",
+          "a": "Os prefixos ex- (ex-presidente), vice- (vice-diretor), pré-/pós-/pró- quando tônicos (pré-escola, pós-graduação), recém- (recém-nascido), sem- (sem-terra), além- (além-mar) e aquém- sempre usam hífen."
+        },
+        {
+          "q": "O que acontece quando o prefixo termina em vogal e o radical começa com R ou S?",
+          "a": "Não se usa hífen — dobra-se a consoante: antirrugas (anti + rugas), autossuficiente (auto + suficiente), contrassenso (contra + senso). O R ou S é duplicado para manter a pronúncia original."
+        },
+        {
+          "q": "''Pré-escola'' tem hífen mas ''prever'' não. Por quê?",
+          "a": "Porque 'pré-' em 'pré-escola' é tônico (tem acento, pronúncia forte) — sempre usa hífen. Já 'pre-' em 'prever' é átono (pronúncia fraca, sem acento) — se junta sem hífen. A mesma lógica vale para pós-/pos- e pró-/pro-."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Segundo o artigo, qual a grafia correta?",
+          "options": [
+            "Auto-escola",
+            "Autoescola",
+            "Autoe-scola",
+            "Auto escola"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O artigo afirma que antes da letra H, o uso do hífen é:",
+          "options": [
+            "Proibido",
+            "Opcional",
+            "Obrigatório",
+            "Depende do prefixo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual prefixo SEMPRE exige hífen, segundo o artigo?",
+          "options": [
+            "auto-",
+            "anti-",
+            "ex-",
+            "super-"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Na regra do Novo Acordo, 'anti + rugas' se escreve:",
+          "options": [
+            "Anti-rugas",
+            "Antirugas",
+            "Antirrugas",
+            "Anti rugas"
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "title": "Paragrafação e Coesão",
+      "slug": "paragrafacao-e-coesao",
+      "desc": "Parágrafo é a unidade de composição do texto, com tópico frasal + desenvolvimento + conclusão. Coesão conecta as ideias: referencial (pronomes), sequencial (conjunções) e lexical (sinônimos).",
+      "category": "Contemporânea",
+      "difficulty": "Nível 6",
+      "grade": "6º ano",
+      "reading_time": 8,
+      "xp": 100,
+      "essential": "Parágrafo: tópico frasal (ideia central) + desenvolvimento (argumentos/exemplos) + conclusão. Coesão referencial: pronomes e sinônimos retomam termos (ele, este, o mesmo). Coesão sequencial: conjunções ligam ideias (porém, portanto, porque). Coerência ≠ coesão: coerência = sentido lógico; coesão = conexão entre frases.",
+      "body": "<h2>Introdução</h2>\n<p>Você já leu um texto que parecia \"solto\", com ideias desconectadas? Ou um parágrafo que não tinha começo, meio e fim? A <strong>paragrafação</strong> e a <strong>coesão textual</strong> são os mecanismos que tornam um texto <strong>organizado e fluido</strong>. Sem eles, o texto vira uma lista de frases sem relação.</p>\n<p>Esse conteúdo é fundamental para a <strong>redação</strong> (ENEM e vestibulares) e também para questões de interpretação que pedem a identificação de mecanismos coesivos.</p>\n\n<h2>Estrutura do Parágrafo</h2>\n<p>Cada parágrafo é uma <strong>unidade de composição</strong> que desenvolve uma única ideia. A estrutura ideal segue este modelo:</p>\n<table>\n<thead><tr><th>Parte</th><th>Função</th><th>Exemplo</th></tr></thead>\n<tbody>\n<tr><td><strong>Tópico frasal</strong></td><td>Apresenta a ideia central</td><td>\"A leitura é fundamental para a formação do cidadão.\"</td></tr>\n<tr><td><strong>Desenvolvimento</strong></td><td>Explica, exemplifica, argumenta</td><td>\"Estudos mostram que leitores têm melhor desempenho escolar...\"</td></tr>\n<tr><td><strong>Conclusão</strong></td><td>Fecha o raciocínio</td><td>\"Portanto, incentivar a leitura desde cedo é essencial.\"</td></tr>\n</tbody>\n</table>\n<p>💡 <strong>Dica:</strong> Cada parágrafo deve tratar de <strong>uma ideia</strong>. Mudou de assunto? Mude de parágrafo.</p>\n\n<h2>Coesão Textual</h2>\n<p>A <strong>coesão</strong> é o conjunto de mecanismos que conectam as partes do texto, criando <strong>continuidade e fluidez</strong>. Existem 3 tipos principais:</p>\n\n<h3>1. Coesão Referencial</h3>\n<p>Retoma ou antecipa termos usando <strong>pronomes, sinônimos e expressões equivalentes</strong>:</p>\n<ul>\n<li>\"<strong>Maria</strong> estudou muito. <strong>Ela</strong> passou na prova.\" (pronome pessoal)</li>\n<li>\"O <strong>presidente</strong> discursou. O <strong>mandatário</strong> foi aplaudido.\" (sinônimo)</li>\n<li>\"Leia <strong>este</strong> livro: Memórias Póstumas...\" (pronome demonstrativo)</li>\n</ul>\n\n<h3>2. Coesão Sequencial</h3>\n<p>Liga ideias usando <strong>conjunções e conectivos</strong> que indicam relação lógica:</p>\n<ul>\n<li><strong>Adição:</strong> e, além disso, também</li>\n<li><strong>Oposição:</strong> mas, porém, contudo, entretanto</li>\n<li><strong>Causa:</strong> porque, pois, já que, visto que</li>\n<li><strong>Consequência:</strong> logo, portanto, assim, por isso</li>\n<li><strong>Tempo:</strong> quando, enquanto, antes que, depois que</li>\n</ul>\n\n<h3>3. Coesão Lexical</h3>\n<p>Evita repetição usando <strong>sinônimos, hiperônimos e expressões equivalentes</strong>:</p>\n<ul>\n<li>\"O <strong>cão</strong> correu. O <strong>animal</strong> estava assustado.\" (hiperônimo)</li>\n<li>\"<strong>Machado de Assis</strong> escreveu grandes obras. O <strong>bruxo do Cosme Velho</strong> é o maior nome...\" (perífrase)</li>\n</ul>\n\n<h2>Coesão × Coerência</h2>\n<table>\n<thead><tr><th>Coesão</th><th>Coerência</th></tr></thead>\n<tbody>\n<tr><td>Conexão <strong>linguística</strong> entre frases</td><td>Sentido <strong>lógico</strong> do texto</td></tr>\n<tr><td>Pronomes, conjunções, sinônimos</td><td>Ideias que não se contradizem</td></tr>\n<tr><td>Pode existir sem coerência</td><td>Pode existir sem coesão (raro)</td></tr>\n</tbody>\n</table>\n<p>⚠️ Um texto pode ter coesão perfeita (conectivos corretos) mas ser <strong>incoerente</strong> (ideias contraditórias).</p>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ Parágrafo = <strong>tópico frasal</strong> + desenvolvimento + conclusão.</li>\n<li>✅ <strong>Coesão referencial:</strong> pronomes e sinônimos retomam termos.</li>\n<li>✅ <strong>Coesão sequencial:</strong> conjunções ligam ideias (mas, portanto, porque).</li>\n<li>✅ <strong>Coesão ≠ Coerência:</strong> coesão conecta; coerência dá sentido.</li>\n<li>⚠️ Na redação do ENEM, a <strong>Competência 4</strong> avalia exatamente a coesão textual.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>Na redação do ENEM, a <strong>Competência 4</strong> (\"Demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação\") vale <strong>200 pontos</strong> — exatamente o mesmo peso de cada uma das outras 4 competências. Ou seja, dominar a coesão pode ser a diferença entre uma nota boa e uma nota excelente!</p>",
+      "faq": [
+        {
+          "q": "O que é tópico frasal?",
+          "a": "É a frase que apresenta a ideia central do parágrafo, geralmente a primeira. Todo o restante do parágrafo desenvolve, exemplifica ou argumenta a partir dessa ideia. Exemplo: 'A leitura é fundamental para a formação do cidadão' — tudo que vem depois deve desenvolver essa afirmação."
+        },
+        {
+          "q": "Qual a diferença entre coesão e coerência?",
+          "a": "Coesão é a conexão linguística entre frases (pronomes, conjunções, sinônimos). Coerência é o sentido lógico do texto (ideias que não se contradizem). Um texto pode ter coesão perfeita mas ser incoerente, e vice-versa."
+        },
+        {
+          "q": "O que são conectivos de coesão sequencial?",
+          "a": "São conjunções e expressões que ligam ideias indicando relação lógica: adição (e, além disso), oposição (mas, porém), causa (porque, visto que), consequência (portanto, logo), tempo (quando, enquanto). Usar conectivos variados melhora a nota de redação."
+        },
+        {
+          "q": "A coesão é avaliada na redação do ENEM?",
+          "a": "Sim! A Competência 4 avalia 'demonstrar conhecimento dos mecanismos linguísticos necessários para a construção da argumentação', ou seja, a coesão textual. Ela vale 200 pontos e avalia o uso de conectivos, retomadas e progressão do texto."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Segundo o artigo, o tópico frasal é:",
+          "options": [
+            "O título do texto",
+            "A última frase do parágrafo",
+            "A frase que apresenta a ideia central do parágrafo",
+            "O resumo do texto inteiro"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Na frase 'Maria estudou. Ela passou', o pronome 'ela' é um exemplo de coesão:",
+          "options": [
+            "Sequencial",
+            "Referencial",
+            "Lexical",
+            "Temporal"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual competência da redação do ENEM avalia a coesão textual?",
+          "options": [
+            "Competência 1",
+            "Competência 2",
+            "Competência 3",
+            "Competência 4"
+          ],
+          "answer": 3
+        },
+        {
+          "question": "O artigo afirma que coesão e coerência são:",
+          "options": [
+            "A mesma coisa",
+            "Coisas diferentes — coesão conecta, coerência dá sentido",
+            "Opostos",
+            "Irrelevantes para a redação"
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "slug": "acentuacao-grafica",
+      "title": "Acentuação Gráfica",
+      "desc": "Acentuação gráfica marca a sílaba tônica. Proparoxítonas: todas acentuadas. Paroxítonas: acentuadas em R, L, N, X, PS, ditongo. Oxítonas: em A(S), E(S), O(S), EM/ENS. Inclui regras do Novo Acordo Ortográfico de 2009.",
+      "grade": "6º ano",
+      "topic": "Ortografia",
+      "body": "<h2>Introdução</h2>\n<p>A <strong>acentuação gráfica</strong> é o sistema de sinais (´, ^, ~) que usamos para indicar a <strong>sílaba tônica</strong> de certas palavras e diferenciar sons abertos de fechados. Dominar as regras de acentuação é essencial para escrever corretamente e evitar erros em redações, provas e vestibulares.</p>\n<p>As regras atuais seguem o <strong>Novo Acordo Ortográfico</strong> (2009), que simplificou algumas normas. Este tema é recorrente em todas as provas de Português, desde o 6º ano até o ENEM.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<h3>Sílaba Tônica</h3>\n<p>Toda palavra com duas ou mais sílabas possui uma sílaba pronunciada com <strong>mais força</strong> — a sílaba tônica. De acordo com a posição da tônica, as palavras se classificam em:</p>\n<table>\n<thead><tr><th>Classificação</th><th>Tônica</th><th>Exemplos</th></tr></thead>\n<tbody>\n<tr><td><strong>Oxítona</strong></td><td>Última sílaba</td><td>ca-<strong>fé</strong>, a-<strong>vó</strong>, ja-ca-<strong>ré</strong></td></tr>\n<tr><td><strong>Paroxítona</strong></td><td>Penúltima sílaba</td><td><strong>fá</strong>-cil, <strong>ca</strong>-rá-ter, <strong>ór</strong>-fão</td></tr>\n<tr><td><strong>Proparoxítona</strong></td><td>Antepenúltima sílaba</td><td><strong>lâm</strong>-pa-da, <strong>mé</strong>-di-co, <strong>sí</strong>-la-ba</td></tr>\n</tbody>\n</table>\n\n<h2>Regras de Acentuação</h2>\n<h3>1. Proparoxítonas</h3>\n<p><strong>TODAS as proparoxítonas são acentuadas.</strong> Sem exceção!</p>\n<ul>\n<li>lâmpada, médico, sílaba, árvore, pássaro, último, matemática, paralelepípedo</li>\n</ul>\n<p>💡 <strong>Dica:</strong> Se a tônica é a antepenúltima sílaba → acentue sempre.</p>\n\n<h3>2. Paroxítonas</h3>\n<p>São acentuadas quando terminam em:</p>\n<ul>\n<li><strong>R:</strong> caráter, açúcar</li>\n<li><strong>L:</strong> fácil, amável, têxtil</li>\n<li><strong>N:</strong> hífen, pólen</li>\n<li><strong>X:</strong> tórax, látex</li>\n<li><strong>PS:</strong> bíceps, fórceps</li>\n<li><strong>Ã(S):</strong> ímã, órfãs</li>\n<li><strong>ÃO(S):</strong> órgão, bênçãos</li>\n<li><strong>I(S):</strong> júri, táxis, lápis</li>\n<li><strong>ON(S):</strong> próton, elétrons</li>\n<li><strong>UM/UNS:</strong> álbum, fóruns</li>\n<li><strong>US:</strong> vírus, bônus</li>\n<li><strong>Ditongo:</strong> série, história, espontâneo</li>\n</ul>\n<p>💡 <strong>Macete:</strong> Paroxítonas terminadas em A(S), E(S), O(S), EM, ENS <strong>NÃO</strong> são acentuadas (são a maioria das palavras em português!).</p>\n\n<h3>3. Oxítonas</h3>\n<p>São acentuadas quando terminam em:</p>\n<ul>\n<li><strong>A(S):</strong> sofá, atrás</li>\n<li><strong>E(S):</strong> café, você, cortês</li>\n<li><strong>O(S):</strong> avó, avôs, paletó</li>\n<li><strong>EM/ENS:</strong> também, parabéns</li>\n</ul>\n\n<h3>4. Monossílabos tônicos</h3>\n<p>São acentuados quando terminam em <strong>A(S), E(S), O(S)</strong>:</p>\n<ul>\n<li>pá, más, dá</li>\n<li>pé, três, mês</li>\n<li>pó, dó, nós, vós</li>\n</ul>\n\n<h2>Regras Especiais</h2>\n<h3>Hiatos com I e U</h3>\n<p>Acentuam-se o <strong>I</strong> e o <strong>U</strong> tônicos quando:</p>\n<ul>\n<li>Estão sozinhos na sílaba (ou com \"s\"): sa-<strong>ú</strong>-de, pa-<strong>í</strong>-ses, ba-<strong>ú</strong></li>\n<li>Formam hiato com a vogal anterior</li>\n</ul>\n<p><strong>NÃO</strong> se acentuam quando seguidos de NH: ra-i-nha, mo-i-nho.</p>\n\n<h3>Acento Diferencial</h3>\n<p>Após o Acordo Ortográfico de 2009, os únicos acentos diferenciais obrigatórios são:</p>\n<ul>\n<li><strong>pôr</strong> (verbo) × por (preposição)</li>\n<li><strong>pôde</strong> (pretérito) × pode (presente)</li>\n<li><strong>têm</strong> (plural) × tem (singular)</li>\n<li><strong>vêm</strong> (plural) × vem (singular)</li>\n</ul>\n\n<h2>O que Mudou com o Novo Acordo Ortográfico</h2>\n<ul>\n<li>❌ Não se acentuam mais ditongos \"ei\" e \"oi\" em paroxítonas: ideia, jiboia, heroico (antes: idéia, jibóia, heróico).</li>\n<li>❌ Não se usa mais trema: linguiça, frequente (antes: lingüiça, freqüente).</li>\n<li>❌ Não se acentuam mais \"oo\" e \"ee\": voo, enjoo, leem, creem (antes: vôo, enjôo, lêem, crêem).</li>\n</ul>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Proparoxítonas:</strong> TODAS acentuadas. Sempre.</li>\n<li>✅ <strong>Paroxítonas:</strong> acentuadas quando terminam em R, L, N, X, PS, ditongo, etc. NÃO acentuadas quando terminam em A, E, O, EM, ENS.</li>\n<li>✅ <strong>Oxítonas:</strong> acentuadas quando terminam em A(S), E(S), O(S), EM, ENS.</li>\n<li>✅ <strong>Macete inverso:</strong> Paroxítonas e oxítonas são complementares — o que acentua uma NÃO acentua a outra.</li>\n<li>⚠️ <strong>Pegadinha ENEM:</strong> \"ideia\" e \"heroico\" NÃO têm mais acento após 2009!</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A palavra mais longa do português com acento é <strong>\"paralelepípedo\"</strong> — uma proparoxítona de 7 sílabas! E curiosamente, muitos brasileiros a pronunciam errado como \"paralelipípedo\" (trocando um \"e\" por \"i\").</p>",
+      "faq": [
+        {
+          "q": "Todas as proparoxítonas são acentuadas?",
+          "a": "Sim! Sem exceção. Toda palavra cuja sílaba tônica é a antepenúltima recebe acento gráfico: lâmpada, médico, matemática, paralelepípedo."
+        },
+        {
+          "q": "O que mudou na acentuação com o Novo Acordo Ortográfico?",
+          "a": "Caíram os acentos de: ditongos ei/oi em paroxítonas (ideia, heroico), duplo oo/ee (voo, leem), e o trema (linguiça). Permaneceram os acentos diferenciais de pôr/por, pôde/pode, têm/tem, vêm/vem."
+        },
+        {
+          "q": "Quando acentuar o I e U em hiatos?",
+          "a": "Quando I ou U são tônicos, sozinhos na sílaba (ou com 's'), formando hiato: saúde, país, baú. Não se acentuam se seguidos de NH: rainha, moinho."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Qual regra de acentuação NÃO tem exceção?",
+          "options": [
+            "Oxítonas",
+            "Paroxítonas",
+            "Proparoxítonas",
+            "Monossílabos tônicos"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Após o Acordo Ortográfico de 2009, qual palavra perdeu o acento?",
+          "options": [
+            "Café",
+            "Ideia",
+            "Saúde",
+            "Último"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "A palavra 'fácil' é acentuada porque é:",
+          "options": [
+            "Oxítona terminada em L",
+            "Paroxítona terminada em L",
+            "Proparoxítona",
+            "Monossílabo tônico"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "'Também' é acentuada porque é:",
+          "options": [
+            "Paroxítona terminada em EM",
+            "Oxítona terminada em EM",
+            "Proparoxítona",
+            "Regra do hiato"
+          ],
+          "answer": 1
+        }
+      ],
+      "essential": "Proparoxítonas: TODAS acentuadas. Paroxítonas: acentuadas quando terminam em R, L, N, X, PS, ditongo. Oxítonas: em A(S), E(S), O(S), EM/ENS. Monossílabos tônicos: A(S), E(S), O(S).",
+      "reading_time": 9,
+      "difficulty": "Nível 6"
+    },
+    {
+      "slug": "encontros-vocalicos",
+      "title": "Encontros Vocálicos",
+      "desc": "Encontros vocálicos são sequências de vogais/semivogais: Ditongo (2 sons na mesma sílaba — pai, céu), Tritongo (3 sons na mesma sílaba — Paraguai), Hiato (2 vogais em sílabas diferentes — sa-ú-de). Fundamentais para acentuação e divisão silábica.",
+      "grade": "6º ano",
+      "topic": "Fonologia",
+      "body": "<h2>Introdução</h2>\n<p>Na língua portuguesa, as vogais são os sons mais importantes da fala — toda sílaba precisa de pelo menos uma vogal. Quando duas ou mais vogais (ou semivogais) aparecem juntas em uma palavra, formam os chamados <strong>encontros vocálicos</strong>. Saber identificá-los é essencial para separar sílabas corretamente, contar fonemas e compreender regras de acentuação.</p>\n<p>Os encontros vocálicos se dividem em três tipos: <strong>ditongo</strong>, <strong>tritongo</strong> e <strong>hiato</strong>. Esse conteúdo é base para o 6º ano e retorna em provas de vestibulares, especialmente em questões de acentuação e divisão silábica.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<h3>Vogal vs. Semivogal</h3>\n<p>Antes de entender os encontros vocálicos, é preciso distinguir <strong>vogal</strong> de <strong>semivogal</strong>:</p>\n<ul>\n<li><strong>Vogal:</strong> som mais forte e aberto na sílaba. É o <strong>núcleo</strong> — toda sílaba tem exatamente uma vogal.</li>\n<li><strong>Semivogal:</strong> som mais fraco que acompanha a vogal na mesma sílaba. Somente /i/ e /u/ (ou \"e\" e \"o\" com som de /i/ e /u/) funcionam como semivogais.</li>\n</ul>\n<p>Exemplo: em \"pai\" (p-ai), o \"a\" é vogal (mais forte) e o \"i\" é semivogal (mais fraco, se apoia no \"a\").</p>\n\n<h2>Os Três Tipos de Encontro Vocálico</h2>\n<h3>1. Ditongo</h3>\n<p>É a combinação de uma <strong>vogal + semivogal</strong> (ou semivogal + vogal) na <strong>mesma sílaba</strong>. Os ditongos se classificam em:</p>\n<table>\n<thead><tr><th>Tipo</th><th>Estrutura</th><th>Exemplo</th><th>Separação</th></tr></thead>\n<tbody>\n<tr><td>Crescente</td><td>Semivogal + Vogal</td><td>sé-<strong>rie</strong>, á-<strong>gua</strong></td><td>SV → V</td></tr>\n<tr><td>Decrescente</td><td>Vogal + Semivogal</td><td>p<strong>ai</strong>, c<strong>éu</strong>, h<strong>erói</strong></td><td>V → SV</td></tr>\n<tr><td>Oral</td><td>Sem nasalização</td><td>lei, mau, boi</td><td>—</td></tr>\n<tr><td>Nasal</td><td>Com nasalização</td><td>mãe, pão, muito</td><td>—</td></tr>\n</tbody>\n</table>\n<p><strong>Regra importante:</strong> no ditongo, as duas letras ficam <strong>na mesma sílaba</strong>. Não se separam!</p>\n\n<h3>2. Tritongo</h3>\n<p>É a sequência de <strong>semivogal + vogal + semivogal</strong> na mesma sílaba. São mais raros em português:</p>\n<ul>\n<li><strong>Paraguai</strong> → Pa-ra-gu<strong>ai</strong> (u + a + i)</li>\n<li><strong>quão</strong> → qu<strong>ão</strong> (u + a + o nasal)</li>\n<li><strong>saguão</strong> → sa-gu<strong>ão</strong></li>\n<li><strong>iguais</strong> → i-gu<strong>ais</strong></li>\n</ul>\n<p>No tritongo, os três sons vocálicos ficam juntos na mesma sílaba.</p>\n\n<h3>3. Hiato</h3>\n<p>É o encontro de duas <strong>vogais</strong> que pertencem a <strong>sílabas diferentes</strong>. Cada vogal é núcleo de sua própria sílaba:</p>\n<ul>\n<li><strong>sa-ú-de</strong> (a + u = hiato)</li>\n<li><strong>pi-a-no</strong> (i + a = hiato)</li>\n<li><strong>vo-o</strong> (o + o = hiato)</li>\n<li><strong>ca-ir</strong> (a + i = hiato)</li>\n<li><strong>lu-a</strong> (u + a = hiato)</li>\n</ul>\n\n<h2>Como Diferenciar Ditongo de Hiato</h2>\n<p>A dúvida mais comum é: quando duas vogais ficam juntas, é ditongo ou hiato? A dica é prestar atenção à <strong>pronúncia</strong>:</p>\n<ul>\n<li>Se as duas são pronunciadas <strong>juntas, em uma só sílaba</strong> → <strong>Ditongo</strong> (pai = p-ai)</li>\n<li>Se cada uma é pronunciada <strong>em sílabas separadas</strong> → <strong>Hiato</strong> (pa-ís = hiato entre a-í)</li>\n</ul>\n<p>A presença de <strong>acento na segunda vogal</strong> geralmente indica hiato: sa<strong>ú</strong>de, ba<strong>ú</strong>, pa<strong>í</strong>s, ra<strong>í</strong>z.</p>\n\n<h2>Relação com Acentuação</h2>\n<p>Os encontros vocálicos influenciam diretamente as regras de acentuação:</p>\n<ul>\n<li><strong>Ditongos abertos \"éi\", \"ói\", \"éu\"</strong> são acentuados em palavras <strong>monossílabas tônicas e oxítonas</strong>: céu, dói, herói, papéis.</li>\n<li><strong>Hiatos com \"i\" ou \"u\" tônicos</strong> recebem acento quando sozinhos na sílaba (ou com \"s\"): sa-<strong>ú</strong>-de, pa-<strong>í</strong>-ses, ba-<strong>ú</strong>.</li>\n</ul>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Ditongo:</strong> 2 sons vocálicos na mesma sílaba (pai, céu). NÃO se separam.</li>\n<li>✅ <strong>Tritongo:</strong> 3 sons vocálicos na mesma sílaba (Paraguai, saguão). Mais raro.</li>\n<li>✅ <strong>Hiato:</strong> 2 vogais em sílabas diferentes (sa-ú-de, pi-a-no). SEMPRE se separam.</li>\n<li>✅ Acento na segunda vogal? Provavelmente é hiato (saúde, país).</li>\n<li>⚠️ <strong>Pegadinha clássica:</strong> \"saia\" tem ditongo crescente (s-ai-a), não hiato!</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>A palavra <strong>\"Uruguai\"</strong> contém ao mesmo tempo um hiato (U-ru) e um tritongo (guai) — é um ótimo exemplo para treinar todos os tipos de encontro vocálico em uma única palavra!</p>",
+      "faq": [
+        {
+          "q": "Como diferenciar ditongo de hiato?",
+          "a": "No ditongo, os dois sons vocálicos ficam na mesma sílaba (pai = p-ai). No hiato, cada vogal fica em sílaba diferente (sa-ú-de). Dica: se a segunda vogal tem acento, geralmente é hiato (país, baú)."
+        },
+        {
+          "q": "O que é tritongo? Dê exemplos.",
+          "a": "Tritongo é a sequência de semivogal + vogal + semivogal na mesma sílaba. Exemplos: Pa-ra-guai (u+a+i), sa-guão (u+ã+o), i-guais (u+a+i). São mais raros na língua portuguesa."
+        },
+        {
+          "q": "Ditongo se separa na divisão silábica?",
+          "a": "Não! O ditongo nunca se separa, pois as duas letras pertencem à mesma sílaba. Já o hiato sempre se separa, pois cada vogal pertence a uma sílaba diferente."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Na palavra 'saúde', o encontro 'a-ú' é um:",
+          "options": [
+            "Ditongo",
+            "Tritongo",
+            "Hiato",
+            "Encontro consonantal"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Qual palavra contém um tritongo?",
+          "options": [
+            "Piano",
+            "Paraguai",
+            "Saída",
+            "Moeda"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "O ditongo 'ai' em 'pai' é classificado como:",
+          "options": [
+            "Crescente oral",
+            "Decrescente oral",
+            "Crescente nasal",
+            "Decrescente nasal"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Qual é a separação silábica correta de 'hiato'?",
+          "options": [
+            "hi-a-to",
+            "hia-to",
+            "hi-ato",
+            "h-ia-to"
+          ],
+          "answer": 0
+        }
+      ],
+      "essential": "Ditongo: 2 sons vocálicos na mesma sílaba (pai, céu). Tritongo: 3 sons na mesma sílaba (Paraguai). Hiato: 2 vogais em sílabas separadas (sa-ú-de). Acento na 2ª vogal indica hiato.",
+      "reading_time": 8,
+      "difficulty": "Nível 6"
+    },
+    {
+      "slug": "fonema-e-grafema",
+      "title": "Fonema e Grafema",
+      "desc": "Fonema é a menor unidade sonora da língua; grafema é o símbolo escrito (letra). A relação nem sempre é 1:1 — dígrafos (2 letras = 1 som), o 'x' (1 letra = até 2 sons) e o 'h' mudo são exemplos. Base da Fonologia e Ortografia.",
+      "grade": "6º ano",
+      "topic": "Fonologia",
+      "body": "<h2>Introdução</h2>\n<p>A comunicação humana depende de dois sistemas interligados: a <strong>fala</strong> e a <strong>escrita</strong>. Quando falamos, produzimos sons — os <strong>fonemas</strong>. Quando escrevemos, usamos símbolos — os <strong>grafemas</strong>. Entender essa relação é fundamental para compreender por que escrevemos de um jeito e pronunciamos de outro, e por que existem tantas \"pegadinhas\" ortográficas no português.</p>\n<p>Este conteúdo é a base da <strong>Fonologia</strong> e da <strong>Ortografia</strong>, e é cobrado desde o 6º ano até vestibulares como ENEM e FUVEST.</p>\n\n<h2>Conceitos Fundamentais</h2>\n<h3>Fonema</h3>\n<p>O <strong>fonema</strong> é a menor unidade sonora de uma língua que é capaz de criar diferença de significado. Não é o som em si (que varia de pessoa para pessoa, por sotaque, entonação etc.), mas uma <strong>abstração mental</strong> que os falantes reconhecem como o \"mesmo som\".</p>\n<p>Exemplo: os fonemas /p/ e /b/ diferenciam \"pato\" de \"bato\". Trocar um pelo outro muda o sentido da palavra.</p>\n\n<h3>Grafema</h3>\n<p>O <strong>grafema</strong> é a unidade mínima da escrita — o símbolo gráfico usado para representar fonemas. No português, os grafemas são as <strong>letras do alfabeto</strong>, os <strong>diacríticos</strong> (acentos, til, cedilha) e os <strong>dígrafos</strong> (duas letras que funcionam juntas).</p>\n<p>Exemplo: na palavra \"manhã\", os grafemas são: m-a-nh-ã. O dígrafo \"nh\" é um grafema composto que representa um único fonema nasal.</p>\n\n<h3>A relação nem sempre é 1:1</h3>\n<table>\n<thead><tr><th>Situação</th><th>Exemplo</th><th>Explicação</th></tr></thead>\n<tbody>\n<tr><td>1 grafema → 1 fonema</td><td>\"bola\" → b-o-l-a</td><td>Correspondência direta</td></tr>\n<tr><td>2 grafemas → 1 fonema</td><td>\"chuva\" → ch = /ʃ/</td><td>Dígrafo</td></tr>\n<tr><td>1 grafema → 2 fonemas</td><td>\"táxi\" → x = /ks/</td><td>Letra com som duplo</td></tr>\n<tr><td>1 grafema → 0 fonemas</td><td>\"hora\" → h = mudo</td><td>Letra sem som</td></tr>\n<tr><td>1 grafema → sons diferentes</td><td>\"exame\" (z), \"xícara\" (ʃ)</td><td>Mesma letra, fonemas distintos</td></tr>\n</tbody>\n</table>\n\n<h2>Desenvolvimento</h2>\n<h3>Por que a relação fonema-grafema é irregular?</h3>\n<p>O português evoluiu do <strong>latim</strong> ao longo de séculos. Durante essa evolução, a pronúncia mudou muito mais rápido do que a escrita. Resultado: herdamos grafias que já não correspondem exatamente aos sons que produzimos. Além disso, o português incorporou palavras de outras línguas (tupi, árabe, africanas, inglês), cada uma com suas próprias convenções ortográficas.</p>\n\n<h3>Os valores do \"X\"</h3>\n<p>A letra \"x\" é o melhor exemplo da irregularidade fonema-grafema. Ela pode representar <strong>5 fonemas diferentes</strong>:</p>\n<ul>\n<li>/ʃ/ (som de \"ch\") → <strong>xícara</strong>, <strong>enxada</strong></li>\n<li>/ks/ → <strong>táxi</strong>, <strong>fixo</strong></li>\n<li>/z/ → <strong>exame</strong>, <strong>exemplo</strong></li>\n<li>/s/ → <strong>próximo</strong>, <strong>máximo</strong></li>\n<li>/gz/ → <strong>exato</strong> (em algumas pronúncias)</li>\n</ul>\n\n<h3>Letras mudas e letras com múltiplos sons</h3>\n<p>O <strong>\"h\"</strong> no início de palavras é mudo em português: \"hora\", \"homem\", \"hiato\" — o \"h\" não produz nenhum fonema. Porém, nos dígrafos \"ch\", \"lh\", \"nh\", ele se combina com outra letra para criar um fonema.</p>\n<p>A letra <strong>\"s\"</strong> pode soar como /s/ (sapo, passo) ou /z/ (casa, rosa), dependendo da posição na palavra. O <strong>\"c\"</strong> soa /k/ antes de a, o, u (casa, copo) e /s/ antes de e, i (cedo, cidade).</p>\n\n<h2>Aplicações Práticas</h2>\n<h3>Contagem: letras vs. fonemas</h3>\n<p>Questões de prova frequentemente pedem para comparar o número de letras e fonemas de uma palavra:</p>\n<table>\n<thead><tr><th>Palavra</th><th>Letras</th><th>Fonemas</th><th>Por quê?</th></tr></thead>\n<tbody>\n<tr><td>nascimento</td><td>10</td><td>8</td><td>\"sc\" = dígrafo; \"en\" = nasal</td></tr>\n<tr><td>exceção</td><td>7</td><td>6</td><td>\"xc\" = dígrafo (som de /s/)</td></tr>\n<tr><td>queixo</td><td>6</td><td>4</td><td>\"qu\" = dígrafo; \"ei\" = ditongo (2 fonemas); \"xo\" = /ʃ/ + /o/</td></tr>\n<tr><td>hipopótamo</td><td>10</td><td>9</td><td>\"h\" inicial = mudo</td></tr>\n</tbody>\n</table>\n\n<h2>Resumo e Dicas para a Prova</h2>\n<ul>\n<li>✅ <strong>Fonema</strong> = som; <strong>Grafema</strong> = letra/símbolo escrito.</li>\n<li>✅ A relação entre eles <strong>nem sempre é 1:1</strong> no português.</li>\n<li>✅ Memorize os casos especiais: dígrafos (2 letras → 1 som), \"x\" (1 letra → até 2 sons), \"h\" mudo.</li>\n<li>✅ Para contar fonemas: identifique dígrafos e letras mudas primeiro.</li>\n<li>⚠️ <strong>Cuidado:</strong> Não confunda grafema com sílaba. \"Chuva\" tem 5 grafemas (letras), 4 fonemas e 2 sílabas.</li>\n</ul>\n\n<h2>Curiosidade</h2>\n<p>O finlandês é considerado uma das línguas com melhor correspondência fonema-grafema: quase cada letra equivale a um único som. Já o inglês é o oposto extremo — a palavra \"through\" tem 7 letras mas apenas 3 fonemas! O português fica no meio-termo: é mais regular que o inglês, mas menos que o finlandês.</p>",
+      "faq": [
+        {
+          "q": "Qual a diferença entre fonema e grafema?",
+          "a": "Fonema é a menor unidade de som da língua que distingue significado (ex: /p/ e /b/ diferenciam 'pato' de 'bato'). Grafema é a representação escrita desse som — as letras, acentos e dígrafos que usamos na escrita."
+        },
+        {
+          "q": "Por que nem sempre cada letra corresponde a um som?",
+          "a": "Porque o português evoluiu do latim e a pronúncia mudou mais rápido que a escrita. Além disso, incorporamos palavras de outras línguas com grafias diferentes. Resultado: dígrafos (ch = 1 som), letras mudas (h), letras polivalentes (x = 5 sons)."
+        },
+        {
+          "q": "Quantos sons a letra X pode representar?",
+          "a": "A letra 'x' pode representar 5 fonemas diferentes: /ʃ/ (xícara), /ks/ (táxi), /z/ (exame), /s/ (próximo) e /gz/ (exato em algumas pronúncias). É a letra mais versátil do alfabeto português."
+        }
+      ],
+      "quiz": [
+        {
+          "question": "Na palavra 'nascimento', quantos fonemas existem?",
+          "options": [
+            "10 fonemas",
+            "9 fonemas",
+            "8 fonemas",
+            "7 fonemas"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "O grafema é:",
+          "options": [
+            "A menor unidade sonora da língua",
+            "A representação gráfica do fonema",
+            "O mesmo que sílaba",
+            "Um tipo de acento"
+          ],
+          "answer": 1
+        },
+        {
+          "question": "Em qual palavra o 'x' tem som de /z/?",
+          "options": [
+            "Xícara",
+            "Táxi",
+            "Exame",
+            "Próximo"
+          ],
+          "answer": 2
+        },
+        {
+          "question": "Por que 'hora' tem menos fonemas que letras?",
+          "options": [
+            "Porque 'o' é mudo",
+            "Porque 'h' inicial é mudo",
+            "Porque 'r' não tem som",
+            "Porque tem dígrafo"
+          ],
+          "answer": 1
+        }
+      ],
+      "essential": "Fonema = som; grafema = representação escrita. A correspondência não é sempre 1:1: dígrafos (ch, nh = 1 som), x (pode ter 5 sons diferentes), h (mudo no início).",
+      "reading_time": 8,
+      "difficulty": "Nível 6"
+    }
+  ]
+}
