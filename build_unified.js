@@ -504,28 +504,53 @@ files.forEach(file => {
   }
 });
 
-// Phase 1b: Load Fund1 data (content/fund1/*.json) - adds to search index only
-const fund1Data = [];
+// Phase 1b: Load Fund1 data (content/fund1/*.json) - merge into existing subjects
 const fund1Dir = path.join(CONTENT_DIR, 'fund1');
 if (fs.existsSync(fund1Dir)) {
   const fund1Files = fs.readdirSync(fund1Dir).filter(f => f.endsWith('.json'));
+  let fund1Total = 0;
+  
   fund1Files.forEach(file => {
     try {
       const data = JSON.parse(fs.readFileSync(path.join(fund1Dir, file), 'utf8'));
       if (!data.articles || !Array.isArray(data.articles)) return;
+      
       // Normalize Fund1 articles to match main schema
       data.articles.forEach(art => {
-        if (!art.grade) art.grade = data.slug.startsWith('1ano') ? '1º ano EF1' : '2º ano EF1';
+        if (!art.grade) art.grade = file.startsWith('1ano') ? '1º ano EF1' : (file.startsWith('2ano') ? '2º ano EF1' : '3º ano EF1');
         if (!art.topic) art.topic = art.category || 'Geral';
         if (!art.quiz) art.quiz = [];
       });
-      fund1Data.push(data);
+      
+      // Find matching subject in allSubjectsData by normalized name
+      const subjectKey = data.subject.toLowerCase()
+        .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+        .replace(/\s+/g, '-');
+      
+      const match = allSubjectsData.find(s => {
+        const sKey = s.subject.toLowerCase()
+          .normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/\s+/g, '-');
+        return sKey === subjectKey || s.slug === subjectKey;
+      });
+      
+      if (match) {
+        match.articles.push(...data.articles);
+        totalArticlesCount += data.articles.length;
+        fund1Total += data.articles.length;
+      } else {
+        console.warn(`  ⚠ Fund1 ${file}: matéria "${data.subject}" não encontrada no EM, criando nova entrada`);
+        allSubjectsData.push(data);
+        totalArticlesCount += data.articles.length;
+        fund1Total += data.articles.length;
+      }
     } catch(e) {
       console.warn(`  ⚠ Fund1 ${file}: ${e.message}`);
     }
   });
-  if (fund1Data.length > 0) {
-    console.log(`  ✓ Fund1: ${fund1Data.length} arquivos, ${fund1Data.reduce((s,d) => s+d.articles.length, 0)} artigos (search-index only)`);
+  
+  if (fund1Total > 0) {
+    console.log(`  ✓ Fund1: ${fund1Files.length} arquivos, ${fund1Total} artigos (merged into subjects)`);
   }
 }
 
@@ -595,20 +620,7 @@ allSubjectsData.forEach(data => {
     });
   });
 });
-// Include Fund1 articles in search index
-fund1Data.forEach(data => {
-  data.articles.forEach(art => {
-    searchIndex.push({
-      title: art.title,
-      desc: (art.desc || '').substring(0, 80),
-      subject: data.subject,
-      slug: '', // No HTML pages yet for Fund1
-      difficulty: art.difficulty || 'Básico',
-      grade: art.grade || '',
-      xp: art.xp
-    });
-  });
-});
+
 fs.writeFileSync(path.join(ASSETS_DIR, 'search-index.json'), JSON.stringify(searchIndex));
 console.log(`  ✓ Search index: ${searchIndex.length} articles indexed (${Math.round(Buffer.byteLength(JSON.stringify(searchIndex))/1024)}KB)`);
 

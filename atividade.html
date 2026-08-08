@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Missão em Andamento — Beholder Academy</title>
+  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="assets/atividade.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#7B2FF7">
+</head>
+<body>
+  <!-- Header Minimalista -->
+  <header class="activity-header">
+    <button class="btn-close" id="btn-exit" title="Sair da Missão">✖</button>
+    <div class="progress-container">
+      <div class="progress-bar" id="activity-progress" style="width: 0%;"></div>
+    </div>
+    <div class="hearts-container" id="hearts-container">
+      ❤️ ❤️ ❤️
+    </div>
+  </header>
+
+  <main class="activity-main">
+    
+    <!-- TELA DE QUIZ -->
+    <section id="screen-quiz" class="activity-screen active">
+      <div class="question-header">
+        <span class="subject-badge" id="quiz-subject">Matemática</span>
+        <span class="difficulty-dots" id="quiz-difficulty">⭐ FÁCIL</span>
+      </div>
+      
+      <h2 class="question-text" id="quiz-question">Carregando pergunta...</h2>
+      
+      <div class="options-grid" id="quiz-options">
+        <!-- Gerado via JS -->
+      </div>
+    </section>
+
+    <!-- TELA DE LEITURA -->
+    <section id="screen-reading" class="activity-screen hidden">
+      <div class="reading-content">
+        <h2 id="reading-title">Título da Leitura</h2>
+        <div id="reading-text" class="text-body">
+          <!-- Gerado via JS -->
+        </div>
+      </div>
+      <div class="reading-footer">
+        <div class="timer-display" id="reading-timer">00:00</div>
+        <p class="timer-hint">Leia com atenção. O quiz de validação será liberado em <span id="reading-min-time">30</span> minutos.</p>
+      </div>
+    </section>
+
+    <!-- TELA DE REDAÇÃO -->
+    <section id="screen-writing" class="activity-screen hidden">
+      <h2 class="question-text" id="writing-prompt">Escreva sobre o tema...</h2>
+      <textarea id="writing-area" class="writing-textarea" placeholder="Comece a escrever aqui..."></textarea>
+      <div class="writing-stats">
+        <span id="word-count">0 palavras</span>
+        <span class="error-count" id="error-count">0 erros detectados</span>
+      </div>
+    </section>
+
+    <!-- TELA DE RESULTADO FINAL -->
+    <section id="screen-result" class="activity-screen hidden result-screen">
+      <h1 class="result-title">Missão Cumprida! 🎉</h1>
+      <div class="result-stats">
+        <div class="stat-box">
+          <div class="stat-value" id="result-score">0%</div>
+          <div class="stat-label">Acertos</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value text-xp">+<span id="result-xp">0</span></div>
+          <div class="stat-label">XP Ganho</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-value text-cristais">+<span id="result-cristais">0</span> 💎</div>
+          <div class="stat-label">Cristais</div>
+        </div>
+      </div>
+      
+      <div class="competence-updates" id="competence-updates">
+        <!-- Ex: Lógica subiu +5 -->
+      </div>
+      
+      <div id="ai-feedback-container" class="hidden" style="margin-top: 1.5rem; text-align: left; background: var(--bg-card); padding: 1.5rem; border-radius: var(--radius-lg); border-left: 4px solid var(--primary);">
+        <h3 style="color: var(--primary); margin-bottom: 0.5rem; display: flex; align-items: center; gap: 0.5rem;">✨ Correção da IA</h3>
+        <p id="ai-feedback-text" style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6;"></p>
+      </div>
+
+      <div id="result-actions" style="display: flex; gap: 1rem; justify-content: center; margin-top: 2rem;">
+        <button class="btn-secondary hidden" id="btn-retake">Refazer Redação (Custa 1 ❤️)</button>
+        <button class="btn-primary" id="btn-finish">Aceitar e Voltar</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Barra de Ação Inferior (Quiz) -->
+  <footer class="activity-footer" id="activity-footer">
+    <div class="feedback-banner" id="feedback-banner">
+      <div class="feedback-icon" id="feedback-icon"></div>
+      <div class="feedback-message" id="feedback-message"></div>
+    </div>
+    <div class="footer-actions">
+      <button class="btn-secondary" id="btn-skip">Pular</button>
+      <button class="btn-primary" id="btn-check" disabled>Verificar</button>
+      <button class="btn-primary hidden" id="btn-next">Continuar</button>
+    </div>
+  </footer>
+
+  <script src="assets/theme.js"></script>
+  <script src="assets/sheets-api.js"></script>
+  <script src="assets/rpg-engine.js"></script>
+  <script src="assets/quiz-engine.js"></script>
+</body>
+</html>

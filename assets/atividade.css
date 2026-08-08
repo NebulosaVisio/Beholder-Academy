@@ -1,0 +1,287 @@
+/* =========================================
+   BEHOLDER ACADEMY - Atividade/Quiz UI
+   Design minimalista e focado no aprendizado
+   ========================================= */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header (Progress) */
+.activity-header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  gap: 1.5rem;
+  background: var(--bg-primary);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.btn-close {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  font-size: 1.5rem;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0;
+}
+.btn-close:hover { color: var(--text-primary); }
+
+.progress-container {
+  flex: 1;
+  height: 12px;
+  background: var(--bg-secondary);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #34D399, #10B981);
+  border-radius: 6px;
+  transition: width 0.4s ease-out;
+}
+
+.hearts-container {
+  color: #EF4444;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+/* Main Area */
+.activity-main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding: 2rem 1.5rem 8rem 1.5rem; /* space for footer */
+  max-width: 800px;
+  margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.activity-screen {
+  width: 100%;
+  animation: fadeIn 0.3s ease-out;
+}
+
+.activity-screen.hidden {
+  display: none;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Quiz UI */
+.question-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.subject-badge {
+  background: rgba(123, 47, 247, 0.15);
+  color: var(--brand-primary);
+  padding: 0.25rem 0.75rem;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.difficulty-dots {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.question-text {
+  font-size: 1.5rem;
+  line-height: 1.4;
+  margin-bottom: 2.5rem;
+}
+
+.options-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.option-card {
+  padding: 1.25rem 1.5rem;
+  border: 2px solid var(--border-subtle);
+  border-radius: 12px;
+  background: var(--bg-card);
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.option-card:hover {
+  background: var(--bg-secondary);
+  border-color: var(--text-muted);
+}
+
+.option-card.selected {
+  border-color: #3B82F6;
+  background: rgba(59, 130, 246, 0.1);
+  color: #3B82F6;
+}
+
+.option-card.correct {
+  border-color: #10B981;
+  background: rgba(16, 185, 129, 0.1);
+  color: #10B981;
+}
+
+.option-card.wrong {
+  border-color: #EF4444;
+  background: rgba(239, 68, 68, 0.1);
+  color: #EF4444;
+}
+
+/* Footer (Actions & Feedback) */
+.activity-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: var(--bg-primary);
+  border-top: 2px solid var(--border-subtle);
+  padding: 1.5rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  z-index: 100;
+  transition: background-color 0.3s;
+}
+
+.activity-footer.correct { background: #D1FAE5; border-color: #10B981; }
+.activity-footer.wrong { background: #FEE2E2; border-color: #EF4444; }
+
+body.dark-mode .activity-footer.correct { background: rgba(16, 185, 129, 0.15); border-color: #10B981; }
+body.dark-mode .activity-footer.wrong { background: rgba(239, 68, 68, 0.15); border-color: #EF4444; }
+
+.feedback-banner {
+  display: none;
+  align-items: center;
+  gap: 1rem;
+}
+
+.activity-footer.correct .feedback-banner,
+.activity-footer.wrong .feedback-banner {
+  display: flex;
+}
+
+.feedback-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: #fff;
+}
+.activity-footer.correct .feedback-icon { background: #10B981; content: "✔"; }
+.activity-footer.correct .feedback-icon::after { content: "✔"; }
+.activity-footer.wrong .feedback-icon { background: #EF4444; }
+.activity-footer.wrong .feedback-icon::after { content: "✖"; }
+
+.feedback-message {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+.activity-footer.correct .feedback-message { color: #065F46; }
+body.dark-mode .activity-footer.correct .feedback-message { color: #10B981; }
+.activity-footer.wrong .feedback-message { color: #991B1B; }
+body.dark-mode .activity-footer.wrong .feedback-message { color: #EF4444; }
+
+
+.footer-actions {
+  display: flex;
+  justify-content: space-between;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn-secondary {
+  padding: 1rem 2rem;
+  background: transparent;
+  border: 2px solid var(--border-subtle);
+  border-radius: 12px;
+  color: var(--text-secondary);
+  font-weight: 700;
+  cursor: pointer;
+}
+.btn-primary {
+  padding: 1rem 3rem;
+  background: var(--brand-primary);
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.btn-primary:disabled {
+  background: var(--border-subtle);
+  color: var(--text-muted);
+  cursor: not-allowed;
+}
+
+/* Correções específicas pros botões de feedback */
+.activity-footer.correct .btn-primary { background: #10B981; }
+.activity-footer.wrong .btn-primary { background: #EF4444; }
+
+/* Result Screen */
+.result-screen {
+  text-align: center;
+}
+.result-title {
+  font-size: 2.5rem;
+  color: #F59E0B;
+  margin-bottom: 2rem;
+}
+.result-stats {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+.stat-box {
+  background: var(--bg-card);
+  border: 2px solid var(--border-subtle);
+  border-radius: 12px;
+  padding: 1.5rem;
+  min-width: 120px;
+}
+.stat-value {
+  font-size: 2rem;
+  font-weight: 900;
+  font-family: var(--font-heading);
+}
+.text-xp { color: #3B82F6; }
+.text-cristais { color: #F59E0B; }
+.stat-label {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}

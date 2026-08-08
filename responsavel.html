@@ -21,6 +21,12 @@
     <div class="navbar__nav">
       <a href="index.html" class="navbar__link">Home</a>
       <a href="responsavel.html" class="navbar__link navbar__link--active">Painel Responsável</a>
+      <div class="user-dropdown">
+        <button class="user-avatar-btn" id="user-avatar-btn">🧑‍💼</button>
+        <div class="dropdown-menu" id="user-dropdown-menu">
+          <button class="dropdown-item" data-action="logout">🚪 Sair (Logout)</button>
+        </div>
+      </div>
       <button id="dark-toggle" class="dark-toggle" aria-label="Alternar tema" title="Alternar tema">
         <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
         <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -29,52 +35,176 @@
   </div></nav>
 
   <main class="painel-main resp-main">
-    <!-- Header -->
-    <div class="resp-header">
-      <div class="resp-welcome">
-        <h1>👋 Olá, Responsável!</h1>
-        <p>Acompanhe o progresso dos seus filhos na Beholder Academy</p>
-      </div>
+    <!-- ═══ TAB NAVIGATION ═══ -->
+    <div class="painel-tabs" id="resp-tabs">
+      <button class="painel-tab active" data-tab="dashboard">🏠 Dashboard</button>
+      <button class="painel-tab" data-tab="filhos">👨‍👩‍👧 Meus Filhos</button>
+      <button class="painel-tab" data-tab="tarefas">📋 Tarefas</button>
+      <button class="painel-tab" data-tab="boletim">📝 Boletim Escolar</button>
+      <button class="painel-tab" data-tab="produtos">🏪 Produtos</button>
+      <button class="painel-tab" data-tab="banco">🏦 Banco Digital</button>
     </div>
 
-    <!-- Student Cards -->
-    <div class="resp-section">
-      <div class="resp-section-header">
-        <h2 class="section-title">👨‍👩‍👧 Meus Filhos</h2>
-      </div>
-      <div class="resp-students" id="resp-students"></div>
-    </div>
-
-    <!-- Selected Student Detail -->
-    <div class="resp-detail hidden" id="resp-detail">
-      <!-- Progress Report -->
-      <div class="resp-section">
-        <h2 class="section-title">📊 Relatório de Progresso</h2>
-        <div class="resp-stats-grid" id="resp-stats"></div>
-      </div>
-
-      <!-- Competency Overview -->
-      <div class="resp-section">
-        <h2 class="section-title">🧮 Competências</h2>
-        <div class="resp-competencies" id="resp-competencies"></div>
-      </div>
-
-      <!-- Activity Chart -->
-      <div class="resp-section">
-        <h2 class="section-title">📈 Atividade (30 dias)</h2>
-        <div class="resp-activity-chart">
-          <canvas id="activity-chart" width="700" height="120"></canvas>
+    <!-- ═══ DASHBOARD ═══ -->
+    <section class="tab-content active" id="tab-dashboard">
+      <div class="resp-header">
+        <div class="resp-welcome">
+          <h1>👋 Olá, Responsável!</h1>
+          <p>Acompanhe o progresso dos seus filhos na Beholder Academy</p>
         </div>
       </div>
+      <div class="resp-section">
+        <h2 class="section-title">🔔 Notificações Recentes</h2>
+        <div class="notif-list" id="notif-list"></div>
+      </div>
+    </section>
 
-      <!-- Mesada Digital -->
+    <!-- ═══ FILHOS ═══ -->
+    <section class="tab-content" id="tab-filhos">
+      <div class="resp-section-header">
+        <h2 class="section-title">👨‍👩‍👧 Meus Filhos</h2>
+        <button class="btn-primary" data-action="open-modal-filho">+ Vincular Filho</button>
+      </div>
+      <div class="resp-students" id="resp-students"></div>
+
+      <!-- Selected Student Detail -->
+      <div class="resp-detail hidden" id="resp-detail">
+        <div class="resp-section">
+          <h2 class="section-title">📊 Relatório de Progresso</h2>
+          <div class="resp-stats-grid" id="resp-stats"></div>
+        </div>
+        <div class="resp-section">
+          <h2 class="section-title">🧮 Competências</h2>
+          <div class="resp-competencies" id="resp-competencies"></div>
+        </div>
+        <div class="resp-section">
+          <h2 class="section-title">📈 Atividade (30 dias)</h2>
+          <div class="resp-activity-chart">
+            <canvas id="activity-chart" width="700" height="120"></canvas>
+          </div>
+        </div>
+        <div class="resp-section">
+          <h2 class="section-title">🏅 Conquistas Recentes</h2>
+          <div class="resp-achievements" id="resp-achievements"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ TAREFAS ═══ -->
+    <section class="tab-content" id="tab-tarefas">
+      <div class="resp-section-header">
+        <h2 class="section-title">📋 Gerenciamento de Tarefas</h2>
+        <button class="btn-primary" data-action="open-modal-tarefa">+ Nova Tarefa</button>
+      </div>
+      <div class="tarefas-list" id="tarefas-list">
+        <p class="activity-empty">Nenhuma tarefa cadastrada. Adicione uma tarefa para recompensar seu filho com cristais!</p>
+      </div>
+    </section>
+
+    <!-- ═══ BOLETIM ESCOLAR ═══ -->
+    <section class="tab-content" id="tab-boletim">
+      <div class="resp-section-header">
+        <h2 class="section-title">📝 Boletim Escolar da Vida Real</h2>
+      </div>
+      
+      <div style="background: var(--bg-surface); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--border-subtle); margin-bottom: 2rem;">
+        <div style="display:flex; gap: 1rem; margin-bottom: 1.5rem;">
+          <div style="flex:2;">
+            <label style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted);">Escola:</label>
+            <input type="text" id="boletim-escola" class="input-field" placeholder="Ex: Colégio Objetivo">
+          </div>
+          <div style="flex:1;">
+            <label style="font-size: 0.85rem; font-weight: 600; color: var(--text-muted);">Média para Aprovação:</label>
+            <input type="number" id="boletim-media" class="input-field" placeholder="Ex: 7.0" step="0.1" min="0" max="10">
+          </div>
+        </div>
+
+        <div style="overflow-x: auto;">
+          <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 0.9rem;">
+            <thead>
+              <tr style="border-bottom: 2px solid var(--border-subtle); color: var(--text-muted);">
+                <th style="padding: 0.5rem;">Disciplina</th>
+                <th style="padding: 0.5rem; text-align:center;">1º Bim</th>
+                <th style="padding: 0.5rem; text-align:center;">2º Bim</th>
+                <th style="padding: 0.5rem; text-align:center;">3º Bim</th>
+                <th style="padding: 0.5rem; text-align:center;">4º Bim</th>
+                <th style="padding: 0.5rem; text-align:center; color:var(--brand-primary);">Média Final</th>
+              </tr>
+            </thead>
+            <tbody id="boletim-table-body">
+               <!-- Preenchido via JS -->
+            </tbody>
+          </table>
+        </div>
+        
+        <div style="display:flex; justify-content: flex-end; margin-top: 1.5rem;">
+          <button class="btn-primary" data-action="save-boletim">Salvar Boletim</button>
+        </div>
+      </div>
+      
+      <div class="resp-section">
+        <h2 class="section-title">📈 Evolução Bimestral</h2>
+        <p style="margin-bottom: 1rem; color: var(--text-muted); font-size: 0.9rem;">Acompanhe visualmente a variação das notas ao longo do ano.</p>
+        <div style="background: var(--bg-surface); border-radius: 12px; padding: 1.5rem; border: 1px solid var(--border-subtle);">
+          <canvas id="boletim-evolution-chart" width="800" height="250" style="width:100%; max-width:800px; margin: 0 auto;"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ PRODUTOS ═══ -->
+    <section class="tab-content" id="tab-produtos">
+      <div class="resp-section-header">
+        <h2 class="section-title">🏪 Catálogo de Produtos</h2>
+      </div>
+      <div class="store-control-grid" id="store-controls" style="margin-bottom: 2rem;">
+        <div class="control-card">
+          <div class="control-header">
+            <span>🎨 Cosméticos</span>
+            <label class="toggle-switch"><input type="checkbox" checked id="ctrl-cosmeticos"><span class="toggle-slider"></span></label>
+          </div>
+          <p class="control-desc">Avatares, bordas, títulos</p>
+          <span class="control-status on">✅ Liberado</span>
+        </div>
+        <div class="control-card">
+          <div class="control-header">
+            <span>🎁 Gift Cards até R$10</span>
+            <label class="toggle-switch"><input type="checkbox" checked id="ctrl-gc10"><span class="toggle-slider"></span></label>
+          </div>
+          <p class="control-desc">Com notificação ao responsável</p>
+          <span class="control-status on">✅ Liberado</span>
+        </div>
+        <div class="control-card">
+          <div class="control-header">
+            <span>🎁 Gift Cards até R$25</span>
+            <label class="toggle-switch"><input type="checkbox" id="ctrl-gc25"><span class="toggle-slider"></span></label>
+          </div>
+          <p class="control-desc">Requer aprovação do responsável</p>
+          <span class="control-status off">⚠️ Requer aprovação</span>
+        </div>
+        <div class="control-card">
+          <div class="control-header">
+            <span>🎁 Gift Cards R$50+</span>
+            <label class="toggle-switch"><input type="checkbox" id="ctrl-gc50"><span class="toggle-slider"></span></label>
+          </div>
+          <p class="control-desc">Bloqueado por padrão</p>
+          <span class="control-status off">🔒 Bloqueado</span>
+        </div>
+      </div>
+      
+      <div class="produtos-grid" id="produtos-grid">
+        <!-- JS populado -->
+      </div>
+    </section>
+
+    <!-- ═══ BANCO ═══ -->
+    <section class="tab-content" id="tab-banco">
       <div class="resp-section">
         <h2 class="section-title">💰 Mesada Digital</h2>
         <div class="mesada-card">
           <div class="mesada-row">
             <div class="mesada-stat">
               <span class="mesada-label">Saldo atual</span>
-              <span class="mesada-value">💎 <span id="mesada-saldo">500</span></span>
+              <span class="mesada-value">💎 <span id="mesada-saldo">0</span></span>
             </div>
             <div class="mesada-stat">
               <span class="mesada-label">Gasto este mês</span>
@@ -83,72 +213,96 @@
           </div>
           <div class="mesada-actions">
             <div class="mesada-deposit">
-              <label>Depositar:</label>
+              <label>Comprar Cristais:</label>
               <div class="deposit-buttons">
-                <button class="btn-deposit" data-action="deposit" data-amount="450">R$ 5,90 — 450 💎</button>
-                <button class="btn-deposit" data-action="deposit" data-amount="1000">R$ 11,90 — 1.000 💎</button>
-                <button class="btn-deposit" data-action="deposit" data-amount="2200">R$ 22,90 — 2.200 💎</button>
-                <button class="btn-deposit" data-action="deposit" data-amount="5000">R$ 44,90 — 5.000 💎</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="450">R$ 6,90 — 450 💎</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="980">R$ 12,90 — 980 💎</button>
+                <button class="btn-deposit" data-action="deposit" data-amount="2150">R$ 24,90 — 2.150 💎</button>
+                <button class="btn-deposit best-value" data-action="deposit" data-amount="4900">R$ 49,90 — 4.900 💎 ⭐</button>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Store Control -->
-      <div class="resp-section">
-        <h2 class="section-title">🏪 Controle da Loja</h2>
-        <div class="store-control-grid" id="store-controls">
-          <div class="control-card">
-            <div class="control-header">
-              <span>🎨 Cosméticos</span>
-              <label class="toggle-switch"><input type="checkbox" checked id="ctrl-cosmeticos"><span class="toggle-slider"></span></label>
-            </div>
-            <p class="control-desc">Avatares, bordas, títulos</p>
-            <span class="control-status on">✅ Liberado</span>
+    <!-- ═══ MODALS ═══ -->
+    <div class="modal-overlay hidden" id="modal-tarefa">
+      <div class="modal-card">
+        <h3 class="modal-title">Criar Nova Tarefa</h3>
+        <div class="modal-body">
+          <label>Tipo de Tarefa:</label>
+          <select id="tarefa-type" class="input-field" onchange="ResponsavelUI.toggleTarefaFields()">
+             <option value="comum">Tarefa Comum (Atividade Diária)</option>
+             <option value="nota">Meta Escolar (Notas do Boletim)</option>
+          </select>
+          
+          <div id="tarefa-comum-fields">
+            <label style="margin-top:0.75rem; display:block;">Título da tarefa:</label>
+            <input type="text" id="tarefa-title" placeholder="Ex: Arrumar o quarto" class="input-field">
           </div>
-          <div class="control-card">
-            <div class="control-header">
-              <span>🎁 Gift Cards até R$10</span>
-              <label class="toggle-switch"><input type="checkbox" checked id="ctrl-gc10"><span class="toggle-slider"></span></label>
-            </div>
-            <p class="control-desc">Com notificação ao responsável</p>
-            <span class="control-status on">✅ Liberado</span>
+          
+          <div id="tarefa-nota-fields" class="hidden">
+            <label style="margin-top:0.75rem; display:block;">Disciplina Alvo:</label>
+            <select id="tarefa-disciplina" class="input-field">
+               <option value="Geral">Média Geral</option>
+               <option value="Matemática">Matemática</option>
+               <option value="Português">Português</option>
+               <option value="Ciências">Ciências</option>
+               <option value="História">História</option>
+               <option value="Geografia">Geografia</option>
+            </select>
+            <label style="margin-top:0.75rem; display:block;">Nota Mínima Esperada:</label>
+            <input type="number" id="tarefa-nota-alvo" placeholder="Ex: 8.0" step="0.1" min="0" max="10" class="input-field">
           </div>
-          <div class="control-card">
-            <div class="control-header">
-              <span>🎁 Gift Cards até R$25</span>
-              <label class="toggle-switch"><input type="checkbox" id="ctrl-gc25"><span class="toggle-slider"></span></label>
-            </div>
-            <p class="control-desc">Requer aprovação do responsável</p>
-            <span class="control-status off">⚠️ Requer aprovação</span>
-          </div>
-          <div class="control-card">
-            <div class="control-header">
-              <span>🎁 Gift Cards R$50+</span>
-              <label class="toggle-switch"><input type="checkbox" id="ctrl-gc50"><span class="toggle-slider"></span></label>
-            </div>
-            <p class="control-desc">Bloqueado por padrão</p>
-            <span class="control-status off">🔒 Bloqueado</span>
-          </div>
+
+          <label style="margin-top:0.75rem; display:block;">Recompensa (💎):</label>
+          <input type="number" id="tarefa-reward" placeholder="Ex: 50" class="input-field">
+          
+          <label style="margin-top:0.75rem; display:block;">Atribuir a:</label>
+          <select id="tarefa-child" class="input-field">
+             <!-- Preenchido via JS -->
+          </select>
+        </div>
+        <div class="modal-actions">
+          <button class="btn-secondary" data-action="close-modal-tarefa">Cancelar</button>
+          <button class="btn-primary" data-action="save-tarefa">Salvar</button>
         </div>
       </div>
+    </div>
 
-      <!-- Notifications -->
-      <div class="resp-section">
-        <h2 class="section-title">🔔 Notificações Recentes</h2>
-        <div class="notif-list" id="notif-list"></div>
+    <div class="modal-overlay hidden" id="modal-filho">
+      <div class="modal-card">
+        <h3 class="modal-title">Vincular Filho</h3>
+        <div class="modal-body">
+          <p class="modal-help-text">Peça para seu filho gerar um código de vínculo no painel dele e insira abaixo:</p>
+          <label>Código de Vínculo:</label>
+          <input type="text" id="filho-code" placeholder="Ex: ABC-123" class="input-field">
+        </div>
+        <div class="modal-actions">
+          <button class="btn-secondary" data-action="close-modal-filho">Cancelar</button>
+          <button class="btn-primary" data-action="save-filho">Vincular</button>
+        </div>
       </div>
+    </div>
 
-      <!-- Recent Achievements -->
-      <div class="resp-section">
-        <h2 class="section-title">🏅 Conquistas Recentes</h2>
-        <div class="resp-achievements" id="resp-achievements"></div>
+    <div class="modal-overlay hidden" id="modal-produto">
+      <div class="modal-card">
+        <h3 class="modal-title">Solicitar Produto</h3>
+        <div class="modal-body" id="modal-produto-body">
+           <!-- Preenchido via JS -->
+        </div>
+        <div class="modal-actions">
+          <button class="btn-secondary" data-action="close-modal-produto">Cancelar</button>
+          <button class="btn-primary" data-action="confirm-produto">Confirmar Solicitação</button>
+        </div>
       </div>
     </div>
   </main>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="assets/theme.js"></script>
+  <script src="assets/sheets-api.js"></script>
   <script src="assets/rpg-engine.js"></script>
   <script src="assets/responsavel.js"></script>
   <script>
@@ -183,6 +337,33 @@
 
       // Dark mode handled by theme.js
       ResponsavelUI.init();
+
+      // ═══ CLOUD SYNC (background, non-blocking) ═══
+      if (SheetsAPI.isUserOnline()) {
+        SheetsAPI.renderStatusBadge();
+        var userId = SheetsAPI.getCurrentUserId();
+        if (userId) {
+          // Sync tarefas from cloud
+          SheetsAPI.getTarefas(userId).then(function(result) {
+            if (result.success && result.tarefas) {
+              localStorage.setItem('beholder_tarefas', JSON.stringify(result.tarefas));
+              ResponsavelUI.refreshTarefas();
+            }
+            SheetsAPI.renderStatusBadge();
+          });
+
+          // Sync child progress from cloud
+          var user = JSON.parse(localStorage.getItem('beholder_user'));
+          if (user.vinculoAlunoId) {
+            SheetsAPI.syncProgressFromCloud(user.vinculoAlunoId).then(function(result) {
+              if (result.synced && result.source === 'cloud') {
+                console.log('[Sync] Progresso do filho atualizado da nuvem');
+                ResponsavelUI.init(); // Re-render
+              }
+            });
+          }
+        }
+      }
     });
   </script>
 </body>

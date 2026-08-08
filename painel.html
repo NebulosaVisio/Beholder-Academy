@@ -25,6 +25,14 @@
         <span class="currency-badge cristais">💎 <span id="nav-cristais">0</span></span>
         <span class="currency-badge essencias">✨ <span id="nav-essencias">0</span></span>
       </div>
+      
+      <div class="user-dropdown">
+        <button class="user-avatar-btn" id="user-avatar-btn">🧑‍🎓</button>
+        <div class="dropdown-menu" id="user-dropdown-menu">
+          <button class="dropdown-item" data-action="logout">🚪 Sair (Logout)</button>
+        </div>
+      </div>
+
       <button id="dark-toggle" class="dark-toggle" aria-label="Alternar tema" title="Alternar tema">
         <svg class="icon-sun" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
         <svg class="icon-moon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -67,31 +75,34 @@
         </div>
       </div>
 
-      <!-- Cards Grid -->
+      <!-- Missões Ativas -->
+      <h2 class="section-title" style="margin-top:2rem">🎯 Missões de Hoje</h2>
       <div class="dash-grid">
-        <div class="dash-card card-desafios" data-action="tab" data-tab-target="desafios">
+        <div class="dash-card card-desafios" onclick="window.location.href='atividade.html?type=quiz'" style="cursor:pointer; background: linear-gradient(135deg, rgba(123, 47, 247, 0.1), rgba(123, 47, 247, 0.05)); border-color: var(--brand-primary);">
           <div class="card-icon">⚔️</div>
-          <div class="card-title">Desafios Diários</div>
-          <div class="card-value" id="dash-daily-progress">0/3</div>
-          <div class="card-sub">Complete todos para bônus!</div>
+          <div class="card-title">Missão Diária (Quiz)</div>
+          <div class="card-sub">20 perguntas mistas. As 3 primeiras são fáceis!</div>
+          <button class="btn-primary" style="margin-top:1rem; width:100%; padding:0.5rem; font-size:0.9rem">Começar</button>
         </div>
-        <div class="dash-card card-progresso">
-          <div class="card-icon">📈</div>
-          <div class="card-title">Progresso Semanal</div>
-          <div class="card-value" id="dash-weekly-articles">0/10</div>
-          <div class="card-sub">artigos esta semana</div>
+        
+        <div class="dash-card card-progresso" onclick="window.location.href='atividade.html?type=leitura'" style="cursor:pointer;">
+          <div class="card-icon">📖</div>
+          <div class="card-title">Leitura do Dia</div>
+          <div class="card-sub">Tempo mínimo: 30 minutos + Validação.</div>
+          <button class="btn-secondary" style="margin-top:1rem; width:100%; padding:0.5rem; font-size:0.9rem">Ler Agora</button>
         </div>
-        <div class="dash-card card-materias" data-action="tab" data-tab-target="perfil">
-          <div class="card-icon">📚</div>
-          <div class="card-title">Matérias Ativas</div>
-          <div class="card-value" id="dash-active-subjects">0</div>
-          <div class="card-sub">matérias com progresso</div>
+
+        <div class="dash-card card-materias" onclick="window.location.href='atividade.html?type=redacao'" style="cursor:pointer;">
+          <div class="card-icon">✍️</div>
+          <div class="card-title">Redação</div>
+          <div class="card-sub">Escreva e veja seus erros em tempo real!</div>
+          <button class="btn-secondary" style="margin-top:1rem; width:100%; padding:0.5rem; font-size:0.9rem">Escrever</button>
         </div>
+
         <div class="dash-card card-baus" data-action="tab" data-tab-target="loja">
           <div class="card-icon">🎁</div>
-          <div class="card-title">Baús</div>
-          <div class="card-value" id="dash-chest-count">3 tipos</div>
-          <div class="card-sub">Troque fichas por itens!</div>
+          <div class="card-title">Loja de Recompensas</div>
+          <div class="card-sub">Troque seus cristais por baús e itens.</div>
         </div>
       </div>
 
@@ -197,7 +208,9 @@
     </div>
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="assets/theme.js"></script>
+  <script src="assets/sheets-api.js"></script>
   <script src="assets/rpg-engine.js"></script>
   <script src="assets/painel.js"></script>
   <script>
@@ -231,6 +244,21 @@
 
       // Dark mode handled by theme.js
       PainelUI.init();
+
+      // ═══ CLOUD SYNC (background, non-blocking) ═══
+      if (SheetsAPI.isUserOnline()) {
+        SheetsAPI.renderStatusBadge();
+        var userId = SheetsAPI.getCurrentUserId();
+        if (userId) {
+          SheetsAPI.syncProgressFromCloud(userId).then(function(result) {
+            if (result.synced && result.source === 'cloud') {
+              console.log('[Sync] Dados atualizados da nuvem');
+              PainelUI.init(); // Re-render com dados da nuvem
+            }
+            SheetsAPI.renderStatusBadge();
+          });
+        }
+      }
     });
   </script>
 </body>

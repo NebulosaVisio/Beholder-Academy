@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -162,21 +162,9 @@
       box-shadow: 0 0 0 3px rgba(123, 47, 247, 0.12);
     }
 
-    .type-option .type-icon {
-      font-size: 2rem;
-    }
-
-    .type-option .type-label {
-      font-weight: 700;
-      font-size: 0.95rem;
-      color: var(--text-primary);
-    }
-
-    .type-option .type-desc {
-      font-size: 0.75rem;
-      color: var(--text-muted);
-      text-align: center;
-    }
+    .type-option .type-icon { font-size: 2rem; }
+    .type-option .type-label { font-weight: 700; font-size: 0.95rem; color: var(--text-primary); }
+    .type-option .type-desc { font-size: 0.75rem; color: var(--text-muted); text-align: center; }
 
     .login-btn {
       padding: 1rem;
@@ -216,6 +204,9 @@
       margin-top: 1.5rem;
       font-size: 0.85rem;
       color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
     }
 
     .login-footer a {
@@ -224,7 +215,6 @@
       font-weight: 600;
     }
 
-    /* Vinculação pai-filho */
     .link-child-group {
       display: none;
     }
@@ -233,6 +223,108 @@
       display: flex;
       flex-direction: column;
       gap: 0.5rem;
+    }
+
+    /* Mode toggle */
+    .mode-toggle {
+      display: flex;
+      border: 2px solid var(--border-subtle);
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin-bottom: 0.5rem;
+    }
+
+    .mode-toggle button {
+      flex: 1;
+      padding: 0.75rem;
+      border: none;
+      background: var(--bg-primary);
+      color: var(--text-secondary);
+      font-family: inherit;
+      font-size: 0.9rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .mode-toggle button.active {
+      background: var(--brand-primary);
+      color: #fff;
+    }
+
+    .mode-toggle button:hover:not(.active) {
+      background: var(--bg-secondary);
+    }
+
+    /* Vinculo code display */
+    .vinculo-display {
+      background: rgba(123, 47, 247, 0.08);
+      border: 2px dashed var(--brand-primary);
+      border-radius: var(--radius-md);
+      padding: 1.5rem;
+      text-align: center;
+      margin-top: 1rem;
+      display: none;
+    }
+
+    .vinculo-display.visible {
+      display: block;
+    }
+
+    .vinculo-code {
+      font-family: var(--font-heading);
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--brand-primary);
+      letter-spacing: 0.15em;
+      margin: 0.5rem 0;
+    }
+
+    .vinculo-help {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+    }
+
+    /* API config */
+    .api-config {
+      margin-top: 1rem;
+      padding: 1rem;
+      background: var(--bg-secondary);
+      border-radius: var(--radius-md);
+      display: none;
+    }
+
+    .api-config.visible {
+      display: block;
+    }
+
+    .api-config label {
+      font-size: 0.8rem;
+      font-weight: 600;
+      color: var(--text-muted);
+    }
+
+    .api-config input {
+      width: 100%;
+      padding: 0.5rem;
+      border: 1px solid var(--border-subtle);
+      border-radius: var(--radius-sm, 4px);
+      font-size: 0.8rem;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      margin-top: 0.25rem;
+      box-sizing: border-box;
+    }
+
+    .api-config .api-status {
+      font-size: 0.75rem;
+      margin-top: 0.5rem;
+      font-weight: 600;
+    }
+
+    .offline-link {
+      font-size: 0.8rem;
+      opacity: 0.7;
     }
 
     @media (max-width: 480px) {
@@ -245,13 +337,24 @@
     <div class="login-card">
       <div class="login-logo">
         <h1>Beholder <span class="logo-highlight">Academy</span></h1>
-        <p>Entre para acompanhar seu progresso</p>
+        <p id="mode-text">Entre para acompanhar seu progresso</p>
+      </div>
+
+      <!-- Mode Toggle -->
+      <div class="mode-toggle" id="mode-toggle">
+        <button class="active" data-mode="login" id="btn-mode-login">Entrar</button>
+        <button data-mode="register" id="btn-mode-register">Criar Conta</button>
       </div>
 
       <form class="login-form" id="login-form" onsubmit="return false;">
         <div class="form-group">
           <label for="login-name">Seu nome</label>
           <input type="text" id="login-name" placeholder="Ex: João Silva" required autocomplete="off" maxlength="50">
+        </div>
+
+        <div class="form-group">
+          <label for="login-senha">Senha</label>
+          <input type="password" id="login-senha" placeholder="Mínimo 4 caracteres" required autocomplete="off" minlength="4" maxlength="30">
         </div>
 
         <div class="form-group">
@@ -271,8 +374,8 @@
         </div>
 
         <div class="form-group link-child-group" id="link-child-group">
-          <label for="child-name">Nome do aluno vinculado</label>
-          <input type="text" id="child-name" placeholder="Ex: Maria Silva" maxlength="50">
+          <label for="child-name">Código de Vínculo do Aluno (Seu filho gera no painel dele)</label>
+          <input type="text" id="child-name" placeholder="Ex: ABC-123" maxlength="50" style="text-transform: uppercase;">
         </div>
 
         <div class="login-error" id="login-error">Preencha todos os campos.</div>
@@ -280,84 +383,238 @@
         <button type="submit" class="login-btn" id="login-btn" disabled>Entrar</button>
       </form>
 
+      <!-- Vinculo Code Display (shown after aluno registration) -->
+      <div class="vinculo-display" id="vinculo-display">
+        <div>📋 Seu código de vínculo:</div>
+        <div class="vinculo-code" id="vinculo-code">---</div>
+        <div class="vinculo-help">Compartilhe com seu responsável para que ele acompanhe seu progresso</div>
+        <button class="login-btn" style="margin-top:1rem; font-size:0.9rem;" id="vinculo-continue">Continuar para o Painel →</button>
+      </div>
+
       <div class="login-footer">
         <a href="index.html">← Voltar para o site</a>
+        <a href="#" class="offline-link" id="offline-mode">🔌 Modo offline (demo)</a>
+        <a href="#" class="offline-link" id="api-config-toggle" style="font-size:0.75rem; opacity:0.5;">⚙️ Configurar API</a>
+      </div>
+
+      <!-- API Config (hidden by default) -->
+      <div class="api-config" id="api-config">
+        <label for="api-url">URL da API (Google Apps Script):</label>
+        <input type="url" id="api-url" placeholder="https://script.google.com/macros/s/.../exec">
+        <button onclick="saveApiUrl()" style="margin-top:0.5rem; padding:0.4rem 1rem; border:none; background:var(--brand-primary); color:#fff; border-radius:4px; cursor:pointer; font-weight:600;">Salvar & Testar</button>
+        <div class="api-status" id="api-status"></div>
       </div>
     </div>
   </div>
 
   <script src="assets/theme.js"></script>
+  <script src="assets/sheets-api.js"></script>
 
   <script>
     (function() {
-      // Dark mode handled by theme.js
-
+      // ═══ DOM ELEMENTS ═══
       var nameInput = document.getElementById('login-name');
+      var senhaInput = document.getElementById('login-senha');
       var childInput = document.getElementById('child-name');
       var childGroup = document.getElementById('link-child-group');
       var loginBtn = document.getElementById('login-btn');
       var loginError = document.getElementById('login-error');
+      var modeText = document.getElementById('mode-text');
+      var vinculoDisplay = document.getElementById('vinculo-display');
+      var vinculoCode = document.getElementById('vinculo-code');
       var selectedType = null;
+      var isRegisterMode = false;
 
-      // Type selection
+      // ═══ MODE TOGGLE ═══
+      document.querySelectorAll('#mode-toggle button').forEach(function(btn) {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('#mode-toggle button').forEach(function(b) { b.classList.remove('active'); });
+          btn.classList.add('active');
+          isRegisterMode = btn.getAttribute('data-mode') === 'register';
+          
+          modeText.textContent = isRegisterMode ? 'Criar nova conta' : 'Entre para acompanhar seu progresso';
+          loginBtn.textContent = isRegisterMode ? 'Criar Conta' : 'Entrar';
+          
+          updateChildVisibility();
+          validateForm();
+        });
+      });
+
+      // ═══ TYPE SELECTION ═══
       document.querySelectorAll('.type-option').forEach(function(opt) {
         opt.addEventListener('click', function() {
           document.querySelectorAll('.type-option').forEach(function(o) { o.classList.remove('selected'); });
           opt.classList.add('selected');
           selectedType = opt.getAttribute('data-type');
-
-          // Show child name field for responsável
-          if (selectedType === 'responsavel') {
-            childGroup.classList.add('visible');
-          } else {
-            childGroup.classList.remove('visible');
-          }
-
+          updateChildVisibility();
           validateForm();
         });
       });
 
-      // Validate form
+      function updateChildVisibility() {
+        if (selectedType === 'responsavel' && isRegisterMode) {
+          childGroup.classList.add('visible');
+        } else {
+          childGroup.classList.remove('visible');
+        }
+      }
+
+      // ═══ VALIDATION ═══
       function validateForm() {
         var nameOk = nameInput.value.trim().length >= 2;
+        var senhaOk = senhaInput.value.length >= 4;
         var typeOk = selectedType !== null;
-        var childOk = selectedType !== 'responsavel' || childInput.value.trim().length >= 2;
-        loginBtn.disabled = !(nameOk && typeOk && childOk);
+        var childOk = !(selectedType === 'responsavel' && isRegisterMode) || childInput.value.trim().length >= 2;
+        loginBtn.disabled = !(nameOk && senhaOk && typeOk && childOk);
         loginError.style.display = 'none';
       }
 
       nameInput.addEventListener('input', validateForm);
+      senhaInput.addEventListener('input', validateForm);
       childInput.addEventListener('input', validateForm);
 
-      // Submit
-      document.getElementById('login-form').addEventListener('submit', function(e) {
+      // ═══ SUBMIT ═══
+      document.getElementById('login-form').addEventListener('submit', async function(e) {
         e.preventDefault();
 
         var name = nameInput.value.trim();
-        if (!name || !selectedType) {
-          loginError.textContent = 'Preencha todos os campos.';
-          loginError.style.display = 'block';
+        var senha = senhaInput.value;
+
+        if (!name || !selectedType || !senha) {
+          showError('Preencha todos os campos.');
           return;
         }
 
-        var userData = {
-          name: name,
-          type: selectedType,
-          linkedTo: selectedType === 'responsavel' ? childInput.value.trim() : null,
-          loginDate: new Date().toISOString()
-        };
+        // Disable button and show loading
+        loginBtn.disabled = true;
+        var originalText = loginBtn.textContent;
+        loginBtn.textContent = '⏳ Conectando...';
 
-        localStorage.setItem('beholder_user', JSON.stringify(userData));
+        try {
+          if (SheetsAPI.isConfigured()) {
+            // ═══ ONLINE MODE ═══
+            var result;
 
-        // Redirect based on type
-        if (selectedType === 'aluno') {
-          window.location.href = 'painel.html';
-        } else {
-          window.location.href = 'responsavel.html';
+            if (isRegisterMode) {
+              // REGISTER
+              var childCode = selectedType === 'responsavel' ? childInput.value.trim().toUpperCase() : '';
+              result = await SheetsAPI.register(name, selectedType, senha, '');
+
+              if (result.success) {
+                // Se for Responsável e informou código, vincular na hora
+                if (selectedType === 'responsavel' && childCode) {
+                  var linkResult = await SheetsAPI.linkChild(result.user.id, childCode);
+                  if (linkResult.success) {
+                    result.user.vinculoAlunoNome = linkResult.aluno.nome;
+                    result.user.vinculoAlunoId = linkResult.aluno.id;
+                  }
+                }
+
+                var userData = {
+                  id: result.user.id,
+                  name: result.user.nome,
+                  type: result.user.tipo,
+                  linkedTo: result.user.vinculoAlunoNome || null,
+                  vinculoCodigo: result.user.vinculoCodigo || null,
+                  loginDate: new Date().toISOString(),
+                  online: true
+                };
+                localStorage.setItem('beholder_user', JSON.stringify(userData));
+
+                // Show vinculo code for alunos
+                if (selectedType === 'aluno' && result.user.vinculoCodigo) {
+                  vinculoCode.textContent = result.user.vinculoCodigo;
+                  vinculoDisplay.classList.add('visible');
+                  document.getElementById('login-form').style.display = 'none';
+                  document.getElementById('mode-toggle').style.display = 'none';
+                  modeText.textContent = '✅ Conta criada com sucesso!';
+                  
+                  document.getElementById('vinculo-continue').addEventListener('click', function() {
+                    window.location.href = 'painel.html';
+                  });
+                  loginBtn.disabled = false;
+                  loginBtn.textContent = originalText;
+                  return;
+                } else {
+                  window.location.href = selectedType === 'aluno' ? 'painel.html' : 'responsavel.html';
+                }
+              } else {
+                showError(result.error || 'Erro ao criar conta.');
+              }
+            } else {
+              // LOGIN
+              result = await SheetsAPI.login(name, senha);
+
+              if (result.success) {
+                var userData = {
+                  id: result.user.id,
+                  name: result.user.nome,
+                  type: result.user.tipo,
+                  linkedTo: result.user.vinculoAlunoNome || null,
+                  vinculoCodigo: result.user.vinculoCodigo || null,
+                  vinculoAlunoId: result.user.vinculoAlunoId || null,
+                  loginDate: new Date().toISOString(),
+                  online: true
+                };
+                localStorage.setItem('beholder_user', JSON.stringify(userData));
+                window.location.href = result.user.tipo === 'aluno' ? 'painel.html' : 'responsavel.html';
+              } else {
+                showError(result.error || 'Nome ou senha incorretos.');
+              }
+            }
+          } else {
+            // ═══ OFFLINE FALLBACK ═══
+            doOfflineLogin(name, selectedType);
+          }
+        } catch (err) {
+          console.error('Login error:', err);
+          showError('⚠️ Erro de conexão. Tente novamente ou use o modo offline.', '#FBBF24');
         }
+
+        loginBtn.disabled = false;
+        loginBtn.textContent = originalText;
       });
 
-      // Check if already logged in
+      // ═══ OFFLINE MODE ═══
+      document.getElementById('offline-mode').addEventListener('click', function(e) {
+        e.preventDefault();
+        var name = nameInput.value.trim() || 'Demo';
+        var type = selectedType || 'aluno';
+        doOfflineLogin(name, type);
+      });
+
+      function doOfflineLogin(name, type) {
+        var userData = {
+          name: name,
+          type: type,
+          linkedTo: type === 'responsavel' ? (childInput.value.trim() || 'Estudante') : null,
+          loginDate: new Date().toISOString(),
+          online: false
+        };
+        localStorage.setItem('beholder_user', JSON.stringify(userData));
+        window.location.href = type === 'aluno' ? 'painel.html' : 'responsavel.html';
+      }
+
+      // ═══ ERROR DISPLAY ═══
+      function showError(msg, color) {
+        loginError.textContent = msg;
+        loginError.style.display = 'block';
+        loginError.style.color = color || '#EF4444';
+      }
+
+      // ═══ API CONFIG ═══
+      document.getElementById('api-config-toggle').addEventListener('click', function(e) {
+        e.preventDefault();
+        document.getElementById('api-config').classList.toggle('visible');
+      });
+
+      // Load existing API URL
+      var apiUrlInput = document.getElementById('api-url');
+      if (SheetsAPI.getApiUrl()) {
+        apiUrlInput.value = SheetsAPI.getApiUrl();
+      }
+
+      // ═══ AUTO-FILL FROM EXISTING SESSION ═══
       var existing = localStorage.getItem('beholder_user');
       if (existing) {
         try {
@@ -371,6 +628,36 @@
         } catch(e) {}
       }
     })();
+
+    // ═══ GLOBAL: Save API URL ═══
+    async function saveApiUrl() {
+      var url = document.getElementById('api-url').value.trim();
+      var statusEl = document.getElementById('api-status');
+      
+      if (!url) {
+        statusEl.textContent = '❌ Digite a URL da API.';
+        statusEl.style.color = '#EF4444';
+        return;
+      }
+      
+      SheetsAPI.setApiUrl(url);
+      statusEl.textContent = '⏳ Testando conexão...';
+      statusEl.style.color = 'var(--text-muted)';
+      
+      try {
+        var result = await SheetsAPI.ping();
+        if (result.success) {
+          statusEl.textContent = '✅ Conexão OK! ' + (result.message || '');
+          statusEl.style.color = '#34D399';
+        } else {
+          statusEl.textContent = '❌ Falhou: ' + (result.error || 'Resposta inválida');
+          statusEl.style.color = '#EF4444';
+        }
+      } catch(e) {
+        statusEl.textContent = '❌ Erro: ' + e.message;
+        statusEl.style.color = '#EF4444';
+      }
+    }
   </script>
 </body>
 </html>

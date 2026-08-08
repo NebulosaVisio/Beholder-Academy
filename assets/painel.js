@@ -420,12 +420,36 @@ const PainelUI = (function() {
     return Math.floor(diff/86400) + 'd';
   }
 
-  // --- Event Delegation (inside module) ---
+  // --- EVENTS ---
   function bindDelegation() {
     document.addEventListener('click', function(e) {
-      var el = e.target.closest('[data-action]');
+      // Avatar dropdown logic
+      const dropdownMenu = document.getElementById('user-dropdown-menu');
+      const avatarBtn = e.target.closest('#user-avatar-btn');
+      
+      if (avatarBtn && dropdownMenu) {
+        dropdownMenu.classList.toggle('show');
+      } else if (dropdownMenu && !e.target.closest('.user-dropdown')) {
+        dropdownMenu.classList.remove('show');
+      }
+      
+      const el = e.target.closest('[data-action]');
       if (!el) return;
-      var action = el.getAttribute('data-action');
+      
+      const action = el.getAttribute('data-action');
+      
+      if (action === 'logout') {
+        localStorage.removeItem('beholder_user');
+        window.location.href = 'login.html';
+        return;
+      }
+      
+      if (action === 'close-modal') {
+        const modalId = el.getAttribute('data-modal');
+        const modal = document.getElementById(modalId);
+        if (modal) modal.classList.add('hidden');
+      }
+
       switch (action) {
         case 'tab':
           switchTab(el.getAttribute('data-tab-target'));

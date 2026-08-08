@@ -503,24 +503,42 @@
     }, { passive: true });
   }
 
-  // --- User Widget (Avatar + Level + Logout) ---
+  // --- User Widget (Avatar + Logout Global) ---
   function initUserWidget() {
-    if (typeof RPGEngine === 'undefined') return;
-    try {
-      var rpgData = RPGEngine.load();
-      var genLevel = RPGEngine.getGeneralLevel(rpgData);
-      var levelPill = document.getElementById('user-level-pill');
-      if (levelPill) levelPill.textContent = 'Nv ' + genLevel;
-    } catch(e) {
-      console.warn('initUserWidget error:', e);
+    var userDataStr = localStorage.getItem('beholder_user');
+    var dropdown = document.getElementById('global-user-dropdown');
+    var btnLogin = document.getElementById('btn-login-header');
+    
+    if (userDataStr) {
+      if (dropdown) dropdown.style.display = 'block';
+      if (btnLogin) btnLogin.style.display = 'none';
+      
+      try {
+        var userData = JSON.parse(userDataStr);
+        var avatarBtn = document.getElementById('user-avatar-btn');
+        if (avatarBtn) {
+           avatarBtn.textContent = userData.type === 'responsavel' ? '🧑‍💼' : '🧑‍🎓';
+        }
+      } catch(e) {}
+    } else {
+      if (dropdown) dropdown.style.display = 'none';
+      if (btnLogin) btnLogin.style.display = 'inline-flex';
     }
 
-    // Logout is handled by navbar.js with proper base path detection.
-    // Legacy btn-logout support for pages that don't use navbar.js:
-    var logoutBtn = document.getElementById('btn-logout');
-    if (logoutBtn && !logoutBtn._logoutBound) {
-      logoutBtn._logoutBound = true;
-      logoutBtn.addEventListener('click', function() {
+    // Global Click Handler for Logout and Dropdown (used heavily in index.html)
+    document.addEventListener('click', function(e) {
+      var globalDropdownMenu = dropdown ? dropdown.querySelector('.dropdown-menu') : null;
+      var clickedAvatarBtn = e.target.closest('#user-avatar-btn');
+      
+      // Only toggle if we found the menu and clicked the button
+      if (clickedAvatarBtn && globalDropdownMenu) {
+        globalDropdownMenu.classList.toggle('show');
+      } else if (globalDropdownMenu && !e.target.closest('.user-dropdown')) {
+        globalDropdownMenu.classList.remove('show');
+      }
+      
+      var el = e.target.closest('[data-action="logout"]');
+      if (el) {
         if (confirm('Deseja sair? Seu progresso está salvo localmente.')) {
           localStorage.removeItem('beholder_user');
           // Detect base path for correct redirect
@@ -533,8 +551,8 @@
           }
           window.location.href = basePath + 'login.html';
         }
-      });
-    }
+      }
+    });
   }
 
   // --- Evolution System (Microlearning ↔ Complete) ---
